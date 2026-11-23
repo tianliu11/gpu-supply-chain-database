@@ -26,6 +26,7 @@ The workbook's phrase `finished logic die` is preserved as the project label. A 
 - `upstream_materials.csv`: curated commodity/material extensions beneath ETO categories.
 - `logistics_hubs.csv`: airports and ports used as candidate transfer nodes.
 - `transport_edges.csv`: modeled road/air/sea routes with method and caveat fields.
+- `transport_graph_statistics.csv` and `.json`: reproducible connectivity and topology summary for the physical facility/hub network.
 - `manufacturing_time_assumptions.csv`: min / most-likely / max scenario inputs, clearly separated from sourced facts.
 - `sources.csv`: URLs, intended use and reliability notes.
 - `unified_graph.json`: machine-readable graph for algorithms and visualization.
@@ -40,6 +41,10 @@ The workbook's phrase `finished logic die` is preserved as the project label. A 
 - Provider-component rows: 1306.
 - Physical facility candidates: 35.
 - Modeled transport edges: 72.
+
+## Physical transport graph statistics
+
+Run `python3 code/compute_transport_graph_statistics.py` to rebuild the statistics table and graphic. For this graph, nodes are manufacturing/design/process facilities and logistics hubs; directed edges are modeled road, air and sea movements. WCC and SCC retain the standard directed-network definitions, while clustering, triangles and path-length measures use the undirected projection so that they remain defined for a mostly acyclic supply-flow graph.
 
 The 609 figure is the extended quantity of repeated parts, not 609 different supplier categories. For example, hundreds of passive placements are modeled as grouped passive-component nodes with quantities.
 
@@ -62,7 +67,7 @@ The 609 figure is the extended quantity of repeated parts, not 609 different sup
 ## Rebuild
 
 ```bash
-python3 src/build_unified_gpu_database.py   --bom /Users/lt/Downloads/gpu_bom_609_parts.json   --structure-workbook /Users/lt/Downloads/gpu.xlsx   --output outputs/gpu-supply-chain-database
+python3 code/build_unified_gpu_database.py   --bom data/raw/gpu_bom_609_parts.json   --structure-workbook data/raw/gpu.xlsx   --output rebuilt-package
 ```
 
 Use `--refresh-eto` to download the current ETO CSV files from the official GitHub repository.

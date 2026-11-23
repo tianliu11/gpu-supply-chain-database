@@ -1,0 +1,12 @@
+metric,value,definition
+nodes,49,All registered manufacturing/design/process facilities and logistics hubs.
+directed_edges,72,Unique modeled transport movements between registered nodes.
+nodes_in_largest_wcc,48,Nodes connected when transport direction is ignored.
+edges_in_largest_wcc,72,Directed transport edges whose endpoints are both in the largest WCC.
+nodes_in_largest_scc,1,Nodes mutually reachable while respecting transport direction.
+edges_in_largest_scc,0,Directed transport edges whose endpoints are both in the largest SCC.
+average_clustering_coefficient,0.0,Mean local clustering in the undirected projection.
+number_of_triangles,0,Three-node closed groups in the undirected projection.
+fraction_of_closed_triangles,0.0,Global transitivity: closed triples divided by all connected triples.
+diameter_largest_wcc_undirected,8,"Longest shortest path in the largest WCC, measured in edges."
+effective_diameter_90_percentile,4.0,90th percentile of pairwise shortest paths in the largest WCC.

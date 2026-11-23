@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a source-aware GPU supply-chain database and two review figures.
+"""Build a source-aware GPU supply-chain database and review figures.
 
 The model joins two different structures:
 
@@ -26,6 +26,7 @@ import json
 import math
 import shutil
 import subprocess
+import sys
 import textwrap
 import urllib.request
 from collections import Counter, defaultdict
@@ -1135,6 +1136,7 @@ The workbook's phrase `finished logic die` is preserved as the project label. A 
 - `upstream_materials.csv`: curated commodity/material extensions beneath ETO categories.
 - `logistics_hubs.csv`: airports and ports used as candidate transfer nodes.
 - `transport_edges.csv`: modeled road/air/sea routes with method and caveat fields.
+- `transport_graph_statistics.csv` and `.json`: reproducible connectivity and topology summary for the physical facility/hub network.
 - `manufacturing_time_assumptions.csv`: min / most-likely / max scenario inputs, clearly separated from sourced facts.
 - `sources.csv`: URLs, intended use and reliability notes.
 - `unified_graph.json`: machine-readable graph for algorithms and visualization.
@@ -1149,6 +1151,10 @@ The workbook's phrase `finished logic die` is preserved as the project label. A 
 - Provider-component rows: {summary['provider_links']}.
 - Physical facility candidates: {summary['facilities']}.
 - Modeled transport edges: {summary['transport_edges']}.
+
+## Physical transport graph statistics
+
+Run `python3 code/compute_transport_graph_statistics.py` to rebuild the statistics table and graphic. For this graph, nodes are manufacturing/design/process facilities and logistics hubs; directed edges are modeled road, air and sea movements. WCC and SCC retain the standard directed-network definitions, while clustering, triangles and path-length measures use the undirected projection so that they remain defined for a mostly acyclic supply-flow graph.
 
 The 609 figure is the extended quantity of repeated parts, not 609 different supplier categories. For example, hundreds of passive placements are modeled as grouped passive-component nodes with quantities.
 
@@ -1171,10 +1177,10 @@ The 609 figure is the extended quantity of repeated parts, not 609 different sup
 ## Rebuild
 
 ```bash
-python3 src/build_unified_gpu_database.py \
-  --bom /Users/lt/Downloads/gpu_bom_609_parts.json \
-  --structure-workbook /Users/lt/Downloads/gpu.xlsx \
-  --output outputs/gpu-supply-chain-database
+python3 code/build_unified_gpu_database.py \
+  --bom data/raw/gpu_bom_609_parts.json \
+  --structure-workbook data/raw/gpu.xlsx \
+  --output rebuilt-package
 ```
 
 Use `--refresh-eto` to download the current ETO CSV files from the official GitHub repository.
@@ -1353,9 +1359,15 @@ def main() -> None:
 
     make_dependency_figure(focus_nodes, focus_edges, figure_dir / "dependency_graph_overview.png")
     make_transport_figure(facilities, hubs, transport_edges, figure_dir / "transport_network.png", raw_dir)
-    build_readme(output / "README.md", summary)
     shutil.copy2(Path(__file__), code_dir / Path(__file__).name)
-    (code_dir / "requirements.txt").write_text("matplotlib>=3.8\nnetworkx>=3.2\n", encoding="utf-8")
+    stats_source = Path(__file__).with_name("compute_transport_graph_statistics.py")
+    if stats_source.exists():
+        stats_target = code_dir / stats_source.name
+        if stats_source.resolve() != stats_target.resolve():
+            shutil.copy2(stats_source, stats_target)
+        subprocess.run([sys.executable, str(stats_target)], check=True)
+    (code_dir / "requirements.txt").write_text("matplotlib>=3.8\nnetworkx>=3.2\nPillow>=10\n", encoding="utf-8")
+    build_readme(output / "README.md", summary)
 
     print(json.dumps(summary, indent=2))
 
