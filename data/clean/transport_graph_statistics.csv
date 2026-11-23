@@ -1,5 +1,5 @@
 metric,value,definition
-nodes,49,All registered manufacturing/design/process facilities and logistics hubs.
+nodes,48,All registered manufacturing/design/process facilities and logistics hubs.
 directed_edges,72,Unique modeled transport movements between registered nodes.
 nodes_in_largest_wcc,48,Nodes connected when transport direction is ignored.
 edges_in_largest_wcc,72,Directed transport edges whose endpoints are both in the largest WCC.

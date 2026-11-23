@@ -222,10 +222,15 @@ def render_table(metrics: list[tuple[str, str]], output: Path) -> None:
 def main() -> None:
     facilities = read_csv(CLEAN / "facilities.csv")
     # The legacy facilities table also contains six airport/port reference
-    # rows.  Exclude them here because the normalized HUB:* records represent
-    # logistics nodes and otherwise the same places would be counted twice.
+    # rows. Exclude them because normalized HUB:* records represent logistics
+    # nodes and otherwise the same places would be counted twice. Also exclude
+    # generic co-located process placeholders such as BASE:TESTING: they are
+    # analytical stages, not separately located physical transport nodes.
     physical_facilities = [
-        row for row in facilities if row.get("facility_type", "").strip().lower() not in {"airport", "port"}
+        row
+        for row in facilities
+        if row.get("facility_type", "").strip().lower() not in {"airport", "port"}
+        and row.get("company", "").strip().lower() != "scenario stage"
     ]
     hubs = read_csv(CLEAN / "logistics_hubs.csv")
     routes = read_csv(CLEAN / "transport_edges.csv")
@@ -285,7 +290,7 @@ def main() -> None:
 
     csv_path = CLEAN / "transport_graph_statistics.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["metric", "value", "definition"])
+        writer = csv.DictWriter(handle, fieldnames=["metric", "value", "definition"], lineterminator="\n")
         writer.writeheader()
         definitions = {
             "nodes": "All registered manufacturing/design/process facilities and logistics hubs.",
