@@ -1,0 +1,21 @@
+hub_id,hub_name,hub_type,country,latitude,longitude,source_ids
+HUB:TPE,Taiwan Taoyuan International Airport,airport,Taiwan,25.0797,121.2342,SRC_OSM
+HUB:KHH,Kaohsiung International Airport,airport,Taiwan,22.5771,120.35,SRC_OSM
+HUB:KEL,Port of Keelung,port,Taiwan,25.1322,121.746,SRC_OSM
+HUB:KHG,Port of Kaohsiung,port,Taiwan,22.6133,120.2881,SRC_OSM
+HUB:ICN,Incheon International Airport,airport,South Korea,37.4602,126.4407,SRC_OSM
+HUB:PUS,Port of Busan,port,South Korea,35.1028,129.0403,SRC_OSM
+HUB:NRT,Narita International Airport,airport,Japan,35.772,140.3929,SRC_OSM
+HUB:NGO,Chubu Centrair International Airport,airport,Japan,34.8584,136.8054,SRC_OSM
+HUB:NGO_PORT,Port of Nagoya,port,Japan,35.035,136.84,SRC_OSM
+HUB:FRA,Frankfurt Airport,airport,Germany,50.0379,8.5622,SRC_OSM
+HUB:HAM_PORT,Port of Hamburg,port,Germany,53.5461,9.9661,SRC_OSM
+HUB:DTW,Detroit Metropolitan Airport,airport,United States,42.2162,-83.3554,SRC_OSM
+HUB:LAX,Los Angeles International Airport,airport,United States,33.9416,-118.4085,SRC_OSM
+HUB:SFO,San Francisco International Airport,airport,United States,37.6213,-122.379,SRC_OSM
+HUB:KUL,Kuala Lumpur International Airport,airport,Malaysia,2.7456,101.7072,SRC_OSM
+HUB:PKG,Port Klang,port,Malaysia,3.0,101.4,SRC_OSM
+HUB:PVG,Shanghai Pudong International Airport,airport,China,31.1443,121.8083,SRC_OSM
+HUB:SHA_PORT,Port of Shanghai,port,China,31.35,121.7,SRC_OSM
+HUB:SZX,Shenzhen Bao'an International Airport,airport,China,22.6393,113.8107,SRC_OSM
+HUB:YTN,Yantian Port,port,China,22.578,114.272,SRC_OSM

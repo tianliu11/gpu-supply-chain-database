@@ -1,0 +1,246 @@
+edge_id,from_node,to_node,relationship,edge_class,requirement_status,quantity,evidence_level,source_ids,note
+ETO_E001,ETO:N8,ETO:N26,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E002,ETO:N9,ETO:N26,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E003,ETO:N20,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E004,ETO:N21,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E005,ETO:N22,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E006,ETO:N19,ETO:N25,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E007,ETO:N16,ETO:N57,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E008,ETO:N46,ETO:N16,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E009,ETO:N28,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E010,ETO:N29,ETO:N28,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E011,ETO:N30,ETO:N28,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E012,ETO:N33,ETO:N25,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E013,ETO:N31,ETO:N25,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E014,ETO:N32,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E015,ETO:N36,ETO:N35,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E016,ETO:N38,ETO:N47,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E017,ETO:N39,ETO:N47,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E018,ETO:N40,ETO:N47,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E019,ETO:N41,ETO:N36,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E020,ETO:N42,ETO:N36,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E021,ETO:N43,ETO:N36,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E022,ETO:N44,ETO:N36,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E023,ETO:N45,ETO:N36,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E024,ETO:N0,ETO:N35,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E025,ETO:N35,ETO:N25,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E026,ETO:N25,ETO:N46,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E027,ETO:N47,ETO:N36,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E028,ETO:N48,ETO:N55,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E029,ETO:N49,ETO:N55,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E030,ETO:N50,ETO:N103,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E031,ETO:N51,ETO:N103,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E032,ETO:N86,ETO:N57,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E033,ETO:N11,ETO:N59,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E034,ETO:N12,ETO:N59,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E035,ETO:N10,ETO:N109,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E036,ETO:N118,ETO:N25,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E037,ETO:N118,ETO:N46,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E038,ETO:N118,ETO:N57,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E039,ETO:N118,ETO:N16,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E040,ETO:N118,ETO:N35,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E041,ETO:N61,ETO:N60,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E042,ETO:N62,ETO:N60,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E043,ETO:N63,ETO:N109,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E044,ETO:N64,ETO:N60,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E045,ETO:N65,ETO:N61,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E046,ETO:N66,ETO:N61,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E047,ETO:N67,ETO:N61,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E048,ETO:N57,ETO:N69,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E049,ETO:N70,ETO:N119,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E050,ETO:N71,ETO:N119,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E051,ETO:N72,ETO:N119,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E052,ETO:N73,ETO:N72,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E053,ETO:N74,ETO:N72,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E054,ETO:N75,ETO:N72,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E055,ETO:N76,ETO:N69,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E056,ETO:N77,ETO:N119,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E057,ETO:N69,ETO:N78,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E058,ETO:N80,ETO:N120,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E059,ETO:N81,ETO:N120,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E060,ETO:N82,ETO:N120,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E061,ETO:N83,ETO:N78,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E062,ETO:N85,ETO:N7,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E063,ETO:N84,ETO:N7,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E064,ETO:N90,ETO:N57,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E065,ETO:N88,ETO:N35,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E066,ETO:N117,ETO:N25,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E067,ETO:N117,ETO:N46,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E068,ETO:N117,ETO:N57,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E069,ETO:N117,ETO:N16,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E070,ETO:N117,ETO:N35,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E071,ETO:N93,ETO:N100,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E072,ETO:N94,ETO:N100,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E073,ETO:N95,ETO:N100,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E074,ETO:N96,ETO:N100,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E075,ETO:N97,ETO:N100,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E076,ETO:N98,ETO:N100,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E077,ETO:N78,ETO:N99,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E078,ETO:N1,ETO:N6,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E079,ETO:N2,ETO:N6,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E080,ETO:N3,ETO:N6,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E081,ETO:N4,ETO:N6,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E082,ETO:N107,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E083,ETO:N105,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E084,ETO:N106,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E085,ETO:N108,ETO:N28,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E086,ETO:N104,ETO:N36,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E087,ETO:N103,ETO:N48,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E088,ETO:N102,ETO:N48,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E089,ETO:N54,ETO:N103,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E090,ETO:N52,ETO:N48,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E091,ETO:N53,ETO:N48,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E092,ETO:N114,ETO:N61,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E093,ETO:N115,ETO:N61,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E094,ETO:N116,ETO:N61,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E095,ETO:N79,ETO:N120,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E096,ETO:N109,ETO:N69,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E097,ETO:N101,ETO:N129,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E098,ETO:N110,ETO:N128,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E099,ETO:N111,ETO:N128,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E100,ETO:N112,ETO:N128,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E101,ETO:N113,ETO:N128,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E102,ETO:N5,ETO:N0,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E103,ETO:N13,ETO:N0,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E104,ETO:N6,ETO:N0,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E105,ETO:N7,ETO:N0,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E106,ETO:N26,ETO:N117,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E107,ETO:N59,ETO:N118,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E108,ETO:N60,ETO:N118,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E109,ETO:N91,ETO:N117,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E110,ETO:N92,ETO:N117,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E111,ETO:N119,ETO:N69,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E112,ETO:N120,ETO:N78,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E113,ETO:N17,ETO:N16,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E114,ETO:N122,ETO:N127,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E115,ETO:N123,ETO:N19,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E116,ETO:N124,ETO:N109,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E117,ETO:N125,ETO:N129,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E118,ETO:N121,ETO:N69,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E119,ETO:N121,ETO:N78,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E120,ETO:N91,ETO:N121,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E121,ETO:N100,ETO:N121,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E122,ETO:N126,ETO:N117,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E123,ETO:N90,ETO:N126,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E124,ETO:N88,ETO:N126,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E125,ETO:N33,ETO:N126,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E126,ETO:N31,ETO:N126,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E127,ETO:N55,ETO:N46,goes_into,process_flow,logical_input_or_predecessor,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E128,ETO:N127,ETO:N109,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E129,ETO:N128,ETO:N109,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E130,ETO:N129,ETO:N109,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E131,ETO:N130,ETO:N127,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E132,ETO:N131,ETO:N73,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E133,ETO:N132,ETO:N73,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E134,ETO:N133,ETO:N74,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E135,ETO:N134,ETO:N74,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E136,ETO:N135,ETO:N74,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E137,ETO:N136,ETO:N74,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E138,ETO:N137,ETO:N74,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+ETO_E139,ETO:N138,ETO:N36,is_type_of,taxonomy,alternative_or_subtype_not_all_required,,curated_research_dataset,SRC_ETO_2026,ETO relationship; taxonomy members must not be interpreted as all simultaneously required.
+BOM_E001,BOM:1,BOM:0,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E002,BOM:1.1,BOM:1,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E003,BOM:1.2,BOM:1,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E004,BOM:1.2.1,BOM:1.2,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E005,BOM:1.2.2,BOM:1.2,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E006,BOM:1.3,BOM:1,component_of,bom_structure,required_quantity_in_reference_bom,8,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E007,BOM:1.4,BOM:1,component_of,bom_structure,required_quantity_in_reference_bom,12,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E008,BOM:1.4.1,BOM:1.4,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E009,BOM:1.4.2,BOM:1.4,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E010,BOM:1.4.3,BOM:1.4,component_of,bom_structure,required_quantity_in_reference_bom,10,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E011,BOM:1.5,BOM:1,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E012,BOM:1.6,BOM:1,component_of,bom_structure,required_quantity_in_reference_bom,400,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E013,BOM:2,BOM:0,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E014,BOM:2.1,BOM:2,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E015,BOM:2.2,BOM:2,component_of,bom_structure,required_quantity_in_reference_bom,4,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E016,BOM:2.3,BOM:2,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E017,BOM:2.4,BOM:2,component_of,bom_structure,required_quantity_in_reference_bom,3,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E018,BOM:2.5,BOM:2,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E019,BOM:2.6,BOM:2,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E020,BOM:3,BOM:0,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E021,BOM:4,BOM:0,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E022,BOM:5,BOM:0,component_of,bom_structure,required_quantity_in_reference_bom,2,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E023,BOM:5.1,BOM:5,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E024,BOM:5.2,BOM:5,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E025,BOM:6,BOM:0,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E026,BOM:6.1,BOM:6,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E027,BOM:6.2,BOM:6,component_of,bom_structure,required_quantity_in_reference_bom,3,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E028,BOM:6.3,BOM:6,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E029,BOM:7,BOM:0,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E030,BOM:8,BOM:0,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E031,BOM:8.1,BOM:8,component_of,bom_structure,required_quantity_in_reference_bom,12,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E032,BOM:8.2,BOM:8,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E033,BOM:8.2.1,BOM:8.2,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E034,BOM:8.2.2,BOM:8.2,component_of,bom_structure,required_quantity_in_reference_bom,1,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+BOM_E035,BOM:8.2.3,BOM:8.2,component_of,bom_structure,required_quantity_in_reference_bom,16,secondary_structure,SRC_BOMWIKI_GPU,Repeated quantity is stored on one grouped component node; it is not expanded into separate supplier nodes.
+FOCUS_001,MODEL:ATP,MODEL:FINISHED_LOGIC_DIE,process_produces,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_002,ETO:N91,MODEL:ATP,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_003,ETO:N100,MODEL:ATP,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_004,MODEL:BARE_LOGIC_DIE,MODEL:ATP,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_005,MODEL:FABRICATION,MODEL:BARE_LOGIC_DIE,process_produces,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_006,ETO:N90,MODEL:FABRICATION,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_007,ETO:N91,MODEL:FABRICATION,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_008,ETO:N126,MODEL:FABRICATION,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_009,ETO:N26,MODEL:FABRICATION,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_010,ETO:N92,MODEL:FABRICATION,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_011,ETO:N31,MODEL:FABRICATION,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_012,ETO:N33,MODEL:FABRICATION,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_013,ETO:N88,MODEL:FABRICATION,necessary_input,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_014,MODEL:FINISHED_LOGIC_DIE,BOM:1.2.1,details_bom_node,project_focus_hierarchy,listed_as_necessary_input,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,This follows the team's requested mapping to the JSON GPU Die node. The terminology note on MODEL:FINISHED_LOGIC_DIE records the package/die distinction.
+FOCUS_015,ETO:N93,ETO:N100,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_016,ETO:N94,ETO:N100,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_017,ETO:N96,ETO:N100,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_018,ETO:N97,ETO:N100,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_019,ETO:N98,ETO:N100,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_020,ETO:N90,ETO:N126,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_021,ETO:N88,ETO:N126,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_022,ETO:N33,ETO:N126,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_023,ETO:N31,ETO:N126,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_024,DETAIL:N91:01,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_025,DETAIL:N91:02,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_026,DETAIL:N91:03,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_027,DETAIL:N91:04,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_028,DETAIL:N91:05,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_029,DETAIL:N91:06,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_030,DETAIL:N91:07,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_031,DETAIL:N91:08,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_032,DETAIL:N91:09,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_033,DETAIL:N91:10,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_034,DETAIL:N91:11,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_035,DETAIL:N91:12,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_036,DETAIL:N91:13,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_037,DETAIL:N91:14,ETO:N91,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_038,DETAIL:N100:01,ETO:N100,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_039,DETAIL:N100:02,ETO:N100,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_040,DETAIL:N100:03,ETO:N100,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_041,DETAIL:N90:01,ETO:N90,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_042,DETAIL:N90:02,ETO:N90,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_043,DETAIL:N90:03,ETO:N90,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_044,DETAIL:N26:01,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_045,DETAIL:N26:02,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_046,DETAIL:N26:03,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_047,DETAIL:N26:04,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_048,DETAIL:N26:05,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_049,DETAIL:N26:06,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_050,DETAIL:N26:07,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_051,DETAIL:N26:08,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_052,DETAIL:N26:09,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_053,DETAIL:N26:10,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_054,DETAIL:N26:11,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_055,DETAIL:N26:12,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_056,DETAIL:N26:13,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_057,DETAIL:N26:14,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_058,DETAIL:N26:15,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_059,DETAIL:N26:16,ETO:N26,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_060,DETAIL:N92:01,ETO:N92,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_061,DETAIL:N92:02,ETO:N92,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_062,DETAIL:N92:03,ETO:N92,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_063,DETAIL:N92:04,ETO:N92,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_064,DETAIL:N92:05,ETO:N92,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_065,DETAIL:N92:06,ETO:N92,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_066,DETAIL:N92:07,ETO:N92,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_067,DETAIL:N88:01,ETO:N88,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_068,DETAIL:N88:02,ETO:N88,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_069,DETAIL:N88:03,ETO:N88,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_070,DETAIL:N88:04,ETO:N88,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,
+FOCUS_071,DETAIL:N88:05,ETO:N88,listed_under,project_focus_hierarchy,listed_detail_not_separately_quantified,,team_defined_structure,SRC_GPU_WORKBOOK_ATP,

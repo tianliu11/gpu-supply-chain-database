@@ -1,0 +1,15 @@
+source_id,organization,title,url,use
+SRC_ETO_DOCS,Emerging Technology Observatory,Semiconductor Supply Chain Dataset documentation,https://www.eto.tech/dataset-docs/chipexplorer/,"Dataset schema, limitations, process and provider evidence"
+SRC_NVIDIA_SUPPLY,NVIDIA,FY2025 Sustainability Report - Responsible Supply Chain,https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf,"Foundry, memory, CoWoS, and contract-manufacturer relationships"
+SRC_NVIDIA_US,NVIDIA,US AI manufacturing,https://www.nvidia.com/en-us/made-in-usa/,Blackwell chip production at TSMC Arizona
+SRC_NVIDIA_2026,NVIDIA,Supply chain partner capacity commitments,https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout,"Current partner evidence for substrates, advanced packaging, and manufacturing"
+SRC_TSMC_FABS,TSMC,TSMC fabs and advanced backend fabs,https://www.tsmc.com/english/aboutTSMC/TSMC_Fabs,Official facility addresses
+SRC_TSMC_ABF6,TSMC,Advanced Backend Fab 6 opening,https://pr.tsmc.com/english/news/3033,CoWoS and advanced testing capability at Zhunan
+SRC_SK_LOCATIONS,SK hynix,Global network locations,https://www.skhynix.com/company/UI-FR-CP06/,Icheon and Cheongju campus addresses
+SRC_SK_FABS,SK hynix,Where semiconductors are made,https://news.skhynix.com/en/semiconductor-101-sk-hynix-on-where-chips-are-made-and-used/,Icheon DRAM fabrication capability
+SRC_SAMSUNG_PYEONGTAEK,Samsung Electronics,Pyeongtaek campus global network entry,https://semiconductor.samsung.com/kr/about-us/global-network/,Pyeongtaek semiconductor campus address
+SRC_MICRON_HBM,Micron,Taichung advanced packaging and test facility,https://tw.micron.com/about/blog/company/events/taiwan-new-facility-supports-hbm3e-ramp-dram-tech-deployment,HBM3E packaging and test capability in Taichung
+SRC_KINSUS_LOCATIONS,Kinsus,Global locations,https://www.kinsus.com.tw/en/html/global_locations/index,Youth factory address and substrate capability
+SRC_IBIDEN_ONO,IBIDEN,Ono plant opening,https://www.ibiden.com/company/2025/10/notice-regarding-the-opening-ceremony-of-the-ono-plant.html,AI-server IC package substrate production and address
+SRC_OSM,OpenStreetMap contributors,OpenStreetMap geodata,https://www.openstreetmap.org/copyright,Coordinates and the road graph used by OSRM
+SRC_OSRM,Project OSRM,OSRM routing API,https://project-osrm.org/docs/v5.24.0/api/,Road distance and uncongested driving-time estimates

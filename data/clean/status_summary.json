@@ -1,0 +1,26 @@
+{
+  "model_scope": "representative RTX 5080-class graphics card; grouped component categories",
+  "rolled_up_parts": 609,
+  "bom_nodes": 36,
+  "bom_edges": 35,
+  "atomic_bom_nodes": 27,
+  "atomic_bom_nodes_with_candidate_vendor": 18,
+  "eto_nodes": 126,
+  "eto_edges": 139,
+  "logical_edges": 245,
+  "project_focus_nodes": 67,
+  "project_focus_edges": 71,
+  "provider_links": 1306,
+  "providers": 320,
+  "facilities": 35,
+  "logistics_hubs": 20,
+  "transport_edges": 72,
+  "manufacturing_time_rows": 14,
+  "known_gaps": [
+    "Exact product-to-factory and customer-to-factory allocations are usually confidential.",
+    "BOM vendor coverage remains incomplete for generic mechanical and connector items.",
+    "Manufacturing times are scenario assumptions, not supplier quotes or measured cycle times.",
+    "Transport rows are geographic options, not live carrier schedules.",
+    "ETO providers use headquarters nationality and should not be treated as factory locations."
+  ]
+}

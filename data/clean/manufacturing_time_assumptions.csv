@@ -1,0 +1,15 @@
+node_id,activity,minimum_days,most_likely_days,maximum_days,unit,evidence_level,source_ids,note
+ETO:N0,Semiconductor design program,30,90,180,days,assumption,,Program duration varies radically; exclude it for steady-state replenishment analysis.
+MODEL:FABRICATION,Advanced logic wafer fabrication,60,90,120,days,assumption_calibrated_to_existing_model,,"Cycle time covers a representative leading-edge wafer-fab flow, not queue time or design."
+MODEL:ATP,"Logic-device assembly, packaging and test",7,14,28,days,assumption_calibrated_to_existing_model,,Includes packaging and final test after the bare die and packaging materials are available.
+BOM:1.3,GDDR fabrication and package,45,70,100,days,assumption_calibrated_to_existing_model,,Representative memory production cycle; not a supplier quote.
+BOM:1.2.2,Package substrate,20,35,60,days,assumption_calibrated_to_existing_model,,Representative production cycle; qualification and backlog are separate.
+BOM:1.1,Bare multilayer PCB,5,10,20,days,assumption,,Fabrication only; excludes component procurement and final board assembly.
+BOM:1,Graphics-card PCB assembly and test,1,3,7,days,assumption,,"SMT, inspection and board test after all components arrive."
+BOM:1.4,VRM components,10,21,45,days,assumption,,Production/availability proxy; actual lead time is order- and inventory-dependent.
+BOM:2,Cooling module,7,14,30,days,assumption,,"Fabrication and assembly of vapor chamber, pipes, fins and fans."
+BOM:3,Backplate and bracket metalwork,3,7,14,days,assumption,,"Forming, finishing and inspection."
+BOM:5,Power connector assembly,5,14,30,days,assumption,,"Production/availability proxy, not a quoted lead time."
+BOM:6,Display connector cluster,5,14,30,days,assumption,,"Production/availability proxy, not a quoted lead time."
+BOM:7,Injection-molded shroud,3,7,14,days,assumption,,Assumes tooling already exists.
+BOM:8,RGB lighting assembly,3,7,14,days,assumption,,Small PCB assembly after parts are available.
