@@ -32,6 +32,35 @@ The workbook's phrase `finished logic die` is preserved as the project label. A 
 - `unified_graph.json`: machine-readable graph for algorithms and visualization.
 - `status_summary.json`: completeness counts and known gaps.
 
+### Evidence-audited full node-to-node extension
+
+The submitted `gpu_complete_node_to_node_supply_chain.json` is preserved in
+`data/raw/`. Run `python3 code/build_full_supply_chain_evidence.py` to rebuild
+the following review files:
+
+- `full_supply_chain_nodes.csv`: all 289 submitted nodes in a flat table.
+- `full_supply_chain_edges_audit.csv`: all 757 submitted edges with structural
+  checks, evidence status, source IDs and an audit note.
+- `full_supply_chain_audit_summary.json`: independent DAG, root-path and
+  raw-material-ancestry checks plus evidence-status counts.
+- `full_supply_chain_vendors.csv`: up to ten source-backed providers for mapped
+  ETO categories and researched BOM components. Unranked provider sets are not
+  presented as market-share rankings.
+- `full_supply_chain_vendor_coverage.csv`: node-by-node vendor coverage and a
+  research queue for unsupported nodes.
+- `full_supply_chain_facilities.csv`: public production sites only; corporate
+  offices and R&D-only locations are excluded.
+- `full_supply_chain_nearest_hubs.csv`: three nearest scheduled medium/large
+  airports and three nearest World Port Index ports per geocoded production
+  site, using straight-line distance.
+- `full_supply_chain_completion_report.json`: concise completion counts and the
+  claims the package intentionally does not make.
+- `full_supply_chain_sources.csv`: combined source register.
+
+The airport and port results are proximity screening. They do not demonstrate
+cargo schedules, customs capability, road accessibility, carrier capacity or an
+actual supplier route.
+
 ## Current coverage
 
 - Grouped BOM nodes: 36 of 36 included.
@@ -71,3 +100,10 @@ python3 code/build_unified_gpu_database.py   --bom data/raw/gpu_bom_609_parts.js
 ```
 
 Use `--refresh-eto` to download the current ETO CSV files from the official GitHub repository.
+
+Rebuild the evidence-audited full graph after updating the raw JSON or source
+tables:
+
+```bash
+python3 code/build_full_supply_chain_evidence.py
+```

@@ -1,0 +1,25 @@
+{
+  "generated_from": "gpu_complete_node_to_node_supply_chain.json",
+  "graph_nodes": 289,
+  "graph_edges": 757,
+  "edge_evidence_status": {
+    "supported_structural_reference": 35,
+    "supported_category_level": 301,
+    "supported_product_or_industry_level": 64,
+    "partially_supported_requires_specific_confirmation": 154,
+    "unverified_specific_relation": 203
+  },
+  "nodes_with_node_specific_vendor_evidence": 30,
+  "nodes_without_node_specific_vendor_evidence": 259,
+  "vendor_component_rows": 124,
+  "public_production_site_rows": 78,
+  "nearest_hub_rows": 468,
+  "nearest_hub_definition": "Up to three scheduled medium/large airports and three WPI ports per geocoded production site",
+  "not_claimed": [
+    "The submitted 757-edge graph is fully verified.",
+    "Unranked ETO providers are the market-share top ten.",
+    "A listed factory supplies NVIDIA or a specific GPU model.",
+    "The geographically nearest hub is actually used or operationally suitable.",
+    "Public facility lists are complete when a company does not publish a global manufacturing register."
+  ]
+}
