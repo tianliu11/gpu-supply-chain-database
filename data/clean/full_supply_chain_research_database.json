@@ -40,7 +40,17 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": {
+        "node_id": "0",
+        "preferred_name": "Discrete graphics card",
+        "semantic_kind": "finished_assembly",
+        "formal_definition": "A circuit-board assembly containing a graphics processor, memory, power conversion and external interfaces, with a cooling and mechanical system.",
+        "source_ids": "R2_MSI_CARD;R4_ASUS_MECHANICAL",
+        "project_interpretation": "Keep a generic discrete graphics-card case; quantities in the submitted BOM remain unverified design assumptions.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "1",
@@ -54,7 +64,17 @@
       "bom_layer": 1,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "1",
+        "preferred_name": "Populated graphics-card PCB assembly",
+        "semantic_kind": "assembly",
+        "formal_definition": "The main printed circuit board after electronic components have been mounted and interconnected.",
+        "source_ids": "R4_SIERRA_EDGE;R2_MSI_CARD",
+        "project_interpretation": "Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "1.1",
@@ -113,7 +133,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "1.2",
@@ -127,7 +148,17 @@
       "bom_layer": 2,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "1.2",
+        "preferred_name": "Packaged and tested GPU device",
+        "semantic_kind": "packaged_device",
+        "formal_definition": "A fabricated GPU die integrated with package interconnections and substrate, then tested as a packaged device.",
+        "source_ids": "R4_AMKOR_FLIP;SRC_SIA_PROCESS",
+        "project_interpretation": "Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "1.2.1",
@@ -186,7 +217,17 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": {
+        "node_id": "1.2.1",
+        "preferred_name": "Fabricated bare GPU die",
+        "semantic_kind": "bare_die",
+        "formal_definition": "The semiconductor die containing fabricated GPU circuitry before package assembly.",
+        "source_ids": "SRC_SIA_FRONTEND;R4_AMKOR_FLIP",
+        "project_interpretation": "Alias the two labels in the reviewed graph; wafer fabrication and die preparation precede packaging.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "1.2.2",
@@ -245,7 +286,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "1.3",
@@ -326,7 +368,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "1.4",
@@ -340,7 +383,17 @@
       "bom_layer": 2,
       "qty_per_assy": 12,
       "ext_qty": 12,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "1.4",
+        "preferred_name": "VRM phase",
+        "semantic_kind": "functional_subassembly",
+        "formal_definition": "One switching-converter channel in a multiphase voltage regulator, including its power stage and associated magnetic energy-storage path.",
+        "source_ids": "R4_COILCRAFT_VRM",
+        "project_interpretation": "A board circuit function. Phase count and shared versus per-phase capacitors require schematic evidence.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "1.4.1",
@@ -399,7 +452,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "1.4.2",
@@ -436,7 +490,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "1.4.3",
@@ -495,7 +550,17 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": {
+        "node_id": "1.4.3",
+        "preferred_name": "Surface-mount passive component group",
+        "semantic_kind": "component_group",
+        "formal_definition": "A collection of resistor, capacitor and inductor parts mounted on a circuit board.",
+        "source_ids": "R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR",
+        "project_interpretation": "R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "1.5",
@@ -509,7 +574,17 @@
       "bom_layer": 2,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "1.5",
+        "preferred_name": "Graphics-card I/O mounting bracket",
+        "semantic_kind": "mechanical_part",
+        "formal_definition": "The rear mounting part that secures the card at chassis expansion slots and provides openings for display connectors.",
+        "source_ids": "R4_ASUS_MECHANICAL;R2_MSI_CARD",
+        "project_interpretation": "Project functional definition; material, dimensions and stamping supplier are design-specific.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "1.6",
@@ -568,7 +643,17 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": {
+        "node_id": "1.6",
+        "preferred_name": "Surface-mount passive component group",
+        "semantic_kind": "component_group",
+        "formal_definition": "A collection of resistor, capacitor and inductor parts mounted on a circuit board.",
+        "source_ids": "R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR",
+        "project_interpretation": "R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "2",
@@ -605,7 +690,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "2.1",
@@ -642,7 +728,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "2.2",
@@ -679,7 +766,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "2.3",
@@ -716,7 +804,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "2.4",
@@ -775,7 +864,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "2.5",
@@ -812,7 +902,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "2.6",
@@ -849,7 +940,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "3",
@@ -863,7 +955,17 @@
       "bom_layer": 1,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "3",
+        "preferred_name": "Graphics-card backplate",
+        "semantic_kind": "mechanical_part",
+        "formal_definition": "A rear cover or stiffening plate over the back of the graphics-card board; heat-spreading function depends on thermal contact and design.",
+        "source_ids": "R4_ASUS_MECHANICAL",
+        "project_interpretation": "Mechanical function is defined; aluminium alloy, insulation and thermal pads are not universally required.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "4",
@@ -877,7 +979,17 @@
       "bom_layer": 1,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "4",
+        "preferred_name": "PCB edge contact fingers",
+        "semantic_kind": "integrated_board_feature",
+        "formal_definition": "Patterned and finished conductive contacts at the card PCB edge that mate with the host PCI Express connector.",
+        "source_ids": "R4_SIERRA_EDGE",
+        "project_interpretation": "Allocate manufacture to PCB/contact finishing; do not count a motherboard socket as the card part.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "5",
@@ -891,7 +1003,17 @@
       "bom_layer": 1,
       "qty_per_assy": 2,
       "ext_qty": 2,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "5",
+        "preferred_name": "Board-side auxiliary power connector assembly",
+        "semantic_kind": "connector_assembly",
+        "formal_definition": "The card-mounted connector housing and contacts accepting supplemental electrical power from an external cable.",
+        "source_ids": "R4_INTEL_POWER",
+        "project_interpretation": "Choose board-side scope; cable and PSU are outside this node. 12V-2x6 is an option, not a verified part assignment.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "5.1",
@@ -928,7 +1050,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "5.2",
@@ -965,7 +1088,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "6",
@@ -979,7 +1103,17 @@
       "bom_layer": 1,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "6",
+        "preferred_name": "Display output interface group",
+        "semantic_kind": "functional_group",
+        "formal_definition": "A grouping of board-mounted video receptacles and associated protection circuitry.",
+        "source_ids": "R2_MOLEX_DP;R2_MSI_CARD",
+        "project_interpretation": "Retain HDMI/DisplayPort/protection children; no separate supplier is required for a grouping label.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "6.1",
@@ -1016,7 +1150,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "6.2",
@@ -1053,7 +1188,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "6.3",
@@ -1090,7 +1226,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "7",
@@ -1104,7 +1241,17 @@
       "bom_layer": 1,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "7",
+        "preferred_name": "Cooler shroud",
+        "semantic_kind": "mechanical_part",
+        "formal_definition": "The housing surrounding portions of the cooling assembly, supporting or covering fans and influencing airflow.",
+        "source_ids": "R4_ASUS_MECHANICAL",
+        "project_interpretation": "A custom housing; polymer and metal versions are alternatives. Do not prescribe PC/ABS universally.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "8",
@@ -1118,7 +1265,17 @@
       "bom_layer": 1,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "8",
+        "preferred_name": "Optional RGB lighting subsystem",
+        "semantic_kind": "optional_assembly",
+        "formal_definition": "LED emitters plus drive/control circuitry providing decorative multicolour lighting.",
+        "source_ids": "R4_TI_RGB;R_CREE_RGB",
+        "project_interpretation": "Optional in a generic GPU card. Absence does not prevent the card from processing graphics.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "8.1",
@@ -1155,7 +1312,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "8.2",
@@ -1169,7 +1327,17 @@
       "bom_layer": 2,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "8.2",
+        "preferred_name": "RGB lighting control circuit",
+        "semantic_kind": "functional_subassembly",
+        "formal_definition": "Circuitry controlling LED-channel current or duty cycle to set colour and brightness.",
+        "source_ids": "R4_TI_RGB",
+        "project_interpretation": "The submitted MCU and board define one implementation; a dedicated driver IC or main-board integration is also possible.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "8.2.1",
@@ -1228,7 +1396,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "8.2.2",
@@ -1265,7 +1434,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "8.2.3",
@@ -1302,7 +1472,17 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": {
+        "node_id": "8.2.3",
+        "preferred_name": "Surface-mount passive component group",
+        "semantic_kind": "component_group",
+        "formal_definition": "A collection of resistor, capacitor and inductor parts mounted on a circuit board.",
+        "source_ids": "R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR",
+        "project_interpretation": "R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "RAW-AIR",
@@ -1319,7 +1499,17 @@
         "atmosphere_air"
       ],
       "description": "Ambient air separated cryogenically into nitrogen, oxygen, and argon",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "RAW-AIR",
+        "preferred_name": "Ambient air resource",
+        "semantic_kind": "local_resource",
+        "formal_definition": "The local atmospheric gas feed from which industrial air-separation operations recover gases such as nitrogen, oxygen and argon.",
+        "source_ids": "R_LINDE_ULTRAPURE",
+        "project_interpretation": "Use local resource intake; purified gases are separately manufactured products with grade and delivery constraints.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "RAW-ARSENOPYRITE",
@@ -1334,7 +1524,17 @@
       "consolidated_from_ids": [
         "arsenopyrite_ore"
       ],
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "RAW-ARSENOPYRITE",
+        "preferred_name": "Arsenopyrite-bearing arsenic feedstock",
+        "semantic_kind": "raw_material_route",
+        "formal_definition": "Arsenic-bearing mineral feed that can be processed to recover arsenic; smelter byproducts provide alternative recovery routes.",
+        "source_ids": "R4_USGS_AS",
+        "project_interpretation": "Keep the original ore node as one route and flag mandatory-ore assumptions; do not invent a specific arsenopyrite mine.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "RAW-BARITE",
@@ -1373,7 +1573,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-BAUXITE",
@@ -1413,7 +1614,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-BORATE",
@@ -1453,7 +1655,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-CHROMITE",
@@ -1493,7 +1696,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-COAL-CARBON",
@@ -1533,7 +1737,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-COBALT-ORE",
@@ -1572,7 +1777,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-COPPER-ORE",
@@ -1612,7 +1818,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-CRUDE-OIL",
@@ -1651,7 +1858,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-DOLOMITE-MAGNESITE",
@@ -1711,7 +1919,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-FLUORSPAR",
@@ -1751,7 +1960,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-GOLD-ORE",
@@ -1813,7 +2023,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-HALITE-BRINE",
@@ -1875,7 +2086,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-ILMENITE",
@@ -1915,7 +2127,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-IRON-ORE",
@@ -1955,7 +2168,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-LIMESTONE",
@@ -1995,7 +2209,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-MOLYBDENITE",
@@ -2033,7 +2248,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-NATURAL-GAS",
@@ -2095,7 +2311,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-NATURAL-GRAPHITE",
@@ -2133,7 +2350,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-NICKEL-ORE",
@@ -2195,7 +2413,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-PEGMATITE-QUARTZ",
@@ -2233,7 +2452,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-PGM-ORE",
@@ -2295,7 +2515,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-PHOSPHATE-ROCK",
@@ -2333,7 +2554,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-POTASH-SYLVITE",
@@ -2371,7 +2593,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-QUARTZ",
@@ -2411,7 +2634,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-RARE-EARTH-ORE",
@@ -2451,7 +2675,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-SILVER-ORE",
@@ -2513,7 +2738,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-SPHALERITE-ZINC",
@@ -2551,7 +2777,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-SULFUR",
@@ -2591,7 +2818,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-TANTALITE-COLTAN",
@@ -2629,7 +2857,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-TIN-ORE",
@@ -2669,7 +2898,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-TRONA-SODA-ASH",
@@ -2707,7 +2937,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-TUNGSTEN-ORE",
@@ -2746,7 +2977,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "RAW-WATER",
@@ -2763,7 +2995,17 @@
         "freshwater"
       ],
       "description": "Surface or groundwater purified for industrial and chemical processing",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "RAW-WATER",
+        "preferred_name": "Freshwater resource",
+        "semantic_kind": "local_resource",
+        "formal_definition": "Raw water supplied to a site before application-specific purification or treatment.",
+        "source_ids": "R4_KURITA_WATER",
+        "project_interpretation": "Utility/source connection is site-dependent; do not interpret it as globally interchangeable shipped UPW.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "RAW-ZIRCON",
@@ -2802,7 +3044,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:finished_logic_die",
@@ -2815,7 +3058,17 @@
       "out_degree": 1,
       "domain_category": "Top-Level Assembly",
       "description": "Preserves workbook label post-ATP.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:finished_logic_die",
+        "preferred_name": "Packaged and tested GPU device",
+        "semantic_kind": "packaged_device",
+        "formal_definition": "A fabricated GPU die integrated with package interconnections and substrate, then tested as a packaged device.",
+        "source_ids": "R4_AMKOR_FLIP;SRC_SIA_PROCESS",
+        "project_interpretation": "Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:assembly_packaging_testing",
@@ -2828,7 +3081,17 @@
       "out_degree": 1,
       "domain_category": "Top-Level Assembly",
       "description": "ATP stage combining fabricated die, packaging materials, and repeated electronic gases.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:assembly_packaging_testing",
+        "preferred_name": "GPU package assembly and test",
+        "semantic_kind": "process",
+        "formal_definition": "Operations that attach and electrically connect the fabricated die, complete its package and test the packaged device.",
+        "source_ids": "R4_AMKOR_FLIP;SRC_SIA_PROCESS",
+        "project_interpretation": "Use as a transformation node. Flip-chip and wire-bond recipes are design alternatives, not universally simultaneous inputs.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:logic_die_fabricated",
@@ -2864,7 +3127,17 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": {
+        "node_id": "LD:logic_die_fabricated",
+        "preferred_name": "Fabricated bare GPU die",
+        "semantic_kind": "bare_die",
+        "formal_definition": "The semiconductor die containing fabricated GPU circuitry before package assembly.",
+        "source_ids": "SRC_SIA_FRONTEND;R4_AMKOR_FLIP",
+        "project_interpretation": "Alias the two labels in the reviewed graph; wafer fabrication and die preparation precede packaging.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:fabrication",
@@ -2877,7 +3150,17 @@
       "out_degree": 1,
       "domain_category": "Wafer Fabrication",
       "description": "Front-end and back-end-of-line wafer fabrication.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:fabrication",
+        "preferred_name": "Semiconductor wafer fabrication",
+        "semantic_kind": "process",
+        "formal_definition": "Repeated deposition, patterning, doping, etching and related operations that create integrated circuits on a semiconductor wafer.",
+        "source_ids": "SRC_SIA_FRONTEND",
+        "project_interpretation": "Manufacturing site/operator belongs to this process; a bare die additionally requires wafer test and separation.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:packaging_materials",
@@ -2890,7 +3173,17 @@
       "out_degree": 1,
       "domain_category": "Packaging Materials",
       "description": "Aggregates packaging inputs feeding ATP.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:packaging_materials",
+        "preferred_name": "Semiconductor packaging material family",
+        "semantic_kind": "category",
+        "formal_definition": "The set of substrate, interconnection, attachment and protective materials used by a selected package process.",
+        "source_ids": "R4_AMKOR_FLIP;SRC_SIA_PROCESS",
+        "project_interpretation": "Category membership is not an AND requirement for every listed material.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:substrates",
@@ -3058,7 +3351,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:cmp_materials",
@@ -3292,7 +3586,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:electronic_gases",
@@ -3526,7 +3821,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:process_specific_fab_materials",
@@ -3539,7 +3835,17 @@
       "out_degree": 1,
       "domain_category": "Wafer Fabrication",
       "description": "Grouping of CMP, deposition, photomask, and photoresist categories.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:process_specific_fab_materials",
+        "preferred_name": "Process-specific fabrication materials",
+        "semantic_kind": "category",
+        "formal_definition": "Materials selected for particular wafer-fabrication operations and technology nodes.",
+        "source_ids": "SRC_SIA_FRONTEND",
+        "project_interpretation": "Expand by actual process recipe; this label has no single product specification.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:wafer",
@@ -3773,7 +4079,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:wet_chemicals",
@@ -3985,7 +4292,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:photoresists",
@@ -4219,7 +4527,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:photomasks",
@@ -4453,7 +4762,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:deposition_materials",
@@ -4643,7 +4953,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:lead_frames",
@@ -4855,7 +5166,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:bond_wires",
@@ -5045,7 +5357,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:encapsulation_resins",
@@ -5191,7 +5504,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:die_attach_materials",
@@ -5359,7 +5673,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:interconnect_materials",
@@ -5372,7 +5687,17 @@
       "out_degree": 1,
       "domain_category": "Packaging Materials",
       "description": "Conductive trace and plating materials for package substrates.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:interconnect_materials",
+        "preferred_name": "Package-substrate conductive and finishing materials",
+        "semantic_kind": "category",
+        "formal_definition": "Conductive layers, via metallization and surface finishes used to route electrical connections through a package substrate.",
+        "source_ids": "R4_SHINKO_PBGA",
+        "project_interpretation": "The submitted children restrict scope to substrate interconnection; copper foil and ENIG chemistry need separate procurement branches.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:plastic_substrate",
@@ -5385,7 +5710,17 @@
       "out_degree": 1,
       "domain_category": "Packaging Materials",
       "description": "Organic dielectric core/build-up laminate (e.g., BT resin / ABF).",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:plastic_substrate",
+        "preferred_name": "Organic package-substrate dielectric structure",
+        "semantic_kind": "internal_material_structure",
+        "formal_definition": "The polymer-based insulating structure of an organic IC substrate, potentially including reinforcement and particulate filler.",
+        "source_ids": "R4_SHINKO_PBGA",
+        "project_interpretation": "Interpret from the resin, glass and filler children. It is not the complete routed substrate and is not a generic thermoplastic sheet.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:chemical_slurries",
@@ -5443,7 +5778,8 @@
           "ownership_source_ids": "R_JSR_INPRIA",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:basic_acidic_chemical_inputs",
@@ -5456,7 +5792,17 @@
       "out_degree": 1,
       "domain_category": "CMP Materials",
       "description": "pH adjusters, etchants, and post-CMP cleaning chemistry.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:basic_acidic_chemical_inputs",
+        "preferred_name": "Process acid/base reagents",
+        "semantic_kind": "category",
+        "formal_definition": "Acidic or alkaline chemicals used for the selected polishing, cleaning or related process conditions.",
+        "source_ids": "R_FUJIMI_SLURRY;SRC_SIA_FRONTEND",
+        "project_interpretation": "List alternatives by recipe; the category alone does not prove every named acid belongs in one CMP mixture.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:polishing_pads",
@@ -5514,7 +5860,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:nitrogen",
@@ -5551,7 +5898,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:helium",
@@ -5588,7 +5936,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:carbon_dioxide",
@@ -5625,7 +5974,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:tungsten_hexafluoride",
@@ -5662,7 +6012,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ammonia",
@@ -5699,7 +6050,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:chlorine",
@@ -5758,7 +6110,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:neon",
@@ -5795,7 +6148,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:hydrogen",
@@ -5854,7 +6208,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:argon",
@@ -5891,7 +6246,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:nitrogen_trifluoride",
@@ -5928,7 +6284,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:hydrogen_chloride",
@@ -5987,7 +6344,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:silane",
@@ -6024,7 +6382,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:nitrous_oxide",
@@ -6061,7 +6420,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:krypton",
@@ -6098,7 +6458,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:graphite_electrodes",
@@ -6135,7 +6496,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:polysilicon_starter_rods",
@@ -6149,7 +6511,17 @@
       "domain_category": "Wafer",
       "chemical_formula": "Si",
       "description": "Seed filaments on which Siemens-process polysilicon deposits.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:polysilicon_starter_rods",
+        "preferred_name": "Silicon slim seed rods for polysilicon deposition",
+        "semantic_kind": "process_intermediate",
+        "formal_definition": "Slender silicon supports on which additional silicon is deposited during a Siemens-type polysilicon-production process.",
+        "source_ids": "R4_WACKER_SEED",
+        "project_interpretation": "Route to polysilicon production upstream of wafer growth; merchant sale and exact purity remain open.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:trichlorosilane",
@@ -6208,7 +6580,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:dopants",
@@ -6221,7 +6594,17 @@
       "out_degree": 1,
       "domain_category": "Wafer",
       "description": "Boron (p-type) and phosphorus/arsenic (n-type) dopant sources.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:dopants",
+        "preferred_name": "Semiconductor dopant sources",
+        "semantic_kind": "category",
+        "formal_definition": "Sources of intentionally introduced dopant species used to adjust semiconductor electrical behaviour.",
+        "source_ids": "R_LINDE_GASES;SRC_SIA_FRONTEND",
+        "project_interpretation": "Select p-type or n-type species and introduction method. A gas precursor listing alone does not prove use in crystal growth.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:fused_quartz_crucible",
@@ -6280,7 +6663,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:diamond_sic_slurry_glycol",
@@ -6316,7 +6700,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:sic_lapping_slurry",
@@ -6330,7 +6715,40 @@
       "domain_category": "Wafer",
       "chemical_formula": "SiC",
       "description": "Silicon carbide abrasive slurry for wafer lapping.",
-      "vendor_candidates": []
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "LD:sic_lapping_slurry",
+          "full_graph_node_name": "SiC lapping slurry",
+          "provider_id": "PUBLIC:522c4afe3ef0",
+          "provider_name": "Lapmaster Wolters",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R4_LAPMASTER_SIC",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "SiC-containing lapping slurry; semiconductor wafer grade and water-carrier specification unconfirmed",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Lapmaster Wolters",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
+      "component_definition": {
+        "node_id": "LD:sic_lapping_slurry",
+        "preferred_name": "Silicon-carbide abrasive lapping slurry",
+        "semantic_kind": "process_consumable",
+        "formal_definition": "A suspension containing silicon-carbide abrasive particles in a liquid carrier, used for mechanical lapping.",
+        "source_ids": "R4_LAPMASTER_SIC",
+        "project_interpretation": "The submitted SiC-grit child resolves composition. Wafer grade and carrier are still process specifications, not arbitrary guesses.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:metallurgical_grade_silicon",
@@ -6367,7 +6785,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:anhydrous_hcl",
@@ -6404,7 +6823,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ultra_pure_hydrogen",
@@ -6441,7 +6861,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ultra_pure_argon",
@@ -6478,7 +6899,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:deionized_water_coolant",
@@ -6492,7 +6914,40 @@
       "domain_category": "Wafer",
       "chemical_formula": "H2O",
       "description": "Ultra-pure water for wafer slicing/grinding cooling and rinsing.",
-      "vendor_candidates": []
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "LD:deionized_water_coolant",
+          "full_graph_node_name": "Deionized water coolant",
+          "provider_id": "PUBLIC:db4615b8c9a9",
+          "provider_name": "Kurita",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R4_KURITA_WATER",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "On-site ultrapure-water supply service capability; coolant formulation and customer/site contract not established",
+          "qualification_status": "utility_service_not_shipped_commodity;coolant_application_unqualified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Kurita",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
+      "component_definition": {
+        "node_id": "LD:deionized_water_coolant",
+        "preferred_name": "Purified process water for coolant/slurry use",
+        "semantic_kind": "utility_or_consumable",
+        "formal_definition": "Water with ionic impurities reduced by treatment and supplied to the selected cooling or slurry operation.",
+        "source_ids": "R4_KURITA_WATER",
+        "project_interpretation": "DI water and semiconductor UPW are different specifications; set required purity from the downstream process.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:alumina",
@@ -6529,7 +6984,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:colloidal_silica",
@@ -6566,7 +7022,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:sulfuric_acid",
@@ -6625,7 +7082,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ammonium_hydroxide",
@@ -6662,7 +7120,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:nitric_acid",
@@ -6699,7 +7158,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:acetic_acid",
@@ -6736,7 +7196,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:isopropyl_alcohol",
@@ -6795,7 +7256,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:phosphoric_acid",
@@ -6854,7 +7316,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:hydrofluoric_acid",
@@ -6913,7 +7376,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:soda_lime_glass",
@@ -6949,7 +7413,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:sputtering_targets",
@@ -6985,7 +7450,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:copper",
@@ -7022,7 +7488,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:titanium",
@@ -7059,7 +7526,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:aluminum",
@@ -7073,7 +7541,40 @@
       "domain_category": "Deposition Materials",
       "chemical_formula": "Al",
       "description": "Top-level bond pad and redistribution metallization.",
-      "vendor_candidates": []
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "LD:aluminum",
+          "full_graph_node_name": "Aluminum",
+          "provider_id": "PUBLIC:d926c30a7d87",
+          "provider_name": "Hydro",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R4_HYDRO_AL",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "High-purity aluminium feedstock for electronics; finished sputtering-target dimensions and qualification unconfirmed",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Hydro",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
+      "component_definition": {
+        "node_id": "LD:aluminum",
+        "preferred_name": "High-purity aluminium metal feedstock",
+        "semantic_kind": "material",
+        "formal_definition": "Aluminium metal refined to the impurity limits required by an electronic-material or deposition application.",
+        "source_ids": "R4_HYDRO_AL",
+        "project_interpretation": "Distinguish high-purity feedstock from structural alloy plate and finished sputtering targets.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:tantalum",
@@ -7110,7 +7611,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:oxygen_gas",
@@ -7147,7 +7649,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:sodium_hydroxide",
@@ -7206,7 +7709,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:sodium_metal",
@@ -7243,7 +7747,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:magnesium_metal",
@@ -7280,7 +7785,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:methane_feedstock",
@@ -7317,7 +7823,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:synthesis_gas",
@@ -7354,7 +7861,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:methanol",
@@ -7435,7 +7943,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:propylene",
@@ -7472,7 +7981,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ethylene",
@@ -7509,7 +8019,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:benzene_aromatics",
@@ -7546,7 +8057,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:epichlorohydrin",
@@ -7583,7 +8095,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:bisphenol_a",
@@ -7620,7 +8133,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:epoxy_resin",
@@ -7678,7 +8192,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:phenolic_hardener",
@@ -7714,7 +8229,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:fused_silica_filler",
@@ -7751,7 +8267,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:carbon_black",
@@ -7788,7 +8305,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:potassium_hydroxide",
@@ -7847,7 +8365,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:hydrogen_peroxide",
@@ -7928,7 +8447,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:fluorine_gas",
@@ -7965,7 +8485,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:white_phosphorus",
@@ -8002,7 +8523,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:sodium_silicate",
@@ -8039,7 +8561,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:soda_ash",
@@ -8076,7 +8599,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:refined_copper",
@@ -8113,7 +8637,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:copper_alloy_strip",
@@ -8149,7 +8674,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:alloy_42_strip",
@@ -8186,7 +8712,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:precious_metal_plating",
@@ -8222,7 +8749,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:fine_metal_wire",
@@ -8280,7 +8808,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:copper_foil_enig",
@@ -8316,7 +8845,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:bt_abf_resin_matrix",
@@ -8352,7 +8882,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:e_glass_fiberglass",
@@ -8388,7 +8919,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:silver_flakes_solder",
@@ -8425,7 +8957,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:fumed_silica_abrasive",
@@ -8462,7 +8995,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ceria_abrasive",
@@ -8499,7 +9033,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:polyurethane_matrix",
@@ -8512,7 +9047,17 @@
       "out_degree": 1,
       "domain_category": "CMP Materials",
       "description": "Isocyanate + polyol thermoset foam forming the CMP pad surface.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:polyurethane_matrix",
+        "preferred_name": "Polyurethane polishing-pad matrix",
+        "semantic_kind": "internal_material_structure",
+        "formal_definition": "The polyurethane-based polymer phase forming the functional body of a selected polishing pad.",
+        "source_ids": "R2_LAPMASTER_PAD;R_QNITY_PADS",
+        "project_interpretation": "Porosity and formulation depend on pad grade; no separately sold matrix supplier is inferred.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:polyester_felt_backing",
@@ -8525,7 +9070,17 @@
       "out_degree": 1,
       "domain_category": "CMP Materials",
       "description": "Sub-pad structural backing for CMP polishing pads.",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "LD:polyester_felt_backing",
+        "preferred_name": "Polyester-felt polishing-pad layer",
+        "semantic_kind": "internal_material_structure",
+        "formal_definition": "A nonwoven polyester-fibre layer used in certain pad constructions, sometimes impregnated with polyurethane.",
+        "source_ids": "R2_LAPMASTER_PAD",
+        "project_interpretation": "The source supports a felt-based design, not a universal backing required in every CMP pad.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "LD:petroleum_needle_coke",
@@ -8562,7 +9117,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:coal_tar_pitch",
@@ -8598,7 +9154,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:silicon_tetrachloride",
@@ -8657,7 +9214,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:synthetic_fused_quartz",
@@ -8694,7 +9252,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:boron_dopant_precursors",
@@ -8731,7 +9290,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:phosphine_gas",
@@ -8812,7 +9372,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:arsine_gas",
@@ -8871,7 +9432,8 @@
           "ownership_source_ids": "R_LINDE_MERGER",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ion_exchange_resins",
@@ -8907,7 +9469,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:silicon_carbide_grit",
@@ -8944,7 +9507,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:synthetic_diamond_grit",
@@ -8981,7 +9545,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ethylene_glycol",
@@ -9018,7 +9583,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:photoresist_polymers",
@@ -9054,7 +9620,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:photoacid_generators",
@@ -9090,7 +9657,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:pgmea_casting_solvent",
@@ -9127,7 +9695,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:chromium_mosi_absorber",
@@ -9164,7 +9733,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:pellicle_membrane_frame",
@@ -9200,7 +9770,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:tungsten_metal_powder",
@@ -9237,7 +9808,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:potassium_heptafluorotantalate",
@@ -9274,7 +9846,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:titanium_tetrachloride",
@@ -9311,7 +9884,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "LD:ultra_high_purity_metals",
@@ -9347,7 +9921,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-ACRYLIC-PU",
@@ -9359,7 +9934,17 @@
       "in_degree": 2,
       "out_degree": 4,
       "description": "Cross-linked acrylic/urethane resin for shroud finish and PCB inks",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "PM-ACRYLIC-PU",
+        "preferred_name": "Acrylic/urethane coating-resin family",
+        "semantic_kind": "material_family",
+        "formal_definition": "Resin systems using acrylic and/or polyurethane chemistry, including hybrid formulations selected for coating performance.",
+        "source_ids": "R4_NORDSON_COAT;R_SHERWIN_COATING",
+        "project_interpretation": "Separate coating resin, photoresist binder, pressure-sensitive adhesive and interlaminar varnish. Their formulations are not interchangeable.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "PM-CARBON-STEEL",
@@ -9394,7 +9979,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-E-GLASS",
@@ -9429,7 +10015,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-FAB-CHEM",
@@ -9464,7 +10051,8 @@
           "ownership_source_ids": "R_JSR_INPRIA",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-FE-POWDER",
@@ -9499,7 +10087,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-FUSED-SILICA",
@@ -9534,7 +10123,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-HBN",
@@ -9569,7 +10159,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-IND-CHEM",
@@ -9604,7 +10195,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-PA66-POLYMER",
@@ -9639,7 +10231,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-PBT-POLYMER",
@@ -9674,7 +10267,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-PC-ABS-POLYMER",
@@ -9709,7 +10303,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-PDMS-SILICONE",
@@ -9744,7 +10339,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-PET-POLYMER",
@@ -9779,7 +10375,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-POLYIMIDE",
@@ -9814,7 +10411,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-PPA-POLYMER",
@@ -9849,7 +10447,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-RUO2-PASTE",
@@ -9884,7 +10483,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-SAPPHIRE-WAFER",
@@ -9941,7 +10541,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-ALUMINA",
@@ -9976,7 +10577,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-BATIO3",
@@ -10011,7 +10613,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-EPOXY-RESIN",
@@ -10068,7 +10671,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-FERRITE",
@@ -10103,7 +10707,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-LCP-POLYMER",
@@ -10138,7 +10743,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-NDFEB-ALLOY",
@@ -10173,7 +10779,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-REFINED-AG",
@@ -10208,7 +10815,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-REFINED-AL",
@@ -10243,7 +10851,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-REFINED-AU",
@@ -10255,7 +10864,17 @@
       "in_degree": 2,
       "out_degree": 4,
       "description": "Refined gold metal and hard-gold electroplating salt",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "PM-REFINED-AU",
+        "preferred_name": "Refined gold metal and gold-plating salt branches",
+        "semantic_kind": "combined_products",
+        "formal_definition": "Two distinct products: purified elemental gold and a gold-containing salt used in selected plating solutions.",
+        "source_ids": "R4_TECHNIC_GOLD",
+        "project_interpretation": "The original combined label must not equate metal purity with gold mass fraction in a salt. Salt identity needs its own datasheet.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "PM-REFINED-CU",
@@ -10290,7 +10909,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-REFINED-NI",
@@ -10347,7 +10967,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-REFINED-SN",
@@ -10382,7 +11003,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-SI-WAFER",
@@ -10615,7 +11237,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-SILICON-STEEL",
@@ -10650,7 +11273,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-STAINLESS-STEEL",
@@ -10685,7 +11309,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-TIO2",
@@ -10720,7 +11345,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-WC-COBALT",
@@ -10755,7 +11381,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-ZIRCONIA",
@@ -10790,7 +11417,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "PM-YAG-PHOSPHOR",
@@ -10825,7 +11453,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-CU-ETCHANT",
@@ -10860,7 +11489,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-PET-LINER",
@@ -10895,7 +11525,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-PHOTORESIST",
@@ -10930,7 +11561,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-STAMP-LUBE",
@@ -10965,7 +11597,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-AG-PLATE",
@@ -11000,7 +11633,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-ANODIZE-CHEM",
@@ -11012,7 +11646,17 @@
       "in_degree": 4,
       "out_degree": 2,
       "description": "Consumable anodizing electrolyte, organic black dye, and nickel-acetate sealer",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "DC-ANODIZE-CHEM",
+        "preferred_name": "Anodizing electrolyte and colourant branches",
+        "semantic_kind": "process_consumable_family",
+        "formal_definition": "Chemicals used to form an oxide layer on aluminium and, where selected, colour that layer in a subsequent or combined process.",
+        "source_ids": "R4_ANODIZING",
+        "project_interpretation": "Electrolyte and black dye are distinct purchases; bath reuse/replenishment means disposable is not a fixed one-use count.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "DC-AU-PLATE",
@@ -11047,7 +11691,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-CUTTING-FLUID",
@@ -11082,7 +11727,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-DICING-BLADE",
@@ -11117,7 +11763,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-ENIG-CHEM",
@@ -11152,7 +11799,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-NI-PLATE",
@@ -11187,7 +11835,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-PCB-DRILL",
@@ -11222,7 +11871,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "DC-SINTER-BOAT",
@@ -11234,7 +11884,17 @@
       "in_degree": 2,
       "out_degree": 4,
       "description": "Consumable refractory setter trays degraded over thermal sintering cycles",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "DC-SINTER-BOAT",
+        "preferred_name": "Ceramic setter or support for firing",
+        "semantic_kind": "process_tool",
+        "formal_definition": "A refractory support that holds parts during a firing or sintering operation.",
+        "source_ids": "R4_IPS_SETTER",
+        "project_interpretation": "Project adopts the support function only; bulk YSZ composition and universal use for resistor firing are not verified. Treat YSZ as a proposed material option.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "DC-TIN-PLATE",
@@ -11269,7 +11929,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-DI-WATER",
@@ -11281,7 +11942,17 @@
       "in_degree": 2,
       "out_degree": 2,
       "description": "Non-condensable-gas-free distilled/deionized water sealed inside two-phase coolers",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-DI-WATER",
+        "preferred_name": "Water working fluid in a sealed cooler",
+        "semantic_kind": "internal_working_fluid",
+        "formal_definition": "A water charge that evaporates and condenses to transport heat inside a compatible heat pipe or vapor chamber.",
+        "source_ids": "R4_ACT_WATER",
+        "project_interpretation": "Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-MYLAR-INSULATOR",
@@ -11293,7 +11964,17 @@
       "in_degree": 2,
       "out_degree": 1,
       "description": "Dielectric film adhered to inner backplate surface to prevent PCB shorting",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-MYLAR-INSULATOR",
+        "preferred_name": "Converted polyester-film insulating liner",
+        "semantic_kind": "converted_part",
+        "formal_definition": "An electrically insulating polyester film cut or formed to the geometry needed between components.",
+        "source_ids": "R4_MYLAR_INSULATION",
+        "project_interpretation": "Film manufacture and final die cutting are separate capabilities. Mylar is a brand, not the name of every PET film.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-PA66-GF",
@@ -11328,7 +12009,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-PBT-GF30",
@@ -11340,7 +12022,17 @@
       "in_degree": 3,
       "out_degree": 1,
       "description": "Injection-molded low-creep thermoplastic rotor blades and fan housing",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-PBT-GF30",
+        "preferred_name": "Glass-reinforced PBT moulded fan part",
+        "semantic_kind": "moulded_part",
+        "formal_definition": "A fan impeller or frame formed from polybutylene terephthalate compounded with glass reinforcement.",
+        "source_ids": "R4_TORAY_PBT",
+        "project_interpretation": "Material identity comes from the submitted specification; 30% reinforcement and suitability for a selected fan remain unverified design choices.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-PC-ABS",
@@ -11375,7 +12067,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-PU-COATING",
@@ -11410,7 +12103,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-SILICONE-MATRIX",
@@ -11445,7 +12139,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-SPCC-SHEET",
@@ -11480,7 +12175,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-AG-BRAZE",
@@ -11515,7 +12211,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-AL-FIN-STOCK",
@@ -11550,7 +12247,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-AL-PLATE",
@@ -11562,7 +12260,17 @@
       "in_degree": 1,
       "out_degree": 2,
       "description": "CNC-machined and brushed aluminum sheet for backplate and shroud trim",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-AL-PLATE",
+        "preferred_name": "Rolled structural aluminium alloy plate",
+        "semantic_kind": "material",
+        "formal_definition": "Flat rolled aluminium-alloy stock used to fabricate a structural component.",
+        "source_ids": "R4_AL_ROLLING",
+        "project_interpretation": "5052 and 6061 are alternative alloy specifications from the submitted node; the stock must also specify temper, thickness and tolerances. Thin backplates may use sheet rather than plate; the exact alloy-to-part recipe remains unverified.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-ALLOY-STEEL-WIRE",
@@ -11597,7 +12305,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-BEARING",
@@ -11632,7 +12341,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-BOND-WIRE",
@@ -11689,7 +12399,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-CCL",
@@ -11724,7 +12435,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-CERAMIC-FILLER",
@@ -11759,7 +12471,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-CU-FOIL",
@@ -11794,7 +12507,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-CU-LEADFRAME",
@@ -11829,7 +12543,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-DIE-ATTACH",
@@ -11886,7 +12601,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-DRAM-DIE",
@@ -11921,7 +12637,17 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": {
+        "node_id": "SC-DRAM-DIE",
+        "preferred_name": "Fabricated graphics-memory die",
+        "semantic_kind": "bare_die",
+        "formal_definition": "A semiconductor die implementing a selected generation of graphics double-data-rate memory.",
+        "source_ids": "R2_MICRON_GDDR6;SRC_MICRON_GDDR7",
+        "project_interpretation": "Keep generation generic for this case study; GDDR6/GDDR6X/GDDR7 are not drop-in alternatives. The exact design must select one.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-EMC",
@@ -11956,7 +12682,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-FE-POWDER-CORE",
@@ -11968,7 +12695,17 @@
       "in_degree": 3,
       "out_degree": 1,
       "description": "Insulated soft-magnetic powder composite molded around VRM inductor coil",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-FE-POWDER-CORE",
+        "preferred_name": "Pressed soft-magnetic metal-powder core",
+        "semantic_kind": "internal_component",
+        "formal_definition": "A magnetic body made from metal-powder particles and an insulating/binding system for an inductor.",
+        "source_ids": "R4_MURATA_INDUCTOR",
+        "project_interpretation": "Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-LCP-GF",
@@ -11980,7 +12717,17 @@
       "in_degree": 2,
       "out_degree": 2,
       "description": "Precision injection-molded high-temp dielectric housing for HDMI and DisplayPort",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-LCP-GF",
+        "preferred_name": "Glass-reinforced LCP connector insulator",
+        "semantic_kind": "moulded_part",
+        "formal_definition": "A connector insulating body moulded from a glass-reinforced liquid-crystal polymer compound.",
+        "source_ids": "R4_MOLEX_LCP",
+        "project_interpretation": "Compound and moulded body are different products. Verify the actual connector drawing before prescribing GF30.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-LED-DIE",
@@ -12015,7 +12762,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-LEGEND",
@@ -12050,7 +12798,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-MAGNET-WIRE",
@@ -12062,7 +12811,40 @@
       "in_degree": 2,
       "out_degree": 2,
       "description": "Drawn copper wire coated with cured polyimide insulation for inductors and motors",
-      "vendor_candidates": []
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "SC-MAGNET-WIRE",
+          "full_graph_node_name": "Polyimide-Enameled Oxygen-Free Copper Winding Wire",
+          "provider_id": "PUBLIC:33de51a44471",
+          "provider_name": "Taya Group",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R4_TAYA_WIRE",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Polyimide-enamelled copper wire; oxygen-free grade, wire diameter and winding qualification unconfirmed",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Taya Group",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
+      "component_definition": {
+        "node_id": "SC-MAGNET-WIRE",
+        "preferred_name": "Polyimide-enamelled copper winding wire",
+        "semantic_kind": "material",
+        "formal_definition": "Copper conductor coated with electrically insulating polyimide enamel for forming a winding.",
+        "source_ids": "R4_TAYA_WIRE;R2_ELANTAS_ENAMEL",
+        "project_interpretation": "Polyimide is one insulation choice; oxygen-free copper and wire diameter remain specific requirements to verify.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-MCU-DIE",
@@ -12097,7 +12879,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-NDFEB-MAGNET",
@@ -12132,7 +12915,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-OFC-COPPER",
@@ -12167,7 +12951,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-PHBR-CONTACT",
@@ -12202,7 +12987,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-POWER-DIE",
@@ -12237,7 +13023,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-PPA-REFLECTOR",
@@ -12249,7 +13036,17 @@
       "in_degree": 3,
       "out_degree": 1,
       "description": "High-reflectivity molded SMD LED housing cavity",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-PPA-REFLECTOR",
+        "preferred_name": "PPA-based LED reflector body",
+        "semantic_kind": "moulded_part",
+        "formal_definition": "A moulded reflector or housing surrounding the LED emitter, using a selected reflective polymer compound.",
+        "source_ids": "R4_SHINETSU_REFLECTOR",
+        "project_interpretation": "PPA, glass reinforcement and TiO2 loading are submitted design choices; they are not universal requirements for RGB LED packages.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-PREPREG",
@@ -12284,7 +13081,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-SILICON-STEEL",
@@ -12296,7 +13094,40 @@
       "in_degree": 3,
       "out_degree": 1,
       "description": "Stamped and insulated Fe-Si laminations forming the BLDC motor stator",
-      "vendor_candidates": []
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "SC-SILICON-STEEL",
+          "full_graph_node_name": "Laminated Electrical Silicon-Steel Stator Core",
+          "provider_id": "PUBLIC:24c545f06ed5",
+          "provider_name": "Mitsui High-tec",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R4_MITSUI_CORE",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Electrical-steel motor-core product class; miniature fan geometry and grade unqualified",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Mitsui High-tec",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
+      "component_definition": {
+        "node_id": "SC-SILICON-STEEL",
+        "preferred_name": "Laminated electrical-steel stator core",
+        "semantic_kind": "internal_component",
+        "formal_definition": "A stack of shaped electrical-steel sheets forming the stationary magnetic circuit of a motor, with interlaminar insulation limiting eddy currents.",
+        "source_ids": "R4_MITSUI_CORE;R4_VAC_LAMINATION",
+        "project_interpretation": "Steel strip production, stamping and stacking are distinct operations; core geometry must fit the fan motor.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-SOLDER-BALL",
@@ -12331,7 +13162,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-SOLDER-PASTE",
@@ -12366,7 +13198,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-SOLDERMASK",
@@ -12401,7 +13234,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-TVS-DIE",
@@ -12436,7 +13270,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-CU-TERMINAL",
@@ -12448,7 +13283,17 @@
       "in_degree": 2,
       "out_degree": 1,
       "description": "Formed copper inductor terminals electroplated with matte tin",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-CU-TERMINAL",
+        "preferred_name": "Tin-finished copper lead terminal",
+        "semantic_kind": "component",
+        "formal_definition": "A shaped copper conductor with a tin-containing surface finish for electrical connection or solder attachment.",
+        "source_ids": "R3_TECHNIC_TIN",
+        "project_interpretation": "A discrete lead is different from a deposited end termination; dimensions and base alloy require a component drawing.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-CU-WICK",
@@ -12483,7 +13328,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-FAN-DRIVER-IC",
@@ -12518,7 +13364,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-FBGA-SUB",
@@ -12530,7 +13377,17 @@
       "in_degree": 6,
       "out_degree": 1,
       "description": "High-density organic flip-chip/wirebond BGA interposer substrate for GDDR packages",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-FBGA-SUB",
+        "preferred_name": "Fine-pitch BGA package substrate",
+        "semantic_kind": "component",
+        "formal_definition": "An interconnection substrate carrying a die and routing its electrical connections to a fine-pitch ball-grid-array interface.",
+        "source_ids": "R4_SHINKO_PBGA",
+        "project_interpretation": "BT-based and ABF build-up systems are alternatives; select substrate technology from the actual memory package design.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-FERRITE-BODY",
@@ -12542,7 +13399,17 @@
       "in_degree": 3,
       "out_degree": 2,
       "description": "Multilayer sintered ferrite body for high-frequency SMD ferrite beads/inductors",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-FERRITE-BODY",
+        "preferred_name": "Multilayer ferrite inductor body",
+        "semantic_kind": "internal_component",
+        "formal_definition": "A fired magnetic ceramic body with embedded conductive patterns forming the winding of a multilayer inductor.",
+        "source_ids": "R4_MURATA_INDUCTOR",
+        "project_interpretation": "Specific NiZn and silver choices need product evidence; this is not the construction of every power inductor.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-MLCC-BODY",
@@ -12577,7 +13444,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-PHOSPHOR",
@@ -12612,7 +13480,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     },
     {
       "id": "SC-RES-BODY",
@@ -12624,7 +13493,17 @@
       "in_degree": 4,
       "out_degree": 3,
       "description": "Laser-trimmed thick-film ruthenium oxide resistor on 96% alumina chip",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-RES-BODY",
+        "preferred_name": "Ceramic thick-film resistor body",
+        "semantic_kind": "internal_component",
+        "formal_definition": "A ceramic substrate carrying a patterned resistive film and protective layers before or as part of termination processing.",
+        "source_ids": "R4_ROHM_BODY",
+        "project_interpretation": "Use the thick-film case only; thin-film and metal-element resistors have different material structures.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-SMD-TERM",
@@ -12636,7 +13515,17 @@
       "in_degree": 3,
       "out_degree": 3,
       "description": "Dipped copper termination with electroplated nickel barrier and matte tin solderable layer",
-      "vendor_candidates": []
+      "vendor_candidates": [],
+      "component_definition": {
+        "node_id": "SC-SMD-TERM",
+        "preferred_name": "Device-specific surface-mount termination stack",
+        "semantic_kind": "internal_component",
+        "formal_definition": "Conductive end layers connecting an internal passive element to a solderable external surface, often including barrier and finish layers.",
+        "source_ids": "R4_ROHM_TERMINATIONS",
+        "project_interpretation": "Replace universal Cu/Ni/Sn assumption with device-specific base metal; the documented resistor example uses Ag-based/Ni/Sn.",
+        "definition_status": "technical_class_definition_with_explicit_project_scope",
+        "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      }
     },
     {
       "id": "SC-SS-SHAFT",
@@ -12671,7 +13560,8 @@
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
         }
-      ]
+      ],
+      "component_definition": null
     }
   ],
   "edges": [
@@ -17668,10 +18558,10 @@
       "target_node_exists": true,
       "self_loop": false,
       "duplicate_pair_count": 1,
-      "validation_status": "unverified_specific_relation",
-      "evidence_scope": "submitted_graph_only",
-      "source_ids": "",
-      "audit_note": "Exact relationship has not been independently verified. Retain as a proposal pending a specific technical source.",
+      "validation_status": "supported_product_class",
+      "evidence_scope": "manually_scoped_public_evidence",
+      "source_ids": "R4_LAPMASTER_SIC",
+      "audit_note": "SiC powder can be the abrasive in a lapping slurry; no universal wafer-process requirement is implied.",
       "recommended_relationship": "feeds_into",
       "mandatory_input_status": "not_established_for_specific_GPU"
     },
@@ -29687,6 +30577,27 @@
       "site_independence_caveat": "Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations."
     },
     {
+      "facility_id": "PUBLIC_SITE:ea0ea06f9cc0",
+      "facility_name": "Hydro Grevenbroich high-purity aluminium plant",
+      "company": "Hydro",
+      "country": "Germany",
+      "city": "Grevenbroich",
+      "address": "Aluminiumstrasse 2, D-41515 Grevenbroich",
+      "latitude": 51.0862467,
+      "longitude": 6.5848937,
+      "facility_type": "production_asset",
+      "component_categories": "LD:aluminum",
+      "site_evidence_level": "official named production-site evidence",
+      "product_assignment": "Only the product scope listed in component_categories is evidenced; no GPU customer allocation established.",
+      "source_ids": "R4_HYDRO_GREVEN;R_OSM_GEOCODE",
+      "coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "public_site_list_completeness": "partial public list; exhaustive global footprint not established",
+      "operating_status": "publicly_listed_production_site",
+      "geocode_display_name": "Grevenbroich, Rhein-Kreis Neuss, Nordrhein-Westfalen, Deutschland",
+      "same_company_city_asset_count": 1,
+      "site_independence_caveat": "Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations."
+    },
+    {
       "facility_id": "BASE:IBIDEN_ONO",
       "facility_name": "IBIDEN Ono plant",
       "company": "IBIDEN",
@@ -30565,6 +31476,111 @@
       "public_site_list_completeness": "partial public list; exhaustive global footprint not established",
       "operating_status": "publicly_listed_production_site",
       "geocode_display_name": "Greer, Greenville County, South Carolina, United States",
+      "same_company_city_asset_count": 1,
+      "site_independence_caveat": "Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:54ffa8823a46",
+      "facility_name": "Mitsui High-tec Brantford motor-core plant",
+      "company": "Mitsui High-tec",
+      "country": "Canada",
+      "city": "Brantford, Ontario",
+      "address": "60 Fen Ridge Court",
+      "latitude": 43.1408157,
+      "longitude": -80.2631733,
+      "facility_type": "production_asset",
+      "component_categories": "SC-SILICON-STEEL",
+      "site_evidence_level": "official named production-site evidence",
+      "product_assignment": "Only the product scope listed in component_categories is evidenced; no GPU customer allocation established.",
+      "source_ids": "R4_MITSUI_SITES;R_OSM_GEOCODE",
+      "coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "public_site_list_completeness": "partial public list; exhaustive global footprint not established",
+      "operating_status": "publicly_listed_production_site",
+      "geocode_display_name": "Brantford, Southwestern Ontario, Ontario, Canada",
+      "same_company_city_asset_count": 1,
+      "site_independence_caveat": "Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:b253814d4353",
+      "facility_name": "Mitsui High-tec Guangdong motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "country": "China",
+      "city": "Dongguan",
+      "address": "10 Lian Xin Road, Shang Jiao Village, Chang An",
+      "latitude": 23.0183568,
+      "longitude": 113.7452332,
+      "facility_type": "production_asset",
+      "component_categories": "SC-SILICON-STEEL",
+      "site_evidence_level": "official named production-site evidence",
+      "product_assignment": "Only the product scope listed in component_categories is evidenced; no GPU customer allocation established.",
+      "source_ids": "R4_MITSUI_SITES;R_OSM_GEOCODE",
+      "coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "public_site_list_completeness": "partial public list; exhaustive global footprint not established",
+      "operating_status": "publicly_listed_production_site",
+      "geocode_display_name": "东莞市, 广东省, 中国",
+      "same_company_city_asset_count": 1,
+      "site_independence_caveat": "Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:f0ddf06c3b0f",
+      "facility_name": "Mitsui High-tec Shanghai motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "country": "China",
+      "city": "Shanghai",
+      "address": "2001 Xinjinqiao Road",
+      "latitude": 31.2312707,
+      "longitude": 121.4700152,
+      "facility_type": "production_asset",
+      "component_categories": "SC-SILICON-STEEL",
+      "site_evidence_level": "official named production-site evidence",
+      "product_assignment": "Only the product scope listed in component_categories is evidenced; no GPU customer allocation established.",
+      "source_ids": "R4_MITSUI_SITES;R_OSM_GEOCODE",
+      "coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "public_site_list_completeness": "partial public list; exhaustive global footprint not established",
+      "operating_status": "publicly_listed_production_site",
+      "geocode_display_name": "上海市, 中国",
+      "same_company_city_asset_count": 1,
+      "site_independence_caveat": "Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:38f60256590e",
+      "facility_name": "Mitsui High-tec Gifu motor-core plant",
+      "company": "Mitsui High-tec",
+      "country": "Japan",
+      "city": "Kani",
+      "address": "675-35 Kakida",
+      "latitude": 35.4261093,
+      "longitude": 137.0613166,
+      "facility_type": "production_asset",
+      "component_categories": "SC-SILICON-STEEL",
+      "site_evidence_level": "official named production-site evidence",
+      "product_assignment": "Only the product scope listed in component_categories is evidenced; no GPU customer allocation established.",
+      "source_ids": "R4_MITSUI_SITES;R_OSM_GEOCODE",
+      "coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "public_site_list_completeness": "partial public list; exhaustive global footprint not established",
+      "operating_status": "publicly_listed_production_site",
+      "geocode_display_name": "可児市, 岐阜県, 日本",
+      "same_company_city_asset_count": 1,
+      "site_independence_caveat": "Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:d4d306dcb35c",
+      "facility_name": "Mitsui High-tec Ayutthaya motor-core plant",
+      "company": "Mitsui High-tec",
+      "country": "Thailand",
+      "city": "Bang Pa-in",
+      "address": "125 Moo 1, Hi-tech Industrial Estate, Baan Lane",
+      "latitude": 14.2393509,
+      "longitude": 100.5845885,
+      "facility_type": "production_asset",
+      "component_categories": "SC-SILICON-STEEL",
+      "site_evidence_level": "official named production-site evidence",
+      "product_assignment": "Only the product scope listed in component_categories is evidenced; no GPU customer allocation established.",
+      "source_ids": "R4_MITSUI_SITES;R_OSM_GEOCODE",
+      "coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "public_site_list_completeness": "partial public list; exhaustive global footprint not established",
+      "operating_status": "publicly_listed_production_site",
+      "geocode_display_name": "บางปะอิน, ถนนบางปะอินสายใน, ตำบลบ้านเลน, เทศบาลตำบลบางปะอิน, เชียงรากน้อย, อำเภอบางปะอิน, จังหวัดพระนครศรีอยุธยา, 13160, ประเทศไทย",
       "same_company_city_asset_count": 1,
       "site_independence_caveat": "Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations."
     },
@@ -41623,6 +42639,108 @@
       "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
     },
     {
+      "facility_id": "PUBLIC_SITE:ea0ea06f9cc0",
+      "facility_name": "Hydro Grevenbroich high-purity aluminium plant",
+      "company": "Hydro",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 1,
+      "hub_id": "EDDL",
+      "hub_name": "Düsseldorf Airport",
+      "hub_country_code_or_name": "DE",
+      "hub_latitude": 51.289501,
+      "hub_longitude": 6.76678,
+      "great_circle_distance_km": 25.9,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:ea0ea06f9cc0",
+      "facility_name": "Hydro Grevenbroich high-purity aluminium plant",
+      "company": "Hydro",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 2,
+      "hub_id": "EDDK",
+      "hub_name": "Cologne Bonn Airport",
+      "hub_country_code_or_name": "DE",
+      "hub_latitude": 50.865898,
+      "hub_longitude": 7.14274,
+      "great_circle_distance_km": 46.1,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:ea0ea06f9cc0",
+      "facility_name": "Hydro Grevenbroich high-purity aluminium plant",
+      "company": "Hydro",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 3,
+      "hub_id": "EHBK",
+      "hub_name": "Maastricht Aachen Airport",
+      "hub_country_code_or_name": "NL",
+      "hub_latitude": 50.911087,
+      "hub_longitude": 5.769401,
+      "great_circle_distance_km": 60.3,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:ea0ea06f9cc0",
+      "facility_name": "Hydro Grevenbroich high-purity aluminium plant",
+      "company": "Hydro",
+      "hub_type": "port",
+      "proximity_rank": 1,
+      "hub_id": "31250",
+      "hub_name": "ANTWERPEN",
+      "hub_country_code_or_name": "BE",
+      "hub_latitude": 51.2166666666824,
+      "hub_longitude": 4.40000000008621,
+      "great_circle_distance_km": 153.1,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:ea0ea06f9cc0",
+      "facility_name": "Hydro Grevenbroich high-purity aluminium plant",
+      "company": "Hydro",
+      "hub_type": "port",
+      "proximity_rank": 2,
+      "hub_id": "31150",
+      "hub_name": "DORDRECHT",
+      "hub_country_code_or_name": "NL",
+      "hub_latitude": 51.8166666667087,
+      "hub_longitude": 4.6500000001013,
+      "great_circle_distance_km": 156.8,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:ea0ea06f9cc0",
+      "facility_name": "Hydro Grevenbroich high-purity aluminium plant",
+      "company": "Hydro",
+      "hub_type": "port",
+      "proximity_rank": 3,
+      "hub_id": "31260",
+      "hub_name": "BRUXELLES",
+      "hub_country_code_or_name": "BE",
+      "hub_latitude": 50.8666666664129,
+      "hub_longitude": 4.35000000044251,
+      "great_circle_distance_km": 158.4,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
       "facility_id": "BASE:IBIDEN_ONO",
       "facility_name": "IBIDEN Ono plant",
       "company": "IBIDEN",
@@ -45901,6 +47019,516 @@
       "hub_latitude": 32.7833333332258,
       "hub_longitude": -79.9166666664051,
       "great_circle_distance_km": 320.8,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:54ffa8823a46",
+      "facility_name": "Mitsui High-tec Brantford motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 1,
+      "hub_id": "CYHM",
+      "hub_name": "John C. Munro Hamilton International Airport",
+      "hub_country_code_or_name": "CA",
+      "hub_latitude": 43.171308,
+      "hub_longitude": -79.929416,
+      "great_circle_distance_km": 27.3,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:54ffa8823a46",
+      "facility_name": "Mitsui High-tec Brantford motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 2,
+      "hub_id": "CYKF",
+      "hub_name": "Region of Waterloo International Airport",
+      "hub_country_code_or_name": "CA",
+      "hub_latitude": 43.4608,
+      "hub_longitude": -80.378601,
+      "great_circle_distance_km": 36.8,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:54ffa8823a46",
+      "facility_name": "Mitsui High-tec Brantford motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 3,
+      "hub_id": "CYXU",
+      "hub_name": "London International Airport",
+      "hub_country_code_or_name": "CA",
+      "hub_latitude": 43.032845,
+      "hub_longitude": -81.149003,
+      "great_circle_distance_km": 72.9,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:54ffa8823a46",
+      "facility_name": "Mitsui High-tec Brantford motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 1,
+      "hub_id": "3050",
+      "hub_name": "HAMILTON",
+      "hub_country_code_or_name": "CA",
+      "hub_latitude": 43.2500000002573,
+      "hub_longitude": -79.8499999996147,
+      "great_circle_distance_km": 35.6,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:54ffa8823a46",
+      "facility_name": "Mitsui High-tec Brantford motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 2,
+      "hub_id": "3270",
+      "hub_name": "PORT DOVER",
+      "hub_country_code_or_name": "CA",
+      "hub_latitude": 42.7833333332324,
+      "hub_longitude": -80.1999999998155,
+      "great_circle_distance_km": 40.1,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:54ffa8823a46",
+      "facility_name": "Mitsui High-tec Brantford motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 3,
+      "hub_id": "3092",
+      "hub_name": "THOROLD",
+      "hub_country_code_or_name": "CA",
+      "hub_latitude": 43.0833333335016,
+      "hub_longitude": -79.7166666669321,
+      "great_circle_distance_km": 44.8,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:b253814d4353",
+      "facility_name": "Mitsui High-tec Guangdong motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 1,
+      "hub_id": "ZGSZ",
+      "hub_name": "Shenzhen Bao'an International Airport",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 22.639474,
+      "hub_longitude": 113.803262,
+      "great_circle_distance_km": 42.5,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:b253814d4353",
+      "facility_name": "Mitsui High-tec Guangdong motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 2,
+      "hub_id": "ZGGG",
+      "hub_name": "Guangzhou Baiyun International Airport",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 23.392401,
+      "hub_longitude": 113.299004,
+      "great_circle_distance_km": 61.7,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:b253814d4353",
+      "facility_name": "Mitsui High-tec Guangdong motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 3,
+      "hub_id": "ZGFS",
+      "hub_name": "Foshan Shadi Airport",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 23.0825,
+      "hub_longitude": 113.070833,
+      "great_circle_distance_km": 69.4,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:b253814d4353",
+      "facility_name": "Mitsui High-tec Guangdong motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 1,
+      "hub_id": "57825",
+      "hub_name": "HUANGPUXINGANG",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 23.0499999996213,
+      "hub_longitude": 113.499999999672,
+      "great_circle_distance_km": 25.3,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:b253814d4353",
+      "facility_name": "Mitsui High-tec Guangdong motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 2,
+      "hub_id": "57822",
+      "hub_name": "HUANGPU",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 23.0833333333638,
+      "hub_longitude": 113.416666666633,
+      "great_circle_distance_km": 34.4,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:b253814d4353",
+      "facility_name": "Mitsui High-tec Guangdong motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 3,
+      "hub_id": "57830",
+      "hub_name": "GUANGZHOU",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 23.1166666668972,
+      "hub_longitude": 113.233333333408,
+      "great_circle_distance_km": 53.5,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:f0ddf06c3b0f",
+      "facility_name": "Mitsui High-tec Shanghai motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 1,
+      "hub_id": "ZSSS",
+      "hub_name": "Shanghai Hongqiao International Airport",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 31.198104,
+      "hub_longitude": 121.33426,
+      "great_circle_distance_km": 13.4,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:f0ddf06c3b0f",
+      "facility_name": "Mitsui High-tec Shanghai motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 2,
+      "hub_id": "ZSPD",
+      "hub_name": "Shanghai Pudong International Airport",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 31.1434,
+      "hub_longitude": 121.805,
+      "great_circle_distance_km": 33.3,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:f0ddf06c3b0f",
+      "facility_name": "Mitsui High-tec Shanghai motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 3,
+      "hub_id": "CN-0154",
+      "hub_name": "Jiaxing Nanhu Airport",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 30.698056,
+      "hub_longitude": 120.663056,
+      "great_circle_distance_km": 97.1,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:f0ddf06c3b0f",
+      "facility_name": "Mitsui High-tec Shanghai motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 1,
+      "hub_id": "59970",
+      "hub_name": "SHANGHAI",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 31.2166666667823,
+      "hub_longitude": 121.500000000155,
+      "great_circle_distance_km": 3.3,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:f0ddf06c3b0f",
+      "facility_name": "Mitsui High-tec Shanghai motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 2,
+      "hub_id": "59976",
+      "hub_name": "TAICANG",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 31.6500000000612,
+      "hub_longitude": 121.199999999598,
+      "great_circle_distance_km": 53.1,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:f0ddf06c3b0f",
+      "facility_name": "Mitsui High-tec Shanghai motor-core and leadframe plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 3,
+      "hub_id": "59974",
+      "hub_name": "CHANGSHU",
+      "hub_country_code_or_name": "CN",
+      "hub_latitude": 31.7666666663545,
+      "hub_longitude": 120.949999999583,
+      "great_circle_distance_km": 77.3,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:38f60256590e",
+      "facility_name": "Mitsui High-tec Gifu motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 1,
+      "hub_id": "RJNA",
+      "hub_name": "Nagoya Airport / JASDF Komaki Air Base",
+      "hub_country_code_or_name": "JP",
+      "hub_latitude": 35.255759,
+      "hub_longitude": 136.924095,
+      "great_circle_distance_km": 22.7,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:38f60256590e",
+      "facility_name": "Mitsui High-tec Gifu motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 2,
+      "hub_id": "RJGG",
+      "hub_name": "Chubu Centrair International Airport",
+      "hub_country_code_or_name": "JP",
+      "hub_latitude": 34.858398,
+      "hub_longitude": 136.804993,
+      "great_circle_distance_km": 67.3,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:38f60256590e",
+      "facility_name": "Mitsui High-tec Gifu motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 3,
+      "hub_id": "RJAF",
+      "hub_name": "Shinshu-Matsumoto Airport",
+      "hub_country_code_or_name": "JP",
+      "hub_latitude": 36.166801,
+      "hub_longitude": 137.923004,
+      "great_circle_distance_km": 113.2,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:38f60256590e",
+      "facility_name": "Mitsui High-tec Gifu motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 1,
+      "hub_id": "61480",
+      "hub_name": "NAGOYA KO",
+      "hub_country_code_or_name": "JP",
+      "hub_latitude": 35.0666666664153,
+      "hub_longitude": 136.866666666612,
+      "great_circle_distance_km": 43.7,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:38f60256590e",
+      "facility_name": "Mitsui High-tec Gifu motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 2,
+      "hub_id": "61490",
+      "hub_name": "YOKKAICHI",
+      "hub_country_code_or_name": "JP",
+      "hub_latitude": 34.966666666975,
+      "hub_longitude": 136.633333333744,
+      "great_circle_distance_km": 64.2,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:38f60256590e",
+      "facility_name": "Mitsui High-tec Gifu motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 3,
+      "hub_id": "61470",
+      "hub_name": "KINUURA KO",
+      "hub_country_code_or_name": "JP",
+      "hub_latitude": 34.8499999999143,
+      "hub_longitude": 136.949999999651,
+      "great_circle_distance_km": 64.9,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:d4d306dcb35c",
+      "facility_name": "Mitsui High-tec Ayutthaya motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 1,
+      "hub_id": "VTBD",
+      "hub_name": "Don Mueang International Airport",
+      "hub_country_code_or_name": "TH",
+      "hub_latitude": 13.9126,
+      "hub_longitude": 100.607002,
+      "great_circle_distance_km": 36.4,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:d4d306dcb35c",
+      "facility_name": "Mitsui High-tec Ayutthaya motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 2,
+      "hub_id": "VTBS",
+      "hub_name": "Suvarnabhumi Airport",
+      "hub_country_code_or_name": "TH",
+      "hub_latitude": 13.6811,
+      "hub_longitude": 100.747002,
+      "great_circle_distance_km": 64.5,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:d4d306dcb35c",
+      "facility_name": "Mitsui High-tec Ayutthaya motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "commercial_airport",
+      "proximity_rank": 3,
+      "hub_id": "VTBU",
+      "hub_name": "U-Tapao–Rayong–Pattaya International Airport",
+      "hub_country_code_or_name": "TH",
+      "hub_latitude": 12.6799,
+      "hub_longitude": 101.004997,
+      "great_circle_distance_km": 179.3,
+      "source_ids": "SRC_OURAIRPORTS",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_air_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:d4d306dcb35c",
+      "facility_name": "Mitsui High-tec Ayutthaya motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 1,
+      "hub_id": "57450",
+      "hub_name": "BANGKOK",
+      "hub_country_code_or_name": "TH",
+      "hub_latitude": 13.7499999997112,
+      "hub_longitude": 100.499999999784,
+      "great_circle_distance_km": 55.2,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:d4d306dcb35c",
+      "facility_name": "Mitsui High-tec Ayutthaya motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 2,
+      "hub_id": "57470",
+      "hub_name": "KO SI CHANG TERMINAL",
+      "hub_country_code_or_name": "TH",
+      "hub_latitude": 13.1666666667341,
+      "hub_longitude": 100.81666666659,
+      "great_circle_distance_km": 121.9,
+      "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
+      "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
+      "cargo_service_status": "unverified_commercial_cargo_capability",
+      "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route."
+    },
+    {
+      "facility_id": "PUBLIC_SITE:d4d306dcb35c",
+      "facility_name": "Mitsui High-tec Ayutthaya motor-core plant",
+      "company": "Mitsui High-tec",
+      "hub_type": "port",
+      "proximity_rank": 3,
+      "hub_id": "57458",
+      "hub_name": "SI RACHA",
+      "hub_country_code_or_name": "TH",
+      "hub_latitude": 13.1666666667341,
+      "hub_longitude": 100.916666666776,
+      "great_circle_distance_km": 124.6,
       "source_ids": "SRC_NGA_WPI;R_WPI_MIRROR",
       "facility_coordinate_precision": "OSM_city_or_district_proxy_not_factory_gate",
       "cargo_service_status": "unverified_commercial_cargo_capability",
@@ -56097,6 +57725,18 @@
       "source_ids": "R2_DENKA_OMUTA;R_OSM_GEOCODE"
     },
     {
+      "node_id": "LD:aluminum",
+      "node_name": "Aluminum",
+      "provider_name": "Hydro",
+      "public_site_count": 1,
+      "explicit_product_class_site_count": 1,
+      "product_class_site_ids": "PUBLIC_SITE:ea0ea06f9cc0",
+      "other_company_site_ids": "",
+      "site_status": "product_class_site_documented",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": "R4_HYDRO_GREVEN;R_OSM_GEOCODE"
+    },
+    {
       "node_id": "LD:ammonia",
       "node_name": "Ammonia",
       "provider_name": "Linde",
@@ -56580,6 +58220,18 @@
       "node_id": "LD:copper_foil_enig",
       "node_name": "Electrodeposited copper foil & ENIG chemistry",
       "provider_name": "MacDermid Alpha",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "LD:deionized_water_coolant",
+      "node_name": "Deionized water coolant",
+      "provider_name": "Kurita",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
@@ -57336,11 +58988,11 @@
       "node_id": "LD:lead_frames",
       "node_name": "Lead frames",
       "provider_name": "Mitsui High-Tec",
-      "public_site_count": 0,
+      "public_site_count": 5,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
-      "other_company_site_ids": "",
-      "site_status": "no_site_evidence_in_current_package",
+      "other_company_site_ids": "PUBLIC_SITE:54ffa8823a46;PUBLIC_SITE:b253814d4353;PUBLIC_SITE:f0ddf06c3b0f;PUBLIC_SITE:38f60256590e;PUBLIC_SITE:d4d306dcb35c",
+      "site_status": "company_sites_only_product_allocation_unverified",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -58039,6 +59691,18 @@
       "site_status": "product_class_site_documented",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": "R_BHP_OLYMPIC;R_OSM_GEOCODE"
+    },
+    {
+      "node_id": "LD:sic_lapping_slurry",
+      "node_name": "SiC lapping slurry",
+      "provider_name": "Lapmaster Wolters",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
     },
     {
       "node_id": "LD:silane",
@@ -59937,6 +61601,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "SC-MAGNET-WIRE",
+      "node_name": "Polyimide-Enameled Oxygen-Free Copper Winding Wire",
+      "provider_name": "Taya Group",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "SC-MCU-DIE",
       "node_name": "Fabricated 32-Bit ARM Cortex-M Microcontroller Silicon Die",
       "provider_name": "Nuvoton",
@@ -60067,6 +61743,18 @@
       "site_status": "no_site_evidence_in_current_package",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
+    },
+    {
+      "node_id": "SC-SILICON-STEEL",
+      "node_name": "Laminated Electrical Silicon-Steel Stator Core",
+      "provider_name": "Mitsui High-tec",
+      "public_site_count": 5,
+      "explicit_product_class_site_count": 5,
+      "product_class_site_ids": "PUBLIC_SITE:54ffa8823a46;PUBLIC_SITE:b253814d4353;PUBLIC_SITE:f0ddf06c3b0f;PUBLIC_SITE:38f60256590e;PUBLIC_SITE:d4d306dcb35c",
+      "other_company_site_ids": "",
+      "site_status": "product_class_site_documented",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": "R4_MITSUI_SITES;R_OSM_GEOCODE"
     },
     {
       "node_id": "SC-SILICONE-MATRIX",
@@ -62412,6 +64100,276 @@
       "title": "Global facilities with manufacturing functions",
       "url": "https://www.technic.com/about/about-technic-global-facilities",
       "use": "Admitted entries explicitly state manufacture; headquarters-only, sales-only, R&D-only and equipment plants excluded. Individual plating-product allocation is unverified. This subset is not the complete global footprint.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_TORAY_PBT",
+      "organization": "Toray",
+      "title": "Reinforced PBT technical properties",
+      "url": "https://www.plastics.toray/technical/toraycon/tec_003.html",
+      "use": "Lists glass-fibre reinforced PBT grades; does not verify a particular GPU fan moulding or reinforcement percentage.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_IPS_SETTER",
+      "organization": "IPS Ceramics",
+      "title": "Kiln setters, supports and cranks",
+      "url": "https://ipsceramics.com/kiln-furniture/setters-supports-cranks/",
+      "use": "Defines the firing support function. Does not establish bulk YSZ composition or electronics suitability.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_SHINETSU_REFLECTOR",
+      "organization": "Shin-Etsu Chemical",
+      "title": "LED reflector material announcement, 2009",
+      "url": "https://www.shinetsu.co.jp/jp/news/other/shin-etsu-chemical-develops-a-silicone-reflector-material-for-high-brightness-leds-and-transparent-protective-film/",
+      "use": "Explains reflector function and historical PPA use; proposes silicone alternatives. Not a current GPU-specific recipe.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_MOLEX_LCP",
+      "organization": "Molex",
+      "title": "Impact connector technical drawing",
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/765/76530/765303047_sd.pdf",
+      "use": "Documents a glass-filled LCP connector body. This is not a DisplayPort drawing and supports only the material-class definition.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_TECHNIC_GOLD",
+      "organization": "Technic",
+      "title": "Gold plating technical presentation, 2014",
+      "url": "https://www.technic.com/sites/default/files/resources/SUR-FIN%20pres%200614.pdf",
+      "use": "Discusses potassium gold cyanide plating chemistry. Used only to distinguish plating salt from elemental gold, not current sales/site evidence.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_AMKOR_FLIP",
+      "organization": "Amkor",
+      "title": "Flip-chip assembly technology sheet",
+      "url": "https://amkor.com/wp-content/uploads/2018/02/Flip_Chip_TS102.pdf",
+      "use": "Describes bumped die attachment to substrate and underfill. Supports the distinction between bare die, packaging operation and packaged output; not an NVIDIA supplier assignment.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_SHINKO_PBGA",
+      "organization": "Shinko Electric Industries",
+      "title": "Organic plastic BGA substrates",
+      "url": "https://www.shinko.co.jp/english/product/package/substrate/pbga.php",
+      "use": "Organic prepreg substrates for logic and memory; through-hole and build-up options. BT/ABF grade and exact GDDR package are not established.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_COILCRAFT_VRM",
+      "organization": "Coilcraft",
+      "title": "Magnetics in multiphase voltage regulators",
+      "url": "https://www.coilcraft.com/en-us/resources/application-notes/tlvr-multiphase-magnetics/",
+      "use": "Interleaved buck-converter phases use individual inductors; TLVR is a distinct architecture. Phase count and exact board BOM remain design choices.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_SIERRA_EDGE",
+      "organization": "Sierra Circuits",
+      "title": "PCB gold fingers",
+      "url": "https://www.protoexpress.com/kb/gold-fingers/",
+      "use": "PCB edge-contact terminology and fabrication context; a card edge is different from its mating board socket.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_ROHM_TERMINATIONS",
+      "organization": "ROHM",
+      "title": "Chip resistor FAQ, 2012, question 5",
+      "url": "https://fscdn.rohm.com/en/products/databook/operation/passive/resistor/common/faq.pdf",
+      "use": "Documents silver-based inner termination, nickel barrier and tin outer layer for the described chip resistors. Counters treating copper/nickel/tin as universal for every passive component; dated factory claims not used as current site evidence.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_ROHM_BODY",
+      "organization": "ROHM",
+      "title": "Chip resistor construction and use notes",
+      "url": "https://fscdn.rohm.com/en/products/databook/operation/passive/resistor/common/r_siyoujou.pdf",
+      "use": "Technical construction reference for ceramic thick-film resistor bodies; the specified recipe does not cover every resistor technology.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_MURATA_INDUCTOR",
+      "organization": "Murata",
+      "title": "Power inductor structures",
+      "url": "https://www.murata.com/en-global/products/inductor/power/overview/feature/power",
+      "use": "Distinguishes wire-wound and multilayer inductors; magnetic core, winding and resin construction depend on the product family.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_ACT_WATER",
+      "organization": "Advanced Cooling Technologies",
+      "title": "Heat pipe fundamentals",
+      "url": "https://www.1-act.com/thermal-solutions/passive/heat-pipes/heat-pipes-101/",
+      "use": "Two-phase heat transfer and copper/water compatibility. Does not establish a specific degassing or impurity specification for a GPU cooler.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_LAPMASTER_SIC",
+      "organization": "Lapmaster Wolters",
+      "title": "Premixed abrasive slurries",
+      "url": "https://www.lapmaster-wolters.com/pre-mixed-abrasive-slurries.html",
+      "use": "Explicitly offers slurries containing silicon-carbide abrasive powder. Wafer suitability, particle distribution and carrier purity require qualification.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_WACKER_SEED",
+      "organization": "Wacker",
+      "title": "Siemens deposition on seed rods, annual report 2022",
+      "url": "https://reports.wacker.com/2022/annual-report/sustainable-solutions/purity-is-our-recipe-for-success.html",
+      "use": "Trichlorosilane deposits silicon on seed rods to produce polysilicon before crystal growth. Seed rods are not themselves fabricated GPU wafers; merchant slim-rod sales not established.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_KURITA_WATER",
+      "organization": "Kurita",
+      "title": "Ultrapure water supply service",
+      "url": "https://www.kurita-water.com/en/solution/watersupply.html",
+      "use": "Documents installation and operation of water-treatment systems plus supply of UPW itself. Facility-specific service contracts and cooling-fluid suitability are not established.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_HYDRO_AL",
+      "organization": "Hydro",
+      "title": "High-purity aluminium for electronics",
+      "url": "https://www.hydro.com/en/global/aluminium/products/casthouse-products/high-purity-aluminium/",
+      "use": "High-purity aluminium feedstock and semiconductor sputtering applications; numeric purity range is reported separately from inconsistent N shorthand on the page.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_HYDRO_GREVEN",
+      "organization": "Hydro",
+      "title": "High Purity GmbH production location",
+      "url": "https://www.hydro.com/en/global/about-hydro/hydro-worldwide/europe/germany/grevenbroich/hydro-aluminium-high-purity-gmbh/",
+      "use": "Identifies ultra-pure aluminium production business and Grevenbroich address; specific customer qualification not established.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_TAYA_WIRE",
+      "organization": "Taya Group",
+      "title": "Polyimide-enamelled copper wire catalog",
+      "url": "https://www.taya.com.tw/en/enamel-wire",
+      "use": "Explicit PI-enamelled copper wire product. Oxygen-free conductor grade and GPU fan winding use remain unconfirmed.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_MITSUI_CORE",
+      "organization": "Mitsui High-tec",
+      "title": "Electrical-steel motor-core manufacture",
+      "url": "https://www.mitsui-high-tec.com/technology/",
+      "use": "Manufacturer describes stacking electrical steel to make motor cores for automotive and household equipment. GPU-fan dimensions and suitability not established.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_MITSUI_SITES",
+      "organization": "Mitsui High-tec Canada",
+      "title": "Group manufacturing network",
+      "url": "https://mht-canada.com/global-network/",
+      "use": "Lists named motor-core plants and addresses. Office-only and placeholder under-construction entries excluded; this is a documented subset.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_MYLAR_INSULATION",
+      "organization": "Mylar Specialty Films",
+      "title": "Polyester electrical insulation films",
+      "url": "https://mylar.com/market-areas-for-mylar-specialty-films-range/mylar-polyester-film-for-electrical-insulation/",
+      "use": "Names insulation film and manufacturing in Dumfries and Hopewell. Film supply is distinct from die-cut finished liners; no finished-liner vendor mapping is inferred.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_USGS_AS",
+      "organization": "USGS",
+      "title": "Arsenic commodity overview",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/arsenic-statistics-and-information",
+      "use": "Arsenic recovery can use arsenopyrite or smelter byproducts. An arsenopyrite mine is not universally necessary for arsine or GaAs manufacture.",
+      "reliability": "US geological agency commodity reference; not a supplier contract or mine allocation",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_VAC_LAMINATION",
+      "organization": "Vacuumschmelze",
+      "title": "Laminated magnetic cores",
+      "url": "https://www.vacuumschmelze.com/products/soft-magnetic-materials-and-stamped-parts/lamination-stacks",
+      "use": "Explains insulated sheet stacks and eddy-current control; its cobalt/nickel iron products are not accepted as silicon-steel substitutes.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_NORDSON_COAT",
+      "organization": "Nordson",
+      "title": "Conformal coating material families",
+      "url": "https://www.nordson.com/en/divisions/electronics-solutions/your-process/fluid-types/conformal-coating-materials",
+      "use": "Distinguishes acrylic, polyurethane and hybrid formulations. This does not establish one shared formulation for photoresist, pressure-sensitive adhesive and motor lamination varnish.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_TI_RGB",
+      "organization": "Texas Instruments",
+      "title": "Microcontroller RGB LED reference design",
+      "url": "https://www.ti.com/tool/TIDM-G2XXSWRGBLED",
+      "use": "Documents PWM control of red, green and blue LED channels using a microcontroller; this supports a circuit function, not a mandatory standalone GPU daughterboard.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_ASUS_MECHANICAL",
+      "organization": "ASUS",
+      "title": "Dual RTX 3050 construction overview",
+      "url": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-rtx3050-8g/",
+      "use": "Describes shroud, heatsink, heatpipes, axial fans and protective backplate. Used as component terminology evidence only, not an RTX 5080 exact BOM.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_ANODIZING",
+      "organization": "Aluminum Anodizers Council",
+      "title": "Anodizing and colouring FAQ",
+      "url": "https://members.anodizing.org/page/anodized-aluminum-faq",
+      "use": "Oxide formation and dye colouring are different steps; bath additives, dye and substrate are not one interchangeable commodity.",
+      "reliability": "Industry association indexed reference; full page blocked with HTTP 403 in this pass; source verification incomplete",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_INTEL_POWER",
+      "organization": "Intel",
+      "title": "12V-2x6 auxiliary power connector pin assignments",
+      "url": "https://edc.intel.com/content/www/cn/zh/design/products-and-solutions/processors-and-chipsets/alder-lake-s/atx12vo-12v-only-desktop-power-supply-design-guide/2.11/2.11/dc-connectors/_Ref138773916/_Ref120543312/",
+      "use": "Reference connector/pinout for a modern auxiliary-power option. Project selects board-side connector assembly; connector generation/count require a selected card design.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R4_AL_ROLLING",
+      "organization": "The Aluminum Association",
+      "title": "Aluminium processing: sheet and plate",
+      "url": "https://www.aluminum.org/processing-101",
+      "use": "Describes rolled plate, subsequent machining and sheet production. Does not establish the alloy or dimensions of a GPU backplate.",
       "reliability": "Official company product or operations evidence; no independent market rank implied",
       "reviewed_on": "2026-11-24"
     }

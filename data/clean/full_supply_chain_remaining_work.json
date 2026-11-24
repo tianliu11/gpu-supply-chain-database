@@ -289,42 +289,6 @@
       "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
     },
     {
-      "node_id": "LD:sic_lapping_slurry",
-      "node_name": "SiC lapping slurry",
-      "node_type": "original_leaf_component",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "LD:deionized_water_coolant",
-      "node_name": "Deionized water coolant",
-      "node_type": "original_leaf_component",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "LD:aluminum",
-      "node_name": "Aluminum",
-      "node_type": "original_leaf_component",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
       "node_id": "LD:polyurethane_matrix",
       "node_name": "Porous polyurethane polymer matrix",
       "node_type": "intermediate_chemical_or_material",
@@ -469,32 +433,8 @@
       "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
     },
     {
-      "node_id": "SC-MAGNET-WIRE",
-      "node_name": "Polyimide-Enameled Oxygen-Free Copper Winding Wire",
-      "node_type": "sub_component",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
       "node_id": "SC-PPA-REFLECTOR",
       "node_name": "TiO2-Filled Polyphthalamide (PPA) Molded LED Reflector Cup",
-      "node_type": "sub_component",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "SC-SILICON-STEEL",
-      "node_name": "Laminated Electrical Silicon-Steel Stator Core",
       "node_type": "sub_component",
       "vendor_count": "0",
       "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
@@ -1539,6 +1479,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "LD:deionized_water_coolant",
+      "node_name": "Deionized water coolant",
+      "provider_name": "Kurita",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "LD:deposition_materials",
       "node_name": "Deposition materials",
       "provider_name": "Grikin",
@@ -2142,11 +2094,11 @@
       "node_id": "LD:lead_frames",
       "node_name": "Lead frames",
       "provider_name": "Mitsui High-Tec",
-      "public_site_count": 0,
+      "public_site_count": 5,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
-      "other_company_site_ids": "",
-      "site_status": "no_site_evidence_in_current_package",
+      "other_company_site_ids": "PUBLIC_SITE:54ffa8823a46;PUBLIC_SITE:b253814d4353;PUBLIC_SITE:f0ddf06c3b0f;PUBLIC_SITE:38f60256590e;PUBLIC_SITE:d4d306dcb35c",
+      "site_status": "company_sites_only_product_allocation_unverified",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -2723,6 +2675,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "PUBLIC_SITE:2ccf06729bf3;PUBLIC_SITE:0c2f32050a95;PUBLIC_SITE:a5350ca8ab96",
       "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "LD:sic_lapping_slurry",
+      "node_name": "SiC lapping slurry",
+      "provider_name": "Lapmaster Wolters",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -4098,6 +4062,18 @@
       "node_id": "SC-LEGEND",
       "node_name": "Epoxy Silkscreen Component Legend Ink",
       "provider_name": "Taiyo Holdings",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "SC-MAGNET-WIRE",
+      "node_name": "Polyimide-Enameled Oxygen-Free Copper Winding Wire",
+      "provider_name": "Taya Group",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",

@@ -120,5 +120,22 @@ class ResearchIntegrity(unittest.TestCase):
         for lead in diagnosis['access_blocked_leads']:
             self.assertFalse(any(r['full_graph_node_id']==lead['node_id'] and r['provider_name']==lead['supplier'] for r in vendors))
 
+    def test_definition_and_review_provenance(self):
+        defs=rows('component_definitions.csv')
+        self.assertEqual(len(defs),54)
+        sources={r['source_id'] for r in rows('sources.csv')}
+        for d in defs:
+            self.assertTrue(d['formal_definition'] and d['project_interpretation'])
+            self.assertTrue(set(d['source_ids'].split(';')) <= sources)
+        decisions=rows('structure_review_decisions.csv')
+        self.assertEqual(len(decisions),757)
+        reviewed=json.loads((ROOT/'data/clean/reviewed_supply_chain_structure.json').read_text())
+        self.assertEqual(len(reviewed['nodes']),287)
+        self.assertEqual(len(reviewed['edges']),751)
+        self.assertFalse(any(e['edge_id']=='E0036' for e in reviewed['edges']))
+        original=json.loads((ROOT/'data/raw/gpu_complete_node_to_node_supply_chain.json').read_text())
+        self.assertEqual({x for n in reviewed['nodes'] for x in n['original_node_ids']},{n['id'] for n in original['nodes']})
+        self.assertTrue(reviewed['metadata']['acyclic'])
+
 if __name__=='__main__':
     unittest.main()

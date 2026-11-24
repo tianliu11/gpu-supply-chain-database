@@ -68,6 +68,7 @@ for(const [i,k]of inputIds.entries()){const y=60+i*65;for(const e of inc.filter(
 for(const [i,k]of outputIds.entries()){const y=60+i*65;for(const e of out.filter(e=>e.target_node_id===k))line(805,cy,960,y,e)}
 inputIds.forEach((k,i)=>mark(N.get(k),185,60+i*65));outputIds.forEach((k,i)=>mark(N.get(k),1115,60+i*65));mark(n,650,cy)}
 document.getElementById('selected').textContent=n.id+' — '+n.name+' | '+inc.length+' proposed inputs | '+out.length+' proposed downstream links';
+const d=n.component_definition;table(['Definition','Project scope / limitations','Sources'],d?[[d.formal_definition,d.project_interpretation,{sources:d.source_ids}]]:[['No separate formal definition reviewed in this pass.','Original label retained; not certification of the recipe.',{sources:''}]],document.getElementById('definition'));
 table(['Supplier candidate','Product scope','Qualification status','Sources'],n.vendor_candidates.map(v=>[v.provider_name,v.product_scope,v.qualification_status,{sources:v.source_ids}]),document.getElementById('vendors'));
 table(['Connection','Input → output','Evidence status','Review note','Sources'],[...inc,...out].map(e=>[e.edge_id,N.get(e.source_node_id).name+' → '+N.get(e.target_node_id).name,e.validation_status,e.audit_note,{sources:e.source_ids}]),document.getElementById('edges'));
 const links=D.site_coverage.filter(v=>v.node_id===id);table(['Supplier','Site evidence status','Product-class sites','Other company sites'],links.map(v=>[v.provider_name,v.site_status,v.product_class_site_ids,v.other_company_site_ids]),document.getElementById('sites'))}
@@ -114,6 +115,8 @@ def overview(nodes,edges):
     return positions,height
 
 def main():
+    from build_reviewed_structure import main as build_reviewed_structure
+    reviewed=build_reviewed_structure()
     from build_gap_diagnosis import main as build_gap_diagnosis
     build_gap_diagnosis()
     FIG.mkdir(exist_ok=True)
@@ -123,8 +126,13 @@ def main():
     controls='<div class="controls"><label>Component<select id="component"></select></label><label>View<select id="mode"><option value="focus">Selected node and immediate neighbors</option><option value="overview">All submitted nodes and connections</option></select></label></div>'
     body='''<div class="legend"><span><i class="swatch" style="background:var(--yes)"></i>Supplier candidate present</span><span><i class="swatch" style="background:var(--no)"></i>No supplier candidate</span><span>Solid link: scoped supporting evidence; dashed: other audit status</span></div><p id="selected" aria-live="polite"></p><div class="plot"><svg id="graph" role="img" aria-label="Submitted component dependency graph with evidence states"></svg></div><h2>Supplier candidates</h2><div id="vendors" class="table-wrap"></div><h2>Connections and evidence</h2><div id="edges" class="table-wrap"></div><h2>Manufacturing-site coverage</h2><div id="sites" class="table-wrap"></div>'''
     data=dict(nodes=db['nodes'],edges=db['edges'],sources=db['sources'],site_coverage=db['vendor_site_coverage'],positions=pos,overview_height=height)
+    body += '<h2>Definition and interpretation</h2><div id="definition" class="table-wrap"></div>'
     (FIG/'full_supply_chain_structure.html').write_text(page('GPU component structure and evidence',
         'The submitted JSON is preserved: arrows point from an input to the item or stage it feeds. Connections include categories, consumables and proposed material relationships—not observed shipments. Click a node to inspect its sources. Supplier presence does not prove interchangeability.',controls,body,GRAPH_JS,data))
+    review_pos,review_height=overview(reviewed['nodes'],reviewed['edges'])
+    review_data=dict(nodes=reviewed['nodes'],edges=reviewed['edges'],sources=reviewed['sources'],site_coverage=reviewed['vendor_site_coverage'],positions=review_pos,overview_height=review_height)
+    (FIG/'full_supply_chain_reviewed_structure.html').write_text(page('Reviewed GPU dependency structure — provisional',
+        'Review layer: duplicate bare/packaged die identities merged and six unsuitable default links excluded. Definitions and decision notes are available below. Retained links are NOT all verified recipes or shipments; missing process stages and conditional alternatives still prevent validated redundancy analysis. Original JSON is preserved separately.',controls,body,GRAPH_JS,review_data))
     world=json.loads((ROOT/'data/raw/natural_earth_countries.geojson').read_text())
     data=dict(world=world,facilities=[f for f in db['facilities'] if f['latitude'] not in ('',None) and f['longitude'] not in ('',None)],hubs=db['nearby_hub_candidates'],sources=db['sources'])
     controls='<div class="controls"><label>Production asset<select id="factory"></select></label></div>'
@@ -139,7 +147,7 @@ def main():
       dict(task='Find all manufacturing sites for selected vendors',status='partial',detail=f"{report['public_production_site_rows']} public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial."),
       dict(task='Nearest one to three commercial airports and ports',status='geographic_screening_done_cargo_validation_pending',detail=f"{report['nearest_hub_rows']} nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified."),
       dict(task='Clean database, sources and reproducible code',status='done',detail='CSV tables, consolidated JSON, raw inputs, source register, geocode cache, research logs and integrity tests included.'),
-      dict(task='Two visualizations matching the updated data',status='done',detail='Offline component/evidence explorer and production-location/hub map generated from the latest consolidated JSON.'),
+      dict(task='Two visualizations matching the updated data',status='done',detail='Offline original component explorer and production-location/hub map, plus a separate reviewed-structure explorer with scoped definitions.'),
       dict(task='Observed manufacturing times and multimodal delivery times',status='not_completed',detail='Earlier scenario assumptions are not observed node-specific lead times; this extension adds no fabricated times or booked routes.'),
       dict(task='Validated real-world redundancy analysis',status='not_completed',detail='Requires reviewed AND/OR dependencies, qualified supplier alternatives, site allocations, capacity and validated logistics. No finished analysis is claimed.'),
     ]
@@ -186,8 +194,9 @@ def main():
       'python3 code/test_public_research_integrity.py','',
       'The rebuild uses checked-in inputs and no external Python packages. Refreshing geocodes is optional and uses a rate-limited network service.',
       'The older PNGs and legacy transport/time tables describe the earlier smaller model, not this complete-node research extension.',
-      'Visualization QA: JavaScript/DOM smoke tests exercise both files. Actual browser layout review was unavailable: in-app localhost timed out and local Chrome attachment required an app network-policy update.'])
+      'Definition and semantic review: see STRUCTURE_REVIEW.txt, component_definitions.json and structure_review_decisions.csv. Original input preserved; revised graph is provisional.',
+      'Visualization QA: JavaScript/DOM smoke tests exercise all three files. Actual browser layout review was unavailable: in-app localhost timed out and local Chrome attachment required an app network-policy update.'])
     (ROOT/'RESEARCH_HANDOFF.txt').write_text('\n'.join(lines)+'\n')
-    print('Built two offline visualizations, task status, unresolved queue and RESEARCH_HANDOFF.txt')
+    print('Built three offline visualizations, task status, unresolved queue and RESEARCH_HANDOFF.txt')
 
 if __name__=='__main__':main()

@@ -1,0 +1,542 @@
+[
+  {
+    "node_id": "0",
+    "preferred_name": "Discrete graphics card",
+    "semantic_kind": "finished_assembly",
+    "formal_definition": "A circuit-board assembly containing a graphics processor, memory, power conversion and external interfaces, with a cooling and mechanical system.",
+    "source_ids": "R2_MSI_CARD;R4_ASUS_MECHANICAL",
+    "project_interpretation": "Keep a generic discrete graphics-card case; quantities in the submitted BOM remain unverified design assumptions.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "1",
+    "preferred_name": "Populated graphics-card PCB assembly",
+    "semantic_kind": "assembly",
+    "formal_definition": "The main printed circuit board after electronic components have been mounted and interconnected.",
+    "source_ids": "R4_SIERRA_EDGE;R2_MSI_CARD",
+    "project_interpretation": "Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "1.2",
+    "preferred_name": "Packaged and tested GPU device",
+    "semantic_kind": "packaged_device",
+    "formal_definition": "A fabricated GPU die integrated with package interconnections and substrate, then tested as a packaged device.",
+    "source_ids": "R4_AMKOR_FLIP;SRC_SIA_PROCESS",
+    "project_interpretation": "Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:finished_logic_die",
+    "preferred_name": "Packaged and tested GPU device",
+    "semantic_kind": "packaged_device",
+    "formal_definition": "A fabricated GPU die integrated with package interconnections and substrate, then tested as a packaged device.",
+    "source_ids": "R4_AMKOR_FLIP;SRC_SIA_PROCESS",
+    "project_interpretation": "Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "1.2.1",
+    "preferred_name": "Fabricated bare GPU die",
+    "semantic_kind": "bare_die",
+    "formal_definition": "The semiconductor die containing fabricated GPU circuitry before package assembly.",
+    "source_ids": "SRC_SIA_FRONTEND;R4_AMKOR_FLIP",
+    "project_interpretation": "Alias the two labels in the reviewed graph; wafer fabrication and die preparation precede packaging.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:logic_die_fabricated",
+    "preferred_name": "Fabricated bare GPU die",
+    "semantic_kind": "bare_die",
+    "formal_definition": "The semiconductor die containing fabricated GPU circuitry before package assembly.",
+    "source_ids": "SRC_SIA_FRONTEND;R4_AMKOR_FLIP",
+    "project_interpretation": "Alias the two labels in the reviewed graph; wafer fabrication and die preparation precede packaging.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:assembly_packaging_testing",
+    "preferred_name": "GPU package assembly and test",
+    "semantic_kind": "process",
+    "formal_definition": "Operations that attach and electrically connect the fabricated die, complete its package and test the packaged device.",
+    "source_ids": "R4_AMKOR_FLIP;SRC_SIA_PROCESS",
+    "project_interpretation": "Use as a transformation node. Flip-chip and wire-bond recipes are design alternatives, not universally simultaneous inputs.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:fabrication",
+    "preferred_name": "Semiconductor wafer fabrication",
+    "semantic_kind": "process",
+    "formal_definition": "Repeated deposition, patterning, doping, etching and related operations that create integrated circuits on a semiconductor wafer.",
+    "source_ids": "SRC_SIA_FRONTEND",
+    "project_interpretation": "Manufacturing site/operator belongs to this process; a bare die additionally requires wafer test and separation.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "1.4",
+    "preferred_name": "VRM phase",
+    "semantic_kind": "functional_subassembly",
+    "formal_definition": "One switching-converter channel in a multiphase voltage regulator, including its power stage and associated magnetic energy-storage path.",
+    "source_ids": "R4_COILCRAFT_VRM",
+    "project_interpretation": "A board circuit function. Phase count and shared versus per-phase capacitors require schematic evidence.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "1.5",
+    "preferred_name": "Graphics-card I/O mounting bracket",
+    "semantic_kind": "mechanical_part",
+    "formal_definition": "The rear mounting part that secures the card at chassis expansion slots and provides openings for display connectors.",
+    "source_ids": "R4_ASUS_MECHANICAL;R2_MSI_CARD",
+    "project_interpretation": "Project functional definition; material, dimensions and stamping supplier are design-specific.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "3",
+    "preferred_name": "Graphics-card backplate",
+    "semantic_kind": "mechanical_part",
+    "formal_definition": "A rear cover or stiffening plate over the back of the graphics-card board; heat-spreading function depends on thermal contact and design.",
+    "source_ids": "R4_ASUS_MECHANICAL",
+    "project_interpretation": "Mechanical function is defined; aluminium alloy, insulation and thermal pads are not universally required.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "7",
+    "preferred_name": "Cooler shroud",
+    "semantic_kind": "mechanical_part",
+    "formal_definition": "The housing surrounding portions of the cooling assembly, supporting or covering fans and influencing airflow.",
+    "source_ids": "R4_ASUS_MECHANICAL",
+    "project_interpretation": "A custom housing; polymer and metal versions are alternatives. Do not prescribe PC/ABS universally.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "4",
+    "preferred_name": "PCB edge contact fingers",
+    "semantic_kind": "integrated_board_feature",
+    "formal_definition": "Patterned and finished conductive contacts at the card PCB edge that mate with the host PCI Express connector.",
+    "source_ids": "R4_SIERRA_EDGE",
+    "project_interpretation": "Allocate manufacture to PCB/contact finishing; do not count a motherboard socket as the card part.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "5",
+    "preferred_name": "Board-side auxiliary power connector assembly",
+    "semantic_kind": "connector_assembly",
+    "formal_definition": "The card-mounted connector housing and contacts accepting supplemental electrical power from an external cable.",
+    "source_ids": "R4_INTEL_POWER",
+    "project_interpretation": "Choose board-side scope; cable and PSU are outside this node. 12V-2x6 is an option, not a verified part assignment.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "6",
+    "preferred_name": "Display output interface group",
+    "semantic_kind": "functional_group",
+    "formal_definition": "A grouping of board-mounted video receptacles and associated protection circuitry.",
+    "source_ids": "R2_MOLEX_DP;R2_MSI_CARD",
+    "project_interpretation": "Retain HDMI/DisplayPort/protection children; no separate supplier is required for a grouping label.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "8",
+    "preferred_name": "Optional RGB lighting subsystem",
+    "semantic_kind": "optional_assembly",
+    "formal_definition": "LED emitters plus drive/control circuitry providing decorative multicolour lighting.",
+    "source_ids": "R4_TI_RGB;R_CREE_RGB",
+    "project_interpretation": "Optional in a generic GPU card. Absence does not prevent the card from processing graphics.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "8.2",
+    "preferred_name": "RGB lighting control circuit",
+    "semantic_kind": "functional_subassembly",
+    "formal_definition": "Circuitry controlling LED-channel current or duty cycle to set colour and brightness.",
+    "source_ids": "R4_TI_RGB",
+    "project_interpretation": "The submitted MCU and board define one implementation; a dedicated driver IC or main-board integration is also possible.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "RAW-AIR",
+    "preferred_name": "Ambient air resource",
+    "semantic_kind": "local_resource",
+    "formal_definition": "The local atmospheric gas feed from which industrial air-separation operations recover gases such as nitrogen, oxygen and argon.",
+    "source_ids": "R_LINDE_ULTRAPURE",
+    "project_interpretation": "Use local resource intake; purified gases are separately manufactured products with grade and delivery constraints.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "RAW-WATER",
+    "preferred_name": "Freshwater resource",
+    "semantic_kind": "local_resource",
+    "formal_definition": "Raw water supplied to a site before application-specific purification or treatment.",
+    "source_ids": "R4_KURITA_WATER",
+    "project_interpretation": "Utility/source connection is site-dependent; do not interpret it as globally interchangeable shipped UPW.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "RAW-ARSENOPYRITE",
+    "preferred_name": "Arsenopyrite-bearing arsenic feedstock",
+    "semantic_kind": "raw_material_route",
+    "formal_definition": "Arsenic-bearing mineral feed that can be processed to recover arsenic; smelter byproducts provide alternative recovery routes.",
+    "source_ids": "R4_USGS_AS",
+    "project_interpretation": "Keep the original ore node as one route and flag mandatory-ore assumptions; do not invent a specific arsenopyrite mine.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:packaging_materials",
+    "preferred_name": "Semiconductor packaging material family",
+    "semantic_kind": "category",
+    "formal_definition": "The set of substrate, interconnection, attachment and protective materials used by a selected package process.",
+    "source_ids": "R4_AMKOR_FLIP;SRC_SIA_PROCESS",
+    "project_interpretation": "Category membership is not an AND requirement for every listed material.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:process_specific_fab_materials",
+    "preferred_name": "Process-specific fabrication materials",
+    "semantic_kind": "category",
+    "formal_definition": "Materials selected for particular wafer-fabrication operations and technology nodes.",
+    "source_ids": "SRC_SIA_FRONTEND",
+    "project_interpretation": "Expand by actual process recipe; this label has no single product specification.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:interconnect_materials",
+    "preferred_name": "Package-substrate conductive and finishing materials",
+    "semantic_kind": "category",
+    "formal_definition": "Conductive layers, via metallization and surface finishes used to route electrical connections through a package substrate.",
+    "source_ids": "R4_SHINKO_PBGA",
+    "project_interpretation": "The submitted children restrict scope to substrate interconnection; copper foil and ENIG chemistry need separate procurement branches.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:plastic_substrate",
+    "preferred_name": "Organic package-substrate dielectric structure",
+    "semantic_kind": "internal_material_structure",
+    "formal_definition": "The polymer-based insulating structure of an organic IC substrate, potentially including reinforcement and particulate filler.",
+    "source_ids": "R4_SHINKO_PBGA",
+    "project_interpretation": "Interpret from the resin, glass and filler children. It is not the complete routed substrate and is not a generic thermoplastic sheet.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:basic_acidic_chemical_inputs",
+    "preferred_name": "Process acid/base reagents",
+    "semantic_kind": "category",
+    "formal_definition": "Acidic or alkaline chemicals used for the selected polishing, cleaning or related process conditions.",
+    "source_ids": "R_FUJIMI_SLURRY;SRC_SIA_FRONTEND",
+    "project_interpretation": "List alternatives by recipe; the category alone does not prove every named acid belongs in one CMP mixture.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:dopants",
+    "preferred_name": "Semiconductor dopant sources",
+    "semantic_kind": "category",
+    "formal_definition": "Sources of intentionally introduced dopant species used to adjust semiconductor electrical behaviour.",
+    "source_ids": "R_LINDE_GASES;SRC_SIA_FRONTEND",
+    "project_interpretation": "Select p-type or n-type species and introduction method. A gas precursor listing alone does not prove use in crystal growth.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:polysilicon_starter_rods",
+    "preferred_name": "Silicon slim seed rods for polysilicon deposition",
+    "semantic_kind": "process_intermediate",
+    "formal_definition": "Slender silicon supports on which additional silicon is deposited during a Siemens-type polysilicon-production process.",
+    "source_ids": "R4_WACKER_SEED",
+    "project_interpretation": "Route to polysilicon production upstream of wafer growth; merchant sale and exact purity remain open.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:sic_lapping_slurry",
+    "preferred_name": "Silicon-carbide abrasive lapping slurry",
+    "semantic_kind": "process_consumable",
+    "formal_definition": "A suspension containing silicon-carbide abrasive particles in a liquid carrier, used for mechanical lapping.",
+    "source_ids": "R4_LAPMASTER_SIC",
+    "project_interpretation": "The submitted SiC-grit child resolves composition. Wafer grade and carrier are still process specifications, not arbitrary guesses.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:deionized_water_coolant",
+    "preferred_name": "Purified process water for coolant/slurry use",
+    "semantic_kind": "utility_or_consumable",
+    "formal_definition": "Water with ionic impurities reduced by treatment and supplied to the selected cooling or slurry operation.",
+    "source_ids": "R4_KURITA_WATER",
+    "project_interpretation": "DI water and semiconductor UPW are different specifications; set required purity from the downstream process.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-DI-WATER",
+    "preferred_name": "Water working fluid in a sealed cooler",
+    "semantic_kind": "internal_working_fluid",
+    "formal_definition": "A water charge that evaporates and condenses to transport heat inside a compatible heat pipe or vapor chamber.",
+    "source_ids": "R4_ACT_WATER",
+    "project_interpretation": "Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:aluminum",
+    "preferred_name": "High-purity aluminium metal feedstock",
+    "semantic_kind": "material",
+    "formal_definition": "Aluminium metal refined to the impurity limits required by an electronic-material or deposition application.",
+    "source_ids": "R4_HYDRO_AL",
+    "project_interpretation": "Distinguish high-purity feedstock from structural alloy plate and finished sputtering targets.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:polyurethane_matrix",
+    "preferred_name": "Polyurethane polishing-pad matrix",
+    "semantic_kind": "internal_material_structure",
+    "formal_definition": "The polyurethane-based polymer phase forming the functional body of a selected polishing pad.",
+    "source_ids": "R2_LAPMASTER_PAD;R_QNITY_PADS",
+    "project_interpretation": "Porosity and formulation depend on pad grade; no separately sold matrix supplier is inferred.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "LD:polyester_felt_backing",
+    "preferred_name": "Polyester-felt polishing-pad layer",
+    "semantic_kind": "internal_material_structure",
+    "formal_definition": "A nonwoven polyester-fibre layer used in certain pad constructions, sometimes impregnated with polyurethane.",
+    "source_ids": "R2_LAPMASTER_PAD",
+    "project_interpretation": "The source supports a felt-based design, not a universal backing required in every CMP pad.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "PM-ACRYLIC-PU",
+    "preferred_name": "Acrylic/urethane coating-resin family",
+    "semantic_kind": "material_family",
+    "formal_definition": "Resin systems using acrylic and/or polyurethane chemistry, including hybrid formulations selected for coating performance.",
+    "source_ids": "R4_NORDSON_COAT;R_SHERWIN_COATING",
+    "project_interpretation": "Separate coating resin, photoresist binder, pressure-sensitive adhesive and interlaminar varnish. Their formulations are not interchangeable.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "PM-REFINED-AU",
+    "preferred_name": "Refined gold metal and gold-plating salt branches",
+    "semantic_kind": "combined_products",
+    "formal_definition": "Two distinct products: purified elemental gold and a gold-containing salt used in selected plating solutions.",
+    "source_ids": "R4_TECHNIC_GOLD",
+    "project_interpretation": "The original combined label must not equate metal purity with gold mass fraction in a salt. Salt identity needs its own datasheet.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "DC-ANODIZE-CHEM",
+    "preferred_name": "Anodizing electrolyte and colourant branches",
+    "semantic_kind": "process_consumable_family",
+    "formal_definition": "Chemicals used to form an oxide layer on aluminium and, where selected, colour that layer in a subsequent or combined process.",
+    "source_ids": "R4_ANODIZING",
+    "project_interpretation": "Electrolyte and black dye are distinct purchases; bath reuse/replenishment means disposable is not a fixed one-use count.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "DC-SINTER-BOAT",
+    "preferred_name": "Ceramic setter or support for firing",
+    "semantic_kind": "process_tool",
+    "formal_definition": "A refractory support that holds parts during a firing or sintering operation.",
+    "source_ids": "R4_IPS_SETTER",
+    "project_interpretation": "Project adopts the support function only; bulk YSZ composition and universal use for resistor firing are not verified. Treat YSZ as a proposed material option.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-MYLAR-INSULATOR",
+    "preferred_name": "Converted polyester-film insulating liner",
+    "semantic_kind": "converted_part",
+    "formal_definition": "An electrically insulating polyester film cut or formed to the geometry needed between components.",
+    "source_ids": "R4_MYLAR_INSULATION",
+    "project_interpretation": "Film manufacture and final die cutting are separate capabilities. Mylar is a brand, not the name of every PET film.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-PBT-GF30",
+    "preferred_name": "Glass-reinforced PBT moulded fan part",
+    "semantic_kind": "moulded_part",
+    "formal_definition": "A fan impeller or frame formed from polybutylene terephthalate compounded with glass reinforcement.",
+    "source_ids": "R4_TORAY_PBT",
+    "project_interpretation": "Material identity comes from the submitted specification; 30% reinforcement and suitability for a selected fan remain unverified design choices.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-LCP-GF",
+    "preferred_name": "Glass-reinforced LCP connector insulator",
+    "semantic_kind": "moulded_part",
+    "formal_definition": "A connector insulating body moulded from a glass-reinforced liquid-crystal polymer compound.",
+    "source_ids": "R4_MOLEX_LCP",
+    "project_interpretation": "Compound and moulded body are different products. Verify the actual connector drawing before prescribing GF30.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-PPA-REFLECTOR",
+    "preferred_name": "PPA-based LED reflector body",
+    "semantic_kind": "moulded_part",
+    "formal_definition": "A moulded reflector or housing surrounding the LED emitter, using a selected reflective polymer compound.",
+    "source_ids": "R4_SHINETSU_REFLECTOR",
+    "project_interpretation": "PPA, glass reinforcement and TiO2 loading are submitted design choices; they are not universal requirements for RGB LED packages.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-AL-PLATE",
+    "preferred_name": "Rolled structural aluminium alloy plate",
+    "semantic_kind": "material",
+    "formal_definition": "Flat rolled aluminium-alloy stock used to fabricate a structural component.",
+    "source_ids": "R4_AL_ROLLING",
+    "project_interpretation": "5052 and 6061 are alternative alloy specifications from the submitted node; the stock must also specify temper, thickness and tolerances. Thin backplates may use sheet rather than plate; the exact alloy-to-part recipe remains unverified.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-FE-POWDER-CORE",
+    "preferred_name": "Pressed soft-magnetic metal-powder core",
+    "semantic_kind": "internal_component",
+    "formal_definition": "A magnetic body made from metal-powder particles and an insulating/binding system for an inductor.",
+    "source_ids": "R4_MURATA_INDUCTOR",
+    "project_interpretation": "Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-MAGNET-WIRE",
+    "preferred_name": "Polyimide-enamelled copper winding wire",
+    "semantic_kind": "material",
+    "formal_definition": "Copper conductor coated with electrically insulating polyimide enamel for forming a winding.",
+    "source_ids": "R4_TAYA_WIRE;R2_ELANTAS_ENAMEL",
+    "project_interpretation": "Polyimide is one insulation choice; oxygen-free copper and wire diameter remain specific requirements to verify.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-SILICON-STEEL",
+    "preferred_name": "Laminated electrical-steel stator core",
+    "semantic_kind": "internal_component",
+    "formal_definition": "A stack of shaped electrical-steel sheets forming the stationary magnetic circuit of a motor, with interlaminar insulation limiting eddy currents.",
+    "source_ids": "R4_MITSUI_CORE;R4_VAC_LAMINATION",
+    "project_interpretation": "Steel strip production, stamping and stacking are distinct operations; core geometry must fit the fan motor.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-CU-TERMINAL",
+    "preferred_name": "Tin-finished copper lead terminal",
+    "semantic_kind": "component",
+    "formal_definition": "A shaped copper conductor with a tin-containing surface finish for electrical connection or solder attachment.",
+    "source_ids": "R3_TECHNIC_TIN",
+    "project_interpretation": "A discrete lead is different from a deposited end termination; dimensions and base alloy require a component drawing.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-FBGA-SUB",
+    "preferred_name": "Fine-pitch BGA package substrate",
+    "semantic_kind": "component",
+    "formal_definition": "An interconnection substrate carrying a die and routing its electrical connections to a fine-pitch ball-grid-array interface.",
+    "source_ids": "R4_SHINKO_PBGA",
+    "project_interpretation": "BT-based and ABF build-up systems are alternatives; select substrate technology from the actual memory package design.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-FERRITE-BODY",
+    "preferred_name": "Multilayer ferrite inductor body",
+    "semantic_kind": "internal_component",
+    "formal_definition": "A fired magnetic ceramic body with embedded conductive patterns forming the winding of a multilayer inductor.",
+    "source_ids": "R4_MURATA_INDUCTOR",
+    "project_interpretation": "Specific NiZn and silver choices need product evidence; this is not the construction of every power inductor.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-RES-BODY",
+    "preferred_name": "Ceramic thick-film resistor body",
+    "semantic_kind": "internal_component",
+    "formal_definition": "A ceramic substrate carrying a patterned resistive film and protective layers before or as part of termination processing.",
+    "source_ids": "R4_ROHM_BODY",
+    "project_interpretation": "Use the thick-film case only; thin-film and metal-element resistors have different material structures.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-SMD-TERM",
+    "preferred_name": "Device-specific surface-mount termination stack",
+    "semantic_kind": "internal_component",
+    "formal_definition": "Conductive end layers connecting an internal passive element to a solderable external surface, often including barrier and finish layers.",
+    "source_ids": "R4_ROHM_TERMINATIONS",
+    "project_interpretation": "Replace universal Cu/Ni/Sn assumption with device-specific base metal; the documented resistor example uses Ag-based/Ni/Sn.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "1.4.3",
+    "preferred_name": "Surface-mount passive component group",
+    "semantic_kind": "component_group",
+    "formal_definition": "A collection of resistor, capacitor and inductor parts mounted on a circuit board.",
+    "source_ids": "R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR",
+    "project_interpretation": "R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "1.6",
+    "preferred_name": "Surface-mount passive component group",
+    "semantic_kind": "component_group",
+    "formal_definition": "A collection of resistor, capacitor and inductor parts mounted on a circuit board.",
+    "source_ids": "R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR",
+    "project_interpretation": "R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "8.2.3",
+    "preferred_name": "Surface-mount passive component group",
+    "semantic_kind": "component_group",
+    "formal_definition": "A collection of resistor, capacitor and inductor parts mounted on a circuit board.",
+    "source_ids": "R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR",
+    "project_interpretation": "R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  },
+  {
+    "node_id": "SC-DRAM-DIE",
+    "preferred_name": "Fabricated graphics-memory die",
+    "semantic_kind": "bare_die",
+    "formal_definition": "A semiconductor die implementing a selected generation of graphics double-data-rate memory.",
+    "source_ids": "R2_MICRON_GDDR6;SRC_MICRON_GDDR7",
+    "project_interpretation": "Keep generation generic for this case study; GDDR6/GDDR6X/GDDR7 are not drop-in alternatives. The exact design must select one.",
+    "definition_status": "technical_class_definition_with_explicit_project_scope",
+    "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+  }
+]

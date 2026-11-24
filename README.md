@@ -5,28 +5,35 @@ This package joins the BOMWiki graphics-card hierarchy to Georgetown CSET ETO's 
 ## Latest handoff: supplied full node-to-node JSON
 
 Start with [RESEARCH_HANDOFF.txt](RESEARCH_HANDOFF.txt) for what is done and what
-is still missing. The latest extension preserves the supplied JSON and has 242
-nodes with supplier-candidate evidence, 388 supplier-node records, 225 public
-production-asset records and 1,350 nearby-hub records. These are research-coverage
+is still missing. The latest extension preserves the supplied JSON and has 247
+nodes with supplier-candidate evidence, 393 supplier-node records, 231 public
+production-asset records and 1,386 nearby-hub records. These are research-coverage
 counts, not percentages of a fully verified or market-representative chain.
 
 - `figures/full_supply_chain_structure.html`: offline component graph and
   node-by-node supplier, site-coverage and edge-source explorer.
+- `figures/full_supply_chain_reviewed_structure.html`: separate semantic-review
+  graph, with 287 canonical nodes and 751 retained links. Not a fully validated BOM.
+- `STRUCTURE_REVIEW.txt`: corrections, 54 scoped definitions and remaining issues.
+- `data/clean/component_definitions.json` and `.csv`: definitions, references and
+  project-specific interpretations; exact grades are not implied by class evidence.
+- `data/clean/structure_review_decisions.csv`: reversible decisions for all 757
+  original edges. The original input JSON is unchanged.
 - `figures/full_supply_chain_transport_map.html`: offline geographic factory/hub
   screening map. Dashed lines are proximity candidates, not verified shipments.
 - `data/clean/full_supply_chain_research_database.json`: consolidated handoff.
 - `data/clean/full_supply_chain_task_status.json`: checklist and current counts.
 - `data/clean/full_supply_chain_remaining_work.json`: explicit unresolved queue.
 - `GAP_DIAGNOSIS.txt` and `data/clean/full_supply_chain_gap_diagnosis.json`:
-  reasons and next actions for all 47 nodes without supplier mappings, including
+  reasons and next actions for all 42 nodes without supplier mappings, including
   official-source access failures and product-definition issues. Missing does
   not mean impossible to find.
 - `data/clean/full_supply_chain_data_dictionary.json`: fields, joins, units and
   interpretation of missing values.
 
-Download the repository ZIP and open the two HTML files locally; GitHub's source
+Download the repository ZIP and open the HTML files locally; GitHub's source
 viewer does not execute HTML. They embed their data and need no network access.
-Both pass JavaScript/DOM interaction smoke tests. Browser layout review was
+All three pass JavaScript/DOM interaction smoke tests. Browser layout review was
 unavailable in this session, as recorded in the handoff. The older PNG figures
 and the smaller legacy graph statistics below have **not** been regenerated as
 the full-node research graph and must not be cited as its current outputs.

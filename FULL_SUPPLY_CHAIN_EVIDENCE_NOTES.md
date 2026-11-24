@@ -103,8 +103,8 @@ it does not silently turn those proposals into an exact product BOM.
 
 ## Current research pass
 
-The extension contains 242 nodes with supplier-candidate evidence out of the 289
-submitted nodes, 388 supplier-to-node records, and 225 production-asset records.
+The extension contains 247 nodes with supplier-candidate evidence out of the 289
+submitted nodes, 393 supplier-to-node records, and 231 production-asset records.
 These are not completion percentages: category nodes, process stages, internal
 subcomponents and purchased materials have different evidence requirements.
 Supplier capability does not establish market coverage or a qualified substitute.
@@ -113,9 +113,9 @@ The second pass added 70 public production-asset records and 47 supplier-node
 records. A further gap pass added three previously unmapped material nodes
 (WC-Co hardmetal, silicone-coated PET liners and matte-tin bath chemistry),
 12 production-asset records, and one scoped PET-carrier relationship. Among
-the 388 supplier-node records, 74 have an explicitly documented
-product-class site match, 93 have company sites but unconfirmed product
-allocation, 220 lack a matched site in this package, and one is a fabless
+the current 393 supplier-node records, 76 have an explicitly documented
+product-class site match, 94 have company sites but unconfirmed product
+allocation, 222 lack a matched site in this package, and one is a fabless
 designer. Product-class matches still do not prove exact grades, customer
 qualification or independent operational backups. Some records describe units
 within a common complex. The facility table flags company/city record counts;
@@ -123,6 +123,14 @@ do not count every row as an independent backup factory.
 
 `GAP_DIAGNOSIS.txt` and its machine-readable JSON distinguish unfinished research
 from ambiguous definitions, integrated/internal parts, categories and utilities.
+
+The definition pass adds five supplier-node mappings and six production-site
+records, plus 54 scoped definitions. `STRUCTURE_REVIEW.txt` explains the separate
+reviewed graph: duplicate die identities merged, reversed packaging dependency
+removed, and five other unsuitable default relationships excluded. Every
+original edge has a reversible decision record. Remaining links are not all
+verified: process expansion, design alternatives and material recipes still
+require validation before redundancy or lead-time analysis.
 No remaining item is declared publicly unavailable merely because a search did
 not resolve it. Covestro resin and Umicore gold-salt pages were promising indexed
 leads, but full-source access returned HTTP 403 and 402 respectively; they were

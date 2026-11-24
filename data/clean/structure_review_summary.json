@@ -1,0 +1,30 @@
+{
+  "original_nodes": 289,
+  "original_edges": 757,
+  "reviewed_nodes": 287,
+  "reviewed_edges": 751,
+  "aliases": {
+    "LD:finished_logic_die": "1.2",
+    "1.2.1": "LD:logic_die_fabricated"
+  },
+  "excluded_edges": {
+    "E0036": "Removed reversed packaged-output to bare-die dependency; aliases preserve both original node IDs.",
+    "E0101": "Soda-lime mask substrate is not established for the selected advanced-logic case.",
+    "E0486": "Generic coating resin does not establish a photoresist binder recipe.",
+    "E0527": "Generic coating resin does not establish a pressure-sensitive adhesive recipe.",
+    "E0541": "Generic coating resin does not establish an electrical-steel interlaminar varnish recipe.",
+    "E0754": "YAG phosphor is not a mandatory input for a direct-emitting RGB LED option."
+  },
+  "definitions_added": 54,
+  "acyclic": true,
+  "original_sha256": "4abdf0cb2cffe3f5e296f2f0e9e7e9af8a47d3d0acf6ffa83bdc3188f3fe4881",
+  "readiness": "Semantic review draft, NOT a verified full process or transport network",
+  "open_issues": [
+    "Polysilicon deposition/crystal growth/wafer preparation still need separate process nodes; starter rods and TCS are upstream of wafer production, not direct fab inputs.",
+    "R/C/L passive groups must select distinct device recipes; current shared inputs are not one universal bill of materials.",
+    "Leadframe/bond-wire and flip-chip package options must be selected rather than all imposed simultaneously.",
+    "Memory generation, connector generation, quantities and mechanical dimensions require a chosen reference design.",
+    "Raw-ore ancestry is not a direct factory shipment. Refining and recovery pathways need process-specific review.",
+    "Definitions do not verify every existing edge, exact grade, supplier qualification, site allocation or logistics route."
+  ]
+}

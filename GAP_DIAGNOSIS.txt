@@ -2,197 +2,177 @@ WHY SOME DATA REMAIN INCOMPLETE
 
 Unresolved is not unavailable. This diagnostic distinguishes source access, product definition, internal manufacture and research still open.
 
-This pass added three previously unmapped material nodes. It did not fill gaps with assumed suppliers or times.
+The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.
 
-Unresolved supplier nodes: 47 (including categories, stages and utilities).
+Unresolved supplier nodes: 42 (including categories, stages and utilities).
 
-1 | Main PCB | assembly_or_function_not_single_material
-The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
-Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+1 | Main PCB | definition_scoped_supplier_or_process_evidence_still_open
+Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-1.2 | GPU Package | assembly_or_function_not_single_material
-The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
-Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+1.2 | GPU Package | definition_scoped_supplier_or_process_evidence_still_open
+Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-1.4 | VRM Phase | assembly_or_function_not_single_material
-The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
-Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+1.4 | VRM Phase | definition_scoped_supplier_or_process_evidence_still_open
+A board circuit function. Phase count and shared versus per-phase capacitors require schematic evidence.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-1.5 | I/O Bracket | custom_mechanical_part_research_open
-A material mill or cooler vendor does not establish manufacture of this custom bracket, backplate or shroud.
-Next: Find stamped/machined/moulded-part manufacturing capability and a production address; exact GPU contract may remain undisclosed.
+1.5 | I/O Bracket | definition_scoped_supplier_or_process_evidence_still_open
+Project functional definition; material, dimensions and stamping supplier are design-specific.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-3 | Backplate | custom_mechanical_part_research_open
-A material mill or cooler vendor does not establish manufacture of this custom bracket, backplate or shroud.
-Next: Find stamped/machined/moulded-part manufacturing capability and a production address; exact GPU contract may remain undisclosed.
+3 | Backplate | definition_scoped_supplier_or_process_evidence_still_open
+Mechanical function is defined; aluminium alloy, insulation and thermal pads are not universally required.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-4 | PCIe Edge Connector | integrated_feature_not_separate_connector
-PCIe edge contacts are a feature of the card PCB. A motherboard PCIe socket vendor would be the wrong match.
-Next: Link the PCB maker and contact-finishing process after confirming the intended node semantics.
+4 | PCIe Edge Connector | definition_scoped_supplier_or_process_evidence_still_open
+Allocate manufacture to PCB/contact finishing; do not count a motherboard socket as the card part.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-5 | Auxiliary Power Connector | connector_assembly_definition_needed
-Auxiliary power connector can mean the board receptacle, cable or complete assembly. These have different suppliers.
-Next: Choose the interface and purchased unit; use its manufacturer drawing rather than infer from a child contact.
+5 | Auxiliary Power Connector | definition_scoped_supplier_or_process_evidence_still_open
+Choose board-side scope; cable and PSU are outside this node. 12V-2x6 is an option, not a verified part assignment.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-6 | Display Output Cluster | assembly_or_function_not_single_material
-The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
-Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+6 | Display Output Cluster | definition_scoped_supplier_or_process_evidence_still_open
+Retain HDMI/DisplayPort/protection children; no separate supplier is required for a grouping label.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-7 | Cooler Shroud | custom_mechanical_part_research_open
-A material mill or cooler vendor does not establish manufacture of this custom bracket, backplate or shroud.
-Next: Find stamped/machined/moulded-part manufacturing capability and a production address; exact GPU contract may remain undisclosed.
+7 | Cooler Shroud | definition_scoped_supplier_or_process_evidence_still_open
+A custom housing; polymer and metal versions are alternatives. Do not prescribe PC/ABS universally.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-8 | RGB / LED Lighting | assembly_or_function_not_single_material
-The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
-Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+8 | RGB / LED Lighting | definition_scoped_supplier_or_process_evidence_still_open
+Optional in a generic GPU card. Absence does not prevent the card from processing graphics.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-8.2 | RGB Controller | assembly_or_function_not_single_material
-The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
-Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+8.2 | RGB Controller | definition_scoped_supplier_or_process_evidence_still_open
+The submitted MCU and board define one implementation; a dedicated driver IC or main-board integration is also possible.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-RAW-AIR | Atmospheric Air (N2, O2, Ar, Ne, Kr) | utility_resource
-Ambient air and local water are not globally interchangeable component purchases.
-Next: Choose the actual facility and local intake, utility or treatment boundary.
+RAW-AIR | Atmospheric Air (N2, O2, Ar, Ne, Kr) | definition_scoped_supplier_or_process_evidence_still_open
+Use local resource intake; purified gases are separately manufactured products with grade and delivery constraints.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-RAW-ARSENOPYRITE | Arsenopyrite Arsenic-Bearing Sulfide Ore | further_supplier_research_open
-No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
-Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+RAW-ARSENOPYRITE | Arsenopyrite Arsenic-Bearing Sulfide Ore | definition_scoped_supplier_or_process_evidence_still_open
+Keep the original ore node as one route and flag mandatory-ore assumptions; do not invent a specific arsenopyrite mine.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-RAW-WATER | Freshwater | utility_resource
-Ambient air and local water are not globally interchangeable component purchases.
-Next: Choose the actual facility and local intake, utility or treatment boundary.
+RAW-WATER | Freshwater | definition_scoped_supplier_or_process_evidence_still_open
+Utility/source connection is site-dependent; do not interpret it as globally interchangeable shipped UPW.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:finished_logic_die | Finished logic die | process_stage
-This node represents an operation, not a material to buy.
-Next: Research process operators and facilities, not a commodity vendor.
+LD:finished_logic_die | Finished logic die | definition_scoped_supplier_or_process_evidence_still_open
+Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:assembly_packaging_testing | Assembly, packaging, and testing | process_stage
-This node represents an operation, not a material to buy.
-Next: Research process operators and facilities, not a commodity vendor.
+LD:assembly_packaging_testing | Assembly, packaging, and testing | definition_scoped_supplier_or_process_evidence_still_open
+Use as a transformation node. Flip-chip and wire-bond recipes are design alternatives, not universally simultaneous inputs.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:fabrication | Fabrication | process_stage
-This node represents an operation, not a material to buy.
-Next: Research process operators and facilities, not a commodity vendor.
+LD:fabrication | Fabrication | definition_scoped_supplier_or_process_evidence_still_open
+Manufacturing site/operator belongs to this process; a bare die additionally requires wafer test and separation.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:packaging_materials | Packaging materials | category
-This is a grouping node; missing a category-level vendor is not necessarily a data defect.
-Next: Review the child materials and their supplier/site evidence.
+LD:packaging_materials | Packaging materials | definition_scoped_supplier_or_process_evidence_still_open
+Category membership is not an AND requirement for every listed material.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:process_specific_fab_materials | Process-specific fabrication materials | category
-This is a grouping node; missing a category-level vendor is not necessarily a data defect.
-Next: Review the child materials and their supplier/site evidence.
+LD:process_specific_fab_materials | Process-specific fabrication materials | definition_scoped_supplier_or_process_evidence_still_open
+Expand by actual process recipe; this label has no single product specification.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:interconnect_materials | Interconnect materials | broad_material_family
-The label spans multiple materials, grades or alternative chemistries. One supplier cannot be inherited across all branches.
-Next: Use the existing child definitions where possible and seek evidence for each missing grade or species.
+LD:interconnect_materials | Interconnect materials | definition_scoped_supplier_or_process_evidence_still_open
+The submitted children restrict scope to substrate interconnection; copper foil and ENIG chemistry need separate procurement branches.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:plastic_substrate | Plastic substrate | substrate_definition_needed
-Plastic substrate is too broad to identify a qualified electronics product or its manufacturing site.
-Next: Specify polymer, form and application; do not substitute a general plastics producer for a package substrate manufacturer.
+LD:plastic_substrate | Plastic substrate | definition_scoped_supplier_or_process_evidence_still_open
+Interpret from the resin, glass and filler children. It is not the complete routed substrate and is not a generic thermoplastic sheet.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:basic_acidic_chemical_inputs | Basic/acidic chemical inputs | broad_material_family
-The label spans multiple materials, grades or alternative chemistries. One supplier cannot be inherited across all branches.
-Next: Use the existing child definitions where possible and seek evidence for each missing grade or species.
+LD:basic_acidic_chemical_inputs | Basic/acidic chemical inputs | definition_scoped_supplier_or_process_evidence_still_open
+List alternatives by recipe; the category alone does not prove every named acid belongs in one CMP mixture.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:polysilicon_starter_rods | High-purity polysilicon slim starter rods | specialised_intermediate_research_open
-Polysilicon production capability alone does not prove separately sold high-purity slim rods.
-Next: Find an explicit slim-rod product and production location or document captive production; further research is possible.
+LD:polysilicon_starter_rods | High-purity polysilicon slim starter rods | definition_scoped_supplier_or_process_evidence_still_open
+Route to polysilicon production upstream of wafer growth; merchant sale and exact purity remain open.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:dopants | P-type or n-type dopants | broad_material_family
-The label spans multiple materials, grades or alternative chemistries. One supplier cannot be inherited across all branches.
-Next: Use the existing child definitions where possible and seek evidence for each missing grade or species.
+LD:dopants | P-type or n-type dopants | definition_scoped_supplier_or_process_evidence_still_open
+Select p-type or n-type species and introduction method. A gas precursor listing alone does not prove use in crystal growth.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:sic_lapping_slurry | SiC lapping slurry | abrasive_versus_workpiece_ambiguity
-A product advertised for polishing SiC does not prove its abrasive is SiC. The Entegris lead was not admitted as a match.
-Next: Confirm abrasive chemistry and the workpiece in a technical datasheet before selecting vendors.
+LD:polyurethane_matrix | Porous polyurethane polymer matrix | definition_scoped_supplier_or_process_evidence_still_open
+Porosity and formulation depend on pad grade; no separately sold matrix supplier is inferred.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:deionized_water_coolant | Deionized water coolant | local_purification_or_working_fluid
-Water-treatment equipment vendors are not necessarily sellers of the specified water. On-site production and sealed working-fluid fill are different cases.
-Next: Specify on-site purification versus purchased fluid, purity, degassing and supply boundary.
+LD:polyester_felt_backing | PET polyester felt backing | definition_scoped_supplier_or_process_evidence_still_open
+The source supports a felt-based design, not a universal backing required in every CMP pad.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:aluminum | Aluminum | further_supplier_research_open
-No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
-Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+PM-ACRYLIC-PU | Acrylic-Polyurethane Protective Coating & Ink Resin | definition_scoped_supplier_or_process_evidence_still_open
+Separate coating resin, photoresist binder, pressure-sensitive adhesive and interlaminar varnish. Their formulations are not interchangeable.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:polyurethane_matrix | Porous polyurethane polymer matrix | pad_layer_not_finished_pad
-A finished polishing-pad supplier does not prove independent sale of its matrix or felt layer.
-Next: Find specified foam/felt intermediate products, or model the layers as internal transformations within the pad plant.
+PM-REFINED-AU | Refined Fine Gold & Potassium Gold Cyanide (99.99% Au) | definition_scoped_supplier_or_process_evidence_still_open
+The original combined label must not equate metal purity with gold mass fraction in a salt. Salt identity needs its own datasheet.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-LD:polyester_felt_backing | PET polyester felt backing | pad_layer_not_finished_pad
-A finished polishing-pad supplier does not prove independent sale of its matrix or felt layer.
-Next: Find specified foam/felt intermediate products, or model the layers as internal transformations within the pad plant.
+DC-ANODIZE-CHEM | Disposable Sulfuric Acid Anodizing Bath & Black Dye | definition_scoped_supplier_or_process_evidence_still_open
+Electrolyte and black dye are distinct purchases; bath reuse/replenishment means disposable is not a fixed one-use count.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-PM-ACRYLIC-PU | Acrylic-Polyurethane Protective Coating & Ink Resin | promising_official_lead_access_blocked
-Official indexed product leads exist, but this pass could not inspect the full source: Covestro returned HTTP 403 and Umicore HTTP 402 through the research service.
-Next: Manually obtain current manufacturer datasheets. Do not interpret an access failure as evidence the supplier does not exist.
+DC-SINTER-BOAT | Disposable YSZ Ceramic Sintering Setter Plates | definition_scoped_supplier_or_process_evidence_still_open
+Project adopts the support function only; bulk YSZ composition and universal use for resistor firing are not verified. Treat YSZ as a proposed material option.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-PM-REFINED-AU | Refined Fine Gold & Potassium Gold Cyanide (99.99% Au) | promising_official_lead_access_blocked
-Official indexed product leads exist, but this pass could not inspect the full source: Covestro returned HTTP 403 and Umicore HTTP 402 through the research service.
-Next: Manually obtain current manufacturer datasheets. Do not interpret an access failure as evidence the supplier does not exist.
+SC-DI-WATER | Ultrapure Degassed Deionized Water Working Fluid | definition_scoped_supplier_or_process_evidence_still_open
+Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-DC-ANODIZE-CHEM | Disposable Sulfuric Acid Anodizing Bath & Black Dye | further_supplier_research_open
-No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
-Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+SC-MYLAR-INSULATOR | Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner | definition_scoped_supplier_or_process_evidence_still_open
+Film manufacture and final die cutting are separate capabilities. Mylar is a brand, not the name of every PET film.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-DC-SINTER-BOAT | Disposable YSZ Ceramic Sintering Setter Plates | shape_and_composition_not_yet_matched
-YSZ material capability or a YSZ coating on a setter plate does not establish a bulk YSZ setter plate matching this node.
-Next: Verify bulk material versus coating, shape and application in a manufacturer datasheet before adding a vendor.
+SC-PBT-GF30 | 30% Glass-Fiber Reinforced PBT (PBT-GF30) Fan Impeller & Frame | definition_scoped_supplier_or_process_evidence_still_open
+Material identity comes from the submitted specification; 30% reinforcement and suitability for a selected fan remain unverified design choices.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-DI-WATER | Ultrapure Degassed Deionized Water Working Fluid | local_purification_or_working_fluid
-Water-treatment equipment vendors are not necessarily sellers of the specified water. On-site production and sealed working-fluid fill are different cases.
-Next: Specify on-site purification versus purchased fluid, purity, degassing and supply boundary.
+SC-AL-PLATE | Rolled Aluminum Alloy 5052 / 6061 Structural Plate | definition_scoped_supplier_or_process_evidence_still_open
+5052 and 6061 are alternative alloy specifications from the submitted node; the stock must also specify temper, thickness and tolerances. Thin backplates may use sheet rather than plate; the exact alloy-to-part recipe remains unverified.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-MYLAR-INSULATOR | Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner | further_supplier_research_open
-No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
-Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+SC-FE-POWDER-CORE | Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core | definition_scoped_supplier_or_process_evidence_still_open
+Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-PBT-GF30 | 30% Glass-Fiber Reinforced PBT (PBT-GF30) Fan Impeller & Frame | compound_versus_moulded_part
-A resin compound maker is not necessarily the producer of the moulded fan, connector insulator or LED reflector.
-Next: Separate compound supply from moulding responsibility and verify each product-to-site mapping.
+SC-LCP-GF | Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator | definition_scoped_supplier_or_process_evidence_still_open
+Compound and moulded body are different products. Verify the actual connector drawing before prescribing GF30.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-AL-PLATE | Rolled Aluminum Alloy 5052 / 6061 Structural Plate | further_supplier_research_open
-No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
-Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+SC-PPA-REFLECTOR | TiO2-Filled Polyphthalamide (PPA) Molded LED Reflector Cup | definition_scoped_supplier_or_process_evidence_still_open
+PPA, glass reinforcement and TiO2 loading are submitted design choices; they are not universal requirements for RGB LED packages.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-FE-POWDER-CORE | Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core | internal_component_or_specialised_intermediate
-A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
-Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
+SC-CU-TERMINAL | Tin-Plated Copper SMD Lead Terminals | definition_scoped_supplier_or_process_evidence_still_open
+A discrete lead is different from a deposited end termination; dimensions and base alloy require a component drawing.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-LCP-GF | Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator | compound_versus_moulded_part
-A resin compound maker is not necessarily the producer of the moulded fan, connector insulator or LED reflector.
-Next: Separate compound supply from moulding responsibility and verify each product-to-site mapping.
+SC-FBGA-SUB | Fine-Pitch BT-Resin / ABF FBGA Package Substrate | definition_scoped_supplier_or_process_evidence_still_open
+BT-based and ABF build-up systems are alternatives; select substrate technology from the actual memory package design.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-MAGNET-WIRE | Polyimide-Enameled Oxygen-Free Copper Winding Wire | further_supplier_research_open
-No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
-Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+SC-FERRITE-BODY | Sintered Ni-Zn Ferrite Core with Silver Internal Winding | definition_scoped_supplier_or_process_evidence_still_open
+Specific NiZn and silver choices need product evidence; this is not the construction of every power inductor.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-PPA-REFLECTOR | TiO2-Filled Polyphthalamide (PPA) Molded LED Reflector Cup | compound_versus_moulded_part
-A resin compound maker is not necessarily the producer of the moulded fan, connector insulator or LED reflector.
-Next: Separate compound supply from moulding responsibility and verify each product-to-site mapping.
+SC-RES-BODY | Alumina Chip Substrate with RuO2 Resistive Film & Glass Overcoat | definition_scoped_supplier_or_process_evidence_still_open
+Use the thick-film case only; thin-film and metal-element resistors have different material structures.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-SILICON-STEEL | Laminated Electrical Silicon-Steel Stator Core | further_supplier_research_open
-No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
-Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
-
-SC-CU-TERMINAL | Tin-Plated Copper SMD Lead Terminals | internal_component_or_specialised_intermediate
-A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
-Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
-
-SC-FBGA-SUB | Fine-Pitch BT-Resin / ABF FBGA Package Substrate | technology_and_grade_allocation_open
-BT and ABF denote different substrate technologies. General package-substrate capability does not prove the exact FBGA design or plant.
-Next: Verify substrate technology, dimensions and package application, then research site-specific production.
-
-SC-FERRITE-BODY | Sintered Ni-Zn Ferrite Core with Silver Internal Winding | internal_component_or_specialised_intermediate
-A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
-Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
-
-SC-RES-BODY | Alumina Chip Substrate with RuO2 Resistive Film & Glass Overcoat | internal_component_or_specialised_intermediate
-A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
-Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
-
-SC-SMD-TERM | Copper / Nickel / Tin Tri-Layer SMD End Terminations | internal_component_or_specialised_intermediate
-A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
-Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
+SC-SMD-TERM | Copper / Nickel / Tin Tri-Layer SMD End Terminations | definition_scoped_supplier_or_process_evidence_still_open
+Replace universal Cu/Ni/Sn assumption with device-specific base metal; the documented resistor example uses Ag-based/Ni/Sn.
+Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 OTHER PROJECT GAPS
 All manufacturing sites: current subset is incomplete; product-to-plant evidence is often narrower than the company portfolio.

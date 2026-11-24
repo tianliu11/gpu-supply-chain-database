@@ -7,6 +7,7 @@ import csv
 import json
 from collections import Counter
 from pathlib import Path
+from component_definition_research import DEFINITIONS
 
 ROOT = Path(__file__).resolve().parents[1]
 CLEAN = ROOT / 'data/clean'
@@ -79,6 +80,11 @@ def main():
                 'No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.',
                 'Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.'))
         status, issue, action = disposition
+        definition = DEFINITIONS.get(row['node_id'])
+        if definition:
+            status = 'definition_scoped_supplier_or_process_evidence_still_open'
+            issue = definition['project_interpretation']
+            action = 'Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.'
         unresolved.append(dict(node_id=row['node_id'], node_name=row['node_name'], status=status,
             issue=issue, next_action=action, evidence_absence_claim=False))
     payload = dict(reviewed_on='2026-11-24',
@@ -100,7 +106,7 @@ def main():
         ])
     (CLEAN/'full_supply_chain_gap_diagnosis.json').write_text(json.dumps(payload, indent=2)+'\n')
     lines=['WHY SOME DATA REMAIN INCOMPLETE', '', payload['interpretation'], '',
-        'This pass added three previously unmapped material nodes. It did not fill gaps with assumed suppliers or times.', '',
+        'The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.', '',
         f'Unresolved supplier nodes: {len(unresolved)} (including categories, stages and utilities).', '']
     for row in unresolved:
         lines += [f"{row['node_id']} | {row['node_name']} | {row['status']}", row['issue'], 'Next: '+row['next_action'], '']

@@ -1,0 +1,285 @@
+COMPONENT DEFINITIONS AND STRUCTURE REVIEW
+
+54 scoped definitions; 287 canonical nodes; 751 retained dependencies.
+Original 289-node / 757-edge JSON is unchanged. This is a reversible review layer, not a claim that all relationships are correct.
+
+CORRECTED: packaged chip -> bare die reversal and duplicate packaged/bare identities.
+EXCLUDED FROM REVIEWED DEFAULT: E0036, E0101, E0486, E0527, E0541, E0754
+
+IMPORTANT REMAINING STRUCTURAL WORK
+Polysilicon deposition/crystal growth/wafer preparation still need separate process nodes; starter rods and TCS are upstream of wafer production, not direct fab inputs.
+R/C/L passive groups must select distinct device recipes; current shared inputs are not one universal bill of materials.
+Leadframe/bond-wire and flip-chip package options must be selected rather than all imposed simultaneously.
+Memory generation, connector generation, quantities and mechanical dimensions require a chosen reference design.
+Raw-ore ancestry is not a direct factory shipment. Refining and recovery pathways need process-specific review.
+Definitions do not verify every existing edge, exact grade, supplier qualification, site allocation or logistics route.
+
+0 | Discrete graphics card
+A circuit-board assembly containing a graphics processor, memory, power conversion and external interfaces, with a cooling and mechanical system.
+Scope: Keep a generic discrete graphics-card case; quantities in the submitted BOM remain unverified design assumptions.
+Sources: R2_MSI_CARD;R4_ASUS_MECHANICAL
+
+1 | Populated graphics-card PCB assembly
+The main printed circuit board after electronic components have been mounted and interconnected.
+Scope: Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.
+Sources: R4_SIERRA_EDGE;R2_MSI_CARD
+
+1.2 | Packaged and tested GPU device
+A fabricated GPU die integrated with package interconnections and substrate, then tested as a packaged device.
+Scope: Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.
+Sources: R4_AMKOR_FLIP;SRC_SIA_PROCESS
+
+LD:finished_logic_die | Packaged and tested GPU device
+A fabricated GPU die integrated with package interconnections and substrate, then tested as a packaged device.
+Scope: Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.
+Sources: R4_AMKOR_FLIP;SRC_SIA_PROCESS
+
+1.2.1 | Fabricated bare GPU die
+The semiconductor die containing fabricated GPU circuitry before package assembly.
+Scope: Alias the two labels in the reviewed graph; wafer fabrication and die preparation precede packaging.
+Sources: SRC_SIA_FRONTEND;R4_AMKOR_FLIP
+
+LD:logic_die_fabricated | Fabricated bare GPU die
+The semiconductor die containing fabricated GPU circuitry before package assembly.
+Scope: Alias the two labels in the reviewed graph; wafer fabrication and die preparation precede packaging.
+Sources: SRC_SIA_FRONTEND;R4_AMKOR_FLIP
+
+LD:assembly_packaging_testing | GPU package assembly and test
+Operations that attach and electrically connect the fabricated die, complete its package and test the packaged device.
+Scope: Use as a transformation node. Flip-chip and wire-bond recipes are design alternatives, not universally simultaneous inputs.
+Sources: R4_AMKOR_FLIP;SRC_SIA_PROCESS
+
+LD:fabrication | Semiconductor wafer fabrication
+Repeated deposition, patterning, doping, etching and related operations that create integrated circuits on a semiconductor wafer.
+Scope: Manufacturing site/operator belongs to this process; a bare die additionally requires wafer test and separation.
+Sources: SRC_SIA_FRONTEND
+
+1.4 | VRM phase
+One switching-converter channel in a multiphase voltage regulator, including its power stage and associated magnetic energy-storage path.
+Scope: A board circuit function. Phase count and shared versus per-phase capacitors require schematic evidence.
+Sources: R4_COILCRAFT_VRM
+
+1.5 | Graphics-card I/O mounting bracket
+The rear mounting part that secures the card at chassis expansion slots and provides openings for display connectors.
+Scope: Project functional definition; material, dimensions and stamping supplier are design-specific.
+Sources: R4_ASUS_MECHANICAL;R2_MSI_CARD
+
+3 | Graphics-card backplate
+A rear cover or stiffening plate over the back of the graphics-card board; heat-spreading function depends on thermal contact and design.
+Scope: Mechanical function is defined; aluminium alloy, insulation and thermal pads are not universally required.
+Sources: R4_ASUS_MECHANICAL
+
+7 | Cooler shroud
+The housing surrounding portions of the cooling assembly, supporting or covering fans and influencing airflow.
+Scope: A custom housing; polymer and metal versions are alternatives. Do not prescribe PC/ABS universally.
+Sources: R4_ASUS_MECHANICAL
+
+4 | PCB edge contact fingers
+Patterned and finished conductive contacts at the card PCB edge that mate with the host PCI Express connector.
+Scope: Allocate manufacture to PCB/contact finishing; do not count a motherboard socket as the card part.
+Sources: R4_SIERRA_EDGE
+
+5 | Board-side auxiliary power connector assembly
+The card-mounted connector housing and contacts accepting supplemental electrical power from an external cable.
+Scope: Choose board-side scope; cable and PSU are outside this node. 12V-2x6 is an option, not a verified part assignment.
+Sources: R4_INTEL_POWER
+
+6 | Display output interface group
+A grouping of board-mounted video receptacles and associated protection circuitry.
+Scope: Retain HDMI/DisplayPort/protection children; no separate supplier is required for a grouping label.
+Sources: R2_MOLEX_DP;R2_MSI_CARD
+
+8 | Optional RGB lighting subsystem
+LED emitters plus drive/control circuitry providing decorative multicolour lighting.
+Scope: Optional in a generic GPU card. Absence does not prevent the card from processing graphics.
+Sources: R4_TI_RGB;R_CREE_RGB
+
+8.2 | RGB lighting control circuit
+Circuitry controlling LED-channel current or duty cycle to set colour and brightness.
+Scope: The submitted MCU and board define one implementation; a dedicated driver IC or main-board integration is also possible.
+Sources: R4_TI_RGB
+
+RAW-AIR | Ambient air resource
+The local atmospheric gas feed from which industrial air-separation operations recover gases such as nitrogen, oxygen and argon.
+Scope: Use local resource intake; purified gases are separately manufactured products with grade and delivery constraints.
+Sources: R_LINDE_ULTRAPURE
+
+RAW-WATER | Freshwater resource
+Raw water supplied to a site before application-specific purification or treatment.
+Scope: Utility/source connection is site-dependent; do not interpret it as globally interchangeable shipped UPW.
+Sources: R4_KURITA_WATER
+
+RAW-ARSENOPYRITE | Arsenopyrite-bearing arsenic feedstock
+Arsenic-bearing mineral feed that can be processed to recover arsenic; smelter byproducts provide alternative recovery routes.
+Scope: Keep the original ore node as one route and flag mandatory-ore assumptions; do not invent a specific arsenopyrite mine.
+Sources: R4_USGS_AS
+
+LD:packaging_materials | Semiconductor packaging material family
+The set of substrate, interconnection, attachment and protective materials used by a selected package process.
+Scope: Category membership is not an AND requirement for every listed material.
+Sources: R4_AMKOR_FLIP;SRC_SIA_PROCESS
+
+LD:process_specific_fab_materials | Process-specific fabrication materials
+Materials selected for particular wafer-fabrication operations and technology nodes.
+Scope: Expand by actual process recipe; this label has no single product specification.
+Sources: SRC_SIA_FRONTEND
+
+LD:interconnect_materials | Package-substrate conductive and finishing materials
+Conductive layers, via metallization and surface finishes used to route electrical connections through a package substrate.
+Scope: The submitted children restrict scope to substrate interconnection; copper foil and ENIG chemistry need separate procurement branches.
+Sources: R4_SHINKO_PBGA
+
+LD:plastic_substrate | Organic package-substrate dielectric structure
+The polymer-based insulating structure of an organic IC substrate, potentially including reinforcement and particulate filler.
+Scope: Interpret from the resin, glass and filler children. It is not the complete routed substrate and is not a generic thermoplastic sheet.
+Sources: R4_SHINKO_PBGA
+
+LD:basic_acidic_chemical_inputs | Process acid/base reagents
+Acidic or alkaline chemicals used for the selected polishing, cleaning or related process conditions.
+Scope: List alternatives by recipe; the category alone does not prove every named acid belongs in one CMP mixture.
+Sources: R_FUJIMI_SLURRY;SRC_SIA_FRONTEND
+
+LD:dopants | Semiconductor dopant sources
+Sources of intentionally introduced dopant species used to adjust semiconductor electrical behaviour.
+Scope: Select p-type or n-type species and introduction method. A gas precursor listing alone does not prove use in crystal growth.
+Sources: R_LINDE_GASES;SRC_SIA_FRONTEND
+
+LD:polysilicon_starter_rods | Silicon slim seed rods for polysilicon deposition
+Slender silicon supports on which additional silicon is deposited during a Siemens-type polysilicon-production process.
+Scope: Route to polysilicon production upstream of wafer growth; merchant sale and exact purity remain open.
+Sources: R4_WACKER_SEED
+
+LD:sic_lapping_slurry | Silicon-carbide abrasive lapping slurry
+A suspension containing silicon-carbide abrasive particles in a liquid carrier, used for mechanical lapping.
+Scope: The submitted SiC-grit child resolves composition. Wafer grade and carrier are still process specifications, not arbitrary guesses.
+Sources: R4_LAPMASTER_SIC
+
+LD:deionized_water_coolant | Purified process water for coolant/slurry use
+Water with ionic impurities reduced by treatment and supplied to the selected cooling or slurry operation.
+Scope: DI water and semiconductor UPW are different specifications; set required purity from the downstream process.
+Sources: R4_KURITA_WATER
+
+SC-DI-WATER | Water working fluid in a sealed cooler
+A water charge that evaporates and condenses to transport heat inside a compatible heat pipe or vapor chamber.
+Scope: Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.
+Sources: R4_ACT_WATER
+
+LD:aluminum | High-purity aluminium metal feedstock
+Aluminium metal refined to the impurity limits required by an electronic-material or deposition application.
+Scope: Distinguish high-purity feedstock from structural alloy plate and finished sputtering targets.
+Sources: R4_HYDRO_AL
+
+LD:polyurethane_matrix | Polyurethane polishing-pad matrix
+The polyurethane-based polymer phase forming the functional body of a selected polishing pad.
+Scope: Porosity and formulation depend on pad grade; no separately sold matrix supplier is inferred.
+Sources: R2_LAPMASTER_PAD;R_QNITY_PADS
+
+LD:polyester_felt_backing | Polyester-felt polishing-pad layer
+A nonwoven polyester-fibre layer used in certain pad constructions, sometimes impregnated with polyurethane.
+Scope: The source supports a felt-based design, not a universal backing required in every CMP pad.
+Sources: R2_LAPMASTER_PAD
+
+PM-ACRYLIC-PU | Acrylic/urethane coating-resin family
+Resin systems using acrylic and/or polyurethane chemistry, including hybrid formulations selected for coating performance.
+Scope: Separate coating resin, photoresist binder, pressure-sensitive adhesive and interlaminar varnish. Their formulations are not interchangeable.
+Sources: R4_NORDSON_COAT;R_SHERWIN_COATING
+
+PM-REFINED-AU | Refined gold metal and gold-plating salt branches
+Two distinct products: purified elemental gold and a gold-containing salt used in selected plating solutions.
+Scope: The original combined label must not equate metal purity with gold mass fraction in a salt. Salt identity needs its own datasheet.
+Sources: R4_TECHNIC_GOLD
+
+DC-ANODIZE-CHEM | Anodizing electrolyte and colourant branches
+Chemicals used to form an oxide layer on aluminium and, where selected, colour that layer in a subsequent or combined process.
+Scope: Electrolyte and black dye are distinct purchases; bath reuse/replenishment means disposable is not a fixed one-use count.
+Sources: R4_ANODIZING
+
+DC-SINTER-BOAT | Ceramic setter or support for firing
+A refractory support that holds parts during a firing or sintering operation.
+Scope: Project adopts the support function only; bulk YSZ composition and universal use for resistor firing are not verified. Treat YSZ as a proposed material option.
+Sources: R4_IPS_SETTER
+
+SC-MYLAR-INSULATOR | Converted polyester-film insulating liner
+An electrically insulating polyester film cut or formed to the geometry needed between components.
+Scope: Film manufacture and final die cutting are separate capabilities. Mylar is a brand, not the name of every PET film.
+Sources: R4_MYLAR_INSULATION
+
+SC-PBT-GF30 | Glass-reinforced PBT moulded fan part
+A fan impeller or frame formed from polybutylene terephthalate compounded with glass reinforcement.
+Scope: Material identity comes from the submitted specification; 30% reinforcement and suitability for a selected fan remain unverified design choices.
+Sources: R4_TORAY_PBT
+
+SC-LCP-GF | Glass-reinforced LCP connector insulator
+A connector insulating body moulded from a glass-reinforced liquid-crystal polymer compound.
+Scope: Compound and moulded body are different products. Verify the actual connector drawing before prescribing GF30.
+Sources: R4_MOLEX_LCP
+
+SC-PPA-REFLECTOR | PPA-based LED reflector body
+A moulded reflector or housing surrounding the LED emitter, using a selected reflective polymer compound.
+Scope: PPA, glass reinforcement and TiO2 loading are submitted design choices; they are not universal requirements for RGB LED packages.
+Sources: R4_SHINETSU_REFLECTOR
+
+SC-AL-PLATE | Rolled structural aluminium alloy plate
+Flat rolled aluminium-alloy stock used to fabricate a structural component.
+Scope: 5052 and 6061 are alternative alloy specifications from the submitted node; the stock must also specify temper, thickness and tolerances. Thin backplates may use sheet rather than plate; the exact alloy-to-part recipe remains unverified.
+Sources: R4_AL_ROLLING
+
+SC-FE-POWDER-CORE | Pressed soft-magnetic metal-powder core
+A magnetic body made from metal-powder particles and an insulating/binding system for an inductor.
+Scope: Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.
+Sources: R4_MURATA_INDUCTOR
+
+SC-MAGNET-WIRE | Polyimide-enamelled copper winding wire
+Copper conductor coated with electrically insulating polyimide enamel for forming a winding.
+Scope: Polyimide is one insulation choice; oxygen-free copper and wire diameter remain specific requirements to verify.
+Sources: R4_TAYA_WIRE;R2_ELANTAS_ENAMEL
+
+SC-SILICON-STEEL | Laminated electrical-steel stator core
+A stack of shaped electrical-steel sheets forming the stationary magnetic circuit of a motor, with interlaminar insulation limiting eddy currents.
+Scope: Steel strip production, stamping and stacking are distinct operations; core geometry must fit the fan motor.
+Sources: R4_MITSUI_CORE;R4_VAC_LAMINATION
+
+SC-CU-TERMINAL | Tin-finished copper lead terminal
+A shaped copper conductor with a tin-containing surface finish for electrical connection or solder attachment.
+Scope: A discrete lead is different from a deposited end termination; dimensions and base alloy require a component drawing.
+Sources: R3_TECHNIC_TIN
+
+SC-FBGA-SUB | Fine-pitch BGA package substrate
+An interconnection substrate carrying a die and routing its electrical connections to a fine-pitch ball-grid-array interface.
+Scope: BT-based and ABF build-up systems are alternatives; select substrate technology from the actual memory package design.
+Sources: R4_SHINKO_PBGA
+
+SC-FERRITE-BODY | Multilayer ferrite inductor body
+A fired magnetic ceramic body with embedded conductive patterns forming the winding of a multilayer inductor.
+Scope: Specific NiZn and silver choices need product evidence; this is not the construction of every power inductor.
+Sources: R4_MURATA_INDUCTOR
+
+SC-RES-BODY | Ceramic thick-film resistor body
+A ceramic substrate carrying a patterned resistive film and protective layers before or as part of termination processing.
+Scope: Use the thick-film case only; thin-film and metal-element resistors have different material structures.
+Sources: R4_ROHM_BODY
+
+SC-SMD-TERM | Device-specific surface-mount termination stack
+Conductive end layers connecting an internal passive element to a solderable external surface, often including barrier and finish layers.
+Scope: Replace universal Cu/Ni/Sn assumption with device-specific base metal; the documented resistor example uses Ag-based/Ni/Sn.
+Sources: R4_ROHM_TERMINATIONS
+
+1.4.3 | Surface-mount passive component group
+A collection of resistor, capacitor and inductor parts mounted on a circuit board.
+Scope: R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.
+Sources: R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR
+
+1.6 | Surface-mount passive component group
+A collection of resistor, capacitor and inductor parts mounted on a circuit board.
+Scope: R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.
+Sources: R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR
+
+8.2.3 | Surface-mount passive component group
+A collection of resistor, capacitor and inductor parts mounted on a circuit board.
+Scope: R, C and L are separate required part families in a selected design, not interchangeable suppliers or materials of one combined device.
+Sources: R4_ROHM_TERMINATIONS;R4_MURATA_INDUCTOR
+
+SC-DRAM-DIE | Fabricated graphics-memory die
+A semiconductor die implementing a selected generation of graphics double-data-rate memory.
+Scope: Keep generation generic for this case study; GDDR6/GDDR6X/GDDR7 are not drop-in alternatives. The exact design must select one.
+Sources: R2_MICRON_GDDR6;SRC_MICRON_GDDR7

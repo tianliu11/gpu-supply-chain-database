@@ -1468,5 +1468,65 @@
     "osm_type": "relation",
     "osm_id": 18476624,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Saint-Denis%2C+France&format=jsonv2&addressdetails=1&limit=1&countrycodes=fr"
+  },
+  "PUBLIC_SITE:ea0ea06f9cc0": {
+    "query": "Grevenbroich, Germany",
+    "latitude": 51.0862467,
+    "longitude": 6.5848937,
+    "display_name": "Grevenbroich, Rhein-Kreis Neuss, Nordrhein-Westfalen, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 168489,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Grevenbroich%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:54ffa8823a46": {
+    "query": "Brantford, Ontario, Canada",
+    "latitude": 43.1408157,
+    "longitude": -80.2631733,
+    "display_name": "Brantford, Southwestern Ontario, Ontario, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 10268812,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Brantford%2C+Ontario%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:38f60256590e": {
+    "query": "Kani, Japan",
+    "latitude": 35.4261093,
+    "longitude": 137.0613166,
+    "display_name": "可児市, 岐阜県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4716618,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kani%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:f0ddf06c3b0f": {
+    "query": "Shanghai, China",
+    "latitude": 31.2312707,
+    "longitude": 121.4700152,
+    "display_name": "上海市, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 913067,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Shanghai%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:d4d306dcb35c": {
+    "query": "Bang Pa-in, Thailand",
+    "latitude": 14.2393509,
+    "longitude": 100.5845885,
+    "display_name": "บางปะอิน, ถนนบางปะอินสายใน, ตำบลบ้านเลน, เทศบาลตำบลบางปะอิน, เชียงรากน้อย, อำเภอบางปะอิน, จังหวัดพระนครศรีอยุธยา, 13160, ประเทศไทย",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 259723388,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Bang+Pa-in%2C+Thailand&format=jsonv2&addressdetails=1&limit=1&countrycodes=th"
+  },
+  "PUBLIC_SITE:b253814d4353": {
+    "query": "Dongguan, China",
+    "latitude": 23.0183568,
+    "longitude": 113.7452332,
+    "display_name": "东莞市, 广东省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3464319,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Dongguan%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
   }
 }

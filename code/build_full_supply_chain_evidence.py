@@ -26,6 +26,7 @@ from additional_public_research import SOURCES as RESEARCH_SOURCES, VENDORS as R
 from additional_public_research import SITES as RESEARCH_SITES, EDGE_EVIDENCE, REVIEW_DATE
 from additional_public_research import CORPORATE_GROUPS
 import expanded_public_research  # registers explicitly reviewed second-pass evidence
+import component_definition_research  # scoped definitions and fourth-pass evidence
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -777,7 +778,7 @@ def export_enriched_data(graph, edges, vendors, facilities, hubs, site_coverage,
         'metadata':{'reviewed_on':REVIEW_DATE,'original_graph_preserved':True,
                     'scope':'Public evidence extension; no confidential procurement or qualified-alternative claim',
                     'edge_audit_method':'Explicitly scoped evidence; broad keyword matches do not verify edges'},
-        'nodes':[dict(n,vendor_candidates=vendor_by_node[str(n['id'])]) for n in graph['nodes']],
+        'nodes':[dict(n,vendor_candidates=vendor_by_node[str(n['id'])], component_definition=component_definition_research.DEFINITIONS.get(str(n['id']))) for n in graph['nodes']],
         'edges':edges,'facilities':facilities,'nearby_hub_candidates':hubs,
         'vendor_site_coverage':site_coverage,'modeling_issues':issues,
         'sources':read_csv(CLEAN/'sources.csv'),
