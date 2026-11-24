@@ -10,6 +10,13 @@ nodes with supplier-candidate evidence, 408 supplier-node records, 326 public
 production-asset records and 1,950 nearby-hub records. These are research-coverage
 counts, not percentages of a fully verified or market-representative chain.
 
+For analysis, start with the [integrated reviewed dataset](data/clean/reviewed_supply_chain_structure.json).
+It contains the reviewed graph, scoped suppliers, production sites, nearby hub
+candidates, and citations in one file. Join facilities to graph nodes using
+`canonical_component_node_ids`, and hub candidates to facilities using
+`facility_id`. The [batch reconciliation](research_2026-11-24/CONTINUATION.txt)
+tracks the remaining supplier leads and citation checks.
+
 - `figures/full_supply_chain_structure.html`: offline component graph and
   node-by-node supplier, site-coverage and edge-source explorer.
 - `figures/full_supply_chain_reviewed_structure.html`: separate semantic-review

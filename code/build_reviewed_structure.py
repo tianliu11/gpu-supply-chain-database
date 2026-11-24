@@ -127,8 +127,17 @@ def main():
           'Memory generation, connector generation, quantities and mechanical dimensions require a chosen reference design.',
           'Raw-ore ancestry is not a direct factory shipment. Refining and recovery pathways need process-specific review.',
           'Definitions do not verify every existing edge, exact grade, supplier qualification, site allocation or logistics route.'])
+    facilities = []
+    for facility in db['facilities']:
+        submitted = facility['component_categories'].replace(';', ' ').split()
+        # Legacy categories can contain product descriptions or IDs from the
+        # earlier scenario. Only emit actual reviewed-graph foreign keys.
+        canonical = (aliases.get(node_id, node_id) for node_id in submitted)
+        facilities.append(dict(facility, canonical_component_node_ids=list(dict.fromkeys(
+            node_id for node_id in canonical if node_id in nodes))))
     result = dict(metadata=meta, nodes=list(nodes.values()), edges=edges, sources=db['sources'],
-        vendor_site_coverage=[dict(r, node_id=aliases.get(r.get('node_id'),r.get('node_id'))) for r in db['vendor_site_coverage']])
+        vendor_site_coverage=[dict(r, node_id=aliases.get(r.get('node_id'),r.get('node_id'))) for r in db['vendor_site_coverage']],
+        facilities=facilities, nearby_hub_candidates=db['nearby_hub_candidates'])
     (CLEAN/'reviewed_supply_chain_structure.json').write_text(json.dumps(result,indent=2)+'\n')
     (CLEAN/'structure_review_summary.json').write_text(json.dumps(meta,indent=2)+'\n')
     lines = ['COMPONENT DEFINITIONS AND STRUCTURE REVIEW', '',
