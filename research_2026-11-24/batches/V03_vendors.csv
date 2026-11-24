@@ -1,0 +1,90 @@
+node_id,node_name,vendor_rank,vendor_name,vendor_parent_group,hq_country,vendor_role,ranking_basis,metric_value,metric_year,evidence_strength,source_ids,notes
+1.5,I/O Bracket,,UNRESOLVED – no sourced vendor,,,,,,,weak,,"No reputable source naming I/O-bracket suppliers found before the shared web-search budget ran out. Typically a commodity stamped/plated steel part from contract metal stampers for AIB partners; needs follow-up."
+2,Cooler,1,Asia Vital Components (AVC),Asia Vital Components Co. Ltd.,Taiwan,GPU thermal module maker (ODM to AIB partners),"named key player, unordered",,2025,medium,V03_S001;V03_S002;V03_S004,"Named major company in GPU heatsink/thermal-module market; dominates VC supply to AIB partners with TaiSol. Market is fragmented: no firm >15% share (Mordor)."
+2,Cooler,2,Auras Technology,Auras Technology Co. Ltd.,Taiwan,GPU thermal module maker (ODM to NVIDIA/AIB partners),"named key player, unordered",,2025,medium,V03_S002;V03_S003;V03_S005;V03_S020,Existing repo vendor confirmed.
+2,Cooler,3,TaiSol Electronics,TaiSol Electronics Co. Ltd.,Taiwan,GPU thermal module / vapor chamber maker,"named key player, unordered",,2025,medium,V03_S001;V03_S003,Dominates VC supply to AIB partners with AVC (Mordor).
+2,Cooler,4,Cooler Master,Cooler Master Technology Inc.,Taiwan,thermal module / cooler maker,"named key player, unordered",,2025,medium,V03_S001;V03_S004,
+2,Cooler,5,Nidec Chaun-Choung Technology (CCI),Nidec Corporation,Taiwan (parent Japan),thermal module maker,"named key player, unordered",,2025,medium,V03_S003;V03_S006,
+2,Cooler,6,Hon Hai Precision Industry (Foxconn),Hon Hai / Foxconn,Taiwan,thermal module maker,"named key player, unordered",,2025,medium,V03_S001;V03_S004,
+2,Cooler,7,Delta Electronics,Delta Electronics Inc.,Taiwan,thermal module / fan maker,"named key player, unordered",,2025,medium,V03_S001;V03_S002,
+2,Cooler,8,Boyd Corporation (incl. Aavid),Boyd Corporation,USA,thermal module maker,"named key player, unordered",,2025,medium,V03_S001;V03_S002,More server/industrial than consumer GPU cards.
+2.1,Vapor Chamber Base,1,Asia Vital Components (AVC),Asia Vital Components Co. Ltd.,Taiwan,vapor chamber maker,"named dominant supplier to AIB partners",,2025,medium,V03_S001;V03_S002,"Mordor: AVC and TaiSol 'dominate the supply of vapor chambers to most add-in-board partners'."
+2.1,Vapor Chamber Base,2,TaiSol Electronics,TaiSol Electronics Co. Ltd.,Taiwan,vapor chamber maker,"named dominant supplier to AIB partners",,2025,medium,V03_S001;V03_S002;V03_S003,3D vapor chamber for chiplet GPUs.
+2.1,Vapor Chamber Base,3,Auras Technology,Auras Technology Co. Ltd.,Taiwan,vapor chamber maker,"named key player, unordered",,2025,medium,V03_S002;V03_S003;V03_S005,Existing repo vendor confirmed; designing VCs for graphics cards.
+2.1,Vapor Chamber Base,4,Nidec Chaun-Choung Technology (CCI),Nidec Corporation,Taiwan (parent Japan),vapor chamber maker,"named key player, unordered",,2025,medium,V03_S002;V03_S003;V03_S006,
+2.1,Vapor Chamber Base,5,Jentech Precision Industrial,Jentech Precision Industrial Co. Ltd.,Taiwan,vapor chamber / heat spreader maker,"named key player, unordered",,2025,medium,V03_S002;V03_S003,
+2.1,Vapor Chamber Base,6,Fujikura,Fujikura Ltd.,Japan,vapor chamber maker,"named key player, unordered",,2025,medium,V03_S002;V03_S003;V03_S007,
+2.1,Vapor Chamber Base,7,Forcecon Technology,Forcecon Technology Co. Ltd.,Taiwan,vapor chamber maker,"named key player, unordered",,2025,medium,V03_S002;V03_S003,
+2.1,Vapor Chamber Base,8,Delta Electronics,Delta Electronics Inc.,Taiwan,vapor chamber maker,"named key player, unordered",,2025,medium,V03_S002;V03_S003,
+2.1,Vapor Chamber Base,9,Celsia,Celsia Inc.,USA,vapor chamber maker,"named key player, unordered",,2025,medium,V03_S002;V03_S003,Smaller; more industrial/custom.
+2.2,Heat Pipe,1,Auras Technology,Auras Technology Co. Ltd.,Taiwan,heat pipe maker,"named key player, unordered",,2025,medium,V03_S003;V03_S004,Existing repo vendor confirmed.
+2.2,Heat Pipe,2,Nidec Chaun-Choung Technology (CCI),Nidec Corporation,Taiwan (parent Japan),heat pipe maker,"named key player, unordered",,2025,medium,V03_S003;V03_S004;V03_S006,
+2.2,Heat Pipe,3,TaiSol Electronics,TaiSol Electronics Co. Ltd.,Taiwan,heat pipe maker,"named key player, unordered",,2025,medium,V03_S003;V03_S004,
+2.2,Heat Pipe,4,Fujikura,Fujikura Ltd.,Japan,heat pipe maker,"named key player, unordered",,2025,medium,V03_S003;V03_S004;V03_S007,
+2.2,Heat Pipe,5,Asia Vital Components (AVC),Asia Vital Components Co. Ltd.,Taiwan,heat pipe maker,"named key player, unordered",,2025,medium,V03_S002;V03_S004,
+2.2,Heat Pipe,6,Furukawa Electric,Furukawa Electric Co. Ltd.,Japan,heat pipe maker,"named key player, unordered",,2025,medium,V03_S001;V03_S004,Sintered heat pipes (notably for servers).
+2.2,Heat Pipe,7,Cooler Master,Cooler Master Technology Inc.,Taiwan,heat pipe maker,"named key player, unordered",,2025,medium,V03_S004,
+2.2,Heat Pipe,8,Forcecon Technology,Forcecon Technology Co. Ltd.,Taiwan,heat pipe maker,"named key player, unordered",,2025,medium,V03_S003;V03_S004,
+2.2,Heat Pipe,9,Hon Hai Precision Industry (Foxconn),Hon Hai / Foxconn,Taiwan,heat pipe maker,"named key player, unordered",,2025,medium,V03_S004,
+2.2,Heat Pipe,10,Boyd Corporation (Aavid Thermacore),Boyd Corporation,USA,heat pipe maker,"named key player, unordered",,2025,medium,V03_S002;V03_S004,
+2.3,Fin Stack,1,Asia Vital Components (AVC),Asia Vital Components Co. Ltd.,Taiwan,thermal module maker (fins made in-house),"named key player, unordered",,2025,weak,V03_S001,"Fin stacks are normally stamped/assembled in-house by the thermal module makers; no source ranks fin-stack makers specifically."
+2.3,Fin Stack,2,Auras Technology,Auras Technology Co. Ltd.,Taiwan,thermal module maker (fins made in-house),"named key player, unordered",,2025,weak,V03_S005;V03_S020,Existing repo vendor plausible; product pages show finned GPU heatsinks.
+2.3,Fin Stack,3,TaiSol Electronics,TaiSol Electronics Co. Ltd.,Taiwan,thermal module maker (fins made in-house),"named key player, unordered",,2025,weak,V03_S001,
+2.3,Fin Stack,4,Nidec Chaun-Choung Technology (CCI),Nidec Corporation,Taiwan (parent Japan),thermal module / heat sink maker,"named key player, unordered",,2025,weak,V03_S006,Heat sinks and heat sink modules.
+2.3,Fin Stack,5,Fujikura,Fujikura Ltd.,Japan,heat sink maker,"product capability",,2025,weak,V03_S007,Heatsinks with fins as thin as 0.05 mm.
+2.3,Fin Stack,6,Cooler Master,Cooler Master Technology Inc.,Taiwan,thermal module maker,"named key player, unordered",,2025,weak,V03_S001,
+2.4,Blower Motor,1,Delta Electronics,Delta Electronics Inc.,Taiwan,DC brushless cooling fan maker,market share (cooling fans),23.1% share,2025,strong,V03_S008,Leader of global cooling-fan market (FMI).
+2.4,Blower Motor,2,Nidec,Nidec Corporation,Japan,DC brushless fan / motor maker,"named key player, unordered",,2025,medium,V03_S008,
+2.4,Blower Motor,3,MinebeaMitsumi,MinebeaMitsumi Inc.,Japan,DC brushless fan maker,"named key player, unordered",,2025,medium,V03_S008,Existing repo vendor confirmed.
+2.4,Blower Motor,4,Sunonwealth Electric Machine (SUNON),Sunonwealth Electric Machine Industry Co.,Taiwan,DC brushless fan maker,"named key player, unordered",,2025,medium,V03_S008;V03_S001,Existing repo vendor confirmed.
+2.4,Blower Motor,5,Power Logic,Power Logic Tech. Inc.,Taiwan,GPU/gaming cooling fan maker,"named supplier tied to RTX 50 demand",,2025,medium,V03_S009;V03_S010,Fan maker whose record 2025 revenue tied to RTX 5070/5080 gaming-fan demand; widely used on AIB card coolers.
+2.4,Blower Motor,6,Asia Vital Components (AVC),Asia Vital Components Co. Ltd.,Taiwan,fan / thermal module maker,"named key player, unordered",,2025,weak,V03_S001,Thermal module maker that also produces fans (fan role not explicit in source).
+2.4,Blower Motor,7,Sun Max,,Taiwan,cooling fan maker (PC gaming),"named supplier, trade press",,,weak,V03_S005,Cooling-fan specialist with PC-gaming shipments of US$63.33M (year per article).
+2.5,Thermal Pad Set,1,Henkel (incl. Bergquist),Henkel AG & Co. KGaA,Germany,thermal interface material maker,"named key player, unordered",,2025,medium,V03_S011;V03_S012,Bergquist is part of Henkel; not double-listed.
+2.5,Thermal Pad Set,2,Dow,Dow Inc.,USA,thermal interface material maker,"named key player, unordered",,2025,medium,V03_S011;V03_S012,Formerly Dow Corning.
+2.5,Thermal Pad Set,3,3M,3M Company,USA,thermal interface material maker,"named key player, unordered",,2025,medium,V03_S011;V03_S012,
+2.5,Thermal Pad Set,4,Parker Hannifin (Chomerics),Parker Hannifin Corp.,USA,thermal interface material maker,"named key player, unordered",,2025,medium,V03_S011;V03_S012,
+2.5,Thermal Pad Set,5,Laird Performance Materials,DuPont de Nemours (acquired Laird PM 2021),USA,thermal interface material maker,"named key player, unordered",,2025,medium,V03_S011;V03_S012,"GMI lists Laird as part of Renesas, which appears wrong; parent per DuPont 2021 acquisition (not verified in this batch's sources)."
+2.5,Thermal Pad Set,6,Shin-Etsu Chemical,Shin-Etsu Chemical Co. Ltd.,Japan,silicone thermal pad maker,"named key player, unordered",,2025,medium,V03_S012,Existing repo vendor confirmed.
+2.5,Thermal Pad Set,7,Jones Tech,Jones Tech PLC,China,thermal interface material maker,"named key player, unordered",,2025,medium,V03_S011,
+2.5,Thermal Pad Set,8,Fujipoly,Fuji Polymer Industries,Japan,thermal pad maker,"named key player, unordered",,2025,medium,V03_S012,
+2.5,Thermal Pad Set,9,Momentive Performance Materials,Momentive Performance Materials Inc.,USA,silicone thermal interface maker,"named key player, unordered",,2025,medium,V03_S012,
+2.6,Fastener Set,,UNRESOLVED – no sourced vendor,,,,,,,weak,,"Search budget exhausted before fastener sources found. Existing repo vendor Semblex is a US automotive fastener maker and is unlikely to be a GPU cooler fastener supplier; needs follow-up."
+3,Backplate,,UNRESOLVED – no sourced vendor,,,,,,,weak,,"No source naming backplate suppliers found before the shared web-search budget ran out. Likely made by AIB partners' metal stamping/CNC contractors or delivered with the cooler module; needs follow-up."
+7,Cooler Shroud,,UNRESOLVED – no sourced vendor,,,,,,,weak,,"No source naming shroud suppliers found before the shared web-search budget ran out. Likely injection-moulded by AIB partners' plastics/metal contractors; needs follow-up."
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,1,Jiangsu Dingsheng New Material,Dingsheng New Material,China,heat-exchange fin foil producer,"named key player, unordered",,2025,medium,V03_S015,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,2,UACJ,UACJ Corporation,Japan,heat-exchange fin foil producer,"named key player, unordered",,2025,medium,V03_S015;V03_S013,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,3,Xiamen Xiashun Aluminium Foil,Xiashun Holdings,China,aluminium foil producer,"named key player; #1 Chinese foil producer",,2025,medium,V03_S015;V03_S016,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,4,LOTTE Aluminium,Lotte Group,South Korea,heat-exchange fin foil producer,"named key player, unordered",,2025,medium,V03_S015,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,5,Yong Jie New Material,Yong Jie New Material Co.,China,heat-exchange fin foil producer,"named key player, unordered",,2025,medium,V03_S015,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,6,Shanghai Huafon Aluminium,Huafon Group,China,heat-exchange fin foil producer,"named key player, unordered",,2025,medium,V03_S015,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,7,Henan Mingtai Aluminium,Mingtai Al. Industrial,China,aluminium foil/sheet producer,"named key player, unordered",1.4 Mt FRP capacity,2025,medium,V03_S015;V03_S013,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,8,Yunnan Aluminium,Chinalco (Aluminum Corporation of China),China,aluminium foil producer,"named key player, unordered",,2025,medium,V03_S015,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,9,Dongwon Systems,Dongwon Group,South Korea,heat-exchange foil producer,"named key player, unordered",,2025,medium,V03_S015,
+SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,10,Nanshan Aluminium,Nanshan Group,China,aluminium foil producer,"named key player, unordered",,2025,medium,V03_S015,"Existing repo vendor Constellium is a top FRP producer but not named among heat-exchange fin foil leaders."
+SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,1,Novelis,Hindalco Industries (Aditya Birla Group),USA (parent India),aluminium flat-rolled producer,FRP capacity/shipments,~4.17 Mt FRP (Hindalco+Novelis),2025,strong,V03_S013;V03_S014,
+SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,2,Henan Mingtai Aluminium,Mingtai Al. Industrial,China,aluminium flat-rolled producer,FRP capacity,1.4 Mt capacity,2025,strong,V03_S013,
+SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,3,UACJ,UACJ Corporation,Japan,aluminium flat-rolled producer,FRP capacity,1.4 Mt capacity (1.32 Mt sales FY2026),2025,strong,V03_S013;V03_S014,
+SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,4,Constellium,Constellium SE,France,aluminium flat-rolled producer,FRP capacity,~0.8 Mt capacity,2025,strong,V03_S013;V03_S014,
+SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,5,Assan Alüminyum,Kibar Holding,Türkiye,aluminium flat-rolled producer,FRP capacity,0.36 Mt capacity,2025,strong,V03_S013,
+SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,6,Arconic,Arconic Corp.,USA,aluminium flat-rolled producer,"named key player, unordered",,2025,medium,V03_S014,
+SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,7,Gränges,Gränges AB,Sweden,aluminium rolled products producer,"named key player, unordered",,2025,medium,V03_S014,Focused on brazing/heat-exchanger strip rather than structural plate.
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,1,Kymera International,Kymera International,USA,atomized copper powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,2,Pometon,Pometon S.p.A.,Italy,atomized copper powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,3,Fukuda Metal Foil & Powder,Fukuda Metal Foil & Powder Co.,Japan,atomized copper powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,4,Mitsui Mining & Smelting (Mitsui Kinzoku),Mitsui Kinzoku,Japan,copper powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,5,GRIPM Advanced Materials,GRINM Group,China,atomized copper powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,6,GGP Metalpowder,GGP Metalpowder AG,Germany,copper powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,7,SCHLENK,Carl Schlenk AG,Germany,metal powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,8,American Chemet,American Chemet Corp.,USA,copper powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,9,Sumitomo Metal Mining (SMM),Sumitomo Metal Mining Co.,Japan,copper powder producer,"named key player, unordered",,2025,medium,V03_S018;V03_S019,
+SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,10,Nippon Atomized Metal Powders,,Japan,atomized metal powder producer,retained from repo (unverified),,,weak,,"Existing repo vendor; not covered by ranking sources and not verified (search budget exhausted). Wicks themselves are sintered in-house by heat pipe/VC makers."
+SC-OFC-COPPER,C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube,1,Mitsubishi Materials,Mitsubishi Materials Corp.,Japan,OFC producer,"named leading player",,2025,medium,V03_S017,
+SC-OFC-COPPER,C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube,2,Proterial Metals,Proterial Ltd. (ex-Hitachi Metals),Japan,OFC producer,"named leading player",,2025,medium,V03_S017,
+SC-OFC-COPPER,C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube,3,Aurubis,Aurubis AG,Germany,OFC producer,"named key player, unordered",,2025,medium,V03_S017,
+SC-OFC-COPPER,C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube,4,KGHM Polska Miedź,KGHM Polska Miedź SA,Poland,OFC producer,"named key player, unordered",,2025,medium,V03_S017,
+SC-OFC-COPPER,C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube,5,KME,KME Group,Germany,OFC sheet/tube producer,"named key player, unordered",,2025,medium,V03_S017,
+SC-OFC-COPPER,C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube,6,Sam Dong,Sam Dong Co.,South Korea,OFC producer,"named key player, unordered",,2025,medium,V03_S017,
+SC-OFC-COPPER,C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube,7,Metrod Holdings,Metrod Holdings Berhad,Malaysia,OFC producer,"named key player, unordered",,2025,medium,V03_S017,
+SC-OFC-COPPER,C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube,8,Furukawa Electric,Furukawa Electric Co. Ltd.,Japan,copper products / OFC producer,retained from repo (unverified),,,weak,,"Existing repo vendor; not in ranking source and not verified with a product page (search budget exhausted)."
+SC-AG-BRAZE,Silver-Copper-Phosphorus (BAg-8 / BCuP) Brazing Alloy,1,Lucas-Milhaupt,Steel Partners Holdings (Handy & Harman),USA,brazing alloy producer,retained from repo (unverified),,,weak,,"UNSOURCED: existing repo vendor, plausible leader but no ranking source found before web-search budget ran out. Node needs follow-up (candidates to verify: Harris Products Group/Lincoln Electric, Umicore, Hangzhou Huaguang)."

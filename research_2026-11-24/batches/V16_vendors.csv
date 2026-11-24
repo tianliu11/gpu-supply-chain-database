@@ -1,0 +1,73 @@
+node_id,node_name,vendor_rank,vendor_name,vendor_parent_group,hq_country,vendor_role,ranking_basis,metric_value,metric_year,evidence_strength,source_ids,notes
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,1,Sumitomo Chemical,Sumitomo Chemical,Japan,high-purity alumina powder producer,named leading player,"~1,500 t/yr HPA (as stated)",,medium,V16_S002;V16_S001,
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,2,Baikowski,,France,high-purity alumina powder producer,"named key player, unordered",,,medium,V16_S002;V16_S001,
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,3,Nippon Light Metal,Nippon Light Metal Holdings,Japan,high-purity / fine alumina producer,"named key player, unordered",,,medium,V16_S002;V16_S001,GMI lists as Nippon Light Medical Holding (typo)
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,4,Aluminum Corporation of China (CHALCO),Chinalco,China,alumina / HPA producer,"named key player, unordered",,,medium,V16_S002;V16_S001,
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,5,Sasol,Sasol Limited,South Africa,high-purity alumina producer,"named key player, unordered",,,medium,V16_S002;V16_S001,
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,6,Hebei Pengda Advanced Materials Technology,,China,HPA producer,"named key player, unordered",,,medium,V16_S001,
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,7,Zibo Honghe Chemical,,China,HPA producer,"named key player, unordered",,,medium,V16_S001;V16_S002,
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,8,Polar Performance Materials (Polar Sapphire),,Canada,HPA producer,"named key player, unordered",,,medium,V16_S002;V16_S001,
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,9,Alcoa,Alcoa Corporation,United States,alumina / HPA producer,"named key player, unordered",,,medium,V16_S001;V16_S002,"HPA via project with FYI Resources (8,000 t/yr planned)"
+PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,10,United Company RUSAL,RUSAL,Russia,alumina / HPA producer,"named key player, unordered",,,medium,V16_S001;V16_S002,Sanctions exposure
+PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,1,Sakai Chemical Industry,,Japan,BaTiO3 dielectric powder producer,"named key player, unordered",,,medium,V16_S003;V16_S004,
+PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,2,Nippon Chemical Industrial,,Japan,BaTiO3 dielectric powder producer,"named key player, unordered",,,medium,V16_S003;V16_S004,
+PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,3,Fuji Titanium Industry,,Japan,BaTiO3 dielectric powder producer,"named key player, unordered",,,medium,V16_S003;V16_S004,
+PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,4,KCM Corporation,,Japan,BaTiO3 dielectric powder producer,"named key player, unordered",,,medium,V16_S003;V16_S004,
+PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,5,Shandong Sinocera Functional Material,,China,BaTiO3 / MLCC dielectric powder producer,"named key player, unordered",,,medium,V16_S003;V16_S004,
+PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,6,Vibrantz Technologies (formerly Ferro),American Securities,United States,MLCC dielectric formulations,"named key player, unordered",,,medium,V16_S004,
+PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,7,Toho Titanium,JX Advanced Metals group,Japan,BaTiO3 dielectric powder producer,"named key player, unordered",,,medium,V16_S004,
+PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,8,Prosperity Dielectrics,,Taiwan,MLCC dielectric powder producer,"named key player, unordered",,,medium,V16_S004,"Large MLCC makers (Murata, Samsung EM) also synthesize BaTiO3 in-house"
+PM-FERRITE,Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder,1,TDK,TDK Corporation,Japan,ferrite material and core maker,"named key player, unordered",,,weak,V16_S011,Ni-Zn ferrite powder is largely produced in-house by core/inductor makers
+PM-FERRITE,Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder,2,Murata Manufacturing,,Japan,ferrite material and chip ferrite maker,"named key player, unordered",,,weak,V16_S011,
+PM-FERRITE,Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder,3,Yageo (Ferroxcube),Yageo Corporation,Taiwan,ferrite material and core maker,"named key player, unordered",,,weak,V16_S011,
+PM-FERRITE,Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder,4,JPMF Guangdong,,China,ferrite powder and core maker,"named key player, unordered",,,weak,V16_S011,
+PM-FERRITE,Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder,5,Fair-Rite Products,,United States,Ni-Zn ferrite component maker,"named key player, unordered",,,weak,V16_S011,
+PM-FERRITE,Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder,6,Magnetics Inc.,Spang & Company,United States,ferrite core maker,"named key player, unordered",,,weak,V16_S011,
+PM-FERRITE,Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder,7,Samwha Electronics,Samwha Group,South Korea,ferrite material maker,"named key player, unordered",,,weak,V16_S011,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,1,BASF,BASF SE,Germany,carbonyl iron powder producer,"named key player, unordered",,,medium,V16_S012,Top-5 CIP makers hold ~70% combined (source)
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,2,Jiangxi Yuean Advanced Materials,,China,carbonyl iron and FeSiCr powder producer,"named key player, unordered",,,medium,V16_S012;V16_S013,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,3,Jilin Jien Nickel Industry,,China,carbonyl iron powder producer,"named key player, unordered",,,medium,V16_S012,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,4,JFE Steel,JFE Holdings,Japan,iron powder producer,"named key player, unordered",,,medium,V16_S012,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,5,GRIPM Advanced Materials,GRINM Group,China,iron / alloy powder producer,"named key player, unordered",,,medium,V16_S012,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,6,Sintez-CIP,,Russia,carbonyl iron powder producer,"named key player, unordered",,,medium,V16_S012,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,7,DOWA Electronics Materials,DOWA Holdings,Japan,FeSiCr soft magnetic powder producer,"named key player, unordered",,,medium,V16_S013,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,8,Advanced Technology & Materials (AT&M),China Iron & Steel Research Institute Group,China,FeSiCr / amorphous powder producer,"named key player, unordered",,,medium,V16_S013,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,9,POCO Holding,,China,FeSiCr / alloy soft magnetic powder producer,"named key player, unordered",,,medium,V16_S013,
+PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,10,Daido Steel,,Japan,atomized soft magnetic alloy powder producer,product capability,,,weak,V16_S014,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,1,Denka,Denka Company,Japan,spherical fused silica filler producer,"named key player, unordered",,,medium,V16_S009,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,2,Admatechs,,Japan,spherical silica filler producer,"named key player, unordered",,,medium,V16_S009,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,3,Tatsumori,,Japan,fused/spherical silica producer,"named key player, unordered",,,medium,V16_S009,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,4,Micron Co.,Nippon Steel Chemical & Material,Japan,spherical silica filler producer,"named key player, unordered",,,medium,V16_S009,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,5,Shin-Etsu Chemical,,Japan,spherical silica filler producer,"named key player, unordered",,,medium,V16_S009,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,6,Jiangsu Novoray New Material,,China,spherical silica filler producer,"named key player, unordered",,,medium,V16_S009,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,7,Jiangsu Yoke Technology,,China,spherical silica filler producer,"named key player, unordered",,,medium,V16_S009,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,8,Imerys,,France,fused silica producer,"named key player, unordered",,,medium,V16_S009,
+PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,9,Sibelco,,Belgium,fused/spherical silica producer,"named key player, unordered",,,medium,V16_S009,
+PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,1,Saint-Gobain,Compagnie de Saint-Gobain,France,h-BN powder producer,"named key player, unordered",,,medium,V16_S010,
+PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,2,Denka,Denka Company,Japan,h-BN powder producer,"named key player, unordered",,,medium,V16_S010,
+PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,3,3M,3M Company,United States,h-BN powder producer (ex-ESK Ceramics),"named key player, unordered",,,medium,V16_S010,
+PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,4,Resonac (formerly Showa Denko),Resonac Holdings,Japan,h-BN powder producer,"named key player, unordered",,,medium,V16_S010,
+PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,5,Momentive Technologies,,United States,h-BN powder producer,"named key player, unordered",,,medium,V16_S010,Listed as Momentive Performance Materials
+PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,6,Mizushima Ferroalloy,,Japan,h-BN powder producer,"named key player, unordered",,,medium,V16_S010,
+PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,7,Henze Boron Nitride Products,,Germany,h-BN powder producer,"named key player, unordered",,,medium,V16_S010,
+PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,8,Kennametal,,United States,BN ceramic producer,"named key player, unordered",,,medium,V16_S010,
+PM-TIO2,Rutile Titanium Dioxide (TiO2) White Pigment,1,Chemours,The Chemours Company,United States,TiO2 pigment producer,share of global production capacity,14%,2023,strong,V16_S005;V16_S006;V16_S007,
+PM-TIO2,Rutile Titanium Dioxide (TiO2) White Pigment,2,Tronox,Tronox Holdings plc,United Kingdom,vertically integrated TiO2 pigment producer,share of global production capacity,12%,2023,strong,V16_S005;V16_S006,
+PM-TIO2,Rutile Titanium Dioxide (TiO2) White Pigment,3,LB Group (Lomon Billions),,China,TiO2 pigment producer,share of global production capacity,12%,2023,strong,V16_S005;V16_S007;V16_S008,Acquiring Venator's Greatham UK 150 ktpy plant
+PM-TIO2,Rutile Titanium Dioxide (TiO2) White Pigment,4,Kronos Worldwide,Valhi Inc.,United States,TiO2 pigment producer,share of global production capacity,7% capacity; ~6% sales volume,2023,strong,V16_S005,
+PM-TIO2,Rutile Titanium Dioxide (TiO2) White Pigment,5,Venator Materials,,United Kingdom,TiO2 pigment producer,share of global production capacity,7%,2023,strong,V16_S005;V16_S007,Closed Duisburg sulfate plant 2024
+PM-TIO2,Rutile Titanium Dioxide (TiO2) White Pigment,6,INEOS,INEOS Group,United Kingdom,TiO2 pigment producer,named principal competitor,,,medium,V16_S006,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,1,Daiichi Kigenso Kagaku Kogyo (DKKK),,Japan,zirconia / YSZ powder producer,"named key player, unordered",,,medium,V16_S016;V16_S015,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,2,Tosoh,Tosoh Corporation,Japan,YSZ powder producer,"named key player, unordered",,,medium,V16_S016;V16_S015,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,3,Saint-Gobain,Compagnie de Saint-Gobain,France,zirconia powder and refractory ceramic producer,"named key player, unordered",,,medium,V16_S016;V16_S015,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,4,Solvay,Solvay SA,Belgium,zirconia powder producer,"named key player, unordered",,,medium,V16_S016,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,5,Guangdong Orient Zirconic,,China,zirconia powder producer,"named key player, unordered",,,medium,V16_S016;V16_S015,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,6,Jiangxi Kingan (Jing'an) High-Tech,,China,zirconia powder producer,"named key player, unordered",,,medium,V16_S016;V16_S015,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,7,Shandong Sinocera (Guoci) Functional Materials,,China,zirconia powder producer,"named key player, unordered",,,medium,V16_S016;V16_S015,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,8,Resonac (formerly Showa Denko),Resonac Holdings,Japan,zirconia powder producer,"named key player, unordered",,,medium,V16_S016;V16_S015,
+PM-ZIRCONIA,Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic,9,Luxfer MEL Chemicals,Luxfer Holdings,United Kingdom,zirconium chemicals / zirconia producer,"named key player, unordered",,,medium,V16_S016,Existing repo vendor Morgan Advanced Materials (fabricated ceramics) not covered by sources found
+PM-YAG-PHOSPHOR,Cerium-Doped Yttrium Aluminum Garnet (YAG:Ce) Phosphor,,UNRESOLVED - not researched,,,,,,,weak,,Web search budget exhausted before this node; needs follow-up pass
+PM-RUO2-PASTE,Ruthenium Dioxide (RuO2) Thick-Film Resistive Paste,,UNRESOLVED - not researched,,,,,,,weak,,Web search budget exhausted before this node; needs follow-up pass
+PM-SAPPHIRE-WAFER,Synthetic Single-Crystal Sapphire & GaAs Epi-Wafers,,UNRESOLVED - not researched,,,,,,,weak,,Web search budget exhausted before this node; needs follow-up pass
+PM-NDFEB-ALLOY,Sintered Neodymium-Iron-Boron (Nd2Fe14B) Magnet Alloy,,UNRESOLVED - not researched,,,,,,,weak,,Web search budget exhausted before this node; needs follow-up pass
+PM-WC-COBALT,Sintered Tungsten Carbide-Cobalt (WC-Co) Hardmetal,,UNRESOLVED - not researched,,,,,,,weak,,Web search budget exhausted before this node; needs follow-up pass

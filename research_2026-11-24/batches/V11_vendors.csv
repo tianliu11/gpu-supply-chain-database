@@ -1,0 +1,56 @@
+node_id,node_name,vendor_rank,vendor_name,vendor_parent_group,hq_country,vendor_role,ranking_basis,metric_value,metric_year,evidence_strength,source_ids,notes
+LD:tungsten_hexafluoride,Tungsten hexafluoride,1,SK Specialty (formerly SK Materials),SK Specialty,South Korea,WF6 producer,company claim of world #1 WF6 output,world top one (company claim),,strong,V11_S003;V11_S002;V11_S001,Korea ~15-25% of global WF6 per Fastmarkets; ownership of SK Specialty changed from SK Inc. (verify current parent)
+LD:tungsten_hexafluoride,Tungsten hexafluoride,2,Kanto Denka Kogyo,Kanto Denka Kogyo,Japan,WF6 producer,regional share + named leader,"Japan (Kanto Denka + Central Glass) ~2,000-2,200 t/yr; 20-30% of global",2026,strong,V11_S001;V11_S002,Focus on 6N+ grades; Japanese output cuts drove 2026 price spike
+LD:tungsten_hexafluoride,Tungsten hexafluoride,3,CSSC (PERIC Special Gases),China State Shipbuilding Corporation,China,WF6 producer,named leader of China WF6 sector,"China total ~4,500 t/yr (~50% of supply, all producers)",2026,medium,V11_S001;V11_S002,TrendForce names CSSC Sci-Tech/PERIC as China's WF6 leader
+LD:tungsten_hexafluoride,Tungsten hexafluoride,4,Central Glass,Central Glass,Japan,WF6 producer,regional share + named leader,"shares Japan ~2,000-2,200 t/yr with Kanto Denka",2026,strong,V11_S001;V11_S002,
+LD:tungsten_hexafluoride,Tungsten hexafluoride,5,Foosung,Foosung,South Korea,WF6 producer,named key player,,,medium,V11_S001;V11_S013,
+LD:tungsten_hexafluoride,Tungsten hexafluoride,6,Haohua Chemical Science & Technology (Haohua Gas),Sinochem Holdings,China,WF6 producer,named second-tier Chinese producer,,2026,medium,V11_S001,Parent group per general knowledge (Sinochem/ChemChina)
+LD:tungsten_hexafluoride,Tungsten hexafluoride,7,Hubei Heyuan Gas,Hubei Heyuan Gas,China,WF6 producer,named major Chinese producer,,2026,medium,V11_S002,
+LD:tungsten_hexafluoride,Tungsten hexafluoride,8,GrandiT,GrandiT,China,WF6 producer,named second-tier Chinese producer,,2026,medium,V11_S001,
+LD:nitrogen_trifluoride,Nitrogen trifluoride,1,SK Specialty (formerly SK Materials),SK Specialty,South Korea,NF3 producer,market share (company claim) / capacity,">40% global share; ~12,000 t capacity (2021 est.)",2021,strong,V11_S003;V11_S005;V11_S004,World's largest NF3 producer
+LD:nitrogen_trifluoride,Nitrogen trifluoride,2,Hyosung Chemical (Neochem),Hyosung Group,South Korea,NF3 producer,capacity,"4,800 t (+3,000 t China plant under Hyosung TNC)",2021,strong,V11_S005;V11_S004,NF3 business ownership may have changed since 2021 (reported sale; verify)
+LD:nitrogen_trifluoride,Nitrogen trifluoride,3,Kanto Denka Kogyo,Kanto Denka Kogyo,Japan,NF3 producer,"named key player, unordered",,,medium,V11_S004,
+LD:nitrogen_trifluoride,Nitrogen trifluoride,4,Merck KGaA (Versum Materials),Merck KGaA,Germany,NF3 producer,"named key player, unordered",,,medium,V11_S004;V11_S013,
+LD:nitrogen_trifluoride,Nitrogen trifluoride,5,CSSC (PERIC Special Gases),China State Shipbuilding Corporation,China,NF3 producer,"named key player, unordered",,,medium,V11_S004,
+LD:nitrogen_trifluoride,Nitrogen trifluoride,6,Mitsui Chemicals,Mitsui Chemicals,Japan,NF3 producer,"named key player, unordered",,,medium,V11_S004,
+LD:nitrogen_trifluoride,Nitrogen trifluoride,7,ChemChina,Sinochem Holdings,China,NF3 producer,"named key player, unordered",,,medium,V11_S004,
+LD:nitrogen_trifluoride,Nitrogen trifluoride,8,Shandong FeiYuan (Zibo Feiyuan Chemical),Shandong FeiYuan,China,NF3 producer,"named key player, unordered",,,medium,V11_S004;V11_S013,
+LD:fluorine_gas,Elemental fluorine gas,1,Linde,Linde plc,Ireland/US/UK,F2 gas producer/supplier (incl. on-site generation),"named key player, unordered (top 3 ~78% combined, unnamed)",,2025,medium,V11_S006,
+LD:fluorine_gas,Elemental fluorine gas,2,Solvay,Solvay SA,Belgium,F2 gas producer/supplier,"named key player, unordered",,2025,medium,V11_S006,Fluorine business may sit with Syensqo after 2023 split (verify)
+LD:fluorine_gas,Elemental fluorine gas,3,Air Products,Air Products and Chemicals,United States,F2 gas supplier,"named key player, unordered",,2025,medium,V11_S006,
+LD:fluorine_gas,Elemental fluorine gas,4,Kanto Denka Kogyo,Kanto Denka Kogyo,Japan,F2 gas producer,"named key player, unordered",,2025,medium,V11_S006,
+LD:fluorine_gas,Elemental fluorine gas,5,Hyosung Chemical,Hyosung Group,South Korea,F2 gas producer,"named key player, unordered",,2025,medium,V11_S006,
+LD:fluorine_gas,Elemental fluorine gas,6,Central Glass,Central Glass,Japan,F2 gas producer,"named key player, unordered",,2025,medium,V11_S006,
+LD:fluorine_gas,Elemental fluorine gas,7,Zhuoxi Gas,Zhuoxi Gas,China,F2 gas producer,"named key player, unordered",,2025,medium,V11_S006,
+LD:ammonia,Ammonia,1,CF Industries,CF Industries Holdings,United States,Ammonia producer,production capacity,10.1 Mt gross production (2025); 10.4 Mt capacity,2025,strong,V11_S007;V11_S008,World's largest ammonia producer
+LD:ammonia,Ammonia,2,Yara International,Yara International,Norway,Ammonia producer and trader,named ranking (2nd largest),,2025,strong,V11_S007,
+LD:ammonia,Ammonia,3,Nutrien,Nutrien,Canada,Ammonia producer,named ranking (3rd largest nitrogen producer),7.3 Mt nameplate,2025,strong,V11_S007,
+LD:ammonia,Ammonia,4,OCI Global,OCI,Netherlands,Ammonia producer,named key player,,2025,medium,V11_S007,OCI divested much of its nitrogen portfolio 2024-25 (verify)
+LD:ammonia,Ammonia,5,BASF,BASF SE,Germany,Ammonia producer,named key player,,2025,medium,V11_S007,Chinese state producers (large share of world output) not covered by available sources
+LD:chlorine,Chlorine,1,Olin,Olin Corporation,United States,Chlor-alkali producer,company filing: largest chlor-alkali capacity globally,,2021,strong,V11_S009;V11_S010;V11_S011,
+LD:chlorine,Chlorine,2,Westlake,Westlake Corporation,United States,Chlor-alkali producer,"named major player, unordered",,,medium,V11_S009;V11_S010;V11_S011,
+LD:chlorine,Chlorine,3,Occidental Petroleum (OxyChem),Occidental Petroleum,United States,Chlor-alkali producer,"named major player, unordered",,,medium,V11_S009;V11_S010;V11_S011,
+LD:chlorine,Chlorine,4,Formosa Plastics Group,Formosa Plastics Group,Taiwan,Chlor-alkali producer,"named major player, unordered",,,medium,V11_S010;V11_S011,
+LD:chlorine,Chlorine,5,Dow,Dow Inc.,United States,Chlor-alkali producer,"named major player, unordered",,,medium,V11_S010;V11_S011,
+LD:chlorine,Chlorine,6,INEOS (INOVYN),INEOS,United Kingdom,Chlor-alkali producer,"named major player, unordered",,,medium,V11_S010;V11_S011,
+LD:chlorine,Chlorine,7,Xinjiang Zhongtai Chemical,Xinjiang Zhongtai Chemical,China,Chlor-alkali producer,"named major player, unordered",,,medium,V11_S010;V11_S011,
+LD:chlorine,Chlorine,8,ChemChina,Sinochem Holdings,China,Chlor-alkali producer,"named major player, unordered",,,medium,V11_S011,
+LD:chlorine,Chlorine,9,Tosoh,Tosoh Corporation,Japan,Chlor-alkali producer,"named key player, unordered",,,medium,V11_S010,
+LD:chlorine,Chlorine,10,Hanwha Solutions,Hanwha Group,South Korea,Chlor-alkali producer,"named key player, unordered",,,medium,V11_S010,
+LD:hydrogen_chloride,Hydrogen chloride,1,Olin,Olin Corporation,United States,Hydrochloric acid producer (from Cl2+H2),product capability (filing),,2021,weak,V11_S009,Only partial result: web search budget exhausted before HCl-specific ranking could be found
+LD:silane,Silane,1,REC Silicon,REC Silicon (Hanwha-controlled),Norway/United States,Monosilane producer,market share,> 17% (largest),2025,strong,V11_S012,Moses Lake output reportedly curtailed recently (verify)
+LD:silane,Silane,2,SK Specialty (formerly SK Materials),SK Specialty,South Korea,Monosilane producer,market share (top-5 combined ~50%),,2025,strong,V11_S012,
+LD:silane,Silane,3,Linde,Linde plc,Ireland/US/UK,Monosilane producer,market share (top-5 combined ~50%),,2025,strong,V11_S012,
+LD:silane,Silane,4,Air Liquide,Air Liquide,France,Monosilane producer,market share (top-5 combined ~50%),,2025,strong,V11_S012,
+LD:silane,Silane,5,Mitsui Chemicals,Mitsui Chemicals,Japan,Monosilane producer,market share (top-5 combined ~50%),,2025,strong,V11_S012,
+LD:silane,Silane,6,Taiyo Nippon Sanso,Nippon Sanso Holdings (Mitsubishi Chemical Group),Japan,Monosilane producer,named key player,,2025,medium,V11_S012,
+LD:silane,Silane,7,SIAD,SIAD,Italy,Monosilane producer,named key player,,2025,medium,V11_S012,
+LD:silane,Silane,8,Inner Mongolia Xingyang Technology,Inner Mongolia Xingyang Technology,China,Monosilane producer,named key player,,2025,medium,V11_S012,
+PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",1,Linde,Linde plc,Ireland/US/UK,Etch/clean gas supplier (etch-gas portion only),"named key player, unordered",,2025,medium,V11_S013,Covers only fluorinated etch gases; resist and CMP slurry leaders not sourced (search budget exhausted)
+PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",2,Resonac (formerly Showa Denko),Resonac Holdings,Japan,Etch gas supplier (etch-gas portion only),"named key player, unordered",,2025,medium,V11_S013,
+PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",3,Air Liquide,Air Liquide,France,Etch gas supplier (etch-gas portion only),"named key player, unordered",,2025,medium,V11_S013,
+PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",4,Merck KGaA (EMD Electronics / Versum),Merck KGaA,Germany,Etch gas supplier (etch-gas portion only),"named key player, unordered",,2025,medium,V11_S013,
+PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",5,Taiyo Nippon Sanso,Nippon Sanso Holdings (Mitsubishi Chemical Group),Japan,Etch gas supplier (etch-gas portion only),"named key player, unordered",,2025,medium,V11_S013,
+PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",6,Kanto Denka Kogyo,Kanto Denka Kogyo,Japan,Etch gas supplier (etch-gas portion only),"named key player, unordered",,2025,medium,V11_S013,
+PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",7,SK Specialty (formerly SK Materials),SK Specialty,South Korea,Etch/clean gas supplier (etch-gas portion only),"named key player, unordered",,2025,medium,V11_S013;V11_S003,
+PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",8,Solvay,Solvay SA,Belgium,Etch gas supplier (etch-gas portion only),"named key player, unordered",,2025,medium,V11_S013,

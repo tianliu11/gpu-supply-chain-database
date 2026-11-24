@@ -1,0 +1,48 @@
+source_id,organization,title,url,source_type,accessed_on,supports
+V19_S001,Wikipedia,Largest copper companies,https://en.wikipedia.org/wiki/Largest_copper_companies,wikipedia,2026-11-24,RAW-COPPER-ORE ranking by 2024 mined copper output
+V19_S002,Wikipedia,Largest gold companies,https://en.wikipedia.org/wiki/Largest_gold_companies,wikipedia,2026-11-24,RAW-GOLD-ORE ranking by 2024 gold production (Bloomberg/company data)
+V19_S003,Mining.com,RANKED: Top 10 gold mining companies of 2025,https://www.mining.com/featured-article/ranked-top-10-gold-mining-companies-of-2025,trade_press,2026-11-24,RAW-GOLD-ORE H1 2025 ranking (incl. Navoi Mining)
+V19_S004,The Silver Institute / Metals Focus,World Silver Survey 2025 (Top 20 Silver Mining Companies table),https://edrsilver.com/site/assets/files/14161/world-silver-survey-2025.pdf,industry_association,2026-11-24,RAW-SILVER-ORE ranking by 2024 silver output
+V19_S005,KGHM Polska Miedz,KGHM once again ranked as world leader in silver production,https://media.kghm.com/en/news-and-press-releases/kghm-once-again-ranked-as-world-leader-in-silver-production,company_website,2026-11-24,RAW-SILVER-ORE KGHM 1341 t silver 2024
+V19_S006,Mining Technology (GlobalData),Ten largest bauxite mines,https://www.mining-technology.com/marketdata/ten-largest-bauxites-mines/,trade_press,2026-11-24,RAW-BAUXITE 2023 mine production and owners
+V19_S007,AlCircle,Top five bauxite mining companies in the world,https://www.alcircle.com/news/bauxite/detail/26315/top-five-bauxite-mining-companies-in-the-world,trade_press,2026-11-24,RAW-BAUXITE company-level leaders (2015-2016 data)
+V19_S008,Mining Technology,Growing demand for bauxite highlights risks of dependence on Guinea's supplies,https://www.mining-technology.com/features/growing-demand-for-bauxite-highlights-risks-of-dependence-on-guineas-supplies/,trade_press,2026-11-24,RAW-BAUXITE Chalco and Aditya Birla (Hindalco) as growth drivers
+V19_S009,Mining.com,RANKED: World's top ten nickel mining companies,https://www.mining.com/featured-article/ranked-worlds-top-ten-nickel-producers,trade_press,2026-11-24,RAW-NICKEL-ORE 2020 company ranking (MiningIntelligence)
+V19_S010,Nornickel,Quintessentially Nickel (Dec 2024 market presentation),https://nornickel.ru/upload/iblock/c52/0eoy8kajf9ubddw0lrkhgfwns3i0hewy/2024_12_10-Quintessentially-Nickel.pdf,company_website,2026-11-24,RAW-NICKEL-ORE 2024 producer volumes (Nornickel/Jinchuan/Vale/Glencore/Lygend)
+V19_S011,Mining Technology (GlobalData),Ten largest nickel mines,https://www.mining-technology.com/marketdata/ten-largest-nickels-mines/,trade_press,2026-11-24,RAW-NICKEL-ORE 2023 mine production and owners
+V19_S012,Wikipedia,Tsingshan Holding Group,https://en.wikipedia.org/wiki/Tsingshan_Holding_Group,wikipedia,2026-11-24,RAW-NICKEL-ORE Tsingshan world's largest nickel producer (2022)
+V19_S013,Wikipedia,Norilsk Nickel,https://en.wikipedia.org/wiki/Norilsk_Nickel,wikipedia,2026-11-24,RAW-NICKEL-ORE and RAW-PGM-ORE Nornickel shares (Ni ~14% / Pd 41% / Pt 10%)
+V19_S014,Wikipedia,Vale (company),https://en.wikipedia.org/wiki/Vale_(company),wikipedia,2026-11-24,RAW-IRON-ORE and RAW-NICKEL-ORE Vale largest iron ore producer
+V19_S015,International Tin Association,Global tin production falls in 2024 on supply disruptions,https://www.internationaltin.org/global-tin-production-falls-in-2024-on-supply-disruptions/,industry_association,2026-11-24,RAW-TIN-ORE 2024 top refiners (Yunnan Tin 85.0 kt; Minsur 36.3 kt; EM Vinto 12.7 kt)
+V19_S016,Nasdaq / Investing News Network (citing ITA),Tin Stocks: 10 Biggest Producers in 2024,https://www.nasdaq.com/articles/tin-stocks-10-biggest-producers-2024,trade_press,2026-11-24,RAW-TIN-ORE 2023 top-10 refined tin producers with tonnages
+V19_S017,Wikipedia,Zinc mining,https://en.wikipedia.org/wiki/Zinc_mining,wikipedia,2026-11-24,RAW-SPHALERITE-ZINC major zinc mine operators and 2019 top-10 mine output
+V19_S018,Wikipedia,Hindustan Zinc,https://en.wikipedia.org/wiki/Hindustan_Zinc,wikipedia,2026-11-24,RAW-SPHALERITE-ZINC Hindustan Zinc world's second largest zinc producer
+V19_S019,Wikipedia,Iron ore,https://en.wikipedia.org/wiki/Iron_ore,wikipedia,2026-11-24,RAW-IRON-ORE Vale #1 / Rio Tinto #2 / BHP #3 / Fortescue named
+V19_S020,Wikipedia,Fortescue (company),https://en.wikipedia.org/wiki/Fortescue_(company),wikipedia,2026-11-24,RAW-IRON-ORE Fortescue fourth-largest iron ore producer (2017)
+V19_S021,Wikipedia,CMOC Group,https://en.wikipedia.org/wiki/CMOC_Group,wikipedia,2026-11-24,RAW-COBALT-ORE CMOC ~1/3 of global cobalt supply; RAW-MOLYBDENITE and RAW-TUNGSTEN-ORE CMOC among largest producers
+V19_S022,Wikipedia,Glencore,https://en.wikipedia.org/wiki/Glencore,wikipedia,2026-11-24,RAW-COBALT-ORE Mutanda 27 kt cobalt 2018 (~1/5 global); RAW-SPHALERITE-ZINC zinc trading share
+V19_S023,Wikipedia,Mining industry of the Democratic Republic of the Congo,https://en.wikipedia.org/wiki/Mining_industry_of_the_Democratic_Republic_of_the_Congo,wikipedia,2026-11-24,RAW-COBALT-ORE DRC 67-76% of 2024 cobalt; Mutanda largest cobalt mine; RAW-TANTALITE-COLTAN DRC coltan context
+V19_S024,Wikipedia,Eurasian Resources Group,https://en.wikipedia.org/wiki/Eurasian_Resources_Group,wikipedia,2026-11-24,RAW-COBALT-ORE ERG 23 kt cobalt hydroxide 2022; RAW-CHROMITE ERG largest ferrochrome producer
+V19_S025,Wikipedia,Cobalt,https://en.wikipedia.org/wiki/Cobalt,wikipedia,2026-11-24,RAW-COBALT-ORE CMOC ~40% of world cobalt; Huayou among largest producers
+V19_S026,Wikipedia,Palladium,https://en.wikipedia.org/wiki/Palladium,wikipedia,2026-11-24,RAW-PGM-ORE Norilsk #1 palladium; 2022 country output (Russia; South Africa; Canada; US; Zimbabwe)
+V19_S027,Wikipedia,Sibanye-Stillwater,https://en.wikipedia.org/wiki/Sibanye-Stillwater,wikipedia,2026-11-24,RAW-PGM-ORE Sibanye-Stillwater largest primary Pt/Rh producer; 1.7 Moz 4E SA + 284 koz 2E US
+V19_S028,Wikipedia,Anglo American Platinum (Valterra Platinum),https://en.wikipedia.org/wiki/Anglo_American_Platinum,wikipedia,2026-11-24,RAW-PGM-ORE Valterra largest primary platinum producer (~38% supply)
+V19_S029,Wikipedia,Impala Platinum,https://en.wikipedia.org/wiki/Impala_Platinum,wikipedia,2026-11-24,RAW-PGM-ORE Implats PGM producer (Johannesburg)
+V19_S030,Tharisa plc,Tharisa corporate website,https://www.tharisa.com/,company_website,2026-11-24,RAW-CHROMITE and RAW-PGM-ORE Tharisa produces chrome concentrates and PGMs
+V19_S031,U.S. Geological Survey,Mineral Commodity Summaries 2025 - Chromium,https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-chromium.pdf,government,2026-11-24,RAW-CHROMITE 2024 country mine production (South Africa 21 Mt of 47 Mt)
+V19_S032,Wikipedia,Outokumpu,https://en.wikipedia.org/wiki/Outokumpu,wikipedia,2026-11-24,RAW-CHROMITE Kemi chromite mine (Finland)
+V19_S033,Samancor Chrome,Samancor Chrome corporate website,https://www.samancorcr.com/,company_website,2026-11-24,RAW-CHROMITE Samancor chrome ore/ferrochrome producer (South Africa)
+V19_S034,Wikipedia,Freeport-McMoRan,https://en.wikipedia.org/wiki/Freeport-McMoRan,wikipedia,2026-11-24,RAW-MOLYBDENITE Freeport world's largest molybdenum producer (Climax/Henderson)
+V19_S035,Wikipedia,Codelco,https://en.wikipedia.org/wiki/Codelco,wikipedia,2026-11-24,RAW-MOLYBDENITE Codelco one of world's largest molybdenum producers
+V19_S036,Wikipedia,Southern Copper Corporation,https://en.wikipedia.org/wiki/Southern_Copper_Corporation,wikipedia,2026-11-24,RAW-MOLYBDENITE Southern Copper 64 Mlb Mo mined 2024
+V19_S037,U.S. Geological Survey,Mineral Commodity Summaries 2025 - Tungsten,https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-tungsten.pdf,government,2026-11-24,RAW-TUNGSTEN-ORE 2024 country mine production (China 67 kt of 81 kt)
+V19_S038,Wikipedia,Tungsten,https://en.wikipedia.org/wiki/Tungsten,wikipedia,2026-11-24,RAW-TUNGSTEN-ORE China dominance; non-Chinese mines
+V19_S039,Wikipedia,Almonty Industries,https://en.wikipedia.org/wiki/Almonty_Industries,wikipedia,2026-11-24,RAW-TUNGSTEN-ORE Panasqueira and Sangdong tungsten mines
+V19_S040,Masan High-Tech Materials,Masan High-Tech Materials corporate website,https://masanhightechmaterials.com/,company_website,2026-11-24,RAW-TUNGSTEN-ORE Nui Phao Mining Company subsidiary (Vietnam)
+V19_S041,Wikipedia,Nui Phao mine,https://en.wikipedia.org/wiki/Nui_Phao_mine,wikipedia,2026-11-24,RAW-TUNGSTEN-ORE Nui Phao large open-pit tungsten mine (Vietnam)
+V19_S042,Wikipedia,Tantalum,https://en.wikipedia.org/wiki/Tantalum,wikipedia,2026-11-24,RAW-TANTALITE-COLTAN DRC ~40% and Rwanda+Burundi ~18% of mine production (USGS 2021); Global Advanced Metals
+V19_S043,Wikipedia,Coltan,https://en.wikipedia.org/wiki/Coltan,wikipedia,2026-11-24,RAW-TANTALITE-COLTAN producers and country shares (Brazil/Rwanda/DRC); GAM Tanco mine
+V19_S044,Wikipedia,Pilbara Minerals,https://en.wikipedia.org/wiki/Pilbara_Minerals,wikipedia,2026-11-24,RAW-TANTALITE-COLTAN Pilgangoora produces tantalite concentrate
+V19_S045,Wikipedia,Arsenic,https://en.wikipedia.org/wiki/Arsenic,wikipedia,2026-11-24,RAW-ARSENOPYRITE arsenic recovered as by-product of Cu/Au smelting; 2025 As2O3 output by country
+V19_S046,Wikipedia,Molybdenum,https://en.wikipedia.org/wiki/Molybdenum,wikipedia,2026-11-24,RAW-MOLYBDENITE primary vs by-product mines; country production
+V19_S047,Wikipedia,Alcoa,https://en.wikipedia.org/wiki/Alcoa,wikipedia,2026-11-24,RAW-BAUXITE Alcoa Huntly/Willowdale mines and CBG interest via Halco

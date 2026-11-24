@@ -1,0 +1,101 @@
+node_id,node_name,vendor_rank,vendor_name,vendor_parent_group,hq_country,vendor_role,ranking_basis,metric_value,metric_year,evidence_strength,source_ids,notes
+0,Graphics Card (GPU),1,ASUS,ASUSTeK Computer,Taiwan,AIB partner (card designer/assembler/brand),shipment volume (tied #1),~5M units (tied with MSI),2025,medium,V01_S009;V01_S010,
+0,Graphics Card (GPU),2,MSI,Micro-Star International,Taiwan,AIB partner (card designer/assembler/brand),shipment volume (tied #1),~5M units,2025,medium,V01_S009;V01_S010,existing repo vendor confirmed
+0,Graphics Card (GPU),3,Gigabyte,Gigabyte Technology,Taiwan,AIB partner (card designer/assembler/brand),"named leading supplier, unordered",,,medium,V01_S010,ranked 5th in older (2013) ranking; still a top-tier AIB
+0,Graphics Card (GPU),4,Palit Microsystems (Palit/Gainward),Palit Microsystems,Taiwan,AIB partner and contract card maker,"named leading supplier, unordered",,,medium,V01_S010,volume leader per 2013 ranking; no recent share data found
+0,Graphics Card (GPU),5,PC Partner (Zotac/Inno3D),PC Partner Group,Hong Kong,AIB partner and contract card maker,"named leading supplier, unordered",,,medium,V01_S010,volume leader per 2013 ranking; no recent share data found
+0,Graphics Card (GPU),6,NVIDIA (Founders Edition),NVIDIA,United States,GPU designer selling first-party reference cards,named supplier,,,weak,V01_S011;V01_S001,NVIDIA supplies ~92% of AIB GPUs; FE cards are a small share of card volume. Colorful (China) is also a major AIB but no source found within budget
+1,Main PCB,1,ASUS,ASUSTeK Computer,Taiwan,AIB partner with in-house board assembly,"named leading supplier, unordered",,,weak,V01_S009,graphics-card PCBAs are mostly assembled by AIB partners themselves
+1,Main PCB,2,MSI,Micro-Star International,Taiwan,AIB partner with in-house board assembly,"named leading supplier, unordered",,,weak,V01_S009,
+1,Main PCB,3,Gigabyte,Gigabyte Technology,Taiwan,AIB partner with in-house board assembly,"named leading supplier, unordered",,,weak,V01_S010,
+1,Main PCB,4,Palit Microsystems,Palit Microsystems,Taiwan,AIB / contract graphics-board manufacturer,"named leading supplier, unordered",,,weak,V01_S010,
+1,Main PCB,5,PC Partner,PC Partner Group,Hong Kong,AIB / contract graphics-board manufacturer (EMS),"named leading supplier, unordered",,,weak,V01_S010,
+1,Main PCB,6,Hon Hai Precision (Foxconn),Hon Hai Precision Industry,Taiwan,EMS (largest contract assembler),EMS revenue leader,,2024,weak,V01_S014,largest EMS overall; specific graphics-card PCBA role not confirmed in sources
+1.1,Bare PCB,1,Zhen Ding Technology,Foxconn (Hon Hai) affiliate,Taiwan,PCB fabricator,PCB revenue ranking (Prismark),US$5.869B revenue; ~8% share (2024),2025,strong,V01_S006;V01_S007,mostly flex/HDI for smartphones
+1.1,Bare PCB,2,Unimicron,United Microelectronics (UMC) group,Taiwan,PCB fabricator,PCB revenue ranking (Prismark),US$4.225B revenue; ~5% share (2024),2025,strong,V01_S006;V01_S007,
+1.1,Bare PCB,3,TTM Technologies,,United States,PCB fabricator,market share (revenue),~4% share,2024,medium,V01_S007;V01_S008,
+1.1,Bare PCB,4,Compeq Manufacturing,,Taiwan,PCB fabricator,Prismark global top 10 (unordered),~1% share,2024,medium,V01_S006;V01_S007,existing repo vendor confirmed
+1.1,Bare PCB,5,Tripod Technology,,Taiwan,PCB fabricator,Prismark global top 10 (unordered),~1% share,2024,medium,V01_S006;V01_S007,major supplier of multilayer boards for PCs/graphics
+1.1,Bare PCB,6,WUS Printed Circuit,Nanzih Electronics (Wus Group),Taiwan / China,PCB fabricator,Prismark global top 10 (unordered),,2025,medium,V01_S006;V01_S008,
+1.1,Bare PCB,7,Shennan Circuits,AVIC,China,PCB and IC substrate fabricator,named in NTI-100 top ranks,,2024,medium,V01_S008,
+1.1,Bare PCB,8,Victory Giant Technology,,China,PCB fabricator,named in NTI-100 top ranks,,2024,medium,V01_S008,
+1.1,Bare PCB,9,Gold Circuit Electronics,,Taiwan,PCB fabricator,named in NTI-100 top ranks,,2024,medium,V01_S008,
+1.1,Bare PCB,10,AT&S,,Austria,PCB/HDI and IC substrate fabricator,NTI-100 top 30,~1% share,2024,medium,V01_S007;V01_S008,
+8.2.1,Bare PCB,1,Zhen Ding Technology,Foxconn (Hon Hai) affiliate,Taiwan,PCB fabricator,PCB revenue ranking (Prismark),US$5.869B revenue; ~8% share (2024),2025,strong,V01_S006;V01_S007,mostly flex/HDI for smartphones
+8.2.1,Bare PCB,2,Unimicron,United Microelectronics (UMC) group,Taiwan,PCB fabricator,PCB revenue ranking (Prismark),US$4.225B revenue; ~5% share (2024),2025,strong,V01_S006;V01_S007,
+8.2.1,Bare PCB,3,TTM Technologies,,United States,PCB fabricator,market share (revenue),~4% share,2024,medium,V01_S007;V01_S008,
+8.2.1,Bare PCB,4,Compeq Manufacturing,,Taiwan,PCB fabricator,Prismark global top 10 (unordered),~1% share,2024,medium,V01_S006;V01_S007,existing repo vendor confirmed
+8.2.1,Bare PCB,5,Tripod Technology,,Taiwan,PCB fabricator,Prismark global top 10 (unordered),~1% share,2024,medium,V01_S006;V01_S007,major supplier of multilayer boards for PCs/graphics
+8.2.1,Bare PCB,6,WUS Printed Circuit,Nanzih Electronics (Wus Group),Taiwan / China,PCB fabricator,Prismark global top 10 (unordered),,2025,medium,V01_S006;V01_S008,
+8.2.1,Bare PCB,7,Shennan Circuits,AVIC,China,PCB and IC substrate fabricator,named in NTI-100 top ranks,,2024,medium,V01_S008,
+8.2.1,Bare PCB,8,Victory Giant Technology,,China,PCB fabricator,named in NTI-100 top ranks,,2024,medium,V01_S008,
+8.2.1,Bare PCB,9,Gold Circuit Electronics,,Taiwan,PCB fabricator,named in NTI-100 top ranks,,2024,medium,V01_S008,
+8.2.1,Bare PCB,10,AT&S,,Austria,PCB/HDI and IC substrate fabricator,NTI-100 top 30,~1% share,2024,medium,V01_S007;V01_S008,
+1.2.1,GPU Die,1,NVIDIA,,United States,GPU designer (fabless),AIB/discrete GPU market share (units),~92% share,Q3 2025,strong,V01_S001,RTX 5080-class die is NVIDIA's
+1.2.1,GPU Die,2,AMD,,United States,GPU designer (fabless),AIB/discrete GPU market share (units),~7% share,Q3 2025,strong,V01_S001,
+1.2.1,GPU Die,3,Intel,,United States,GPU designer,AIB/discrete GPU market share (units),~1% share,Q3 2025,strong,V01_S001,
+1.2.1,GPU Die,4,TSMC,,Taiwan,foundry fabricating the GPU die,foundry market share (revenue),71% share,Q3 2025,medium,V01_S002,"listed for completeness; die is NVIDIA-designed, TSMC-fabricated"
+LD:finished_logic_die,Finished logic die,1,NVIDIA,,United States,GPU designer (fabless),AIB/discrete GPU market share (units),~92% share,Q3 2025,strong,V01_S001,RTX 5080-class die is NVIDIA's
+LD:finished_logic_die,Finished logic die,2,AMD,,United States,GPU designer (fabless),AIB/discrete GPU market share (units),~7% share,Q3 2025,strong,V01_S001,
+LD:finished_logic_die,Finished logic die,3,Intel,,United States,GPU designer,AIB/discrete GPU market share (units),~1% share,Q3 2025,strong,V01_S001,
+LD:logic_die_fabricated,"Logic die (fabricated, before ATP)",1,TSMC,,Taiwan,foundry,foundry market share (revenue),71% share,Q3 2025,strong,V01_S002,only TSMC (and Samsung) fab leading-edge GPU logic at scale; RTX 50 dies are TSMC
+LD:logic_die_fabricated,"Logic die (fabricated, before ATP)",2,Samsung Foundry,Samsung Electronics,South Korea,foundry,foundry market share (revenue),6.8% share,Q3 2025,strong,V01_S002,
+LD:logic_die_fabricated,"Logic die (fabricated, before ATP)",3,SMIC,,China,foundry,foundry market share (revenue),,Q3 2025,strong,V01_S002,
+LD:logic_die_fabricated,"Logic die (fabricated, before ATP)",4,UMC,,Taiwan,foundry,foundry market share (revenue),4.2% share,Q3 2025,strong,V01_S002,
+LD:logic_die_fabricated,"Logic die (fabricated, before ATP)",5,GlobalFoundries,,United States,foundry,foundry market share (revenue),3.6% share,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,1,TSMC,,Taiwan,foundry,foundry market share (revenue),71% share,Q3 2025,strong,V01_S002,existing repo vendor confirmed
+LD:fabrication,Fabrication,2,Samsung Foundry,Samsung Electronics,South Korea,foundry,foundry market share (revenue),6.8% share,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,3,SMIC,,China,foundry,foundry market share (revenue),,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,4,UMC,,Taiwan,foundry,foundry market share (revenue),4.2% share,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,5,GlobalFoundries,,United States,foundry,foundry market share (revenue),3.6% share,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,6,Hua Hong Group,,China,foundry,foundry market share (revenue),2.6% share,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,7,Vanguard International Semiconductor,,Taiwan,foundry,foundry market share (revenue),,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,8,Nexchip,,China,foundry,foundry market share (revenue),,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,9,Tower Semiconductor,,Israel,foundry,foundry market share (revenue),,Q3 2025,strong,V01_S002,
+LD:fabrication,Fabrication,10,PSMC,Powerchip,Taiwan,foundry,foundry market share (revenue),,Q3 2025,strong,V01_S002,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",1,ASE Technology Holding (incl. SPIL),ASE Technology Holding,Taiwan,OSAT,OSAT revenue ranking,US$18.54B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",2,Amkor Technology,,United States,OSAT,OSAT revenue ranking,US$6.32B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",3,JCET Group,,China,OSAT,OSAT revenue ranking,US$5.0B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",4,Tongfu Microelectronics,,China,OSAT,OSAT revenue ranking,US$3.32B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",5,Powertech Technology,,Taiwan,OSAT,OSAT revenue ranking,US$2.28B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",6,HT-Tech (Tianshui Huatian),,China,OSAT,OSAT revenue ranking,US$2.01B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",7,WiseRoad,Wise Road Capital,China,OSAT,OSAT revenue ranking,US$1.56B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",8,Hana Micron,,South Korea,OSAT,OSAT revenue ranking,US$0.92B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",9,KYEC (King Yuan Electronics),,Taiwan,OSAT (test),OSAT revenue ranking,US$0.91B revenue,2024,strong,V01_S003,
+LD:assembly_packaging_testing,"Assembly, packaging, and testing",10,TSMC (advanced packaging),,Taiwan,foundry in-house advanced packaging,named (not in OSAT ranking),,,medium,V01_S002,foundry-integrated packaging (CoWoS/InFO); not ranked among OSATs; ChipMOS (#10 OSAT) omitted to stay at 10
+1.2,GPU Package,1,ASE Technology Holding (incl. SPIL),ASE Technology Holding,Taiwan,OSAT,OSAT revenue ranking,US$18.54B revenue,2024,strong,V01_S003,AIBs buy packaged GPUs from NVIDIA; specific OSAT for GB203-class packaging not confirmed in sources
+1.2,GPU Package,2,Amkor Technology,,United States,OSAT,OSAT revenue ranking,US$6.32B revenue,2024,strong,V01_S003,
+1.2,GPU Package,3,JCET Group,,China,OSAT,OSAT revenue ranking,US$5.0B revenue,2024,strong,V01_S003,
+1.2,GPU Package,4,Tongfu Microelectronics,,China,OSAT,OSAT revenue ranking,US$3.32B revenue,2024,strong,V01_S003,
+1.2,GPU Package,5,Powertech Technology,,Taiwan,OSAT,OSAT revenue ranking,US$2.28B revenue,2024,strong,V01_S003,
+1.2,GPU Package,6,TSMC (advanced packaging),,Taiwan,foundry in-house advanced packaging,named (not in OSAT ranking),,,medium,V01_S002,foundry-integrated packaging (CoWoS/InFO); not ranked among OSATs; ChipMOS (#10 OSAT) omitted to stay at 10
+1.2.2,Package Substrate,1,Unimicron,United Microelectronics (UMC) group,Taiwan,IC substrate maker (ABF/BT),IC substrate market share,16.0% share,2023,strong,V01_S004;V01_S005,
+1.2.2,Package Substrate,2,Samsung Electro-Mechanics,Samsung Group,South Korea,IC substrate maker (FC-BGA/BT),IC substrate market share,9.9% share,2023,strong,V01_S004;V01_S012,
+1.2.2,Package Substrate,3,Ibiden,,Japan,IC substrate maker (ABF FC-BGA),IC substrate market share,9.3% share,2023,strong,V01_S004;V01_S005,existing repo vendor confirmed
+1.2.2,Package Substrate,4,AT&S,,Austria,IC substrate maker (ABF),IC substrate market share,9.1% share,2023,strong,V01_S004;V01_S005,
+1.2.2,Package Substrate,5,Nan Ya PCB,Formosa Plastics Group,Taiwan,IC substrate maker (ABF/BT),IC substrate market share,8.7% share,2023,strong,V01_S004;V01_S005,
+1.2.2,Package Substrate,6,Shinko Electric Industries,,Japan,IC substrate maker (ABF FC-BGA),named key player (with Unimicron/Ibiden ~3/4 of ABF),,2026,medium,V01_S005,
+1.2.2,Package Substrate,7,Kinsus Interconnect,Pegatron group,Taiwan,IC substrate maker (ABF/BT),named key player,,2026,medium,V01_S005,existing repo vendor confirmed
+SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,1,Samsung Electro-Mechanics,Samsung Group,South Korea,package substrate maker (BT/FC-CSP),IC substrate market share (all substrates),9.9% share,2023,medium,V01_S004;V01_S013,"share is for all IC substrates, not BT only"
+SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,2,Unimicron,United Microelectronics (UMC) group,Taiwan,package substrate maker (BT/ABF),IC substrate market share (all substrates),16.0% share,2023,medium,V01_S004,"share is for all IC substrates, not BT only"
+SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,3,Simmtech,,South Korea,memory package substrate maker,"named supplier (memory customers Samsung, SK hynix, Micron)",,2026,medium,V01_S013,memory-substrate specialist
+SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,4,LG Innotek,LG Group,South Korea,package substrate maker (FC-CSP/FC-BGA),named supplier,,2026,weak,V01_S012;V01_S013,
+SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,5,Kinsus Interconnect,Pegatron group,Taiwan,package substrate maker (BT/ABF),named supplier,,2026,weak,V01_S005,
+SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,6,Nan Ya PCB,Formosa Plastics Group,Taiwan,package substrate maker (BT/ABF),IC substrate market share (all substrates),8.7% share,2023,weak,V01_S004,
+SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,7,Daeduck Electronics,,South Korea,package substrate maker,named supplier,,2026,weak,V01_S013,
+LD:substrates,Substrates,1,Unimicron,United Microelectronics (UMC) group,Taiwan,IC substrate maker (ABF/BT),IC substrate market share,16.0% share,2023,strong,V01_S004;V01_S005,
+LD:substrates,Substrates,2,Samsung Electro-Mechanics,Samsung Group,South Korea,IC substrate maker (FC-BGA/BT),IC substrate market share,9.9% share,2023,strong,V01_S004;V01_S012,existing repo 'Samsung' = Samsung Electro-Mechanics
+LD:substrates,Substrates,3,Ibiden,,Japan,IC substrate maker (ABF FC-BGA),IC substrate market share,9.3% share,2023,strong,V01_S004;V01_S005,existing repo vendor confirmed
+LD:substrates,Substrates,4,AT&S,,Austria,IC substrate maker (ABF),IC substrate market share,9.1% share,2023,strong,V01_S004;V01_S005,
+LD:substrates,Substrates,5,Nan Ya PCB,Formosa Plastics Group,Taiwan,IC substrate maker (ABF/BT),IC substrate market share,8.7% share,2023,strong,V01_S004;V01_S005,existing repo 'NanYa' confirmed
+LD:substrates,Substrates,6,Shinko Electric Industries,,Japan,IC substrate maker (ABF FC-BGA),named key player (with Unimicron/Ibiden ~3/4 of ABF),,2026,medium,V01_S005,existing repo vendor confirmed
+LD:substrates,Substrates,7,Kinsus Interconnect,Pegatron group,Taiwan,IC substrate maker (ABF/BT),named key player,,2026,medium,V01_S005,existing repo vendor confirmed
+LD:substrates,Substrates,8,LG Innotek,LG Group,South Korea,IC substrate maker (FC-BGA/FC-CSP),named supplier,,2026,weak,V01_S012;V01_S013,
+LD:substrates,Substrates,9,Toppan,Toppan Holdings,Japan,IC substrate maker,named supplier (capacity investment),,2024,weak,V01_S008,
+LD:plastic_substrate,Plastic substrate,1,Unimicron,United Microelectronics (UMC) group,Taiwan,IC substrate maker (ABF/BT),IC substrate market share,16.0% share,2023,strong,V01_S004;V01_S005,
+LD:plastic_substrate,Plastic substrate,2,Samsung Electro-Mechanics,Samsung Group,South Korea,IC substrate maker (FC-BGA/BT),IC substrate market share,9.9% share,2023,strong,V01_S004;V01_S012,
+LD:plastic_substrate,Plastic substrate,3,Ibiden,,Japan,IC substrate maker (ABF FC-BGA),IC substrate market share,9.3% share,2023,strong,V01_S004;V01_S005,existing repo vendor confirmed
+LD:plastic_substrate,Plastic substrate,4,AT&S,,Austria,IC substrate maker (ABF),IC substrate market share,9.1% share,2023,strong,V01_S004;V01_S005,
+LD:plastic_substrate,Plastic substrate,5,Nan Ya PCB,Formosa Plastics Group,Taiwan,IC substrate maker (ABF/BT),IC substrate market share,8.7% share,2023,strong,V01_S004;V01_S005,
+LD:plastic_substrate,Plastic substrate,6,Shinko Electric Industries,,Japan,IC substrate maker (ABF FC-BGA),named key player (with Unimicron/Ibiden ~3/4 of ABF),,2026,medium,V01_S005,
+LD:plastic_substrate,Plastic substrate,7,Kinsus Interconnect,Pegatron group,Taiwan,IC substrate maker (ABF/BT),named key player,,2026,medium,V01_S005,existing repo vendor confirmed
