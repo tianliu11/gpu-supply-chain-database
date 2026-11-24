@@ -6,14 +6,19 @@ This package joins the BOMWiki graphics-card hierarchy to Georgetown CSET ETO's 
 
 Start with [RESEARCH_HANDOFF.txt](RESEARCH_HANDOFF.txt) for what is done and what
 is still missing. The latest extension preserves the supplied JSON and has 247
-nodes with supplier-candidate evidence, 393 supplier-node records, 231 public
-production-asset records and 1,386 nearby-hub records. These are research-coverage
+nodes with supplier-candidate evidence, 392 supplier-node records, 237 public
+production-asset records and 1,422 nearby-hub records. These are research-coverage
 counts, not percentages of a fully verified or market-representative chain.
 
 - `figures/full_supply_chain_structure.html`: offline component graph and
   node-by-node supplier, site-coverage and edge-source explorer.
 - `figures/full_supply_chain_reviewed_structure.html`: separate semantic-review
-  graph, with 287 canonical nodes and 751 retained links. Not a fully validated BOM.
+  graph, with 305 canonical nodes and 772 links. Not a fully validated BOM.
+- `VALIDATION_RESULTS.txt`: latest process corrections and remaining evidence gaps.
+- `data/clean/process_validation_claims.csv`: 45 individually researched original
+  relationships with sources and exact claim scope; not 45 blanket approvals.
+- `data/clean/reviewed_structure_added_edges.csv`: 23 proposed process links,
+  including explicit candidate-only design relationships.
 - `STRUCTURE_REVIEW.txt`: corrections, 54 scoped definitions and remaining issues.
 - `data/clean/component_definitions.json` and `.csv`: definitions, references and
   project-specific interpretations; exact grades are not implied by class evidence.

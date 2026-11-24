@@ -1,0 +1,41 @@
+{
+  "original_claims_researched": 45,
+  "claim_outcomes": {
+    "supported_process_input": 17,
+    "supported_upstream_process_not_direct_input": 6,
+    "water_role_requires_definition_review": 2,
+    "supported_product_class": 6,
+    "upstream_lineage_requires_process_evidence": 2,
+    "supported_consumable_use": 2,
+    "supported_category_membership": 2,
+    "supported_component_family": 8
+  },
+  "additional_process_component_nodes": 18,
+  "additional_links": 23,
+  "original_links_excluded": 8,
+  "original_audit_status_counts": {
+    "secondary_structure_reference": 35,
+    "semantic_conflict": 1,
+    "supported_process_stage": 4,
+    "unverified_specific_relation": 321,
+    "supported_category_membership": 31,
+    "supported_category_use": 8,
+    "upstream_lineage_requires_process_evidence": 214,
+    "supported_upstream_process_not_direct_input": 6,
+    "supported_process_input": 27,
+    "supported_consumable_use": 2,
+    "technology_specific_review_required": 1,
+    "supported_product_class": 27,
+    "water_role_requires_definition_review": 2,
+    "consumable_use_requires_confirmation": 50,
+    "supported_alloy_composition": 8,
+    "same_material_duplicate_node": 1,
+    "candidate_process_option": 7,
+    "candidate_design_option": 3,
+    "supported_component_family": 8,
+    "optional_or_design_dependent": 1
+  },
+  "important_scope": "Source-backed process/material classes are not proof of exact GPU recipes, qualified supplier interchangeability, or observed shipments.",
+  "research_still_open": "Unverified relations and upstream lineage entries remain unfinished research. They are not declared impossible to validate.",
+  "external_information_needed": "Actual customer contracts, qualified part numbers, production queues, route bookings and capacity are not established by the sources inspected."
+}

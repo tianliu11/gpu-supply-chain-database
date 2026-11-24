@@ -44,6 +44,7 @@ class ResearchIntegrity(unittest.TestCase):
         pairs={(r['full_graph_node_id'],r['provider_name'].casefold()) for r in vendors}
         self.assertEqual(len(pairs),len(vendors))
         self.assertTrue(all(r['product_scope'] and r['qualification_status'] for r in vendors))
+        self.assertFalse(any(r['provider_name']=='Shinko' for r in vendors))
 
     def test_nearest_hub_ranks_are_distance_ordered(self):
         grouped=defaultdict(list)
@@ -130,12 +131,46 @@ class ResearchIntegrity(unittest.TestCase):
         decisions=rows('structure_review_decisions.csv')
         self.assertEqual(len(decisions),757)
         reviewed=json.loads((ROOT/'data/clean/reviewed_supply_chain_structure.json').read_text())
-        self.assertEqual(len(reviewed['nodes']),287)
-        self.assertEqual(len(reviewed['edges']),751)
+        self.assertEqual(len(reviewed['nodes']),305)
+        self.assertEqual(len(reviewed['edges']),772)
         self.assertFalse(any(e['edge_id']=='E0036' for e in reviewed['edges']))
         original=json.loads((ROOT/'data/raw/gpu_complete_node_to_node_supply_chain.json').read_text())
         self.assertEqual({x for n in reviewed['nodes'] for x in n['original_node_ids']},{n['id'] for n in original['nodes']})
         self.assertTrue(reviewed['metadata']['acyclic'])
+
+    def test_process_stage_corrections(self):
+        reviewed=json.loads((ROOT/'data/clean/reviewed_supply_chain_structure.json').read_text())
+        edges={e['edge_id']:e for e in reviewed['edges']}
+        self.assertEqual(edges['E0081']['target_node_id'],'REVIEW:poly_deposition')
+        self.assertEqual(edges['E0083']['target_node_id'],'REVIEW:crystal_growth')
+        self.assertEqual(edges['E0092']['target_node_id'],'REVIEW:wafer_finishing')
+        self.assertEqual(edges['E0743']['source_node_id'],'REVIEW:passive_C')
+        self.assertNotIn('E0042',edges)
+        self.assertNotIn('E0043',edges)
+        self.assertTrue(all(not e['observed_shipping_edge'] for e in edges.values()))
+        self.assertEqual(edges['E0295']['target_node_id'],'REVIEW:transmissive_blank')
+        self.assertEqual(edges['E0163']['target_node_id'],'REVIEW:peroxide_process')
+        self.assertEqual(edges['E0290']['target_node_id'],'REVIEW:pgme')
+        for n in reviewed['nodes']:
+            self.assertEqual(n['in_degree'],sum(e['target_node_id']==n['id'] for e in edges.values()))
+
+    def test_process_claim_and_added_link_sources(self):
+        sources={r['source_id'] for r in rows('sources.csv')}
+        original={r['edge_id'] for r in rows('full_supply_chain_edges_audit.csv')}
+        claims=rows('process_validation_claims.csv')
+        self.assertEqual(len(claims),45)
+        self.assertEqual(len({r['edge_id'] for r in claims}),len(claims))
+        for r in claims:
+            self.assertIn(r['edge_id'],original)
+            self.assertTrue(r['claim_scope'])
+            self.assertTrue(set(r['source_ids'].split(';'))<=sources)
+        for r in rows('reviewed_structure_added_edges.csv'):
+            self.assertTrue(set(r['source_ids'].split(';'))<=sources)
+            if r['validation_status']=='candidate_design_option':
+                self.assertEqual(r['analysis_use'],'context_only')
+        audit={r['edge_id']:r for r in rows('full_supply_chain_edges_audit.csv')}
+        self.assertEqual(audit['E0262']['validation_status'],'water_role_requires_definition_review')
+        self.assertEqual(audit['E0275']['validation_status'],'water_role_requires_definition_review')
 
 if __name__=='__main__':
     unittest.main()

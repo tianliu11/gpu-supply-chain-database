@@ -1,0 +1,39 @@
+VALIDATION RESULTS — 2026-11-24
+
+Individually researched 45 original relationship claims; outcomes and sources are in data/clean/process_validation_claims.csv.
+Implemented corrections, not just warnings:
+- Polysilicon deposition -> polysilicon -> CZ growth -> ingot -> wafer forming -> wafer.
+- Distinct resistor, capacitor and inductor/filter finished-device branches.
+- Substrate-based flip-chip logic-package scenario; no mandatory leadframe/bond-wire inputs.
+- Polyol/isocyanate inputs for polyurethane; intermediate PO and PGME stages for PGMEA.
+- Separate transmissive and EUV mask branches; pellicles remain exposure-specific accessories.
+- Anthraquinone carrier and process stage for peroxide; no direct gas-mixing shortcut.
+- Rechecked Wacker Burghausen and SUMCO Imari records; added six Murata capacitor production locations.
+- Merged Shinko/Shinko Electric Industries supplier identity to prevent false redundancy.
+
+Limits of the result:
+Source-backed process/material classes are not proof of exact GPU recipes, qualified supplier interchangeability, or observed shipments.
+Unverified relations and upstream lineage entries remain unfinished research. They are not declared impossible to validate.
+Actual customer contracts, qualified part numbers, production queues, route bookings and capacity are not established by the sources inspected.
+
+Original-edge evidence totals (not a completion percentage):
+candidate_design_option: 3
+candidate_process_option: 7
+consumable_use_requires_confirmation: 50
+optional_or_design_dependent: 1
+same_material_duplicate_node: 1
+secondary_structure_reference: 35
+semantic_conflict: 1
+supported_alloy_composition: 8
+supported_category_membership: 31
+supported_category_use: 8
+supported_component_family: 8
+supported_consumable_use: 2
+supported_process_input: 27
+supported_process_stage: 4
+supported_product_class: 27
+supported_upstream_process_not_direct_input: 6
+technology_specific_review_required: 1
+unverified_specific_relation: 321
+upstream_lineage_requires_process_evidence: 214
+water_role_requires_definition_review: 2

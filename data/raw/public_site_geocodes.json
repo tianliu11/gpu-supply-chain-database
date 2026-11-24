@@ -1528,5 +1528,65 @@
     "osm_type": "relation",
     "osm_id": 3464319,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Dongguan%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:7b6f403f95f5": {
+    "query": "Echizen, Japan",
+    "latitude": 35.9034571,
+    "longitude": 136.1689317,
+    "display_name": "越前市, 福井県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4799780,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Echizen%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:4f3d987eb568": {
+    "query": "Izumo, Japan",
+    "latitude": 35.3668891,
+    "longitude": 132.7548827,
+    "display_name": "出雲市, 島根県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4088005,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Izumo%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:22ecca6e63dc": {
+    "query": "Wuxi, China",
+    "latitude": 31.5776626,
+    "longitude": 120.2952752,
+    "display_name": "无锡市, 江苏省, 214000, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4430942,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Wuxi%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:1d7710c47d22": {
+    "query": "Singapore, Singapore",
+    "latitude": 1.2899175,
+    "longitude": 103.8519072,
+    "display_name": "Singapore",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 17140517,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Singapore%2C+Singapore&format=jsonv2&addressdetails=1&limit=1&countrycodes=sg"
+  },
+  "PUBLIC_SITE:bfd8026e151f": {
+    "query": "Tanauan, Batangas, Philippines",
+    "latitude": 14.0852359,
+    "longitude": 121.1527927,
+    "display_name": "Tanauan, Batangas, Calabarzon, 4232, Philippines",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 5947754,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Tanauan%2C+Batangas%2C+Philippines&format=jsonv2&addressdetails=1&limit=1&countrycodes=ph"
+  },
+  "PUBLIC_SITE:7f4883e09719": {
+    "query": "Lamphun, Thailand",
+    "latitude": 18.2661422,
+    "longitude": 98.96749,
+    "display_name": "จังหวัดลำพูน, ประเทศไทย",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1908782,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Lamphun%2C+Thailand&format=jsonv2&addressdetails=1&limit=1&countrycodes=th"
   }
 }

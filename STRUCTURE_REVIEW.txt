@@ -1,15 +1,15 @@
 COMPONENT DEFINITIONS AND STRUCTURE REVIEW
 
-54 scoped definitions; 287 canonical nodes; 751 retained dependencies.
+54 scoped definitions; 305 canonical nodes; 772 retained dependencies.
 Original 289-node / 757-edge JSON is unchanged. This is a reversible review layer, not a claim that all relationships are correct.
 
 CORRECTED: packaged chip -> bare die reversal and duplicate packaged/bare identities.
-EXCLUDED FROM REVIEWED DEFAULT: E0036, E0101, E0486, E0527, E0541, E0754
+EXCLUDED FROM REVIEWED DEFAULT: E0042, E0043, E0036, E0101, E0486, E0527, E0541, E0754
 
 IMPORTANT REMAINING STRUCTURAL WORK
-Polysilicon deposition/crystal growth/wafer preparation still need separate process nodes; starter rods and TCS are upstream of wafer production, not direct fab inputs.
-R/C/L passive groups must select distinct device recipes; current shared inputs are not one universal bill of materials.
-Leadframe/bond-wire and flip-chip package options must be selected rather than all imposed simultaneously.
+Wafer process backbone is expanded and sourced; ancillary chemistry, selected dopant species and optional epitaxy still need process-specific specifications.
+R/C/L finished-device branches are now separated; exact internal recipes and board quantities remain part-specific.
+The reviewed logic package selects flip-chip; package details for memory and power devices still need individual part choices.
 Memory generation, connector generation, quantities and mechanical dimensions require a chosen reference design.
 Raw-ore ancestry is not a direct factory shipment. Refining and recovery pathways need process-specific review.
 Definitions do not verify every existing edge, exact grade, supplier qualification, site allocation or logistics route.

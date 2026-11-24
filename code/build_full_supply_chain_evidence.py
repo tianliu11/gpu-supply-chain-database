@@ -27,6 +27,7 @@ from additional_public_research import SITES as RESEARCH_SITES, EDGE_EVIDENCE, R
 from additional_public_research import CORPORATE_GROUPS
 import expanded_public_research  # registers explicitly reviewed second-pass evidence
 import component_definition_research  # scoped definitions and fourth-pass evidence
+import process_validation_research
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -461,6 +462,12 @@ def build_vendor_table(graph: dict) -> tuple[list[dict], list[dict]]:
     # Consolidate the same named supplier within a node; keep all cited sources.
     merged = {}
     for row in rows:
+        # The short and full SHINKO name denote the same company, not two
+        # independent backups. Corporate name supported by R2_SHINKO_PLANTS.
+        if row['provider_name'].casefold() in {'shinko','shinko electric industries'}:
+            row['provider_name']='Shinko Electric Industries'
+            row['provider_id']='PUBLIC:'+hashlib.sha256(row['provider_name'].casefold().encode()).hexdigest()[:12]
+            row['source_ids']=';'.join(sorted(set(filter(None,(row['source_ids']+';R2_SHINKO_PLANTS').split(';')))))
         key = (row['full_graph_node_id'], row['provider_name'].casefold())
         if key in merged:
             old = merged[key]
@@ -598,6 +605,8 @@ def build_facility_table() -> list[dict]:
         group=(row['company'].casefold(),row['city'].casefold())
         row['same_company_city_asset_count']=city_groups[group]
         row['site_independence_caveat']='Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations.'
+    for row in rows:
+        row.update(process_validation_research.SITE_UPDATES.get(row['facility_id'], {}))
     fields = list(rows[0]) + [x for x in ['operating_status','geocode_display_name'] if x not in rows[0]]
     write_csv(CLEAN / "full_supply_chain_facilities.csv", rows, fields)
     return rows

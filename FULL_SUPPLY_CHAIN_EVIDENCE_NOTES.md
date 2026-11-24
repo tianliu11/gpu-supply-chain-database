@@ -104,7 +104,7 @@ it does not silently turn those proposals into an exact product BOM.
 ## Current research pass
 
 The extension contains 247 nodes with supplier-candidate evidence out of the 289
-submitted nodes, 393 supplier-to-node records, and 231 production-asset records.
+submitted nodes, 392 supplier-to-node records, and 237 production-asset records.
 These are not completion percentages: category nodes, process stages, internal
 subcomponents and purchased materials have different evidence requirements.
 Supplier capability does not establish market coverage or a qualified substitute.
@@ -113,9 +113,9 @@ The second pass added 70 public production-asset records and 47 supplier-node
 records. A further gap pass added three previously unmapped material nodes
 (WC-Co hardmetal, silicone-coated PET liners and matte-tin bath chemistry),
 12 production-asset records, and one scoped PET-carrier relationship. Among
-the current 393 supplier-node records, 76 have an explicitly documented
-product-class site match, 94 have company sites but unconfirmed product
-allocation, 222 lack a matched site in this package, and one is a fabless
+the current 392 supplier-node records, 77 have an explicitly documented
+product-class site match, 96 have company sites but unconfirmed product
+allocation, 218 lack a matched site in this package, and one is a fabless
 designer. Product-class matches still do not prove exact grades, customer
 qualification or independent operational backups. Some records describe units
 within a common complex. The facility table flags company/city record counts;
@@ -127,10 +127,19 @@ from ambiguous definitions, integrated/internal parts, categories and utilities.
 The definition pass adds five supplier-node mappings and six production-site
 records, plus 54 scoped definitions. `STRUCTURE_REVIEW.txt` explains the separate
 reviewed graph: duplicate die identities merged, reversed packaging dependency
-removed, and five other unsuitable default relationships excluded. Every
+removed, and seven other unsuitable default relationships excluded. Every
 original edge has a reversible decision record. Remaining links are not all
 verified: process expansion, design alternatives and material recipes still
 require validation before redundancy or lead-time analysis.
+
+The latest process pass researches 45 original relationship claims, adds 18
+process/component nodes and 23 links, and separates wafer production, passive
+device families, mask technologies and several chemical intermediates. Six
+Murata capacitor production locations are added. Shinko aliases are merged to
+avoid counting one supplier twice. The reviewed graph is 305 nodes / 772 links;
+the source JSON remains 289 / 757. See `VALIDATION_RESULTS.txt` and the scoped
+claim register: source support for a chemical route is not evidence of exact
+semiconductor purity, customer procurement, production duration or shipments.
 No remaining item is declared publicly unavailable merely because a search did
 not resolve it. Covestro resin and Umicore gold-salt pages were promising indexed
 leads, but full-source access returned HTTP 403 and 402 respectively; they were

@@ -6,13 +6,14 @@ import json
 from collections import Counter, defaultdict, deque
 from pathlib import Path
 from component_definition_research import DEFINITIONS
+from process_validation_research import expand_structure, CLAIMS
 
 ROOT = Path(__file__).resolve().parents[1]
 CLEAN = ROOT/'data/clean'
 
 def save_table(name, records):
     with (CLEAN/name).open('w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=list(records[0]))
+        writer = csv.DictWriter(f, fieldnames=list(records[0]), lineterminator='\n')
         writer.writeheader()
         writer.writerows(records)
 
@@ -37,6 +38,8 @@ def main():
             nodes[nid]['name'] = DEFINITIONS[nid]['preferred_name']
             nodes[nid]['component_definition'] = DEFINITIONS[nid]
     exclusions = {
+        'E0042': 'Leadframe is not a mandatory input for the selected substrate-based flip-chip logic package; retained in the original technology catalogue.',
+        'E0043': 'Bond wire is not a mandatory die interconnect for the selected flip-chip logic package; other package branches may still use it.',
         'E0036': 'Removed reversed packaged-output to bare-die dependency; aliases preserve both original node IDs.',
         'E0101': 'Soda-lime mask substrate is not established for the selected advanced-logic case.',
         'E0486': 'Generic coating resin does not establish a photoresist binder recipe.',
@@ -77,6 +80,16 @@ def main():
         if enabled:
             e['audit_note'] = note+' Original evidence: '+e.get('audit_note','')
             edges.append(e)
+    added_edges=expand_structure(nodes,edges,reviews)
+    indegrees=Counter(e['target_node_id'] for e in edges)
+    outdegrees=Counter(e['source_node_id'] for e in edges)
+    for nid,n in nodes.items():
+        n.update(in_degree=indegrees[nid],out_degree=outdegrees[nid])
+    for e in edges:
+        e['source_node_name']=nodes[e['source_node_id']]['name']
+        e['target_node_name']=nodes[e['target_node_id']]['name']
+    save_table('process_validation_claims.csv',CLAIMS)
+    save_table('reviewed_structure_added_edges.csv',added_edges)
     # Every original edge has a decision; retained edges remain explicitly unqualified.
     assert len(reviews) == len(db['edges'])
     indegree = Counter(e['target_node_id'] for e in edges)
@@ -96,12 +109,15 @@ def main():
     meta = dict(original_nodes=len(db['nodes']), original_edges=len(db['edges']),
         reviewed_nodes=len(nodes), reviewed_edges=len(edges), aliases=aliases,
         excluded_edges=exclusions, definitions_added=len(definitions), acyclic=True,
+        added_process_and_component_nodes=18, added_edges=len(added_edges),
+        original_edge_claims_researched_this_pass=len(CLAIMS),
+        selected_scope='Representative CZ silicon-wafer route and substrate-based flip-chip logic packaging; not an exact branded GPU BOM',
         original_sha256=hashlib.sha256((ROOT/'data/raw/gpu_complete_node_to_node_supply_chain.json').read_bytes()).hexdigest(),
         readiness='Semantic review draft, NOT a verified full process or transport network',
         open_issues=[
-          'Polysilicon deposition/crystal growth/wafer preparation still need separate process nodes; starter rods and TCS are upstream of wafer production, not direct fab inputs.',
-          'R/C/L passive groups must select distinct device recipes; current shared inputs are not one universal bill of materials.',
-          'Leadframe/bond-wire and flip-chip package options must be selected rather than all imposed simultaneously.',
+          'Wafer process backbone is expanded and sourced; ancillary chemistry, selected dopant species and optional epitaxy still need process-specific specifications.',
+          'R/C/L finished-device branches are now separated; exact internal recipes and board quantities remain part-specific.',
+          'The reviewed logic package selects flip-chip; package details for memory and power devices still need individual part choices.',
           'Memory generation, connector generation, quantities and mechanical dimensions require a chosen reference design.',
           'Raw-ore ancestry is not a direct factory shipment. Refining and recovery pathways need process-specific review.',
           'Definitions do not verify every existing edge, exact grade, supplier qualification, site allocation or logistics route.'])
@@ -118,6 +134,29 @@ def main():
         lines += ['', d['node_id']+' | '+d['preferred_name'], d['formal_definition'],
                   'Scope: '+d['project_interpretation'], 'Sources: '+(d['source_ids'] or 'Source review open')]
     (ROOT/'STRUCTURE_REVIEW.txt').write_text('\n'.join(lines)+'\n')
+    audit_counts=Counter(e['validation_status'] for e in db['edges'])
+    summary=dict(original_claims_researched=len(CLAIMS),claim_outcomes=dict(Counter(c['validation_status'] for c in CLAIMS)),
+        additional_process_component_nodes=18,additional_links=len(added_edges),
+        original_links_excluded=len(exclusions),original_audit_status_counts=dict(audit_counts),
+        important_scope='Source-backed process/material classes are not proof of exact GPU recipes, qualified supplier interchangeability, or observed shipments.',
+        research_still_open='Unverified relations and upstream lineage entries remain unfinished research. They are not declared impossible to validate.',
+        external_information_needed='Actual customer contracts, qualified part numbers, production queues, route bookings and capacity are not established by the sources inspected.')
+    (CLEAN/'process_validation_summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+    text=['VALIDATION RESULTS — 2026-11-24','',
+      f"Individually researched {len(CLAIMS)} original relationship claims; outcomes and sources are in data/clean/process_validation_claims.csv.",
+      'Implemented corrections, not just warnings:',
+      '- Polysilicon deposition -> polysilicon -> CZ growth -> ingot -> wafer forming -> wafer.',
+      '- Distinct resistor, capacitor and inductor/filter finished-device branches.',
+      '- Substrate-based flip-chip logic-package scenario; no mandatory leadframe/bond-wire inputs.',
+      '- Polyol/isocyanate inputs for polyurethane; intermediate PO and PGME stages for PGMEA.',
+      '- Separate transmissive and EUV mask branches; pellicles remain exposure-specific accessories.',
+      '- Anthraquinone carrier and process stage for peroxide; no direct gas-mixing shortcut.',
+      '- Rechecked Wacker Burghausen and SUMCO Imari records; added six Murata capacitor production locations.',
+      '- Merged Shinko/Shinko Electric Industries supplier identity to prevent false redundancy.',
+      '', 'Limits of the result:',summary['important_scope'],summary['research_still_open'],summary['external_information_needed'],
+      '', 'Original-edge evidence totals (not a completion percentage):']
+    text += [f'{k}: {v}' for k,v in sorted(audit_counts.items())]
+    (ROOT/'VALIDATION_RESULTS.txt').write_text('\n'.join(text)+'\n')
     print(f'Reviewed structure: {len(nodes)} nodes, {len(edges)} edges; {len(definitions)} definitions.')
     return result
 

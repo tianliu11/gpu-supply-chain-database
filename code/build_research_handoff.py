@@ -132,7 +132,7 @@ def main():
     review_pos,review_height=overview(reviewed['nodes'],reviewed['edges'])
     review_data=dict(nodes=reviewed['nodes'],edges=reviewed['edges'],sources=reviewed['sources'],site_coverage=reviewed['vendor_site_coverage'],positions=review_pos,overview_height=review_height)
     (FIG/'full_supply_chain_reviewed_structure.html').write_text(page('Reviewed GPU dependency structure — provisional',
-        'Review layer: duplicate bare/packaged die identities merged and six unsuitable default links excluded. Definitions and decision notes are available below. Retained links are NOT all verified recipes or shipments; missing process stages and conditional alternatives still prevent validated redundancy analysis. Original JSON is preserved separately.',controls,body,GRAPH_JS,review_data))
+        'Reviewed representative process: explicit wafer stages, separate R/C/L devices, flip-chip logic packaging, polyurethane/PGMEA/peroxide processes, and distinct transmissive/EUV masks. Eight original links excluded; 23 scoped links added. Context-only links remain visible, not validated shipments or universal recipes. Original JSON preserved.',controls,body,GRAPH_JS,review_data))
     world=json.loads((ROOT/'data/raw/natural_earth_countries.geojson').read_text())
     data=dict(world=world,facilities=[f for f in db['facilities'] if f['latitude'] not in ('',None) and f['longitude'] not in ('',None)],hubs=db['nearby_hub_candidates'],sources=db['sources'])
     controls='<div class="controls"><label>Production asset<select id="factory"></select></label></div>'

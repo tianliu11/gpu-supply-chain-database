@@ -1,0 +1,46 @@
+edge_id,source_ids,validation_status,claim_scope
+E0163,R5_EPA_PEROXIDE,supported_process_input,"Hydrogen and oxygen feed the anthraquinone cycle, with water extraction. Not a direct gas-mixing recipe; electronic-grade purification remains unspecified."
+E0164,R5_EPA_PEROXIDE,supported_process_input,"Hydrogen and oxygen feed the anthraquinone cycle, with water extraction. Not a direct gas-mixing recipe; electronic-grade purification remains unspecified."
+E0165,R5_EPA_PEROXIDE,supported_process_input,"Hydrogen and oxygen feed the anthraquinone cycle, with water extraction. Not a direct gas-mixing recipe; electronic-grade purification remains unspecified."
+E0192,R5_DOE_ACID_ROUTES,supported_process_input,Hydrogen and nitrogen feed ammonia synthesis. Aggregate process only; semiconductor purification and supplier qualification remain unverified.
+E0193,R5_DOE_ACID_ROUTES,supported_process_input,Hydrogen and nitrogen feed ammonia synthesis. Aggregate process only; semiconductor purification and supplier qualification remain unverified.
+E0259,R5_DOE_ACID_ROUTES,supported_process_input,Contact processing uses selected sulfur-bearing feed and air/oxygen. Elemental sulfur and pyrite are alternatives; no direct shipment established.
+E0261,R5_DOE_ACID_ROUTES,supported_process_input,Contact processing uses selected sulfur-bearing feed and air/oxygen. Elemental sulfur and pyrite are alternatives; no direct shipment established.
+E0260,R5_DOE_ACID_ROUTES,supported_upstream_process_not_direct_input,Refinery sulfur recovery can precede sulfuric-acid manufacture; crude petroleum is not an immediate acid reactant or mandatory source.
+E0273,R5_DOE_ACID_ROUTES,supported_process_input,"Elemental phosphorus and air/oxygen belong to the thermal route. Wet-process feedstocks are an alternative, not additional mandatory inputs."
+E0274,R5_DOE_ACID_ROUTES,supported_process_input,"Elemental phosphorus and air/oxygen belong to the thermal route. Wet-process feedstocks are an alternative, not additional mandatory inputs."
+E0262,R5_DOE_ACID_ROUTES,water_role_requires_definition_review,"Process water is documented, but the submitted node is coolant. Cooling utility and chemical-process water must not be treated as the same qualified input."
+E0275,R5_DOE_ACID_ROUTES,water_role_requires_definition_review,"Process water is documented, but the submitted node is coolant. Cooling utility and chemical-process water must not be treated as the same qualified input."
+E0265,R5_DOE_NITRIC,supported_process_input,"Ammonia, oxygen/air and water participate in staged oxidation/absorption. This aggregate process edge does not establish direct oxygen cylinders, semiconductor grade or a one-step reaction."
+E0266,R5_DOE_NITRIC,supported_process_input,"Ammonia, oxygen/air and water participate in staged oxidation/absorption. This aggregate process edge does not establish direct oxygen cylinders, semiconductor grade or a one-step reaction."
+E0267,R5_DOE_NITRIC,supported_process_input,"Ammonia, oxygen/air and water participate in staged oxidation/absorption. This aggregate process edge does not establish direct oxygen cylinders, semiconductor grade or a one-step reaction."
+E0295,R5_SHINETSU_MASK,supported_product_class,"Supports quartz plus Cr-or-MoSi transmissive mask blanks, not a universal EUV recipe. Reviewed view separates the technologies."
+E0296,R5_SHINETSU_MASK,supported_product_class,"Supports quartz plus Cr-or-MoSi transmissive mask blanks, not a universal EUV recipe. Reviewed view separates the technologies."
+E0297,R5_MITSUI_PELLICLE,supported_product_class,"Pellicle protective function supported. Exposure-specific accessory, not part of the etched circuit or interchangeable across wavelengths."
+E0289,R5_PGMEA_PROCESS,supported_upstream_process_not_direct_input,Propylene and methanol are upstream of PGMEA through propylene oxide and PGME; reviewed graph introduces intermediates.
+E0290,R5_PGMEA_PROCESS,supported_upstream_process_not_direct_input,Propylene and methanol are upstream of PGMEA through propylene oxide and PGME; reviewed graph introduces intermediates.
+E0291,R5_PGMEA_PROCESS,supported_process_input,Acetic acid reacts with PGME in the selected esterification route; electronic-grade purification is additional.
+E0177,R5_BASF_PU,upstream_lineage_requires_process_evidence,Do not treat benzene or propylene as immediate PU reactants. Immediate classes are polyols/polyisocyanates; commodity-to-monomer routes need their own evidence.
+E0178,R5_BASF_PU,upstream_lineage_requires_process_evidence,Do not treat benzene or propylene as immediate PU reactants. Immediate classes are polyols/polyisocyanates; commodity-to-monomer routes need their own evidence.
+E0219,R4_WACKER_SEED,supported_process_input,"Wacker explicitly describes converting metallurgical silicon with hydrogen chloride to trichlorosilane, then distillation. Exact reactor configuration and purity are not established by this citation."
+E0220,R4_WACKER_SEED,supported_process_input,"Wacker explicitly describes converting metallurgical silicon with hydrogen chloride to trichlorosilane, then distillation. Exact reactor configuration and purity are not established by this citation."
+E0080,R4_WACKER_SEED,supported_upstream_process_not_direct_input,"Seed rods and TCS feed polysilicon deposition; the reviewed view routes these to deposition, not directly to a wafer."
+E0081,R4_WACKER_SEED,supported_upstream_process_not_direct_input,"Seed rods and TCS feed polysilicon deposition; the reviewed view routes these to deposition, not directly to a wafer."
+E0082,R5_SUMCO_PROCESS,supported_process_input,SUMCO documents dopant selection and quartz-crucible use in crystal growth. Category alternatives are not all simultaneously required; crucible is process tooling.
+E0083,R5_SUMCO_PROCESS,supported_process_input,SUMCO documents dopant selection and quartz-crucible use in crystal growth. Category alternatives are not all simultaneously required; crucible is process tooling.
+E0092,R5_SUMCO_PROCESS,supported_consumable_use,"Alumina is used in wafer lapping and colloidal silica in polishing in the documented process. Both are consumables, not constituents to be added to the silicon die."
+E0093,R5_SUMCO_PROCESS,supported_consumable_use,"Alumina is used in wafer lapping and colloidal silica in polishing in the documented process. Both are consumables, not constituents to be added to the silicon die."
+E0594,R5_MURATA_MLCC,supported_product_class,Barium titanate dielectric in the documented MLCC class; dielectric grade and device qualification remain design-specific.
+E0595,R5_MURATA_MLCC,supported_product_class,"Nickel metal internal electrode supported, not nickel sulfate. Metal must be processed into the appropriate electrode formulation."
+E0605,R5_ROHM_RESISTOR,supported_upstream_process_not_direct_input,Alumina substrate is supported; calcined powder must first become a ceramic substrate. Exact 96-percent specification is not established.
+E0585,R5_MURATA_INDUCTOR,supported_product_class,Ferrite body is supported for multilayer ferrite inductors; this source alone does not establish NiZn composition.
+E0044,R5_SHINKO_FLIP,supported_category_membership,Substrate and underfill/mould resin belong to the documented flip-chip process; the precise resin grade and assembly design are not assigned.
+E0045,R5_SHINKO_FLIP,supported_category_membership,Substrate and underfill/mould resin belong to the documented flip-chip process; the precise resin grade and assembly design are not assigned.
+E0743,R5_MURATA_MLCC,supported_component_family,"MLCC body belongs to capacitor branch, not a combined R/C/L device. Presence and counts in the submitted board are not confirmed."
+E0747,R5_MURATA_MLCC,supported_component_family,"MLCC body belongs to capacitor branch, not a combined R/C/L device. Presence and counts in the submitted board are not confirmed."
+E0755,R5_MURATA_MLCC,supported_component_family,"MLCC body belongs to capacitor branch, not a combined R/C/L device. Presence and counts in the submitted board are not confirmed."
+E0744,R5_ROHM_RESISTOR,supported_component_family,"Thick-film body belongs to resistor branch, not capacitor or inductor. Presence and counts in the submitted board are not confirmed."
+E0748,R5_ROHM_RESISTOR,supported_component_family,"Thick-film body belongs to resistor branch, not capacitor or inductor. Presence and counts in the submitted board are not confirmed."
+E0756,R5_ROHM_RESISTOR,supported_component_family,"Thick-film body belongs to resistor branch, not capacitor or inductor. Presence and counts in the submitted board are not confirmed."
+E0742,R5_MURATA_INDUCTOR,supported_component_family,Ferrite internal structure belongs to an inductor/filter branch; exact electrical function still depends on part selection. Presence and counts in the submitted board are not confirmed.
+E0746,R5_MURATA_INDUCTOR,supported_component_family,Ferrite internal structure belongs to an inductor/filter branch; exact electrical function still depends on part selection. Presence and counts in the submitted board are not confirmed.
