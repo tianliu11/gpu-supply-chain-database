@@ -28,6 +28,7 @@ from additional_public_research import CORPORATE_GROUPS
 import expanded_public_research  # registers explicitly reviewed second-pass evidence
 import component_definition_research  # scoped definitions and fourth-pass evidence
 import process_validation_research
+import remaining_public_research
 
 
 ROOT = Path(__file__).resolve().parents[1]

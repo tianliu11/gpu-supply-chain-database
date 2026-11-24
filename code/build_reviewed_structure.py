@@ -6,7 +6,12 @@ import json
 from collections import Counter, defaultdict, deque
 from pathlib import Path
 from component_definition_research import DEFINITIONS
-from process_validation_research import expand_structure, CLAIMS
+from process_validation_research import expand_structure, CLAIMS as PROCESS_CLAIMS
+from remaining_public_research import CLAIMS as ADDITIONAL_CLAIMS
+
+# Latest explicit claim wins for a repeated original relation. Never count
+# duplicated citations as independently validated graph edges.
+CLAIMS = list({c['edge_id']: c for c in PROCESS_CLAIMS + ADDITIONAL_CLAIMS}.values())
 
 ROOT = Path(__file__).resolve().parents[1]
 CLEAN = ROOT/'data/clean'

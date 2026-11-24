@@ -158,7 +158,9 @@ class ResearchIntegrity(unittest.TestCase):
         sources={r['source_id'] for r in rows('sources.csv')}
         original={r['edge_id'] for r in rows('full_supply_chain_edges_audit.csv')}
         claims=rows('process_validation_claims.csv')
-        self.assertEqual(len(claims),45)
+        from build_reviewed_structure import CLAIMS
+        self.assertEqual(len(claims),len(CLAIMS))
+        self.assertGreater(len(claims),45)
         self.assertEqual(len({r['edge_id'] for r in claims}),len(claims))
         for r in claims:
             self.assertIn(r['edge_id'],original)
@@ -171,6 +173,24 @@ class ResearchIntegrity(unittest.TestCase):
         audit={r['edge_id']:r for r in rows('full_supply_chain_edges_audit.csv')}
         self.assertEqual(audit['E0262']['validation_status'],'water_role_requires_definition_review')
         self.assertEqual(audit['E0275']['validation_status'],'water_role_requires_definition_review')
+
+    def test_latest_site_scope_restrictions(self):
+        facilities=rows('full_supply_chain_facilities.csv')
+        names={r['facility_name']:r for r in facilities}
+        self.assertIn('200 mm',names['Siltronic Portland 200 mm']['facility_name'])
+        self.assertEqual(names['Indium Corporation Penang']['city'],'Batu Kawan')
+        self.assertFalse(any('warehouse' in r['facility_name'].lower() for r in facilities))
+        self.assertEqual(names['Photronics Hefei manufacturing']['component_categories'],'')
+        self.assertEqual(names['Argor-Heraeus Mendrisio Moree']['component_categories'],'')
+        self.assertTrue(all(r['latitude'] and r['longitude'] for r in facilities))
+
+    def test_partial_material_branch_is_not_whole_node_qualification(self):
+        vendors=rows('full_supply_chain_vendors.csv')
+        gold=next(r for r in vendors if r['provider_name']=='Argor-Heraeus')
+        self.assertEqual(gold['qualification_status'],'partial_combined_node_elemental_gold_only')
+        self.assertIn('not covered',gold['product_scope'])
+        fralock=next(r for r in vendors if r['provider_name']=='Fralock')
+        self.assertEqual(fralock['qualification_status'],'custom_converter_capability_not_qualified_gpu_part')
 
 if __name__=='__main__':
     unittest.main()

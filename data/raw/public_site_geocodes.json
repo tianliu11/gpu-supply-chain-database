@@ -1588,5 +1588,715 @@
     "osm_type": "relation",
     "osm_id": 1908782,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Lamphun%2C+Thailand&format=jsonv2&addressdetails=1&limit=1&countrycodes=th"
+  },
+  "PUBLIC_SITE:a7bfa0f0b206": {
+    "query": "Joetsu, Japan",
+    "latitude": 37.1478816,
+    "longitude": 138.2359501,
+    "display_name": "上越市, 新潟県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4516237,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Joetsu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:21adf4d39d86": {
+    "query": "Echizen, Japan",
+    "latitude": 35.9034571,
+    "longitude": 136.1689317,
+    "display_name": "越前市, 福井県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4799780,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Echizen%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:187ccb237ce6": {
+    "query": "Annaka, Japan",
+    "latitude": 36.3256133,
+    "longitude": 138.8896338,
+    "display_name": "安中市, 群馬県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3562186,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Annaka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:837593637314": {
+    "query": "Annaka, Japan",
+    "latitude": 36.3256133,
+    "longitude": 138.8896338,
+    "display_name": "安中市, 群馬県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3562186,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Annaka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:ce600cb526e0": {
+    "query": "Kamisu, Japan",
+    "latitude": 35.889838,
+    "longitude": 140.6640827,
+    "display_name": "神栖市, 茨城県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2682919,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kamisu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:69a11928a873": {
+    "query": "Isesaki, Japan",
+    "latitude": 36.3111734,
+    "longitude": 139.1968083,
+    "display_name": "伊勢崎市, 群馬県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1865315,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Isesaki%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:02b04f014a21": {
+    "query": "Burghausen, Germany",
+    "latitude": 48.1588645,
+    "longitude": 12.8329419,
+    "display_name": "Burghausen, Landkreis Altötting, Bayern, 84489, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 942044,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Burghausen%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:b52219e851ce": {
+    "query": "Freiberg, Germany",
+    "latitude": 50.9169415,
+    "longitude": 13.3428889,
+    "display_name": "Freiberg, Mittelsachsen, Sachsen, 09599, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 416561,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Freiberg%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:1e6f916edc44": {
+    "query": "Portland, Oregon, United States",
+    "latitude": 45.5202471,
+    "longitude": -122.674194,
+    "display_name": "Portland, Multnomah County, Oregon, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 186579,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Portland%2C+Oregon%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:c4cea6862b63": {
+    "query": "Singapore, Singapore",
+    "latitude": 1.2899175,
+    "longitude": 103.8519072,
+    "display_name": "Singapore",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 17140517,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Singapore%2C+Singapore&format=jsonv2&addressdetails=1&limit=1&countrycodes=sg"
+  },
+  "PUBLIC_SITE:968306f925aa": {
+    "query": "Sherman, Texas, United States",
+    "latitude": 36.2452294,
+    "longitude": -101.8858689,
+    "display_name": "Sherman County, Texas, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1807489,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Sherman%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:1eb72d35a30d": {
+    "query": "St. Peters, Missouri, United States",
+    "latitude": 38.791612,
+    "longitude": -90.5958468,
+    "display_name": "Saint Peters, Saint Charles County, Missouri, 63376, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 141554,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=St.+Peters%2C+Missouri%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:a523334cb4ab": {
+    "query": "Cheonan, South Korea",
+    "latitude": 36.8150283,
+    "longitude": 127.1140654,
+    "display_name": "천안시, 충청남도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2474718,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cheonan%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:892af96acebf": {
+    "query": "Hsinchu, Taiwan",
+    "latitude": 24.8066333,
+    "longitude": 120.9686833,
+    "display_name": "新竹市, 臺灣",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2849488,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hsinchu%2C+Taiwan&format=jsonv2&addressdetails=1&limit=1&countrycodes=tw"
+  },
+  "PUBLIC_SITE:a1f1826c6dcd": {
+    "query": "Petaling Jaya, Malaysia",
+    "latitude": 3.0988792,
+    "longitude": 101.6454202,
+    "display_name": "Petaling Jaya, Petaling, Selangor, Malaysia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 8347386,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Petaling+Jaya%2C+Malaysia&format=jsonv2&addressdetails=1&limit=1&countrycodes=my"
+  },
+  "PUBLIC_SITE:1c90b1a59dc3": {
+    "query": "Merano, Italy",
+    "latitude": 46.6713536,
+    "longitude": 11.1646348,
+    "display_name": "Meran - Merano, Burggrafenamt - Burgraviato, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39012, Italia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 47283,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Merano%2C+Italy&format=jsonv2&addressdetails=1&limit=1&countrycodes=it"
+  },
+  "PUBLIC_SITE:ab98e746e780": {
+    "query": "Novara, Italy",
+    "latitude": 45.58425,
+    "longitude": 8.545997,
+    "display_name": "Novara, Piemonte, Italia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1552704,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Novara%2C+Italy&format=jsonv2&addressdetails=1&limit=1&countrycodes=it"
+  },
+  "PUBLIC_SITE:6bb76f67e872": {
+    "query": "Utsunomiya, Japan",
+    "latitude": 36.5549677,
+    "longitude": 139.8828776,
+    "display_name": "宇都宮市, 栃木県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4846975,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Utsunomiya%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:f486aa7b8cdb": {
+    "query": "Phoenix, Arizona, United States",
+    "latitude": 33.4484367,
+    "longitude": -112.074141,
+    "display_name": "Phoenix, Maricopa County, Arizona, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 111257,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Phoenix%2C+Arizona%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:1cc6ecd9cf01": {
+    "query": "Villach, Austria",
+    "latitude": 46.6167284,
+    "longitude": 13.8500268,
+    "display_name": "Villach, Kärnten, Österreich",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 106163,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Villach%2C+Austria&format=jsonv2&addressdetails=1&limit=1&countrycodes=at"
+  },
+  "PUBLIC_SITE:a7c5d2b31419": {
+    "query": "Vantaa, Finland",
+    "latitude": 60.2929883,
+    "longitude": 25.0436744,
+    "display_name": "Vantaa, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 34920,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Vantaa%2C+Finland&format=jsonv2&addressdetails=1&limit=1&countrycodes=fi"
+  },
+  "PUBLIC_SITE:0f6d9ece0a1a": {
+    "query": "Gumi, South Korea",
+    "latitude": 36.1195513,
+    "longitude": 128.3444692,
+    "display_name": "구미시, 경상북도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7816731,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gumi%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:9fced44ccfe9": {
+    "query": "Gumi, South Korea",
+    "latitude": 36.1195513,
+    "longitude": 128.3444692,
+    "display_name": "구미시, 경상북도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7816731,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gumi%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:8239bf4271b2": {
+    "query": "Gumi, South Korea",
+    "latitude": 36.1195513,
+    "longitude": 128.3444692,
+    "display_name": "구미시, 경상북도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7816731,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gumi%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:1e401b602c21": {
+    "query": "Cardiff, United Kingdom",
+    "latitude": 51.4816546,
+    "longitude": -3.1791934,
+    "display_name": "Cardiff, Cymru / Wales, CF10 2AF, United Kingdom",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 738885245,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cardiff%2C+United+Kingdom&format=jsonv2&addressdetails=1&limit=1&countrycodes=gb"
+  },
+  "PUBLIC_SITE:bcbe211321c3": {
+    "query": "Newport, United Kingdom",
+    "latitude": 51.5718862,
+    "longitude": -2.9752462,
+    "display_name": "Newport, Cymru / Wales, United Kingdom",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 335184,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Newport%2C+United+Kingdom&format=jsonv2&addressdetails=1&limit=1&countrycodes=gb"
+  },
+  "PUBLIC_SITE:5b067f9e3438": {
+    "query": "Milton Keynes, United Kingdom",
+    "latitude": 52.0406502,
+    "longitude": -0.7594092,
+    "display_name": "Milton Keynes, City of Milton Keynes, England, United Kingdom",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 14186936,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Milton+Keynes%2C+United+Kingdom&format=jsonv2&addressdetails=1&limit=1&countrycodes=gb"
+  },
+  "PUBLIC_SITE:555b8cd40856": {
+    "query": "Taunton, Massachusetts, United States",
+    "latitude": 41.9019257,
+    "longitude": -71.0931485,
+    "display_name": "Taunton, Bristol County, Massachusetts, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2402321,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Taunton%2C+Massachusetts%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:1067d564ddd0": {
+    "query": "Greensboro, North Carolina, United States",
+    "latitude": 36.0726355,
+    "longitude": -79.7919754,
+    "display_name": "Greensboro, Guilford County, North Carolina, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 180261,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Greensboro%2C+North+Carolina%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:46d0078d75f9": {
+    "query": "Spokane, Washington, United States",
+    "latitude": 47.6571934,
+    "longitude": -117.42351,
+    "display_name": "Spokane, Spokane County, Washington, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 237599,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Spokane%2C+Washington%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:283769b90853": {
+    "query": "Hsinchu, Taiwan",
+    "latitude": 24.8066333,
+    "longitude": 120.9686833,
+    "display_name": "新竹市, 臺灣",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2849488,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hsinchu%2C+Taiwan&format=jsonv2&addressdetails=1&limit=1&countrycodes=tw"
+  },
+  "PUBLIC_SITE:256aa72c9705": {
+    "query": "Brookfield, Connecticut, United States",
+    "latitude": 41.4824311,
+    "longitude": -73.4095696,
+    "display_name": "Brookfield, Western Connecticut Planning Region, Connecticut, 06804, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4780293,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Brookfield%2C+Connecticut%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:eb91d409239d": {
+    "query": "Allen, Texas, United States",
+    "latitude": 33.1031744,
+    "longitude": -96.6705503,
+    "display_name": "Allen, Collin County, Texas, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6579686,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Allen%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:2b4d351ef115": {
+    "query": "Boise, Idaho, United States",
+    "latitude": 43.6166163,
+    "longitude": -116.200886,
+    "display_name": "Boise, Ada County, Idaho, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 121360,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Boise%2C+Idaho%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:89dc4bcd4866": {
+    "query": "Bridgend, United Kingdom",
+    "latitude": 51.5049859,
+    "longitude": -3.5756674,
+    "display_name": "Bridgend, Cymru / Wales, CF31 1DB, United Kingdom",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 262473512,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Bridgend%2C+United+Kingdom&format=jsonv2&addressdetails=1&limit=1&countrycodes=gb"
+  },
+  "PUBLIC_SITE:01ce72176743": {
+    "query": "Dresden, Germany",
+    "latitude": 51.0493286,
+    "longitude": 13.7381437,
+    "display_name": "Dresden, Sachsen, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 191645,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Dresden%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:fec37c2bcfb4": {
+    "query": "Cheonan, South Korea",
+    "latitude": 36.8150283,
+    "longitude": 127.1140654,
+    "display_name": "천안시, 충청남도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2474718,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cheonan%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:6331bc05a668": {
+    "query": "Hsinchu, Taiwan",
+    "latitude": 24.8066333,
+    "longitude": 120.9686833,
+    "display_name": "新竹市, 臺灣",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2849488,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hsinchu%2C+Taiwan&format=jsonv2&addressdetails=1&limit=1&countrycodes=tw"
+  },
+  "PUBLIC_SITE:7bf8c4d517c9": {
+    "query": "Taichung, Taiwan",
+    "latitude": 24.163162,
+    "longitude": 120.6478282,
+    "display_name": "臺中市, 臺灣",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2921154,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Taichung%2C+Taiwan&format=jsonv2&addressdetails=1&limit=1&countrycodes=tw"
+  },
+  "PUBLIC_SITE:bc9894dcb5ff": {
+    "query": "Xiamen, China",
+    "latitude": 24.4801069,
+    "longitude": 118.0853479,
+    "display_name": "厦门市, 福建省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3242930,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Xiamen%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:f98562b3def7": {
+    "query": "Hefei, China",
+    "latitude": 31.8665676,
+    "longitude": 117.281428,
+    "display_name": "合肥市, 安徽省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3288965,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hefei%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:d5ca66e72cae": {
+    "query": "Santa Cruz del Valle, Mexico",
+    "latitude": 20.5467599,
+    "longitude": -103.3356931,
+    "display_name": "Santa Cruz del Valle, Tlajomulco de Zúñiga, Región Centro, Jalisco, 45653, México",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 1946143956,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Santa+Cruz+del+Valle%2C+Mexico&format=jsonv2&addressdetails=1&limit=1&countrycodes=mx"
+  },
+  "PUBLIC_SITE:a73d1ea1dfd8": {
+    "query": "Clinton, New York, United States",
+    "latitude": 44.7278943,
+    "longitude": -73.6686982,
+    "display_name": "Clinton County, New York, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 87689,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Clinton%2C+New+York%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:ff9eb7359395": {
+    "query": "Utica, New York, United States",
+    "latitude": 43.1009031,
+    "longitude": -75.2326641,
+    "display_name": "City of Utica, Oneida County, New York, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 175487,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Utica%2C+New+York%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:454616dc774b": {
+    "query": "Utica, New York, United States",
+    "latitude": 43.1009031,
+    "longitude": -75.2326641,
+    "display_name": "City of Utica, Oneida County, New York, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 175487,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Utica%2C+New+York%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:2ea31238211a": {
+    "query": "Rome, New York, United States",
+    "latitude": 43.2102196,
+    "longitude": -75.4583956,
+    "display_name": "City of Rome, Oneida County, New York, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3669594,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Rome%2C+New+York%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:3cfce66e16a5": {
+    "query": "Elk Grove Village, Illinois, United States",
+    "latitude": 42.0035588,
+    "longitude": -88.0037711,
+    "display_name": "Elk Grove Village, Elk Grove Township, Cook County, Illinois, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 125398,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Elk+Grove+Village%2C+Illinois%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:75838c7ca39b": {
+    "query": "Cheongju, South Korea",
+    "latitude": 36.6421169,
+    "longitude": 127.4891742,
+    "display_name": "청주시, 충청북도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2541043,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cheongju%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:2827dd3b1fb2": {
+    "query": "Chennai, India",
+    "latitude": 13.0800915,
+    "longitude": 80.2807978,
+    "display_name": "Chennai, Chennai Metropolitan Area, Chennai District, Tamil Nadu, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1766358,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chennai%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:eb5667d5ef4a": {
+    "query": "Milton Keynes, United Kingdom",
+    "latitude": 52.0406502,
+    "longitude": -0.7594092,
+    "display_name": "Milton Keynes, City of Milton Keynes, England, United Kingdom",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 14186936,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Milton+Keynes%2C+United+Kingdom&format=jsonv2&addressdetails=1&limit=1&countrycodes=gb"
+  },
+  "PUBLIC_SITE:b48f1f91d40e": {
+    "query": "Batu Kawan, Malaysia",
+    "latitude": 5.2625962,
+    "longitude": 100.4304555,
+    "display_name": "Batu Kawan, Seberang Perai Selatan, Seberang Perai, Pulau Pinang, 14110, Malaysia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 5746480592,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Batu+Kawan%2C+Malaysia&format=jsonv2&addressdetails=1&limit=1&countrycodes=my"
+  },
+  "PUBLIC_SITE:94a01fc8ef7c": {
+    "query": "Singapore, Singapore",
+    "latitude": 1.2899175,
+    "longitude": 103.8519072,
+    "display_name": "Singapore",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 17140517,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Singapore%2C+Singapore&format=jsonv2&addressdetails=1&limit=1&countrycodes=sg"
+  },
+  "PUBLIC_SITE:8830143d0d60": {
+    "query": "Suzhou, China",
+    "latitude": 31.311123,
+    "longitude": 120.6212881,
+    "display_name": "苏州市, 江苏省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4430941,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Suzhou%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:b47fefb3d361": {
+    "query": "Landshut, Germany",
+    "latitude": 48.536217,
+    "longitude": 12.1516551,
+    "display_name": "Landshut, Bayern, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 62484,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Landshut%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:fed67a45e2b6": {
+    "query": "Incheon, South Korea",
+    "latitude": 37.456,
+    "longitude": 126.7052,
+    "display_name": "인천광역시, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2297419,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Incheon%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:3a1e7abb883e": {
+    "query": "Chigasaki, Japan",
+    "latitude": 35.329479,
+    "longitude": 139.405371,
+    "display_name": "茅ヶ崎市, 神奈川県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2689441,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chigasaki%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:7408881e895c": {
+    "query": "Kitakyushu, Japan",
+    "latitude": 33.8829996,
+    "longitude": 130.8749015,
+    "display_name": "北九州市, 福岡県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4008600,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kitakyushu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:f15c3698f6fe": {
+    "query": "Kitakyushu, Japan",
+    "latitude": 33.8829996,
+    "longitude": 130.8749015,
+    "display_name": "北九州市, 福岡県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4008600,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kitakyushu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:129276f74a41": {
+    "query": "Kurobe, Japan",
+    "latitude": 36.8712828,
+    "longitude": 137.4478857,
+    "display_name": "黒部市, 富山県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4807806,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kurobe%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:e885abce621d": {
+    "query": "Hitachi, Japan",
+    "latitude": 35.3802138,
+    "longitude": 139.1936185,
+    "display_name": "日立製作所, 堀山下, 秦野市, 神奈川県, 259-1304, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "way",
+    "osm_id": 1372263393,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hitachi%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:0bb7d1aa2542": {
+    "query": "Valencia, California, United States",
+    "latitude": 34.4131941,
+    "longitude": -118.559849,
+    "display_name": "Valencia, Santa Clarita, Los Angeles County, California, 91355, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 150956389,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Valencia%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:2ded08b89274": {
+    "query": "Chatsworth, California, United States",
+    "latitude": 34.2572499,
+    "longitude": -118.6017022,
+    "display_name": "Chatsworth Neighborhood Council District, Los Angeles, Los Angeles County, California, 91311, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 18284570,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chatsworth%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:db5bf6617f9c": {
+    "query": "Chatsworth, California, United States",
+    "latitude": 34.2572499,
+    "longitude": -118.6017022,
+    "display_name": "Chatsworth Neighborhood Council District, Los Angeles, Los Angeles County, California, 91311, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 18284570,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chatsworth%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:1851961a41bd": {
+    "query": "Milpitas, California, United States",
+    "latitude": 37.4332273,
+    "longitude": -121.8989248,
+    "display_name": "Milpitas, Santa Clara County, California, 95035, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 112134,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Milpitas%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:c015c8895f88": {
+    "query": "Poway, California, United States",
+    "latitude": 32.9628234,
+    "longitude": -117.035864,
+    "display_name": "Poway, San Diego County, California, 92064, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2296284,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Poway%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:223fdbd3d456": {
+    "query": "Fremont, California, United States",
+    "latitude": 37.5482697,
+    "longitude": -121.988571,
+    "display_name": "Fremont, Alameda County, California, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 111943,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Fremont%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:94b4569b2de9": {
+    "query": "Mendrisio, Switzerland",
+    "latitude": 45.8709661,
+    "longitude": 8.9875293,
+    "display_name": "Mendrisio, Circolo di Mendrisio, Distretto di Mendrisio, Ticino, Schweiz / Suisse / Svizzera / Svizra",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2888450,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Mendrisio%2C+Switzerland&format=jsonv2&addressdetails=1&limit=1&countrycodes=ch"
+  },
+  "PUBLIC_SITE:3c688c3b68b2": {
+    "query": "Mendrisio, Switzerland",
+    "latitude": 45.8709661,
+    "longitude": 8.9875293,
+    "display_name": "Mendrisio, Circolo di Mendrisio, Distretto di Mendrisio, Ticino, Schweiz / Suisse / Svizzera / Svizra",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2888450,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Mendrisio%2C+Switzerland&format=jsonv2&addressdetails=1&limit=1&countrycodes=ch"
+  },
+  "PUBLIC_SITE:cc230e61ccb7": {
+    "query": "Cavenago di Brianza, Italy",
+    "latitude": 45.584917,
+    "longitude": 9.4160593,
+    "display_name": "Cavenago di Brianza, Monza e della Brianza, Lombardia, Italia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 45404,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cavenago+di+Brianza%2C+Italy&format=jsonv2&addressdetails=1&limit=1&countrycodes=it"
+  },
+  "PUBLIC_SITE:91cdba38ea62": {
+    "query": "Wurmberg, Germany",
+    "latitude": 48.8702888,
+    "longitude": 8.8201671,
+    "display_name": "Wurmberg, GVV Heckengäu, Enzkreis, Baden-Württemberg, 75449, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 307898,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Wurmberg%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:23065fb0e187": {
+    "query": "Hong Kong, China",
+    "latitude": 22.3492361,
+    "longitude": 114.1857778,
+    "display_name": "香港 Hong Kong, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 913110,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hong+Kong%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
   }
 }

@@ -1,6 +1,6 @@
 VALIDATION RESULTS — 2026-11-24
 
-Individually researched 45 original relationship claims; outcomes and sources are in data/clean/process_validation_claims.csv.
+Individually researched 96 original relationship claims; outcomes and sources are in data/clean/process_validation_claims.csv.
 Implemented corrections, not just warnings:
 - Polysilicon deposition -> polysilicon -> CZ growth -> ingot -> wafer forming -> wafer.
 - Distinct resistor, capacitor and inductor/filter finished-device branches.
@@ -25,15 +25,19 @@ same_material_duplicate_node: 1
 secondary_structure_reference: 35
 semantic_conflict: 1
 supported_alloy_composition: 8
-supported_category_membership: 31
-supported_category_use: 8
+supported_category_membership: 34
+supported_category_use: 9
 supported_component_family: 8
 supported_consumable_use: 2
-supported_process_input: 27
-supported_process_stage: 4
-supported_product_class: 27
-supported_upstream_process_not_direct_input: 6
+supported_formulation_option: 4
+supported_material_class_composition: 14
+supported_material_class_use: 2
+supported_packaging_option_not_part_specific: 18
+supported_process_input: 28
+supported_process_stage: 5
+supported_product_class: 25
+supported_upstream_process_not_direct_input: 12
 technology_specific_review_required: 1
-unverified_specific_relation: 321
+unverified_specific_relation: 272
 upstream_lineage_requires_process_evidence: 214
-water_role_requires_definition_review: 2
+water_role_requires_definition_review: 3

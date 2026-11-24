@@ -44,3 +44,54 @@ E0748,R5_ROHM_RESISTOR,supported_component_family,"Thick-film body belongs to re
 E0756,R5_ROHM_RESISTOR,supported_component_family,"Thick-film body belongs to resistor branch, not capacitor or inductor. Presence and counts in the submitted board are not confirmed."
 E0742,R5_MURATA_INDUCTOR,supported_component_family,Ferrite internal structure belongs to an inductor/filter branch; exact electrical function still depends on part selection. Presence and counts in the submitted board are not confirmed.
 E0746,R5_MURATA_INDUCTOR,supported_component_family,Ferrite internal structure belongs to an inductor/filter branch; exact electrical function still depends on part selection. Presence and counts in the submitted board are not confirmed.
+E0223,R6_LINDE_ELECTRONICS,supported_process_stage,Purification can upgrade hydrogen; purity is process-specific. No universal transport step or exact qualification established.
+E0531,R6_BASF_PBT,supported_material_class_composition,"PBT and glass fibres make the documented compound. Chopped-fibre branch selected, not woven cloth; fan geometry and qualification unverified."
+E0532,R6_BASF_PBT,supported_material_class_composition,"PBT and glass fibres make the documented compound. Chopped-fibre branch selected, not woven cloth; fan geometry and qualification unverified."
+E0042,R6_TI_PACKAGING,supported_category_membership,"Packaging catalogue contains leadframes, wires and die-attach options; not universally mandatory."
+E0043,R6_TI_PACKAGING,supported_category_membership,"Packaging catalogue contains leadframes, wires and die-attach options; not universally mandatory."
+E0046,R6_TI_PACKAGING,supported_category_membership,"Packaging catalogue contains leadframes, wires and die-attach options; not universally mandatory."
+E0152,R6_TI_PACKAGING,supported_material_class_composition,"Selected silver-filled epoxy die attach: epoxy and silver-metal branches, not silver salt or every solder alloy."
+E0153,R6_TI_PACKAGING,supported_material_class_composition,"Selected silver-filled epoxy die attach: epoxy and silver-metal branches, not silver salt or every solder alloy."
+E0574,R6_TI_PACKAGING,supported_material_class_composition,"Selected silver-filled epoxy die attach: epoxy and silver-metal branches, not silver salt or every solder alloy."
+E0575,R6_TI_PACKAGING,supported_material_class_composition,"Selected silver-filled epoxy die attach: epoxy and silver-metal branches, not silver salt or every solder alloy."
+E0138,R6_TI_PACKAGING,supported_material_class_composition,Epoxy and silica in mould compound; exact grade and formulation unspecified.
+E0140,R6_TI_PACKAGING,supported_material_class_composition,Epoxy and silica in mould compound; exact grade and formulation unspecified.
+E0516,R6_TI_PACKAGING,supported_material_class_composition,Epoxy and silica in mould compound; exact grade and formulation unspecified.
+E0580,R6_TI_PACKAGING,supported_material_class_composition,Epoxy and silica in mould compound; exact grade and formulation unspecified.
+E0565,R6_TI_PACKAGING,supported_material_class_composition,Gold or copper bonding wire; salts and palladium coating are not established here.
+E0566,R6_TI_PACKAGING,supported_material_class_composition,Gold or copper bonding wire; salts and palladium coating are not established here.
+E0687,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Wire-bond PBGA can use substrate, encapsulant and solder balls; GDDR generation and SAC305 not confirmed."
+E0689,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Wire-bond PBGA can use substrate, encapsulant and solder balls; GDDR generation and SAC305 not confirmed."
+E0690,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Wire-bond PBGA can use substrate, encapsulant and solder balls; GDDR generation and SAC305 not confirmed."
+E0740,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Wire-bond PBGA can use substrate, encapsulant and solder balls; GDDR generation and SAC305 not confirmed."
+E0692,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0693,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0694,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0695,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0718,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0719,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0720,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0721,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0732,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0733,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0734,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0735,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0738,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0739,R6_TI_PACKAGING,supported_packaging_option_not_part_specific,"Leadframe/wire/attach/mould route is an option, not proof of the named IC package, alloy or adhesive."
+E0187,R6_DOE_SMR,supported_upstream_process_not_direct_input,"Selected methane-reforming/shift route produces syngas and separates hydrogen and CO2; steam, processing and purification are additional dependencies."
+E0188,R6_DOE_SMR,supported_upstream_process_not_direct_input,"Selected methane-reforming/shift route produces syngas and separates hydrogen and CO2; steam, processing and purification are additional dependencies."
+E0191,R6_DOE_SMR,supported_upstream_process_not_direct_input,"Selected methane-reforming/shift route produces syngas and separates hydrogen and CO2; steam, processing and purification are additional dependencies."
+E0271,R_TOKUYAMA_IPA,supported_process_input,Tokuyama documents propylene hydration for IPA; not a claim every supplier uses this route.
+E0272,R_TOKUYAMA_IPA,water_role_requires_definition_review,"Hydration requires process water, not necessarily the submitted coolant node."
+E0061,R6_ENT_CMP,supported_category_use,CMP uses chemical slurry; exact process formulation unspecified.
+E0157,R6_ENT_CMP,supported_formulation_option,Abrasive alternatives and peroxide additive are documented at class level; not an all-required recipe or exact electronic grade.
+E0158,R6_ENT_CMP,supported_formulation_option,Abrasive alternatives and peroxide additive are documented at class level; not an all-required recipe or exact electronic grade.
+E0159,R6_ENT_CMP,supported_formulation_option,Abrasive alternatives and peroxide additive are documented at class level; not an all-required recipe or exact electronic grade.
+E0160,R6_ENT_CMP,supported_formulation_option,Abrasive alternatives and peroxide additive are documented at class level; not an all-required recipe or exact electronic grade.
+E0312,R6_TOHO_PROCESS,supported_upstream_process_not_direct_input,Selected Kroll process: chlorination and magnesium reduction require intervening processing; relation is not a shipment or complete reaction inventory.
+E0313,R6_TOHO_PROCESS,supported_upstream_process_not_direct_input,Selected Kroll process: chlorination and magnesium reduction require intervening processing; relation is not a shipment or complete reaction inventory.
+E0315,R6_TOHO_PROCESS,supported_upstream_process_not_direct_input,Selected Kroll process: chlorination and magnesium reduction require intervening processing; relation is not a shipment or complete reaction inventory.
+E0305,R6_TOHO_PROCESS,supported_material_class_use,Purified titanium is used in semiconductor sputtering targets and thin-film deposition; ordinary titanium is not automatically target grade.
+E0104,R6_TOHO_PROCESS,supported_material_class_use,Purified titanium is used in semiconductor sputtering targets and thin-film deposition; ordinary titanium is not automatically target grade.
+E0175,R6_PUREON_PAD,supported_material_class_composition,Polyurethane and polyester felt occur in the documented SUBA pad family; not a universal two-layer recipe or proof of independently sold layers.
+E0176,R6_PUREON_PAD,supported_material_class_composition,Polyurethane and polyester felt occur in the documented SUBA pad family; not a universal two-layer recipe or proof of independently sold layers.

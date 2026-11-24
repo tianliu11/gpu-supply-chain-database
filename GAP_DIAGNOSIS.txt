@@ -4,7 +4,7 @@ Unresolved is not unavailable. This diagnostic distinguishes source access, prod
 
 The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.
 
-Unresolved supplier nodes: 42 (including categories, stages and utilities).
+Unresolved supplier nodes: 39 (including categories, stages and utilities).
 
 1 | Main PCB | definition_scoped_supplier_or_process_evidence_still_open
 Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.
@@ -114,10 +114,6 @@ PM-ACRYLIC-PU | Acrylic-Polyurethane Protective Coating & Ink Resin | definition
 Separate coating resin, photoresist binder, pressure-sensitive adhesive and interlaminar varnish. Their formulations are not interchangeable.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-PM-REFINED-AU | Refined Fine Gold & Potassium Gold Cyanide (99.99% Au) | definition_scoped_supplier_or_process_evidence_still_open
-The original combined label must not equate metal purity with gold mass fraction in a salt. Salt identity needs its own datasheet.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
 DC-ANODIZE-CHEM | Disposable Sulfuric Acid Anodizing Bath & Black Dye | definition_scoped_supplier_or_process_evidence_still_open
 Electrolyte and black dye are distinct purchases; bath reuse/replenishment means disposable is not a fixed one-use count.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
@@ -128,14 +124,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 SC-DI-WATER | Ultrapure Degassed Deionized Water Working Fluid | definition_scoped_supplier_or_process_evidence_still_open
 Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-SC-MYLAR-INSULATOR | Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner | definition_scoped_supplier_or_process_evidence_still_open
-Film manufacture and final die cutting are separate capabilities. Mylar is a brand, not the name of every PET film.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-SC-PBT-GF30 | 30% Glass-Fiber Reinforced PBT (PBT-GF30) Fan Impeller & Frame | definition_scoped_supplier_or_process_evidence_still_open
-Material identity comes from the submitted specification; 30% reinforcement and suitability for a selected fan remain unverified design choices.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 SC-AL-PLATE | Rolled Aluminum Alloy 5052 / 6061 Structural Plate | definition_scoped_supplier_or_process_evidence_still_open

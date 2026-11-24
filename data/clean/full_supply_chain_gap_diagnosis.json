@@ -7,7 +7,7 @@
     "DC-TIN-PLATE"
   ],
   "counts": {
-    "definition_scoped_supplier_or_process_evidence_still_open": 42
+    "definition_scoped_supplier_or_process_evidence_still_open": 39
   },
   "unresolved_nodes": [
     {
@@ -227,14 +227,6 @@
       "evidence_absence_claim": false
     },
     {
-      "node_id": "PM-REFINED-AU",
-      "node_name": "Refined Fine Gold & Potassium Gold Cyanide (99.99% Au)",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "The original combined label must not equate metal purity with gold mass fraction in a salt. Salt identity needs its own datasheet.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
       "node_id": "DC-ANODIZE-CHEM",
       "node_name": "Disposable Sulfuric Acid Anodizing Bath & Black Dye",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
@@ -255,22 +247,6 @@
       "node_name": "Ultrapure Degassed Deionized Water Working Fluid",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "SC-MYLAR-INSULATOR",
-      "node_name": "Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Film manufacture and final die cutting are separate capabilities. Mylar is a brand, not the name of every PET film.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "SC-PBT-GF30",
-      "node_name": "30% Glass-Fiber Reinforced PBT (PBT-GF30) Fan Impeller & Frame",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Material identity comes from the submitted specification; 30% reinforcement and suitability for a selected fan remain unverified design choices.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
