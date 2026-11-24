@@ -1,0 +1,267 @@
+{
+  "batch_files": 40,
+  "original_batch_vendor_rows": 1793,
+  "original_batch_source_rows": 423,
+  "batch_node_ids": 278,
+  "missing_from_batches": [
+    {
+      "node_id": "SC-PU-COATING",
+      "node_name": "Acrylic-Polyurethane Matte Protective Shroud Coating"
+    },
+    {
+      "node_id": "SC-ALLOY-STEEL-WIRE",
+      "node_name": "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket"
+    },
+    {
+      "node_id": "SC-MYLAR-INSULATOR",
+      "node_name": "Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner"
+    },
+    {
+      "node_id": "SC-CERAMIC-FILLER",
+      "node_name": "Micronized Alumina (Al2O3) & Boron Nitride (h-BN) Thermal Filler"
+    },
+    {
+      "node_id": "LD:nitrous_oxide",
+      "node_name": "Nitrous oxide"
+    },
+    {
+      "node_id": "LD:anhydrous_hcl",
+      "node_name": "Anhydrous HCl"
+    },
+    {
+      "node_id": "LD:process_specific_fab_materials",
+      "node_name": "Process-specific fabrication materials"
+    },
+    {
+      "node_id": "SC-DI-WATER",
+      "node_name": "Ultrapure Degassed Deionized Water Working Fluid"
+    },
+    {
+      "node_id": "SC-SPCC-SHEET",
+      "node_name": "Cold-Rolled SPCC Low-Carbon Steel Sheet"
+    },
+    {
+      "node_id": "SC-SILICONE-MATRIX",
+      "node_name": "Cross-Linked PDMS Silicone Elastomer Matrix"
+    },
+    {
+      "node_id": "SC-PC-ABS",
+      "node_name": "Flame-Retardant PC/ABS Structural Shroud Resin"
+    }
+  ],
+  "merged_candidate_rows": 2047,
+  "statuses": {
+    "citation_present_content_review_pending": 1496,
+    "prior_scoped_capability_evidence": 397,
+    "not_a_vendor_record": 23,
+    "missing_citation": 131
+  },
+  "node_coverage_rows": 289,
+  "public_production_site_rows": 308,
+  "nearest_hub_rows": 1848,
+  "vendors_without_exact_name_site_match": 991,
+  "site_link_rows": 1200,
+  "claim": "Reconciliation and scoped prior evidence; not all batch citations, ranks, factories or relationships have been independently validated.",
+  "original_manifest": [
+    {
+      "file": "research_2026-11-24/batches/V01_sources.csv",
+      "sha256": "7184e9960d400b812a41c42b96036a5392bc85f82d9494cd5d858bc5c2ab66a4",
+      "rows": 14
+    },
+    {
+      "file": "research_2026-11-24/batches/V01_vendors.csv",
+      "sha256": "d4f8d7359c34fd77bb59032fa431d24eab3a460999d741c893fae67b4892756b",
+      "rows": 100
+    },
+    {
+      "file": "research_2026-11-24/batches/V02_sources.csv",
+      "sha256": "9e0ecdcc7eb2cb55254e80d181f193f8ff4e076583a22df6c5c626de8b1ebad8",
+      "rows": 12
+    },
+    {
+      "file": "research_2026-11-24/batches/V02_vendors.csv",
+      "sha256": "301af8d2d1f86b2c56e67c1110e1b1876b6c13ee5b0c57dcd34c278799a29a34",
+      "rows": 106
+    },
+    {
+      "file": "research_2026-11-24/batches/V03_sources.csv",
+      "sha256": "397f638d1de84f805f8a3139a3e4730b727a9de0ef62c65b2185a82f97708ac1",
+      "rows": 20
+    },
+    {
+      "file": "research_2026-11-24/batches/V03_vendors.csv",
+      "sha256": "e86d8382ee50056bfd29d45c410ff04d0b59494d1ef23b66f2f8055554e68d71",
+      "rows": 89
+    },
+    {
+      "file": "research_2026-11-24/batches/V04_sources.csv",
+      "sha256": "212449771fccb8e8537a769e8b70a0fab957be50b4a89a041c9f4186830f7f3b",
+      "rows": 12
+    },
+    {
+      "file": "research_2026-11-24/batches/V04_vendors.csv",
+      "sha256": "6a50d37de5a927a0d3b99fc44c281f05f4de4c1163a5c92e8f288bd8099d275e",
+      "rows": 111
+    },
+    {
+      "file": "research_2026-11-24/batches/V05_sources.csv",
+      "sha256": "b976b21e84015ade10a4363465d9e999f21264a0ae2365f0d00727a65393c7d9",
+      "rows": 20
+    },
+    {
+      "file": "research_2026-11-24/batches/V05_vendors.csv",
+      "sha256": "47ba14044c76371eef91376f2bd919c9bf8c553b2d70758e0b9632e12a0aa29d",
+      "rows": 67
+    },
+    {
+      "file": "research_2026-11-24/batches/V06_sources.csv",
+      "sha256": "30a35b93fff2b746356a541bc2a752d5c8a17f541eee70fb4e4c57cd53f2d991",
+      "rows": 26
+    },
+    {
+      "file": "research_2026-11-24/batches/V06_vendors.csv",
+      "sha256": "48fe57b519775809de667696f74399f4f9ad9b34a6552a80fdc0375a8596a17a",
+      "rows": 96
+    },
+    {
+      "file": "research_2026-11-24/batches/V07_sources.csv",
+      "sha256": "b764f722fae7749ec364e181be63ba118b59303ff5f207f5c95fedb494553daf",
+      "rows": 19
+    },
+    {
+      "file": "research_2026-11-24/batches/V07_vendors.csv",
+      "sha256": "23cd0099a6d473f4281b27409f2e79ca79dccdbe610f3dc36721bc7bd5a921ff",
+      "rows": 122
+    },
+    {
+      "file": "research_2026-11-24/batches/V08_sources.csv",
+      "sha256": "6e324077ee65da2be2d303effca3155f89c06e27d5ae07276bd5b2c918120505",
+      "rows": 25
+    },
+    {
+      "file": "research_2026-11-24/batches/V08_vendors.csv",
+      "sha256": "b1c168df3f57be39cd12fdb3355311543fd69c946e1df1415d13a61b64013811",
+      "rows": 89
+    },
+    {
+      "file": "research_2026-11-24/batches/V09_sources.csv",
+      "sha256": "d4f199ea5f8728c6419262d87a5be65dc39b35669f132e5a6bc6e744e75f1c09",
+      "rows": 15
+    },
+    {
+      "file": "research_2026-11-24/batches/V09_vendors.csv",
+      "sha256": "e6ae557bd8aad77c7e2488196e6cbd8d904887a119f122fc7ee446ef634afc1a",
+      "rows": 68
+    },
+    {
+      "file": "research_2026-11-24/batches/V10_sources.csv",
+      "sha256": "021d86c7a7789d894374d641ceb2df040b274518317b27e1f99cf2e670757a09",
+      "rows": 17
+    },
+    {
+      "file": "research_2026-11-24/batches/V10_vendors.csv",
+      "sha256": "cbae85f8a4f0a9b84c9db4b9f6818a8287ce1178e096c8071a776e76cbc49834",
+      "rows": 76
+    },
+    {
+      "file": "research_2026-11-24/batches/V11_sources.csv",
+      "sha256": "d8ed02d867af7a3f884d7201f8e1cccb29ee0e794fa9bac1ee32ee837d26d944",
+      "rows": 13
+    },
+    {
+      "file": "research_2026-11-24/batches/V11_vendors.csv",
+      "sha256": "ec7283442199dd6e298d6a3d0b7fa91149d1555a9e2df79bb950b8a954d5d5c2",
+      "rows": 55
+    },
+    {
+      "file": "research_2026-11-24/batches/V12_sources.csv",
+      "sha256": "4809aa933a186189c2aebbf9beffe9b84bb0ce16ff5ab27b9aff9b801fbc9848",
+      "rows": 19
+    },
+    {
+      "file": "research_2026-11-24/batches/V12_vendors.csv",
+      "sha256": "6e5d2bb6d1a198e9ee4c4b4c7aafd1883f8fe4a3a0c1048284c29868805ebb18",
+      "rows": 108
+    },
+    {
+      "file": "research_2026-11-24/batches/V13_sources.csv",
+      "sha256": "86ef9d75b20907f76aa8f512a592597f83dbf2c8b7209650ca279dc0dbb72435",
+      "rows": 21
+    },
+    {
+      "file": "research_2026-11-24/batches/V13_vendors.csv",
+      "sha256": "0d99f3327bf6d554a6bcf27399219199e4861107f422b7d9d81726015613143e",
+      "rows": 77
+    },
+    {
+      "file": "research_2026-11-24/batches/V14_sources.csv",
+      "sha256": "02dbf20a6ba27c9a00e1149e27ff470b4827104e6dafe4a4deadbfaa8f01a628",
+      "rows": 24
+    },
+    {
+      "file": "research_2026-11-24/batches/V14_vendors.csv",
+      "sha256": "75ef4be86029ff7d57160e2734c4866bd79458f52e2991a2cceab6a2bffd2da5",
+      "rows": 51
+    },
+    {
+      "file": "research_2026-11-24/batches/V15_sources.csv",
+      "sha256": "a1bb84a38d4387e2121a99a7eed08ff2ba27307d0090a07053707934a65f88e6",
+      "rows": 31
+    },
+    {
+      "file": "research_2026-11-24/batches/V15_vendors.csv",
+      "sha256": "5ab4345b8db9a43d1b7104b6b51b527aea2c6ef33179ddf02f260d580807b1a4",
+      "rows": 125
+    },
+    {
+      "file": "research_2026-11-24/batches/V16_sources.csv",
+      "sha256": "f85052a23b4a152be9f16cfb737d19ed29902cc6b299ebe9bc43b528a80ce25d",
+      "rows": 16
+    },
+    {
+      "file": "research_2026-11-24/batches/V16_vendors.csv",
+      "sha256": "943749ce8f3f0c5a96627c04072a2c9d5929fbd323c9c9d26e4ab6b63a04dd7c",
+      "rows": 72
+    },
+    {
+      "file": "research_2026-11-24/batches/V17_sources.csv",
+      "sha256": "ffcfcd017f93c771c7ca391e056283693a1642cea47309649866305e1937d519",
+      "rows": 22
+    },
+    {
+      "file": "research_2026-11-24/batches/V17_vendors.csv",
+      "sha256": "9fd4e6ec79028da486e03cc42706c32925e06397d8c195017b7fbd0b74f8cbaf",
+      "rows": 67
+    },
+    {
+      "file": "research_2026-11-24/batches/V18_sources.csv",
+      "sha256": "3ad8d85ae8a7a83e516951ea2ebd236543c17031783beb259b2d0b78cc03e711",
+      "rows": 21
+    },
+    {
+      "file": "research_2026-11-24/batches/V18_vendors.csv",
+      "sha256": "9441ecf7fe9a77039251447a2a4dbf85a54e8ff4a9a485488e6a28a809b69b18",
+      "rows": 110
+    },
+    {
+      "file": "research_2026-11-24/batches/V19_sources.csv",
+      "sha256": "e27751fe43ffa9ffb75910cdbd7f3e87189669f2b13d6ad2a31eb4163ca516a7",
+      "rows": 47
+    },
+    {
+      "file": "research_2026-11-24/batches/V19_vendors.csv",
+      "sha256": "1ba764657833083ba5124d6a508588cc01ad56be474e677af3b17c41c2fb3d48",
+      "rows": 95
+    },
+    {
+      "file": "research_2026-11-24/batches/V20_sources.csv",
+      "sha256": "204766ee410d0677bced4c71de000077833bb0bfc54676eeb2cdb65eaeb0df0e",
+      "rows": 29
+    },
+    {
+      "file": "research_2026-11-24/batches/V20_vendors.csv",
+      "sha256": "b459ece1d5a79d7b7b10a8d0bab1aa38c2e46bc8b4dc134a1af8b39e3ea3b65e",
+      "rows": 109
+    }
+  ]
+}
