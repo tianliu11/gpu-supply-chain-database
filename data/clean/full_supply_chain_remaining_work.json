@@ -1839,6 +1839,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "LD:fused_silica_filler",
+      "node_name": "Fused silica powder filler",
+      "provider_name": "Admatechs",
+      "public_site_count": 3,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:62926fd0d99a;PUBLIC_SITE:9c766fac9ac1;PUBLIC_SITE:7efcf068a4d6",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "LD:helium",
       "node_name": "Helium",
       "provider_name": "Linde",
@@ -3123,6 +3135,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "PM-FUSED-SILICA",
+      "node_name": "High-Purity Spherical Fused Silica (SiO2) Filler",
+      "provider_name": "Admatechs",
+      "public_site_count": 3,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:62926fd0d99a;PUBLIC_SITE:9c766fac9ac1;PUBLIC_SITE:7efcf068a4d6",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "PM-HBN",
       "node_name": "Hexagonal Boron Nitride (h-BN) Ceramic Powder",
       "provider_name": "Denka",
@@ -3970,6 +3994,18 @@
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
       "other_company_site_ids": "EXT:INF_VILLACH;EXT:INF_WUXI;EXT:INF_DRESDEN;EXT:INF_REGENSBURG;EXT:INF_WARSTEIN;EXT:INF_CEGLED;EXT:INF_BATAM;EXT:INF_KULIM;EXT:INF_MELAKA;EXT:INF_TIJUANA;EXT:INF_SINGAPORE;EXT:INF_BANGKOK;EXT:INF_LEOMINSTER;EXT:INF_MESA",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "SC-PREPREG",
+      "node_name": "FR-4 B-Stage Glass-Epoxy Prepreg Sheet",
+      "provider_name": "Isola",
+      "public_site_count": 2,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:a8d57b4479ae;PUBLIC_SITE:f38f208bede9",
       "site_status": "company_sites_only_product_allocation_unverified",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""

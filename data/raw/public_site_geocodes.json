@@ -2368,5 +2368,111 @@
     "osm_type": "relation",
     "osm_id": 3242930,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Xiamen%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:7efcf068a4d6": {
+    "query": "Miyoshi, Aichi, Japan",
+    "latitude": 35.0993323,
+    "longitude": 137.099531,
+    "display_name": "みよし市, 愛知県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4547830,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Miyoshi%2C+Aichi%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:62926fd0d99a": {
+    "query": "Toki, Gifu, Japan",
+    "latitude": 35.3524878,
+    "longitude": 137.1826232,
+    "display_name": "土岐市, 岐阜県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4716909,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Toki%2C+Gifu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:9c766fac9ac1": {
+    "query": "Toki, Gifu, Japan",
+    "latitude": 35.3524878,
+    "longitude": 137.1826232,
+    "display_name": "土岐市, 岐阜県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4716909,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Toki%2C+Gifu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:77a33704478c": {
+    "query": "Al Hasa, Jordan",
+    "latitude": 30.7989702,
+    "longitude": 35.8962041,
+    "display_name": "لواء الحسا, الطفيلة, الأردن",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 13376045,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Al+Hasa%2C+Jordan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jo"
+  },
+  "PUBLIC_SITE:113dc246f58f": {
+    "query": "Al Abyad, Jordan",
+    "latitude": 31.916667,
+    "longitude": 35.6,
+    "display_name": "تل مشرع الأبيض, الشونة الوسطى, Shoonah Janoobiyah Sub-District, لواء الشونة الجنوبية, البلقاء, الأردن",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 798859705,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Al+Abyad%2C+Jordan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jo"
+  },
+  "PUBLIC_SITE:d55392fb8565": {
+    "query": "Eshidiya, Jordan",
+    "latitude": null,
+    "longitude": null,
+    "status": "no_country_matched_result"
+  },
+  "PUBLIC_SITE:79ec91f1c3f5": {
+    "query": "Hardee County, Florida, United States",
+    "latitude": 27.4856349,
+    "longitude": -81.8196804,
+    "display_name": "Hardee County, Florida, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1210738,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hardee+County%2C+Florida%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:02f93a509d08": {
+    "query": "Bradley, Florida, United States",
+    "latitude": 27.7953069,
+    "longitude": -81.9803629,
+    "display_name": "Bradley Junction, Polk County, Florida, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 153836632,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Bradley%2C+Florida%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:676bdb176583": {
+    "query": "Manatee County, Florida, United States",
+    "latitude": 27.5213933,
+    "longitude": -82.3801566,
+    "display_name": "Manatee County, Florida, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1210690,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Manatee+County%2C+Florida%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:a8d57b4479ae": {
+    "query": "Chandler, Arizona, United States",
+    "latitude": 33.3062031,
+    "longitude": -111.841185,
+    "display_name": "Chandler, Maricopa County, Arizona, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 110798,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chandler%2C+Arizona%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:f38f208bede9": {
+    "query": "Ridgeway, South Carolina, United States",
+    "latitude": 34.3076471,
+    "longitude": -80.9603643,
+    "display_name": "Ridgeway, Fairfield County, South Carolina, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 194077,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Ridgeway%2C+South+Carolina%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
   }
 }

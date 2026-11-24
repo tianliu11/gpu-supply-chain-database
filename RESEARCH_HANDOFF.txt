@@ -3,7 +3,7 @@ Review date: 2026-11-24
 
 Scope: best-effort public evidence extension of the supplied JSON, not a confidential NVIDIA procurement reconstruction.
 
-Nodes: 289; proposed connections: 757; nodes with supplier candidates: 252; supplier-node records: 403; public production-asset records: 315; nearest-hub records: 1890.
+Nodes: 289; proposed connections: 757; nodes with supplier candidates: 252; supplier-node records: 408; public production-asset records: 326; nearest-hub records: 1950.
 
 TASK STATUS
 
@@ -20,10 +20,10 @@ PARTIAL: Identify up to ten industry-leading suppliers per input
 At most ten suppliers retained per node. Product capability is cited; comparable top-ten market rankings are generally not established.
 
 PARTIAL: Find all manufacturing sites for selected vendors
-315 public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial.
+326 public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial.
 
 GEOGRAPHIC_SCREENING_DONE_CARGO_VALIDATION_PENDING: Nearest one to three commercial airports and ports
-1890 nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified.
+1950 nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified.
 
 DONE: Clean database, sources and reproducible code
 CSV tables, consolidated JSON, raw inputs, source register, geocode cache, research logs and integrity tests included.
@@ -50,6 +50,6 @@ python3 code/build_research_handoff.py
 python3 code/test_public_research_integrity.py
 
 The rebuild uses checked-in inputs and no external Python packages. Refreshing geocodes is optional and uses a rate-limited network service.
-The older PNGs and legacy transport/time tables describe the earlier smaller model, not this complete-node research extension.
+Regenerate the current PNGs with python3 code/render_current_figures.py (Matplotlib). Legacy transport/time tables describe the smaller scenario.
 Definition and semantic review: see STRUCTURE_REVIEW.txt, component_definitions.json and structure_review_decisions.csv. Original input preserved; revised graph is provisional.
 Visualization QA: JavaScript/DOM smoke tests exercise all three files. Actual browser layout review was unavailable: in-app localhost timed out and local Chrome attachment required an app network-policy update.

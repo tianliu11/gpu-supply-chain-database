@@ -95,6 +95,13 @@ E0305,R6_TOHO_PROCESS,supported_material_class_use,Purified titanium is used in 
 E0104,R6_TOHO_PROCESS,supported_material_class_use,Purified titanium is used in semiconductor sputtering targets and thin-film deposition; ordinary titanium is not automatically target grade.
 E0175,R6_PUREON_PAD,supported_material_class_composition,Polyurethane and polyester felt occur in the documented SUBA pad family; not a universal two-layer recipe or proof of independently sold layers.
 E0176,R6_PUREON_PAD,supported_material_class_composition,Polyurethane and polyester felt occur in the documented SUBA pad family; not a universal two-layer recipe or proof of independently sold layers.
+E0511,R8_ISOLA_FR4,supported_material_class_composition,Woven E-glass fabric is documented for this laminate/prepreg system. Chopped strands are a separate branch.
+E0538,R8_ISOLA_FR4,supported_material_class_composition,Woven E-glass fabric is documented for this laminate/prepreg system. Chopped strands are a separate branch.
+E0567,R8_ISOLA_FR4,supported_material_class_composition,The product uses an epoxy system. The submitted specific resin/hardener formulation remains open.
+E0568,R8_ISOLA_FR4,foil_role_requires_feedstock_evidence,Copper foil is the laminate input. A cathode-to-foil conversion and its feedstock grade require separate evidence.
+E0132,R8_ABF,supported_material_class_composition,The ABF branch uses an epoxy-based insulating film in a substrate. The BT branch and exact resin grade are separate questions.
+E0332,R8_ABF,supported_material_class_composition,The ABF branch uses an epoxy-based insulating film in a substrate. The BT branch and exact resin grade are separate questions.
+E0333,R8_ABF,supported_material_class_composition,The ABF branch uses an epoxy-based insulating film in a substrate. The BT branch and exact resin grade are separate questions.
 E0198,R7_EPA_HCL,supported_process_option_not_universal,Hydrogen/chlorine synthesis is a documented HCl route. Other industrial routes exist; anhydrous semiconductor-grade purification and actual supplier process remain unverified.
 E0199,R7_EPA_HCL,supported_process_option_not_universal,Hydrogen/chlorine synthesis is a documented HCl route. Other industrial routes exist; anhydrous semiconductor-grade purification and actual supplier process remain unverified.
 E0217,R7_EPA_HCL,supported_process_option_not_universal,Hydrogen/chlorine synthesis is a documented HCl route. Other industrial routes exist; anhydrous semiconductor-grade purification and actual supplier process remain unverified.

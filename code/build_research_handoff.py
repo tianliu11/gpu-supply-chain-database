@@ -175,7 +175,7 @@ def main():
       manufacturing_times='The full-node extension contains no observed manufacturing-time series. Older manufacturing_time_assumptions.csv describes a separate scenario, not newly verified durations.',
       missing_values='Empty fields mean missing, not applicable or unestablished as explained by the status/note. Never convert missing duration, share or capacity into zero.',
       counts='Nodes with vendor candidates measures presence of some capability evidence. Partial branches, internal-part capability and unqualified grades do not establish complete node coverage or independent redundancy.',
-      views='New HTML views use the full-node extension; older PNGs/unified_graph.json/transport statistics describe the legacy smaller model.',
+      views='HTML and PNG figures use the full-node extension. The legacy unified_graph.json and transport statistics CSV/JSON describe the smaller scenario.',
     ))
     lines=['GPU SUPPLY-CHAIN RESEARCH HANDOFF','Review date: 2026-11-24','',
       'Scope: best-effort public evidence extension of the supplied JSON, not a confidential NVIDIA procurement reconstruction.','',
@@ -193,7 +193,7 @@ def main():
       'python3 code/build_research_handoff.py',
       'python3 code/test_public_research_integrity.py','',
       'The rebuild uses checked-in inputs and no external Python packages. Refreshing geocodes is optional and uses a rate-limited network service.',
-      'The older PNGs and legacy transport/time tables describe the earlier smaller model, not this complete-node research extension.',
+      'Regenerate the current PNGs with python3 code/render_current_figures.py (Matplotlib). Legacy transport/time tables describe the smaller scenario.',
       'Definition and semantic review: see STRUCTURE_REVIEW.txt, component_definitions.json and structure_review_decisions.csv. Original input preserved; revised graph is provisional.',
       'Visualization QA: JavaScript/DOM smoke tests exercise all three files. Actual browser layout review was unavailable: in-app localhost timed out and local Chrome attachment required an app network-policy update.'])
     (ROOT/'RESEARCH_HANDOFF.txt').write_text('\n'.join(lines)+'\n')

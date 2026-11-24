@@ -10,5 +10,5 @@
   "manufacturing_times": "The full-node extension contains no observed manufacturing-time series. Older manufacturing_time_assumptions.csv describes a separate scenario, not newly verified durations.",
   "missing_values": "Empty fields mean missing, not applicable or unestablished as explained by the status/note. Never convert missing duration, share or capacity into zero.",
   "counts": "Nodes with vendor candidates measures presence of some capability evidence. Partial branches, internal-part capability and unqualified grades do not establish complete node coverage or independent redundancy.",
-  "views": "New HTML views use the full-node extension; older PNGs/unified_graph.json/transport statistics describe the legacy smaller model."
+  "views": "HTML and PNG figures use the full-node extension. The legacy unified_graph.json and transport statistics CSV/JSON describe the smaller scenario."
 }

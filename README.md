@@ -6,8 +6,8 @@ This package joins the BOMWiki graphics-card hierarchy to Georgetown CSET ETO's 
 
 Start with [RESEARCH_HANDOFF.txt](RESEARCH_HANDOFF.txt) for what is done and what
 is still missing. The latest extension preserves the supplied JSON and has 252
-nodes with supplier-candidate evidence, 403 supplier-node records, 315 public
-production-asset records and 1,890 nearby-hub records. These are research-coverage
+nodes with supplier-candidate evidence, 408 supplier-node records, 326 public
+production-asset records and 1,950 nearby-hub records. These are research-coverage
 counts, not percentages of a fully verified or market-representative chain.
 
 - `figures/full_supply_chain_structure.html`: offline component graph and
@@ -15,8 +15,7 @@ counts, not percentages of a fully verified or market-representative chain.
 - `figures/full_supply_chain_reviewed_structure.html`: separate semantic-review
   graph, with 305 canonical nodes and 772 links. Not a fully validated BOM.
 - `VALIDATION_RESULTS.txt`: latest process corrections and remaining evidence gaps.
-- `data/clean/process_validation_claims.csv`: 108 individually researched original
-  relationships with sources and exact claim scope; not 108 blanket approvals.
+- `data/clean/process_validation_claims.csv`: 115 original relationships with scoped evidence reviews.
 - `data/clean/reviewed_structure_added_edges.csv`: 23 proposed process links,
   including explicit candidate-only design relationships.
 - `STRUCTURE_REVIEW.txt`: corrections, 54 scoped definitions and remaining issues.
@@ -39,9 +38,16 @@ counts, not percentages of a fully verified or market-representative chain.
 Download the repository ZIP and open the HTML files locally; GitHub's source
 viewer does not execute HTML. They embed their data and need no network access.
 All three pass JavaScript/DOM interaction smoke tests. Browser layout review was
-unavailable in this session, as recorded in the handoff. The older PNG figures
-and the smaller legacy graph statistics below have **not** been regenerated as
-the full-node research graph and must not be cited as its current outputs.
+unavailable in this session, as recorded in the handoff.
+
+Shareable PNGs from the current research exports:
+
+- [Component dependency overview](figures/dependency_graph_overview.png)
+- [Production sites and nearby hubs](figures/transport_network.png)
+- [Site-to-hub proximity statistics](figures/transport_graph_statistics.png)
+
+Rebuild these figures with `python3 code/render_current_figures.py` (Matplotlib).
+The legacy transport CSV/JSON statistics and lead-time tables describe a separate, smaller scenario.
 
 ## Project hierarchy from gpu.xlsx
 

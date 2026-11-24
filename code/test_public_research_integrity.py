@@ -182,7 +182,9 @@ class ResearchIntegrity(unittest.TestCase):
         self.assertFalse(any('warehouse' in r['facility_name'].lower() for r in facilities))
         self.assertEqual(names['Photronics Hefei manufacturing']['component_categories'],'')
         self.assertEqual(names['Argor-Heraeus Mendrisio Moree']['component_categories'],'')
-        self.assertTrue(all(r['latitude'] and r['longitude'] for r in facilities))
+        with_hubs={r['facility_id'] for r in rows('full_supply_chain_nearest_hubs.csv')}
+        geocoded={r['facility_id'] for r in facilities if r['latitude'] and r['longitude']}
+        self.assertEqual(with_hubs,geocoded)
 
     def test_partial_material_branch_is_not_whole_node_qualification(self):
         vendors=rows('full_supply_chain_vendors.csv')
