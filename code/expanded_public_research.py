@@ -326,3 +326,44 @@ sid=source('R2_NDPP_PHOSPHORUS','Export Credit Agency of Kazakhstan','Novo-Dzham
 SOURCES[-1]['reliability']='Export-credit agency enterprise profile; named production capability/site, not electronic-grade qualification'
 vendor('Novo-Dzhambul Phosphorus Plant',sid,'LD:white_phosphorus','Yellow/white elemental phosphorus product class; impurity grade and semiconductor purification require evidence')
 site('Novo-Dzhambul phosphorus plant','Novo-Dzhambul Phosphorus Plant','Kazakhstan','Taraz','Taraz, Zhambyl Region; factory-gate address unconfirmed',sid,'LD:white_phosphorus')
+
+# Gap follow-up: only fully inspected product evidence is admitted here.
+sid=source('R3_CERATIZIT_WCCO','CERATIZIT','Cemented-carbide production chain',
+ 'https://ceratizit.com/int/en/cemented-carbide-to-products/production.html',
+ 'Describes tungsten carbide powder, cobalt binder and sintered hardmetal manufacture. Process-stage times on this page are not total factory lead times; ore-to-product relationships skip intermediate plants.')
+vendor('CERATIZIT',sid,'PM-WC-COBALT','Sintered tungsten-carbide/cobalt hardmetal; no specific PCB-drill grade, customer or market-share rank established')
+sid=source('R3_CERATIZIT_REUTTE','CERATIZIT','Company history and Reutte production-site description',
+ 'https://ceratizit.com/int/en/about-us/from-pioneer-to-global-player.html',
+ 'Explicitly identifies Reutte as a production site. Corporate hardmetal capability does not allocate a particular WC-Co grade to this plant.')
+site('CERATIZIT Reutte production site','CERATIZIT','Austria','Reutte','Production city documented; gate address unconfirmed',sid,'')
+sid=source('R3_CERATIZIT_CLOSURES','CERATIZIT','Production-network reorganisation, 5 March 2025',
+ 'https://ceratizit.com/int/fr/news-and-media/news-and-press-releases/2025/CERATIZIT-reorganises-its-production-network.html',
+ 'Besigheim and Empfingen were announced for closure during 2026. They are excluded from new operating-plant candidates rather than assumed active from a historical directory.')
+sid=source('R3_MPET_RELEASE','Mitsubishi Chemical America, Polyester Film Division','Silicone release polyester film products',
+ 'https://www.m-petfilm.com/products-by-type/silicone-release-polyester-films/',
+ 'Documents silicone-coated PET release film including electronic and ceramic-capacitor applications. Does not establish a mandatory thermal-pad input, exact silicone chemistry, or single-use disposal.')
+vendor('Mitsubishi Chemical America Polyester Film Division',sid,'DC-PET-LINER','Silicone-coated PET release-film product class; required thickness, adhesive compatibility and application grade unqualified')
+edge('E0485',sid,'supported_product_class','PET carrier film in silicone-coated release liner is documented; this is not proof of a particular supplier shipment or universal liner use.')
+sid=source('R3_MPET_GREER','Mitsubishi Chemical America, Polyester Film Division','Greer production facility and coating capability',
+ 'https://www.m-petfilm.com/about-us/general-information/',
+ 'Documents polyester-film manufacture and inline coating/coextrusion in Greer. Exact release-film grade allocation is not expressly stated, so the plant scope is left unallocated.')
+site('Mitsubishi polyester-film Greer plant','Mitsubishi Chemical America Polyester Film Division','United States','Greer, South Carolina','2001 Hood Road, Greer, SC',sid,'')
+sid=source('R3_TECHNIC_TIN','Technic','Electrolytic tin chemistry',
+ 'https://www.technic.com/applications/industrial/electrolytic-plating/electrolytic-tin-chemistry',
+ 'Lists matte-tin plating formulations based on sulfuric acid or methanesulfonic acid. This supports the bath-chemistry branch, not tin anode production or a disposable-bath assumption.')
+vendor('Technic',sid,'DC-TIN-PLATE','Matte-tin bath chemistry branch only; tin anodes, final plating specification and replacement frequency require separate evidence')
+sid=source('R3_TECHNIC_PLANTS','Technic','Global facilities with manufacturing functions',
+ 'https://www.technic.com/about/about-technic-global-facilities',
+ 'Admitted entries explicitly state manufacture; headquarters-only, sales-only, R&D-only and equipment plants excluded. Individual plating-product allocation is unverified. This subset is not the complete global footprint.')
+for name,country,city,address in [
+ ('Cranston chemical plant','United States','Cranston, Rhode Island','1 Spectacle Street'),
+ ('Woonsocket semiconductor plant','United States','Woonsocket, Rhode Island','601 Park East Drive'),
+ ('Woonsocket imaging-products plant','United States','Woonsocket, Rhode Island','41 Century Drive'),
+ ('Woonsocket engineered-powders plant','United States','Woonsocket, Rhode Island','300 Park East Drive'),
+ ('Amiens chemical plant','France','Amiens','121 Rue Andre Durouchez'),
+ ('Chalon chemical plant','France','Chalon-sur-Saone','1 Rue Georges Claude'),
+ ('Noyarey manufacturing site','France','Noyarey','37 route du Ruisset'),
+ ('Anaheim manufacturing site','United States','Anaheim, California','1170 Hawk Circle'),
+ ('Markham manufacturing site','Canada','Markham, Ontario','195 Riviera Drive'),
+ ('Saint Denis manufacturing site','France','Saint-Denis','15 Rue de la Montjoie')]:
+ site('Technic '+name,'Technic',country,city,address,sid,'')

@@ -373,30 +373,6 @@
       "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
     },
     {
-      "node_id": "PM-WC-COBALT",
-      "node_name": "Sintered Tungsten Carbide-Cobalt (WC-Co) Hardmetal",
-      "node_type": "processed_material",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "DC-PET-LINER",
-      "node_name": "Disposable Silicone-Coated PET Protective Release Liners",
-      "node_type": "disposable_tooling_or_consumable",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
       "node_id": "DC-ANODIZE-CHEM",
       "node_name": "Disposable Sulfuric Acid Anodizing Bath & Black Dye",
       "node_type": "disposable_tooling_or_consumable",
@@ -411,18 +387,6 @@
     {
       "node_id": "DC-SINTER-BOAT",
       "node_name": "Disposable YSZ Ceramic Sintering Setter Plates",
-      "node_type": "disposable_tooling_or_consumable",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "DC-TIN-PLATE",
-      "node_name": "Disposable Matte-Tin Electroplating Bath & Tin Anodes",
       "node_type": "disposable_tooling_or_consumable",
       "vendor_count": "0",
       "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
@@ -1083,6 +1047,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "DC-PET-LINER",
+      "node_name": "Disposable Silicone-Coated PET Protective Release Liners",
+      "provider_name": "Mitsubishi Chemical America Polyester Film Division",
+      "public_site_count": 1,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:df7da0bfc960",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "DC-PHOTORESIST",
       "node_name": "Disposable Dry-Film Photoresist & Alkaline Stripper",
       "provider_name": "Taiyo Holdings",
@@ -1103,6 +1079,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "",
       "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "DC-TIN-PLATE",
+      "node_name": "Disposable Matte-Tin Electroplating Bath & Tin Anodes",
+      "provider_name": "Technic",
+      "public_site_count": 10,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:dac20e57216f;PUBLIC_SITE:68b8681dfebb;PUBLIC_SITE:f35df422b018;PUBLIC_SITE:9f5e352f3f44;PUBLIC_SITE:25eec80533b5;PUBLIC_SITE:fb1f9979ea10;PUBLIC_SITE:a31e8a4434aa;PUBLIC_SITE:5321f8387b28;PUBLIC_SITE:65002e10f2f9;PUBLIC_SITE:9f5f37a6f880",
+      "site_status": "company_sites_only_product_allocation_unverified",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -3719,6 +3707,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "",
       "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "PM-WC-COBALT",
+      "node_name": "Sintered Tungsten Carbide-Cobalt (WC-Co) Hardmetal",
+      "provider_name": "CERATIZIT",
+      "public_site_count": 1,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:5bb875e9a280",
+      "site_status": "company_sites_only_product_allocation_unverified",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },

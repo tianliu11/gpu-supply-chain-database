@@ -108,5 +108,17 @@ class ResearchIntegrity(unittest.TestCase):
         self.assertEqual(task['counts']['vendor_component_rows'],len(rows('full_supply_chain_vendors.csv')))
         self.assertEqual(task['counts']['nearest_hub_rows'],len(rows('full_supply_chain_nearest_hubs.csv')))
 
+    def test_gap_diagnosis_covers_every_unmapped_node(self):
+        diagnosis=json.loads((ROOT/'data/clean/full_supply_chain_gap_diagnosis.json').read_text())
+        missing={r['node_id'] for r in rows('full_supply_chain_vendor_coverage.csv') if r['vendor_count']=='0'}
+        self.assertEqual({r['node_id'] for r in diagnosis['unresolved_nodes']},missing)
+        self.assertTrue(all(r['next_action'] and not r['evidence_absence_claim'] for r in diagnosis['unresolved_nodes']))
+        vendors=rows('full_supply_chain_vendors.csv')
+        for nid in diagnosis['newly_supplier_mapped_nodes']:
+            self.assertTrue(any(r['full_graph_node_id']==nid for r in vendors))
+        # Access-blocked indexed leads must not silently become accepted mappings.
+        for lead in diagnosis['access_blocked_leads']:
+            self.assertFalse(any(r['full_graph_node_id']==lead['node_id'] and r['provider_name']==lead['supplier'] for r in vendors))
+
 if __name__=='__main__':
     unittest.main()

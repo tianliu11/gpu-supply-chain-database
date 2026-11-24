@@ -1,0 +1,202 @@
+WHY SOME DATA REMAIN INCOMPLETE
+
+Unresolved is not unavailable. This diagnostic distinguishes source access, product definition, internal manufacture and research still open.
+
+This pass added three previously unmapped material nodes. It did not fill gaps with assumed suppliers or times.
+
+Unresolved supplier nodes: 47 (including categories, stages and utilities).
+
+1 | Main PCB | assembly_or_function_not_single_material
+The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
+Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+
+1.2 | GPU Package | assembly_or_function_not_single_material
+The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
+Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+
+1.4 | VRM Phase | assembly_or_function_not_single_material
+The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
+Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+
+1.5 | I/O Bracket | custom_mechanical_part_research_open
+A material mill or cooler vendor does not establish manufacture of this custom bracket, backplate or shroud.
+Next: Find stamped/machined/moulded-part manufacturing capability and a production address; exact GPU contract may remain undisclosed.
+
+3 | Backplate | custom_mechanical_part_research_open
+A material mill or cooler vendor does not establish manufacture of this custom bracket, backplate or shroud.
+Next: Find stamped/machined/moulded-part manufacturing capability and a production address; exact GPU contract may remain undisclosed.
+
+4 | PCIe Edge Connector | integrated_feature_not_separate_connector
+PCIe edge contacts are a feature of the card PCB. A motherboard PCIe socket vendor would be the wrong match.
+Next: Link the PCB maker and contact-finishing process after confirming the intended node semantics.
+
+5 | Auxiliary Power Connector | connector_assembly_definition_needed
+Auxiliary power connector can mean the board receptacle, cable or complete assembly. These have different suppliers.
+Next: Choose the interface and purchased unit; use its manufacturer drawing rather than infer from a child contact.
+
+6 | Display Output Cluster | assembly_or_function_not_single_material
+The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
+Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+
+7 | Cooler Shroud | custom_mechanical_part_research_open
+A material mill or cooler vendor does not establish manufacture of this custom bracket, backplate or shroud.
+Next: Find stamped/machined/moulded-part manufacturing capability and a production address; exact GPU contract may remain undisclosed.
+
+8 | RGB / LED Lighting | assembly_or_function_not_single_material
+The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
+Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+
+8.2 | RGB Controller | assembly_or_function_not_single_material
+The node groups several child parts or a function. A board assembler, chip packager and component manufacturer are not interchangeable supplier roles.
+Next: Specify purchased assembly versus in-house assembly, then research that role; keep child suppliers separate.
+
+RAW-AIR | Atmospheric Air (N2, O2, Ar, Ne, Kr) | utility_resource
+Ambient air and local water are not globally interchangeable component purchases.
+Next: Choose the actual facility and local intake, utility or treatment boundary.
+
+RAW-ARSENOPYRITE | Arsenopyrite Arsenic-Bearing Sulfide Ore | further_supplier_research_open
+No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
+Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+
+RAW-WATER | Freshwater | utility_resource
+Ambient air and local water are not globally interchangeable component purchases.
+Next: Choose the actual facility and local intake, utility or treatment boundary.
+
+LD:finished_logic_die | Finished logic die | process_stage
+This node represents an operation, not a material to buy.
+Next: Research process operators and facilities, not a commodity vendor.
+
+LD:assembly_packaging_testing | Assembly, packaging, and testing | process_stage
+This node represents an operation, not a material to buy.
+Next: Research process operators and facilities, not a commodity vendor.
+
+LD:fabrication | Fabrication | process_stage
+This node represents an operation, not a material to buy.
+Next: Research process operators and facilities, not a commodity vendor.
+
+LD:packaging_materials | Packaging materials | category
+This is a grouping node; missing a category-level vendor is not necessarily a data defect.
+Next: Review the child materials and their supplier/site evidence.
+
+LD:process_specific_fab_materials | Process-specific fabrication materials | category
+This is a grouping node; missing a category-level vendor is not necessarily a data defect.
+Next: Review the child materials and their supplier/site evidence.
+
+LD:interconnect_materials | Interconnect materials | broad_material_family
+The label spans multiple materials, grades or alternative chemistries. One supplier cannot be inherited across all branches.
+Next: Use the existing child definitions where possible and seek evidence for each missing grade or species.
+
+LD:plastic_substrate | Plastic substrate | substrate_definition_needed
+Plastic substrate is too broad to identify a qualified electronics product or its manufacturing site.
+Next: Specify polymer, form and application; do not substitute a general plastics producer for a package substrate manufacturer.
+
+LD:basic_acidic_chemical_inputs | Basic/acidic chemical inputs | broad_material_family
+The label spans multiple materials, grades or alternative chemistries. One supplier cannot be inherited across all branches.
+Next: Use the existing child definitions where possible and seek evidence for each missing grade or species.
+
+LD:polysilicon_starter_rods | High-purity polysilicon slim starter rods | specialised_intermediate_research_open
+Polysilicon production capability alone does not prove separately sold high-purity slim rods.
+Next: Find an explicit slim-rod product and production location or document captive production; further research is possible.
+
+LD:dopants | P-type or n-type dopants | broad_material_family
+The label spans multiple materials, grades or alternative chemistries. One supplier cannot be inherited across all branches.
+Next: Use the existing child definitions where possible and seek evidence for each missing grade or species.
+
+LD:sic_lapping_slurry | SiC lapping slurry | abrasive_versus_workpiece_ambiguity
+A product advertised for polishing SiC does not prove its abrasive is SiC. The Entegris lead was not admitted as a match.
+Next: Confirm abrasive chemistry and the workpiece in a technical datasheet before selecting vendors.
+
+LD:deionized_water_coolant | Deionized water coolant | local_purification_or_working_fluid
+Water-treatment equipment vendors are not necessarily sellers of the specified water. On-site production and sealed working-fluid fill are different cases.
+Next: Specify on-site purification versus purchased fluid, purity, degassing and supply boundary.
+
+LD:aluminum | Aluminum | further_supplier_research_open
+No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
+Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+
+LD:polyurethane_matrix | Porous polyurethane polymer matrix | pad_layer_not_finished_pad
+A finished polishing-pad supplier does not prove independent sale of its matrix or felt layer.
+Next: Find specified foam/felt intermediate products, or model the layers as internal transformations within the pad plant.
+
+LD:polyester_felt_backing | PET polyester felt backing | pad_layer_not_finished_pad
+A finished polishing-pad supplier does not prove independent sale of its matrix or felt layer.
+Next: Find specified foam/felt intermediate products, or model the layers as internal transformations within the pad plant.
+
+PM-ACRYLIC-PU | Acrylic-Polyurethane Protective Coating & Ink Resin | promising_official_lead_access_blocked
+Official indexed product leads exist, but this pass could not inspect the full source: Covestro returned HTTP 403 and Umicore HTTP 402 through the research service.
+Next: Manually obtain current manufacturer datasheets. Do not interpret an access failure as evidence the supplier does not exist.
+
+PM-REFINED-AU | Refined Fine Gold & Potassium Gold Cyanide (99.99% Au) | promising_official_lead_access_blocked
+Official indexed product leads exist, but this pass could not inspect the full source: Covestro returned HTTP 403 and Umicore HTTP 402 through the research service.
+Next: Manually obtain current manufacturer datasheets. Do not interpret an access failure as evidence the supplier does not exist.
+
+DC-ANODIZE-CHEM | Disposable Sulfuric Acid Anodizing Bath & Black Dye | further_supplier_research_open
+No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
+Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+
+DC-SINTER-BOAT | Disposable YSZ Ceramic Sintering Setter Plates | shape_and_composition_not_yet_matched
+YSZ material capability or a YSZ coating on a setter plate does not establish a bulk YSZ setter plate matching this node.
+Next: Verify bulk material versus coating, shape and application in a manufacturer datasheet before adding a vendor.
+
+SC-DI-WATER | Ultrapure Degassed Deionized Water Working Fluid | local_purification_or_working_fluid
+Water-treatment equipment vendors are not necessarily sellers of the specified water. On-site production and sealed working-fluid fill are different cases.
+Next: Specify on-site purification versus purchased fluid, purity, degassing and supply boundary.
+
+SC-MYLAR-INSULATOR | Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner | further_supplier_research_open
+No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
+Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+
+SC-PBT-GF30 | 30% Glass-Fiber Reinforced PBT (PBT-GF30) Fan Impeller & Frame | compound_versus_moulded_part
+A resin compound maker is not necessarily the producer of the moulded fan, connector insulator or LED reflector.
+Next: Separate compound supply from moulding responsibility and verify each product-to-site mapping.
+
+SC-AL-PLATE | Rolled Aluminum Alloy 5052 / 6061 Structural Plate | further_supplier_research_open
+No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
+Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+
+SC-FE-POWDER-CORE | Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core | internal_component_or_specialised_intermediate
+A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
+Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
+
+SC-LCP-GF | Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator | compound_versus_moulded_part
+A resin compound maker is not necessarily the producer of the moulded fan, connector insulator or LED reflector.
+Next: Separate compound supply from moulding responsibility and verify each product-to-site mapping.
+
+SC-MAGNET-WIRE | Polyimide-Enameled Oxygen-Free Copper Winding Wire | further_supplier_research_open
+No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
+Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+
+SC-PPA-REFLECTOR | TiO2-Filled Polyphthalamide (PPA) Molded LED Reflector Cup | compound_versus_moulded_part
+A resin compound maker is not necessarily the producer of the moulded fan, connector insulator or LED reflector.
+Next: Separate compound supply from moulding responsibility and verify each product-to-site mapping.
+
+SC-SILICON-STEEL | Laminated Electrical Silicon-Steel Stator Core | further_supplier_research_open
+No sufficiently scoped supplier record has been accepted. This is unfinished research, not proof that evidence cannot be found.
+Next: Continue official product, technical-datasheet and manufacturing-location research; confirm grade and product form.
+
+SC-CU-TERMINAL | Tin-Plated Copper SMD Lead Terminals | internal_component_or_specialised_intermediate
+A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
+Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
+
+SC-FBGA-SUB | Fine-Pitch BT-Resin / ABF FBGA Package Substrate | technology_and_grade_allocation_open
+BT and ABF denote different substrate technologies. General package-substrate capability does not prove the exact FBGA design or plant.
+Next: Verify substrate technology, dimensions and package application, then research site-specific production.
+
+SC-FERRITE-BODY | Sintered Ni-Zn Ferrite Core with Silver Internal Winding | internal_component_or_specialised_intermediate
+A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
+Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
+
+SC-RES-BODY | Alumina Chip Substrate with RuO2 Resistive Film & Glass Overcoat | internal_component_or_specialised_intermediate
+A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
+Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
+
+SC-SMD-TERM | Copper / Nickel / Tin Tri-Layer SMD End Terminations | internal_component_or_specialised_intermediate
+A finished inductor/resistor/capacitor maker does not prove an independently sold internal body, core or termination.
+Next: Seek explicit intermediate-product evidence or document an internal factory process; do not create false independent backups.
+
+OTHER PROJECT GAPS
+All manufacturing sites: current subset is incomplete; product-to-plant evidence is often narrower than the company portfolio.
+Top-ten/market-share claims: current product capability evidence does not establish comparable segment/year rankings.
+Shipping: nearest-hub distance is not a freight route; cargo acceptance, access, schedules and hazardous-material restrictions remain unverified.
+Times: manufacturing lead time requires queue, batch size and process assumptions or observations; one operation duration is not total lead time.
+Redundancy: qualified alternatives, independent ownership, capacity and AND/OR dependency rules remain to be validated.

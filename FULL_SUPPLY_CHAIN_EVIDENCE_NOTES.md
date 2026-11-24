@@ -103,20 +103,34 @@ it does not silently turn those proposals into an exact product BOM.
 
 ## Current research pass
 
-The extension contains 239 nodes with supplier-candidate evidence out of the 289
-submitted nodes, 385 supplier-to-node records, and 213 production-asset records.
+The extension contains 242 nodes with supplier-candidate evidence out of the 289
+submitted nodes, 388 supplier-to-node records, and 225 production-asset records.
 These are not completion percentages: category nodes, process stages, internal
 subcomponents and purchased materials have different evidence requirements.
 Supplier capability does not establish market coverage or a qualified substitute.
 
 The second pass added 70 public production-asset records and 47 supplier-node
-records. Among the 385 supplier-node records, 74 have an explicitly documented
-product-class site match, 90 have company sites but unconfirmed product
+records. A further gap pass added three previously unmapped material nodes
+(WC-Co hardmetal, silicone-coated PET liners and matte-tin bath chemistry),
+12 production-asset records, and one scoped PET-carrier relationship. Among
+the 388 supplier-node records, 74 have an explicitly documented
+product-class site match, 93 have company sites but unconfirmed product
 allocation, 220 lack a matched site in this package, and one is a fabless
 designer. Product-class matches still do not prove exact grades, customer
 qualification or independent operational backups. Some records describe units
 within a common complex. The facility table flags company/city record counts;
 do not count every row as an independent backup factory.
+
+`GAP_DIAGNOSIS.txt` and its machine-readable JSON distinguish unfinished research
+from ambiguous definitions, integrated/internal parts, categories and utilities.
+No remaining item is declared publicly unavailable merely because a search did
+not resolve it. Covestro resin and Umicore gold-salt pages were promising indexed
+leads, but full-source access returned HTTP 403 and 402 respectively; they were
+not admitted as verified supplier mappings. A slurry for polishing SiC was not
+automatically accepted as a slurry containing SiC abrasive. CERATIZIT sites
+announced for closure in 2026 were not added as operating plants. Newly listed
+company plants remain unallocated where individual product grades were not
+established by the inspected source.
 
 The discovery logs record follow-up queries for 101 then-uncovered nodes and 127
 then-uncovered vendor names. Search hits are leads, not automatically accepted

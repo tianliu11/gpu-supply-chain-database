@@ -114,6 +114,8 @@ def overview(nodes,edges):
     return positions,height
 
 def main():
+    from build_gap_diagnosis import main as build_gap_diagnosis
+    build_gap_diagnosis()
     FIG.mkdir(exist_ok=True)
     db=json.loads((CLEAN/'full_supply_chain_research_database.json').read_text())
     report=json.loads((CLEAN/'full_supply_chain_completion_report.json').read_text())
@@ -176,7 +178,7 @@ def main():
       '1. Open figures/full_supply_chain_structure.html to browse components, suppliers and edge citations.',
       '2. Open figures/full_supply_chain_transport_map.html to inspect factories and geographic hub candidates.',
       '3. Import data/clean/full_supply_chain_research_database.json for the consolidated machine-readable dataset.',
-      '4. Use data/clean/full_supply_chain_remaining_work.json for the unresolved research queue.',
+      '4. Use data/clean/full_supply_chain_remaining_work.json for the unresolved research queue; GAP_DIAGNOSIS.txt explains each remaining supplier-node gap.',
       '5. Read FULL_SUPPLY_CHAIN_EVIDENCE_NOTES.md for caveats and the correction to the earlier overly broad edge audit.','',
       'REBUILD (from repository root)',
       'python3 code/build_full_supply_chain_evidence.py',

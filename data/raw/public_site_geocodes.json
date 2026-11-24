@@ -1348,5 +1348,125 @@
     "osm_type": "relation",
     "osm_id": 3388834,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Taraz%2C+Kazakhstan&format=jsonv2&addressdetails=1&limit=1&countrycodes=kz"
+  },
+  "PUBLIC_SITE:5bb875e9a280": {
+    "query": "Reutte, Austria",
+    "latitude": 47.4891092,
+    "longitude": 10.7187955,
+    "display_name": "Reutte, Bezirk Reutte, Tirol, Österreich",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 28754,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Reutte%2C+Austria&format=jsonv2&addressdetails=1&limit=1&countrycodes=at"
+  },
+  "PUBLIC_SITE:df7da0bfc960": {
+    "query": "Greer, South Carolina, United States",
+    "latitude": 34.9381361,
+    "longitude": -82.2272119,
+    "display_name": "Greer, Greenville County, South Carolina, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 193991,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Greer%2C+South+Carolina%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:a31e8a4434aa": {
+    "query": "Cranston, Rhode Island, United States",
+    "latitude": 41.779588,
+    "longitude": -71.4366813,
+    "display_name": "Cranston, Providence County, Rhode Island, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 392908,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cranston%2C+Rhode+Island%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:9f5f37a6f880": {
+    "query": "Woonsocket, Rhode Island, United States",
+    "latitude": 42.0028761,
+    "longitude": -71.5147839,
+    "display_name": "Woonsocket, Providence County, Rhode Island, 02895, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 191206,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Woonsocket%2C+Rhode+Island%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:65002e10f2f9": {
+    "query": "Woonsocket, Rhode Island, United States",
+    "latitude": 42.0028761,
+    "longitude": -71.5147839,
+    "display_name": "Woonsocket, Providence County, Rhode Island, 02895, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 191206,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Woonsocket%2C+Rhode+Island%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:5321f8387b28": {
+    "query": "Woonsocket, Rhode Island, United States",
+    "latitude": 42.0028761,
+    "longitude": -71.5147839,
+    "display_name": "Woonsocket, Providence County, Rhode Island, 02895, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 191206,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Woonsocket%2C+Rhode+Island%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:68b8681dfebb": {
+    "query": "Amiens, France",
+    "latitude": 49.8941708,
+    "longitude": 2.2956951,
+    "display_name": "Amiens, Somme, Hauts-de-France, France métropolitaine, 80000, France",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 114347,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Amiens%2C+France&format=jsonv2&addressdetails=1&limit=1&countrycodes=fr"
+  },
+  "PUBLIC_SITE:f35df422b018": {
+    "query": "Chalon-sur-Saone, France",
+    "latitude": 46.7831001,
+    "longitude": 4.8534326,
+    "display_name": "Chalon-sur-Saône, Saône-et-Loire, Bourgogne-Franche-Comté, France métropolitaine, 71100, France",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2078971,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chalon-sur-Saone%2C+France&format=jsonv2&addressdetails=1&limit=1&countrycodes=fr"
+  },
+  "PUBLIC_SITE:9f5e352f3f44": {
+    "query": "Noyarey, France",
+    "latitude": 45.2438413,
+    "longitude": 5.6321969,
+    "display_name": "Noyarey, Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, 38360, France",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 90409,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Noyarey%2C+France&format=jsonv2&addressdetails=1&limit=1&countrycodes=fr"
+  },
+  "PUBLIC_SITE:fb1f9979ea10": {
+    "query": "Anaheim, California, United States",
+    "latitude": 33.8347516,
+    "longitude": -117.911732,
+    "display_name": "Anaheim, Orange County, California, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 253985,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Anaheim%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:dac20e57216f": {
+    "query": "Markham, Ontario, Canada",
+    "latitude": 43.8563707,
+    "longitude": -79.3376825,
+    "display_name": "Markham, York Region, Ontario, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 324213,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Markham%2C+Ontario%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:25eec80533b5": {
+    "query": "Saint-Denis, France",
+    "latitude": 48.9383732,
+    "longitude": 2.3627508,
+    "display_name": "Saint-Denis, Seine-Saint-Denis, Île-de-France, France métropolitaine, France",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 18476624,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Saint-Denis%2C+France&format=jsonv2&addressdetails=1&limit=1&countrycodes=fr"
   }
 }
