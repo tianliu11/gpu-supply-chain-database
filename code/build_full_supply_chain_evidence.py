@@ -29,6 +29,7 @@ import expanded_public_research  # registers explicitly reviewed second-pass evi
 import component_definition_research  # scoped definitions and fourth-pass evidence
 import process_validation_research
 import remaining_public_research
+import claude_followup_research
 
 
 ROOT = Path(__file__).resolve().parents[1]

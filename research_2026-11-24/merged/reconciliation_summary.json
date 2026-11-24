@@ -5,44 +5,44 @@
   "batch_node_ids": 278,
   "missing_from_batches": [
     {
-      "node_id": "SC-PU-COATING",
-      "node_name": "Acrylic-Polyurethane Matte Protective Shroud Coating"
-    },
-    {
-      "node_id": "SC-ALLOY-STEEL-WIRE",
-      "node_name": "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket"
-    },
-    {
-      "node_id": "SC-MYLAR-INSULATOR",
-      "node_name": "Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner"
-    },
-    {
-      "node_id": "SC-CERAMIC-FILLER",
-      "node_name": "Micronized Alumina (Al2O3) & Boron Nitride (h-BN) Thermal Filler"
+      "node_id": "SC-DI-WATER",
+      "node_name": "Ultrapure Degassed Deionized Water Working Fluid"
     },
     {
       "node_id": "LD:nitrous_oxide",
       "node_name": "Nitrous oxide"
     },
     {
+      "node_id": "SC-ALLOY-STEEL-WIRE",
+      "node_name": "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket"
+    },
+    {
       "node_id": "LD:anhydrous_hcl",
       "node_name": "Anhydrous HCl"
     },
     {
-      "node_id": "LD:process_specific_fab_materials",
-      "node_name": "Process-specific fabrication materials"
+      "node_id": "SC-SILICONE-MATRIX",
+      "node_name": "Cross-Linked PDMS Silicone Elastomer Matrix"
     },
     {
-      "node_id": "SC-DI-WATER",
-      "node_name": "Ultrapure Degassed Deionized Water Working Fluid"
+      "node_id": "SC-MYLAR-INSULATOR",
+      "node_name": "Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner"
+    },
+    {
+      "node_id": "SC-PU-COATING",
+      "node_name": "Acrylic-Polyurethane Matte Protective Shroud Coating"
     },
     {
       "node_id": "SC-SPCC-SHEET",
       "node_name": "Cold-Rolled SPCC Low-Carbon Steel Sheet"
     },
     {
-      "node_id": "SC-SILICONE-MATRIX",
-      "node_name": "Cross-Linked PDMS Silicone Elastomer Matrix"
+      "node_id": "SC-CERAMIC-FILLER",
+      "node_name": "Micronized Alumina (Al2O3) & Boron Nitride (h-BN) Thermal Filler"
+    },
+    {
+      "node_id": "LD:process_specific_fab_materials",
+      "node_name": "Process-specific fabrication materials"
     },
     {
       "node_id": "SC-PC-ABS",
@@ -51,16 +51,18 @@
   ],
   "merged_candidate_rows": 2047,
   "statuses": {
-    "citation_present_content_review_pending": 1496,
-    "prior_scoped_capability_evidence": 397,
+    "citation_present_content_review_pending": 1494,
+    "prior_scoped_capability_evidence": 403,
     "not_a_vendor_record": 23,
-    "missing_citation": 131
+    "missing_citation": 127
   },
+  "previously_uncited_batch_rows_recovered": 20,
+  "uncited_placeholder_rows": 19,
   "node_coverage_rows": 289,
-  "public_production_site_rows": 308,
-  "nearest_hub_rows": 1848,
-  "vendors_without_exact_name_site_match": 991,
-  "site_link_rows": 1200,
+  "public_production_site_rows": 315,
+  "nearest_hub_rows": 1890,
+  "vendors_without_exact_name_site_match": 989,
+  "site_link_rows": 1212,
   "claim": "Reconciliation and scoped prior evidence; not all batch citations, ranks, factories or relationships have been independently validated.",
   "original_manifest": [
     {

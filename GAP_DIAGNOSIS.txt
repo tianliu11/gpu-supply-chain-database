@@ -4,7 +4,7 @@ Unresolved is not unavailable. This diagnostic distinguishes source access, prod
 
 The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.
 
-Unresolved supplier nodes: 39 (including categories, stages and utilities).
+Unresolved supplier nodes: 37 (including categories, stages and utilities).
 
 1 | Main PCB | definition_scoped_supplier_or_process_evidence_still_open
 Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.
@@ -64,10 +64,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 LD:finished_logic_die | Finished logic die | definition_scoped_supplier_or_process_evidence_still_open
 Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-LD:assembly_packaging_testing | Assembly, packaging, and testing | definition_scoped_supplier_or_process_evidence_still_open
-Use as a transformation node. Flip-chip and wire-bond recipes are design alternatives, not universally simultaneous inputs.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 LD:fabrication | Fabrication | definition_scoped_supplier_or_process_evidence_still_open
@@ -132,10 +128,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 SC-FE-POWDER-CORE | Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core | definition_scoped_supplier_or_process_evidence_still_open
 Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-SC-LCP-GF | Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator | definition_scoped_supplier_or_process_evidence_still_open
-Compound and moulded body are different products. Verify the actual connector drawing before prescribing GF30.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 SC-PPA-REFLECTOR | TiO2-Filled Polyphthalamide (PPA) Molded LED Reflector Cup | definition_scoped_supplier_or_process_evidence_still_open

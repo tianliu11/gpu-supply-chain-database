@@ -33,11 +33,9 @@ PSMC,LD:fabrication,no_exact_name_site_match_alias_or_site_research_needed
 ASE Technology Holding (incl. SPIL),1.2;LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
 Amkor Technology,1.2;LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
 JCET Group,1.2;LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
-Tongfu Microelectronics,1.2;LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
 Powertech Technology,1.2;LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
 HT-Tech (Tianshui Huatian),LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
 WiseRoad,LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
-Hana Micron,LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
 KYEC (King Yuan Electronics),LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
 TSMC (advanced packaging),1.2;LD:assembly_packaging_testing,no_exact_name_site_match_alias_or_site_research_needed
 Samsung Electro-Mechanics,1.2.2;1.4.2;1.4.3;1.6;8.2.3;LD:plastic_substrate;LD:substrates;SC-FBGA-SUB;SC-FERRITE-BODY;SC-MLCC-BODY;SC-SMD-TERM,no_exact_name_site_match_alias_or_site_research_needed

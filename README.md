@@ -5,9 +5,9 @@ This package joins the BOMWiki graphics-card hierarchy to Georgetown CSET ETO's 
 ## Latest handoff: supplied full node-to-node JSON
 
 Start with [RESEARCH_HANDOFF.txt](RESEARCH_HANDOFF.txt) for what is done and what
-is still missing. The latest extension preserves the supplied JSON and has 250
-nodes with supplier-candidate evidence, 397 supplier-node records, 308 public
-production-asset records and 1,848 nearby-hub records. These are research-coverage
+is still missing. The latest extension preserves the supplied JSON and has 252
+nodes with supplier-candidate evidence, 403 supplier-node records, 315 public
+production-asset records and 1,890 nearby-hub records. These are research-coverage
 counts, not percentages of a fully verified or market-representative chain.
 
 - `figures/full_supply_chain_structure.html`: offline component graph and
@@ -15,8 +15,8 @@ counts, not percentages of a fully verified or market-representative chain.
 - `figures/full_supply_chain_reviewed_structure.html`: separate semantic-review
   graph, with 305 canonical nodes and 772 links. Not a fully validated BOM.
 - `VALIDATION_RESULTS.txt`: latest process corrections and remaining evidence gaps.
-- `data/clean/process_validation_claims.csv`: 96 individually researched original
-  relationships with sources and exact claim scope; not 96 blanket approvals.
+- `data/clean/process_validation_claims.csv`: 108 individually researched original
+  relationships with sources and exact claim scope; not 108 blanket approvals.
 - `data/clean/reviewed_structure_added_edges.csv`: 23 proposed process links,
   including explicit candidate-only design relationships.
 - `STRUCTURE_REVIEW.txt`: corrections, 54 scoped definitions and remaining issues.
@@ -30,7 +30,7 @@ counts, not percentages of a fully verified or market-representative chain.
 - `data/clean/full_supply_chain_task_status.json`: checklist and current counts.
 - `data/clean/full_supply_chain_remaining_work.json`: explicit unresolved queue.
 - `GAP_DIAGNOSIS.txt` and `data/clean/full_supply_chain_gap_diagnosis.json`:
-  reasons and next actions for all 39 nodes without supplier mappings, including
+  reasons and next actions for all 37 nodes without supplier mappings, including
   official-source access failures and product-definition issues. Missing does
   not mean impossible to find.
 - `data/clean/full_supply_chain_data_dictionary.json`: fields, joins, units and

@@ -1,0 +1,53 @@
+CLAUDE RESEARCH CONTINUATION — 2026-11-24
+
+Original input preserved: 20 vendor CSVs and 20 source CSVs.
+Actual input: 1,793 vendor rows, 423 sources, 278 node IDs.
+Eleven of the 289 submitted graph nodes were absent from those batches.
+There are also 23 placeholder/non-vendor rows. A row for a node is not proof of a supplier.
+
+COMPLETED IN THIS CONTINUATION
+1. Combined the batches with earlier scoped vendor evidence into merged/vendor_candidates.csv.
+   The 2,047 rows include original claims and placeholders; this is a research pool,
+   not a final qualified shortlist of at most ten vendors per node.
+2. Created coverage records for all 289 nodes and explicit citation, site and edge queues.
+3. Recovered earlier or newly checked evidence for 20 initially uncited vendor rows.
+   Some evidence supports only a material branch or product class, never an inherited rank.
+4. Checked source URL retrieval. 294 source rows retrieved, 106 HTTP errors,
+   23 other request errors. Access failures are not proof of invalid evidence.
+5. Independently reviewed two TrendForce ranking sources; exact limits are in
+   method/SOURCE_RECHECKS.json. Broad foundry/OSAT rankings do not establish GPU qualification.
+6. Added seven sourced Hana Micron/Tongfu production sites. The reviewed database
+   now contains 315 production-site records and 1,890 nearest-hub records.
+7. Added 12 scoped chemical-process claim reviews. The cumulative register has
+   108 researched original relationship claims, not 108 universal BOM approvals.
+8. Removed /home/claude-only dependencies from the saved helper scripts.
+   hubs.py uses repository data and actual nearest-three ordering.
+   geocode.py uses existing locality records; optional UN/LOCODE files can be
+   supplied via GPU_GEODATA_DIR. Unresolved cities return None, not invented coordinates.
+9. Rebuilt the existing original/reviewed graph explorers and geographic hub map.
+
+REMAINING, NOT DECLARED IMPOSSIBLE
+- 127 candidate rows lack citations after reconciliation.
+- 1,494 cited candidate rows still require independent claim review.
+- Company naming/ownership normalization is incomplete. 989 distinct normalized
+  name keys have no exact-name site match; these are NOT 989 proven missing companies.
+- More production sites and product-to-plant assignments must be researched.
+- The remaining edge claims are listed in merged/edge_review_queue.csv.
+  Existing supported-class claims can still require exact design/grade review.
+- Nearest ports/airports are screening candidates. Cargo acceptance, hazardous-material
+  suitability, access routes, schedules and travel times have not been verified.
+- No newly invented lead times, market ranks or interchangeable-backup claims were added.
+
+The main reviewed database accepts only independently inspected additions.
+The much larger batch candidate pool remains separate until it passes evidence review.
+Original batch files are not edited. The original graph JSON is not edited.
+
+REPRODUCE
+python3 code/build_full_supply_chain_evidence.py
+python3 code/build_research_handoff.py
+python3 research_2026-11-24/code/reconcile.py
+python3 -m unittest discover -s research_2026-11-24/code -p 'test_reconcile.py'
+python3 -m unittest discover -s code -p 'test_public_research_integrity.py'
+
+Optional URL recheck (cached; not content validation):
+python3 research_2026-11-24/code/check_sources.py

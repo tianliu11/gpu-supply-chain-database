@@ -15,7 +15,7 @@
     {
       "task": "Find suppliers for every component/material",
       "status": "partial",
-      "detail": "250 of 289 nodes have candidate evidence; categories/process stages do not all need independent vendors."
+      "detail": "252 of 289 nodes have candidate evidence; categories/process stages do not all need independent vendors."
     },
     {
       "task": "Identify up to ten industry-leading suppliers per input",
@@ -25,12 +25,12 @@
     {
       "task": "Find all manufacturing sites for selected vendors",
       "status": "partial",
-      "detail": "308 public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial."
+      "detail": "315 public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial."
     },
     {
       "task": "Nearest one to three commercial airports and ports",
       "status": "geographic_screening_done_cargo_validation_pending",
-      "detail": "1848 nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified."
+      "detail": "1890 nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified."
     },
     {
       "task": "Clean database, sources and reproducible code",
@@ -61,11 +61,11 @@
       "secondary_structure_reference": 35,
       "semantic_conflict": 1,
       "supported_process_stage": 5,
-      "unverified_specific_relation": 272,
+      "unverified_specific_relation": 266,
       "supported_category_membership": 34,
       "supported_category_use": 9,
-      "upstream_lineage_requires_process_evidence": 214,
-      "supported_upstream_process_not_direct_input": 12,
+      "upstream_lineage_requires_process_evidence": 208,
+      "supported_upstream_process_not_direct_input": 20,
       "supported_process_input": 28,
       "supported_consumable_use": 2,
       "technology_specific_review_required": 1,
@@ -73,6 +73,7 @@
       "supported_product_class": 25,
       "supported_material_class_composition": 14,
       "supported_formulation_option": 4,
+      "supported_process_option_not_universal": 4,
       "water_role_requires_definition_review": 3,
       "consumable_use_requires_confirmation": 50,
       "supported_alloy_composition": 8,
@@ -83,31 +84,31 @@
       "supported_component_family": 8,
       "optional_or_design_dependent": 1
     },
-    "nodes_with_node_specific_vendor_evidence": 250,
-    "nodes_without_node_specific_vendor_evidence": 39,
-    "vendor_component_rows": 397,
-    "distinct_named_vendors": 207,
+    "nodes_with_node_specific_vendor_evidence": 252,
+    "nodes_without_node_specific_vendor_evidence": 37,
+    "vendor_component_rows": 403,
+    "distinct_named_vendors": 212,
     "procurement_node_treatments": {
       "supplier_research_required": 274,
       "local_resource_or_utility": 2,
       "process_stage_no_material_vendor": 4,
       "category_expand_children": 9
     },
-    "physical_nodes_with_supplier_evidence": 242,
+    "physical_nodes_with_supplier_evidence": 243,
     "physical_nodes_requiring_supplier_research": 274,
     "coverage_warning": "A supplier listing is capability evidence, not proof of qualification, complete material branches, market representativeness or actual procurement.",
-    "public_production_site_rows": 308,
+    "public_production_site_rows": 315,
     "vendor_site_coverage_status": {
-      "no_site_evidence_in_current_package": 165,
+      "no_site_evidence_in_current_package": 169,
       "company_sites_only_product_allocation_unverified": 134,
       "fabless_designer_no_owned_fab_required": 1,
-      "product_class_site_documented": 97
+      "product_class_site_documented": 99
     },
     "factory_discovery_searches_logged": 127,
     "sites_without_geocodes": 0,
     "readiness": "research_extension_incomplete_for_validated_redundancy_or_end_to_end_transport_analysis",
     "legacy_audit_correction": "The earlier 400-supported-edge total relied on broad keyword/category matching and is withdrawn. Current edge support uses explicit scoped records only.",
-    "nearest_hub_rows": 1848,
+    "nearest_hub_rows": 1890,
     "nearest_hub_definition": "Up to three scheduled medium/large airports and three WPI ports per geocoded production site",
     "not_claimed": [
       "The submitted 757-edge graph is fully verified.",

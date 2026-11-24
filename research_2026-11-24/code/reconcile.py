@@ -13,6 +13,10 @@ from pathlib import Path
 BASE=Path(__file__).resolve().parents[1]
 ROOT=BASE.parent
 OUT=BASE/'merged'
+REVIEWED_NAMES={
+    'Sumitomo Chemical (Sumikasuper)': ('Sumitomo Chemical','R7_SUMITOMO_LCP'),
+    'Toray (Siveras)': ('Toray Industries','R7_TORAY_LCP'),
+}
 
 def read(path):
     with path.open(encoding='utf-8-sig',newline='') as f:
@@ -42,6 +46,8 @@ def main():
     sources=read(ROOT/'data/clean/sources.csv')
     source_map={r['source_id']:r for r in sources}
     batch_sources=[]
+    review_path=BASE/'method/SOURCE_RECHECKS.json'
+    rechecks={r['source_id']:r for r in json.loads(review_path.read_text())} if review_path.exists() else {}
     manifest=[]
     vendors=[]
     for path in sorted((BASE/'batches').glob('*.csv')):
@@ -51,7 +57,10 @@ def main():
             for r in rows:
                 assert r['source_id'] not in source_map, r['source_id']
                 source_map[r['source_id']]=r
-                batch_sources.append(dict(r,source_batch=path.stem.split('_')[0],content_review='not_independently_rechecked'))
+                review=rechecks.get(r['source_id'],{})
+                batch_sources.append(dict(r,source_batch=path.stem.split('_')[0],
+                    content_review=review.get('review_status','not_independently_rechecked'),
+                    reviewed_scope=review.get('scope',''),reviewed_restriction=review.get('restriction','')))
         else:
             vendors.extend(dict(r,input_file=path.name,input_row=i+2) for i,r in enumerate(rows))
     reconciled=[]
@@ -61,7 +70,8 @@ def main():
         assert nid in nodes,(nid,name)
         cited=[s.strip() for s in r['source_ids'].split(';') if s.strip()]
         assert all(s in source_map for s in cited),(nid,cited)
-        pair=(nid,key(name)); previous=known.get(pair)
+        canonical,alias_source=REVIEWED_NAMES.get(name,(name,''))
+        pair=(nid,key(canonical)); previous=known.get(pair)
         represented.add(pair)
         status=('not_a_vendor_record' if placeholder(name) else
                 'prior_scoped_capability_evidence' if previous else
@@ -70,6 +80,7 @@ def main():
         rank_basis=r['ranking_basis'].casefold()
         rank_status=('unordered_listing_not_market_rank' if any(t in rank_basis for t in ('unordered','key player','named','capability')) else 'ranking_claim_requires_source_review')
         row=dict(r,record_id=f"{r['input_file']}:{r['input_row']}",
+                 canonical_vendor_name=canonical,alias_source_ids=alias_source,
                  review_status=status,ranking_review_status=rank_status,
                  prior_source_ids=previous['source_ids'] if previous else '',
                  prior_product_scope=previous['product_scope'] if previous else '',
@@ -95,11 +106,11 @@ def main():
     joins=[]; queue=defaultdict(lambda:dict(nodes=set(),names=set()))
     for r in reconciled:
         if r['review_status']=='not_a_vendor_record': continue
-        matches=by_company[key(r['vendor_name'])]
+        matches=by_company[key(r.get('canonical_vendor_name',r['vendor_name']))]
         if not matches:
             q=queue[key(r['vendor_name'])];q['nodes'].add(r['node_id']);q['names'].add(r['vendor_name'])
         for f in matches:
-            scoped=r['node_id'] in f['component_categories'].split(';')
+            scoped=r['node_id'] in re.split(r'[;\s]+',f['component_categories'])
             joins.append(dict(record_id=r['record_id'],node_id=r['node_id'],vendor_name=r['vendor_name'],
                 facility_id=f['facility_id'],company_name_match='exact_after_punctuation_normalization',
                 product_allocation='documented_class_only' if scoped else 'company_site_only_not_product_allocation',
@@ -128,6 +139,8 @@ def main():
     summary=dict(batch_files=len(manifest),original_batch_vendor_rows=len(vendors),original_batch_source_rows=len(batch_sources),
         batch_node_ids=len(raw_nodes),missing_from_batches=[dict(node_id=nid,node_name=nodes[nid]) for nid in nodes.keys()-raw_nodes],
         merged_candidate_rows=len(reconciled),statuses=dict(Counter(r['review_status'] for r in reconciled)),
+        previously_uncited_batch_rows_recovered=sum(r['input_file'].startswith('V') and not r['source_ids'] and r['review_status']=='prior_scoped_capability_evidence' for r in reconciled),
+        uncited_placeholder_rows=sum(r['input_file'].startswith('V') and not r['source_ids'] and r['review_status']=='not_a_vendor_record' for r in reconciled),
         node_coverage_rows=len(coverage),public_production_site_rows=len(facilities),
         nearest_hub_rows=len(read(ROOT/'data/clean/full_supply_chain_nearest_hubs.csv')),
         vendors_without_exact_name_site_match=len(queue),site_link_rows=len(joins),

@@ -7,7 +7,7 @@
     "DC-TIN-PLATE"
   ],
   "counts": {
-    "definition_scoped_supplier_or_process_evidence_still_open": 39
+    "definition_scoped_supplier_or_process_evidence_still_open": 37
   },
   "unresolved_nodes": [
     {
@@ -127,14 +127,6 @@
       "node_name": "Finished logic die",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "LD:assembly_packaging_testing",
-      "node_name": "Assembly, packaging, and testing",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Use as a transformation node. Flip-chip and wire-bond recipes are design alternatives, not universally simultaneous inputs.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
@@ -263,14 +255,6 @@
       "node_name": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "SC-LCP-GF",
-      "node_name": "Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Compound and moulded body are different products. Verify the actual connector drawing before prescribing GF30.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },

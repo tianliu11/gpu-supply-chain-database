@@ -2298,5 +2298,75 @@
     "osm_type": "relation",
     "osm_id": 913110,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Hong+Kong%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:8ffad03f921c": {
+    "query": "Yen Phong, Bac Ninh, Vietnam",
+    "latitude": 21.1664102,
+    "longitude": 105.9294081,
+    "display_name": "Agribank Văn Môn - Yên Phong, Đường tỉnh 277, Bình An, Xã Văn Môn, Yên Phong, Thành phố Bắc Ninh, 16000, Việt Nam",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 7844049437,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Yen+Phong%2C+Bac+Ninh%2C+Vietnam&format=jsonv2&addressdetails=1&limit=1&countrycodes=vn"
+  },
+  "PUBLIC_SITE:168de932d259": {
+    "query": "Nenh, Bac Ninh, Vietnam",
+    "latitude": 21.2497932,
+    "longitude": 106.126928,
+    "display_name": "Phường Nếnh, Bắc Ninh, Việt Yên, Thành phố Bắc Ninh, Việt Nam",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 18787504,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nenh%2C+Bac+Ninh%2C+Vietnam&format=jsonv2&addressdetails=1&limit=1&countrycodes=vn"
+  },
+  "PUBLIC_SITE:7a629ad94e53": {
+    "query": "Hefei, China",
+    "latitude": 31.8665676,
+    "longitude": 117.281428,
+    "display_name": "合肥市, 安徽省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3288965,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hefei%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:69af48c880bc": {
+    "query": "Nantong, China",
+    "latitude": 31.9827896,
+    "longitude": 120.8904588,
+    "display_name": "南通市, 江苏省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4430899,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nantong%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:c85d2c514fd2": {
+    "query": "Suzhou, China",
+    "latitude": 31.311123,
+    "longitude": 120.6212881,
+    "display_name": "苏州市, 江苏省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4430941,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Suzhou%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:e0299c03da4b": {
+    "query": "Bayan Lepas, Malaysia",
+    "latitude": 5.2948137,
+    "longitude": 100.2595968,
+    "display_name": "Bayan Lepas, Barat Daya, George Town, Pulau Pinang, Malaysia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 11204788,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Bayan+Lepas%2C+Malaysia&format=jsonv2&addressdetails=1&limit=1&countrycodes=my"
+  },
+  "PUBLIC_SITE:47c1c83edf48": {
+    "query": "Xiamen, China",
+    "latitude": 24.4801069,
+    "longitude": 118.0853479,
+    "display_name": "厦门市, 福建省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3242930,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Xiamen%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
   }
 }

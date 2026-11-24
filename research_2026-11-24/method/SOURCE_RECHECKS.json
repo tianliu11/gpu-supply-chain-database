@@ -1,0 +1,18 @@
+[
+  {
+    "source_id": "V01_S002",
+    "reviewed_on": "2026-11-24",
+    "url": "https://www.trendforce.com/presscenter/news/20251212-12834.html",
+    "review_status": "market_segment_claims_checked",
+    "scope": "Q3 2025 foundry revenue ranking. TSMC, Samsung, SMIC, UMC, GlobalFoundries, HuaHong, Vanguard, Nexchip, Tower and PSMC in that order.",
+    "restriction": "Whole-foundry revenue shares do not qualify each foundry to manufacture the selected advanced GPU logic die. Do not treat broad market ranking as interchangeable technology or capacity."
+  },
+  {
+    "source_id": "V01_S003",
+    "reviewed_on": "2026-11-24",
+    "url": "https://www.trendforce.com/presscenter/news/20250513-12577.html",
+    "review_status": "market_segment_claims_checked",
+    "scope": "2024 OSAT revenue order and listed revenue values checked against article text.",
+    "restriction": "ASE's approximately 45% is its share among the top ten in this article, not the entire global packaging market. OSAT ranking does not establish a specific GPU package or factory qualification."
+  }
+]
