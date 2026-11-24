@@ -1,0 +1,652 @@
+{
+  "PUBLIC_SITE:48f49c393acd": {
+    "query": "Pasadena, Texas, United States",
+    "latitude": 29.6910753,
+    "longitude": -95.2092076,
+    "display_name": "Pasadena, Harris County, Texas, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 115365,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Pasadena%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:49aee735c3a7": {
+    "query": "Saratoga Springs, New York, United States",
+    "latitude": 43.0822315,
+    "longitude": -73.785373,
+    "display_name": "City of Saratoga Springs, Saratoga County, New York, 12866, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3143405,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Saratoga+Springs%2C+New+York%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:b5d672343243": {
+    "query": "Mobile, Alabama, United States",
+    "latitude": 30.6913462,
+    "longitude": -88.0437509,
+    "display_name": "Mobile, Mobile County, Alabama, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 254046,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Mobile%2C+Alabama%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:7357b5380c51": {
+    "query": "Gibbons, Alberta, Canada",
+    "latitude": 53.8242258,
+    "longitude": -113.3282658,
+    "display_name": "Town of Gibbons, Gibbons, Alberta, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4652369,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gibbons%2C+Alberta%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:217f934f6a0d": {
+    "query": "Maitland, Ontario, Canada",
+    "latitude": 44.6361042,
+    "longitude": -75.6119045,
+    "display_name": "Maitland, Augusta, Leeds and Grenville Counties, Eastern Ontario, Ontario, K0E 1P0, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 390665458,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Maitland%2C+Ontario%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:14439d7ced43": {
+    "query": "Aracruz, Brazil",
+    "latitude": -19.7818167,
+    "longitude": -40.1871113,
+    "display_name": "Aracruz, Espírito Santo, Região Sudeste, Brasil",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1843539,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Aracruz%2C+Brazil&format=jsonv2&addressdetails=1&limit=1&countrycodes=br"
+  },
+  "PUBLIC_SITE:9d4887229bc3": {
+    "query": "Rheinfelden, Germany",
+    "latitude": 47.5605924,
+    "longitude": 7.7861959,
+    "display_name": "Rheinfelden (Baden), VVG der Stadt Rheinfelden (Baden), Landkreis Lörrach, Baden-Württemberg, 79618, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2787853,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Rheinfelden%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:276492aa8f99": {
+    "query": "Weissenstein, Austria",
+    "latitude": 46.6826499,
+    "longitude": 13.7225735,
+    "display_name": "Weißenstein, Bezirk Villach-Land, Kärnten, Österreich",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 106151,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Weissenstein%2C+Austria&format=jsonv2&addressdetails=1&limit=1&countrycodes=at"
+  },
+  "PUBLIC_SITE:457bfffc5945": {
+    "query": "Delfzijl, Netherlands",
+    "latitude": 53.3325644,
+    "longitude": 6.9135144,
+    "display_name": "Delfzijl, Eemsdelta, Groningen, Nederland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2469863,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Delfzijl%2C+Netherlands&format=jsonv2&addressdetails=1&limit=1&countrycodes=nl"
+  },
+  "PUBLIC_SITE:d51ffac92986": {
+    "query": "Antwerp, Belgium",
+    "latitude": 51.2211097,
+    "longitude": 4.3997081,
+    "display_name": "Antwerpen, Vlaanderen, België / Belgique / Belgien",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 59518,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Antwerp%2C+Belgium&format=jsonv2&addressdetails=1&limit=1&countrycodes=be"
+  },
+  "PUBLIC_SITE:bbce04ed69b9": {
+    "query": "La Zaida, Spain",
+    "latitude": 41.3277906,
+    "longitude": -0.4297406,
+    "display_name": "La Zaida, Ribera Baja del Ebro, Zaragoza, Aragón, España",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 341022,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=La+Zaida%2C+Spain&format=jsonv2&addressdetails=1&limit=1&countrycodes=es"
+  },
+  "PUBLIC_SITE:9b4fad012a4f": {
+    "query": "Umbogintwini, South Africa",
+    "latitude": -30.0225,
+    "longitude": 30.9125,
+    "display_name": "Umbogintwini, eThekwini Metropolitan Municipality, KwaZulu-Natal, 4120, South Africa",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 262722329,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Umbogintwini%2C+South+Africa&format=jsonv2&addressdetails=1&limit=1&countrycodes=za"
+  },
+  "PUBLIC_SITE:d1c67ac6ad79": {
+    "query": "Jilin City, China",
+    "latitude": 43.8349669,
+    "longitude": 126.5438702,
+    "display_name": "吉林市, 丰满区, 吉林省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2764055,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Jilin+City%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:e767fb01164d": {
+    "query": "Ulsan, South Korea",
+    "latitude": 35.5391697,
+    "longitude": 129.3119136,
+    "display_name": "울산광역시, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2395867,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Ulsan%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:ff800cc9ac6a": {
+    "query": "Cikarang, Indonesia",
+    "latitude": -6.2553138,
+    "longitude": 107.1450733,
+    "display_name": "Cikarang, Jalan Yos Sudarso, Cikarang Kota, Cikarang, Kab Bekasi, Jawa Barat, 17383, Indonesia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 11185037567,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cikarang%2C+Indonesia&format=jsonv2&addressdetails=1&limit=1&countrycodes=id"
+  },
+  "PUBLIC_SITE:ae03a2a747f2": {
+    "query": "Morrinsville, New Zealand",
+    "latitude": -37.6581506,
+    "longitude": 175.5281399,
+    "display_name": "Morrinsville, Matamata Piako District, Waikato, 3372, New Zealand / Aotearoa",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 60729092,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Morrinsville%2C+New+Zealand&format=jsonv2&addressdetails=1&limit=1&countrycodes=nz"
+  },
+  "PUBLIC_SITE:aea9b7a56b03": {
+    "query": "Kaeng Khoi, Saraburi, Thailand",
+    "latitude": 14.5897806,
+    "longitude": 101.0001303,
+    "display_name": "แก่งคอย, อำเภอแก่งคอย, จังหวัดสระบุรี, 18110, ประเทศไทย",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 961204919,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kaeng+Khoi%2C+Saraburi%2C+Thailand&format=jsonv2&addressdetails=1&limit=1&countrycodes=th"
+  },
+  "PUBLIC_SITE:5a4de59bc4f2": {
+    "query": "Channelview, Texas, United States",
+    "latitude": 29.7760599,
+    "longitude": -95.1146533,
+    "display_name": "Channelview, Harris County, Texas, 77530, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 151739376,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Channelview%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:a6b16c62ed2d": {
+    "query": "Geismar, Louisiana, United States",
+    "latitude": 30.2043633,
+    "longitude": -91.0226013,
+    "display_name": "Geismar, Ascension Parish, Louisiana, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 151571387,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Geismar%2C+Louisiana%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:107528bd669c": {
+    "query": "Beaumont, Texas, United States",
+    "latitude": 30.0829344,
+    "longitude": -94.0984277,
+    "display_name": "Beaumont, Jefferson County, Texas, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 8464621,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Beaumont%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:81dd15b296e0": {
+    "query": "Punta Arenas, Chile",
+    "latitude": -53.1625688,
+    "longitude": -70.907822,
+    "display_name": "Punta Arenas, Provincia de Magallanes, Región de Magallanes y de la Antártica Chilena, 6201065, Chile",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 181356942,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Punta+Arenas%2C+Chile&format=jsonv2&addressdetails=1&limit=1&countrycodes=cl"
+  },
+  "PUBLIC_SITE:64fa638197bb": {
+    "query": "Damietta, Egypt",
+    "latitude": 31.4167427,
+    "longitude": 31.8213657,
+    "display_name": "دمياط, 34511, مصر",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 295029548,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Damietta%2C+Egypt&format=jsonv2&addressdetails=1&limit=1&countrycodes=eg"
+  },
+  "PUBLIC_SITE:5726806d2829": {
+    "query": "New Plymouth, New Zealand",
+    "latitude": -39.0579941,
+    "longitude": 174.0806474,
+    "display_name": "New Plymouth, New Plymouth District, Taranaki, 4310, New Zealand / Aotearoa",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 60024508,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=New+Plymouth%2C+New+Zealand&format=jsonv2&addressdetails=1&limit=1&countrycodes=nz"
+  },
+  "PUBLIC_SITE:2d2e421ef271": {
+    "query": "Suzhou, Jiangsu, China",
+    "latitude": 31.311123,
+    "longitude": 120.6212881,
+    "display_name": "苏州市, 江苏省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4430941,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Suzhou%2C+Jiangsu%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:51f55844b0c2": {
+    "query": "Singapore, Singapore",
+    "latitude": 1.2899175,
+    "longitude": 103.8519072,
+    "display_name": "Singapore",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 17140517,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Singapore%2C+Singapore&format=jsonv2&addressdetails=1&limit=1&countrycodes=sg"
+  },
+  "PUBLIC_SITE:6f85517778e7": {
+    "query": "Boron, California, United States",
+    "latitude": 35.0176306,
+    "longitude": -117.6680213,
+    "display_name": "Boron, Kern County, California, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4287988,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Boron%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:e11db3671137": {
+    "query": "Escondida, Antofagasta, Chile",
+    "latitude": -23.5823916,
+    "longitude": -70.3756905,
+    "display_name": "Escondida, Antofagasta, Provincia de Antofagasta, Región de Antofagasta, 1262335, Chile",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "way",
+    "osm_id": 514928416,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Escondida%2C+Antofagasta%2C+Chile&format=jsonv2&addressdetails=1&limit=1&countrycodes=cl"
+  },
+  "PUBLIC_SITE:8721302577c7": {
+    "query": "Olympic Dam, South Australia, Australia",
+    "latitude": -30.440203,
+    "longitude": 136.8763355,
+    "display_name": "Olympic Dam, South Australia, Australia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6235712,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Olympic+Dam%2C+South+Australia%2C+Australia&format=jsonv2&addressdetails=1&limit=1&countrycodes=au"
+  },
+  "PUBLIC_SITE:43d874b4026b": {
+    "query": "Dwellingup, Western Australia, Australia",
+    "latitude": -32.7116497,
+    "longitude": 116.0680276,
+    "display_name": "Dwellingup, Western Australia, Australia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 11689101,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Dwellingup%2C+Western+Australia%2C+Australia&format=jsonv2&addressdetails=1&limit=1&countrycodes=au"
+  },
+  "PUBLIC_SITE:3432786bf113": {
+    "query": "Waroona, Western Australia, Australia",
+    "latitude": -32.8492605,
+    "longitude": 115.9082511,
+    "display_name": "Shire of Waroona, Western Australia, 6215, Australia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 11690511,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Waroona%2C+Western+Australia%2C+Australia&format=jsonv2&addressdetails=1&limit=1&countrycodes=au"
+  },
+  "PUBLIC_SITE:93a812ccbef8": {
+    "query": "Pinjarra, Western Australia, Australia",
+    "latitude": -32.6318966,
+    "longitude": 115.869247,
+    "display_name": "Pinjarra, Western Australia, Australia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 11689118,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Pinjarra%2C+Western+Australia%2C+Australia&format=jsonv2&addressdetails=1&limit=1&countrycodes=au"
+  },
+  "PUBLIC_SITE:893ed29787d3": {
+    "query": "Wagerup, Western Australia, Australia",
+    "latitude": -32.9003365,
+    "longitude": 115.9233422,
+    "display_name": "Wagerup, Western Australia, Australia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 11690512,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Wagerup%2C+Western+Australia%2C+Australia&format=jsonv2&addressdetails=1&limit=1&countrycodes=au"
+  },
+  "PUBLIC_SITE:bcc7f329bfd6": {
+    "query": "Spruce Pine, North Carolina, United States",
+    "latitude": 35.9147787,
+    "longitude": -82.066411,
+    "display_name": "Spruce Pine, Mitchell County, North Carolina, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 179909,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Spruce+Pine%2C+North+Carolina%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:415f898b6a0f": {
+    "query": "Spruce Pine, North Carolina, United States",
+    "latitude": 35.9147787,
+    "longitude": -82.066411,
+    "display_name": "Spruce Pine, Mitchell County, North Carolina, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 179909,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Spruce+Pine%2C+North+Carolina%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:1fb42b6da493": {
+    "query": "Balama, Cabo Delgado, Mozambique",
+    "latitude": -13.5398571,
+    "longitude": 38.3646387,
+    "display_name": "Balama, Cabo Delgado, Zona Norte, Moçambique",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 11976442,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Balama%2C+Cabo+Delgado%2C+Mozambique&format=jsonv2&addressdetails=1&limit=1&countrycodes=mz"
+  },
+  "PUBLIC_SITE:35867d4cbd1d": {
+    "query": "Mountain Pass, California, United States",
+    "latitude": 35.4702601,
+    "longitude": -115.5449975,
+    "display_name": "Mountain Pass, San Bernardino County, California, 92366, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 150956153,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Mountain+Pass%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:e6301f23b6d2": {
+    "query": "Cataby, Western Australia, Australia",
+    "latitude": -30.735616,
+    "longitude": 115.5385727,
+    "display_name": "Cataby, Western Australia, Australia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 11689765,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cataby%2C+Western+Australia%2C+Australia&format=jsonv2&addressdetails=1&limit=1&countrycodes=au"
+  },
+  "PUBLIC_SITE:b31e4c5c4a5a": {
+    "query": "Narngulu, Western Australia, Australia",
+    "latitude": -28.823806,
+    "longitude": 114.6855678,
+    "display_name": "Narngulu, Geraldton, Western Australia, Australia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 11689892,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Narngulu%2C+Western+Australia%2C+Australia&format=jsonv2&addressdetails=1&limit=1&countrycodes=au"
+  },
+  "PUBLIC_SITE:b74043884a24": {
+    "query": "Port Colborne, Ontario, Canada",
+    "latitude": 42.8862392,
+    "longitude": -79.2513905,
+    "display_name": "Port Colborne, Niagara Region, Ontario, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 5878396,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Port+Colborne%2C+Ontario%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:9d433d4241bf": {
+    "query": "Sangdong, Yeongwol, South Korea",
+    "latitude": 37.1135669,
+    "longitude": 128.8116432,
+    "display_name": "상동읍, 영월군, 강원특별자치도, 26248, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 13682845,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Sangdong%2C+Yeongwol%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:7339d825d332": {
+    "query": "Sodom, Israel",
+    "latitude": 31.0725434,
+    "longitude": 35.3982337,
+    "display_name": "מחנה סדום, 90, מועצה אזורית תמר, נפת באר שבע, מחוז הדרום, ישראל",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 278476082,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Sodom%2C+Israel&format=jsonv2&addressdetails=1&limit=1&countrycodes=il"
+  },
+  "PUBLIC_SITE:63e8bfedb5d3": {
+    "query": "Sodom, Israel",
+    "latitude": 31.0725434,
+    "longitude": 35.3982337,
+    "display_name": "מחנה סדום, 90, מועצה אזורית תמר, נפת באר שבע, מחוז הדרום, ישראל",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 278476082,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Sodom%2C+Israel&format=jsonv2&addressdetails=1&limit=1&countrycodes=il"
+  },
+  "PUBLIC_SITE:67a5707b10d1": {
+    "query": "Annville, Pennsylvania, United States",
+    "latitude": 40.3295901,
+    "longitude": -76.515226,
+    "display_name": "Annville, Lebanon County, Pennsylvania, 17003, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 187809,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Annville%2C+Pennsylvania%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:dc5bd9070646": {
+    "query": "Antauta, Puno, Peru",
+    "latitude": -14.2997287,
+    "longitude": -70.2919047,
+    "display_name": "Antauta, Melgar, Puno, Perú",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1918545,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Antauta%2C+Puno%2C+Peru&format=jsonv2&addressdetails=1&limit=1&countrycodes=pe"
+  },
+  "PUBLIC_SITE:f33ddb808b0b": {
+    "query": "Pisco, Peru",
+    "latitude": -13.7099813,
+    "longitude": -76.2029793,
+    "display_name": "Pisco, Ica, 11601, Perú",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 253909180,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Pisco%2C+Peru&format=jsonv2&addressdetails=1&limit=1&countrycodes=pe"
+  },
+  "PUBLIC_SITE:122d83095d80": {
+    "query": "Nazareno, Minas Gerais, Brazil",
+    "latitude": -21.2189807,
+    "longitude": -44.6151354,
+    "display_name": "Nazareno, Minas Gerais, Região Sudeste, 36370-000, Brasil",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 315160,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nazareno%2C+Minas+Gerais%2C+Brazil&format=jsonv2&addressdetails=1&limit=1&countrycodes=br"
+  },
+  "PUBLIC_SITE:0231a971a540": {
+    "query": "Fadhili, Saudi Arabia",
+    "latitude": 26.2802981,
+    "longitude": 50.1086533,
+    "display_name": "Fadhili, الظهران, مجمع الظهران السكني, محافظة الدمام, المنطقة الشرقية, 34464, السعودية",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "way",
+    "osm_id": 702067728,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Fadhili%2C+Saudi+Arabia&format=jsonv2&addressdetails=1&limit=1&countrycodes=sa"
+  },
+  "PUBLIC_SITE:1cbf20fc5140": {
+    "query": "Nye, Montana, United States",
+    "latitude": 45.4350227,
+    "longitude": -109.8036525,
+    "display_name": "Nye, Stillwater County, Montana, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 151599579,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nye%2C+Montana%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:408b96b07c6b": {
+    "query": "McLeod, Montana, United States",
+    "latitude": 45.6622241,
+    "longitude": -110.1138768,
+    "display_name": "McLeod, Sweet Grass County, Montana, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 150947982,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=McLeod%2C+Montana%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:1807d1732f0b": {
+    "query": "Columbus, Montana, United States",
+    "latitude": 45.6366114,
+    "longitude": -109.252154,
+    "display_name": "Columbus, Stillwater County, Montana, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 142562,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Columbus%2C+Montana%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:76f6b2d8d054": {
+    "query": "Lihir Island, Papua New Guinea",
+    "latitude": -3.1290268,
+    "longitude": 152.6026278,
+    "display_name": "Lihir Island, Namatanai District, New Ireland, Islands Region, Papua Niugini",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6448828,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Lihir+Island%2C+Papua+New+Guinea&format=jsonv2&addressdetails=1&limit=1&countrycodes=pg"
+  },
+  "PUBLIC_SITE:7e6fdbef92dc": {
+    "query": "Maua, Sao Paulo, Brazil",
+    "latitude": -23.6669527,
+    "longitude": -46.4616922,
+    "display_name": "Mauá, São Paulo, Região Sudeste, Brasil",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 5683165,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Maua%2C+Sao+Paulo%2C+Brazil&format=jsonv2&addressdetails=1&limit=1&countrycodes=br"
+  },
+  "PUBLIC_SITE:fe18472422d1": {
+    "query": "Durgapur, West Bengal, India",
+    "latitude": 23.5350475,
+    "longitude": 87.3380425,
+    "display_name": "Durgapur, Faridpur Durgapur, Paschim Bardhaman, West Bengal, 713200, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 813334049,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Durgapur%2C+West+Bengal%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:6ca9bc0ab6de": {
+    "query": "Satpur, Nashik, India",
+    "latitude": 20.0004922,
+    "longitude": 73.7376531,
+    "display_name": "Satpur, Nashik, Nashik Subdistrict, Nashik, Maharashtra, 422007, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 660236323,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Satpur%2C+Nashik%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:38655b23ac01": {
+    "query": "Tornio, Finland",
+    "latitude": 65.8457589,
+    "longitude": 24.1464,
+    "display_name": "Tornio, Kemi-Tornion seutukunta, Lappi, Manner-Suomi, Suomi / Finland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 403011,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Tornio%2C+Finland&format=jsonv2&addressdetails=1&limit=1&countrycodes=fi"
+  },
+  "PUBLIC_SITE:eab743764f20": {
+    "query": "McArthur River, Northern Territory, Australia",
+    "latitude": -17.0407745,
+    "longitude": 135.5489595,
+    "display_name": "McArthur River, Northern Territory, Australia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "way",
+    "osm_id": 174191046,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=McArthur+River%2C+Northern+Territory%2C+Australia&format=jsonv2&addressdetails=1&limit=1&countrycodes=au"
+  },
+  "PUBLIC_SITE:74eb5b2703bd": {
+    "query": "Empire, Colorado, United States",
+    "latitude": 39.7611067,
+    "longitude": -105.682998,
+    "display_name": "Empire, Clear Creek County, Colorado, 80438, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 17935949,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Empire%2C+Colorado%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:204aba3b296c": {
+    "query": "Climax, Colorado, United States",
+    "latitude": 39.3676989,
+    "longitude": -106.1881847,
+    "display_name": "Climax, CO 91, Lake County, Colorado, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 11137309080,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Climax%2C+Colorado%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:36baa6ca14ed": {
+    "query": "Marikana, South Africa",
+    "latitude": -25.687936,
+    "longitude": 27.491537,
+    "display_name": "Marikana, Rustenburg Local Municipality, Bojanala Platinum District Municipality, North West, South Africa",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 262721256,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Marikana%2C+South+Africa&format=jsonv2&addressdetails=1&limit=1&countrycodes=za"
+  },
+  "PUBLIC_SITE:1b87dc6212c2": {
+    "query": "Goderich, Ontario, Canada",
+    "latitude": 43.7430924,
+    "longitude": -81.7110949,
+    "display_name": "Goderich, Huron County, Southwestern Ontario, Ontario, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7486672,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Goderich%2C+Ontario%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:50bd2cbdbcf8": {
+    "query": "Kure, Japan",
+    "latitude": 34.2484488,
+    "longitude": 132.5652498,
+    "display_name": "呉市, 広島県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4089279,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kure%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:bc89b69f7fc1": {
+    "query": "Corvallis, United States",
+    "latitude": 44.5645659,
+    "longitude": -123.2620435,
+    "display_name": "Corvallis, Benton County, Oregon, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 186476,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Corvallis%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:206fcdb3dc00": {
+    "query": "Gunsan, South Korea",
+    "latitude": 35.9679984,
+    "longitude": 126.7369036,
+    "display_name": "군산시, 전북특별자치도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7619922,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gunsan%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:d3f426e30cae": {
+    "query": "Geesthacht, Germany",
+    "latitude": 53.4374683,
+    "longitude": 10.3678235,
+    "display_name": "Geesthacht, Kreis Herzogtum Lauenburg, Schleswig-Holstein, 21502, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 325771,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Geesthacht%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:440ce2fb900f": {
+    "query": "Oguni, Yamagata, Japan",
+    "latitude": 38.0616639,
+    "longitude": 139.7431889,
+    "display_name": "小国町, 西置賜郡, 山形県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4135353,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Oguni%2C+Yamagata%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  }
+}

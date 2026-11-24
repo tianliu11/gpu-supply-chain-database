@@ -1,0 +1,2480 @@
+[
+  {
+    "provider_name": "NVIDIA",
+    "component_context": [
+      "GPU Die"
+    ],
+    "query": "NVIDIA official manufacturing plants production sites locations GPU Die",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.nvidia.com/en-us/made-in-usa/",
+      "https://www.nvidia.com/content/dam/en-zz/Solutions/about-us/documents/2025-Forced-Labor-Human-Trafficking-and-Child-Labor-Statement.pdf",
+      "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/?trk=article-ssr-frontend-pulse_little-text-block",
+      "https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/?itid=lk_inline_enhanced-template",
+      "https://images.nvidia.com/aem-dam/Solutions/documents/NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+      "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "https://www.clarigital.com/hardware/ai-chips/nvidia/",
+      "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-annual-report-web-Hyperlinks.pdf"
+    ]
+  },
+  {
+    "provider_name": "Monolithic Power Systems",
+    "component_context": [
+      "VRM Power Stage",
+      "Hall-Effect BLDC Fan Driver IC & Mini FR-4 Sub-Board"
+    ],
+    "query": "Monolithic Power Systems official manufacturing plants production sites locations VRM Power Stage",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.monolithicpower.com/media/investor-relations/events/MPS_IR_Representation_Novermber_2024.pdf",
+      "https://media.monolithicpower.com/mps_cms_document/d/i/digital-psg-q4-2024.pdf",
+      "https://media.monolithicpower.com/mps_cms_document/d/i/digital-2024-q4-sensors-solutions-catalog.pdf",
+      "https://www.monolithicpower.com/media/mps_cms_document/2/0/2024-esg-report_version_3.pdf",
+      "https://media.monolithicpower.com/mps_cms_document/m/o/motor_drivers_catalog_q4_2024_-_digital.pdf",
+      "https://media.monolithicpower.com/mps_cms_document/m/o/motor_driver_catalog_q1_2024_-_digital.pdf",
+      "https://manuals.plus/m/505554c1e7de82b772cac100f21ecb09554194c4f04eaee0b4c6aedf45f02268",
+      "https://www.secinfo.com/d1BS1q.N5Ve.htm"
+    ]
+  },
+  {
+    "provider_name": "Murata",
+    "component_context": [
+      "SMD Passive (R/C/L)",
+      "Sintered BaTiO3 Ceramic & Nickel Internal Electrode MLCC Chip"
+    ],
+    "query": "Murata official manufacturing plants production sites locations SMD Passive (R/C/L)",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030%EF%BD%82/26q2-e.ashx?cvid=20261104002830000000&la=en",
+      "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030%EF%BD%82/26q2-e-speach.ashx",
+      "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030%EF%BD%82/26q2-e.ashx?cvid=20261103083222000000&la=ko-kr",
+      "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030%EF%BD%82/26q2-e.ashx?cvid=20261103083222000000&la=en",
+      "https://corporate.murata.com/en-global/company/muratalocations/branch",
+      "https://corporate.murata.com/company/muratalocations/branch",
+      "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0528b/90-doc-e.ashx?cvid=20260528000857000000&la=en-gb",
+      "https://corporate.murata.com/en-us/csr/evaluation/certification"
+    ]
+  },
+  {
+    "provider_name": "MinebeaMitsumi",
+    "component_context": [
+      "Blower Motor",
+      "Miniature Chrome-Steel Dual-Ball / Fluid-Dynamic Bearing"
+    ],
+    "query": "MinebeaMitsumi official manufacturing plants production sites locations Blower Motor",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.minebeamitsumi.com/english/corp/company/factories/",
+      "https://www.minebeamitsumi.com/english/csr/list/data/iso/",
+      "https://www.minebeamitsumi.com/english/csr/list/data/__icsFiles/afieldfile/2025/08/27/esg_iso14001_en_20250819.pdf",
+      "https://www.minebeamitsumi.com/english/corp/company/factories/china/1200046_6760.html",
+      "https://www.minebeamitsumi.com/english/corp/investors/disclosure/integrated_report/a2026/__icsFiles/afieldfile/2026/10/26/2026_integrated_report_en.pdf",
+      "https://www.minebeamitsumi.com/english/csr/list/data/__icsFiles/afieldfile/2024/08/27/esg_iso14001_en_20240819.pdf",
+      "https://www.minebeamitsumi.com/corp/recruit/about/field/",
+      "https://minebea.co.th/en/aboutus"
+    ]
+  },
+  {
+    "provider_name": "Semblex",
+    "component_context": [
+      "Fastener Set",
+      "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket"
+    ],
+    "query": "Semblex official manufacturing plants production sites locations Fastener Set",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.semblex.com/en/pdf-files/about-pdf/iso-9001/",
+      "https://www.semblex.com/en/products/fastener-assemblies/",
+      "https://www.semblex.com/de/standorte/",
+      "https://www.reminc.com/cn/suppliers/",
+      "https://www.semblex.com/en/pdf-files/about-pdf/semblex-corporate-brochure-pdf/",
+      "https://remform.com/jp/suppliers/",
+      "https://taptite.com/ko/suppliers",
+      "https://www.semblex.com/sites/en/assets/file/semblex-corporation-iso14001-cert.pdf"
+    ]
+  },
+  {
+    "provider_name": "Amphenol",
+    "component_context": [
+      "Connector",
+      "Power Sense Pin"
+    ],
+    "query": "Amphenol official manufacturing plants production sites locations Connector",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.amphenolrf.com/en-us/company/locations/",
+      "https://amphenol.com/businesses/all/all-countries/connectors",
+      "https://amphenol-industrial.com/our-company/global-manufacturing-capabilities/",
+      "https://www.amphenol.com/businesses/all/all-countries/connectors",
+      "https://www.amphenol-socapex.com/vad-value-added-distributors",
+      "https://www.amphenol.com/businesses/global",
+      "https://www.amphenol.com/businesses",
+      "https://amphenol.com/businesses/americas"
+    ]
+  },
+  {
+    "provider_name": "Cree LED",
+    "component_context": [
+      "RGB LED"
+    ],
+    "query": "Cree LED official manufacturing plants production sites locations RGB LED",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.cree-led.com/company/contact-locations/",
+      "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001616533/84c58781-b21a-4a46-b79b-05fb9c06ad59.pdf",
+      "https://www.cree-led.com/news/new-headquarters-for-cree-led-opens-in-research-triangle-park-nc/",
+      "https://www.cree-led.com/where-to-buy/",
+      "https://docs.publicnow.com/viewDoc?filename=45817%5CEXT%5C6CAA47C82A32EE4EA9A558ABCB332B916CEE93A1_8974F5314626A9081AFDBD1BFDCBB667AC27B3C1.PDF",
+      "https://www.sec.gov/Archives/edgar/data/1616533/000156459021027596/sgh-ex992_8.htm",
+      "https://s29.q4cdn.com/278875087/files/doc_financials/2017/ar/CREE_2017_Annual_Report.pdf",
+      "https://www.cree-led.com/wp-content/uploads/2023/06/Cree-LED-new-HQ_PR.pdf"
+    ]
+  },
+  {
+    "provider_name": "Nuvoton",
+    "component_context": [
+      "Microcontroller",
+      "Fabricated 32-Bit ARM Cortex-M Microcontroller Silicon Die"
+    ],
+    "query": "Nuvoton official manufacturing plants production sites locations Microcontroller",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://certification.enisa.europa.eu/document/download/f352280c-a792-4000-9895-966dae7f265d_en?filename=EUCC-3090-2026-12-cible.pdf&prefLang=es",
+      "https://www.nuvoton.com.cn/about-nuvoton/human-resources/meet-nuvoton/ic-design/",
+      "https://www.commoncriteriaportal.org/nfs/ccpfiles/files/epfiles/EUCC-3090-2026-13-cible.pdf",
+      "https://www.nuvoton.com/about-nuvoton/company-profile/world-wide-location/index.html?_t=20690",
+      "https://atta.szlcsc.com/upload/public/pdf/source/20241016/63925600818EDDB4EE79750889270D08.pdf",
+      "https://cyber.gouv.fr/sites/default/files/document_type/ANSSI-cible-CC-2024_11en%201.4.2.2.pdf",
+      "https://messervices.cyber.gouv.fr/visas/EUCC-3090-2026-12-cible.pdf",
+      "https://www.nuvoton.com.cn/about-nuvoton/company-profile/world-wide-location/?__locale=en"
+    ]
+  },
+  {
+    "provider_name": "TANAKA",
+    "component_context": [
+      "Disposable Silver Electroplating Bath & Silver Anodes",
+      "Disposable Hard-Gold Electroplating Salt & Cobalt Brightener",
+      "Bond wires"
+    ],
+    "query": "TANAKA official manufacturing plants production sites locations Disposable Silver Electroplating Bath & Silver Anodes",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.tanaka.co.jp/assets/pdf/sustainability/csr/csr_2025_en.pdf",
+      "https://www.tanaka.co.jp/english/assets/pdf/sustainability/csr/csr_2021.pdf",
+      "https://www.tanaka.co.jp/english/assets/pdf/sustainability/csr/csr_2020.pdf",
+      "https://www.tanaka.co.jp/english/company/group/tkk/",
+      "https://tanaka-preciousmetals.com/jp/corporate/outline.html",
+      "https://find-and-update.company-information.service.gov.uk/company/FC031164/filing-history/MzE4NTA1NjIwMmFkaXF6a2N4/document",
+      "https://www.tanaka.co.jp/english/assets/pdf/sustainability/csr/csr_2013.pdf",
+      "https://tanaka-preciousmetals.com/en/news/information/20260316.html"
+    ]
+  },
+  {
+    "provider_name": "MG Chemicals",
+    "component_context": [
+      "Disposable Cupric / Ferric Chloride Etchant Solution"
+    ],
+    "query": "MG Chemicals official manufacturing plants production sites locations Disposable Cupric / Ferric Chloride Etchant Solution",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://mgchemicals.com/products/circuit-board-design/copper-etchants/ferric-chloride-etching/",
+      "https://mgchemicals.com/contact/",
+      "https://res.cloudinary.com/iwh/image/upload/q_auto%2Cg_center/assets/1/26/MG_Chemicals_415_Safety_Data_Sheet.pdf",
+      "https://images-na.ssl-images-amazon.com/images/I/815TRR%2BlgrL.pdf",
+      "https://xonstorage.z8.web.core.windows.net/pdf/mgchemicals_509_apr22_xonlink.pdf",
+      "https://mgchemicals.com/category/circuit-board-design/copper-etchants/",
+      "https://media.digikey.com/pdf/Data%20Sheets/MG%20Chemicals%20PDFs/mgcatalog.pdf",
+      "https://mgchemicals.com/downloads/pdf/flyers/Prototyping-flyer-web.pdf"
+    ]
+  },
+  {
+    "provider_name": "DISCO",
+    "component_context": [
+      "Disposable Diamond Wafer Dicing Blades & CMP Slurry"
+    ],
+    "query": "DISCO official manufacturing plants production sites locations Disposable Diamond Wafer Dicing Blades & CMP Slurry",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.disco.com.sg/eg/csr/activity/manufacture/index.html",
+      "https://www.disco.co.jp/eg/network/",
+      "https://www.disco.com.sg/eg/ir/mginfo/bg_business.html",
+      "https://www.dicing-grinding.com/files/content/quality/certifications/ISO_9001_EN.pdf",
+      "https://www.disco.co.jp/jp/csr/activity/quality/doc/dj_regi_eg.pdf?1773294262=",
+      "https://www.dicing-grinding.com/files/content/quality/certifications/ISO_14001_EN.pdf",
+      "https://www.disco.co.jp/jp/csr/environment/doc/iso14001_eg.pdf?1775962503=",
+      "https://semistructure.com/en/companies/disco-corporation-company-profile/"
+    ]
+  },
+  {
+    "provider_name": "MacDermid Alpha",
+    "component_context": [
+      "Disposable Electroless Nickel & Immersion Gold (ENIG) Bath Chemicals",
+      "Electrodeposited copper foil & ENIG chemistry"
+    ],
+    "query": "MacDermid Alpha official manufacturing plants production sites locations Disposable Electroless Nickel & Immersion Gold (ENIG) Bath Chemicals",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.macdermidalpha.com/",
+      "https://www.macdermidalpha.com/about-us/locations",
+      "https://www.macdermidalpha.com/about-us/locations?page=0",
+      "https://s3.eu-west-2.amazonaws.com/document-api-images-live.ch.gov.uk/docs/RQrYVofXcjH2G9iz4temy49930YHvoVLtfpmc1Gimas/application-pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWRGBDBV3I2NB23ZD%2F20261122%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261122T144053Z&X-Amz-Expires=60&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMiJHMEUCIQCRJkyox9jP%2BlmC2AWOsIIv7fdJlvvsTPdbzIlHs%2BUsZgIgHxt%2BwCm8M9vJBLHHcptBptSUGCM%2FNQCuFM2dTKfUR5sqgQQIWhAFGgw0NDkyMjkwMzI4MjIiDCTif%2FIoHCBLCcn%2BGireAwvjR14aj%2Bz2MOir%2FmnEvTmnZz%2FJdp1nWTb0Mn1coWIGc%2FG7qx2K96OKIqzaiO0r8bhmKc6WJXBsaoc79pJYBHWMSNHEwb4HYqfAgSeqySBjpOGNQkHgKMsMaucAbaC%2Fjte%2Bun72JJ1xYu4wxod8XVSEm%2FxgKykabDGlKMqn7FswYTMTrQEmEosl%2FEyHGfQ6KedZaFW2q1TRiNJx2ymiji1J%2Bfg6BIMH8Ol0rFQOT0gSIeKFEAQ9VslH45uK9R3yV2%2Bg3VZqqkDSW6hiXufVPZ8NuLqpeHMAOdO9m14Y4Ft%2FeVnWVYHvXna2w9AiZZuUoF%2Ba6Jbn642MsGJEMATEA9XSYAq78YCJhjgLlDv2Cu9uaB%2BKKeIsOqnnnW0yYvlFpvoECtrX3oSY8h2MqAvgC0gkI4HBUQOQNUf3drwM%2B6a2Sk70mUqiS%2Bkgi9Mr0mL5NLAq3L1ve7j27RjXHkBdi27NOaARm%2BGzEHhXGsXoKioF1GfS0cq2L2BuCBw%2B73rjeEONvCxHrMJNNe%2Fs0AvK2SiqMwb5H2n86H%2FMMO9iW%2F70tVKAJpK8becEadATnIXEyXxGvRgrSiGSiXg1kI5VhYZ46wywZpzXceNb8FjhJg3EBEJ7FgifWsMrYlmOrWQwi%2BWK2AY6pQHxDnrNg9RGFYhbKwNovHW1rPiR3cHuTFrVEeOjWJ1m3Tp5zvlEmMfkKnOW2cMWToWiqfZ6IldeCrUcwyShUOeHKy4Vc%2FP4lTFsBRRprrrf6hi70kLcrvg2SHoKpetjGqgBh2Kfr8E1Df1RJ35I28bBc1%2B4j3kVNjeDuwt%2B2QF242%2Fz4tKvSSC5yNaACgmdHGMKD5otG8Jrx5ltg%2FtXLyrAwlv5v0w%3D&X-Amz-Signature=4e4eebdede1fc8ae2913cad5e3cba0ddf0b765e9011e81445121cb58f2085be5&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22companies_house_document.pdf%22",
+      "https://sourceindia-electronics.com/upload/seller/1677937537_ESI-MacDermid%20Alpha%20Company%20Profile.pdf",
+      "https://sourceindia-electronics.com/upload/seller/1662604138_MAES-Presentation-Overview-EN-15NOV21%20%286%29.pdf",
+      "https://www.macdermidenthone.com/sites/default/files/2024-10/MacDermid%20Enthone_Light%20Metal%20Solutions%20Unit_2024.pdf",
+      "https://www.elementsolutionsinc.com/sites/default/files/2022-08/ISO%209001%200078022%20Exp%2005-Jul-2024%20-%20Multisite%20Certificate.pdf"
+    ]
+  },
+  {
+    "provider_name": "Taiyo Holdings",
+    "component_context": [
+      "Disposable Dry-Film Photoresist & Alkaline Stripper",
+      "Epoxy Silkscreen Component Legend Ink",
+      "Liquid Photoimageable Epoxy Soldermask Ink"
+    ],
+    "query": "Taiyo Holdings official manufacturing plants production sites locations Disposable Dry-Film Photoresist & Alkaline Stripper",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.taiyo-hd.co.jp/en/investor/irnews/news20260319000001/main/0/link/20260319_02.pdf",
+      "https://www.taiyo-hd.co.jp/en/investor/library/annualreport/main/0/teaserItems3/00/linkList/0/link/20250131_03.pdf",
+      "https://www.taiyo-hd.co.jp/en/investor/library/annualreport/main/0/teaserItems3/00/linkList/00/link/20260319_01.pdf",
+      "https://www.taiyo-hd.co.jp/en/investor/library/annualreport/main/015/teaserItems3/00/linkList/00/link/20250131_02.pdf",
+      "https://www.taiyo-hd.co.jp/en/investor/library/annualreport/main/01/teaserItems3/00/linkList/0/link/20220316_01.pdf",
+      "https://www.taiyo-hd.co.jp/en/investor/irnews/news20250131103042/main/0/link/20250131_03.pdf",
+      "https://www.taiyoink.com.tw/en-about/",
+      "https://www.taiyo-hd.co.jp/en/about/group.html"
+    ]
+  },
+  {
+    "provider_name": "Kanto Chemical",
+    "component_context": [
+      "Acetic acid",
+      "Ammonium hydroxide",
+      "Hydrofluoric acid"
+    ],
+    "query": "Kanto Chemical official manufacturing plants production sites locations Acetic acid",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.kanto.com.my/message-from-the-president/",
+      "https://www.kanto.co.jp/english/corp/officejp.html",
+      "https://www.kanto.co.jp/english/corp/message.html",
+      "https://kantocorp.com/about-us",
+      "https://pr.mono.ipros.com/en/kantobio/information/",
+      "https://www.kanto.co.jp/holdings/english/company.html",
+      "https://www.kanto.co.jp/english/csr/ninsyou.html",
+      "https://www.kanto.co.jp/holdings/english/group.html"
+    ]
+  },
+  {
+    "provider_name": "Denka",
+    "component_context": [
+      "Alumina",
+      "Fused silica powder filler",
+      "Calcined High-Purity Alumina (Al2O3) Ceramic Powder"
+    ],
+    "query": "Denka official manufacturing plants production sites locations Alumina",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.denka.co.jp/eng/corporate/office",
+      "https://www.denka.co.jp/eng/corporate/officeworldwide/",
+      "https://www.denka.co.jp/eng/pdf/corporate/overview/202408_Denka_corporateprofile_eng.pdf",
+      "https://www.denka.co.jp/eng/pdf/corporate/overview/corporate_profile.pdf",
+      "https://www.denka.co.jp/eng/pdf/ir/report/Sustainability%20Book2024_EN_ALL.pdf",
+      "https://www.denka.co.jp/eng/pdf/corporate/overview/Denka_corporateprofile_en.pdf",
+      "https://www.denka.co.jp/eng/pdf/ir/library/denka_166th_ordinary_general_meeting_of_shareholders_en.pdf",
+      "https://denka.disclosure.site/en/themes/650"
+    ]
+  },
+  {
+    "provider_name": "Linde",
+    "component_context": [
+      "Ammonia",
+      "Anhydrous HCl",
+      "Argon"
+    ],
+    "query": "Linde official manufacturing plants production sites locations Ammonia",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://assets.linde.com/-/media/global/corporate/corporate/documents/investors/full-year-financial-reports/2025-annual-report-to-shareholders.pdf",
+      "https://www.linde-engineering.com/products-and-services/process-plants/hydrogen-and-synthesis-gas/ammonia-and-methanol-plants",
+      "https://assets.linde.com/-/media/global/corporate/corporate/documents/investors/full-year-financial-reports/2024-annual-report-to-shareholders.pdf",
+      "https://fintel.io/doc/sec-linde-plc-1707925-10k-2026-february-25-20509-9592",
+      "https://www.marketscreener.com/news/linde-full-year-report-2025-annual-report-to-shareholders-ce7f58dad18bf723",
+      "https://www.stocktitan.net/sec-filings/LIN/10-k-linde-plc-files-annual-report-1ad303358de6.html",
+      "https://www.linde-engineering.com/products-and-services/plant-components",
+      "https://financialfilings.com/filings/linde-plc/annual-report/2025/13038772/"
+    ]
+  },
+  {
+    "provider_name": "Entegris",
+    "component_context": [
+      "Arsine dopant gas",
+      "Electronic gases",
+      "Phosphine dopant gas"
+    ],
+    "query": "Entegris official manufacturing plants production sites locations Arsine dopant gas",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.entegris.com/en/home/about-us/locations.html",
+      "https://entegrisinc.gcs-web.com/static-files/b08473ed-43ee-4c5e-90e8-3f76c3633fee",
+      "https://entegrisinc.gcs-web.com/static-files/99341f43-97e2-4112-9332-cb985f093169",
+      "https://s205.q4cdn.com/144974603/files/doc_financials/2024/q4/10K-2024.pdf",
+      "https://fintel.io/doc/sec-entegris-inc-1101302-10k-2025-february-12-20131-4028",
+      "https://www.entegris.com/content/dam/web/resources/flyers/flyer-korea-technology-center-14143-en.pdf",
+      "https://www.entegris.com/en/home/about-us/corporate-overview.html",
+      "https://companiesmarketcap.com/entegris/sec-reports-10k/0001101302-25-000015/"
+    ]
+  },
+  {
+    "provider_name": "Samyang Innochem",
+    "component_context": [
+      "Bisphenol-A (BPA)"
+    ],
+    "query": "Samyang Innochem official manufacturing plants production sites locations Bisphenol-A (BPA)",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.samyanginnochem.com/en/company/facility",
+      "https://kind.krx.co.kr/external/2026/05/15/001790/20260515003979/11013.htm",
+      "https://kind.krx.co.kr/external/2026/03/23/001870/20260323007875/11011.htm",
+      "https://www.samyanginnochem.com/en/company/about",
+      "https://m.samyangspecialty.com/resources/file/2025_Samyang_Company_Profile_EN.pdf",
+      "https://samyanginnochem.com/kr/company/facility",
+      "https://kind.krx.co.kr/external/2025/05/15/002570/20250515006023/11013.htm",
+      "https://samyangspecialty.com/resources/file/2025_Samyang_Company_Profile_EN.pdf"
+    ]
+  },
+  {
+    "provider_name": "Doublink",
+    "component_context": [
+      "Bond wires"
+    ],
+    "query": "Doublink official manufacturing plants production sites locations Bond wires",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://en.doublink.com/about.html",
+      "https://www.doublink.com/",
+      "https://expo.semi.org/china2026/Public/eBooth.aspx?BoothID=640476&IndexInList=74&ListByBooth=true&Nav=False",
+      "https://data.cbonds.com/stock_documents/199693/7549-22dd0688ece88151efe4ec572b9ead78.pdf",
+      "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2024-10/241004_Whitney_Export_Controls.pdf?VersionId=1333avUXqn8.aHkwy1hPw2PQzPHU.UG.",
+      "https://en.doublink.com/products.html",
+      "https://abachy.com/catalog/materials/assembly-materials/interconnect/beijing-doublink-solders-co-ltd",
+      "https://job.gg.go.kr/empmn/desEntDtl.do?bizrno=8238801453"
+    ]
+  },
+  {
+    "provider_name": "Heraeus",
+    "component_context": [
+      "Bond wires"
+    ],
+    "query": "Heraeus official manufacturing plants production sites locations Bond wires",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.heraeus-electronics.com/en/about-heraeus-electronics/about-us/locations/",
+      "https://www.heraeus-printed-electronics.com/dam/jcr%3A9f076872-d47b-49e4-9aff-11f363c15a11/Advanced_Packaging_Continuing_A_Strong_Bond_ENG.pdf",
+      "https://www.argor-heraeus.com/en/about/locations/",
+      "https://www.heraeus.com/media/media/het/doc_het/brochures_en_1/Advanced_Packaging_Continuing_A_Strong_Bond_ENG.pdf",
+      "https://www.heraeus-electronics.com/dam/jcr%3A509c8d5f-6aa1-496e-99f3-ccaf396970c7/2026%20Heraeus%20Electronics%20Soldering%20vs%20Sintering%20Whitepaper.pdf",
+      "https://www.heraeus-medevio.com/en/about-heraeus-medevio/locations/",
+      "https://www.heraeus.com/en/about-heraeus/heraeus-worldwide/",
+      "https://www.heraeus.com/en/about-heraeus/heraeus-worldwide/?location=3147"
+    ]
+  },
+  {
+    "provider_name": "Heraeus Electronics",
+    "component_context": [
+      "Bond wires",
+      "Drawn ultra-fine Au/Cu/Pd-Cu/Al wire",
+      "Ruthenium Dioxide (RuO2) Thick-Film Resistive Paste"
+    ],
+    "query": "Heraeus Electronics official manufacturing plants production sites locations Bond wires",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.heraeus-electronics.com/en/about-heraeus-electronics/about-us/locations/",
+      "https://www.heraeus-printed-electronics.com/dam/jcr%3A9f076872-d47b-49e4-9aff-11f363c15a11/Advanced_Packaging_Continuing_A_Strong_Bond_ENG.pdf",
+      "https://www.heraeus-electronics.com/dam/jcr%3A509c8d5f-6aa1-496e-99f3-ccaf396970c7/2026%20Heraeus%20Electronics%20Soldering%20vs%20Sintering%20Whitepaper.pdf",
+      "https://www.heraeus.com/media/media/het/doc_het/brochures_en_1/Advanced_Packaging_Continuing_A_Strong_Bond_ENG.pdf",
+      "https://www.heraeus-electronics.com/dam/jcr%3A68f7e50e-2026-43e8-bba0-1341962aa3bb/Multisites_ISO%2045001%202018.pdf",
+      "https://www.heraeus.com/en/about-heraeus/heraeus-worldwide/",
+      "https://www.heraeus.com/en/about-heraeus/heraeus-worldwide/?location=3147",
+      "https://www.heraeus-electronics.com/en/about-heraeus-electronics/"
+    ]
+  },
+  {
+    "provider_name": "Kangqiang",
+    "component_context": [
+      "Bond wires",
+      "Lead frames"
+    ],
+    "query": "Kangqiang official manufacturing plants production sites locations Bond wires",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://en.kangqiang.com/",
+      "https://en.kangqiang.com/contact.html",
+      "https://en.kangqiang.com.cn/",
+      "https://en.kangqiang.com.cn/about/2672.html",
+      "https://en.kangqiang.com/about/14222038.html",
+      "https://en.kangqiang.com/products.html",
+      "https://www.bse.cn/disclosure/2023/2023-06-30/1688115742_278155.pdf",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1218/2024121800031.pdf"
+    ]
+  },
+  {
+    "provider_name": "Nippon Micro",
+    "component_context": [
+      "Bond wires"
+    ],
+    "query": "Nippon Micro official manufacturing plants production sites locations Bond wires",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.nmc-net.co.jp/en/",
+      "https://seipi.org.ph/wp-content/uploads/2024/12/DPA-SEIPI-Members-Catalogue_V65_20241210_1.pdf",
+      "https://www.theworldfolio.com/interviews/how-nippon-micrometal-corp-strengthens-global-leadership-in-semiconductor-bonding-wire-technology/7182/",
+      "https://www.nmc-net.co.jp/wp-content/uploads/2025/11/Japan-NW_Nippon-Micrometal_v7.pdf",
+      "https://www.nscm.nipponsteel.com/document/pdf/company/corporate_profile_abridged_edition_E_202504.pdf",
+      "https://www.nip.co.jp/ir/.assets/73-jigyouhoukoku.pdf",
+      "https://www.nmc-net.co.jp/wp-content/uploads/2025/11/newsweek_2025_11_28_INTL-NMC%E8%A8%98%E4%BA%8B%E3%83%9A%E3%83%BC%E3%82%B8-.pdf",
+      "https://nscm.nipponsteel.com/english/bonding_wire/index.html"
+    ]
+  },
+  {
+    "provider_name": "Tanaka Denshi",
+    "component_context": [
+      "Bond wires"
+    ],
+    "query": "Tanaka Denshi official manufacturing plants production sites locations Bond wires",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.tanaka.co.jp/english/company/group/td/",
+      "https://www.tanaka.co.jp/english/company/group/tec/",
+      "https://find-and-update.company-information.service.gov.uk/company/FC031164/filing-history/MzE4NTA1NjIwMmFkaXF6a2N4/document",
+      "https://s3.eu-west-2.amazonaws.com/document-api-images-live.ch.gov.uk/docs/8gHOvIO-gAQPev6WzTQjl3FQvnezHSC-6_8n89ReRGY/application-pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWRGBDBV3DL23ABT3%2F20261123%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261123T195717Z&X-Amz-Expires=60&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMiJHMEUCIBZCgmjrOJpDhY91lK8rySQxTQse%2Fp1tC7Zc3zLGhNIsAiEA2y%2FRvOzkL3v3KGmu%2Fv01VIZx%2BE9D3ymbHNkW5FcEdzAqgQQIeRAFGgw0NDkyMjkwMzI4MjIiDGdlVfn%2B%2FYPuTSEChCreA1vhG1a7xazXky8okUyzu3rEYGRJrkEg6Qdi4vaLKW8IDr8fuNfQD1ai7%2BCzSiXcdXB6Muvhj84H4fC366HRv70ZBG3fUnO0Z706O1b1PT69PfPPmJ3Zl3qwnlzvfDyXmZubVQ%2BWbBDNS12mkLZh0wUaKHK%2FC4yqgaSuFtimBalTiPl44F%2BHFagfZpstXk29aGqDJDCNjK1ARWE%2F5nLUf4uE5SH3sDpOhmwDOb4OjgoClYLrKOBOpzRfLjIA6%2FqJ0gT%2FT9NrLdPVyZooRIMLJ3TPIsQ9xRSAK3nm1EZsBEla2gr7w1V1ZsU58VMRYSipveAFhBFXe%2BwEn4ukTJiud3w8IYyDzYF4KPwbM9Y4lclPRZuGeRJhXPv2AOzf0dpBHfyLcjDpfO%2FrVDMbtKgqsS8mJAxbRLc1QlMseyNrVkV20PzFGF%2BuTXuk%2FX7nPS6Ub9bad1lQYDNOOfmRWKTkLQFg49lKuI2vla8X9Hr5VrONsD%2FGIuACXJzOTH8HmTZjL%2F9pp%2F2GzdEq9r%2Ff0Tf9SO2ixakEkKlSsLzQBPEns1IzWVJWXAT8iCgoGG0faA1Q8%2BH1rHcSZcRDoPI7DjvUfD3cGy%2BVppRLaWi0294BjDZOcrtU04DieDqhDuvegWsw%2BciR2AY6pQHU%2BMlXalnpnWWH070aLNaZDoQqC5WtZRhkiUuj0P2JVjHa%2B3yVN2TltaQ8m%2FrdNPUQwzEu3e%2B%2BKd3tjozqU4zHTpTPRaW1ZMvt2wDXHemriTZouofKHySdVFx1KZ6CIAkcf4RbG8iWUNlIkAtUXALTi65Wnasnm%2BRSKi8IEgYZh15G8byvDu4JQRyfriEAlAhqrCseksBuFa0VefckcLO5qU7v3bo%3D&X-Amz-Signature=540ebc7a470f44dff056357bd111c6d33d7407957b0731c11d4f50ba8e492deb&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22companies_house_document.pdf%22",
+      "https://www.tanaka.com.cn/elements/article64/",
+      "https://wovn-origin.tanaka-preciousmetals.com/en/guide/column/article64.html",
+      "https://www.tanaka.co.jp/company/assets/pdf/group_guide_en.pdf",
+      "https://www.tanaka.co.jp/english/assets/pdf/sustainability/csr/csr_2013.pdf"
+    ]
+  },
+  {
+    "provider_name": "YesDo",
+    "component_context": [
+      "Bond wires"
+    ],
+    "query": "YesDo official manufacturing plants production sites locations Bond wires",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://data.cbonds.com/stock_documents/199693/7549-22dd0688ece88151efe4ec572b9ead78.pdf",
+      "https://www.semi.org/en/resources/ecs-directory/yantai-yesno-electronic-materials",
+      "https://www.yadooem.com/brand-story/",
+      "https://docs.publicnow.com/viewDoc.aspx?filename=109644%5CEXT%5C30A2BBAA3ED42C313AE3F2D2F4C7E2FF49149644_04C5E36A2DCEA6994DC89883FA212EF752BB218F.PDF",
+      "https://www.semi.org/ko/resources/ecs-directory/yantai-yesno-electronic-materials",
+      "https://3s-robotics.com/download/5084/",
+      "https://abachy.com/catalog/materials/assembly-materials/interconnect/bonding-wire/yantai-yesdo-electronic-materials-co-ltd",
+      "https://www.linkedin.com/company/guangzhou-guan-su-ge-technology-co.-ltd"
+    ]
+  },
+  {
+    "provider_name": "Fujimi",
+    "component_context": [
+      "Chemical slurries",
+      "CMP materials",
+      "Colloidal silica"
+    ],
+    "query": "Fujimi official manufacturing plants production sites locations Chemical slurries",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.fujimiinc.co.jp/english/company/network.html",
+      "https://www.ircms.jp/irexport/fujimiinc/file/a82238400096329.pdf",
+      "https://www.ircms.jp/irexport/fujimiinc/file/a80233851647746.pdf",
+      "https://www.ircms.jp/irexport/fujimiinc/file/a82238391744634.pdf",
+      "https://www.ircms.jp/irexport/fujimiinc/file/a79408118033399.pdf",
+      "https://www.fujimi.com/about/corporate-information/",
+      "https://www.ircms.jp/irexport/fujimiinc/file/a79408144523422.pdf",
+      "https://www.fujimiinc.co.jp/english/company/network.html?print=printcss"
+    ]
+  },
+  {
+    "provider_name": "Olin",
+    "component_context": [
+      "Chlorine",
+      "Potassium hydroxide",
+      "Sodium hydroxide (caustic soda)"
+    ],
+    "query": "Olin official manufacturing plants production sites locations Chlorine",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://olinchloralkali.com/about-us/locations/",
+      "https://olin.com/about-olin/history/",
+      "https://waterlinetechnologies.com/content/Olin/Olin_NaClO_Handbook.pdf",
+      "https://olin.com/about-olin/products-improving-our-world/",
+      "https://www.sec.gov/Archives/edgar/data/74303/000007430325000023/oln-20241231.htm",
+      "https://www.sec.gov/Archives/edgar/data/74303/000007430326000027/oln-20251231.htm",
+      "https://fintel.io/doc/sec-olin-corporation-74303-10k-2026-february-20-20504-8465",
+      "https://waterlinetechnologies.com/content/Olin/Olin_NaClO_Handbook.pdf?srsltid=AfmBOorlXR_UhayVn3GNIZXcmxsjEctP7P7Lp10eNwI0kFZMSlD1XQg0"
+    ]
+  },
+  {
+    "provider_name": "Anji",
+    "component_context": [
+      "CMP materials"
+    ],
+    "query": "Anji official manufacturing plants production sites locations CMP materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.anjimicro.com/en/hexinnengli.html",
+      "https://static.cninfo.com.cn/finalpage/2026-08-27/1225513853.PDF",
+      "https://semiconductorx.com/semiconductor-cmp-slurries.html",
+      "https://www.anjimicro.com/uploadfile/202504/e2664920d51a348.pdf",
+      "https://www.anjimicro.com/uploadfile/202405/370be0645da2468.pdf",
+      "https://www.anjimicro.com/en/",
+      "https://www.anjimicro.com/en/zoujinanji.html",
+      "https://expo.semi.org/china2026/Public/eBooth.aspx?BoothID=639170&FromPage=Exhibitors.aspx&IndexInList=47&ListByBooth=true&ParentBoothID="
+    ]
+  },
+  {
+    "provider_name": "CMC",
+    "component_context": [
+      "CMP materials"
+    ],
+    "query": "CMC official manufacturing plants production sites locations CMP materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://esg.cmc.com/wp-content/uploads/CMC-ESG-Report-2025.pdf",
+      "https://www.china-motor.com.tw/cmwspublished/layout2/2022ESG-EN-final.pdf",
+      "https://ir.fujifilm.com/en/investors/ir-materials/presentations/session/main/0118/teaserItems1/0/tableContents/01112/multiFileUpload2_1/link/ff_presentation_20250421_002e.pdf",
+      "https://ir.fujifilm.com/en/investors/ir-materials/presentations/session/main/0118/teaserItems1/0/tableContents/01112/multiFileUpload2_2/link/ff_presentation_20250421_001e.pdf",
+      "https://www.cmc-motor.com/cmwspublished/layout1/2023ESG_EN_final.pdf",
+      "https://www.sec.gov/Archives/edgar/data/22444/000002244426000065/cmc-20260831.htm",
+      "https://www.entegris.com/content/dam/web/about-us/corporate-overview/documents/certificates/iso-90012015-aurora.pdf",
+      "https://www.linkedin.com/company/cmc-materials"
+    ]
+  },
+  {
+    "provider_name": "DuPont",
+    "component_context": [
+      "CMP materials",
+      "Photoresists"
+    ],
+    "query": "DuPont official manufacturing plants production sites locations CMP materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.dupont.com/content/dam/dupont/amer/us/en/vespel/public/documents/en/DuPont-ISO14001-Certificate-expires-20-Jan-2027.pdf",
+      "https://www.dupont.com/content/dupont/amer/us/en/corporate-homepage/locations.html",
+      "https://www.dupont.com/locations.html",
+      "https://www.dupont.com/content/dam/dupont/amer/us/en/corporate/about-us/Sustainability/2026Sustainability/DuPont_2026SustainabilityReport.pdf",
+      "https://materials.proxyvote.com/default.aspx?docHostID=LL4YsAHh6R31eIPo2sqHEwpXzSVtQmIjEw3b662PbNw%3D&encr=Y",
+      "https://business.otrecord.news/company/dd/",
+      "https://www.dupont.com/content/dam/dupont/amer/us/en/water-solutions/public/documents/en/DuPont-ISO-14001-2015-Cert-45-D01373-en.pdf",
+      "https://www.dupont.com/locations.html.html"
+    ]
+  },
+  {
+    "provider_name": "Fujifilm Electronic Materials",
+    "component_context": [
+      "CMP materials",
+      "Photoresists"
+    ],
+    "query": "Fujifilm Electronic Materials official manufacturing plants production sites locations CMP materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.fujifilm.com/em-global/en/careers/global",
+      "https://ir.fujifilm.com/en/investors/ir-materials/integrated-report/main/010/teaserItems1/01111/linkList/00/link/fh_2025_alle_a4.pdf",
+      "https://ir.fujifilm.com/en/investors/ir-materials/earnings-presentations/main/01112/teaserItems4/0/linkList/0/link/ff_fy2024q3_001e.pdf",
+      "https://ir.fujifilm.com/en/investors/ir-materials/integrated-report/main/00/teaserItems1/01/linkList/0/link/fh_2025_alle_a4.pdf",
+      "https://ir.fujifilm.com/en/investors/ir-materials/integrated-report/main/00/teaserItems1/01/linkList/0/link/ff_IR_2020%20_all_a4_e.pdf",
+      "https://ir.fujifilm.com/en/investors/ir-materials/integrated-report/main/015/teaserItems1/011111115/linkList/0/link/fh_2025_002e.pdf",
+      "https://ir.fujifilm.com/en/investors/ir-materials/earnings-presentations/main/01111/teaserItems4/0/linkList/0/link/ff_20243q3_001e.pdf",
+      "https://www.fujifilm.com/pl/en/news/hq/14044"
+    ]
+  },
+  {
+    "provider_name": "Hitachi",
+    "component_context": [
+      "CMP materials",
+      "Die attach materials",
+      "Encapsulation resins"
+    ],
+    "query": "Hitachi official manufacturing plants production sites locations CMP materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.hitachi.com/content/dam/hitachi/global/en/ir/media/smeet/155/invite/240527.pdf",
+      "https://www.hitachicm.com/global/en/sustainability/environment/location/",
+      "https://www-hitachi-com.itdweb.ext.hitachi.co.jp/smeet-e/156/invite/250528.pdf",
+      "https://www.hitachicm.com/content/dam/hitachicm/global/en/ir/library/results/docs/20240424-HCM-CV-E.pdf",
+      "https://www.hitachicm.com/global/en/corporate/production-quality/",
+      "https://www.hitachicm.com/global/en/sustainability/environment/location/fy2024/",
+      "https://www.hitachi-hightech.com/global/en/sustainability/environment/tnfd/strategy/group.html",
+      "https://www.hitachicm.com/content/dam/hitachicm/global/en/ir/library/securities-report/docs/Annual-Securities-Report-61st-term.pdf"
+    ]
+  },
+  {
+    "provider_name": "Hubei Dinglong",
+    "component_context": [
+      "CMP materials"
+    ],
+    "query": "Hubei Dinglong official manufacturing plants production sites locations CMP materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://static.cninfo.com.cn/finalpage/2025-04-29/1223367500.PDF",
+      "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-06-09/95428842-9b60-48c3-8f8a-bcd867fe55bf.PDF",
+      "https://pdf.dfcfw.com/pdf/H2_AN202603261820773685_1.pdf",
+      "https://static.cninfo.com.cn/finalpage/2026-06-05/1225351780.PDF",
+      "https://www.action-intell.com/wp-content/uploads/2025/04/Dinglong-FY-2024-annual-report.pdf",
+      "https://static.cninfo.com.cn/finalpage/2025-11-01/1224780102.PDF",
+      "https://financialfilings.com/filings/hubei-dinglong-coltd/annual-report/2026/35507006/",
+      "https://english.wuhan.gov.cn/H_1/NWP/202607/t20260703_2816456.shtml"
+    ]
+  },
+  {
+    "provider_name": "Merck Group",
+    "component_context": [
+      "CMP materials",
+      "Electronic gases"
+    ],
+    "query": "Merck Group official manufacturing plants production sites locations CMP materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sec.gov/Archives/edgar/data/310158/000031015826000063/mrk-20251231.htm",
+      "https://www.emdgroup.com/company/responsibility/us/regulations-and-guidelines/Certificate-ISO-45001-EN.pdf",
+      "https://www.merckgroup.com/company/responsibility/us/regulations-and-guidelines/Certificate-ISO-14001-EN.pdf",
+      "https://www.emdgroup.com/investors/reports-and-financials/earnings-materials/2024-q4/us/2024-Q4-Report-NA.pdf",
+      "https://www.reports.emdgroup.com/en/annualreport/2024/_assets/downloads/ser-single-entity-report-emd-ar24.pdf",
+      "https://www.emdgroup.com/investors/reports-and-financials/earnings-materials/2024-q4/us/2024-Single-Entity-Report-NA.pdf",
+      "https://www.reports.emdgroup.com/en/annualreport/2024/management-report/sustainability-statement/environment/biodiversity-and-ecosystems-e4.html",
+      "https://www.merckmillipore.com/IN/en/campaigns/special-content/bulk-and-custom-services"
+    ]
+  },
+  {
+    "provider_name": "Pureon",
+    "component_context": [
+      "CMP materials"
+    ],
+    "query": "Pureon official manufacturing plants production sites locations CMP materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://pureon.com/wp-content/uploads/2024/09/PUREON-INC-18330328-Final-Certificate.pdf",
+      "https://www.linkedin.com/company/pureongroup",
+      "https://ca.linkedin.com/company/pureongroup",
+      "https://craft.co/microdiamant",
+      "https://en.industryarena.com/pureon/locations",
+      "https://www.photonics.com/Buyers-Guide/Pureon-AG/cg51/ca66300/c32600",
+      "https://www.photonics.com/Buyers-Guide/Pureon-AG/ca52325/c32600",
+      "https://www.photonics.com/Buyers-Guide/Pureon-AG/ca19125/c32600"
+    ]
+  },
+  {
+    "provider_name": "JX Advanced Metals",
+    "component_context": [
+      "Copper",
+      "Sputtering targets",
+      "Tantalum"
+    ],
+    "query": "JX Advanced Metals official manufacturing plants production sites locations Copper",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.jx-nmm.com/english/ir/integrated/pdf/report2025_e_full_interactive.pdf",
+      "https://wwwcdn.furuchi.co.jp/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+      "https://www.jx-nmm.com/english/sustainability/pdf/report2024_e_full_interactive.pdf",
+      "https://www.jx-nmm.com/english/sustainability/esg-data/",
+      "https://financialfilings.com/filings/jx-advanced-metals-corporation/annual-report/2026/73275027/",
+      "https://www.jx-nmm.com/english/company/network/",
+      "https://www.jx-nmm.com/english/sustainabilityreport/download/2024/esg-data/",
+      "https://www.jx-nmm.com/english/sustainability/materiality/governance/quality/"
+    ]
+  },
+  {
+    "provider_name": "Grikin",
+    "component_context": [
+      "Deposition materials"
+    ],
+    "query": "Grikin official manufacturing plants production sites locations Deposition materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://expo.semi.org/taiwan2026/public/eBooth.aspx?BoothID=651939&FromPage=Exhibitors.aspx&IndexInList=357&ListByBooth=true&Nav=False&ParentBoothID=",
+      "https://www.sipm.com.cn/news/detail/3243?lng=en",
+      "https://www.greiner-gpi.com/en/Greiner-Packaging/Locations",
+      "https://website-prod-cd-hq-ingress.gedeonrichter.com/en/about/operations/manufacturing",
+      "https://www.greiner-gpi.com/item-download_34513?page=7",
+      "https://grikin.en.ec21.com/",
+      "https://www.greiner.com/fileadmin/CONTENT/Greiner/PDFs/EN/Greiner_Annual_and_Sustainability_Report_2023.pdf",
+      "https://rexelian.com/wp-content/uploads/2025/06/GCR-ANNUAL-SUSTAINABILITY-REPORT-2024-VF.pdf"
+    ]
+  },
+  {
+    "provider_name": "Honeywell",
+    "component_context": [
+      "Deposition materials",
+      "Wet chemicals"
+    ],
+    "query": "Honeywell official manufacturing plants production sites locations Deposition materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://advancedmaterials.honeywell.com/content/dam/advancedmaterials/en/documents/document-lists/electronic-materials/marketing/ThermalInterfaceMaterials-Electronics-Brochure.pdf",
+      "https://fortune.com/company-assets/1793/quartr/annual-report-6b71c-2026-04-10-12-38-45.pdf",
+      "https://honeywell.gcs-web.com/static-files/c7f9f713-d9e0-4a93-9b2d-a90f1ab588cb",
+      "https://honeywell-65-prod.adobecqms.net/content/dam/advancedmaterials/en/documents/document-lists/electronic-materials/marketing/ThermalInterfaceMaterials-Electronics-Brochure.pdf",
+      "https://companiesmarketcap.com/honeywell/sec-reports-10k/0000773840-26-000013/",
+      "https://advancedmaterials.honeywell.com/content/dam/advancedmaterials/en/documents/document-lists/brochures/biopharma-high-stakes-high-standards.pdf",
+      "https://advancedmaterials.honeywell.com/content/dam/advancedmaterials/en/documents/gated/semiconductor-materials/hon-ess-ais-semiconductor-materials-pcm-for-ev-brochure.pdf",
+      "https://www.otcmarkets.com/filing/html?guid=dgF-kKQ9u5o4Ach&id=19520149"
+    ]
+  },
+  {
+    "provider_name": "JX Nippon",
+    "component_context": [
+      "Deposition materials"
+    ],
+    "query": "JX Nippon official manufacturing plants production sites locations Deposition materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.jx-nmm.com/sustainabilityreport/download/2025/materiality/governance/quality/",
+      "https://wwwcdn.furuchi.co.jp/english/sustainability/pdf/report2025_e_full_interactive_r2.pdf",
+      "https://www.jx-nmm.com/english/company/pdf/corporate_profile_en.pdf",
+      "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260403/20260401596522.pdf",
+      "https://www.jx-nmm.com/english/sustainabilityreport/pdf/report2024_e_full.pdf",
+      "https://www.jx-nmm.com/english/company/network/internal/?sort-category=resource",
+      "https://www.jx-nmm.com/english/sustainability/pdf/report2024_e_full_interactive.pdf",
+      "https://www.jx-nmm.com/sustainabilityreport/download/2023/materiality/governance/strengthen.html"
+    ]
+  },
+  {
+    "provider_name": "KFMI",
+    "component_context": [
+      "Deposition materials"
+    ],
+    "query": "KFMI official manufacturing plants production sites locations Deposition materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://szse.io/companies/300666-konfoong-materials-international-co-ltd",
+      "https://www.dnb.com/business-directory/company-profiles/konfoong-materials-international-co-ltd.498fbf4fa97a1163065a3653bff924d8",
+      "https://kfmi-japan.com/manufacturingequipment/",
+      "https://craft.co/konfoong-materials-international",
+      "https://ir.fujifilm.com/en/investors/ir-materials/earnings-presentations/main/01112/teaserItems4/0/linkList/00/link/ff_fy2024q3_001e_ts.pdf",
+      "https://sciengineeredmaterials.com/wp-content/uploads/2020/02/Fourth-Quarter-2018-Results.pdf",
+      "https://ir.ulvac.co.jp/en/ir/newsrelease/auto_20250813540706/pdfFile.pdf",
+      "https://www.seetaoe.com/details/192042.html"
+    ]
+  },
+  {
+    "provider_name": "Praxair",
+    "component_context": [
+      "Deposition materials"
+    ],
+    "query": "Praxair official manufacturing plants production sites locations Deposition materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://data.eulerpool.com/839050be33fb67a6619cef8498267f84cdc931ea2e8cf77da7705ac735f4c789.pdf",
+      "https://www.sec.gov/Archives/edgar/data/884905/000088490513000011/pxq4201210k.htm",
+      "https://www.sec.gov/Archives/edgar/data/884905/000088490517000007/px201610-k.htm",
+      "https://www.sec.gov/Archives/edgar/data/884905/000119312510038766/d10k.htm",
+      "https://pdiimages.praxair.com/PDIB2CImages/pxd-pdf/Spec-Gas-Catalog.pdf",
+      "https://www.sec.gov/Archives/edgar/data/884905/000119312511043054/d10k.htm",
+      "https://wikirate-production-storage.fra1.cdn.digitaloceanspaces.com/files/4632709/17723606.pdf",
+      "https://www.sec.gov/Archives/edgar/data/884905/000088490515000027/px201410ka.htm"
+    ]
+  },
+  {
+    "provider_name": "Tosoh SMD",
+    "component_context": [
+      "Deposition materials"
+    ],
+    "query": "Tosoh SMD official manufacturing plants production sites locations Deposition materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.tosohbioscience.com/US-EN-diagnostics/company/parent-company",
+      "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260527/20260526548727.pdf",
+      "https://financialfilings.com/filings/tosoh-corporation/annual-report/2026/73239962/",
+      "https://www.tosoh.co.jp/product/functionality/al_target.html",
+      "https://www.tosoh.co.jp/product/functionality/ti_target.html",
+      "https://www.tosohbioscience.com/JP-EN-separations/about-tosoh-bioscience-sep",
+      "https://www.tqgj.co.jp/en/company/outline/",
+      "https://www.tqgj.co.jp/en/company/affiliategroup/"
+    ]
+  },
+  {
+    "provider_name": "Darbond",
+    "component_context": [
+      "Die attach materials"
+    ],
+    "query": "Darbond official manufacturing plants production sites locations Die attach materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://en.darbond.com/index/about.html",
+      "https://en.darbond.com/index/contact.html",
+      "https://www.linkedin.com/company/darbond-technology-international-ltd",
+      "https://expo.semi.org/china2026/Public/eBooth.aspx?BoothID=662394&FromPage=Exhibitors.aspx&IndexInList=859&ListByBooth=true&ParentBoothID=",
+      "https://pdf.dfcfw.com/pdf/H2_AN202604101821125448_1.pdf?t=1778969243239",
+      "https://dataclouds.cninfo.com.cn/shgonggao/2025/2025-04-19/eb4f83c81c5111f0a6a8fa163e957f7a.pdf",
+      "https://www.linkedin.com/posts/darbond-technology-international-ltd_darbond-thailand-production-facility-opening-activity-7439475991418384385-Hsuc",
+      "https://en.darbond.com/"
+    ]
+  },
+  {
+    "provider_name": "Henkel",
+    "component_context": [
+      "Die attach materials",
+      "Encapsulation resins",
+      "Silver-Filled Conductive Epoxy Die-Attach Adhesive"
+    ],
+    "query": "Henkel official manufacturing plants production sites locations Die attach materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.henkel.com/resource/blob/2131544/eae43b38b5da9c89268a532af1dfbe4f/data/2025-annual-report.pdf",
+      "https://www.henkel.com/resource/blob/2043318/9b8425a944b077ab7165b775398c72a1/data/2024-annual-report.pdf",
+      "https://docs.publicnow.com/viewDoc?filename=21419%5CEXT%5C5E1D3A9DAE3FE070C7165B0EEB00D7794FCD6978_95AF4689E163124F44B21CF62F52D6BE7E2C5B32.PDF",
+      "https://financialfilings.com/filings/henkel-ag-co-kgaa/annual-report/2026/32928858/",
+      "https://www.henkel.com/resource/blob/2131548/8c6e389730fc7e8d560e664022eaa9b9/data/2025-geschaeftsbericht.pdf",
+      "https://www.more-ir.de/download/companies/Henkel/Annual%20Reports/DE0006048432-JA-2024-EQ-E-00.pdf",
+      "https://www.henkel.com/resource/blob/2043308/44441de22bcd27879af8d79d7cde562b/data/2024-geschaeftsbericht.pdf",
+      "https://www.henkel.in/press-media/press-releases-and-kits/2026-08-19-henkel-launches-loctite-ablestik-cdf900-series-conductive-die-attach-film-2223146"
+    ]
+  },
+  {
+    "provider_name": "Hysol Huawei",
+    "component_context": [
+      "Die attach materials"
+    ],
+    "query": "Hysol Huawei official manufacturing plants production sites locations Die attach materials",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www1.hkexnews.hk/app/sehk/2025/107816/documents/sehk25102801803.pdf",
+      "https://www.maigoo.com/brand/1630171.html",
+      "https://www.cnpp.cn/pinpai/1630171.html",
+      "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2024-10/241004_Whitney_Export_Controls.pdf?VersionId=1333avUXqn8.aHkwy1hPw2PQzPHU.UG.",
+      "https://www.govinfo.gov/content/pkg/CFR-2025-title15-vol2/xhtml/CFR-2025-title15-vol2-part744.html",
+      "https://static.cninfo.com.cn/finalpage/2025-09-11/1224651038.PDF",
+      "https://app.dealroom.co/companies/hysol_huawei_electronic",
+      "https://www.nxp.com.cn/testreports/360000006709_ZT_ROHS.pdf"
+    ]
+  },
+  {
+    "provider_name": "Air Products",
+    "component_context": [
+      "Electronic gases"
+    ],
+    "query": "Air Products official manufacturing plants production sites locations Electronic gases",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://investors.airproducts.com/static-files/82b317e6-4a4b-4b56-8a30-28886281c98a",
+      "https://filings.tools/apd/10-k/2026-09-30/diff",
+      "https://investors.airproducts.com/static-files/5de3ba41-1402-4584-b4e0-522e6a399b5a",
+      "https://financialfilings.com/filings/air-products-chemicals-inc/annual-report/2025/10412692/",
+      "https://filings.tools/apd/10-k/2026-09-30",
+      "https://supplychain.wemakeithere.org/manufacturers/air-products-and-chemicals-inc-qqe03wxc",
+      "https://investors.airproducts.com/static-files/28f9ebbc-a249-41fb-ab64-8df3c341210c",
+      "https://fintel.io/doc/sec-air-products-chemicals-inc-2969-10k-2025-november-20-20412-6308"
+    ]
+  },
+  {
+    "provider_name": "BASF",
+    "component_context": [
+      "Electronic gases",
+      "Ethylene / propylene glycol carrier",
+      "Wet chemicals"
+    ],
+    "query": "BASF official manufacturing plants production sites locations Electronic gases",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.basf.com/dam/jcr%3A3ac6d42f-b06c-432d-9edf-94a12882bd40/basf-factbook-2025.pdf",
+      "https://www.basf.com/dam/jcr%3A3ac6d42f-b06c-432d-9edf-94a12882bd40/basf/www/global/documents/en/investor-relations/calendar-and-publications/Factbook/BASF-Factbook_2025.pdf",
+      "https://www.basf.com/global/en/who-we-are/organization/locations",
+      "https://www.basf.com/global/en/investors/basf-at-a-glance/verbund/sites-worldwide",
+      "https://www.basf.com/global/en/investors/calendar-and-publications/factbook/segments/industrial-solutions/dispersions-and-resins",
+      "https://www.basf.com/dam/jcr%3Acd6a53ae-cf3d-4bd4-aeb2-219449ee6f48/basf/www/global/documents/en/investor-relations/calendar-and-publications/Factbook/BASF-Factbook_2026.pdf?vid=nQHKK8xfwcz7ZQyE6uUBDdHYdZxeJedu",
+      "https://www.basf.com/dam/jcr%3A3ac6d42f-b06c-432d-9edf-94a12882bd40/basf/www/global/documents/en/investor-relations/calendar-and-publications/Factbook/BASF-Factbook_2025.pdf?vid=5JdjNHXhWZOUTfGUzSugWOCMz0ywUUha",
+      "https://www.basf.com/dam/jcr%3A61d09fac-5c7c-30de-b74a-f5787a0a78a7/basf/www/global/documents/en/investor-relations/calendar-and-publications/Factbook/BASF_Factbook_2022.pdf"
+    ]
+  },
+  {
+    "provider_name": "Huate Gas",
+    "component_context": [
+      "Electronic gases"
+    ],
+    "query": "Huate Gas official manufacturing plants production sites locations Electronic gases",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://huategas.com/en/Company/list.aspx",
+      "https://huategas.com/en/",
+      "https://huate.store.bossgoo.com/aboutus.html",
+      "https://www.huategas.com/en/BusinessProfile/index.aspx",
+      "https://www.huategas.com/en/SiteMap/index.aspx",
+      "https://static.cninfo.com.cn/finalpage/2026-08-26/1225501693.PDF",
+      "https://shuju.nantong.gov.cn/ntsxzspj/upload/100c67b4-1c2a-4862-ab54-40b02ec3dae3.pdf",
+      "https://huategas.com/en/LegalDeclaration/index.aspx"
+    ]
+  },
+  {
+    "provider_name": "Jinhong Gas",
+    "component_context": [
+      "Electronic gases"
+    ],
+    "query": "Jinhong Gas official manufacturing plants production sites locations Electronic gases",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://jh-gas.com/wp-content/uploads/2025/03/Jinhong-Oversea-Business.pdf",
+      "https://static.cninfo.com.cn/finalpage/2026-08-26/1225505557.PDF",
+      "https://jh-gas.com/wp-content/uploads/2024/09/Jinhong-Oversea-Business.pdf",
+      "https://expo.semi.org/taiwan2026/Public/eBooth.aspx?BoothID=650710",
+      "https://static.cninfo.com.cn/finalpage/2023-02-15/1215864421.PDF",
+      "https://www.jinhong-gas.com.sg/",
+      "https://jh-gas.com/",
+      "https://semicon-tw-2026.omnimatcher.com/info/exhibitors/jinhong-gas-co-ltd.en.html"
+    ]
+  },
+  {
+    "provider_name": "Nata Opto-electronic Material",
+    "component_context": [
+      "Electronic gases",
+      "Photoresists"
+    ],
+    "query": "Nata Opto-electronic Material official manufacturing plants production sites locations Electronic gases",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://sonatamaterials.com/Nata-Overview/",
+      "https://www.sonatamaterials.com/",
+      "https://static.cninfo.com.cn/finalpage/2022-11-22/1215167748.PDF",
+      "https://sonatamaterials.com/",
+      "https://financialfilings.com/filings/jiangsu-nata-opto-electronic-material-coltd/annual-report/2026/36774607/",
+      "https://sonatamaterials.com/Marketing-Network/",
+      "https://static.cninfo.com.cn/finalpage/2020-11-06/1208707531.PDF",
+      "https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28267.pdf"
+    ]
+  },
+  {
+    "provider_name": "PERIC",
+    "component_context": [
+      "Electronic gases"
+    ],
+    "query": "PERIC official manufacturing plants production sites locations Electronic gases",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://h2peric.com/EN/",
+      "https://www.h2peric.com/EN/",
+      "https://www.peric718.com/EN/",
+      "https://www.peric718.com/About-us/",
+      "https://www.h2peric.com/Company-Profile/",
+      "https://financialfilings.com/filings/peric-special-gases-co-ltd/annual-report/2026/66595977/",
+      "https://www.peric718.com/Contact-us/",
+      "https://eur-lex.europa.eu/eli/dec_impl/2026/1382/oj/eng/pdf"
+    ]
+  },
+  {
+    "provider_name": "HHCK",
+    "component_context": [
+      "Encapsulation resins"
+    ],
+    "query": "HHCK official manufacturing plants production sites locations Encapsulation resins",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://dataclouds.cninfo.com.cn/shgonggao/2025/2025-08-28/0546cc35831a11f099fffa163e957f7a.pdf",
+      "https://www.silmore.com.vn/brands/hhck",
+      "https://next.henkel-adhesives.com/int/en/certificates.html",
+      "https://file.finance.sina.com.cn/211.154.219.97%3A9494/MRGG/CNSESH_STOCK/2026/2026-3/2026-03-18/12000695.PDF",
+      "https://spdf.askci.com/836975-%E8%82%A1%E8%BD%AC%E4%B9%A6.pdf",
+      "https://static.cninfo.com.cn/finalpage/2023-03-16/1216128540.PDF",
+      "https://financialfilings.com/filings/jiangsu-hhck-advanced-materials-co-ltd/annual-report/2026/38463514/",
+      "https://financialfilings.com/filings/jiangsu-hhck-advanced-materials-co-ltd/annual-report/2025/38448610/"
+    ]
+  },
+  {
+    "provider_name": "Sinopaco",
+    "component_context": [
+      "Encapsulation resins"
+    ],
+    "query": "Sinopaco official manufacturing plants production sites locations Encapsulation resins",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sonoco.com/emea/products/metal-packaging",
+      "https://www.sonoco.com/locations",
+      "https://www.sonoco.com/na/products/metal-packaging",
+      "https://www.cnverify.com/company/Sinopaco-Corporation",
+      "https://www.sanyo-chemical.co.jp/eng/wp/wp-content/uploads/2022/10/product-overview__e.pdf",
+      "https://www.sonoco.com/emea/products/metal-packaging?lang=es",
+      "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000091767/86164b03-fedb-4066-9284-8cc26bd2b042.pdf",
+      "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000091767/31c4d366-56a4-4b32-b274-3e5c4805a80d.pdf"
+    ]
+  },
+  {
+    "provider_name": "INEOS Inovyn",
+    "component_context": [
+      "Epichlorohydrin"
+    ],
+    "query": "INEOS Inovyn official manufacturing plants production sites locations Epichlorohydrin",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.ineos.com/businesses/inovyn/about/sites-locations/",
+      "https://www.ineos.com/businesses/inovyn/locations/",
+      "https://ineos-styrolution.com/businesses/inovyn/about/sites-locations/",
+      "https://www.ineos.com/locations/",
+      "https://procurementcomposites.ineos.com/businesses/inovyn/about/sites-locations/",
+      "https://procurementcomposites.ineos.com/show-document/?bu=INEOS+Inovyn&docLanguage=EN&documentType=Technical+Data+Sheet&grade=Epichlorohydrin+standard+grade&version=ffade067dbf55517d22b053bef74dfdc",
+      "https://www.ineos.com/globalassets/investor-quattro-ir/public/annual-reports/ineos-quattro-holdings-limited---annual-report-2025.pdf",
+      "https://ifl.ineos.com/globalassets/ineos-group/businesses/ineos-inovyn-new/sustainability/2025-ineos-inovyn-sustainability-progress-report.pdf"
+    ]
+  },
+  {
+    "provider_name": "Momentive Technologies",
+    "component_context": [
+      "High-purity synthetic fused quartz crucible"
+    ],
+    "query": "Momentive Technologies official manufacturing plants production sites locations High-purity synthetic fused quartz crucible",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.momentivetech.com/about-us/corporate-governance/global-footprint",
+      "https://www.momentivetech.com/wp-content/uploads/2026/03/ISO9001-Corporate-Certificate-DQS-Exp-Aug-2027.pdf",
+      "https://www.momentive.com/content/dam/momentive/global/global-corporate-pages/sustainability-at-momentive/files/sustainability-report/2024%20Momentive%20Sustainability%20Report.pdf",
+      "https://www.momentive.com/content/dam/momentive/global/global-corporate-pages/sustainability-at-momentive/files/sustainability-report/momentive_2022_sustainability_report.pdf",
+      "https://www.momentivetech.com/about-us",
+      "https://www.momentivetech.com/products/crucibles/quartz-glass-crucibles",
+      "https://www.momentivetech.com/products/crucibles",
+      "https://scnisprodappdata.blob.core.windows.net/prod-drupal-artifacts/documents/pdf/Silquest%20PA1%20Webinar%20Slide%20Deck.pdf"
+    ]
+  },
+  {
+    "provider_name": "Solvay",
+    "component_context": [
+      "Hydrofluoric acid",
+      "Hydrogen peroxide (electronic grade)"
+    ],
+    "query": "Solvay official manufacturing plants production sites locations Hydrofluoric acid",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.solvay.com/en/solvay-around-the-world",
+      "https://www.solvay.com/sites/solvay_solvay/files/tridion/documents/Inorganic-Fluorides-en-de.pdf",
+      "https://www.solvay.com/sites/g/files/srpend221/files/tridion/documents/Inorganic-Fluorides-en-de.pdf",
+      "https://www.solvay.com/sites/solvay_solvay/files/2023-06/ISO%2014001%202015%202023-06-03%20englisch.pdf",
+      "https://www.solvay.com/en/our-company",
+      "https://www.solvay.com/en/solvay-around-the-world/belgium",
+      "https://www.solvay.com/sites/solvay_solvay/files/2023-04/Solvay-2022-annual-Integrated-Report.pdf",
+      "https://www.solvay.com/en/"
+    ]
+  },
+  {
+    "provider_name": "LANXESS",
+    "component_context": [
+      "Polystyrene-divinylbenzene ion-exchange resins"
+    ],
+    "query": "LANXESS official manufacturing plants production sites locations Polystyrene-divinylbenzene ion-exchange resins",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://lanxess.com/en/company/organization/locations/locations-worldwide",
+      "https://lanxess.com/-/media/project/lanxess/corporate-internet/investors/annual-stockholders-meeting/documents-for-the-stockholders-meeting/2010/2010-e/lanxess_ag_annual_group_financial_statements_and_group_management_report_2009_04.pdf?hash=68FE4598574FD6F293815AAED7A091D0&original=true",
+      "https://lanxess.com/-/media/project/lanxess/corporate-internet/investors/reporting/2024/lanxess_fact_book_2024.pdf",
+      "https://lanxess.com/-/media/project/lanxess/corporate-internet/investors/reporting/2024/lanxess_fact_book_2024.pdf?hash=7371D71205ADE7675430AADFC8DFF490&original=true",
+      "https://financialfilings.com/filings/lanxess-ag/annual-report/2025/5595798/",
+      "https://lanxess.com/-/media/project/lanxess/corporate-internet/company/subsidiaries/saltigo/iso-14001-2024-06-04-englisch-logo.pdf",
+      "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ%3AL_202602024",
+      "https://financialfilings.com/filings/lanxess-ag/annual-report/2025/5564804/"
+    ]
+  },
+  {
+    "provider_name": "Tokuyama",
+    "component_context": [
+      "Isopropyl alcohol",
+      "Trichlorosilane"
+    ],
+    "query": "Tokuyama official manufacturing plants production sites locations Isopropyl alcohol",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.tokuyama.co.jp/eng/csr/pdf/2025_tokuyama_tnfd_e.pdf",
+      "https://www.tokuyama.co.jp/company/address/japan.html",
+      "https://www.tokuyama.co.jp/eng/ir/pdf/AR2024_e_01.pdf",
+      "https://www.tokuyama.co.jp/company/overview.html",
+      "https://www.tokuyama.co.jp/eng/ir/pdf/AR2024_e.pdf",
+      "https://www.tokuyama.co.jp/eng/ir/pdf/AR2024-e-02.pdf",
+      "https://www.tokuyama.co.jp/eng/company/address/japan.html",
+      "https://www.tokuyama.co.jp/company/access.html"
+    ]
+  },
+  {
+    "provider_name": "ASM Pacific",
+    "component_context": [
+      "Lead frames"
+    ],
+    "query": "ASM Pacific official manufacturing plants production sites locations Lead frames",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.asm.com/media/3xuppljv/annual-report-2024-asm-final.pdf",
+      "https://d3pcsg2wjq9izr.cloudfront.net/files/44418/download/705641/1-1.pdf",
+      "https://www.asmpt.com/site/assets/files/59461/asmpt-q3-2020-investor-presentation.pdf",
+      "https://www.hkccma.net/asm-pacific-technology",
+      "https://aam-intl.com/aboutus/1",
+      "https://abc.aam.doany.com/aboutus/1",
+      "https://www.asm.com/media/hntgghal/2022_asm_annual_report.pdf",
+      "https://financialfilings.com/filings/asm-international-nv/annual-report/2026/32945698/"
+    ]
+  },
+  {
+    "provider_name": "Mitsui High-Tec",
+    "component_context": [
+      "Lead frames"
+    ],
+    "query": "Mitsui High-Tec official manufacturing plants production sites locations Lead frames",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://mitsui-high-tec.eu/global-network/",
+      "https://mht-canada.com/global-network/",
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0303/2025030300015.pdf",
+      "https://www.mitsui-high-tec.com/company/about/img/mitsuihitec_jpen202407_ja-en.pdf",
+      "https://www.mitsui-high-tec.com/en/topics/pdf/New_Medium-Term_Management_Plan.pdf",
+      "https://www.mht-us.com/company-profile.htm",
+      "https://www.mitsui-high-tec.com/company/about/img/mitsuihitec_jpen202506_ja-en.pdf",
+      "https://www.mitsui-high-tec.com/company/location/world/"
+    ]
+  },
+  {
+    "provider_name": "Ningbo Hualong",
+    "component_context": [
+      "Lead frames"
+    ],
+    "query": "Ningbo Hualong official manufacturing plants production sites locations Lead frames",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0109/11505652/sehk24091901728.pdf",
+      "https://en.zjhualong.com/",
+      "https://www.made-in-china.com/showroom/hldzpeter/",
+      "https://pdf.dfcfw.com/pdf/H2_AN201602190013549413_1.pdf",
+      "https://en.hlupr.com/index.php/contact.html",
+      "https://www1.hkexnews.hk/app/sehk/2026/108025/a128821/sehk26010100401.pdf",
+      "https://www.hulonggroup.com/about-us/",
+      "https://en.zjhualong.com/contact.html"
+    ]
+  },
+  {
+    "provider_name": "SH Material",
+    "component_context": [
+      "Lead frames"
+    ],
+    "query": "SH Material official manufacturing plants production sites locations Lead frames",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.cwtcglobal.com/archive/CSR/%5BCWT%5D-2025ESG%E5%A0%B1%E5%91%8A%E6%9B%B820261012%20_%E8%8B%B1.pdf",
+      "https://www.cwtcglobal.com/archive/CSR/CWTC%202023%20Sustainability%20Report.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1987240/000110465926014740/shmd-20241231x20f.htm",
+      "https://www.cwei.com.tw/files/downloads/esg-report/en/ESG-2023_EN.pdf",
+      "https://www.cwei.com.tw/files/downloads/esg-report/en/ESG-2022_EN.pdf",
+      "https://www.cwei.com.tw/files/downloads/esg-report/en/ESG_2024_EN.pdf",
+      "https://www.smm.co.jp/en/ir/event/roadshow/pdf/2013/131114_setsumeikai_E.pdf",
+      "https://www.shglobal.kr/manufacture/equipment.html"
+    ]
+  },
+  {
+    "provider_name": "Shinko",
+    "component_context": [
+      "Lead frames",
+      "Substrates"
+    ],
+    "query": "Shinko official manufacturing plants production sites locations Lead frames",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.shinko.co.jp/english/corporate/profile/",
+      "https://www.shinko.co.jp/english/sustainability/docs/ISO9001_2605_E.pdf",
+      "https://www.shinko.co.jp/english/ir/docs/br2024_2q_e.pdf",
+      "https://www.shinko.co.jp/english/sustainability/docs/sr2025.pdf",
+      "https://www.shinko-inc.co.jp/company/access.php",
+      "https://www.shinko.co.jp/english/ir/docs/br2024.pdf",
+      "https://www.shinko.co.jp/english/sustainability/docs/2025_06.pdf",
+      "https://www.shinko.co.jp/english/corporate/branch/"
+    ]
+  },
+  {
+    "provider_name": "Shinko Electric Industries",
+    "component_context": [
+      "Lead frames",
+      "Stamped C19400 Copper-Alloy IC Leadframe & Power Clip"
+    ],
+    "query": "Shinko Electric Industries official manufacturing plants production sites locations Lead frames",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.shinko.co.jp/english/corporate/profile/",
+      "https://www.shinko.co.jp/corporate/profile/",
+      "https://www.shinko.co.jp/english/sustainability/docs/ISO9001_2605_E.pdf",
+      "https://www.shinko.co.jp/english/ir/docs/br2024_2q_e.pdf",
+      "https://www.shinko.co.jp/english/ir/docs/br2024.pdf",
+      "https://www.shinko.co.jp/english/corporate/images/ISO9001_en.pdf",
+      "https://www.shinko.co.jp/sustainability/docs/L_IATF2412KG.pdf",
+      "https://www.shinko.co.jp/english/corporate/branch/"
+    ]
+  },
+  {
+    "provider_name": "Trinity Tech",
+    "component_context": [
+      "Lead frames"
+    ],
+    "query": "Trinity Tech official manufacturing plants production sites locations Lead frames",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sec.gov/Archives/edgar/data/888721/000155485526000848/trib-20251231.htm",
+      "https://www.trinityind.co.jp/wp/wp-content/uploads/2025/05/91_convened.pdf",
+      "https://www.trinity-tech.com/",
+      "https://trinitytechinc.ca/supplier-representation/",
+      "https://www.sec.gov/Archives/edgar/data/1116942/000095017025024839/ttmi-20241230.htm",
+      "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2024-10/241004_Whitney_Export_Controls.pdf?VersionId=1333avUXqn8.aHkwy1hPw2PQzPHU.UG.",
+      "https://cdn.yahoofinance.com/prod/sec-filings/0000888721/000117891325001835/zk2533151.htm",
+      "https://www.otcmarkets.com/filing/html?guid=Odb-k6FNp63qmih&id=18760772"
+    ]
+  },
+  {
+    "provider_name": "Yongzhi",
+    "component_context": [
+      "Lead frames"
+    ],
+    "query": "Yongzhi official manufacturing plants production sites locations Lead frames",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.yonz.com/bases.html",
+      "https://www.yonz.com/aboutus.html",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202311/001784_20231117_YE8T.pdf",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202307/001784_20230726_NN3G.pdf",
+      "https://www.yong-qi.com/about?show=0",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202304/001784_20230404_QWQ9.pdf",
+      "https://www.yong-qi.com/about?show=2",
+      "https://www.bse.cn/disclosure/2026/2026-06-25/be74973bc69147cbaa9313e85a490425.pdf"
+    ]
+  },
+  {
+    "provider_name": "Dai Nippon",
+    "component_context": [
+      "Photomasks"
+    ],
+    "query": "Dai Nippon official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.global.dnp/content/dam/dnp-global/pdf/en/ir/library/data-book/dnp_databook2025.pdf.coredownload.pdf",
+      "https://www.dnp.co.jp/ir/library/data-book/pdf/dnp_databook2025.pdf",
+      "https://www.global.dnp/content/dam/dnp-global/pdf/en/ir/library/data-book/dnp_databook20241.pdf.coredownload.pdf",
+      "https://www-origin.dnp.co.jp/ir/library/data-book/pdf/dnp_databook2025.pdf",
+      "https://www-origin.dnp.co.jp/ir/library/data-book/pdf/dnp_databook2024.pdf",
+      "https://www-origin.dnp.co.jp/ir/library/data-book/pdf/dnp_databook2023.pdf",
+      "https://www.emlc-conference.com/en/sponsoring-and-exhibition",
+      "https://www.dnp-europe.it/JQRequest_page/cu_about.php"
+    ]
+  },
+  {
+    "provider_name": "GlobalFoundries",
+    "component_context": [
+      "Photomasks"
+    ],
+    "query": "GlobalFoundries official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://gf.com/careers/where-we-work/",
+      "https://gf.com/wp-content/uploads/2026/05/GlobalFoundries-2025-Sustainability-Report.pdf",
+      "https://gf.com/wp-content/uploads/2025/12/GF-At-A-Glance-Jan2026.pdf",
+      "https://investors.gf.com/static-files/ef3116da-5334-46e0-9b6c-56d3e67b1b92",
+      "https://gf.com/Manufacturing/",
+      "https://www.sec.gov/Archives/edgar/data/1709048/000170904825000024/gfs-20241231.htm",
+      "https://investors.gf.com/static-files/bf7f7dbf-121c-40ba-83ea-8679815fefed",
+      "https://gf.com/wp-content/uploads/2025/10/GF-at-a-Glance_Oct_27_2025.pdf"
+    ]
+  },
+  {
+    "provider_name": "Hoya Corporation",
+    "component_context": [
+      "Photomasks"
+    ],
+    "query": "Hoya Corporation official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.hoya.com/wp-content/uploads/2026/05/88thAGMPBDD_E.pdf",
+      "https://www.hoya.com/company/network/japan/",
+      "https://www.hoya.com/wp-content/uploads/2025/06/ISO-Certification-status_2025May.pdf",
+      "https://www.seikovision.com/siteassets/rse/20241218_iso9001_iso14001_iso45001_certification-of-gms.pdf",
+      "https://www.hoya.com/wp-content/uploads/2024/07/2024.6-HOYA-Corporate-Profile_EN.pdf",
+      "https://www.seikovision.com/siteassets/20241218_certification-of-gms---all.pdf",
+      "https://www.hoya.com/en/company/network/japan/",
+      "https://www.hoya.com/en/company/network/asia_oceania/"
+    ]
+  },
+  {
+    "provider_name": "Intel",
+    "component_context": [
+      "Photomasks"
+    ],
+    "query": "Intel official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.intel.com/content/www/us/en/support/articles/000089875/programs/intel-corporation.html",
+      "https://www.intel.com/content/www/us/en/support/articles/000089224/programs.html",
+      "https://www.intel.com.br/content/dam/www/central-libraries/us/en/documents/2026-08/csr-2025-26-full-report.pdf",
+      "https://www.intel.de/content/dam/www/central-libraries/us/en/documents/2026-08/csr-2025-26-full-report.pdf",
+      "https://docs.publicnow.com/viewDoc?filename=22151%5CEXT%5CDA75DEC2E3F0651D450884301E425AECF83287F1_906CC7BE60C14DFBC174F7ED6FEC05D628DEFB6E.PDF",
+      "https://docs.publicnow.com/viewDoc?filename=22151%5CEXT%5CA073AC5F3EE3117D64B380A93F56908697F14D07_D379391C6F9191D1FD998667D99E425F9C3F27EF.PDF",
+      "https://www.intel.com/content/www/us/en/foundry/manufacturing.html",
+      "https://www.intc.com/filings-reports/annual-reports/content/0000050863-24-000010/0000050863-24-000010.pdf?hash=2F6AD4CE50B71C709420BBF51AA25F097556CF5109EE7678E0A79C80F49DA0F91D7F6F0AB090E00A1967359B25BDF41769392AD75BA3CE3C77597B245A995262"
+    ]
+  },
+  {
+    "provider_name": "Photronics",
+    "component_context": [
+      "Photomasks"
+    ],
+    "query": "Photronics official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.photronics.com/about-photronics/",
+      "https://photronicsinc.gcs-web.com/investor-faqs",
+      "https://photronicsinc.gcs-web.com/static-files/b127250e-6ccb-4a87-98ec-29e618e78b20",
+      "https://www.photronics.com/products/",
+      "https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm",
+      "https://photronicsinc.gcs-web.com/static-files/77ce281d-e5aa-4ead-a023-fd2e6e5d847b",
+      "https://www.stocktitan.net/sec-filings/PLAB/10-k-photronics-inc-files-annual-report-a845892b173f.html",
+      "https://www.streetinsider.com/SEC%2BFilings/Form%2B10-K%2BPHOTRONICS%2BINC%2BFor%3A%2BOct%2B31/25752285.html"
+    ]
+  },
+  {
+    "provider_name": "SMIC",
+    "component_context": [
+      "Photomasks"
+    ],
+    "query": "SMIC official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.smics.com/uploads/1_%26e4%26b8%26ad%26e8%268a%26af%26e5%269b%26bd%26e9%2699%2685%26e7%26a4%26be%26e4%26bc%269a%26e8%26b4%26a3%26e4%26bb%26bb%26e6%268a%26a5%26e5%2691%268a-%26e8%268b%26b1%26e6%2696%2687%26e6%268c%2682%26e7%26bd%2691%26e7%2689%26887.26-5.pdf",
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0408/2026040801181.pdf",
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0327/2025032701587.pdf",
+      "https://www.govinfo.gov/content/pkg/FR-2024-12-05/pdf/2024-28267.pdf",
+      "https://www.smics.com/uploads/e_SMIC%202024%20ESG%20report.pdf",
+      "https://financialfilings.com/filings/semiconductor-manufacturing-international-corporation/environmental-social-information/2026/33048434/",
+      "https://www.smics.com/uploads/64b0ff3f/2019%20SMIC%20CSR%20Report%20Final-%26e8%268b%26b1%26e6%2696%2687.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1267482/000114420417022522/v464921_20f.htm"
+    ]
+  },
+  {
+    "provider_name": "Samsung",
+    "component_context": [
+      "Photomasks",
+      "Substrates"
+    ],
+    "query": "Samsung official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf",
+      "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/Samsung_Investor_Presentation_Foundry_2025.pdf",
+      "https://images.samsung.com/kdp/ir/business-introduction/Samsung_Investor_Presentation_Foundry_2025.pdf",
+      "https://semiconductor.samsung.com/about-us/global-network/",
+      "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/business-introduction/Samsung_Investor_Presentation_Foundry_2020_v1.pdf",
+      "https://www.samsung.com/global/sustainability/planet/sustainable-operations/",
+      "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+      "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/Samsung_Investor_Presentation_Foundry_2024_v2.pdf"
+    ]
+  },
+  {
+    "provider_name": "Shenzhen Newway",
+    "component_context": [
+      "Photomasks"
+    ],
+    "query": "Shenzhen Newway official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.newwaymask.com/en/about/",
+      "https://www.newwaymask.com/en/",
+      "https://static.cninfo.com.cn/finalpage/2026-08-26/1225505321.PDF",
+      "https://www.wendingportal.com/en",
+      "https://www.newwaymask.com/en/contact/",
+      "https://static.sse.com.cn/stock/disclosure/announcement/c/202603/688401_20260303_V74G.pdf",
+      "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-03-04/688401_20260304_174I.pdf",
+      "https://www.newwaymask.com/en/about/lines.html"
+    ]
+  },
+  {
+    "provider_name": "Taiwan Mask Corporation",
+    "component_context": [
+      "Photomasks"
+    ],
+    "query": "Taiwan Mask Corporation official manufacturing plants production sites locations Photomasks",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.tmcnet.com.tw/Uploads/8/TMC_ISO%209001_20270419_3465bf.pdf",
+      "https://prod-officialwebsite.azurewebsites.net/Uploads/47/%E5%8F%B0%E7%81%A3%E5%85%89%E7%BD%A92024ESG%E5%A0%B1%E5%91%8A%E6%9B%B8_final_20251121_0104dd.pdf",
+      "https://www.tmcnet.com.tw/Uploads/47/%E5%8F%B0%E7%81%A3%E5%85%89%E7%BD%A92024ESG%E5%A0%B1%E5%91%8A%E6%9B%B8_final_20251121_0209c9.pdf",
+      "https://www.sipa.gov.tw/home.jsp?contlink=ap%2Fmanufacturers_1_3_view.jsp&dataserno=A0128&level2=Y&menudata=chinesemenu&mserno=201002010011&qsipa=01&serno=201002010011&stype=C",
+      "https://www.tmcnet.com.tw/Uploads/8/TMC_ISO14001%E8%AD%89%E6%9B%B82022_870387.pdf",
+      "https://madeintw.tw/en/company/22099408",
+      "https://prod-officialwebsite.azurewebsites.net/en/About/OverView",
+      "https://www.pilotbattery.com.tw/en/tmcnet.php"
+    ]
+  },
+  {
+    "provider_name": "Dongjin",
+    "component_context": [
+      "Photoresists"
+    ],
+    "query": "Dongjin official manufacturing plants production sites locations Photoresists",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.dongjin.com/company/be_domestic.php",
+      "https://www.dongjin.com/en/company/be_domestic.php",
+      "https://www.dongjin.com/en/company/location.php",
+      "https://kind.krx.co.kr/external/dst/irReference/18307/%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90%20IR%20BOOK.pdf",
+      "https://kind.krx.co.kr/external/2026/05/15/002008/20260515004450/11013.htm",
+      "https://www.dongjin.com/en/",
+      "https://kind.krx.co.kr/external/2025/03/19/000811/20250319003664/11011.htm",
+      "https://file.alphasquare.co.kr/media/pdfs/company-ir/20260528%EB%8F%99%EC%A7%84%EC%8E%84%EB%AF%B8%EC%BC%90_2026%EB%85%84_1%EB%B6%84%EA%B8%B0_%EA%B2%BD%EC%98%81%EC%8B%A4%EC%A0%81_%EB%B0%8F_%EC%A3%BC%EC%9A%94_%EA%B2%BD%EC%98%81%ED%98%84%ED%99%A9_%EC%84%A4%EB%AA%85.pdf"
+    ]
+  },
+  {
+    "provider_name": "EMD Electronics",
+    "component_context": [
+      "Photoresists"
+    ],
+    "query": "EMD Electronics official manufacturing plants production sites locations Photoresists",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.emdgroup.com/business-specifics/electronics/semiconductors/us/05_media/05a_events/2024-2025%20WhoWeAre%20EMD%20Electronics_short.pdf",
+      "https://www.emdgroup.com/en/expertise/electronics.html",
+      "https://www.emdgroup.com/en/expertise/electronics/supplychainreliability.html",
+      "https://www.emdgroup.com/en/expertise/electronics/materialsandsolutions.html",
+      "https://www.emdgroup.com/en/expertise/electronics/innovationandtech.html",
+      "https://www.emctw.com/upload/media/New_CSR/csr_report/2024_EMC_ESG%20report_EN.pdf",
+      "https://www.emdgroup.com/en/expertise/electronics.html?global_redirect=1",
+      "https://www.linkedin.com/company/emd-electronics"
+    ]
+  },
+  {
+    "provider_name": "Inpria",
+    "component_context": [
+      "Photoresists"
+    ],
+    "query": "Inpria official manufacturing plants production sites locations Photoresists",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.inpria.com/",
+      "https://www.oregon.gov/biz/Publications/Boards/Business%20Oregon%20Commission/2022/June/Commission%20Binder.pdf",
+      "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261109/20261108568388.pdf",
+      "https://regmedia.co.uk/2024/02/05/suny_vs_inpria.pdf",
+      "https://insight.rpxcorp.com/litigation_documents/15837276",
+      "https://investor.entegris.com/news/news-details/2026/Entegris-and-JSR-CorporationInpria-Corporation-Announce-Non-Exclusive-Cross-Licensing-to-EUV-Lithography/default.aspx",
+      "https://www.jsr.co.jp/jsr_e/resource-files/pdf/ir/library/annual_csr_report/2023/section/02_2023_e.pdf",
+      "https://www.jsr.co.jp/jsr_e/ir/library/shareholder/assets/pdf/2022_01.pdf"
+    ]
+  },
+  {
+    "provider_name": "JHM",
+    "component_context": [
+      "Photoresists",
+      "Wet chemicals"
+    ],
+    "query": "JHM official manufacturing plants production sites locations Photoresists",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sumitomo-chem.co.jp/english/ir/library/investors_handbook/files/docs/202404handbook.pdf",
+      "https://ir.fujifilm.com/en/investors/ir-materials/integrated-report/main/00/teaserItems1/01/linkList/00/link/fh_2026_alle_a4.pdf",
+      "https://www.sumitomo-chem.co.jp/english/ir/library/investors_handbook/files/docs/202007handbook.pdf",
+      "https://hub.frost.com/wp-content/uploads/2025/12/2025-Blue-Book-on-the-Industry-Development-Status-and-Future-Trends-of-Medical-Aesthetic-Injection-Products.pdf",
+      "https://www.fujifilm.com/am/en/news/hq/12078",
+      "https://www.thelec.net/news/articleView.html?idxno=13154",
+      "https://www.jhm-biopharma.com/en_US/job/",
+      "https://jhm.net.my/annualreports/JHM_2019_Annual_Report.pdf"
+    ]
+  },
+  {
+    "provider_name": "Kempur",
+    "component_context": [
+      "Photoresists"
+    ],
+    "query": "Kempur official manufacturing plants production sites locations Photoresists",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www1.hkexnews.hk/app/sehk/2026/108187/a130205/sehk26020800096.pdf",
+      "https://www1.hkexnews.hk/app/sehk/2026/108187/documents/sehk26020800046.pdf",
+      "https://kempur.com/en/",
+      "https://www.semi.org/en/resources/ecs-directory/kempur-microelectronics-inc",
+      "https://expo.semi.org/china2026/Public/eBooth.aspx?BoothID=640568&FromPage=Exhibitors.aspx&IndexInList=382&ListByBooth=true&ParentBoothID=",
+      "https://abachy.com/catalog/materials/lithography/photoresists-and-ancillaries/kempur-microelectronics-inc",
+      "https://www1.hkexnews.hk/app/sehk/2026/108187/a130205/sehk26020800106.pdf",
+      "https://thebuildout.ai/sites/48593abd-2ca4-44c5-8170-b0257a498528"
+    ]
+  },
+  {
+    "provider_name": "Ruihong",
+    "component_context": [
+      "Photoresists"
+    ],
+    "query": "Ruihong official manufacturing plants production sites locations Photoresists",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www1.hkexnews.hk/app/sehk/2026/108187/a130205/sehk26020800096.pdf",
+      "https://ruihonginc.com/about.asp",
+      "https://www.ruihonginc.com/about.asp",
+      "https://static.cninfo.com.cn/finalpage/2025-04-17/1223126865.PDF",
+      "https://static.cninfo.com.cn/finalpage/2025-04-17/1223126875.PDF",
+      "https://en.ruihonginc.com/",
+      "https://expo.semi.org/taiwan2025/public/eBooth.aspx?BoothID=621082&FromPage=Exhibitors.aspx&IndexInList=717&ListByBooth=true&ParentBoothID=",
+      "https://static.cninfo.com.cn/finalpage/2023-04-25/1216587382.PDF"
+    ]
+  },
+  {
+    "provider_name": "Qnity Electronics",
+    "component_context": [
+      "Polishing pads"
+    ],
+    "query": "Qnity Electronics official manufacturing plants production sites locations Polishing pads",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.qnityelectronics.com/visit-us.html",
+      "https://www.sec.gov/Archives/edgar/data/2058873/000162828026024261/qnity-2025annualreport.pdf",
+      "https://www.qnityelectronics.com/news/qnity-expands-domestic-manufacturing-footprint-to-accelerate-semiconductor-industry-growth.html",
+      "https://ir.qnityelectronics.com/press-releases/detail/52/qnity-expands-domestic-manufacturing-footprint-to-accelerate-semiconductor-industry-growth",
+      "https://s23.q4cdn.com/116192123/files/doc_downloads/2025/08/Qnity-Form-10-Amend-2_8-5-25.pdf",
+      "https://ir.qnityelectronics.com/_assets/_0439e220595f055b47a6bf1f5d556814/qnityelectronics/news/2026-03-11_Qnity_Expands_Domestic_Manufacturing_Footprint_to__52.pdf",
+      "https://www.businesswire.com/news/home/20260311679099/en/",
+      "https://ir.qnityelectronics.com/sec-filings/all-sec-filings/content/0001628280-26-024261/0001628280-26-024261.pdf"
+    ]
+  },
+  {
+    "provider_name": "Mitsubishi Materials",
+    "component_context": [
+      "Conductive silver flakes / Au-Sn solder alloy"
+    ],
+    "query": "Mitsubishi Materials official manufacturing plants production sites locations Conductive silver flakes / Au-Sn solder alloy",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.mmc.co.jp/adv/en/address/",
+      "https://www.mmc.co.jp/corporate/en/company/office.html",
+      "https://financialfilings.com/filings/mitsubishi-materials-corporation/annual-report/2026/73287806/",
+      "https://www.mmc.co.jp/corporate/en/company/pdf/corporate_profile_202504.pdf",
+      "https://ir.mmc.co.jp/en/ir/news/news20230731103062/main/0/link/File51174499.pdf",
+      "https://www.mmc.co.jp/adv/ja/address/index.html",
+      "https://www.mmc.co.jp/adv/ja/address/",
+      "https://ir.mmc.co.jp/en/ir/library/annual/main/0/teaserItems3/0/linkList/0/link/00.pdf"
+    ]
+  },
+  {
+    "provider_name": "Sisecam",
+    "component_context": [
+      "Soda ash (sodium carbonate)",
+      "Trona Mineral (Natural Soda Ash)"
+    ],
+    "query": "Sisecam official manufacturing plants production sites locations Soda ash (sodium carbonate)",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sisecam.com/en",
+      "https://www.sisecam.com/en/sisecam-at-a-glance",
+      "https://www.sisecam.com/en/sisecam-in-the-world",
+      "https://www.sisecam.com/en/s-investor-relations/Documents/Annual%20Reports/SCAM_FRAE_2024_MTB_uyg_23.pdf",
+      "https://www.sisecam.com/en/s-investor-relations/Documents/Annual%20Reports/SCAM_FRAE_2025_UYG_uyg_11.pdf",
+      "https://www.sisecam.com/en/s-investor-relations/InvestorPresentations/Conference%20Presentation%2018%20Q3.pdf",
+      "https://www.sisecam.com/en/s-investor-relations/InvestorPresentations/Conference%20Presentation%2019%20H1.pdf",
+      "https://www.sisecam.com/en/s-investor-relations/Documents/Soda%20Sanayi/Presentations%20and%20Reports/Yat%C4%B1r%C4%B1mc%C4%B1%20Sunumlar%C4%B1/SODA%204Q%202017%20IR%20PRESENTATION.pdf"
+    ]
+  },
+  {
+    "provider_name": "Metaux Speciaux / MSSA",
+    "component_context": [
+      "Metallic sodium"
+    ],
+    "query": "Metaux Speciaux / MSSA official manufacturing plants production sites locations Metallic sodium",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.metauxspeciaux.fr/la-societe/nous-connaitre/",
+      "https://www.metauxspeciaux.fr/mssa/",
+      "https://www.metauxspeciaux.fr/fusion-mssa-envirocat/",
+      "https://www.metauxspeciaux.fr/produits/sodium-metal/",
+      "https://www.metauxspeciaux.fr/contact/",
+      "https://www.metauxspeciaux.fr/la-societe/notre-structure/",
+      "https://www.metauxspeciaux.fr/la-societe/notre-histoire/",
+      "https://www.metauxspeciaux.fr/wp-content/uploads/2023/02/Fiche-methylate-de-sodium-fr-rev2023.pdf"
+    ]
+  },
+  {
+    "provider_name": "PQ Corporation",
+    "component_context": [
+      "Sodium silicate (water glass)"
+    ],
+    "query": "PQ Corporation official manufacturing plants production sites locations Sodium silicate (water glass)",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.epa.gov/system/files/documents/2023-12/06-final-air-inspection-report-fy23-pq-corporation.pdf",
+      "https://www.pqcorp.com/products/",
+      "https://www.marketkrystal.com/plant-tracker/company/pq/",
+      "https://www.pqcorp.com/wp-content/uploads/PQ_SustainabilityReport-2025_FINAL-2.pdf",
+      "https://www.pqcorp.com/about/",
+      "https://apps.ecology.wa.gov/cleanupsearch/document/96839",
+      "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P101DMOL.TXT",
+      "https://www.pqcorp.com/history/"
+    ]
+  },
+  {
+    "provider_name": "AKM",
+    "component_context": [
+      "Substrates"
+    ],
+    "query": "AKM official manufacturing plants production sites locations Substrates",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.akm.com/global/en/about-us/company-profile/",
+      "https://exhibitors.electronica.de/exhibitor-portal/2026/list-of-exhibitors/exhibitordetails/?elb=809.1100.10108.1.111",
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2019/0823/ltn20190823417.pdf",
+      "https://exhibitors.electronica.de/exhibitor-portal/2026/list-of-exhibitors/exhibitordetails/akm-meadville-electronics-akmmv/?elb=809.1100.10108.1.111",
+      "https://exhibitors.electronica.de/ausstellerportal/2026/aussteller/ausstellerdetails/?elb=809.1100.10108.1.111",
+      "https://www.akm.com/kr/ko/about-us/company-profile/",
+      "https://media.digikey.com/pdf/PCNs/AKM/PC_21H056%2B.pdf",
+      "https://www.ic-pcb.com/akm-meadville.html"
+    ]
+  },
+  {
+    "provider_name": "NanYa",
+    "component_context": [
+      "Substrates"
+    ],
+    "query": "NanYa official manufacturing plants production sites locations Substrates",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.nanyapcb.com.tw/nypcb/english/AboutNanYaPCB/CompanyProfile/Company",
+      "https://www.nanyapcb.com.tw/nypcb/images/SocialResponsibility/Report/ENG2024ESGReport.pdf",
+      "https://www.nanya-iaaf-pu.com/EN/about",
+      "https://nanyaamericasc.com/about_global_distribution.html",
+      "https://www.nanyapcb.com.tw/nypcb/images/SocialResponsibility/Report/ENG2023ESGReport.pdf",
+      "https://financialfilings.com/filings/npc-8046/environmental-social-information/2025/73137230/",
+      "https://www.nanyapcb.com.tw/nypcb/english/index",
+      "https://www.nanya-waterproof.com/en/Company"
+    ]
+  },
+  {
+    "provider_name": "Shennan Circuits",
+    "component_context": [
+      "Substrates"
+    ],
+    "query": "Shennan Circuits official manufacturing plants production sites locations Substrates",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.scc.com.cn/scc/en/gysn/index.html",
+      "https://www.scc.com.cn/yskjcmsresource/document/20250328/1090219297222950912.pdf",
+      "https://www.scc.com.cn/files/AttFile/2020-09/202009221424446994.pdf",
+      "https://www.scc.com.cn/scc/en/gysn/snss/782311285957066752.html",
+      "https://www.scc.com.cn/yskjcmsresource/document/20250926/1156238310721454080.pdf",
+      "https://www.linkedin.com/company/scc_989946/",
+      "https://www.airuniversity.af.edu/Portals/10/CASI/documents/Research/Infrastructure/2024-01-22-avic-organization-v2.pdf",
+      "https://www.scc.com.cn/yskjcmsresource/document/20230317/821349251547136000.pdf"
+    ]
+  },
+  {
+    "provider_name": "Zhuhai Yueya",
+    "component_context": [
+      "Substrates"
+    ],
+    "query": "Zhuhai Yueya official manufacturing plants production sites locations Substrates",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www1.hkexnews.hk/app/sehk/2026/108473/documents/sehk26042804160.pdf",
+      "https://access-substrates.com/index.html",
+      "https://access-substrates.com/about.html",
+      "https://access-substrates.com/en/about.html",
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202509/RAS_202509_30180580EF03B250714281B164EA4F3222B983.pdf",
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202509/RAS_202509_3018055BC5AA5E64264510ADDE8E9F2DD31B25.pdf",
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202403/RAS_202403_222020DD48761D81B04B54991F383A2E25CBF3.pdf",
+      "https://www.access-substrates.com/en/displaynews-42-4.html"
+    ]
+  },
+  {
+    "provider_name": "GlobalWafers",
+    "component_context": [
+      "Wafer",
+      "Monocrystalline Silicon Wafer (Czochralski Prime Grade)"
+    ],
+    "query": "GlobalWafers official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sas-globalwafers.com/wp-content/uploads/2020/11/GWC-ISO9001-certificate-20250627-to-20280604-all-sites.pdf",
+      "https://www.sas-globalwafers.com/wp-content/uploads/2022/06/%E4%B8%8A%E5%82%B3%E6%AA%94%E7%92%B0%E7%90%83%E6%99%B6%E5%9C%93%E8%8B%B1%E6%96%87%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8_20220729.pdf",
+      "https://www.gw-semi.com/overview-locations/",
+      "https://www.sas-globalwafers.com/certificate/globalwafers-co-ltd-4/iso45001_gwc_2025-2028/",
+      "https://www.sas-globalwafers.co.jp/eng/company/institution.html",
+      "https://www.sas-globalwafers.com/wp-content/uploads/2020/11/ISO14001_GWC_2025-2028.pdf",
+      "https://www.gw-ssbv.com/wp-content/uploads/2023/08/GlobalWafers_2022-Sustainability-Report-_EN.pdf",
+      "https://www.sas-globalwafers.com/wp-content/uploads/2025/08/GlobalWafers_2024-Sustainability-Report-EN.pdf"
+    ]
+  },
+  {
+    "provider_name": "Gritek",
+    "component_context": [
+      "Wafer",
+      "Monocrystalline Silicon Wafer (Czochralski Prime Grade)"
+    ],
+    "query": "Gritek official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.rs-tec.jp/en/ir/library/annualreport/annual2025en.pdf",
+      "https://www2.jpx.co.jp/disc/34450/140120250422520168.pdf",
+      "https://www2.jpx.co.jp/disc/34450/140120260213562001.pdf",
+      "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260213/20260213562001.pdf",
+      "https://assets.minkabu.jp/news/article_media_content/urn%3Anewsml%3Atdnet.info%3A20260213562001/140120260213562001.pdf",
+      "https://rs-tec.jp/en/csr_sustainability/csr_management/iso/",
+      "https://www.rs-tec.jp/en/corporate/history/",
+      "https://www.rs-tec.jp/en/business/detail/prime_silicon_wafer/"
+    ]
+  },
+  {
+    "provider_name": "JRH",
+    "component_context": [
+      "Wafer",
+      "Monocrystalline Silicon Wafer (Czochralski Prime Grade)"
+    ],
+    "query": "JRH official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.zjjrh.com/",
+      "https://fscdn.rohm.com/en/financial/account/2603_presentation_en.pdf",
+      "https://en.jrh.kr/jrh_mfg_tech.html",
+      "https://www.renesas.com/en/document/pcn/addition-production-sites-and-material-changes-rh850f1km-s1-seriesrevision1-pc-mcu-a036be",
+      "https://www.renesas.com/en/document/pcn/addition-production-site-and-material-changes-rh850f1km-s4-seriespc-mcu-a037ae",
+      "https://www.rohm.com/company/about/approach-to-quality/certification-of-quality-and-environmental?p_p_resource_id=getDesignFileSaveDialog",
+      "https://www.renesas.com/en/document/pcn/bonding-wire-change-cu-wire-and-site-addition-back-grinding-assembly-and-final-test-rh850f1-and-d1",
+      "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6661/PCN_HPLM-2025-0064.pdf"
+    ]
+  },
+  {
+    "provider_name": "MCL",
+    "component_context": [
+      "Wafer",
+      "Monocrystalline Silicon Wafer (Czochralski Prime Grade)"
+    ],
+    "query": "MCL official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://ir.microchip.com/sec-filings/all-sec-filings/content/0000827054-26-000029/0000827054-26-000029.pdf",
+      "https://www.sec.gov/Archives/edgar/data/827054/000082705426000016/mchp-20260331.htm",
+      "https://wikirate-production-storage.fra1.cdn.digitaloceanspaces.com/files/22201890/51946749.pdf",
+      "https://www.mclpcb.com/quality/manufacturing-facilities/",
+      "https://sparkminda.com/pdf/mcl_sustainability_Report.pdf",
+      "https://mclwafer.cnpowder.com.cn/company_introduction.html",
+      "https://www.mclpcb.com/about-us/beat-tariffs-with-mcl/",
+      "https://ir.microchip.com/sec-filings/all-sec-filings/content/0000827054-26-000016/mchp-20260331.htm"
+    ]
+  },
+  {
+    "provider_name": "Okmetic",
+    "component_context": [
+      "Wafer",
+      "Monocrystalline Silicon Wafer (Czochralski Prime Grade)"
+    ],
+    "query": "Okmetic official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.okmetic.com/silicon-wafers/production-and-capacity-expansion/",
+      "https://www.okmetic.com/about-okmetic/company/",
+      "https://www.okmetic.com/wp-content/uploads/2025/04/Okmetic_Sustainability_Report_2024.pdf",
+      "https://www.okmetic.com/about-okmetic/investments-support-future-growth/",
+      "https://www.okmetic.com/about-us/news-articles/okmetic-vantaa-fab-expansion-enters-volume-production/",
+      "https://www.okmetic.com/wp-content/uploads/2024/06/Okmetic_Sustainability_Report_2023.pdf",
+      "https://www.okmetic.com/about-us/news-articles/okmetic-expands-global-sales-network-in-both-france-and-taiwan-during-2023/",
+      "https://www.okmetic.com/wp-content/uploads/2026/04/Okmetic-General-Brochure.pdf"
+    ]
+  },
+  {
+    "provider_name": "POSHING",
+    "component_context": [
+      "Wafer",
+      "Monocrystalline Silicon Wafer (Czochralski Prime Grade)"
+    ],
+    "query": "POSHING official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www1.hkexnews.hk/app/sehk/2026/108598/documents/sehk26052903009.pdf",
+      "https://ams-osram.com/documents/4390887/15171803/Information%20Document.pdf/09d68c2f-c766-3f34-9e55-2071848ca35f?t=1699861746432",
+      "https://market.vlsi.kr/ja/map/facilities/",
+      "https://www.nexperia.com/about/worldwide-locations/manufacturing",
+      "https://market.vlsi.kr/ko/map/facilities/",
+      "https://market.vlsi.kr/zh-CN/map/facilities/",
+      "https://www.sec.gov/Archives/edgar/data/827054/000082705419000143/a2019-03x3110k.htm",
+      "https://www.sec.gov/Archives/edgar/data/1097864/000162828024003201/on-20231231.htm"
+    ]
+  },
+  {
+    "provider_name": "SK Siltron",
+    "component_context": [
+      "Wafer",
+      "Monocrystalline Silicon Wafer (Czochralski Prime Grade)"
+    ],
+    "query": "SK Siltron official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sksiltron.com/en/download/2025_SKSiltron_Sustainabiliytreport.pdf",
+      "https://www.sksiltron.com/en/main/main.do",
+      "https://www.sksiltron.com/ko/download/2025_SKSiltron_Sustainabiliytreport.pdf",
+      "https://www.sk-inc.com/_UPLOAD/BUSI/0f03c153-6c42-4213-88ee-1a888a8719ce.pdf",
+      "https://www.sksiltroncss.com/locations",
+      "https://kind.krx.co.kr/external/2025/03/07/001336/20250307003130/00591.htm",
+      "https://samara.kr/disclosure/20260310002815",
+      "https://www.sksiltron.com/m/en/company/history.do"
+    ]
+  },
+  {
+    "provider_name": "Shin-Etsu",
+    "component_context": [
+      "Wafer",
+      "Monocrystalline Silicon Wafer (Czochralski Prime Grade)"
+    ],
+    "query": "Shin-Etsu official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.shinetsu.co.jp/en/company/network/plant/",
+      "https://www.shinetsu.co.jp/wp-content/uploads/2026/05/149_giann.pdf",
+      "https://www.shinetsusilicone-global.com/info/operations.shtml",
+      "https://www.shinetsusilicones.com/facilities.aspx",
+      "https://www.shinpoly.co.jp/en/company/office.html",
+      "https://www.shinetsu.co.jp/en/company/network/worldwide/",
+      "https://shinpoly.com/about-us/",
+      "https://www.shinetsu.co.jp/wp-content/uploads/2024/05/147_meeting.pdf"
+    ]
+  },
+  {
+    "provider_name": "Siltronic",
+    "component_context": [
+      "Wafer"
+    ],
+    "query": "Siltronic official manufacturing plants production sites locations Wafer",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.siltronic.com/fileadmin/investorrelations/2026/Q3/20261104_Siltronic_InvestorPresentation.pdf",
+      "https://www.siltronic.com/en/our-company/sites.html",
+      "https://www.siltronic.com/en/our-company/sites.html?trk=public_profile_project-button",
+      "https://www.siltronic.com/en/our-company/sites.html?trk=public_profile_project-title",
+      "https://www.siltronic.com/fileadmin/documents/Siltronic_Unternehmensbrosch%C3%BCre_EN_v3__1_.pdf",
+      "https://www.siltronic.com/fileadmin/investorrelations/Archiv/2024/Q4/0306.Siltronic_Annual_Report_.2024.pdf",
+      "https://www.siltronic.com/en/our-company.html",
+      "https://financialfilings.com/filings/siltronic-ag/annual-report/2026/32933919/"
+    ]
+  },
+  {
+    "provider_name": "Avantor",
+    "component_context": [
+      "Wet chemicals"
+    ],
+    "query": "Avantor official manufacturing plants production sites locations Wet chemicals",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://avantor-prod.cxoneexpert.ai/General_Information_Statement/Avantor_Plant_Information/Packaging_Site_Information_for_Avantor_Plants",
+      "https://corporate.avantorsciences.com/us/en/about/reliable-supply-chain",
+      "https://www.vwr.com/ca/en/support/iso-certifications",
+      "https://www.sec.gov/Archives/edgar/data/1722482/000162828026007118/avtr-20251231.htm",
+      "https://corporate.avantorsciences.com/uk/en/about/custom-manufacturing",
+      "https://corporate.avantorsciences.com/sg/en/about/reliable-supply-chain",
+      "https://corporate.avantorsciences.com/ie/en/about/reliable-supply-chain",
+      "https://corporate.avantorsciences.com/ca/en/about/custom-manufacturing"
+    ]
+  },
+  {
+    "provider_name": "KMG Chemicals",
+    "component_context": [
+      "Wet chemicals"
+    ],
+    "query": "KMG Chemicals official manufacturing plants production sites locations Wet chemicals",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.linkedin.com/company/kmg-chemicals/",
+      "https://www.sec.gov/Archives/edgar/data/1028215/000119312512423466/d354175d10k.htm",
+      "https://www.gov.il/BlobFolder/legalinfo/2023-024305/he/mirsham_2023-024305.pdf",
+      "https://asset.fujifilm.com/master/hq/files/2023-05/03668b3ec4771d2a252242530f04be77/pdf_news_9390_en.pdf",
+      "https://nmi.org.uk/wp-content/uploads/2020/02/MSD2019-WEB.pdf",
+      "https://www.techworks.org.uk/wp-content/uploads/2019/05/MSD2019-WEB2.pdf",
+      "https://nmi.org.uk/wp-content/uploads/2017/04/MSD2017-web.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1028215/000119312513404078/d614469dex991.htm"
+    ]
+  },
+  {
+    "provider_name": "Runma",
+    "component_context": [
+      "Wet chemicals"
+    ],
+    "query": "Runma official manufacturing plants production sites locations Wet chemicals",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.runmarobot.com/about.html",
+      "https://www.adapar.pr.gov.br/sites/adapar/arquivos_restritos/files/documento/2023-08/ranman.pdf",
+      "https://www.runma.com/show.asp?cid=91",
+      "https://nsearchives.nseindia.com/corporate/RAMA_13112026174506_Presentation.pdf",
+      "https://www.runda.biz/company.asp",
+      "https://www.innohere.com/ir/159682/concept.html",
+      "https://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202302/RAS_202302_9C72B4FCDAA045389CCF157388F08DB1.pdf",
+      "https://www.wikiagro.com.br/bula/5105-ranman.pdf"
+    ]
+  },
+  {
+    "provider_name": "Sinophorus",
+    "component_context": [
+      "Wet chemicals"
+    ],
+    "query": "Sinophorus official manufacturing plants production sites locations Wet chemicals",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://en.sinophorus.com/about-us/",
+      "https://en.sinophorus.com/",
+      "https://m.sinophorus.com/about-us/",
+      "https://en.sinophorus.com/contact-us/",
+      "https://static.cninfo.com.cn/finalpage/2026-08-07/1225461671.PDF",
+      "https://notice.10jqka.com.cn/api/pdf/a6cfc1d48ad432c5_1727705519/%E5%85%B4%E7%A6%8F%E7%94%B5%E5%AD%90%EF%BC%9A3-1-3%E4%B8%8A%E5%B8%82%E4%BF%9D%E8%8D%90%E4%B9%A6.pdf",
+      "https://m.sinophorus.com/",
+      "https://en.sinophorus.com/products/"
+    ]
+  },
+  {
+    "provider_name": "Sinyang",
+    "component_context": [
+      "Wet chemicals"
+    ],
+    "query": "Sinyang official manufacturing plants production sites locations Wet chemicals",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sinyang.com.cn/en/about/index.html",
+      "https://www.sinyang.com.cn/index/about/index.html",
+      "https://www.sinyang.com.cn/en",
+      "https://www.samyangncchem.com/filesview/%EC%A0%9C%2017%EA%B8%B0%20%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C%282024%29.pdf?folder=%2Fupload%2Finvestboard%2F&storedfile=a90b284dbade40c2a2463e4a346e7a6e.pdf",
+      "https://www.sinyang.com.cn/index.html",
+      "https://www.sinyang.com.cn/index.php/",
+      "https://www.sinyang.com.cn/index.php/en/index/index.html",
+      "https://www.sinyang.com.cn/index"
+    ]
+  },
+  {
+    "provider_name": "Sakai Chemical Industry",
+    "component_context": [
+      "High-Purity Barium Titanate (BaTiO3) Dielectric Powder",
+      "Barite Mineral"
+    ],
+    "query": "Sakai Chemical Industry official manufacturing plants production sites locations High-Purity Barium Titanate (BaTiO3) Dielectric Powder",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.sakai-chem.co.jp/en/research_introduction.php",
+      "https://www.sakai-chem.co.jp/en/products_services_electronic_materials.php",
+      "https://www.sakai-chem.co.jp/en/products_services_barium_strontium.php",
+      "https://www.sakai-chem.co.jp/en/group_company_profile.php",
+      "https://www.sakai-chem.co.jp/en/pdf/ksr2406s.pdf",
+      "https://www.sakai-chem.co.jp/en/wp/wp-content/uploads/2023/02/ksr2107.pdf",
+      "https://www.sakai-chem.co.jp/en/pdf/all_sakaikagaku_ir2024_en.pdf",
+      "https://www.sakai-chem.co.jp/wp/wp-content/themes/sccojp/pdf/sakai-chem-company_profile.pdf"
+    ]
+  },
+  {
+    "provider_name": "Nippon Steel",
+    "component_context": [
+      "BOF Carbon & Alloy Steel Billet",
+      "Electrical Silicon-Steel Alloy (3% Si-Fe)",
+      "Cold-Rolled SPCC Low-Carbon Steel Sheet"
+    ],
+    "query": "Nippon Steel official manufacturing plants production sites locations BOF Carbon & Alloy Steel Billet",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.nipponsteel.com/en/ir/library/annual_report/pdf/nsc_jp_ir_2026_databook_print.pdf",
+      "https://www.nipponsteel.com/en/ir/library/annual_report/pdf/nsc_en_ir_2026_databook.pdf",
+      "https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf",
+      "https://www.nipponsteel.com/en/company/bases/",
+      "https://www.nipponsteel.com/en/company/bases/index.html",
+      "https://www.nipponsteel.com/en/company/governance/compliance/management.html",
+      "https://www.nipponsteel.com/en/factbook/2024/11-04.html",
+      "https://www.nipponsteel.com/en/steelinc/network.html"
+    ]
+  },
+  {
+    "provider_name": "National Magnetics Group",
+    "component_context": [
+      "Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder"
+    ],
+    "query": "National Magnetics Group official manufacturing plants production sites locations Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.neomaterials.com/wp-content/uploads/2026/11/NPM-Investor-Presentation-Q3-2026-vF.pdf",
+      "https://www.magneticsgroup.com/",
+      "https://www.magneticsgroup.com/about/",
+      "https://www.magneticsgroup.com/product-line/national-magnetics-group/",
+      "https://www.magneticsgroup.com/wp-content/uploads/2019/08/NiZn-SDS-r.-12-18-18.pdf",
+      "https://www.magneticsgroup.com/wp-content/uploads/2019/09/MnZn-SDS-r.-08-30-19.pdf",
+      "https://www.cmi-ferrite.com/",
+      "https://elnamagnetics.com/wp-content/uploads/library/Magnetics/Magnetics%20Products%20Bulletin.pdf"
+    ]
+  },
+  {
+    "provider_name": "Celanese",
+    "component_context": [
+      "Thermotropic Liquid Crystal Polymer (LCP) Resin",
+      "Polybutylene Terephthalate (PBT) Engineering Resin",
+      "Polyphthalamide (PPA) High-Temperature Nylon Resin"
+    ],
+    "query": "Celanese official manufacturing plants production sites locations Thermotropic Liquid Crystal Polymer (LCP) Resin",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.celanese.com/-/media/cewebjssapp/project/documents/shared/EMMaterialSolutions-001-Portfolio-Bro-EN.pdf",
+      "https://www.celanese.com/en/-/media/Emulsion%20Polymers/Files/Brochures/EMUL-027-NonwovensPaperSpecialtiesNA-Bro-EN-0517.pdf",
+      "https://www.celanese.com/-/media/cewebjssapp/project/productdocuments/celvolit-emulsions/celanese--emulsions-asiapacific-2024.pdf?isDownload=true",
+      "https://www.celanese.com/",
+      "https://investors.celanese.com/download/companies/celanesecorp/Hauptversammlung/2019-Annual-Report.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1314514/000162828025011755/celanese-euronotesfinalx42.htm",
+      "https://financialfilings.com/filings/celanese-corporation-del/annual-report/2026/55142587/",
+      "https://investors.celanese.com/download/companies/celanesecorp/Annual%20Reports/CE%20Annual%20Report%202020.pdf"
+    ]
+  },
+  {
+    "provider_name": "Covestro",
+    "component_context": [
+      "Polycarbonate / ABS (PC/ABS) Flame-Retardant Blend",
+      "Flame-Retardant PC/ABS Structural Shroud Resin"
+    ],
+    "query": "Covestro official manufacturing plants production sites locations Polycarbonate / ABS (PC/ABS) Flame-Retardant Blend",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.covestro.com/-/media/covestro/corporate/investors/annual-general-meeting/2026/en/covestro_combined_management_report_2025.pdf?hash=2305FC253974F5165AB404B624A99A3B&rev=9ddae6179df645039c097e8dbc361b70",
+      "https://www.covestro.com/en/company/covestro-worldwide/united-states/covestro-in-the-united-states/about-covestro-llc/sites",
+      "https://www.covestro.com/-/media/covestro/corporate/investors/annual-general-meeting/2026/en/covestro_annual_report_2025.pdf?hash=DD51C24E1AB4F53AAA28877AE21BB815&rev=42ae78aa5a574affa04e8a91b2285356",
+      "https://www.covestro.com/en/company/covestro-worldwide",
+      "https://www.covestro.com/-/media/covestro/corporate/investors/annual-general-meeting/2025/en/covestro_annual_report_2024",
+      "https://www.covestro.com/sk/company/covestro-worldwide/united-states/covestro-in-the-united-states/about-covestro-llc/sites",
+      "https://www.covestro.com/media/173/2261d315e45aa60057333818c30e6c5cbad38b98bb903d2c48e10fee6f7136cc.pdf",
+      "https://www.covestro.com/en/company/covestro-worldwide/deutschland/covestro-in-deutschland/standorte"
+    ]
+  },
+  {
+    "provider_name": "Rochester Silver Works",
+    "component_context": [
+      "Refined Electro-Silver & Silver Nitrate (99.99% Ag)"
+    ],
+    "query": "Rochester Silver Works official manufacturing plants production sites locations Refined Electro-Silver & Silver Nitrate (99.99% Ag)",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://rochestersilverworks.com/silver-nitrate/",
+      "https://rochestersilverworks.com/about-rsw/",
+      "https://extapps.dec.ny.gov/data/dar/afs/permits/prr_826140088800001_r1.pdf",
+      "https://rochestersilverworks.com/services/",
+      "https://rochestersilverworks.com/",
+      "https://extapps.dec.ny.gov/data/dar/afs/permits/826140088800001.pdf",
+      "https://rochestersilverworks.com/products/",
+      "https://www.lbma.org.uk/alchemist/issue-71/recycle-refine-remanufacture"
+    ]
+  },
+  {
+    "provider_name": "IQE",
+    "component_context": [
+      "Synthetic Single-Crystal Sapphire & GaAs Epi-Wafers",
+      "Epitaxial InGaN (Blue/Green) & AlInGaP (Red) LED Semiconductor Chips"
+    ],
+    "query": "IQE official manufacturing plants production sites locations Synthetic Single-Crystal Sapphire & GaAs Epi-Wafers",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.iqep.com/about-us/sites/",
+      "https://www.iqep.com/products/",
+      "https://www.iqep.com/about-us/responsibility/accreditations/",
+      "https://www.gov.uk/government/publications/semiconductor-sector-study-2026/semiconductor-sector-study-2026",
+      "https://www.iqep.com/investors/investment-case/business-model/",
+      "https://www.iqep.com/media/press-releases/2021/iqe-announces-singapore-site-closure-as-part-of-global-consolidation-strategy/",
+      "https://www.iqep.com/products/substrates/",
+      "https://www.iqep.com/products/substrates"
+    ]
+  },
+  {
+    "provider_name": "Rubicon Technology",
+    "component_context": [
+      "Synthetic Single-Crystal Sapphire & GaAs Epi-Wafers"
+    ],
+    "query": "Rubicon Technology official manufacturing plants production sites locations Synthetic Single-Crystal Sapphire & GaAs Epi-Wafers",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.rubicontechnology.com/about-the-company",
+      "https://docs.publicnow.com/viewDoc?filename=70243%5CEXT%5C4267838ACC8F12CC7F94FBAD237E3B05E7867842_7D6DA30C1AF719ADEC0A8FB73554CC32879FDE69.PDF",
+      "https://optics.org/buyers-guide/rubicon-technology",
+      "https://www.sec.gov/Archives/edgar/vprr/0805/08050194.pdf",
+      "https://www.linkedin.com/company/rubicon-technology",
+      "https://www.sec.gov/Archives/edgar/vprr/1300/13001837.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1410172/000121390017011865/f10q0917_rubicontech.htm",
+      "https://www.sec.gov/Archives/edgar/data/1410172/000119312514097229/d657720d10k.htm"
+    ]
+  },
+  {
+    "provider_name": "Lorad Chemical",
+    "component_context": [
+      "Cerium-Doped Yttrium Aluminum Garnet (YAG:Ce) Phosphor",
+      "YAG:Ce Wavelength-Conversion Phosphor Powder"
+    ],
+    "query": "Lorad Chemical official manufacturing plants production sites locations Cerium-Doped Yttrium Aluminum Garnet (YAG:Ce) Phosphor",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://loradchemical.com/products/cerium-doped-yttrium-aluminum-garnet",
+      "https://loradchemical.com/products/yttrium-aluminum-garnet",
+      "https://loradchemical.com/data/sds/SDS-Cerium-Doped-Yttrium-Aluminum-Garnet.pdf",
+      "https://loradchemical.com/products/37/10/",
+      "https://loradlithium.com/",
+      "https://www.loradchemical.com/chemistry/fluorides/",
+      "https://loradchemical.com/products/security-phosphors/",
+      "https://www.loradchemical.com/application/fiber-optics/"
+    ]
+  },
+  {
+    "provider_name": "Morgan Advanced Materials",
+    "component_context": [
+      "Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic"
+    ],
+    "query": "Morgan Advanced Materials official manufacturing plants production sites locations Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.morganadvancedmaterials.com/en-gb/who-we-are/locations/",
+      "https://www.morganadvancedmaterials.com/media/tznobfqa/morgan-advanced-materials_annual-report-2025.pdf",
+      "https://s3.eu-west-2.amazonaws.com/document-api-images-live.ch.gov.uk/docs/HOpTZeIIGuykCjWLJ2a0BvRyELsKLGdnkAC_ZoWbdVw/application-pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWRGBDBV3F76VLAJR%2F20261120%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261120T182627Z&X-Amz-Expires=60&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGkaCWV1LXdlc3QtMiJHMEUCIQCqjeAJlcXc%2BkHNRYrYYdhMrXLgjcekpKF6wbyW%2BJMSPAIgYT8%2FK29oltXOo5NqwtriKAR6jdhbt8ZFayt%2FZDhBizEqgQQIMRAFGgw0NDkyMjkwMzI4MjIiDA79jOCtD0Q5wpFTiyreAxJm26eIRNGH6ajmdLGg36%2BxNZmieBYN7L%2F0uC9RJHgDF%2F92Ehyqbdmn%2BgrjfaN66eaysBO8CHeLqpUBbHXS4vVSvzfny2RaOijGdH0L9N1oAW0E19ZFwhylGlYzPY%2Bcd652o3te334VEesmZMSjK%2BUtob4m60ceHb7k7uXRGYgxnkNnypCX0UzdtfMxbXUm0oRgmTOUqvxCdek7dArYh5O9335gxlkrh8lni9q%2BbHJYOGnzYMBL%2B157ZqSbjQTlu3QhyKzNUoWCPct3V63qDnfsOUK1g%2BgYn3VXAaGU0U6dZMSAIWIcvgGh1A71tEHwWNO85mtZO0aYQFVL4uqftSUkXzRWgPHUrmJfL9u%2BTHfjEl1gs2QLQb1sGxO4bx8a6k4fxTg%2FZy8KJTg%2BMpHMwuEur%2Fp85VU1MOfTQ%2BXhgHtAorJa2Z2xxKK73GcL53tZTacZ2Pf2xluKl%2BmWp%2FGix%2BiarVUOVkunH65VPsRU9crMxjO1nw9Y8M23hwrq5Ja5gfPpzsiNLaq8TisGmVLZ%2B7S8DImONthmBRaeBKxDGbNzoNlAxH%2F8v5vDubbTVlB32HRbPjPjVY4vHQ8FslpX%2FeHmxmdNUoGYECXWbtWGP%2FD76OBmD2H%2BRHbtC0NKrSIwlPaB2AY6pQFsgmX4MH8oaBJ2zDGd%2BX55%2FOIk%2BRhyJzM9wj3fy4CsRW0fEYm3odjsmD07MQL%2FDZEyfgE54ysTEslzWNjSrBNZWTy7GqbTA83nhL0VW2bMIoLQRrsids%2FYNRCHxBkJlir8YVMd07YnbEkAH8paIAi8YM%2FyFModHxYP32xSB0Ef1YWzIPjfeluBJe1sR6E5JiLA%2BsGQWNdACYxC2y5JY5Nkgv0kR58%3D&X-Amz-Signature=9c4b26bea35302cb015d87c9ab852999940e927a37062aaf10ecc5e11ab3833b&X-Amz-SignedHeaders=host&response-content-disposition=inline%3Bfilename%3D%22companies_house_document.pdf%22",
+      "https://www.morgantechnicalceramics.com/en-gb/about-us/our-global-locations-and-contact-directory/",
+      "https://www.morganadvancedmaterials.com/media/r3tgmk5m/morgan-advanced-materials-2024-annual-report.pdf",
+      "https://www.morganthermalceramics.com/media/ry5jzzqg/technicalhandbookglobalproof_0.pdf",
+      "https://www.morganthermalceramics.com/en-gb/our-locations/",
+      "https://www.morgantechnicalceramics.com/media/ry5jzzqg/technicalhandbookglobalproof_0.pdf"
+    ]
+  },
+  {
+    "provider_name": "ExxonMobil",
+    "component_context": [
+      "Crude Petroleum",
+      "Natural Gas (Methane / Ethane / Propane & NGLs)"
+    ],
+    "query": "ExxonMobil official manufacturing plants production sites locations Crude Petroleum",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.exxonmobil.com/en/basestocks/production-sites",
+      "https://corporate.exxonmobil.com/careers/featured-hiring-locations/careers-at-us-manufacturing-sites",
+      "https://www.exxonmobil.com/basestocks/-/media/project/wep/exxonmobil/exxonmobil-basestocks/where-to-buy/global-availabilty-map-location.pdf",
+      "https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-26-000045/0000034088-26-000045.pdf",
+      "https://corporate.exxonmobil.com/Locations/United-States",
+      "https://site-h4eyjtvc.wsecdn1.websitecdn.com/uploads/03bd9688393a43f98e235940550f272a.pdf/ExxonMobil%2BEcosystem.pdf?v=252706092343",
+      "https://ir.exxonmobil.com/static-files/7ec80a3d-9716-4c62-81b3-75b22ea4f28e",
+      "https://fintel.io/doc/sec-exxon-mobil-corporation-34088-10k-2026-february-18-20502-1888"
+    ]
+  },
+  {
+    "provider_name": "Orbia Fluor & Energy Materials",
+    "component_context": [
+      "Fluorspar / Fluorite"
+    ],
+    "query": "Orbia Fluor & Energy Materials official manufacturing plants production sites locations Fluorspar / Fluorite",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.orbia.com/498d7a/siteassets/5.-investor-relations/annual-reports/2025-annual-report/annual-report-2025.pdf",
+      "https://assets-002.noviams.com/novi-file-uploads/naatbatt/Conference_Material/2024/Session_1A/1A-8-Orbia.pdf",
+      "https://www.orbia-fem.com/media-center/new-global-website",
+      "https://www.orbia-fem.com/",
+      "https://www.orbia.com/4ab14c/siteassets/5.-investor-relations/presentations/orbia-corporate-overview-deck-2026.pdf",
+      "https://www.orbia.com/499303/siteassets/5.-investor-relations/quarterly-earnings/2025/q1/xbrl-reporte-anual-2024.pdf",
+      "https://www.orbia-fem.com/energy-materials",
+      "https://www.orbia.com/498bae/siteassets/5.-investor-relations/annual-reports/annual-report-2023-orbia-eng.pdf"
+    ]
+  },
+  {
+    "provider_name": "Mosaic",
+    "component_context": [
+      "Phosphate Rock (Fluorapatite)",
+      "Potash / Sylvite Ore"
+    ],
+    "query": "Mosaic official manufacturing plants production sites locations Phosphate Rock (Fluorapatite)",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://mosaicco.com/About",
+      "https://mosaic.jobs/fileLibrary/publicFiles/0-2024-Sustainability-Disclosure-and-GRI.pdf",
+      "https://mosaicfla.com/fileLibrary/publicFiles/0-2022-Sustainability-Disclosure-and-GRI.pdf",
+      "https://mosaicfla.com/fileLibrary/publicFiles/0-2024-Basis-of-Reporting.pdf",
+      "https://mosaicco.com/fileLibrary/publicFiles/0-2023-Sustainability-Disclosure-and-GRI.pdf",
+      "https://mosaicco.com/fileLibrary/publicFiles/0-2022-Sustainability-Disclosure-and-GRI.pdf",
+      "https://www.mosaicco.com/fileLibrary/publicFiles/0-Sustainability_Disclosure_and_GRI.pdf",
+      "https://fintel.io/doc/sec-the-mosaic-company-1285785-10k-2026-february-27-20511-7444"
+    ]
+  },
+  {
+    "provider_name": "Pan American Silver",
+    "component_context": [
+      "Argentite / Polymetallic Silver Ore"
+    ],
+    "query": "Pan American Silver official manufacturing plants production sites locations Argentite / Polymetallic Silver Ore",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://panamericansilver.com/wp-content/uploads/2024/05/PAS-Sustainability-Report-2023.pdf",
+      "https://panamericansilver.com/operations/",
+      "https://panamericansilver.com/wp-content/uploads/2026/05/PAAS-Investor-Presentation_May_2026-.pdf",
+      "https://panamericansilver.com/wp-content/uploads/2024/08/PAS-Sustainability-Report-2024.pdf",
+      "https://panamericansilver.com/wp-content/uploads/2025/03/PAS-Annual-Report-2024_Web.pdf",
+      "https://panamericansilver.com/wp-content/uploads/2025/05/PAS-Sustainability-Report-2024.pdf",
+      "https://panamericansilver.com/wp-content/uploads/2026/03/Annual-Report-2025-Pan-American-Silver.pdf",
+      "https://magsilver.com/operations/"
+    ]
+  },
+  {
+    "provider_name": "Lucas-Milhaupt",
+    "component_context": [
+      "Silver-Copper-Phosphorus (BAg-8 / BCuP) Brazing Alloy"
+    ],
+    "query": "Lucas-Milhaupt official manufacturing plants production sites locations Silver-Copper-Phosphorus (BAg-8 / BCuP) Brazing Alloy",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.lucasmilhaupt.com/OffNav/Content-Layouts/About-Template/Find-Locations",
+      "https://www.lucasmilhaupt.com/About/History",
+      "https://www.lucasmilhaupt.com/Lucas/Product-Brochures/BrazingBookComplete.pdf",
+      "https://www.lucasmilhaupt.com/Industries",
+      "https://www.lucasmilhaupt.com/About/Certification",
+      "https://www.lucasmilhaupt.com/Products",
+      "https://www.lucasmilhaupt.com/About/Contact",
+      "https://www.linkedin.com/company/lucas-milhaupt"
+    ]
+  },
+  {
+    "provider_name": "Constellium",
+    "component_context": [
+      "Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil"
+    ],
+    "query": "Constellium official manufacturing plants production sites locations Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.constellium.com/locations",
+      "https://res.cloudinary.com/constellium/image/upload/v1741012364/PDF%20documents/Annual%20and%20Interim%20Reports/2024_-_10-K_AS_FILED_02.28.25_liohdc.pdf",
+      "https://docs.publicnow.com/viewDoc?filename=128003%2FEXT%2FFE945890264444CD9D097E8D2E956BAE40F1B082_4A354CE22CC7FFDC60CED421975D836278C9A106.PDF",
+      "https://cdn.kscope.io/a38df5e0dbf9dd19437cc98022645d18.pdf",
+      "https://financialfilings.com/filings/constellium-se/annual-report/2025/12607910/",
+      "https://www.stocktitan.net/sec-filings/CSTM/10-k-constellium-se-files-annual-report-24a57aa89924.html",
+      "https://res.cloudinary.com/constellium/image/upload/v1772462729/PDF%20documents/Brochures%20and%20Reports/Business%20and%20Sustainability%20Reports/2026%20-%20Sustainability%20Report%202025/EN_2025__Sustainability_Report_vdsh04.pdf",
+      "https://aluminium-stewardship.org/about-asi/members/Constellium"
+    ]
+  },
+  {
+    "provider_name": "Panasonic Industry",
+    "component_context": [
+      "Copper-Clad FR-4 Laminate Core",
+      "FR-4 B-Stage Glass-Epoxy Prepreg Sheet"
+    ],
+    "query": "Panasonic Industry official manufacturing plants production sites locations Copper-Clad FR-4 Laminate Core",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://news.panasonic.com/uploads/tmg_block_page_image/file/23145/en240322-2-1.pdf",
+      "https://news.panasonic.com/uploads/tmg_block_page_image/file/24183/en240520-4-1.pdf",
+      "https://news.panasonic.com/uploads/tmg_block_page_image/file/21900/en240202-4-1.pdf",
+      "https://www.panasonic.com/global/industry/outline/map.html",
+      "https://connect.panasonic.com/en/products-services_fa/supports/global",
+      "https://www.panasonic.com/content/dam/panasonic/jp/ja/industry/info/info-20251211-en.pdf",
+      "https://www.panasonic.com/content/dam/panasonic/jp/ja/industry/environment/iso-2026-en.pdf?pid=",
+      "https://connect.panasonic.com/en/jsonapi/node/campaign/a1173ce6-4b64-4d41-b47a-dc97fe356520"
+    ]
+  },
+  {
+    "provider_name": "Nippon Atomized Metal Powders",
+    "component_context": [
+      "Atomized Spherical Copper Powder Capillary Wick"
+    ],
+    "query": "Nippon Atomized Metal Powders official manufacturing plants production sites locations Atomized Spherical Copper Powder Capillary Wick",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.atomize.co.jp/english/company/profile.html",
+      "https://atomize.co.jp/english/company/access.html",
+      "https://www.atomize.co.jp/english/company/access.html",
+      "https://www.atomize.co.jp/english/company/history.html",
+      "https://atomize.co.jp/english/environment-policy/quality.html",
+      "https://atomize.co.jp/english/products/copper_powder.html",
+      "https://atomize.co.jp/english/environment-policy/environment.html",
+      "https://atomize.co.jp/english/technology/detail.html"
+    ]
+  },
+  {
+    "provider_name": "Furukawa Electric",
+    "component_context": [
+      "C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube"
+    ],
+    "query": "Furukawa Electric official manufacturing plants production sites locations C10200 / C11000 Oxygen-Free Copper Sheet & Seamless Tube",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.furukawaelectric.com/copper/factory_sales/",
+      "https://www.furukawa.co.jp/en/ir/stock/pdf/meeting20250625_early.pdf",
+      "https://www.furukawaelectric.com/en/company/office/",
+      "https://www.furukawaelectric.com/thermal/en/network/",
+      "https://www.furukawaelectric.com/thermal/network/",
+      "https://furukawaelectric.disclosure.site/pdf/library/175/en/2024en.pdf",
+      "https://www.furukawaelectric.com/ir/stock/meeting/202/meeting20240623.pdf",
+      "https://www.furukawaas.co.jp/english/corporate/domestic/"
+    ]
+  },
+  {
+    "provider_name": "Kiyomine Metal Industry",
+    "component_context": [
+      "Stamped C5191 Phosphor-Bronze Spring Contacts"
+    ],
+    "query": "Kiyomine Metal Industry official manufacturing plants production sites locations Stamped C5191 Phosphor-Bronze Spring Contacts",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.kiyomine.co.jp/en-company/",
+      "https://www.kiyomine.co.jp/en-products/en-bronze/",
+      "https://www.kiyomine.co.jp/company/",
+      "https://www.kunimine.co.jp/company/network.html",
+      "https://www.kiyomine.co.jp/wp-content/themes/kiyomine/common/pdf/en/product_en.pdf",
+      "https://www.kiyomine.co.jp/wp-content/themes/kiyomine/common/doc/kiyomine_product_200401.pdf",
+      "https://www.iis-net.or.jp/e-info/kigyou/show?id=1539",
+      "https://www.kiyomine.co.jp/en-business/"
+    ]
+  },
+  {
+    "provider_name": "Sherwin-Williams",
+    "component_context": [
+      "Acrylic-Polyurethane Matte Protective Shroud Coating"
+    ],
+    "query": "Sherwin-Williams official manufacturing plants production sites locations Acrylic-Polyurethane Matte Protective Shroud Coating",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://industrial.sherwin-williams.com/content/dam/pcg/sherwin-williams/resin-flooring/na/us/en-us/pdfs/sw-pdf-leed-voc-referenceguide.pdf",
+      "https://industrial.sherwin-williams.com/content/dam/pcg/sherwin-williams/protective-marine/na/us/en-us/pdfs/marketing-uploads/flooring-resources/sw-pdf-leed-voc-referenceguide.pdf",
+      "https://s2.q4cdn.com/918177852/files/doc_presentations/2026/Jun/11/SHW_2025AR_FINAL_ADA.pdf",
+      "https://s2.q4cdn.com/918177852/files/doc_financials/2025/ar/SHW_2025-Annual-Report_WEBSITE-FINAL.pdf",
+      "https://industrial.sherwin-williams.com/na/us/en/packaging/find-location.html",
+      "https://fintel.io/doc/sec-the-sherwin-williams-company-89800-10k-2026-february-19-20503-5956",
+      "https://cdn.companiesmarketcap.com/sgd/sherwin-williams/sec-reports-10k/0000089800-26-000008/",
+      "https://pages.s-w.com/rs/148-TME-299/images/Sherwin%20Williams%20Overview%20Brochure.pdf"
+    ]
+  },
+  {
+    "provider_name": "Indium Corporation",
+    "component_context": [
+      "SAC305 Lead-Free Solder Paste & Rosin Flux"
+    ],
+    "query": "Indium Corporation official manufacturing plants production sites locations SAC305 Lead-Free Solder Paste & Rosin Flux",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.indium.com/corporate/facilities/",
+      "https://www.indium.com/wp-content/uploads/2025/10/Corporate-Overview-Handout-98460-A4-R7.pdf",
+      "https://www.indium.com/wp-content/uploads/2025/10/Corporate-Overview-Handout-98460-R7.pdf",
+      "https://www.indium.com/tw/press-releases/indium-corporation-opens-new-manufacturing-facility-in-guadalajara-mexico-expanding-global-production-network/",
+      "https://www.indium.com/wp-content/uploads/2025/03/Solder-Alloy-Directory-97720-A4-R9.pdf",
+      "https://www.indium.com/corporate/",
+      "https://www.indium.com/zh/press-releases/indium-corporation-opens-new-manufacturing-facility-in-guadalajara-mexico-expanding-global-production-network/",
+      "https://www.indium.com/ja/press-releases/indium-corporation-opens-new-manufacturing-facility-in-guadalajara-mexico-expanding-global-production-network/"
+    ]
+  },
+  {
+    "provider_name": "RBC Bearings",
+    "component_context": [
+      "Precision-Ground Stainless Steel Rotor Shaft"
+    ],
+    "query": "RBC Bearings official manufacturing plants production sites locations Precision-Ground Stainless Steel Rotor Shaft",
+    "searched_on": "2026-11-24",
+    "status": "discovery_only_requires_entity_and_product_site_review",
+    "candidate_urls": [
+      "https://www.rbcbearings.com/literature/pdfs/RBC_SPB_Brochure_WEB.pdf",
+      "https://www.rbcbearings.com/literature/pdfs/RBC_SPB_Brochure.pdf",
+      "https://www.rbcbearings.com/business-groups",
+      "https://investor.rbcbearings.com/static-files/248c78de-6849-4fe2-b391-a18826b90e00",
+      "https://www.rbcbearings.com/Business-Groups",
+      "https://investor.rbcbearings.com/corporate-overview/corporate-profile",
+      "https://investor.rbcbearings.com/",
+      "https://www.rbcbearings.com/About-Us"
+    ]
+  }
+]

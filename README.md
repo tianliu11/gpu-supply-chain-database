@@ -56,6 +56,23 @@ the following review files:
 - `full_supply_chain_completion_report.json`: concise completion counts and the
   claims the package intentionally does not make.
 - `full_supply_chain_sources.csv`: combined source register.
+- `data/raw/additional_node_research_search_log.json` and
+  `data/raw/manufacturing_site_research_search_log.json`: discovery-only query
+  logs, not verified supplier or site evidence.
+- `full_supply_chain_vendor_site_coverage.csv`: distinguishes a product-class
+  manufacturing site from a company site with unverified product allocation.
+- `full_supply_chain_modeling_issues.csv`: specific structural and interpretation
+  problems found in the submitted proposal.
+- `full_supply_chain_research_database.json`: consolidated JSON handoff containing
+  all the above evidence layers. Edge endpoints are `source_node_id` and
+  `target_node_id`.
+
+The follow-up research adds explicit `product_scope`, qualification and corporate-
+group fields. All counts are rebuilt in `full_supply_chain_completion_report.json`.
+The earlier count of 400 supported edges was based on overly broad category
+matching and has been withdrawn; the current audit requires explicitly scoped
+evidence. Read `FULL_SUPPLY_CHAIN_EVIDENCE_NOTES.md` before using the database for
+redundancy or lead-time results.
 
 The airport and port results are proximity screening. They do not demonstrate
 cargo schedules, customs capability, road accessibility, carrier capacity or an
@@ -106,4 +123,5 @@ tables:
 
 ```bash
 python3 code/build_full_supply_chain_evidence.py
+python3 code/test_public_research_integrity.py
 ```

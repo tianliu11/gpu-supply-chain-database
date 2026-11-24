@@ -8,22 +8,23 @@ confirmed that it is a directed acyclic graph, contains no missing-node edges or
 self-loops, and that every node has a path to the root and a raw-material
 ancestor.
 
-Structural correctness is different from factual verification. Each edge is
-therefore assigned one of five evidence statuses in
-`data/clean/full_supply_chain_edges_audit.csv`:
+Structural correctness is different from factual verification. The current
+edge audit uses explicitly scoped source records for particular edge IDs.
+Supported category membership, manufacturing use, composition and process-stage
+sequence have separate statuses. Proposed ore-conversion links, optional process
+choices, consumables and unresolved relationships are labeled separately.
 
-1. `supported_structural_reference`: the relationship follows the generic
-   BOMWiki hierarchy.
-2. `supported_category_level`: authoritative semiconductor sources support the
-   broad process or material category, but not an exact chemical recipe.
-3. `supported_product_or_industry_level`: an official product document or
-   industry standard supports the material relationship for that product class.
-4. `partially_supported_requires_specific_confirmation`: a source supports the
-   commodity or process class but not the exact conversion edge.
-5. `unverified_specific_relation`: the submitted graph is currently the only
-   evidence for that exact relationship.
+The earlier statement that 400 edges were supported is withdrawn. That count
+came from a first-pass keyword/category matching rule: for example, a broad
+semiconductor document could be attached to an exact precursor recipe. The
+current pipeline no longer treats those matches as verification. Consult the
+live counts in `data/clean/full_supply_chain_completion_report.json`.
 
-These statuses must not be collapsed into a single “verified” flag.
+`source_ids` identifies evidence scoped to the claim in `audit_note`. A blank
+source field means exact evidence remains absent. An upstream-lineage label is
+not an assertion that the chemical conversion is impossible; it means the
+route and skipped intermediates still need evidence. None of these statuses
+establishes an observed transaction or mandatory input for every GPU.
 
 ## Vendor interpretation
 
@@ -36,7 +37,17 @@ Where ETO publishes no comparable market-share number, the suppliers are marked
 does not prove they are the ten largest firms by revenue or volume. The vendor
 coverage table lists every unsupported node so that later research does not
 silently inherit a parent-category supplier as a supplier of every chemical
-precursor.
+precursor. `product_scope` identifies the supported branch of combined nodes,
+and `qualification_status` identifies missing grade/eligibility information.
+Candidate finished-device manufacturers are explicitly distinguished from
+confirmed sellers of separate bare die or unfinished component bodies.
+
+The supplementary research register is in `code/additional_public_research.py`.
+It contains scoped observations from official product, operations and corporate
+documents reviewed on 2026-11-24. The follow-up search log records searches for
+all 101 nodes that lacked candidates when that search pass began. Search-result
+links are discovery leads; they are not automatically added as verified vendors.
+Current coverage is a candidate-presence measure, not a market-share percentage.
 
 ## Facility interpretation
 
@@ -48,7 +59,17 @@ site supplies NVIDIA or a particular GPU model.
 
 Some official company sources publish a complete global manufacturing footprint;
 others publish only a regional or business-unit list. The
-`public_site_list_completeness` field records that distinction.
+`public_site_list_completeness` field records that distinction. The follow-up
+`full_supply_chain_vendor_site_coverage.csv` distinguishes a documented product-
+class site from an otherwise known company site. Most corporate footprints are
+still partial; none is described as exhaustive without a complete source audit.
+
+New coordinates are cached OSM city/district proxies with country checks,
+retrieval queries and feature IDs in `data/raw/public_site_geocodes.json`.
+Older approximate coordinates are labeled as inherited approximations. These
+coordinates should be replaced with factory-gate locations for operational
+routing. Idle assets, planned expansions and commercial interruptions must be
+checked before treating a site as an available source.
 
 ## Nearby hubs
 
@@ -58,10 +79,48 @@ For each geocoded production site, the pipeline calculates:
   OurAirports; and
 - the three nearest ports in the NGA World Port Index.
 
+The cached port records were downloaded from an ArcGIS-hosted World Port Index
+mirror, not directly from NGA. `R_WPI_MIRROR` records the actual endpoint; its
+revision and completeness have not been reconciled with the current NGA release.
+
 Distance is great-circle distance. These rows are screening candidates only.
 Before using them as graph transportation edges, confirm cargo handling,
 customs, carrier schedules, mode suitability, road/rail access and actual
 supplier practice.
+
+## Problems found in the submitted structure
+
+The modeling-issues table documents specific problems, including a post-packaging
+output feeding the bare GPU die, a GDDR6/GDDR6X node in an RTX 5080-class GDDR7
+reference, combined alternative materials treated as simultaneously necessary,
+generic mask substrate assumptions, and a mandatory YAG phosphor assumption for
+RGB LEDs. The raw-material set also omits gallium and indium despite naming
+compound-semiconductor products containing them. Reachability to the existing
+36 raw nodes therefore does not establish chemical completeness.
+
+The original JSON is preserved. The audit recommends changes for team review;
+it does not silently turn those proposals into an exact product BOM.
+
+## Current research pass
+
+The extension contains 203 nodes with supplier-candidate evidence out of the 289
+submitted nodes, 338 supplier-to-node records, and 143 production-site records.
+These are not completion percentages: category nodes, process stages, internal
+subcomponents and purchased materials have different evidence requirements.
+Supplier capability does not establish market coverage or a qualified substitute.
+
+The discovery logs record follow-up queries for 101 then-uncovered nodes and 127
+then-uncovered vendor names. Search hits are leads, not automatically accepted
+evidence. Ambiguous entities (for example CMC, Merck and ASM-related names) require
+company-identity checks before accepting a factory. Only reviewed observations
+are added to the curated research module.
+
+The site-coverage table is the most useful readiness check: many supplier-node
+pairs still have no documented production site, or only company-level sites
+without product allocation. A fabless designer such as NVIDIA is distinguished
+from a manufacturer that needs a production-site match. Public sources rarely
+establish every supplier's complete global footprint, qualified grade, current
+capacity and actual customer shipping lane.
 
 ## Remaining work before claiming a complete real supply chain
 
@@ -69,8 +128,8 @@ supplier practice.
   `full_supply_chain_vendor_coverage.csv`.
 - Replace unranked provider sets with comparable market-share evidence when a
   reputable source publishes it.
-- Verify the 203 exact relations currently marked
-  `unverified_specific_relation`.
+- Check the current unresolved edge groups in the completion report. These
+  counts increased after correcting the overly broad first-pass validation.
 - Obtain confidential or primary customer-to-factory allocations if the project
   needs actual rather than candidate routes.
 - Validate nearby hubs operationally before converting proximity candidates to
@@ -82,6 +141,17 @@ supplier practice.
 
 ```bash
 python3 code/build_full_supply_chain_evidence.py
+python3 code/test_public_research_integrity.py
 ```
 
-The script is deterministic given the checked-in raw datasets.
+The builder is deterministic given the checked-in raw datasets. To refresh new
+site proxies through public Nominatim, run
+`python3 code/geocode_public_production_sites.py --retry-missing`, then rebuild.
+This performs sequential, rate-limited network requests and retains the cache.
+
+The consolidated machine-readable handoff is
+`data/clean/full_supply_chain_research_database.json`. It includes the original
+nodes, evidence-audited edges, vendor candidates, public production sites, nearby
+hubs, site-coverage records, modeling issues and the source register. Its edges
+use `source_node_id` and `target_node_id`; the untouched original JSON uses
+`source` and `target`.

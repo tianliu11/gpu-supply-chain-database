@@ -1,0 +1,1715 @@
+[
+  {
+    "node_id": "0",
+    "query": "Graphics Card (GPU) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/2199/kw/surround/related/1",
+      "https://eproc.isro.gov.in/common/viewDocument?id=ff80818197c4127d0197d3f0d8a41c8a&indentId=SA2025001388",
+      "https://nvidia.custhelp.com/app/answers/detail/a_id/5457/kw/DON%26",
+      "https://advcloudfiles.advantech.com/ecatalog/2025/Industrial-Sourcing-Distribution-Catalog.pdf",
+      "https://www.biostar-usa.com/e-catalouge/2024_menu/2024_BIOSTAR_catalog.pdf",
+      "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5060-8G-VENTUS-3X.pdf",
+      "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5080-16G-EXPERT-OC.pdf",
+      "https://www.nvidia.com/en-us/products/workstations/rtx-5000/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "1",
+    "query": "Main PCB manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://usuncircuit.en.made-in-china.com/product/rwvtjeHowFUX/China-China-Made-PCB-Mainboard-Circuit-and-PCB-Manufacturing.html",
+      "https://abiscircuits.en.made-in-china.com/product/yFlAaNCdcjhb/China-PCB-Main-Board-PCB-Assembly-Motherboard-SMD-PCBA.html",
+      "https://smartbes.en.made-in-china.com/product/rpSUIZWcfbkM/China-Smart-Electronics-PCBA-Main-Board-Fabrication-Manufacturer-Motherboard-Production-Multilayer-PCB.html",
+      "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-e80489bb-e820-4605-b6cd-6b756651f79a/ddea4fe7-ab25-4171-9bbd-a27fce7bd425.pdf",
+      "https://huaruika.en.made-in-china.com/product/exypRJtWvHrK/China-Filter-Circuit-Board-Mainboard-for-Signal-Processing-Applications.html",
+      "https://www.elcopcb.com/wp-content/uploads/2024/04/Multi-Layer.pdf",
+      "https://newchip.en.made-in-china.com/product/fwUGctsoJzAg/China-OEM-Professional-Custom-Electronic-PCB-Main-Board-Manufacturer-PCB-PCBA-Manufacturer-PCB-PCBA-IC-and-Components.html",
+      "https://exceeding1228.en.made-in-china.com/product/CmrpXRTAsfcd/China-Motherboard-Circuit-Board-PCB-SMT-PCBA-with-SMD-DIP-Technology-Electronics-Component.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "1.2",
+    "query": "GPU Package manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://cnfx.com/industry/computer-electronic-and-optical-product-manufacturing/product/graphics-processing-unit",
+      "https://www.cincoze.com/en/goods_info.php?id=678",
+      "https://www.cloudspress.com/who-makes-nvidia-graphics-cards-and-where-are-they-built/",
+      "https://fpga.io/brands/nvidia/nvidia-geforce-rtx/",
+      "https://gpuworld.ai/resources?region=international",
+      "https://gpusmith.com/hardware",
+      "https://radxtech.com/products/catalyst-gpu",
+      "https://www.cincoze.com/en/goods_info.php?id=347"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "1.4",
+    "query": "VRM Phase manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://my.avnet.com/wcm/connect/b16e9557-710f-4baa-8b87-a8d79d4208fc/Flex-Power-Modules-Printed-Selection-Guide-2025-EN-Guide.pdf?CACHE=NONE&CVID=pE1SNyY&ContentCache=NONE&MOD=AJPERES",
+      "https://my.avnet.com/wcm/connect/b16e9557-710f-4baa-8b87-a8d79d4208fc/Flex-Power-Modules-Printed-Selection-Guide-2026-EN-Guide.pdf?CACHE=NONE&CVID=pOko6zc&ContentCache=NONE&MOD=AJPERES",
+      "https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v251/en/Subsystems/SIwave/Content/multiphaseVRM.htm",
+      "https://www.renesas.com/en/document/oth/power-mos-fet-applications",
+      "https://my.avnet.com/wcm/connect/cd276129-fa37-4f59-9a0b-4eceb026e300/Flex-Power-Modules-BMR310-Series-EN-Datasheet.pdf?MOD=AJPERES",
+      "https://www.edn.com/flex-power-modules-releases-its-first-two-phase-voltage-regulator-module/",
+      "https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v251/en/Subsystems/Circuit/Content/3DLayout/DCIR_ViewingandCreatingVRMs.htm",
+      "https://www.satec-global.com/wp-content/uploads/2025/09/VRM-Module-QUICKSTART-2.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "1.5",
+    "query": "I/O Bracket manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.ovation2.co.uk/members/ght634UH6/FlashBack-4-PCB/FB-4%20A-1289-IO-PCB-V1-2.pdf",
+      "https://www.thehapcogroup.com/pci-io-brackets",
+      "https://patents.google.com/patent/US6330139B1/en",
+      "https://storage.googleapis.com/cloud-storage-web/public/t_form3/CWwG5m74PxKk75wxdzJHuDgQKAfE6Xn3G3RkqADM.pdf",
+      "https://my.rs-online.com/web/p/pcb-card-brackets/1154546",
+      "https://hken.rs-online.com/web/p/pcb-card-brackets/1154546",
+      "https://twen.rs-online.com/web/p/pcb-card-brackets/1154546",
+      "https://ie.rs-online.com/web/p/pcb-card-brackets/1154546"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "2",
+    "query": "Cooler manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.cooleracc.com/about-us",
+      "https://www.cooleracc.com/development-history",
+      "https://www.tccool.com/products/do/detail/pid/1/id/83.html",
+      "https://www.tccool.com/products/do/detail/id/109.html",
+      "https://www.tccool.cn/products/pid/3/do/detail/cid/12/id/57.html",
+      "https://www.tccool.cn/products/pid/1/do/detail/cid/5/id/47.html",
+      "https://www.tccool.com/products/do/detail/pid/0/id/69.html",
+      "https://tccool.com/products/pid/1/do/detail/cid/4/id/82.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "2.6",
+    "query": "Fastener Set manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://uk.farnell.com/duratool/d01617/screw-set-machine-pan-csk-slot/dp/1850608",
+      "https://www.oemsecrets.com/details/d01885/",
+      "https://www.mcmaster.com/products/set-bolt-assortments/",
+      "https://au.element14.com/duratool/d01885/nut-bolt-set-stainless-steel-224pcs/dp/2444371",
+      "https://www.oemsecrets.com/manufacturers/tr-fastenings/tools-and-supplies/fasteners-and-fixings/fastener-kits-and-assortments",
+      "https://www.item24.com/en-us/universal-fastening-set-6-bright-zinc-plated-41952",
+      "https://au.element14.com/duratool/d00750/lab-kit-nylon-screw-metric/dp/1514479",
+      "https://portalimages.blob.core.windows.net/products/pdfs/wke0vhs0_FastenersSelectionGuide56Pages1.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "3",
+    "query": "Backplate manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://download.alphacool.com/datasheet/ENG_13072_Alphacool_Apex_Backplate_XPX-Eisbaer_LGA_1700_Metall_Full_Cover_datasheet.pdf",
+      "https://www.made-in-china.com/new-products/back-plate.html",
+      "https://download.alphacool.com/legacy/datasheet/ENG_13072_Alphacool_Apex_Backplate_XPX-Eisbaer_LGA_1700_Metall_Full_Cover_datasheet.pdf",
+      "https://b2bdata.baidu.com/en/rank/all-area/transfer-leasing-processing/mechanical-hardware-processing/sheet-metal-backplate",
+      "https://mm.made-in-china.com/hot-china-products/Hardware_Back_Plate.html",
+      "https://files.icp-deutschland.de/produkte/K121369/web/icp/121369-datasheet-20221128.pdf",
+      "https://mono.ipros.com/en/cg2/Backplate/",
+      "https://www.rosch-computer.de/file.jsp?aid=14552&sku=CHE-00033-01-GP"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "4",
+    "query": "PCIe Edge Connector manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.samtec.com/products/pcie",
+      "https://www.samtec.com/products/pcie?technicalDetailsblock=true",
+      "https://www.amphenol-cs.com/product/10146065110c0lf.html",
+      "https://www.samtec.com/products/pcie-g5-08-01-f-em-wt",
+      "https://kineticlive.samtec.com/high-speed-board-to-board/edge-cards/pcie/",
+      "https://acroname.com/sites/default/files/assets/s78-mtm-relay_v1.7_1.pdf",
+      "https://www.samtec.com/products/pcie-ra",
+      "https://kineticlive.samtec.com/products/pcie?3d=true"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "5",
+    "query": "Auxiliary Power Connector manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.anen-connector.com/auxiliary-power-connector-factories-multipole-power-connectors-sa2-30-anen-product/",
+      "https://www.medlonchina.com/4-pin-auxiliary-power-connector.html",
+      "https://www.mouser.com/datasheet/2/22/cat-ppmp4-1158099.pdf",
+      "https://zjapeks.en.made-in-china.com/product/DJGUfRCHsSrX/China-Double-Pole-Power-Connector-Battery-Connector-with-Auxiliary-Contact-for-Electric-Forklift.html",
+      "https://www.mouser.com/datasheet/2/22/S-SBEX320-350%282%29-273618.pdf",
+      "https://www.amphenol-cs.com/product-series/minitek-pwr-cem-5-pcie.html",
+      "https://www.mouser.com/datasheet/2/22/ds-sbex160-175-771174.pdf",
+      "https://zjapeks.en.made-in-china.com/product/pmeUXaGvgKYj/China-High-Current-Power-Yellow-Color-Supply-Battery-Forklift-Connector-with-Auxiliary-Contacts.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "6",
+    "query": "Display Output Cluster manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.display-hub.com/solutions/lite-systems/",
+      "https://eshinedisplay.en.made-in-china.com/product/rKuExBFdgQYI/China-3-2-Inch-Custom-Capacitive-Touch-TFT-LCD-Cluster-Display.html",
+      "https://rodaview.en.made-in-china.com/product/vrxpASBdnikq/China-4K-Creative-Wall-Processor-10output-with-Cluster-Management-and-Digital-Signage.html",
+      "https://wwwdisplay.com/products/automotive-displays",
+      "https://www.ti.com/lit/ug/tidue88/tidue88.pdf?ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FLP87523-Q1&ts=1774218805561",
+      "https://www.ti.com.cn/lit/ug/tidue88/tidue88.pdf?ts=1779863391990",
+      "https://www.visteon.com/products-technology/digital-cockpit/instrument-clusters/default.aspx",
+      "https://www.ti.com/lit/ug/tidue88/tidue88.pdf?ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fde-de%252FTCAN1043-Q1&ts=1778912636282"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "6.1",
+    "query": "HDMI Port manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.hdmi.org/spec/",
+      "https://www.hdmi.org/spec/hdmi2/",
+      "https://www.hdmi.org/spec/hdmi2_1/",
+      "https://manuals.plus/m/222ffb49ca5faa0e36ce1418c15172dea0a9664b011089956f39ca05080823fb.pdf",
+      "https://www.itechguides.com/understanding-hdmi-ports-a-comprehensive-guide/",
+      "https://assets.aten.com/product/spec_sheet/2L-7D01H-7D02H-7D02H-1-7D03H-7D05H-1-High-Speed-True-4K-HDMI-Cable-datasheet-en.pdf",
+      "https://www.dgfosenconn.com/standard-hdmi-connector-dip-horizontal-type-a-hdmi-hdmi-017-product/",
+      "https://www.hdmi.org/spec/hdmi2_1"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "6.2",
+    "query": "DisplayPort manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://vesa.org/displayport-developer/about-displayport/",
+      "https://www.delock.com/produkt/80492/pdf.html?sprache=en",
+      "https://www.amphenol-cs.com/product-series/displayport-g46.html",
+      "https://www.delock.com/produkt/82423/pdf.html?sprache=en",
+      "https://www.delock.com/produkt/87054/pdf.html?sprache=en",
+      "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_displayport_2_1.pdf",
+      "https://s3.amazonaws.com/assets.mhint/downloads/64609/355575_datasheet_english.pdf",
+      "https://s3.amazonaws.com/assets.mhint/downloads/64610/355582_datasheet_english.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "7",
+    "query": "Cooler Shroud manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://dynadocweb.dynapac.com/idc/groups/product_doc/documents/product_documentation/4812200539.pdf",
+      "https://dealers.doosanportablepower.com/emea/documents/Parts/01.%20Portable%20Compressors/2.Mid%20Range/USmade_P600_%20XP525_%20HP450_%20VHP400-WIR-WCU/22557896-11-04-PM-P600-HP450-VHP400-WIR.pdf",
+      "https://dealers.doosanportablepower.com/emea/documents/Parts/01.%20Portable%20Compressors/2.Mid%20Range/USmade_P600_%20XP525_%20HP450_%20VHP400-WIR-WCU/22557896-F-01-07-PM-P600-HP450-VHP400-WIR.pdf",
+      "https://download.alphacool.com/legacy/ENG_1020194_Alphacool_Shroud_decoupling_140mm_Datasheet.pdf",
+      "https://cgj.com/product-category/shrouds",
+      "https://www.xylem.com/siteassets/brand/goulds-water-technology/resources/gwt-branded-lowara-range/technical-brochure/g91005681_z8-z10-z12-50hz_en_goulds-2.pdf",
+      "https://download.alphacool.com/legacy/ENG_1020193_Alphacool_Shroud_decoupling_120mm_Datasheet.pdf",
+      "https://www.rallydesign.co.uk/product_info.php?products_id=24574"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "8",
+    "query": "RGB / LED Lighting manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://kkdc.lighting/media/product-attachments/MOMO-L%20RGB%20Spec.pdf",
+      "https://www.solidapollo.com/PDF/RGB-LED-Strip-Light-Data-Sheet.pdf",
+      "https://xingrou-led.en.made-in-china.com/product/sYJRheOTYnkH/China-Colorful-5050-RGB-LED-Strip-Lights-for-Indoor-and-Outdoor-Use.html",
+      "https://xingrou-led.en.made-in-china.com/product/KTdRQrmHqxpw/China-2025-APP-Remote-Control-Smart-LED-Strip-Light-SMD-5050-RGB-LED-Light-Strip-Lights-for-Decoration.html",
+      "https://wwwlegacy.vishay.com/docs/80526/vlmrgb6122xxx.pdf",
+      "https://www.solidapollo.com/PDF/RGB-LED-Strip-Light-Data-Sheet.pdf?srsltid=AfmBOopWx8dI7bCTukO4_C1e8VpIIw0AJ39D9CFv5vs7KzE01EFyP08p",
+      "https://xingrou-led.en.made-in-china.com/product/mxMpCeIEvoRz/China-Wholesale-High-Efficiency-Colorful-RGB-LED-Ribbon-Strip-RGB5050-Flexible-LED-Strip-Light-Manufacturer.html",
+      "https://sirs-e.com/wp-content/uploads/2008/04/5050-LED-RGB-Data-Sheet.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "8.2",
+    "query": "RGB Controller manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.led-drivers.com.au/sites/default/files/product/document/ikinetic-dd04-mw-data-sheet.pdf",
+      "https://oem.suzohapp.com/products/lighting/leds/rgb-led-controller-with-remote-control/",
+      "https://botland.store/led-strips-panels-drivers/29513-led-rgb-strip-controller-with-rf-touch-remote-12-24-v-3x-6-a-mw-ctr-rgb-6a-02-mw-lighting-5902135122556.html",
+      "https://www.brightgreentechnology.com/wp-content/uploads/2020/11/Datasheet-Bright-Green-RGB-Controller-V20.8-1.pdf",
+      "https://mslighting.en.made-in-china.com/product/iXzJhYdcgpWt/China-Cc-350mA-RGB-Controller-Touch-Key-RF-Learning-Remote-Control.html",
+      "https://www.made-in-china.com/showroom/ice850406/product-detailJxIYcKSTZZkd/China-Dhv002-RGB-RGBW-2-in-1-DC110-240V-High-Voltage-LED-Strip-Controller.html",
+      "https://forcateled.en.made-in-china.com/product/sXpxoLwgEeWz/China-RF-6-Key-RGB-Controller-with-Synchronous-Remote-for-RGB-LED-Lights.html",
+      "https://solidapollo.com/PDF/LED-Wizard-RGB-Manual-Controller-Data-Sheet.pdf?srsltid=AfmBOory1_LYOXQCpQ5P_Il6tn-u_0nT8SAZEYt8gzsW44DwwH7n_2B6"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "RAW-ARSENOPYRITE",
+    "query": "Arsenopyrite Arsenic-Bearing Sulfide Ore manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://gq.mines.gouv.qc.ca/documents/EXAMINE/S019/S019.pdf",
+      "https://keys.lucidcentral.org/keys/v4/key-to-minerals/key/key_to_minerals/Media/Html/minerals/sulfides/arsenopy.htm",
+      "https://www.arsiminerals.com/product/150-arsenopyrite/",
+      "https://www.fomsnj.org/mineral.aspx?minName=Arsenopyrite&minid=125",
+      "https://museum.wales/mineralogy-of-wales/database/?mineral=41&name=Arsenopyrite",
+      "https://link.springer.com/content/pdf/10.1007/s11356-012-1449-0.pdf",
+      "https://www.sciencedirect.com/science/article/pii/S0892687521003629",
+      "https://h2020-tarantula.eu/wp-content/uploads/2024/04/D2.3_Tarantula.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:interconnect_materials",
+    "query": "Interconnect materials manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.cil-uk.co.uk/assets/Uploads/PDF/Brochure-May-2024-V7-v2.pdf",
+      "https://insulectro.com/interconnect-solutions/",
+      "https://s23.q4cdn.com/116192123/files/doc_presentations/2024/May/03/dd-marketing-deck-5-3-24_vfinal2.pdf",
+      "https://s23.q4cdn.com/116192123/files/doc_presentations/2024/May/03/dd-marketing-deck-5-3-24_vfinal1.pdf",
+      "https://s23.q4cdn.com/116192123/files/doc_presentations/2024/Jun/14/dd-marketing-deck-6-14-24_vf.pdf",
+      "https://www.sec.gov/Archives/edgar/data/2058873/000119312525240313/d21160dex991.htm",
+      "https://ase.aseglobal.com/wp-content/themes/ase/pdf/20180416152344494583235_en.pdf",
+      "https://s23.q4cdn.com/116192123/files/doc_presentations/2022/DD-Marketing-Deck-11-22-DRAFT-v2_FINAL.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:plastic_substrate",
+    "query": "Plastic substrate manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://matraplast.com/en/product-vistar/",
+      "https://www.ppg.com/en-US/teslin/products",
+      "https://www.ppg.com/pl-PL/teslin/resource-center/technical-data",
+      "https://www.sushengpolymer.com/media/pdf/4IgDWx_Teslin-SP-1000.pdf",
+      "https://graphics.averydennison.eu/content/dam/averydennison/graphics/ap/en/Product-Data-Sheets/Sign/Avery-5000-flexible-substrate-en.pdf",
+      "https://www.ppg.com/en-US/teslin/resource-center/testing-and-performance",
+      "https://it.pakosignparts.com/Attachment/DownloadFile?downloadId=346",
+      "https://www.ppg.com/it-IT/teslin/products"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:basic_acidic_chemical_inputs",
+    "query": "Basic/acidic chemical inputs manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://koviachem.com/basic-chemicals/",
+      "https://www.barcelonesa.com/wp-content/uploads/documentacion-comercial/104/104_LS_EN_FARMACIAYQUIMICAFINA.pdf",
+      "https://interconchemical.com/product/acid-detergent/",
+      "https://www.idealchemical.com/wp-content/uploads/2025/01/Ideal-Line-Sheet-01.01.25.pdf",
+      "https://www.itwreagents.com/rest-of-world/en/acids-and-bases",
+      "https://www.itwreagents.com/download_file/info_point/IP-018/en/IP-018_en.pdf",
+      "https://www.idealchemical.com/wp-content/uploads/2026/02/Ideal-Line-Sheet-2026.pdf",
+      "https://www.aeb-group.com/media/catalogo-unico/acid_60_t-2515/docs/en/ACID_60_T_TDS_EN_0070618_Italy.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:polysilicon_starter_rods",
+    "query": "High-purity polysilicon slim starter rods manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.latentek.com.tw/en/product-2/semiconductor/",
+      "https://recsilicon.com/wp-content/uploads/2022/08/Download-Center-Brochures-A-Global-Leader-English.pdf",
+      "https://www.cn-equator-semiconductor.com/high-purity-silicon-processed-parts/silicon-rods/",
+      "https://patents.google.com/patent/US20180086644A1/en",
+      "https://www.wiley.law/assets/htmldocuments/2021-08-16-PV-A-SMACCs-Req-for-Circumvention-Ruling-Thailand-Volume-Solar-I-China-AD-CVD-CIRC.pdf",
+      "https://patents.google.com/patent/WO2010042237A2/en",
+      "https://www.nrel.gov/docs/legosti/fy98/25232.pdf",
+      "https://us.mersen.com/en/products/isostatic-graphite-and-extruded-graphite/purified-graphite-polysilicon-manufacturing"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:dopants",
+    "query": "P-type or n-type dopants manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.tcichemicals.com/JP/ja/product/topics/dopants_for_organic_electronics_research",
+      "https://www.ernster.com/annot/564C42696D677C7C393738333532373331333738357C7C504446.pdf?sq=9",
+      "https://www.tcichemicals.com/DE/en/product/topics/dopants_for_organic_electronics_research",
+      "https://www.tcichemicals.com/US/en/product/topics/dopants_for_organic_electronics_research",
+      "https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/oneam/en-us/electronic-materials/documents/AccuspinBoron-SpinOnDopant-SellSheet.pdf",
+      "https://www.zjjrh.com/en/index.php/product.html",
+      "https://www.emdgroup.com/content/dam/web/corporate/non-images/business-specifics/electronics/semiconductors/us/05_media/05b_technical-resources/M4Ward-datasheet-EN-US.pdf",
+      "https://www.lookpolymers.com/pdf/MarkeTech-Silicon-Single-Crystal-Semiconductor-Wafer-p-type-Dopant-NDT-Float-Zone-Grown.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:diamond_sic_slurry_glycol",
+    "query": "Diamond/SiC abrasive slurry and glycol carrier manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://multimedia.3m.com/mws/media/2403311O/3m-trizact-composite-slurry-de-100-4xs-tds.pdf?fn=3m-trizact-composite-slurry-de-100-4xs-tds.pdf",
+      "https://multimedia.3m.com/mws/media/2403314O/3m-trizact-composite-slurry-dt-100-3-micron-tds.pdf?fn=3m-trizact-composite-slurry-dt-100-3-micron-tds_R1.pdf",
+      "https://processresearch.com/products/pc/",
+      "https://multimedia.3m.com/mws/media/2403315O/3m-trizact-composite-slurry-dt-50-3-micron-tds.pdf?fn=3m-trizact-composite-slurry-dt-50-3-micron-tds.pdf",
+      "https://multimedia.3m.com/mws/media/2403313O/3m-trizact-composite-slurry-dt-100-1-5-micron-tds.pdf?fn=3m-trizact-composite-slurry-dt-100-1-5-micron-tds_R2.pdf",
+      "https://pureon.com/wp-content/uploads/2024/04/SPG_datasheet_en_2024-04-18.pdf",
+      "https://processresearch.com/products/silcut-rt-silcut-s-lv/",
+      "https://en.diamondgroup.cn/yyly/dzhy/qmpxlcp/202508/t20250805_563260.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:sic_lapping_slurry",
+    "query": "SiC lapping slurry manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://multimedia.3m.com/mws/media/2403311O/3m-trizact-composite-slurry-de-100-4xs-tds.pdf?fn=3m-trizact-composite-slurry-de-100-4xs-tds.pdf",
+      "https://www.entegris.com/shop/en/USD/products/chemistries/specialty-chemicals/slurries/Polycrystalline-Silicon-Carbide-Slurries/p/PolycrystallineSiliconCarbideSlurries",
+      "https://www.entegris.com/content/dam/product-assets/polycrystallinesiliconcarbideslurries/datasheet-polycrystallinesiliconcarbideslurries.pdf",
+      "https://www.entegris.com/content/dam/product-assets/siliconcarbidesicslurries/datasheet-siliconcarbidesicslurries.pdf",
+      "https://www.entegris.com/shop/en/USD/products/chemistries/specialty-chemicals/slurries/Silicon-Carbide-%28SiC%29-Slurries/p/SiliconCarbideSiCSlurries",
+      "https://vibrantz.com/expertise-and-solutions/products/silicon-carbide-slurries/",
+      "https://www.entegris.com/content/dam/product-assets/siliconcarbidesicslurries/datasheet-siliconcarbidesicslurries-A4.pdf",
+      "https://www.entegris.com/content/dam/product-assets/polycrystallinesiliconcarbideslurries/datasheet-polycrystallinesiliconcarbideslurries-A4.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:ultra_pure_hydrogen",
+    "query": "Ultra-pure hydrogen manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.ywrison.com/en/h-pd-3.html",
+      "https://kitairu.net/chemicals/952913.html",
+      "https://www.zhkpr.com/en/hydrogen-generator.html",
+      "https://en.ykmtgases.com/product/83.html",
+      "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-ba1336a0-682c-4999-a59c-650064ab04f1/d8c7aac7-5b57-40a0-87af-23e623141a45.pdf",
+      "https://www.hydrogengasgenerators.com/ultrapure-hydrogen-generators",
+      "https://maotoogas.en.made-in-china.com/product/NGyYkuWoChUg/China-Ultra-Pure-99-999-Hydrogen-H2-Gas-High-Pressure-Filled-40L-50L-Cylinder.html",
+      "https://8358416c64135413.en.made-in-china.com/product/YRzUcruEqLVZ/China-99-9995-Ultra-Pure-Hydrogen-in-40L-47L-50L-Cylinder-with-Pressure150bar-200bar.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:ultra_pure_argon",
+    "query": "Ultra-pure argon manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.cosmoxindustries.com/business-divisions/semiconductor-electronics/process-specialty-gases/ultra-high-purity-argon",
+      "https://en.ykmtgases.com/product/84.html",
+      "https://en.ykmtgases.com/products/4.html",
+      "https://9623b460482457ce.en.made-in-china.com/product/LGHRCfjPXvhW/China-Ultra-Pure-99-9999-Argon-Gas-for-Global-Supply-Chains.html",
+      "https://www.airgas.com/product/Gases/Argon/p/AR%20UPC230LT230",
+      "https://www.airgas.com/product/Gases/Argon/p/AR%20UPC15ACT",
+      "https://www.airgas.com/product/Gases/Argon/p/AR%20UPC180LT350",
+      "https://hbwrdqt.en.made-in-china.com/product/PaiUjNSoXrpH/China-Ultra-Pure-Argon-Ar-99-999-in-Secure-DOT-ISO-Cylinders-for-Global-Export.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:deionized_water_coolant",
+    "query": "Deionized water coolant manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://my-coa.alliancechemical.com/sds/inhibited-deionized-water-glycol-free-data-center-coolant/pdf",
+      "https://docs.alliancechemical.com/sds/inhibited-deionized-water-glycol-free-data-center-coolant",
+      "https://my-coa.alliancechemical.com/tds/inhibited-deionized-water-glycol-free-data-center-coolant",
+      "https://www.iada.es/wp-content/uploads/2022/07/TDS-DISTILLED-WATER-ENG.pdf",
+      "https://my-coa.alliancechemical.com/sds/inhibited-deionized-water-glycol-free-data-center-coolant",
+      "https://download.alphacool.com/legacy/datasheet/ENG_17635_Alphacool_ES_deionized_water_%28ultrapure_water%29_5000ml_datasheet.pdf",
+      "https://www.ch2o.com/wp-content/uploads/2024/04/Deionized-Water.pdf",
+      "https://docs.alliancechemical.com/inhibited-deionized-water-glycol-free-data-center-coolant"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:soda_lime_glass",
+    "query": "Soda-lime glass manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://mss-p-009-delivery.stylelabs.cloud/api/public/content/4966c6052bc9459a82b302461c3521c3?download=true&v=3064ec20",
+      "https://www.nanofilm.com/_files/ugd/8dc142_556482cd98664a949b3e755e86792a23.pdf",
+      "https://hitegla.com/lib/xa9v1t/InfoSheet_SodaLimeFloatGlass-NEW-ml8awdny.pdf",
+      "https://www.continentaltrade.com.pl/en/download/rvUl5qCEtxlYUSFcm9nefnw8DbhH0aev/float-glass-properties.pdf",
+      "https://www.continentaltrade.com.pl/en/download/WhfvdEYg1jSqsBXM5x9dRJnJfIPvp1gO/soda-lime-glass-properties.pdf",
+      "https://www.hilgenberg-gmbh.de/fileadmin/user_upload/PDF/HIL_Datenblatt_EN_0100_0522.pdf",
+      "https://www.imetra.com/soda-lime-glass-material-properties/",
+      "https://www.stemmerich.com/soda-lime/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:titanium",
+    "query": "Titanium manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.atimaterials.com/Products/Pages/Titanium.aspx",
+      "https://conitan.com/materialien/titan?lang=en",
+      "https://ytitanium.com/",
+      "https://titanium.com/alloys/titanium-and-titanium-alloys/",
+      "https://www.king-titanium.com/titanium.pdf",
+      "https://www.titanium-material.com/",
+      "https://www.heletitanium.com/titanium-products/",
+      "https://titanium.com/wp-content/uploads/2018/02/merged-1.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:aluminum",
+    "query": "Aluminum manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=45357",
+      "https://www.kaiseraluminum.com/products/",
+      "https://www.kaiseraluminum.com/customers/product-information/",
+      "https://www.alumeco.com/aluminium/data/datasheets/",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=45438",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=45824",
+      "https://online.kaiseraluminum.com/depot/PublicProductInformation/",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=45459"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:methane_feedstock",
+    "query": "Purified methane manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.purityplusgases.com/wp-content/uploads/2026/02/PurityPlus-Specialty-Gas-Catalog.pdf",
+      "https://www.purityplusgases.com/wp-content/uploads/2026/10/2026-PurityPlus-Spec-Gas-Catalog.pdf",
+      "https://www.agti.com/products/methane-bulk/",
+      "https://www.purityplusgases.com/wp-content/uploads/2026/02/PurityPlus-Specialty-Gas-Catalog-2026.pdf",
+      "https://www.kyuchaku.co.jp/assets/pdf/product1_2.pdf",
+      "https://www.tyhjgas.com/methane-ch4-product/",
+      "https://taiyugas.en.made-in-china.com/product/BOYGcCIoCuap/China-99-9999-Ultral-High-Purity-CH4-Gas-Methane.html",
+      "https://www.made-in-china.com/products-search/hot-china-products/High_Purity_Methane.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:synthesis_gas",
+    "query": "Synthesis gas (CO + H2) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.chiyodacorp.com/en/service/transionenergy/gtl/oxo-gas/",
+      "https://www.chiyodacorp.com/en/service/transionenergy/gtl/co2-reforming/",
+      "https://www.cosmoeng.co.jp/english/service/ctg01/gaschemistry.html",
+      "https://www.oilngasprocess.com/gas/syngas-atr-process-by-haldor-topsoe-a-s.html",
+      "https://www.swchem.com/hhxnyen/business/product/technical/2025/11/I1438935985839669248.html",
+      "https://www.plant-process.com/processes-synthesis-gas.html",
+      "https://netl.doe.gov/sites/default/files/2026-02/Gasification%20Handbook.pdf",
+      "https://www.fischer-tropsch.org/primary_documents/gvt_reports/CIOSC/CIOS_30_31_23/CIOS_30_31_23_SEC04.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:bisphenol_a",
+    "query": "Bisphenol-A (BPA) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.samyanginnochem.com/en/product/bpa",
+      "https://www.kpb.co.kr/resources/download/user/kor/catalog/BPA.pdf",
+      "https://www.m-chemical.co.jp/en/products/departments/mcc/phl/product/1201012_88708.html",
+      "https://eur-lex.europa.eu/eli/reg/2024/3190/oj/eng",
+      "https://www.penpoly.com/app/uploads/2024/10/BISPHENOL-A-157-TDS-1.pdf",
+      "https://www.penpoly.com/app/uploads/2021/07/BISPHENOL-A-157-TDS.pdf",
+      "https://www.bloomchemag.com/assets/images/bloom/solventsproductdata/MSDS_Bisphenol_A.pdf",
+      "https://www.anses.fr/fr/system/files/CHIM-Ra-BisphenolAEN.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:epoxy_resin",
+    "query": "Electronic-grade epoxy resin manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.chemball.com/factory/fnifin/",
+      "https://www.graceepoxy.com/indexEn.html",
+      "https://shopcdnpro.grainajz.com/category/393770/4345/f93d1ef6456533fbd71b0b6463dd7466/Epoxy_588AB-5_TDS_EN_20230529.pdf",
+      "https://www-overseas-1.chemball.com/factory/fnifin/",
+      "https://datasheets.globalspec.com/ds/4336/EpoxyTechnology",
+      "https://www.reckli.com/fileadmin/dateien_website/Products/Chemicals/Complementary_Products_Tools/Electro_Resin_EP/reckli_chemicals_technical_data_sheet_electro_resin_ep.pdf",
+      "https://lookpolymers.com/polymer_Resinlab-EP965-Black-Unfilled-Electronic-Grade-Epoxy-Encapsulant.php",
+      "https://www.lookpolymers.com/polymer_Resinlab-EP1300-Clear-Unfilled-Electronic-Grade-Epoxy-Encapsulant.php"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:phenolic_hardener",
+    "query": "Phenolic novolac resin / hardener manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://specialties.ask-chemicals.com/fileadmin/user_upload/Tds_specialties/EN/GP_PHENOLIC_RESIN_CK_2400_EN.pdf",
+      "https://www.alkyl-glycidylether.com/photo/alkyl-glycidylether/document/91939/F820%20TDS.pdf",
+      "https://german.alkyl-glycidylether.com/photo/alkyl-glycidylether/document/91939/F820%20TDS.pdf",
+      "https://www.uniwin-chem.com.tw/img/pdf/KPH-F2001_E.pdf",
+      "https://wahnobel.com/products/industrial-chemicals-raisins/phenolic-glue-and-foundry-resins-various-grades/",
+      "https://www.thechemco.com/wp-content/uploads/2012/03/Novolac-Resin-40-45-TDS-TCC.pdf",
+      "https://www.uniwin-chem.com.tw/img/pdf/KPH-F2004_E.pdf",
+      "https://www.uniwin-chem.com.tw/epoxy-phenol-novolac.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:white_phosphorus",
+    "query": "Elemental white phosphorus manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.tgpi.org/files/factsheets/Factsheet%201%20%20Elemental%20Phosphorus.pdf",
+      "https://www.epa.gov/sites/default/files/2015-08/documents/treat_tech_phos_epa542r03013.pdf",
+      "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750025.html?referer=www.cuteslator.com",
+      "https://www.tgpi.org/api/publicationpdfs/de9e9a61-b1fc-4903-8e80-accb109fc917/6a317988-da21-49b1-8042-c62e747de544.pdf",
+      "https://19january2021snapshot.epa.gov/sites/static/files/2015-08/documents/treat_tech_phos_epa542r03013.pdf",
+      "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RFMJ.TXT",
+      "https://www.osha.gov/chemicaldata/632",
+      "https://rmis.jrc.ec.europa.eu/uploads/material_system_analyses_9_materials_10052021_final-version.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:copper_alloy_strip",
+    "query": "Copper alloy strip (Cu-Fe-Ni-Sn-Zn) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.metalleschmidt.de/en/strip/copper/",
+      "https://www.wieland.com/cn/products/strips-and-foils/bare-strips-and-foils/copper-nickel-strips-and-foils",
+      "https://datasheets.copper.org/wrought-nickel-silvers.pdf",
+      "https://www.ngk-alloys.com/product/copper-nickel-tin/copper-nickel-tin-strips/",
+      "https://www.bowayalloyblog.com/doi/precision-strips/",
+      "https://www.fcht.com.tw/userfiles/Investors/EN/F2026_Iecht.pdf",
+      "https://www.lebronze-alloys.com/en/product-forms/strips",
+      "https://www.bowayalloyblog.com/precision-strips/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:alloy_42_strip",
+    "query": "Alloy 42 strip (Fe-Ni42) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.niwire.com/product/controlled-expansion-alloy/alloy-42/",
+      "https://bibus-pim-production-storage.sos-ch-dk-2.exoscale-cdn.com/media/filer_public/0f/59/0f5925ce-46b9-4571-bb8c-ec7d1ac260f6/bibus-metals-datasheet-alloy_42.pdf",
+      "https://www.neonickel.com/alloys/alliages-de-nickel/alloy-42",
+      "https://www.efineametals.com/controlled-expansion-alloys/glass-to-metal-sealing-alloy/alloy-42-strip-coil/",
+      "https://www.metalcor.de/en/datenblatt-pdf/80/",
+      "https://www.hitealloy.com/pdf-file/alloy42.pdf",
+      "https://bibus-pim-production-storage.sos-ch-dk-2.exoscale-cdn.com/media/filer_public/8d/42/8d42f598-24da-4ad1-979b-35b302ed844c/bibus-metals-datasheet-alloy_42.pdf",
+      "https://metals.bibus.com/ch-en/products/itm/nickel-alloys-42/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:silver_flakes_solder",
+    "query": "Conductive silver flakes / Au-Sn solder alloy manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.mmc.co.jp/adv/en/products/ausn.html",
+      "https://www.indium.com/wp-content/uploads/2025/03/Gold-Tin-AuSn-Solder-Paste-PDS-98217-A4-R6-1.pdf",
+      "https://www.nanoshel.com/sections/Nano%20Dispersion",
+      "https://crossmining.smm-g.com/material/ausn_solder/",
+      "https://www.indium.com/products/solder-spheres/",
+      "https://www.toyal.co.jp/eng/products/pw_pt/product/tecfiller_tfm.html",
+      "https://www.loeneninstruments.com/accessories-for-microscopy/adhesives/conductive/",
+      "https://metalor.com/wp-content/uploads/2024/11/PF_Flyer2_MicroelectronicAdhesives_202402_ADR202409.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:ceria_abrasive",
+    "query": "Cerium oxide (ceria) abrasive particles manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.taiyokoko.co.jp/_common/pdf/rare_earth/Cerium_Abrasive.pdf",
+      "https://assets.thermofisher.com/chem-specs-pdf/retrievePdf?rootSku=039802&sku=039802.LA",
+      "https://www.nyacol.com/products/cerium-oxide/",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=10795",
+      "https://msdsdigital.com/system/files/Cerium-Oxide.pdf",
+      "https://panadyne.com/wp-content/uploads/2022/02/panadyne_cerium_oxide.pdf",
+      "https://www.meliorum.com/cerium-oxide-nanoparticles",
+      "https://www.mhlw.go.jp/content/11120000/001471331.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:polyurethane_matrix",
+    "query": "Porous polyurethane polymer matrix manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://buyaerogel.com/wp-content/uploads/2017/09/Product-Data-Sheet-SUMTEQ-Foam-G-90.pdf",
+      "https://www.porex.com/wp-content/uploads/2023/06/Tech-Brief-Certified-Pure-Materials.pdf",
+      "https://www.porex.cn/en/porous-polymers-technologies/porous-foam/",
+      "https://www.porex.com/porous-polymers-technologies/porous-foam/",
+      "https://foamtech.alfa-chemistry.com/porous-foam.html",
+      "https://www.capatue.com/english/pro/detail.asp?ClassID=12&ID=73",
+      "https://cdn.website-editor.net/16c95013d1d74fa5b1b9b536d4b8f9d9/files/uploaded/PPC-PP%2520TDS%2520E.pdf",
+      "https://www.lookpolymers.com/pdf/Ecomass-4703BI74-Filled-Polyurethane-Injection-Molding.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:polyester_felt_backing",
+    "query": "PET polyester felt backing manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.datocms-assets.com/88108/1784207383-11_materials_maincatalog_20260714.pdf?dl=Material+Overview.pdf",
+      "https://www.datocms-assets.com/88108/1779370793-20260521_materials_maincatalog_2026.pdf",
+      "https://plusfelt.com/wp-content/uploads/2022/01/TDS-FELT-with-POLYESTER.pdf",
+      "https://yihongnonwoven.com/en/products/1360.html",
+      "https://www.datocms-assets.com/88108/1733389168-10_materials_maincatalog_20241112.pdf",
+      "https://environdec.com/library/epd29340",
+      "https://feltvibe.com/uploads/Feltvibe_products-guide.pdf",
+      "https://www.jtfelt.com/products/pet-felt.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:petroleum_needle_coke",
+    "query": "Petroleum needle coke manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://english.befar.com/product/9/165.html",
+      "https://portfolio-pplus.azurewebsites.net/ProductSubs/Details/474",
+      "https://www.made-in-china.com/Metallurgy-Mineral-Energy-Catalog/browse-Petroleum-Needle-Coke-20300400000003.html",
+      "https://portfolio-pplus.com/ProductSubs/Details/474",
+      "https://goldbook.iupac.org/terms/view/N04095",
+      "https://juxiong.en.made-in-china.com/product/ENqmVBIGHhcz/China-Low-Sulfur-Petroleum-Needle-Coke-Calcined-Petroleum-Coke.html",
+      "https://dlchem.en.made-in-china.com/product/MmWpVYgDOqRl/China-Supreme-Quality-Needlelike-Petroleum-Coke-Factory-Supplier-in-China.html",
+      "https://keywillchem.com/products/needle-coke.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:coal_tar_pitch",
+    "query": "Coal tar pitch binder manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.coaltarchemical.com/products.php",
+      "https://www.epsiloncarbon.com/wp-content/themes/epsilon-theme/pdf/Binder-Pitch-Datasheet.pdf",
+      "https://lonestarspecialties.net/uploads/cms_uploads/2025/07/coal-tar-pitch-liquid-051324-1751385778.pdf",
+      "https://www.lonestarspecialties.net/uploads/cms_uploads/2023/01/coal-tar-pitch-liquid-sds-us-0-1673636616.pdf",
+      "https://www.epsiloncarbon.com/wp-content/themes/epsilon-theme/pdf/Coal-Tar-Pitch-GPS.pdf",
+      "https://www.lonestarspecialties.net/uploads/cms_uploads/2025/07/coal-tar-pitch-solid-051324-1751385788.pdf",
+      "https://5.imimg.com/data5/IOS/Doc/2024/9/449121826/KD/XQ/XT/2519699/coal-tar-pitch-specification-2-pdf.pdf",
+      "https://m.madeinchina.com/mall/show-Electrical-Conductors-Binder-of-Coal-Tar-Pitch_252611.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:silicon_tetrachloride",
+    "query": "Silicon tetrachloride manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.merckmillipore.com/Web-INTL-Site/en_US/-/USD/ShowDocument-File?Country=IN&DocumentId=807706_SDS_IN_EN.PDF&DocumentType=MSD&DocumentUID=293972215&Language=EN&Origin=SERP&ProductSKU=MDA_CHEM-807706",
+      "https://www.merckmillipore.com/Web-AT-Site/en_US/-/EUR/ShowDocument-File?Country=CY&DocumentId=807706_SDS_CY_EN.PDF&DocumentType=MSD&DocumentUID=549724&Language=EN&Origin=null&ProductSKU=MDA_CHEM-807706",
+      "https://www.merckmillipore.com/Web-GT-Site/es_ES/-/GTQ/ShowDocument-File?Country=IN&DocumentId=807706_SDS_IN_EN.PDF&DocumentType=MSD&DocumentUID=293972215&Language=EN&Origin=null&ProductSKU=MDA_CHEM-807706",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=52604",
+      "https://www.merckmillipore.com/Web-AT-Site/en_US/-/EUR/ShowDocument-File?Country=MT&DocumentId=807706_SDS_MT_EN.PDF&DocumentType=MSD&DocumentUID=549731&Language=EN&Origin=null&ProductSKU=MDA_CHEM-807706",
+      "https://www.merckmillipore.com/Web-AT-Site/en_US/-/EUR/ShowDocument-File?Country=GB&DocumentId=807706_SDS_GB_EN.PDF&DocumentType=MSD&DocumentUID=549726&Language=EN&Origin=null&ProductSKU=MDA_CHEM-807706",
+      "https://www.products.pcc.eu/en/id/1299435/silicon-tetrachloride/",
+      "https://www.evonik.com/en/products/se/pr_52000052.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:synthetic_diamond_grit",
+    "query": "Synthetic industrial diamond grit manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://shannonabrasives.com/wp-content/uploads/2023/10/Grinding-Diamond-Grit_Product-Datasheet_SA.pdf",
+      "https://shannonabrasives.com/wp-content/uploads/2023/10/Lapping-Polishing-Diamond-Grit_Product-Datasheet_SA.pdf",
+      "https://kumthai.en.made-in-china.com/product/svVxzALuHPRF/China-Quality-Synthetic-Industrial-Diamond-Grit-Powders-with-Factory-Prices.html",
+      "https://kumthai.en.made-in-china.com/product/RXqQdmPKXgpC/China-Synthetic-Industrial-Diamond-Grit-Powder-with-Better-Cost-Performance-CDG-E-.html",
+      "https://www.hyperionmt.com/en/products/Abrasives/mesh-diamond-overview/",
+      "https://e6-prd-cdn-01.azureedge.net/mediacontainer/medialibraries/element6/documents/datasheet/element_six_cse.pdf?ext=.pdf",
+      "https://kumthai.en.made-in-china.com/product/bvSnWcMAggrt/China-Industrial-Synthetic-Diamond-Grit-Powder-with-Good-Quality-Competitive-Price.html",
+      "https://kumthai.en.made-in-china.com/product/iKqEFozjlLUN/China-Synthetic-Industrial-Diamond-Grit-Powder-with-Long-Service-Life-CDG-HS-.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:ethylene_glycol",
+    "query": "Ethylene / propylene glycol carrier manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://chemicals.basf.com/global/en/Petrochemicals/alkylene-oxides-and-glycols/products",
+      "https://www.xadditive.cn/products/propylene-glycol-industrial",
+      "https://www.lyondellbasell.com/en/chemicals/p/PROPYLENE-GLYCOL-USP-EP/bcefa9b5-33d4-4828-8ef8-189333d302b9",
+      "https://www.repsol.com/en/products-and-services/materials/product-range/propylene-glycol-pharmaceutical-grade/index.cshtml",
+      "https://www.huaxichemical.com/57-55-6-propylene-glycol-pg/",
+      "https://www.dow.com/en-us/pdp.propylene-glycol-ren-uspep.528830z.html",
+      "https://www.lanchrom.com/products/pharmaceutical-excipients/propylene-glycol",
+      "https://www.dow.com/en-us/pdp.propylene-glycol-dec-uspep.535892z.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:photoresist_polymers",
+    "query": "Lithographic base polymers (PHS / ArF methacrylates / novolac) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.sumibe.co.jp/english/product/hpp/phenolic/exposure/index.html",
+      "https://patents.google.com/patent/US8158330B2/en",
+      "https://www.merckmillipore.com/TR/en/technical-documents/technical-article/materials-science-and-engineering/polymer-synthesis/hexafluoroalcohol-functionalized",
+      "https://www.merckmillipore.com/AZ/en/technical-documents/technical-article/materials-science-and-engineering/polymer-synthesis/hexafluoroalcohol-functionalized",
+      "https://www.jstage.jst.go.jp/article/photopolymer1988/10/3/10_3_521/_pdf",
+      "https://patents.google.com/patent/US9746768B2",
+      "https://patents.google.com/patent/JP5240297B2/en",
+      "https://www.allresist.com/resist-wiki-polymers-film-formers/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:photoacid_generators",
+    "query": "Photoacid generators (PAGs — onium fluorosulfonates) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://essenoichemical.com/photosensitive-materials-1",
+      "https://www.tcichemicals.com/SG/en/product/topics/photo-acid_generators",
+      "https://www.tcichemicals.com/IN/en/product/topics/photo-acid_generators",
+      "https://www.tcichemicals.com/HK/en/product/topics/photo-acid_generators",
+      "https://www.tcichemicals.com/KR/en/product/topics/photo-acid_generators",
+      "https://www.san-apro.co.jp/en/tech/acid-uv/",
+      "https://www.tcichemicals.com/CH/en/product/topics/photo-acid_generators",
+      "https://www.sanyo-chemical.co.jp/eng/wp/wp-content/uploads/2025/06/k20250624_1_e.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:chromium_mosi_absorber",
+    "query": "Chromium / MoSi photomask absorber coatings manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.microsi.com/applications-solutions/photomask-pellicles/mask-blanks/",
+      "https://www.shinetsu.co.jp/en/products/electronics-materials/photomask-blanks/",
+      "https://www.svc.org/clientuploads/directory/resource_library/03_0143.pdf",
+      "https://data.epo.org/publication-server/rest/v1.2/publication-dates/20080716/patents/EP1426820NWB1/document.pdf",
+      "https://data.epo.org/publication-server/rest/v1.2/publication-dates/2025-05-21/patents/EP4557001NWA2/document.pdf",
+      "https://www.microsi.com/applications-solutions/photomask-pellicles/",
+      "https://optotec.co.jp/update/wp-content/uploads/2025/01/LAYERTEC_Catalog.pdf",
+      "https://www.shinetsu.co.jp/wp-content/uploads/2019/04/annual2018.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:tungsten_metal_powder",
+    "query": "High-purity tungsten powder manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://wiki.ctia.com.cn/wp-content/uploads/2025/04/24074453951.pdf",
+      "https://www.molytun.com/wp-content/uploads/2025/01/MDB_-W-_-reines-Wolfram_-En-REV.-3-WZ.pdf",
+      "https://api.macklin.cn/api/specification/download?item_code=T829943&lang=cn",
+      "https://www.elmetpowders.com/wp-content/uploads/sites/2/2025/05/Elmet-Pure-W-Powder-Datasheet.pdf",
+      "https://www.elmettechnologies.com/wp-content/uploads/2021/01/Elmet-W-Powder-Datasheet_2020-01.pdf?srsltid=AfmBOoq6oyjPTpgUhF9tRscYLE6cwPaXAAludhPqSI7_f9_n9d_fSYIH",
+      "https://wiki.ctia.com.cn/wp-content/uploads/2025/04/27061730176.pdf",
+      "https://www.elmettechnologies.com/tungsten/tungsten-powder/",
+      "https://www.americanelements.com/tungsten-w-element-information.html?items_per_page=12&search_api_fulltext=powder"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:potassium_heptafluorotantalate",
+    "query": "Potassium heptafluorotantalate (K2TaF7) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://assets.thermofisher.com/DirectWebViewer/private/document.aspx?prd=ALFAA43733~~PDF~~MTR~~CGV4~~EN~~2026-07-31+09%3A20%3A59~~Potassium+heptafluorotantalate~~",
+      "https://assets.thermofisher.com/DirectWebViewer/private/document.aspx?prd=ALFAA43733~~PDF~~MTR~~CGV4~~CN~~2026-07-31+09%3A20%3A51~~%3F%3F%3F%28V",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=17707",
+      "https://assets.thermofisher.com/DirectWebViewer/private/document.aspx?prd=ALFAA43733~~PDF~~MTR~~CGV4~~EN~~2025-10-06+14%3A54%3A42~~Potassium+heptafluorotantalate~~",
+      "https://assets.thermofisher.com/DirectWebViewer/private/document.aspx?prd=ALFAA43733~~PDF~~MTR~~CGV4~~CN~~2025-10-06+14%3A54%3A35~~%3F%3F%3F%28V",
+      "https://www.glentham.com/en/products/product/GX6965/datasheet/",
+      "https://www.thermofisher.com/order/catalog/product/043733.09",
+      "https://www.vwr.com/us/en/product/9876512/potassium-heptafluorotantalate-v-99-99-metals-basis"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:titanium_tetrachloride",
+    "query": "Titanium tetrachloride manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://hongrunplastics.com/public/uploads/images/20260203/Titanium%20Tetrachloride.pdf",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=30912",
+      "https://www.ineos.com/sv/show-document/?bu=INEOS+Pigments&docLanguage=EN&documentType=Technical+Data+Sheet&grade=Titanium+Tetrachloride&version=932c300db0bd6030823ad89a842d4943",
+      "https://static.cymitquimica.com/products/3H/pdf/sds-INTI065.pdf",
+      "https://assets.thermofisher.com/chem-specs-pdf/retrievePdf?rootSku=014713&sku=014713.K2",
+      "https://assets.thermofisher.com/chem-specs-pdf/retrievePdf?rootSku=014713&sku=014713.L7",
+      "https://pubchem.ncbi.nlm.nih.gov/compounds/24193",
+      "https://www.gelest.com/product/INTI065/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "LD:ultra_high_purity_metals",
+    "query": "Zone-refined 5N-6N metal ingots (Al, Cu, Ta, Ti, Co, W) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.azelis.com/en/markets/electronics/products/high-purity-metals-and-compounds/metals",
+      "https://mds.umicore.com/storage/mds/rz-sf-cu-for-microelectronic-applications-11.07.2024.pdf",
+      "https://publications.rwth-aachen.de/record/815547/files/815547.pdf",
+      "https://eom.umicore.com/storage/mds/rz-sf-cu-for-microelectronic-applications-new.pdf",
+      "https://www.nttade.cn/products_details/1.html",
+      "https://en.nttade.cn/products_details/13.html",
+      "https://www.mdpi.com/2075-4701/11/2/201",
+      "https://www.sumitomo-chem.co.jp/english/rd/report/files/docs/2013E_2.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-ACRYLIC-PU",
+    "query": "Acrylic-Polyurethane Protective Coating & Ink Resin manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.asia-kogyo.co.jp/eng/item/resin/",
+      "https://www.yotochem.com/products/pu/applications/waterborne-ink/",
+      "https://www.packink.com/en/products",
+      "https://www.runxinlianchem.com/product/water-based-aliphatic-polyurethane-dispersion-for-printing-ink"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-FAB-CHEM",
+    "query": "Semiconductor Lithography Resists, Etch Gases & CMP Slurries manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.jsr.co.jp/jsr_e/company/assets/pdf/251211_JSR_corporate2025_EN.pdf",
+      "https://www.agc.com/en/products/electoric/detail/cmp.html",
+      "https://www.emdgroup.com/en/expertise/semiconductors/offering/semiconductor-materials.html",
+      "https://www.entegris.com/shop/en/USD/Products/Chemistries/Specialty-Chemicals/Slurries/c/CMPSlurries",
+      "https://www.jsr.co.jp/jsr_e/products/em/biz/",
+      "https://s205.q4cdn.com/144974603/files/doc_financials/2025/ar/Entegris-2025-Annual-Report.pdf",
+      "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000024/a202310ka.pdf",
+      "https://www.cmpslurry.com/cmp-slurry-suppliers/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-IND-CHEM",
+    "query": "Industrial Acids, Alkalis & Plating Salts (H2SO4, HCl, FeCl3, NaOH, Cyanides) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://panvibes.com/products",
+      "https://vaqorachemicals.com/products/industrial-specialty-chemicals/industrial-acids-alkalis",
+      "https://rawchem.co/acids.html",
+      "https://www.icgl.co.uk/products/",
+      "https://www.expchemserv.com/solutions/commodity-chemicals/",
+      "https://shreejieximincorp.com/products.php?cat=solvents",
+      "https://www.icgl.co.uk/what-we-do/metal-treatment/",
+      "https://lithionyx.com/products/category/industrial-process-chemicals"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-PA66-POLYMER",
+    "query": "Polyamide 66 (Nylon 6,6) Resin manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://lanxess.com/-/media/project/lanxess/corporate-internet/07_us-media/us-documents/product-safety-assessments/p/polyamide-6-66-resins.pdf",
+      "https://www.plastics.toray/products/amilan/",
+      "https://www.polidinamica.com/en/solutions/nonflame-pa66",
+      "https://www.gppc.com.tw/gppc/english/product-6.asp",
+      "https://www.sushengpolymer.com/media/pdf/DCGdx5_Clariant-Nylon-6-6-6608G33-L.pdf",
+      "https://www.matweb.com/search/datasheettext.aspx?matguid=5160711294a04cefb044672991d5d13c",
+      "https://www.matweb.com/search/datasheettext.aspx?matguid=5d8ff6dd08684389b69bab71209df746",
+      "https://www.matweb.com/search/datasheettext.aspx?matguid=0aad507b771b45e680e42fb77617711c"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-PET-POLYMER",
+    "query": "Polyethylene Terephthalate (PET) Polyester Resin manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.ril.com/sites/default/files/2022-12/py_rpt_g5801_spec.pdf",
+      "https://swpnc.co.kr/en/catalog-details/polyethylene-terephthalate.html",
+      "https://www.ril.com/sites/default/files/2022-12/py_rpt_g5761.pdf",
+      "https://polysciences.com/products/polyethylene-glycol-terephthalate",
+      "https://www.alpekpolyester.com/wp-content/uploads/2022/10/992RP-E82A-PI-1.pdf",
+      "https://packagepolymers.com.mx/wp-content/uploads/2022/06/CTF8006_1-2022-DataSheet.pdf",
+      "https://www.ril.com/sites/default/files/2022-12/py_rpt_g5841_spec.pdf",
+      "https://www.sabic.com/en/products/polymers/polyethylene-terephthalate-pet/sabic-pet"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-POLYIMIDE",
+    "query": "Aromatic Polyimide Magnet-Wire Enamel Varnish manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.sushengpolymer.com/media/pdf/X3TTiP_Pyre-ML-RC-5057.pdf",
+      "https://istusa.com/industrial_material/pyre-ml/",
+      "https://patents.google.com/patent/US3451848A/en",
+      "https://www.istusa.com/wp-content/uploads/2019/01/Pyre-ML-Technical-Bulletin.pdf",
+      "https://indico.cern.ch/event/1160367/attachments/2441634/4182856/Pyre-ML-Technical-Bulletin%20%281%29.pdf",
+      "https://www.arkema.com/usa/en/product/technicalpolymers/zenimid/zenimid-polyimide-varnish/",
+      "https://patents.google.com/patent/JP2024118558A/en",
+      "https://studylib.net/doc/18352432/pyre-ml-wire-enamel---ist-industrial-summit-technology"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-EPOXY-RESIN",
+    "query": "Bisphenol-A / Cresol-Novolac Epoxy Resin & Hardener manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.polymersciencecorp.com/wp-content/uploads/2017/07/2306-epoxy-novolac-resin-2017.pdf",
+      "https://www.ccpgp.com/en/News_Prt_Content/2457/77351/",
+      "https://www.npc.com.tw/j2npc/zhcn/proddoc/%E7%8E%AF%E6%B0%A7%E6%A0%91%E8%84%82/%E5%8D%97%E4%BA%9A%E7%8E%AF%E6%B0%A7%E6%A0%91%E8%84%82%E5%9E%8B%E5%BD%95?docid=F000000360&pdid=F00000036",
+      "https://www.mos-resin.com/solutions/epoxy-coatings-and-flooring.html",
+      "https://www.pcbshop.org/en/mobile/supProductDetail.asp?ProID=2911&SupID=483",
+      "https://www.polymersciencecorp.com/wp-content/uploads/2018/11/2306-epoxy-novolac-hardener-2017.pdf",
+      "https://www.palmerholland.com/getmedia/d945f55d-d9ce-4367-877e-89fd42def32a/MITM02862_2",
+      "https://innovexar.com/brand/epovion/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-FERRITE",
+    "query": "Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.magneticsgroup.com/wp-content/uploads/2019/08/NiZn-SDS-r.-12-18-18.pdf",
+      "https://loradchemical.com/products/nickel-zinc-ferrite",
+      "https://www.todakogyo.co.jp/english/product/img/Electronic_parts_soft_ferrite_powder-Flyer_ENG.pdf",
+      "https://www.rmcybernetics.com/files/pdf/FP-NIZN-MSDS.pdf",
+      "https://www.cnlcg.com/en.php/nickel/173.html",
+      "https://loradchemical.com/products/nickel-copper-zinc-ferrite",
+      "https://www.ferroxcube.home.pl/envir/info/nizn_plating.pdf",
+      "https://www.magneticsgroup.com/wp-content/uploads/2020/03/N6-TDS.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-REFINED-AG",
+    "query": "Refined Electro-Silver & Silver Nitrate (99.99% Ag) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://rochestersilverworks.com/silver-nitrate/",
+      "https://www.toyochemical.jp/en/shotop/product01.html",
+      "https://www.zizwematerials.co.za/products/",
+      "https://www.adventchembio.com/uploads/coa/coa-files/3QEggpIUFTqtWjD8VrJdsw6CVJgs8KTjf60vL4Ug.pdf",
+      "https://dravyom.com/products/electro/electro-silver-nitrate.html",
+      "https://5.imimg.com/data5/SELLER/Doc/2024/12/474962906/GS/ZW/WK/76108307/silver-nitrate-extrapure-99-5.pdf",
+      "https://atomscientific.com/product/silver-nitrate-999-acs",
+      "https://www.thermofisher.com/order/catalog/product/043087.06"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-REFINED-AU",
+    "query": "Refined Fine Gold & Potassium Gold Cyanide (99.99% Au) manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://keeshing.com/wp-content/uploads/2020/05/Gold-Potassium-Cyanide-l-68.3.pdf",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=21756",
+      "https://www.americanelements.com/print/view/pdf/product_datasheet/block_1?view_args%5B%5D=21754",
+      "https://keeshing.com/wp-content/uploads/2020/05/Gold-Potassium-Cyanide-l-57.9.pdf",
+      "https://assets.thermofisher.com/chem-specs-pdf/retrievePdf?rootSku=012552&sku=012552.03",
+      "https://www.americanelements.com/print/view/pdf/products_sds/block_1?view_args%5B%5D=21755",
+      "https://fairalloy.com/fairmined-gpc/",
+      "https://www.fishersci.co.uk/shop/products/gold-i-potassium-cyanide-premion-99-96-metals-basis-au-67-6-min-thermo-scientific-1/11317397"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-TIO2",
+    "query": "Rutile Titanium Dioxide (TiO2) White Pigment manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.ruitio2.com/download/20250930mnxefe.pdf",
+      "https://www.ecoworkers.net/wp-content/uploads/2024/02/TDS-GJ-NR930-TDS-V2.0-1.pdf",
+      "https://image.yclmall.com/storage/knowleage/msds/pdf/KM-20260119-1126%5B1768810153756%5D.pdf",
+      "https://wschemicalsbv.com/product-tio2-rutile.html",
+      "https://tikontitanium.com/en/products/",
+      "https://www.ecoworkers.net/wp-content/uploads/2024/02/TDS-GJ-NR960-TDS-V2.0-1.pdf",
+      "https://www.peijinchem.com/uploads/29884/files/TDS-download.pdf?rnd=548",
+      "https://www.hengyitek.com/wp-content/uploads/2021/08/Rutile-Titanium-Dioxide-for-Paint.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-WC-COBALT",
+    "query": "Sintered Tungsten Carbide-Cobalt (WC-Co) Hardmetal manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.iscar.org.tw/Catalogs/Publication/Reference_Guide/english_1/Cutting_tools_user_guide/Cutting_tools_user_guide.pdf",
+      "https://www.iscar.co.uk/Catalogs/Publication/Reference_Guide/english_1/Cutting_tools_user_guide/Cutting_tools_user_guide.pdf",
+      "https://www.metcojoiningcladding.com/ecoma/files/DSM-0262_Woka_SCTC_HM_Grit.pdf?download=true",
+      "https://www.iscaritalia.it/Catalogs/Publication/Reference_Guide/english_1/Cutting_tools_user_guide/Cutting_tools_user_guide.pdf",
+      "https://jya.cl/wp-content/uploads/2021/05/DSMTS-0115.2_88WC12Co_SintCrush.pdf",
+      "https://www.becken-metallurgy.com/TungstenCarbidePartsPlatesBlanksInsertsandHardMetalBlades.html",
+      "https://www.becken-metallurgy.com/SuperArmoTM-SinteredCementCarbideWC-CoPelletsandWearParts.html",
+      "https://www.chinatungsten.com/tungsten-applications/Cemented-Carbides.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-ZIRCONIA",
+    "query": "Yttria-Stabilized Zirconia (ZrO2) Refractory Ceramic manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.morgantechnicalceramics.com/media/lpybwekm/yttria-stabilised-zirconia.pdf",
+      "https://www.saint-gobain.com.cn/en/ceramic/product/rz",
+      "https://www.morganadvancedmaterials.com/media/5534/yttria-stabilised-zirconia.pdf",
+      "https://gnpgraystar.com/wp-content/uploads/2022/02/FusedYttriaStabZirc2022.pdf",
+      "https://www.tecnologicasrl.com/biomax/wp-content/uploads/2020/08/Amann-Girrbach-Ceramill_ZI_EN.pdf",
+      "https://em.mitsui-kinzoku.com/en/ceramics/products/zirconia-zs-series/",
+      "https://gnpgraystar.com/wp-content/uploads/2022/02/ChemGradeYttriaZircRTP2022.pdf",
+      "https://www.kerafol.com/wp-content/uploads/2024/07/KERAFOL_CTS_Datenblatt_Keraprotec_05-24.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "PM-YAG-PHOSPHOR",
+    "query": "Cerium-Doped Yttrium Aluminum Garnet (YAG:Ce) Phosphor manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://loradchemical.com/products/cerium-doped-yttrium-aluminum-garnet",
+      "https://www.bostonati.com/products/TI_YAG-Ce.pdf",
+      "https://www.energy.gov/sites/default/files/2022-02/ssl-rd22_brgoch_advances-led.pdf",
+      "https://www.energy.gov/sites/prod/files/2015/02/f19/brgoch_phosphors_sanfrancisco2015.pdf",
+      "https://www.baikowski.com/en/serie/yag/",
+      "https://www.americanelements.com/yy.html?category=24505",
+      "https://www.sciencedirect.com/science/article/pii/S092145262600236X",
+      "https://journal.hep.com.cn/jocsu/EN/10.1007/s11771-012-1008-3"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-CU-ETCHANT",
+    "query": "Disposable Cupric / Ferric Chloride Etchant Solution manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://mgchemicals.com/downloads/tds/tds-415-l.pdf",
+      "https://datasheet.octopart.com/415-4L-MG-Chemicals-datasheet-9770850.pdf",
+      "https://pdf.datasheetz.com/data/Prototyping%20Products/Prototype%20Boards/473-1008-datasheetz.pdf",
+      "https://www.mgchemicals.com/downloads/tds/tds-415-l.pdf",
+      "https://datasheet.ersaelectronics.com/static/datasheets/mg-chemicals/mg-chemicals-598.pdf",
+      "https://www.thermofisher.cn/order/catalog/product/cn/en/044583.LV",
+      "https://datasheet.octopart.com/415-20L-MG-Chemicals-datasheet-9770850.pdf",
+      "https://gladstonehifi.com/products/protoyping-parts-ferric-chloride-copper-etchant-500ml-h0800"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-PET-LINER",
+    "query": "Disposable Silicone-Coated PET Protective Release Liners manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.jinyoung.cn/en/product/10234.html",
+      "https://www.qiyantek.com/pet-release-liner.html",
+      "https://www.ygtape.com/product/label/release-liner-material/pet-release-liner",
+      "https://www.polinas.com/documents/prs-12-23-36-en.pdf",
+      "https://infinitytapes.com/wp-content/uploads/sites/3/2023/05/PET901-v2.pdf",
+      "https://www.made-in-china.com/showroom/7c57b9ce47b51e3e/product-detailcOjfRvnVCIhp/China-Pet-Siliconized-Release-Liner-China-Release-Liners-Silicone-Release-Paper-Manufacturers.html",
+      "https://www.polinas.com/documents/prs-12-23-36-en%281%29.pdf",
+      "https://lumicoating.com/index_files/LUMI_specialty_release_liners_D1.htm"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-STAMP-LUBE",
+    "query": "Disposable Stamping Lubricant & Alkaline Degreaser manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.metalworkingfluidproducts.com/products/bonderite-forming-fluids/bonderite-l-fm-nc-4",
+      "https://www.lubrichemllc.com/lubrichem-fg-stamping-degreasing-oil-no3_0025",
+      "https://masterfluids.com/eu/en/products/show-category.php?catid=FS",
+      "https://www.itwprobrands.com/files/techdatasheets/WL520-28-BlankWashandLight-DutyStampingLubricant.pdf",
+      "https://sonixtek.com/en/resources/parts/removing-stamping-drawing-oils-stamped-parts/",
+      "https://www.coloris.de/en/product/stamp-cleaner-gf.html",
+      "https://consultantlubricants.com/product-sheets",
+      "https://www.masterfluids.com/eu/en/products/show-category.php?catid=D2D"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-ANODIZE-CHEM",
+    "query": "Disposable Sulfuric Acid Anodizing Bath & Black Dye manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.douglasfinishing.com/capabilities/finishes-available/sulfuric-acid-anodize/",
+      "https://usspecialty.com/tds/Ano-EE.pdf",
+      "https://www.electronic-thingks.de/en/shop/anodising-products/dyes.html",
+      "https://datasheets.globalspec.com/ds/3472/CHEMEONSurfaceTechnology",
+      "https://materialsdata.nist.gov/bitstream/handle/11115/221/Anodizing.pdf?sequence=1",
+      "https://anodizingdyes.com/wp-content/uploads/2018/05/tech_505121.pdf",
+      "https://anodizingdyes.com/wp-content/uploads/2018/05/tech_505150.pdf",
+      "https://surtronics.com/finishesavailable/anodizing.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-CUTTING-FLUID",
+    "query": "Disposable CNC Milling Coolant & Carbide End-Mills manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://datasheets.globalspec.com/ds/melin-tool/die-and-mold-milling/c6af7def-a707-4dbb-b2c6-138f2d2bcb5a",
+      "https://productivity.com/?pdfemb-data=eyJ1cmwiOiJodHRwczpcL1wvcHJvZHVjdGl2aXR5LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMTBcL01pa3Jvbi1DcmF6eU1pbGwtQ29vbC1DYXRhbG9nLnBkZiIsImluZGV4IjoxLCJwZGZJRCI6MjU3MDR9",
+      "https://www.mcmaster.com/products/through-coolant-end-mills/",
+      "https://datasheets.globalspec.com/ds/melin-tool/die-and-mold-milling-2-flute/a2841683-df39-4c51-b488-1b2e7ddb490e",
+      "https://deleveltool.en.made-in-china.com/company-CHANGZHOU-DELEVEL-TOOLS-CO-LTD-.html",
+      "https://czhongjian.en.made-in-china.com/product/aNqQpKZrrVkd/China-Good-Precision-Tungsten-Carbide-Endmills-Drill-with-Coolant-Hole.html",
+      "https://senotools.en.made-in-china.com/product/HFcaqOWywteS/China-Metric-Ball-Nose-2-Flute-End-Mills-with-Coolant-Holes.html",
+      "https://www.mcmaster.com/products/end-mills-with-coolant-holes/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-NI-PLATE",
+    "query": "Disposable Electrolytic Nickel Plating Bath & Nickel Anodes manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://finecenter.co.il/wp-content/uploads/wizshop/%D7%94%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%9E%D7%A4%D7%95%D7%A8%D7%98%D7%95%D7%AA_757910.pdf?srsltid=AfmBOoqleQ6g4scLU-BrHzlpG2UUVLIS5DxNoJfw0OyXM-VF80jMkBX3",
+      "https://www.berkem.it/wp-content/uploads/schede-tecniche/NICKELOR_400_quick_v1_EN.pdf",
+      "https://jentner-plating.com/media/c3/57/3b/1617282638/Adhesive-Nickel-Bath-JE303_PB_en.pdf",
+      "https://palminc.com/electrolytic-nickel-anodes/",
+      "https://www.berkem.it/wp-content/uploads/schede-tecniche/NICKELOR_500_quick_v1_EN.pdf",
+      "https://nathantrotter.com/wp-content/uploads/2020/09/Nickel-R-Rounds.pdf",
+      "https://gtzworld.com/productAdmin/viewPdf.php?c=72",
+      "https://www.microchemicals.com/PRODUCTS/Electroplating/Plating-Solution/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-PCB-DRILL",
+    "query": "Disposable Tungsten-Carbide Micro-Drill & Router Bits manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.handsontec.com/dataspecs/drill-bit.pdf",
+      "https://www.cens.com/cens/html/en/product/product_main_76246.html",
+      "https://www.fdjt.cn/",
+      "https://deleveltool.en.made-in-china.com/product/uteUHZMGbScp/China-0-1-3mm-Tungsten-Carbide-Micro-Drill-Bits-for-Metal-and-Titanium-Alloy.html",
+      "https://pcb-drill.en.made-in-china.com/product/OLqplEbKHnVU/China-High-Precision-Tungsten-Carbide-PCB-Micro-Drill-Bits-Double-Flute-Single-Groove-Wear-Resistant-Circuit-Board-Drilling-Bits.html",
+      "https://deleveltool.en.made-in-china.com/product/jTLUHnovHNWx/China-Tungsten-Carbide-Micro-Drill-Bit-for-Deep-Small-Holes.html",
+      "https://pcb-drill.en.made-in-china.com/product/ZuTRvrkJsaWz/China-Tungsten-Carbide-PCB-Micro-Drill-Bits-Double-Flute-Spiral-Drilling-Bits-High-Precision-Small-Diameter-Circuit-Board-Drills-for-PCB-Manufacturing-Fr4-Ccl-Cn.html",
+      "https://deleveltool.en.made-in-china.com/product/iabRAFMEhBkl/China-Tungsten-Carbide-Mini-Drill-Bit-for-CNC-Micro-Drilling.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-SINTER-BOAT",
+    "query": "Disposable YSZ Ceramic Sintering Setter Plates manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.kerafol.com/wp-content/uploads/2026/03/KERAFOL_CTS_Datenblatt_Keralpor99Z_03-26.pdf",
+      "https://www.alibaba.com/product-introduction/Yttrium-Stabilized-Zirconia-Ceramic-Sintering-Trays_1600904080311.html",
+      "https://yunnuoceramic.en.made-in-china.com/product/NwsAkEmYCcTO/China-77-3-4mm-Ysz-Zro2-Yttrium-Stabilized-Zirconia-Ceramic-Sintering-Trays-and-Setter-Plates.html",
+      "https://www.made-in-china.com/products-search/hot-china-products/Ceramic_Sintering_Setter_Plate.html",
+      "https://www.ceramtec-industrial.com/en/setter-plates",
+      "https://www.techceramic.com/products/kiln-furniture/setters/",
+      "https://www.innovacera.com/product/ceramic-setter-plate",
+      "https://www.kerafol.com/wp-content/uploads/2024/07/KERAFOL_CTS_Datenblatt_KeralporS_05-24.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "DC-TIN-PLATE",
+    "query": "Disposable Matte-Tin Electroplating Bath & Tin Anodes manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.microchemicals.com/NB-Semiplate-Sn-100-5.00-l/nbtsn1005",
+      "https://www.nb-technologies.de/cms/upload/Produkte/datasheets/plating/TDS_NB-Semiplate-Sn-100_e.pdf",
+      "https://kemia.com.sg/matte-tin/",
+      "https://www.ampere.com/en/cproduct/tin-lead-flat-anodes/",
+      "https://www.microchemicals.com/PRODUCTS/Electroplating/",
+      "https://nathantrotter.com/anodes-for-electroplating/",
+      "https://www.feinhuette.de/en/products/metal-finishing-electroplating",
+      "https://nano3dsystems.com/product/tin-electroplating-solution/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-DI-WATER",
+    "query": "Ultrapure Degassed Deionized Water Working Fluid manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://cdn.caymanchem.com/cdn/insert/400000.pdf",
+      "https://www.thermofisher.com/us/en/home/industrial/manufacturing-processing/filtration-separation/ultra-pure-water.html",
+      "https://www.vwr.com/ca/en/product/BP0000549086/innovating-science-deionized-water-ultrapure",
+      "https://datasheets.globalspec.com/ds/gfs-chemicals/water-veritas-reg-ultimate-deionized-ultrapure/fe9512af-aa6c-41ff-ad65-2600566390cc",
+      "https://www.gbiosciences.com/Buffers-Reagents-Chemicals/UltrapureWater",
+      "https://www.xylem.com/en-us/catalog/products--services/high-purity-systems2/lab-water-systems/labostar-ultra-pure-water-and-reverse-osmosis-systems/",
+      "https://sky130-process-tech.readthedocs.io/en/latest/materials/ultrapure-water.html",
+      "https://b2b.sigmaaldrich.com/US/en/product/mm/101262"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-MYLAR-INSULATOR",
+    "query": "Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://mylar.com/wp-content/uploads/2025/08/mylar_ol11-1.pdf",
+      "https://mylar.com/wp-content/uploads/2025/08/mylar_ol2-1.pdf",
+      "https://mylar.com/wp-content/uploads/2025/08/mylar_ol13-1.pdf",
+      "https://mylar.com/wp-content/uploads/2025/08/mylar_ol1ag-1.pdf",
+      "https://www.transcendia.com/sites/default/files/2025-09/mylarr_ol2_pet_film_datasheet_09022025.pdf",
+      "https://www.transcendia.com/sites/default/files/2025-01/Mylar%C2%AE%20OL%20Datasheet%2001092025.pdf",
+      "https://www.sankensk.com/die-cut-and-formed-pet-insulation-sheets-and-gaskets",
+      "https://www.transcendia.com/applications/lidding-films"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-PA66-GF",
+    "query": "Glass-Fiber Reinforced Flame-Retardant PA66 (PA66-GF30) Housing manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://download.basf.com/p1/8a8082587fd4b608017fd631677c38e9/en/ULTRAMID%25C2%25AE_A3EG6",
+      "https://cn.hongrunplastics.com/public/uploads/images/20260423/LyondellBasell%20PA66%20SCHULAMID%2066%20GF%2030%20FR%204.pdf",
+      "https://download.basf.com/p1/8a8082587fd4b608017fd6550b660e3e/en/ULTRAMID%25C2%25AE_A3U42G6",
+      "https://hongrunplastics.com/public/uploads/images/20250609/LyondellBasell%20PA66%20Schulamid%2066%20GF30%20FR2%20NAT.pdf",
+      "https://hongrunplastics.com/public/uploads/images/20260309/Technyl%20A%2060%20G2%20V30.pdf",
+      "https://hongrunplastics.com/public/uploads/images/20250609/LyondellBasell%20PA6%20Schulamid%206%20GF30%20FR2%20RED964206.pdf",
+      "https://www.szhhairi.com/products/plastic-pa6-pa66/pa6-pa66-flame-retardant-series/ag6fa2230-reinforced-halogen-free-pa66/",
+      "https://www.matweb.com/search/DataSheet.aspx?MatGUID=a34f6efe87454c4bac819303db9c92a6&ckck=1"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-PBT-GF30",
+    "query": "30% Glass-Fiber Reinforced PBT (PBT-GF30) Fan Impeller & Frame manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://hongrunplastics.com/public/uploads/images/20251012/Celstran%20PBT-GF30-08.pdf",
+      "https://hongrunplastics.com/public/uploads/images/20250610/Celanese%20PA6%20Celstran%20PBT-GF30-08.pdf",
+      "https://www.ensingerplastics.com/en-sg/shapes/tecadur-pbt-gf30-natural",
+      "https://www.barlog.de/wp-content/themes/barlog/pdf/pdfs/KEBATER_PBT_BFY30_nature_FE_220902_8211_development_product_.pdf",
+      "https://www.ensingerplastics.com/en/shapes/tecadur-pbt-gf30-natural",
+      "https://www.barlog.de/wp-content/themes/barlog/pdf/pdfs/Privat_KEBATER_PBT_BF230_natural_0193.pdf",
+      "https://www.lfrt-plastic.com/info/glass-fiber-reinforced-flame-resistance-polybu-27785014.html",
+      "https://www.ensingerplastics.com/en-in/shapes/tecadur-pbt-gf30-natural"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-PU-COATING",
+    "query": "Acrylic-Polyurethane Matte Protective Shroud Coating manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://protectiveeu.sherwin-williams.com/product_documentation/product-data-sheets/english-pds/pds-acrolon-eg-120-issue-1.pdf",
+      "https://protectiveeu.sherwin-williams.com/product_documentation/product-data-sheets/english-pds/pds-acrolon-eg-5-clearcoat-issue-1.pdf",
+      "https://www.klasskote.com/files/3863370/uploaded/KlassKotePUDataSheet%20-%20Aug%202022.pdf",
+      "https://www.rd-coatings.nl/en/dothee-pdf/35-pdf-product",
+      "https://www.simaterials.com/images/pdfs/products/Acrylic_Polyurethane.pdf",
+      "https://www.klasskote.com/files/3863370/uploaded/KlassKoteClearPUDataSheet.pdf",
+      "https://grandcoatings.com/product/weather-resistant-acrylic-polyurethane-topcoat/",
+      "https://armor-chemie.com/catalog"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-AL-PLATE",
+    "query": "Rolled Aluminum Alloy 5052 / 6061 Structural Plate manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.aluminum.yieh.com/Upfiles/EDUp/files/5000%20Series/TDS/AA5052/TDS-YIEH-5052-Plate.pdf",
+      "https://aluminum.yieh.com/Upfiles/EDUp/files/5000%20Series/TDS/AA5052/TDS-YIEH-5052-Plate.pdf",
+      "https://rolledmetalproducts.com/wp-content/uploads/docs/Aluminum5052.pdf",
+      "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1045/Kaiser_Aluminum_Flat_Rolled_Aerospace_Capabilities.pdf",
+      "https://www.atlassteels.com.au/documents/Atlas_Aluminium_datasheet_5052_rev_Oct_2013.pdf",
+      "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/document/exh-7d1bb5c9-a051-4513-9cc5-efa5c182f61c/19c4e695-701b-4e5c-9b76-3acc0ef8e054.pdf",
+      "https://www.harvard-ent.com.tw/en/service.html",
+      "https://www.skysteelgroup.com/aluminum-plates/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-ALLOY-STEEL-WIRE",
+    "query": "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.semblex.com/en/technologies/ejot-springhead/",
+      "https://products.coldheaders.com/",
+      "https://products.coldheaders.com/el/category/all-categories",
+      "https://hky-hardware.en.made-in-china.com/product/CpkYKBRVEWhH/China-Customized-Flat-Stainless-Steel-Repair-Mending-Fixing-Plate-Brackets-Support.html",
+      "https://www.ejot.ro/Industrial-Fasteners-Division/Products/EJOT-SpringHead%C2%AE/p/VBT_SpringHead",
+      "https://products.coldheaders.com/en-gb/category/all-categories",
+      "https://library.e.abb.com/public/9064b116fe0046aab5dc497a582a7fb3/9AKK107046A5711_en_US_A_ABB%20Steel%20City_hangers%20clamps%20fasteners_catalog_ENG_US_9AKK107046A5711.pdf?x-sign=T6X2GlRq9SnSJLiOZbkdMDN8LEEg5BXKU83C2T%2B%2FB8sfHoTrlDBw43HNhWk0bncV",
+      "https://media.schmalz.com/MAM_Library/Dokumente/Datenblatt_Produktfamilie/0_/000/00032/6ed0437ccf73_Datasheet_Holders%20for%20Light-Metal%20Sections%20HTR-STA_en-EN.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-DRAM-DIE",
+    "query": "Fabricated GDDR6 / GDDR6X DRAM Silicon Die manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.micron.com/products/memory/graphics-memory",
+      "https://www.micron.com/products/memory/graphics-memory/gddr6x",
+      "https://www.micron.com/products/memory/graphics-memory/gddr6",
+      "https://in.micron.com/products/memory/graphics-memory/gddr6",
+      "https://stg-cloud.micron.com/products/memory/graphics-memory/gddr6",
+      "https://sg.micron.com/sales-support/sales/faqs",
+      "https://eng.simmtech.co.kr/product/package05.aspx",
+      "https://semiconductor.samsung.com/dram/gddr/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-FE-POWDER-CORE",
+    "query": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://s3.amazonaws.com/micrometals-production/filer_public/85/52/8552a1c8-03d8-41f3-949c-7e89dd74be12/iron_powder_cores_for_rf_applications_app_note.pdf",
+      "https://www.antai-emarketing.cn/wp-content/uploads/2020/08/%E8%BD%AF%E7%A3%81%E7%B2%89%E6%9C%AB%E5%AE%A3%E4%BC%A0%E5%86%8C.pdf",
+      "https://softmag.nimte.ac.cn/uploadfiles/site24/202112/20211216201219-4667054078.pdf",
+      "https://www.mext.go.jp/content/20261104_mxt_kankyo-000052659_2.pdf",
+      "https://www.jinchunmetal.com/vi/danh-muc-san-pham/absorbing-metal-materials/",
+      "https://www.jinchunmetal.com/product-category/absorbing-metal-materials/",
+      "https://www.chinamet.cn/gtyjxbywb/cn/article/pdf/preview/10.1007/s42243-025-01544-y.pdf",
+      "https://www.hlpowder.com/Iron-based/fesicr-soft-magnetic-powder-for-molding-choke"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-LCP-GF",
+    "query": "Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://hongrunplastics.com/public/uploads/images/20250611/Celanese%20LCP%20VECTRA%20E130G.pdf",
+      "https://upmold.com/wp-content/uploads/data-sheet/LCP-LAPEROS-E130i.pdf",
+      "https://hongrunplastics.com/public/uploads/images/20250611/Celanese%20LCP%20ZENITE%207130.pdf",
+      "https://hongrunplastics.com/public/uploads/images/20250611/Celanese%20LCP%20ZENITE%206130LX.pdf",
+      "https://www.cn-plas.com/uploads/soft/200523/B130.pdf",
+      "https://hongrunplastics.com/public/uploads/images/20250611/Celanese%20LCP%20ZENITE%206130.pdf",
+      "https://www.kern.de/de/technical-datasheet/liquid-lcp-gf30?n=1361_2",
+      "https://www.americhem.com/products/instruc-lcpgf30/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-MAGNET-WIRE",
+    "query": "Polyimide-Enameled Oxygen-Free Copper Winding Wire manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://cn.essexfurukawa.com/wp-content/uploads/2019/09/essex-wire-material-information-card-tp-001-eu-en.pdf",
+      "https://essexenergy.eu/wp-content/uploads/2020/11/essex-wire-material-information-card-MIC-001-eu-en-2020-11.pdf",
+      "https://www.telisonglobal.com/enamelled-wire/piw/class-240-polyimide-enamelled-flat-wire.html",
+      "https://eaglewoodjp-energy.com/uploads/20240719/e33d6c3fa6df44524a736726ceac6c09.pdf",
+      "https://static.weg.net/medias/downloadcenter/h23/h8a/WEG-coatings-poli-w-50152178-brochure-en.pdf",
+      "https://ousinai.en.made-in-china.com/product/jaCUVFIHEipW/China-Polyimide-Enameled-Copper-Magnet-Wire-Winding-Wire-Custom-Wire-for-Motor.html",
+      "https://www.par.uk.com/files/0114%20Polyimide%20C240.pdf",
+      "https://www.lpindustrywire.com/wp-content/uploads/2023/07/specialinsulatedwire.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-PHBR-CONTACT",
+    "query": "Stamped C5191 Phosphor-Bronze Spring Contacts manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.kiyomine.co.jp/en-products/en-bronze/",
+      "https://www.fujii-mfg.com/english/data/profile/Profile_20200903.pdf",
+      "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-02753.pdf",
+      "https://www.poongsan.co.kr/include/images/cs/%EC%A0%9C%ED%92%88%EA%B8%B0%EC%88%A0%EC%9E%90%EB%A3%8C_Copper_Alloy_Products_2025.pdf",
+      "https://www.micro-semiconductor.ru/datasheet/74-50-00024.pdf",
+      "https://www.oupiin.com.tw/upload/docDB/20250122145228mDg4.pdf",
+      "https://www.poongsan.co.kr/include/images/cs/Copper%20Alloy%20Products.pdf",
+      "https://harada-shindo.co.jp/en/product-en/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-PPA-REFLECTOR",
+    "query": "TiO2-Filled Polyphthalamide (PPA) Molded LED Reflector Cup manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://patents.google.com/patent/CN111040703A/en",
+      "https://patents.google.com/patent/JP2006503160A/en",
+      "https://patents.google.com/patent/US20180277726A1/en",
+      "https://patents.google.com/patent/EP1554762A2/en",
+      "https://patents.google.com/patent/US8455899B2/en",
+      "https://patents.google.com/patent/CN205159356U/en",
+      "https://patents.justia.com/patent/7989531",
+      "https://patents.google.com/patent/US9018296B2/en"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-SILICON-STEEL",
+    "query": "Laminated Electrical Silicon-Steel Stator Core manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.shungesteeltrade.com/electrical-steel-lamination-1",
+      "https://www.netl.doe.gov/sites/default/files/netl-file/Core-Loss-Datasheet---3-percent%5B1%5D.pdf",
+      "https://yuhuidg.en.made-in-china.com/product/xfRYdhquRJpU/China-Non-Oriented-Silicon-Steel-Electrical-Steel-Motor-Parts-Stator-and-Rotor-Laminated-Core.html",
+      "https://cngxmagnet.com/motor-stator-assembly",
+      "https://netl.doe.gov/sites/default/files/netl-file/Core-Loss-Datasheet---3-percent%5B1%5D.pdf",
+      "https://www.netl.doe.gov/sites/default/files/netl-file/Core-Loss-Datasheet---6_5-percent%5B1%5D.pdf",
+      "https://csmetal.en.made-in-china.com/product/cRpYSzwylWkj/China-Stator-Core-Assembly-for-Electric-Vehicle-Traction-Motor-Silicon-Steel-Laminations.html",
+      "https://cngxmagnet.com/custom-motor-stator/"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-SOLDER-BALL",
+    "query": "SAC305 (Sn96.5/Ag3.0/Cu0.5) BGA Solder Balls manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://atta.szlcsc.com/upload/public/pdf/source/20250428/8362864085A1FAB5A37BC3145D0E1EF2.pdf",
+      "https://www.icmrop.com/uploads/attachment/pdf/20220518/TDS_ICM-SAC305.pdf",
+      "https://www.easyspheres.com/content/EasySpheres%20Technical%20Data%20Sheet%20SAC%20305%20.500mm%20-%20.550mm-Rev4.pdf",
+      "https://www.krayden.com/products/linq-sac305",
+      "https://www.chipquik.com/datasheets/SMD2024.pdf",
+      "https://www.mouser.com/en/ProductDetail/Chip-Quik/SMD2088-6000?qs=bpu3f%2FCR1jxjDEzY7%2F5uEQ%3D%3D",
+      "https://www.chipquik.com/datasheets/SMD2020.pdf",
+      "https://www.mouser.com/en/ProductDetail/Chip-Quik/SMD2088-6000?qs=sGAEpiMZZMtyU1cDF2RqUC30PWN%252BLtZ1lPwKUPmXkj8%3D"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-CU-TERMINAL",
+    "query": "Tin-Plated Copper SMD Lead Terminals manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://easby.com/shop/smd-pcb-terminals/",
+      "https://eu.mouser.com/en/ProductDetail/TE-Connectivity/130625?qs=ZlsYJcrV2PyvRpzIY5XvKg%3D%3D",
+      "https://wecoconnectors.com/wp-content/uploads/2023/07/WECOCatalogue_6_SMDTHR_en.pdf",
+      "https://www.mcmaster.com/products/pin-terminals",
+      "https://www.hc-sp.com/en/products.php",
+      "https://www.zlxterminals.com/non-insulated-spade-terminals-copper-lug-awg-14-12-without-hole-snb-3-5-6-ps-continuous/",
+      "https://www.mouser.com/en/ProductDetail/TE-Connectivity/52423?qs=z4WMwwbkB84bV43yKdRlSg%3D%3D",
+      "https://www.mouser.com/en/ProductDetail/TE-Connectivity/130625?qs=ZlsYJcrV2PyvRpzIY5XvKg%3D%3D"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-CU-WICK",
+    "query": "Atomized Spherical Copper Powder Capillary Wick manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://atomize.co.jp/english/products/copper_powder.html",
+      "https://atomize.co.jp/english/technology/detail.html",
+      "https://www.atomize.co.jp/english/technology/detail.html",
+      "https://em.mitsui-kinzoku.com/en/engineered-powders/products/copper-powder/",
+      "https://ronaldbritton.co.uk/products/cu-at-atomised-spherical-copper-powder",
+      "https://www.dowa-electronics.co.jp/en/electron/atomized-powder.html",
+      "https://www.cnpcpowder.com/products/copper/73.html",
+      "https://fushel.com/powder/copper-powder.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-FAN-DRIVER-IC",
+    "query": "Hall-Effect BLDC Fan Driver IC & Mini FR-4 Sub-Board manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://media.monolithicpower.cn/mps_cms_document/m/o/motor_driver_catalog_q4_2022-digital.pdf",
+      "https://www.mouser.com/datasheet/2/115/ah284-1163919.pdf?srsltid=AfmBOoobREpmUB0Y8xzoFOG1XNuUXzDF90WonZ3QwaALO7LaGVk64K5V",
+      "https://www.orient-chip.com/Public/Uploads/uploadfile/files/20231016/OCH29801datasheet.pdf",
+      "https://www.mouser.com/datasheet/3/175/1/AH285.pdf",
+      "https://www.components-store.kr/datasheets/61/AH285-PL-B.pdf",
+      "https://www.orient-chip.com/Public/Uploads/uploadfile/files/20231016/OCH29831datasheet.pdf",
+      "https://www.diodes.com/part/view/AH5772",
+      "https://www.diodes.com/part/view/AH5775"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-FBGA-SUB",
+    "query": "Fine-Pitch BT-Resin / ABF FBGA Package Substrate manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.infineon.com/assets/row/public/documents/10/316/infineon-qtp-11707-productqualificationreport-en.pdf",
+      "https://www.infineon.com/assets/row/public/documents/10/316/infineon-qtp-63001-48-ball-fine-pitch-ball-grid-array-fbga-msl3-pb-free-260-c-reflow-ase-taiwan-taiwan-g-productqualificationreport-en.pdf",
+      "https://www.infineon.com/assets/row/public/documents/10/316/infineon-qtp-33105-48-ball-fine-pitch-ball-grid-array-fbga-8-x-9.5-x-1.0mm--6-x-8-x-1.0mm-msl3-pb-free-260-c-reflow-ase-taiwan-g-productqualificationreport-en.pdf",
+      "https://www.infineon.com/assets/row/public/documents/10/316/infineon-qtp-50704-165-ball-fine-pitch-ball-grid-array-fbga-15-x-17-x-1.4mm-and-13-x-15-x-1.4mm-msl3-260c-solder-reflow-ase-taiwan-g-productqualificationreport-en.pdf",
+      "https://www.infineon.com/assets/row/public/documents/10/316/infineon-qtp-163610-165-ball-fbga-15x17x1.4mm-snpb--sac-405-solder-ball-finish-cupd-wire-msl3-260c-reflow-bkk-thailand-sb-productqualificationreport-en.pdf",
+      "https://www.infineon.com/assets/row/public/documents/10/316/infineon-qtp-44501-165-ball-fine-pitch-ball-grid-array-fbga-15-x-17-x-1.4mm-msl3-220c-solder-reflow-ase-taiwan-g-productqualificationreport-en.pdf",
+      "https://www.season-pcb.com/pcb-basics/abf-substrate-explained-build-up-film/",
+      "https://alcantapcb.com/products/fc-bga-substrates?lang=ja"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-FERRITE-BODY",
+    "query": "Sintered Ni-Zn Ferrite Core with Silver Internal Winding manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://sintertech.com/products.html",
+      "https://www.sintertech.com/how-to.html",
+      "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-core/material/withdraw_ferrite_ni-zn_material_sy22_en.pdf",
+      "https://product.tdk.com/en/system/files/dam/doc/product/ferrite/ferrite/ferrite-core/material/withdraw_ferrite_ni-zn_material_gt5_en.pdf",
+      "https://sintertech.com/bead-core-details.html",
+      "https://en.stjs.jp/nickel-based-ferrite-core/",
+      "https://www.acme-ferrite.com.tw/img/NiCorePDF/I.pdf",
+      "https://www.ferroxcube.home.pl/envir/info/nizn_plating.pdf"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-PHOSPHOR",
+    "query": "YAG:Ce Wavelength-Conversion Phosphor Powder manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.bostonati.com/products/TI_YAG-Ce.pdf",
+      "https://www.baikowski.com/en/serie/yag/",
+      "https://loradchemical.com/products/cerium-doped-yttrium-aluminum-garnet",
+      "https://www.nichia.co.jp/specification/products/phosphors/catalogue_phosphors_techdata-E.pdf",
+      "https://tokyokagaku.co.jp/wp-content/uploads/2025/07/Blue-YAG.pdf",
+      "https://www.nanochemazone.com/product/yagce-led-phosphor-powder/",
+      "https://www.baikowski.com/en/application/light-conversion-phosphors/",
+      "https://loradchemical.com/news/phosphor-for-blue-led-to-white-light-conversion"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-RES-BODY",
+    "query": "Alumina Chip Substrate with RuO2 Resistive Film & Glass Overcoat manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.tawelectronics.com/calchip/RMseries_2004.pdf",
+      "https://patents.google.com/patent/US5955938A/en",
+      "https://patents.google.com/patent/JP2011091140A/en",
+      "https://patents.google.com/patent/JP2526131B2/en",
+      "https://patents.google.com/patent/EP2286420B1/en",
+      "https://patents.google.com/patent/EP2286420B1",
+      "https://patents.google.com/patent/US8628695B2/en",
+      "https://patents.google.com/patent/CN102057448A/en"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-SMD-TERM",
+    "query": "Copper / Nickel / Tin Tri-Layer SMD End Terminations manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://datasheet.lcsc.com/datasheet/pdf/605e0788f2c77947f19fa88ae6e4d109.pdf?productCode=C3862186",
+      "https://cdn.promelec.ru/upload/grab/datasheet.lcsc.com/lcsc/2410311037_KEMET-C2220C664K1GLCAUTO_C3833598.pdf",
+      "https://datasheet.octopart.com/TLCL335M016RTA-AVX-datasheet-12517838.pdf",
+      "https://www.vishay.com/docs/45063/tn0029.pdf",
+      "https://www.hvproducts.de/wp-content/uploads/2024/07/smd-high-voltage-n2t-0624.pdf",
+      "https://www.tdk-electronics.tdk.com/download/1351630/0befda5124d406c276c3a4eaf73cd686/ctvs-general.pdf",
+      "https://patents.google.com/patent/US20110090665A1/en",
+      "https://patents.google.com/patent/US20160344365A1/en"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  },
+  {
+    "node_id": "SC-SS-SHAFT",
+    "query": "Precision-Ground Stainless Steel Rotor Shaft manufacturer official product datasheet -alibaba -made-in-china -marketresearch",
+    "searched_on": "2026-11-24",
+    "candidate_urls": [
+      "https://www.rbcbearings.com/literature/pdfs/PIC_Catalog.pdf",
+      "https://www.electronicfasteners.com/wp-content/uploads/2020/11/Catalog-12.pdf",
+      "https://www.ondrivesus.com/documents/categories/shafts-17-4PH-GP-GPM.pdf",
+      "https://catalog.nordex.com/images/parts/52.pdf",
+      "https://www.jameco.com/Jameco/Products/ProdDS/399541.pdf",
+      "https://www.mpcomponents.com/products/shafting/",
+      "https://www.globalspec.com/ds/4010/areaspec/add_ops_precision_ground",
+      "https://haoyimachinery.en.made-in-china.com/product/tTCrVqeEJWYi/China-Precision-Ground-Shaft-Custom-CNC-Shaft-Corrosion-Resistant-Motor-Shaft.html"
+    ],
+    "status": "discovery_only_requires_product_and_source_review",
+    "limitation": "Search results are leads. They are not verified supplier or facility records."
+  }
+]

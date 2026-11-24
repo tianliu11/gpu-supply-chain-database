@@ -17,8 +17,14 @@ from __future__ import annotations
 import csv
 import json
 import math
+import re
+import hashlib
 from collections import Counter, defaultdict, deque
 from pathlib import Path
+
+from additional_public_research import SOURCES as RESEARCH_SOURCES, VENDORS as RESEARCH_VENDORS
+from additional_public_research import SITES as RESEARCH_SITES, EDGE_EVIDENCE, REVIEW_DATE
+from additional_public_research import CORPORATE_GROUPS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -143,6 +149,7 @@ ETO_NODE_MAP = {
     "LD:bond_wires": "N94",
     "LD:encapsulation_resins": "N97",
     "LD:die_attach_materials": "N98",
+    "PM-SI-WAFER": "N26",
 }
 
 
@@ -230,77 +237,48 @@ def merge_sources() -> list[dict]:
     path = CLEAN / "sources.csv"
     rows = read_csv(path)
     by_id = {r["source_id"]: r for r in rows}
-    for row in SOURCE_ADDITIONS:
+    for row in SOURCE_ADDITIONS + RESEARCH_SOURCES:
         by_id[row["source_id"]] = row
     merged = list(by_id.values())
-    write_csv(path, merged, ["source_id", "organization", "title", "url", "use", "reliability"])
-    write_csv(CLEAN / "full_supply_chain_sources.csv", merged, ["source_id", "organization", "title", "url", "use", "reliability"])
+    fields = ["source_id", "organization", "title", "url", "use", "reliability", "reviewed_on"]
+    write_csv(path, merged, fields)
+    write_csv(CLEAN / "full_supply_chain_sources.csv", merged, fields)
     return merged
 
 
 def evidence_for_edge(edge: dict, nodes: dict[str, dict]) -> tuple[str, str, str, str]:
-    s = nodes[edge["source"]]
-    t = nodes[edge["target"]]
-    text = f"{s['name']} {t['name']}".lower()
-    dataset = edge.get("source_dataset", "")
-    ids: list[str] = []
-    note = ""
-
-    if dataset == "gpu_bom_609_parts":
-        return (
-            "supported_structural_reference",
-            "secondary_BOM_structure",
-            "SRC_BOMWIKI_GPU",
-            "BOMWiki supports the generic graphics-card hierarchy; it is not an exact confidential NVIDIA BOM.",
-        )
-
-    if "pcie" in text or "card edge" in text or "connector" in text and ("lcp" in text or "copper" in text):
-        ids.append("SRC_TE_PCIE_MATERIALS")
-    if any(k in text for k in ["mlcc", "barium titanate", "batio3"]):
-        ids.append("SRC_MURATA_MLCC_MATERIALS")
-    if any(k in text for k in ["inductor", "ferrite", "magnetic powder core"]):
-        ids.append("SRC_TDK_INDUCTOR_MATERIALS")
-    if any(k in text for k in ["pcb", "fr-4", "prepreg", "soldermask", "copper-clad", "copper foil"]):
-        ids.append("SRC_IPC_PCB")
-    if any(k in text for k in ["wafer", "photoresist", "photomask", "deposition", "cmp", "etch", "logic die", "semiconductor"]):
-        ids.extend(["SRC_ETO_2026", "SRC_SIA_FRONTEND"])
-    if any(k in text for k in ["nitrogen trifluoride", "nitrous oxide", "fluorinated", "electronic gases"]):
-        ids.append("SRC_EPA_SEMI")
-    if s.get("is_raw_material") or t.get("is_raw_material"):
-        ids.append("SRC_USGS_MCS2026")
-    if dataset in {"gpu_logic_die_supply_chain", "package_substrate_bridge"}:
-        ids.extend(["SRC_ETO_2026", "SRC_SIA_PROCESS"])
-
-    ids = list(dict.fromkeys(ids))
-    exact_product_sources = {
-        "SRC_TE_PCIE_MATERIALS",
-        "SRC_MURATA_MLCC_MATERIALS",
-        "SRC_TDK_INDUCTOR_MATERIALS",
-        "SRC_IPC_PCB",
-    }
-    if any(i in exact_product_sources for i in ids):
-        status = "supported_product_or_industry_level"
-        scope = "official technical or standards evidence"
-        note = "The cited source supports the material relationship for the product class; exact GPU model allocation remains unverified."
-    elif dataset == "package_substrate_bridge":
-        status = "supported_category_level"
-        scope = "industry category evidence"
-        ids.append("SRC_AJINOMOTO_ABF")
-        note = "The relationship is supported at package-substrate category level, not as a complete recipe."
-    elif dataset == "gpu_logic_die_supply_chain" and ids:
-        status = "supported_category_level"
-        scope = "semiconductor process/material category evidence"
-        note = "The broad manufacturing relationship is supported; the exact precursor recipe and quantities are not public."
-    elif ids:
-        status = "partially_supported_requires_specific_confirmation"
-        scope = "general commodity or process evidence"
-        note = "The source supports the commodity or process class but does not independently verify this exact source-to-target conversion."
-    else:
-        status = "unverified_specific_relation"
-        scope = "submitted_graph_only"
-        note = "No independent reputable source in the current evidence package verifies this exact relationship."
-
-    return status, scope, ";".join(dict.fromkeys(ids)), note
+    # Source assignment must be scoped to a reviewed edge.  The previous version
+    # assigned broad documents from keywords; that is insufficient verification.
+    manual = {r['edge_id']: r for r in EDGE_EVIDENCE}.get(edge.get('id'))
+    if manual:
+        return manual['validation_status'], manual['evidence_scope'], manual['source_ids'], manual['audit_note']
+    eid = edge.get('id', '')
+    if eid == 'E0036':
+        return ('semantic_conflict', 'stage_output_definition', 'SRC_SIA_PROCESS',
+                'ATP produces a packaged/tested device, whereas GPU Die is a bare-die constituent of GPU Package. Connecting ATP output back into the die double-counts packaging; split bare die and package output.')
+    if edge.get('source_dataset') == 'gpu_bom_609_parts':
+        return ('secondary_structure_reference', 'generic_BOM_structure', 'SRC_BOMWIKI_GPU',
+                'Preserved submitted generic BOM hierarchy; presence, quantities and supplier allocation require a specific card reference.')
+    if eid in {'E0037','E0038','E0039','E0041'}:
+        return ('supported_process_stage', 'semiconductor_stage_sequence', 'SRC_SIA_PROCESS',
+                'Industry source supports fabrication followed by assembly, packaging and testing; rename the post-ATP output as a packaged device.')
+    if eid in {f'E{i:04d}' for i in range(49,57)}:
+        return ('supported_category_use', 'industry_process_input', 'SRC_ETO_2026;SRC_SIA_FRONTEND',
+                'Supports broad fabrication input category. Specific materials and recipes depend on process technology.')
+    if eid in {'E0594','E0595'}:
+        return ('supported_product_class','MLCC_materials','SRC_MURATA_MLCC_MATERIALS',
+                'Supports barium titanate and nickel in ceramic component manufacture; exact MLCC grade remains unspecified.')
+    if eid in {'E0683','E0685','E0729','E0604'}:
+        return ('supported_product_class','PCB_laminate_construction','SRC_IPC_PCB',
+                'FR-4 multilayer boards use laminate and prepreg with resin and reinforcement; exact board stack-up is unspecified.')
+    if str(edge['source']).startswith('RAW-'):
+        return ('upstream_lineage_requires_process_evidence','unverified_conversion','',
+                'A raw-material ancestry link may skip refining or chemical intermediates. Verify the actual route before treating it as direct factory-to-factory supply.')
+    if str(edge['source']).startswith('DC-'):
+        return ('consumable_use_requires_confirmation','unverified_consumable_choice','',
+                'Tooling or consumable use is design/process dependent and does not imply that it remains in the product.')
+    return ('unverified_specific_relation','submitted_graph_only','',
+            'Exact relationship has not been independently verified. Retain as a proposal pending a specific technical source.')
 
 
 def audit_graph(graph: dict) -> tuple[list[dict], dict]:
@@ -345,6 +323,10 @@ def audit_graph(graph: dict) -> tuple[list[dict], dict]:
             "evidence_scope": scope,
             "source_ids": source_ids,
             "audit_note": note,
+            "recommended_relationship": ('upstream_feedstock_lineage' if str(e['source']).startswith('RAW-') else
+                'consumed_in_process' if str(e['source']).startswith('DC-') else
+                'member_of_category' if status == 'supported_category_membership' else e.get('relationship','')),
+            "mandatory_input_status": 'not_established_for_specific_GPU',
         })
     write_csv(CLEAN / "full_supply_chain_edges_audit.csv", edge_rows)
 
@@ -457,10 +439,49 @@ def build_vendor_table(graph: dict) -> tuple[list[dict], list[dict]]:
 
     # Rank only when comparable market shares exist. Otherwise retain a stable row
     # number while calling it an evidence order, not a market rank.
+    for record in RESEARCH_VENDORS:
+        nid = record['node_id']
+        if nid not in nodes:
+            raise ValueError(f'Unknown research node: {nid}')
+        pid = 'PUBLIC:' + hashlib.sha256(record['provider_name'].casefold().encode()).hexdigest()[:12]
+        rows.append({
+            'full_graph_node_id': nid, 'full_graph_node_name': nodes[nid]['name'],
+            'provider_id': pid, 'provider_name': record['provider_name'],
+            'provider_role': 'documented_product_supplier', 'provider_rank_within_node': 'unranked',
+            'market_share_percent': '', 'market_share_year': '',
+            'selection_basis': 'official product or production evidence; market rank not independently established',
+            'mapping_exactness': 'explicit scoped research mapping',
+            'evidence_level': 'official_product_capability', 'source_ids': record['source_ids'],
+            'caveat': 'See product_scope: a combined node may only have one supported branch.',
+            'product_scope': record['product_scope'], 'qualification_status': record['qualification'],
+            'reviewed_on': REVIEW_DATE,
+        })
+    # Consolidate the same named supplier within a node; keep all cited sources.
+    merged = {}
+    for row in rows:
+        key = (row['full_graph_node_id'], row['provider_name'].casefold())
+        if key in merged:
+            old = merged[key]
+            row['source_ids'] = ';'.join(sorted(set((old['source_ids']+';'+row['source_ids']).split(';'))))
+        merged[key] = row
+    rows = list(merged.values())
+    for row in rows:
+        row.setdefault('product_scope', 'Published category capability; product grade and recipe are unspecified')
+        row.setdefault('qualification_status', 'grade_and_customer_qualification_unverified')
+        row.setdefault('reviewed_on', '')
+        ownership = CORPORATE_GROUPS.get(row['provider_name'].casefold())
+        row['corporate_group'] = ownership[0] if ownership else row['provider_name']
+        row['corporate_group_status'] = ownership[2] if ownership else 'not_independently_reviewed'
+        row['ownership_source_ids'] = ownership[1] if ownership else ''
+        row['independent_leadership_rank_status'] = 'not_established'
     grouped: dict[str, list[dict]] = defaultdict(list)
     for row in rows:
         grouped[row["full_graph_node_id"]].append(row)
     for group in grouped.values():
+        # Favor explicitly checked product records over an alphabetical selection
+        # from an unranked ETO list. This order is not a market-share ranking.
+        group.sort(key=lambda r: (r['mapping_exactness'] != 'explicit scoped research mapping', r['provider_name']))
+        del group[10:]
         with_share = all(r["market_share_percent"] not in ("", None) for r in group)
         if with_share:
             group.sort(key=lambda r: float(r["market_share_percent"]), reverse=True)
@@ -469,10 +490,13 @@ def build_vendor_table(graph: dict) -> tuple[list[dict], list[dict]]:
         for i, row in enumerate(group, 1):
             row["provider_rank_within_node"] = i if with_share else "unranked"
 
+    rows = [r for group in grouped.values() for r in group]
     rows.sort(key=lambda r: (r["full_graph_node_id"], str(r["provider_rank_within_node"]), r["provider_name"]))
     write_csv(CLEAN / "full_supply_chain_vendors.csv", rows)
 
-    covered = set(grouped)
+    search_log_path=RAW/'additional_node_research_search_log.json'
+    search_log=json.loads(search_log_path.read_text()) if search_log_path.exists() else []
+    attempts=Counter(r['node_id'] for r in search_log)
     coverage = []
     for n in graph["nodes"]:
         nid = str(n["id"])
@@ -483,10 +507,20 @@ def build_vendor_table(graph: dict) -> tuple[list[dict], list[dict]]:
             "node_type": n.get("node_type", ""),
             "vendor_count": count,
             "vendor_status": "documented_provider_set" if count else "not_yet_supported_by_node_specific_vendor_evidence",
+            "procurement_treatment": ('process_stage_no_material_vendor' if n.get('node_type') == 'process_stage' else
+                'category_expand_children' if n.get('node_type') == 'material_category' else
+                'local_resource_or_utility' if nid in {'RAW-AIR','RAW-WATER'} else 'supplier_research_required'),
+            "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
+            "recorded_followup_searches": attempts[nid],
+            "distinct_corporate_groups": len({r['corporate_group'] for r in grouped.get(nid,[])}),
             "next_action": "" if count else "Research official product pages or authoritative market source; do not inherit parent vendors automatically.",
         })
     write_csv(CLEAN / "full_supply_chain_vendor_coverage.csv", coverage)
     return rows, coverage
+
+
+def research_site_id(record: dict) -> str:
+    return 'PUBLIC_SITE:' + hashlib.sha256(record['facility_name'].encode()).hexdigest()[:12]
 
 
 def build_facility_table() -> list[dict]:
@@ -528,12 +562,35 @@ def build_facility_table() -> list[dict]:
             "site_evidence_level": "official company production-site evidence",
             "product_assignment": "capability/site confirmed; exact GPU customer allocation not public",
             "source_ids": source_id,
-            "coordinate_precision": "address_or_city_centroid",
-            "public_site_list_completeness": "all manufacturing sites visible in the cited source scope; may not be a complete global corporate footprint",
+            "coordinate_precision": "legacy_approximation_not_independently_geocoded",
+            "public_site_list_completeness": "partial public list; exhaustive global footprint not established",
         })
+    cache_path = RAW / 'public_site_geocodes.json'
+    cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
+    for record in RESEARCH_SITES:
+        fid = research_site_id(record)
+        geo = cache.get(fid, {})
+        rows.append({
+            'facility_id': fid, 'facility_name': record['facility_name'],
+            'company': record['company'], 'country': record['country'],
+            'city': record['city'], 'address': record['address'],
+            'latitude': geo.get('latitude',''), 'longitude': geo.get('longitude',''),
+            'facility_type': 'production_asset', 'component_categories': record['node_ids'],
+            'site_evidence_level': 'official named production-site evidence',
+            'product_assignment': 'Only the product scope listed in component_categories is evidenced; no GPU customer allocation established.',
+            'source_ids': record['source_ids'] + (';R_OSM_GEOCODE' if geo.get('latitude') is not None and geo.get('latitude') != '' else ''),
+            'coordinate_precision': geo.get('precision','not_geocoded'),
+            'public_site_list_completeness': 'partial public list; exhaustive global footprint not established',
+            'operating_status': record['operating_status'],
+            'geocode_display_name': geo.get('display_name',''),
+        })
+    for row in rows:
+        row.setdefault('operating_status', 'legacy_public_site_status_not_rechecked')
+        row.setdefault('geocode_display_name','')
     by_id = {r["facility_id"]: r for r in rows}
     rows = sorted(by_id.values(), key=lambda r: (r["company"], r["country"], r["facility_name"]))
-    write_csv(CLEAN / "full_supply_chain_facilities.csv", rows)
+    fields = list(rows[0]) + [x for x in ['operating_status','geocode_display_name'] if x not in rows[0]]
+    write_csv(CLEAN / "full_supply_chain_facilities.csv", rows, fields)
     return rows
 
 
@@ -588,7 +645,7 @@ def build_nearest_hubs(facilities: list[dict]) -> list[dict]:
             lat, lon = float(f["latitude"]), float(f["longitude"])
         except (ValueError, TypeError):
             continue
-        for hub_type, hubs, source_id in [("commercial_airport", airports, "SRC_OURAIRPORTS"), ("port", ports, "SRC_NGA_WPI")]:
+        for hub_type, hubs, source_id in [("commercial_airport", airports, "SRC_OURAIRPORTS"), ("port", ports, "SRC_NGA_WPI;R_WPI_MIRROR")]:
             nearest = sorted(hubs, key=lambda h: haversine_km(lat, lon, h["latitude"], h["longitude"]))[:3]
             for rank, h in enumerate(nearest, 1):
                 rows.append({
@@ -604,10 +661,120 @@ def build_nearest_hubs(facilities: list[dict]) -> list[dict]:
                     "hub_longitude": h["longitude"],
                     "great_circle_distance_km": round(haversine_km(lat, lon, h["latitude"], h["longitude"]), 1),
                     "source_ids": source_id,
+                    "facility_coordinate_precision": f['coordinate_precision'],
+                    "cargo_service_status": 'unverified_air_cargo_capability' if hub_type == 'commercial_airport' else 'unverified_commercial_cargo_capability',
                     "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity or an actual route.",
                 })
     write_csv(CLEAN / "full_supply_chain_nearest_hubs.csv", rows)
     return rows
+
+
+def build_site_coverage(vendors: list[dict], facilities: list[dict]) -> list[dict]:
+    """Only explicit researched product/site associations are product-scope links.
+
+    Company name matching can identify a publicly known factory, but cannot assign
+    all of that vendor's products to that factory.
+    """
+    rows=[]
+    aliases={
+             'jsr':'jsr', 'shinko':'shinko electric industries',
+             'nitto boseki':'nitto boseki', 'ibiden':'ibiden'}
+    def key(name):
+        name=name.casefold().strip()
+        return aliases.get(name,name)
+    for vendor in vendors:
+        sites=[s for s in facilities if key(s['company'])==key(vendor['provider_name'])]
+        scoped=[s for s in sites if vendor['full_graph_node_id'] in s['component_categories'].split()]
+        rows.append({
+            'node_id':vendor['full_graph_node_id'], 'node_name':vendor['full_graph_node_name'],
+            'provider_name':vendor['provider_name'], 'public_site_count':len(sites),
+            'explicit_product_class_site_count':len(scoped),
+            'product_class_site_ids':';'.join(s['facility_id'] for s in scoped),
+            'other_company_site_ids':';'.join(s['facility_id'] for s in sites if s not in scoped),
+            'site_status':'fabless_designer_no_owned_fab_required' if vendor['provider_name'].casefold()=='nvidia' else 'product_class_site_documented' if scoped else
+                          'company_sites_only_product_allocation_unverified' if sites else 'no_site_evidence_in_current_package',
+            'next_action':'Check every facility for grade, available capacity, operating status and customer qualification.',
+            'source_ids':';'.join(sorted({v for s in scoped for v in s['source_ids'].split(';')})),
+        })
+    write_csv(CLEAN/'full_supply_chain_vendor_site_coverage.csv',rows)
+    return rows
+
+
+def build_modeling_issues(graph: dict) -> list[dict]:
+    issues=[
+        ('PACKAGING_DOUBLE_COUNT','high','E0036','LD:finished_logic_die;1.2.1',
+         'Post-ATP packaged output feeds the bare GPU die, which then feeds GPU Package.',
+         'Use fabricated bare die as GPU Package input; connect ATP output to the packaged-device node.',
+         'SRC_SIA_PROCESS'),
+        ('MEMORY_GENERATION','high','E0688','SC-DRAM-DIE;1.3',
+         'Submitted die names GDDR6/GDDR6X while the repository reference is RTX 5080-class with GDDR7.',
+         'Choose generic GDDR family or use GDDR7 throughout and source a matching package structure.',
+         'SRC_NVIDIA_5080;SRC_MICRON_GDDR7'),
+        ('OPTIONAL_VS_REQUIRED','high','','',
+         'Alternative materials and process options are all labeled necessary_input_for.',
+         'Represent alternatives with OR/eligibility groups and mandatory simultaneous inputs with AND groups before min-cut or lead-time analysis.',
+         ''),
+        ('MASK_TECHNOLOGY','high','E0101','LD:soda_lime_glass;LD:photomasks',
+         'Generic soda-lime glass has been assigned to all semiconductor photomasks.',
+         'Use a technology-specific DUV/EUV mask-blank reference and actual required substrate/coating.',
+         'R_HOYA_BLANKS'),
+        ('RGB_PHOSPHOR','medium','E0754','SC-PHOSPHOR;8.1',
+         'YAG phosphor is treated as necessary for RGB LED.',
+         'Make phosphor dependent on white/phosphor-converted LED design; source the selected LED package.',
+         'R_CREE_RGB'),
+        ('MISSING_ELEMENT_FEEDSTOCKS','high','','SC-LED-DIE;PM-SAPPHIRE-WAFER',
+         'InGaN/AlInGaP and GaAs are named, but no raw gallium/indium nodes exist in the submitted raw-material set.',
+         'Review elemental inputs and compound-semiconductor chain; graph reachability alone does not establish chemical completeness.',
+         'R_IQE_GAAS'),
+        ('RAW_ORE_SHORTCUTS','medium','','',
+         'Many edges jump from ore directly to a high-purity chemical, wire or plated product.',
+         'Keep as ancestry links or insert refining/synthesis/purification steps. Do not use them as observed direct shipments.',
+         ''),
+        ('COMBINED_PRODUCT_NODES','high','','',
+         'Several nodes combine different saleable products, grades or materials with slash/and labels.',
+         'Split procurement alternatives or specify which branch each supplier and factory supports.',
+         ''),
+        ('INTERNAL_SUBCOMPONENTS','medium','','SC-MLCC-BODY;SC-POWER-DIE;SC-MCU-DIE;SC-TVS-DIE',
+         'Finished-device capability does not establish separately sold bare die or unfinished component bodies.',
+         'Model in-house production at the parent manufacturer where relevant; independently qualify bare-part suppliers if needed.',
+         ''),
+        ('SITE_PRODUCT_GRADE','high','','',
+         'Publicly listed company sites may not manufacture the required grade/product. Legacy HBM sites do not establish GDDR production.',
+         'Require product-class site evidence and qualification; use vendor_site_coverage to distinguish company-level site matches.',
+         ''),
+        ('GEOGRAPHIC_HUBS','medium','','',
+         'Nearby airports may have passenger service only; WPI ports can include unsuitable terminals.',
+         'Confirm cargo acceptance, customs, operating status and feasible land access before routing.',
+         'SRC_OURAIRPORTS;SRC_NGA_WPI'),
+        ('LOCATION_PRECISION','medium','','',
+         'Many coordinates are city/district proxies or inherited approximations.',
+         'Retain coordinate_precision and obtain factory-gate coordinates before operational routing.',
+         'R_OSM_GEOCODE'),
+        ('MARKET_REPRESENTATIVENESS','high','','',
+         'Provider presence and up-to-ten supplier count do not measure market coverage or qualified redundancy.',
+         'Add independent market-share evidence with product definition/year, or report a sample of documented providers.',
+         'SRC_ETO_2026'),
+    ]
+    rows=[dict(issue_id=i,severity=s,edge_ids=e,node_ids=n,problem=p,recommended_action=a,source_ids=src)
+          for i,s,e,n,p,a,src in issues]
+    write_csv(CLEAN/'full_supply_chain_modeling_issues.csv',rows)
+    return rows
+
+
+def export_enriched_data(graph, edges, vendors, facilities, hubs, site_coverage, issues):
+    vendor_by_node=defaultdict(list)
+    for v in vendors:
+        vendor_by_node[v['full_graph_node_id']].append(v)
+    enriched={
+        'metadata':{'reviewed_on':REVIEW_DATE,'original_graph_preserved':True,
+                    'scope':'Public evidence extension; no confidential procurement or qualified-alternative claim',
+                    'edge_audit_method':'Explicitly scoped evidence; broad keyword matches do not verify edges'},
+        'nodes':[dict(n,vendor_candidates=vendor_by_node[str(n['id'])]) for n in graph['nodes']],
+        'edges':edges,'facilities':facilities,'nearby_hub_candidates':hubs,
+        'vendor_site_coverage':site_coverage,'modeling_issues':issues,
+        'sources':read_csv(CLEAN/'sources.csv'),
+    }
+    (CLEAN/'full_supply_chain_research_database.json').write_text(json.dumps(enriched,indent=2,ensure_ascii=False)+'\n')
 
 
 def write_completion_report(graph: dict, edge_rows: list[dict], vendor_rows: list[dict], coverage: list[dict], facilities: list[dict], hubs: list[dict]) -> None:
@@ -621,7 +788,17 @@ def write_completion_report(graph: dict, edge_rows: list[dict], vendor_rows: lis
         "nodes_with_node_specific_vendor_evidence": vendor_covered,
         "nodes_without_node_specific_vendor_evidence": len(coverage) - vendor_covered,
         "vendor_component_rows": len(vendor_rows),
+        "distinct_named_vendors": len({r['provider_name'].casefold() for r in vendor_rows}),
+        "procurement_node_treatments": dict(Counter(r['procurement_treatment'] for r in coverage)),
+        "physical_nodes_with_supplier_evidence": sum(int(r['vendor_count'])>0 and r['procurement_treatment']=='supplier_research_required' for r in coverage),
+        "physical_nodes_requiring_supplier_research": sum(r['procurement_treatment']=='supplier_research_required' for r in coverage),
+        "coverage_warning": "A supplier listing is capability evidence, not proof of qualification, complete material branches, market representativeness or actual procurement.",
         "public_production_site_rows": len(facilities),
+        "vendor_site_coverage_status": dict(Counter(r['site_status'] for r in read_csv(CLEAN/'full_supply_chain_vendor_site_coverage.csv'))),
+        "factory_discovery_searches_logged": len(json.loads((RAW/'manufacturing_site_research_search_log.json').read_text())),
+        "sites_without_geocodes": sum(r['latitude'] in ('',None) or r['longitude'] in ('',None) for r in facilities),
+        "readiness": "research_extension_incomplete_for_validated_redundancy_or_end_to_end_transport_analysis",
+        "legacy_audit_correction": "The earlier 400-supported-edge total relied on broad keyword/category matching and is withdrawn. Current edge support uses explicit scoped records only.",
         "nearest_hub_rows": len(hubs),
         "nearest_hub_definition": "Up to three scheduled medium/large airports and three WPI ports per geocoded production site",
         "not_claimed": [
@@ -644,6 +821,9 @@ def main() -> None:
     vendor_rows, coverage = build_vendor_table(graph)
     facilities = build_facility_table()
     hubs = build_nearest_hubs(facilities)
+    site_coverage=build_site_coverage(vendor_rows,facilities)
+    issues=build_modeling_issues(graph)
+    export_enriched_data(graph,edge_rows,vendor_rows,facilities,hubs,site_coverage,issues)
     write_completion_report(graph, edge_rows, vendor_rows, coverage, facilities, hubs)
     print(f"Audited {len(edge_rows)} edges")
     print(f"Built {len(vendor_rows)} vendor-component rows")

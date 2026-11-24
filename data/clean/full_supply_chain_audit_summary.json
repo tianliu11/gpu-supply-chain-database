@@ -12,11 +12,23 @@
   "nodes_without_raw_material_ancestor": [],
   "raw_material_nodes_without_path_to_root": [],
   "validation_status_counts": {
-    "supported_structural_reference": 35,
-    "supported_category_level": 301,
-    "supported_product_or_industry_level": 64,
-    "partially_supported_requires_specific_confirmation": 154,
-    "unverified_specific_relation": 203
+    "secondary_structure_reference": 35,
+    "semantic_conflict": 1,
+    "supported_process_stage": 4,
+    "unverified_specific_relation": 368,
+    "supported_category_use": 8,
+    "supported_category_membership": 29,
+    "upstream_lineage_requires_process_evidence": 216,
+    "supported_consumable_use": 1,
+    "technology_specific_review_required": 1,
+    "supported_process_input": 7,
+    "supported_product_class": 17,
+    "consumable_use_requires_confirmation": 50,
+    "supported_alloy_composition": 8,
+    "same_material_duplicate_node": 1,
+    "candidate_process_option": 7,
+    "candidate_design_option": 3,
+    "optional_or_design_dependent": 1
   },
   "important_interpretation": "Category-level support is not exact recipe, quantity, transaction, or factory-allocation evidence."
 }
