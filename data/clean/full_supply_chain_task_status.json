@@ -1,0 +1,118 @@
+{
+  "reviewed_on": "2026-11-24",
+  "original_json_sha256": "4abdf0cb2cffe3f5e296f2f0e9e7e9af8a47d3d0acf6ffa83bdc3188f3fe4881",
+  "tasks": [
+    {
+      "task": "Preserve supplied JSON and audit graph integrity",
+      "status": "done",
+      "detail": "All 289 nodes and 757 edges retained; structural checks and evidence labels exported."
+    },
+    {
+      "task": "Verify every material/input relationship",
+      "status": "partial",
+      "detail": "Specific supporting sources and conflicts documented; unresolved edge statuses remain in the audit CSV."
+    },
+    {
+      "task": "Find suppliers for every component/material",
+      "status": "partial",
+      "detail": "239 of 289 nodes have candidate evidence; categories/process stages do not all need independent vendors."
+    },
+    {
+      "task": "Identify up to ten industry-leading suppliers per input",
+      "status": "partial",
+      "detail": "At most ten suppliers retained per node. Product capability is cited; comparable top-ten market rankings are generally not established."
+    },
+    {
+      "task": "Find all manufacturing sites for selected vendors",
+      "status": "partial",
+      "detail": "213 public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial."
+    },
+    {
+      "task": "Nearest one to three commercial airports and ports",
+      "status": "geographic_screening_done_cargo_validation_pending",
+      "detail": "1278 nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified."
+    },
+    {
+      "task": "Clean database, sources and reproducible code",
+      "status": "done",
+      "detail": "CSV tables, consolidated JSON, raw inputs, source register, geocode cache, research logs and integrity tests included."
+    },
+    {
+      "task": "Two visualizations matching the updated data",
+      "status": "done",
+      "detail": "Offline component/evidence explorer and production-location/hub map generated from the latest consolidated JSON."
+    },
+    {
+      "task": "Observed manufacturing times and multimodal delivery times",
+      "status": "not_completed",
+      "detail": "Earlier scenario assumptions are not observed node-specific lead times; this extension adds no fabricated times or booked routes."
+    },
+    {
+      "task": "Validated real-world redundancy analysis",
+      "status": "not_completed",
+      "detail": "Requires reviewed AND/OR dependencies, qualified supplier alternatives, site allocations, capacity and validated logistics. No finished analysis is claimed."
+    }
+  ],
+  "counts": {
+    "generated_from": "gpu_complete_node_to_node_supply_chain.json",
+    "graph_nodes": 289,
+    "graph_edges": 757,
+    "edge_evidence_status": {
+      "secondary_structure_reference": 35,
+      "semantic_conflict": 1,
+      "supported_process_stage": 4,
+      "unverified_specific_relation": 363,
+      "supported_category_use": 8,
+      "supported_category_membership": 29,
+      "upstream_lineage_requires_process_evidence": 214,
+      "supported_consumable_use": 1,
+      "technology_specific_review_required": 1,
+      "supported_process_input": 11,
+      "supported_product_class": 20,
+      "consumable_use_requires_confirmation": 50,
+      "supported_alloy_composition": 8,
+      "same_material_duplicate_node": 1,
+      "candidate_process_option": 7,
+      "candidate_design_option": 3,
+      "optional_or_design_dependent": 1
+    },
+    "nodes_with_node_specific_vendor_evidence": 239,
+    "nodes_without_node_specific_vendor_evidence": 50,
+    "vendor_component_rows": 385,
+    "distinct_named_vendors": 201,
+    "procurement_node_treatments": {
+      "supplier_research_required": 274,
+      "local_resource_or_utility": 2,
+      "process_stage_no_material_vendor": 4,
+      "category_expand_children": 9
+    },
+    "physical_nodes_with_supplier_evidence": 231,
+    "physical_nodes_requiring_supplier_research": 274,
+    "coverage_warning": "A supplier listing is capability evidence, not proof of qualification, complete material branches, market representativeness or actual procurement.",
+    "public_production_site_rows": 213,
+    "vendor_site_coverage_status": {
+      "no_site_evidence_in_current_package": 220,
+      "company_sites_only_product_allocation_unverified": 90,
+      "fabless_designer_no_owned_fab_required": 1,
+      "product_class_site_documented": 74
+    },
+    "factory_discovery_searches_logged": 127,
+    "sites_without_geocodes": 0,
+    "readiness": "research_extension_incomplete_for_validated_redundancy_or_end_to_end_transport_analysis",
+    "legacy_audit_correction": "The earlier 400-supported-edge total relied on broad keyword/category matching and is withdrawn. Current edge support uses explicit scoped records only.",
+    "nearest_hub_rows": 1278,
+    "nearest_hub_definition": "Up to three scheduled medium/large airports and three WPI ports per geocoded production site",
+    "not_claimed": [
+      "The submitted 757-edge graph is fully verified.",
+      "Unranked ETO providers are the market-share top ten.",
+      "A listed factory supplies NVIDIA or a specific GPU model.",
+      "The geographically nearest hub is actually used or operationally suitable.",
+      "Public facility lists are complete when a company does not publish a global manufacturing register."
+    ]
+  },
+  "visualization_qa": {
+    "javascript_dom_smoke_tests": "Run node code/test_research_explorers.mjs",
+    "browser_layout_review": "not_completed_browser_attachment_policy_and_localhost_access_unavailable"
+  },
+  "important_warning": "A completed research pass is not a complete real industry supply chain. Empty data are not approximated into facts."
+}

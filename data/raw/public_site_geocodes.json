@@ -648,5 +648,705 @@
     "osm_type": "relation",
     "osm_id": 4135353,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Oguni%2C+Yamagata%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:6c97e6524cd7": {
+    "query": "Kiyosu, Japan",
+    "latitude": 35.2002235,
+    "longitude": 136.8531268,
+    "display_name": "清須市, 愛知県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4567247,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kiyosu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:e7851a766dcc": {
+    "query": "Inazawa, Japan",
+    "latitude": 35.240484,
+    "longitude": 136.758964,
+    "display_name": "稲沢市, 愛知県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4548228,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Inazawa%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:a73fd23184b5": {
+    "query": "Kakamigahara, Japan",
+    "latitude": 35.3995831,
+    "longitude": 136.8485648,
+    "display_name": "各務原市, 岐阜県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4716640,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kakamigahara%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:41c13460602a": {
+    "query": "Kakamigahara, Japan",
+    "latitude": 35.3995831,
+    "longitude": 136.8485648,
+    "display_name": "各務原市, 岐阜県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4716640,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kakamigahara%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:f6724f03fbe9": {
+    "query": "Kakamigahara, Japan",
+    "latitude": 35.3995831,
+    "longitude": 136.8485648,
+    "display_name": "各務原市, 岐阜県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4716640,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kakamigahara%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:c3fe0fe72b1c": {
+    "query": "Nagano, Japan",
+    "latitude": 36.1143945,
+    "longitude": 138.0319015,
+    "display_name": "長野県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3560284,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nagano%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:8c53edbf5268": {
+    "query": "Nagano, Japan",
+    "latitude": 36.1143945,
+    "longitude": 138.0319015,
+    "display_name": "長野県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3560284,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nagano%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:36b88ae5186d": {
+    "query": "Chikuma, Japan",
+    "latitude": 36.5336984,
+    "longitude": 138.120123,
+    "display_name": "千曲市, 長野県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4759362,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chikuma%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:199217adb82a": {
+    "query": "Nakano, Japan",
+    "latitude": 35.7086179,
+    "longitude": 139.6629399,
+    "display_name": "中野区, 東京都, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1543056,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nakano%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:81f6b00aa0fa": {
+    "query": "Myoko, Japan",
+    "latitude": 37.0252467,
+    "longitude": 138.253635,
+    "display_name": "妙高市, 新潟県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4516355,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Myoko%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:e7c6a4944a40": {
+    "query": "Agano, Japan",
+    "latitude": 37.598095,
+    "longitude": 139.628804,
+    "display_name": "阿賀野川, 福島県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 9070380,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Agano%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:5e8cd8472c7a": {
+    "query": "Hanau, Germany",
+    "latitude": 50.132881,
+    "longitude": 8.9169797,
+    "display_name": "Hanau, Hessen, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 535895,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hanau%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:93968a269e15": {
+    "query": "Conshohocken, United States",
+    "latitude": 40.0738835,
+    "longitude": -75.30625,
+    "display_name": "Conshohocken, Montgomery County, Pennsylvania, 19428, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 187776,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Conshohocken%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:b727f89f72ca": {
+    "query": "Timisoara, Romania",
+    "latitude": 45.7538355,
+    "longitude": 21.2257474,
+    "display_name": "Timișoara, Timiș, România",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6927733,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Timisoara%2C+Romania&format=jsonv2&addressdetails=1&limit=1&countrycodes=ro"
+  },
+  "PUBLIC_SITE:6ff5b94560a1": {
+    "query": "Changshu, China",
+    "latitude": 31.6572954,
+    "longitude": 120.7480757,
+    "display_name": "常熟市, 苏州市, 江苏省, 215500, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4591597,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Changshu%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:649fb6b8eb22": {
+    "query": "Changshu, China",
+    "latitude": 31.6572954,
+    "longitude": 120.7480757,
+    "display_name": "常熟市, 苏州市, 江苏省, 215500, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4591597,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Changshu%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:1b675a04959c": {
+    "query": "Zhaoyuan, China",
+    "latitude": 37.3538319,
+    "longitude": 120.4281727,
+    "display_name": "招远市, 烟台市, 山东省, 265400, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 5654933,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Zhaoyuan%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:460b7cf8fff5": {
+    "query": "Singapore, Singapore",
+    "latitude": 1.2899175,
+    "longitude": 103.8519072,
+    "display_name": "Singapore",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 17140517,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Singapore%2C+Singapore&format=jsonv2&addressdetails=1&limit=1&countrycodes=sg"
+  },
+  "PUBLIC_SITE:53d1a35ae6c9": {
+    "query": "Johor Bahru, Malaysia",
+    "latitude": 1.4581986,
+    "longitude": 103.7649059,
+    "display_name": "Johor Bahru, Johor, 80730, Malaysia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 254237831,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Johor+Bahru%2C+Malaysia&format=jsonv2&addressdetails=1&limit=1&countrycodes=my"
+  },
+  "PUBLIC_SITE:dcd0a692cdcc": {
+    "query": "McIntosh, Alabama, United States",
+    "latitude": 31.2662818,
+    "longitude": -88.0313903,
+    "display_name": "McIntosh, Washington County, Alabama, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 14066922,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=McIntosh%2C+Alabama%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:61cfb07798d3": {
+    "query": "Plaquemine, Louisiana, United States",
+    "latitude": 30.2840655,
+    "longitude": -91.2370772,
+    "display_name": "Plaquemine, Iberville Parish, Louisiana, 70764, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 131943,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Plaquemine%2C+Louisiana%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:05828de3e86e": {
+    "query": "St. Gabriel, Louisiana, United States",
+    "latitude": 30.2576953,
+    "longitude": -91.0992706,
+    "display_name": "Saint Gabriel, Iberville Parish, Louisiana, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 131942,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=St.+Gabriel%2C+Louisiana%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:8a1a399bc3e3": {
+    "query": "Niagara Falls, New York, United States",
+    "latitude": 43.084841,
+    "longitude": -79.0701786,
+    "display_name": "Niagara Falls, Hurricane Platform, City of Niagara Falls, Niagara County, New York, 14302, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3126920,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Niagara+Falls%2C+New+York%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:f9f184ee79a0": {
+    "query": "Charleston, Tennessee, United States",
+    "latitude": 35.2858415,
+    "longitude": -84.7575018,
+    "display_name": "Charleston, Bradley County, East Tennessee, Tennessee, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 195980,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Charleston%2C+Tennessee%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:19a7ca3994ee": {
+    "query": "Freeport, Texas, United States",
+    "latitude": 28.9496782,
+    "longitude": -95.3461433,
+    "display_name": "Freeport, Brazoria County, Texas, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6586781,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Freeport%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:4dfac72fc15e": {
+    "query": "Becancour, Quebec, Canada",
+    "latitude": 46.3415746,
+    "longitude": -72.4335088,
+    "display_name": "Bécancour, Bécancour (MRC), Centre-du-Québec, Québec, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 8042836,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Becancour%2C+Quebec%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:15598c42d877": {
+    "query": "Freeport, Texas, United States",
+    "latitude": 28.9496782,
+    "longitude": -95.3461433,
+    "display_name": "Freeport, Brazoria County, Texas, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6586781,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Freeport%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:44f81c71a21d": {
+    "query": "Stade, Germany",
+    "latitude": 53.599794,
+    "longitude": 9.475438,
+    "display_name": "Stade, Landkreis Stade, Niedersachsen, Deutschland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 444799,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Stade%2C+Germany&format=jsonv2&addressdetails=1&limit=1&countrycodes=de"
+  },
+  "PUBLIC_SITE:126c02374e85": {
+    "query": "Koriyama, Japan",
+    "latitude": 37.404937,
+    "longitude": 140.333381,
+    "display_name": "郡山市, 福島県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4174659,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Koriyama%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:1d90ae89ef4c": {
+    "query": "Miharu, Fukushima, Japan",
+    "latitude": 37.4409337,
+    "longitude": 140.4926213,
+    "display_name": "三春町, 田村郡, 福島県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4196830,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Miharu%2C+Fukushima%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:72e009619451": {
+    "query": "Taketoyo, Japan",
+    "latitude": 34.8510184,
+    "longitude": 136.9149138,
+    "display_name": "武豊町, 知多郡, 愛知県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4567446,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Taketoyo%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:71dc9eacc289": {
+    "query": "Shunan, Japan",
+    "latitude": 34.0550595,
+    "longitude": 131.8064092,
+    "display_name": "周南市, 山口県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4081530,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Shunan%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:a9434f16bbef": {
+    "query": "South Killingholme, United Kingdom",
+    "latitude": 53.6300423,
+    "longitude": -0.2642896,
+    "display_name": "South Killingholme, North Lincolnshire, Greater Lincolnshire, England, DN40 3HB, United Kingdom",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 55136942,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=South+Killingholme%2C+United+Kingdom&format=jsonv2&addressdetails=1&limit=1&countrycodes=gb"
+  },
+  "PUBLIC_SITE:5ce27edd5a0f": {
+    "query": "Westlake, Louisiana, United States",
+    "latitude": 30.256769,
+    "longitude": -93.25827,
+    "display_name": "Westlake, Calcasieu Parish, Louisiana, 70669, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 132128,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Westlake%2C+Louisiana%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:7f9937850255": {
+    "query": "Hamilton, Ontario, Canada",
+    "latitude": 43.2560802,
+    "longitude": -79.8728583,
+    "display_name": "Hamilton, Ontario, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7034910,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hamilton%2C+Ontario%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:8f8945440752": {
+    "query": "Akita, Japan",
+    "latitude": 39.6898802,
+    "longitude": 140.342608,
+    "display_name": "秋田県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3791413,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Akita%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:6e8421334fb3": {
+    "query": "Shannon, Clare, Ireland",
+    "latitude": 52.6913222,
+    "longitude": -8.6186233,
+    "display_name": "Shannon, Abbey A, Ballyglass ED, Shannon Municipal District, County Clare, Munster, Éire / Ireland",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "way",
+    "osm_id": 1534299609,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Shannon%2C+Clare%2C+Ireland&format=jsonv2&addressdetails=1&limit=1&countrycodes=ie"
+  },
+  "PUBLIC_SITE:c37a85d049f8": {
+    "query": "Kunshan, China",
+    "latitude": 31.3869323,
+    "longitude": 120.9764683,
+    "display_name": "昆山市, 苏州市, 江苏省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4591878,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kunshan%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:a3b90ac1a65b": {
+    "query": "Guangzhou, China",
+    "latitude": 23.1288429,
+    "longitude": 113.2589581,
+    "display_name": "广州市, 广东省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3287346,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Guangzhou%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:d1a37e00619c": {
+    "query": "Chongqing, China",
+    "latitude": 30.05518,
+    "longitude": 107.8748712,
+    "display_name": "重庆市, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 913069,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chongqing%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:eb282c148fbb": {
+    "query": "Hefei, China",
+    "latitude": 31.8665676,
+    "longitude": 117.281428,
+    "display_name": "合肥市, 安徽省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3288965,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hefei%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:d1156849b1e6": {
+    "query": "Ichinoseki, Japan",
+    "latitude": 38.9346961,
+    "longitude": 141.126605,
+    "display_name": "一関市, 岩手県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4120403,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Ichinoseki%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:898b934fc217": {
+    "query": "Moka, Japan",
+    "latitude": 36.4407739,
+    "longitude": 140.012528,
+    "display_name": "真岡市, 栃木県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1877091,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Moka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:ee2ca46b5159": {
+    "query": "Moka, Japan",
+    "latitude": 36.4407739,
+    "longitude": 140.012528,
+    "display_name": "真岡市, 栃木県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1877091,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Moka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:28b927830a50": {
+    "query": "Soka, Japan",
+    "latitude": 35.8262233,
+    "longitude": 139.8061784,
+    "display_name": "草加市, 埼玉県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1768338,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Soka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:08900e2941d8": {
+    "query": "Nishiwaki, Japan",
+    "latitude": 35.0125755,
+    "longitude": 134.996262,
+    "display_name": "西脇市, 兵庫県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 900268,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nishiwaki%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:2412cc8642d5": {
+    "query": "Taka, Hyogo, Japan",
+    "latitude": 35.0502756,
+    "longitude": 134.9234305,
+    "display_name": "多可町, 多可郡, 兵庫県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 900250,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Taka%2C+Hyogo%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:3b3a11c2c130": {
+    "query": "Miyazaki, Japan",
+    "latitude": 32.097681,
+    "longitude": 131.294542,
+    "display_name": "宮崎県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1842184,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Miyazaki%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:6670b34e144e": {
+    "query": "Nagaoka, Japan",
+    "latitude": 37.446996,
+    "longitude": 138.8512199,
+    "display_name": "長岡市, 新潟県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4453959,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nagaoka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:41f03959f530": {
+    "query": "Nagaoka, Japan",
+    "latitude": 37.446996,
+    "longitude": 138.8512199,
+    "display_name": "長岡市, 新潟県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4453959,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Nagaoka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:e42811c52452": {
+    "query": "Mitsuke, Japan",
+    "latitude": 37.53145,
+    "longitude": 138.9126572,
+    "display_name": "見附市, 新潟県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4454178,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Mitsuke%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:24b298117ba0": {
+    "query": "Hirakata, Japan",
+    "latitude": 34.8144363,
+    "longitude": 135.6507278,
+    "display_name": "枚方市, 大阪府, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 358609,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hirakata%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:283c88d41c90": {
+    "query": "Taoyuan, Taiwan",
+    "latitude": 24.9929995,
+    "longitude": 121.3010003,
+    "display_name": "桃園市, 臺灣",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2770986,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Taoyuan%2C+Taiwan&format=jsonv2&addressdetails=1&limit=1&countrycodes=tw"
+  },
+  "PUBLIC_SITE:a771092efeb5": {
+    "query": "Khlong Luang, Pathum Thani, Thailand",
+    "latitude": 14.1033948,
+    "longitude": 100.6703459,
+    "display_name": "อำเภอคลองหลวง, จังหวัดปทุมธานี, ประเทศไทย",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2913006,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Khlong+Luang%2C+Pathum+Thani%2C+Thailand&format=jsonv2&addressdetails=1&limit=1&countrycodes=th"
+  },
+  "PUBLIC_SITE:9da686c9e07d": {
+    "query": "Haldia, India",
+    "latitude": 22.028124,
+    "longitude": 88.0632655,
+    "display_name": "Haldia, Purba Medinipur, West Bengal, 721607, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 733558709,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Haldia%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:4ad364f01f2b": {
+    "query": "Stallingborough, United Kingdom",
+    "latitude": 53.5871667,
+    "longitude": -0.1834359,
+    "display_name": "Stallingborough, Station Road, Stallingborough, North East Lincolnshire, Greater Lincolnshire, England, DN41 8AR, United Kingdom",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 3152616513,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Stallingborough%2C+United+Kingdom&format=jsonv2&addressdetails=1&limit=1&countrycodes=gb"
+  },
+  "PUBLIC_SITE:d66c596ed123": {
+    "query": "Thann, France",
+    "latitude": 47.8101008,
+    "longitude": 7.1020957,
+    "display_name": "Thann, Thann-Guebwiller, Haut-Rhin, Collectivité européenne d'Alsace, Grand Est, France métropolitaine, 68800, France",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 48098,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Thann%2C+France&format=jsonv2&addressdetails=1&limit=1&countrycodes=fr"
+  },
+  "PUBLIC_SITE:85d424ed931e": {
+    "query": "Soka, Japan",
+    "latitude": 35.8262233,
+    "longitude": 139.8061784,
+    "display_name": "草加市, 埼玉県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1768338,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Soka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:88d891df1d38": {
+    "query": "Isehara, Japan",
+    "latitude": 35.4030614,
+    "longitude": 139.3150172,
+    "display_name": "伊勢原市, 神奈川県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2689419,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Isehara%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:fc4c4f5a5654": {
+    "query": "Misaki, Okayama, Japan",
+    "latitude": 34.9979682,
+    "longitude": 133.9582915,
+    "display_name": "美咲町, 久米郡, 岡山県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3939113,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Misaki%2C+Okayama%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:b4709b4c1e8d": {
+    "query": "Omuta, Japan",
+    "latitude": 33.0301604,
+    "longitude": 130.4461811,
+    "display_name": "大牟田市, 福岡県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4008384,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Omuta%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:c436be578f2b": {
+    "query": "Oshu, Japan",
+    "latitude": 39.144275,
+    "longitude": 141.1392382,
+    "display_name": "奥州市, 岩手県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 963782,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Oshu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:734053cad891": {
+    "query": "Tsu, Japan",
+    "latitude": 34.7341973,
+    "longitude": 136.5153283,
+    "display_name": "津市, 三重県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4538734,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Tsu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:7d29aec1ce65": {
+    "query": "Omuta, Japan",
+    "latitude": 33.0301604,
+    "longitude": 130.4461811,
+    "display_name": "大牟田市, 福岡県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4008384,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Omuta%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:2ccf06729bf3": {
+    "query": "Hangzhou, China",
+    "latitude": 30.2489634,
+    "longitude": 120.2052342,
+    "display_name": "杭州市, 浙江省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3221112,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hangzhou%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:a5350ca8ab96": {
+    "query": "Singapore, Singapore",
+    "latitude": 1.2899175,
+    "longitude": 103.8519072,
+    "display_name": "Singapore",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 17140517,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Singapore%2C+Singapore&format=jsonv2&addressdetails=1&limit=1&countrycodes=sg"
+  },
+  "PUBLIC_SITE:0c2f32050a95": {
+    "query": "Hiratsuka, Japan",
+    "latitude": 35.3350609,
+    "longitude": 139.3494345,
+    "display_name": "平塚市, 神奈川県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2689429,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hiratsuka%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:240d65faf486": {
+    "query": "Kaohsiung, Taiwan",
+    "latitude": 22.6203348,
+    "longitude": 120.3120375,
+    "display_name": "高雄市, 臺灣",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2127079,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kaohsiung%2C+Taiwan&format=jsonv2&addressdetails=1&limit=1&countrycodes=tw"
+  },
+  "PUBLIC_SITE:35c2476d55a8": {
+    "query": "La Porte, Texas, United States",
+    "latitude": 29.6657838,
+    "longitude": -95.0193729,
+    "display_name": "La Porte, Harris County, Texas, 77571, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 115364,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=La+Porte%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:8b0d02c69fc6": {
+    "query": "Taraz, Kazakhstan",
+    "latitude": 42.9015945,
+    "longitude": 71.3769302,
+    "display_name": "Тараз қаласының әкімшілігі, Жамбыл облысы, Қазақстан",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3388834,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Taraz%2C+Kazakhstan&format=jsonv2&addressdetails=1&limit=1&countrycodes=kz"
   }
 }

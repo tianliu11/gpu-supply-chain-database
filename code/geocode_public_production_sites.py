@@ -18,6 +18,9 @@ from build_full_supply_chain_evidence import research_site_id
 
 COUNTRY_CODES = {
  'Japan':'jp',
+ 'Romania':'ro','Malaysia':'my','Ireland':'ie','United Kingdom':'gb',
+ 'Taiwan':'tw','France':'fr',
+ 'Kazakhstan':'kz',
  'United States':'us','Canada':'ca','Brazil':'br','Germany':'de','Austria':'at',
  'Netherlands':'nl','Belgium':'be','Spain':'es','South Africa':'za','China':'cn',
  'South Korea':'kr','Indonesia':'id','New Zealand':'nz','Thailand':'th',

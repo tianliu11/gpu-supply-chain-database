@@ -2,6 +2,31 @@
 
 This package joins the BOMWiki graphics-card hierarchy to Georgetown CSET ETO's semiconductor supply-chain data. It is a representative RTX 5080-class graphics-card model, not an exact reconstruction of one brand's confidential bill of materials or purchase orders.
 
+## Latest handoff: supplied full node-to-node JSON
+
+Start with [RESEARCH_HANDOFF.txt](RESEARCH_HANDOFF.txt) for what is done and what
+is still missing. The latest extension preserves the supplied JSON and has 239
+nodes with supplier-candidate evidence, 385 supplier-node records, 213 public
+production-asset records and 1,278 nearby-hub records. These are research-coverage
+counts, not percentages of a fully verified or market-representative chain.
+
+- `figures/full_supply_chain_structure.html`: offline component graph and
+  node-by-node supplier, site-coverage and edge-source explorer.
+- `figures/full_supply_chain_transport_map.html`: offline geographic factory/hub
+  screening map. Dashed lines are proximity candidates, not verified shipments.
+- `data/clean/full_supply_chain_research_database.json`: consolidated handoff.
+- `data/clean/full_supply_chain_task_status.json`: checklist and current counts.
+- `data/clean/full_supply_chain_remaining_work.json`: explicit unresolved queue.
+- `data/clean/full_supply_chain_data_dictionary.json`: fields, joins, units and
+  interpretation of missing values.
+
+Download the repository ZIP and open the two HTML files locally; GitHub's source
+viewer does not execute HTML. They embed their data and need no network access.
+Both pass JavaScript/DOM interaction smoke tests. Browser layout review was
+unavailable in this session, as recorded in the handoff. The older PNG figures
+and the smaller legacy graph statistics below have **not** been regenerated as
+the full-node research graph and must not be cited as its current outputs.
+
 ## Project hierarchy from gpu.xlsx
 
 The project-focus graph follows `gpu.xlsx` sheet `ATP`, columns R through AM:
@@ -78,7 +103,7 @@ The airport and port results are proximity screening. They do not demonstrate
 cargo schedules, customs capability, road accessibility, carrier capacity or an
 actual supplier route.
 
-## Current coverage
+## Legacy smaller-model coverage (not the latest full-node extension)
 
 - Grouped BOM nodes: 36 of 36 included.
 - Rolled-up physical part count preserved from the JSON: 609.
@@ -88,7 +113,7 @@ actual supplier route.
 - Physical facility candidates: 35.
 - Modeled transport edges: 72.
 
-## Physical transport graph statistics
+## Legacy physical transport graph statistics
 
 Run `python3 code/compute_transport_graph_statistics.py` to rebuild the statistics table and graphic. For this graph, nodes are manufacturing/design/process facilities and logistics hubs; directed edges are modeled road, air and sea movements. WCC and SCC retain the standard directed-network definitions, while clustering, triangles and path-length measures use the undirected projection so that they remain defined for a mostly acyclic supply-flow graph.
 
@@ -123,5 +148,10 @@ tables:
 
 ```bash
 python3 code/build_full_supply_chain_evidence.py
+python3 code/build_research_handoff.py
 python3 code/test_public_research_integrity.py
 ```
+
+Optional explorer smoke tests: `node code/test_research_explorers.mjs`.
+The evidence and presentation rebuilds use only Python's standard library and
+the checked-in data. No live scraping is required for reproduction.

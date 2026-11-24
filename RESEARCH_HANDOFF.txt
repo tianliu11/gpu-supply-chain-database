@@ -1,0 +1,54 @@
+GPU SUPPLY-CHAIN RESEARCH HANDOFF
+Review date: 2026-11-24
+
+Scope: best-effort public evidence extension of the supplied JSON, not a confidential NVIDIA procurement reconstruction.
+
+Nodes: 289; proposed connections: 757; nodes with supplier candidates: 239; supplier-node records: 385; public production-asset records: 213; nearest-hub records: 1278.
+
+TASK STATUS
+
+DONE: Preserve supplied JSON and audit graph integrity
+All 289 nodes and 757 edges retained; structural checks and evidence labels exported.
+
+PARTIAL: Verify every material/input relationship
+Specific supporting sources and conflicts documented; unresolved edge statuses remain in the audit CSV.
+
+PARTIAL: Find suppliers for every component/material
+239 of 289 nodes have candidate evidence; categories/process stages do not all need independent vendors.
+
+PARTIAL: Identify up to ten industry-leading suppliers per input
+At most ten suppliers retained per node. Product capability is cited; comparable top-ten market rankings are generally not established.
+
+PARTIAL: Find all manufacturing sites for selected vendors
+213 public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial.
+
+GEOGRAPHIC_SCREENING_DONE_CARGO_VALIDATION_PENDING: Nearest one to three commercial airports and ports
+1278 nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified.
+
+DONE: Clean database, sources and reproducible code
+CSV tables, consolidated JSON, raw inputs, source register, geocode cache, research logs and integrity tests included.
+
+DONE: Two visualizations matching the updated data
+Offline component/evidence explorer and production-location/hub map generated from the latest consolidated JSON.
+
+NOT_COMPLETED: Observed manufacturing times and multimodal delivery times
+Earlier scenario assumptions are not observed node-specific lead times; this extension adds no fabricated times or booked routes.
+
+NOT_COMPLETED: Validated real-world redundancy analysis
+Requires reviewed AND/OR dependencies, qualified supplier alternatives, site allocations, capacity and validated logistics. No finished analysis is claimed.
+
+HOW TO OPEN THE PACKAGE
+1. Open figures/full_supply_chain_structure.html to browse components, suppliers and edge citations.
+2. Open figures/full_supply_chain_transport_map.html to inspect factories and geographic hub candidates.
+3. Import data/clean/full_supply_chain_research_database.json for the consolidated machine-readable dataset.
+4. Use data/clean/full_supply_chain_remaining_work.json for the unresolved research queue.
+5. Read FULL_SUPPLY_CHAIN_EVIDENCE_NOTES.md for caveats and the correction to the earlier overly broad edge audit.
+
+REBUILD (from repository root)
+python3 code/build_full_supply_chain_evidence.py
+python3 code/build_research_handoff.py
+python3 code/test_public_research_integrity.py
+
+The rebuild uses checked-in inputs and no external Python packages. Refreshing geocodes is optional and uses a rate-limited network service.
+The older PNGs and legacy transport/time tables describe the earlier smaller model, not this complete-node research extension.
+Visualization QA: JavaScript/DOM smoke tests exercise both files. Actual browser layout review was unavailable: in-app localhost timed out and local Chrome attachment required an app network-policy update.

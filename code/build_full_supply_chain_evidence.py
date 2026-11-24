@@ -25,6 +25,7 @@ from pathlib import Path
 from additional_public_research import SOURCES as RESEARCH_SOURCES, VENDORS as RESEARCH_VENDORS
 from additional_public_research import SITES as RESEARCH_SITES, EDGE_EVIDENCE, REVIEW_DATE
 from additional_public_research import CORPORATE_GROUPS
+import expanded_public_research  # registers explicitly reviewed second-pass evidence
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -482,7 +483,9 @@ def build_vendor_table(graph: dict) -> tuple[list[dict], list[dict]]:
         # from an unranked ETO list. This order is not a market-share ranking.
         group.sort(key=lambda r: (r['mapping_exactness'] != 'explicit scoped research mapping', r['provider_name']))
         del group[10:]
-        with_share = all(r["market_share_percent"] not in ("", None) for r in group)
+        with_share = (all(r["market_share_percent"] not in ("", None) for r in group)
+                      and len({str(r['market_share_year']) for r in group}) == 1
+                      and all(r['mapping_exactness']=='direct category alignment' for r in group))
         if with_share:
             group.sort(key=lambda r: float(r["market_share_percent"]), reverse=True)
         else:
@@ -589,6 +592,11 @@ def build_facility_table() -> list[dict]:
         row.setdefault('geocode_display_name','')
     by_id = {r["facility_id"]: r for r in rows}
     rows = sorted(by_id.values(), key=lambda r: (r["company"], r["country"], r["facility_name"]))
+    city_groups=Counter((r['company'].casefold(),r['city'].casefold()) for r in rows)
+    for row in rows:
+        group=(row['company'].casefold(),row['city'].casefold())
+        row['same_company_city_asset_count']=city_groups[group]
+        row['site_independence_caveat']='Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations.'
     fields = list(rows[0]) + [x for x in ['operating_status','geocode_display_name'] if x not in rows[0]]
     write_csv(CLEAN / "full_supply_chain_facilities.csv", rows, fields)
     return rows
@@ -663,7 +671,7 @@ def build_nearest_hubs(facilities: list[dict]) -> list[dict]:
                     "source_ids": source_id,
                     "facility_coordinate_precision": f['coordinate_precision'],
                     "cargo_service_status": 'unverified_air_cargo_capability' if hub_type == 'commercial_airport' else 'unverified_commercial_cargo_capability',
-                    "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity or an actual route.",
+                    "caveat": "Nearest by straight-line distance only; does not prove cargo service, customs suitability, road access, capacity, hazardous/bulk-material handling suitability or an actual route.",
                 })
     write_csv(CLEAN / "full_supply_chain_nearest_hubs.csv", rows)
     return rows

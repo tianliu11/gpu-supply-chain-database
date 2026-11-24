@@ -103,11 +103,20 @@ it does not silently turn those proposals into an exact product BOM.
 
 ## Current research pass
 
-The extension contains 203 nodes with supplier-candidate evidence out of the 289
-submitted nodes, 338 supplier-to-node records, and 143 production-site records.
+The extension contains 239 nodes with supplier-candidate evidence out of the 289
+submitted nodes, 385 supplier-to-node records, and 213 production-asset records.
 These are not completion percentages: category nodes, process stages, internal
 subcomponents and purchased materials have different evidence requirements.
 Supplier capability does not establish market coverage or a qualified substitute.
+
+The second pass added 70 public production-asset records and 47 supplier-node
+records. Among the 385 supplier-node records, 74 have an explicitly documented
+product-class site match, 90 have company sites but unconfirmed product
+allocation, 220 lack a matched site in this package, and one is a fabless
+designer. Product-class matches still do not prove exact grades, customer
+qualification or independent operational backups. Some records describe units
+within a common complex. The facility table flags company/city record counts;
+do not count every row as an independent backup factory.
 
 The discovery logs record follow-up queries for 101 then-uncovered nodes and 127
 then-uncovered vendor names. Search hits are leads, not automatically accepted
@@ -141,8 +150,16 @@ capacity and actual customer shipping lane.
 
 ```bash
 python3 code/build_full_supply_chain_evidence.py
+python3 code/build_research_handoff.py
 python3 code/test_public_research_integrity.py
 ```
+
+`node code/test_research_explorers.mjs` checks JavaScript syntax and data-driven
+interactions in the two standalone explorers with a DOM test double. This is not
+a rendered browser-layout test. Browser layout review could not be completed
+because in-app localhost access timed out and local Chrome attachment required
+an app network-policy update. The browser problem does not prevent database
+rebuilding or the automated data checks.
 
 The builder is deterministic given the checked-in raw datasets. To refresh new
 site proxies through public Nominatim, run

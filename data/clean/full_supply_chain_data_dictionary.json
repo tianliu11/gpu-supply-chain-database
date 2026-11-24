@@ -1,0 +1,14 @@
+{
+  "node_identifier": "Original submitted node id is preserved. Nodes include saleable materials, internal parts, categories and stages; not all represent independent procurement markets.",
+  "edge_direction": "source_node_id is an input/category member/process predecessor; target_node_id is its proposed dependent node. Check recommended_relationship and audit_note before applying AND/OR or transport semantics.",
+  "vendor_join": "nodes.id = vendors.full_graph_node_id = vendor_site_coverage.node_id; provider_id is an identifier, not a market rank.",
+  "site_join": "vendor_site_coverage.product_class_site_ids and other_company_site_ids reference facilities.facility_id. Semicolon-delimited IDs are lists; empty product scope is unallocated, not every vendor product.",
+  "hub_join": "nearby_hub_candidates.facility_id references facilities.facility_id; (facility_id,hub_type,proximity_rank) identifies a row. The same hub may appear for many factories.",
+  "source_join": "Every source_ids/ownership_source_ids value references sources.source_id. The source use/reliability and claim-specific note limit what the citation establishes.",
+  "coordinates": "Decimal degrees (WGS84-style latitude/longitude). coordinate_precision distinguishes inherited approximations and city/district proxies; no factory-gate precision is implied.",
+  "distance": "great_circle_distance_km is spherical great-circle distance in kilometres, Earth radius 6371.0088 km. It is not road/rail/seaway distance or duration.",
+  "manufacturing_times": "The full-node extension contains no observed manufacturing-time series. Older manufacturing_time_assumptions.csv describes a separate scenario, not newly verified durations.",
+  "missing_values": "Empty fields mean missing, not applicable or unestablished as explained by the status/note. Never convert missing duration, share or capacity into zero.",
+  "counts": "Nodes with vendor candidates measures presence of some capability evidence. Partial branches, internal-part capability and unqualified grades do not establish complete node coverage or independent redundancy.",
+  "views": "New HTML views use the full-node extension; older PNGs/unified_graph.json/transport statistics describe the legacy smaller model."
+}

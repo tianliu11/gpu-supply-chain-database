@@ -82,5 +82,31 @@ class ResearchIntegrity(unittest.TestCase):
         report=json.loads((ROOT/'data/clean/full_supply_chain_completion_report.json').read_text())
         self.assertEqual(report['factory_discovery_searches_logged'],len(log))
 
+    def test_curated_register_keys_and_site_scopes(self):
+        from additional_public_research import SOURCES,SITES,VENDORS,EDGE_EVIDENCE
+        import expanded_public_research
+        from geocode_public_production_sites import COUNTRY_CODES
+        raw=json.loads((ROOT/'data/raw/gpu_complete_node_to_node_supply_chain.json').read_text())
+        nodes={n['id'] for n in raw['nodes']}
+        edges={e['id'] for e in raw['edges']}
+        source_ids=[s['source_id'] for s in SOURCES]
+        self.assertEqual(len(source_ids),len(set(source_ids)))
+        self.assertEqual(len(SITES),len({s['facility_name'] for s in SITES}))
+        for s in SITES:
+            self.assertIn(s['country'],COUNTRY_CODES)
+            self.assertTrue(set(s['node_ids'].split())<=nodes,s)
+            self.assertTrue(set(s['source_ids'].split(';'))<=set(source_ids),s)
+        self.assertTrue(all(v['node_id'] in nodes for v in VENDORS))
+        self.assertTrue(all(e['edge_id'] in edges for e in EDGE_EVIDENCE))
+
+    def test_handoff_reconciles_with_current_export(self):
+        import hashlib
+        task=json.loads((ROOT/'data/clean/full_supply_chain_task_status.json').read_text())
+        original=ROOT/'data/raw/gpu_complete_node_to_node_supply_chain.json'
+        self.assertEqual(task['original_json_sha256'],hashlib.sha256(original.read_bytes()).hexdigest())
+        self.assertEqual(task['counts']['public_production_site_rows'],len(rows('full_supply_chain_facilities.csv')))
+        self.assertEqual(task['counts']['vendor_component_rows'],len(rows('full_supply_chain_vendors.csv')))
+        self.assertEqual(task['counts']['nearest_hub_rows'],len(rows('full_supply_chain_nearest_hubs.csv')))
+
 if __name__=='__main__':
     unittest.main()
