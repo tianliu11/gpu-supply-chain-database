@@ -7,31 +7,34 @@ There are also 23 placeholder/non-vendor rows. A row for a node is not proof of 
 
 COMPLETED IN THIS CONTINUATION
 1. Combined the batches with earlier scoped vendor evidence into merged/vendor_candidates.csv.
-   The 2,048 rows include original claims and placeholders; this is a research pool,
+   The 2,050 rows include original claims and placeholders; this is a research pool,
    not a final qualified shortlist of at most ten vendors per node.
 2. Created coverage records for all 289 nodes and explicit citation, site and edge queues.
-3. Recovered earlier or newly checked evidence for 23 initially uncited vendor rows.
+3. Recovered earlier or newly checked evidence for 25 initially uncited vendor rows.
    Some evidence supports only a material branch or product class, never an inherited rank.
 4. Checked source URL retrieval. 294 source rows retrieved, 106 HTTP errors,
    23 other request errors. Access failures are not proof of invalid evidence.
 5. Independently reviewed two TrendForce ranking sources; exact limits are in
    method/SOURCE_RECHECKS.json. Broad foundry/OSAT rankings do not establish GPU qualification.
 6. Added seven Hana Micron/Tongfu sites and eleven Admatechs, JPMC, Mosaic and
-   Isola production sites. The reviewed database contains 326 production records and
-   1,950 nearest-hub records. The Eshidiya mine is awaiting coordinates.
+   Isola production sites, followed by seven Kaiser, PhosAgro and Ma'aden sites.
+   The reviewed database contains 333 production records and 1,998 nearest-hub records.
+   Eshidiya uses the midpoint of a published mine-area bounding box.
 7. Added scoped chemical-process, laminate and substrate reviews. The cumulative
-   register has 115 researched original relationship claims.
+   register has 127 researched original relationship claims.
 8. Removed /home/claude-only dependencies from the saved helper scripts.
    hubs.py uses repository data and actual nearest-three ordering.
    geocode.py uses existing locality records; optional UN/LOCODE files can be
    supplied via GPU_GEODATA_DIR. Unresolved cities return None, not invented coordinates.
 9. Rebuilt the graph explorers and geographic hub map. Updated the three PNGs
    in figures/ from the same full-chain exports.
+10. Recorded the disclosed Al Jalamid to Ras Al Khair rail corridor for phosphate
+    concentrate. The filing identifies fertilizer end use and gives no transit time.
 
 REMAINING, NOT DECLARED IMPOSSIBLE
-- 124 candidate rows lack citations after reconciliation.
+- 122 candidate rows lack citations after reconciliation.
 - 1,493 cited candidate rows still require independent claim review.
-- Company naming/ownership normalization is incomplete. 986 normalized name keys
+- Company naming/ownership normalization is incomplete. 984 normalized name keys
   have no direct site match and require alias or facility research.
 - More production sites and product-to-plant assignments must be researched.
 - The remaining edge claims are listed in merged/edge_review_queue.csv.

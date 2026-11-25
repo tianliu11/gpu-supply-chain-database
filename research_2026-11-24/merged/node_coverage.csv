@@ -58,7 +58,7 @@ RAW-NATURAL-GRAPHITE,Natural Flake Graphite Ore,True,1,2,0,0,1
 RAW-NICKEL-ORE,Nickel Laterite / Sulfide Ore (Pentlandite),True,2,9,0,0,2
 RAW-PEGMATITE-QUARTZ,High-Purity Pegmatite Quartz Deposits,True,1,2,0,0,2
 RAW-PGM-ORE,"Platinum-Group Metal (PGM) Ore (Pd, Ru)",True,2,3,0,0,4
-RAW-PHOSPHATE-ROCK,Phosphate Rock (Fluorapatite),True,3,1,3,0,6
+RAW-PHOSPHATE-ROCK,Phosphate Rock (Fluorapatite),True,5,1,1,0,12
 RAW-POTASH-SYLVITE,Potash / Sylvite Ore,True,1,8,0,0,3
 RAW-QUARTZ,High-Purity Quartz & Silica Sand,True,1,2,2,0,2
 RAW-RARE-EARTH-ORE,"Bastnasite / Monazite Rare-Earth Ore (Nd, Pr, Dy, Y, Ce, La)",True,1,4,0,0,1
@@ -250,7 +250,7 @@ SC-SILICONE-MATRIX,Cross-Linked PDMS Silicone Elastomer Matrix,False,1,0,0,0,6
 SC-SPCC-SHEET,Cold-Rolled SPCC Low-Carbon Steel Sheet,False,1,0,0,0,0
 SC-AG-BRAZE,Silver-Copper-Phosphorus (BAg-8 / BCuP) Brazing Alloy,True,1,0,0,0,0
 SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,True,1,10,0,0,0
-SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,True,0,7,0,0,0
+SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,True,1,7,0,0,1
 SC-ALLOY-STEEL-WIRE,Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket,False,1,0,0,0,0
 SC-BEARING,Miniature Chrome-Steel Dual-Ball / Fluid-Dynamic Bearing,True,1,7,0,0,0
 SC-BOND-WIRE,Ultrafine Gold / Pd-Coated Copper Bonding Wire,True,2,0,3,0,11
@@ -281,7 +281,7 @@ SC-TVS-DIE,Fabricated Silicon TVS ESD Protection Diode Die,True,1,6,0,0,5
 SC-CU-TERMINAL,Tin-Plated Copper SMD Lead Terminals,True,0,5,0,0,4
 SC-CU-WICK,Atomized Spherical Copper Powder Capillary Wick,True,1,9,0,0,0
 SC-FAN-DRIVER-IC,Hall-Effect BLDC Fan Driver IC & Mini FR-4 Sub-Board,True,1,10,0,0,0
-SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,True,0,7,0,0,0
+SC-FBGA-SUB,Fine-Pitch BT-Resin / ABF FBGA Package Substrate,True,1,7,0,0,6
 SC-FERRITE-BODY,Sintered Ni-Zn Ferrite Core with Silver Internal Winding,True,0,10,0,0,4
 SC-MLCC-BODY,Sintered BaTiO3 Ceramic & Nickel Internal Electrode MLCC Chip,True,1,9,0,0,10
 SC-PHOSPHOR,YAG:Ce Wavelength-Conversion Phosphor Powder,True,1,0,5,0,1

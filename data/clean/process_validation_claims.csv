@@ -95,6 +95,18 @@ E0305,R6_TOHO_PROCESS,supported_material_class_use,Purified titanium is used in 
 E0104,R6_TOHO_PROCESS,supported_material_class_use,Purified titanium is used in semiconductor sputtering targets and thin-film deposition; ordinary titanium is not automatically target grade.
 E0175,R6_PUREON_PAD,supported_material_class_composition,Polyurethane and polyester felt occur in the documented SUBA pad family; not a universal two-layer recipe or proof of independently sold layers.
 E0176,R6_PUREON_PAD,supported_material_class_composition,Polyurethane and polyester felt occur in the documented SUBA pad family; not a universal two-layer recipe or proof of independently sold layers.
+E0318,R9_AL_SMELTING,supported_process_input,Alumina is a feedstock in primary aluminium smelting; metal grade is a separate allocation.
+E0320,R9_AL_SMELTING,needle_coke_grade_unverified,Petroleum coke is an upstream anode material. The cited process does not specify needle coke as required.
+E0254,R9_SILICA_SOL,supported_process_option_not_universal,Sodium silicate is an input to the documented silica-sol route.
+E0255,R9_SILICA_SOL,ion_exchange_resin_grade_unverified,The route uses ion exchange. The submitted resin chemistry requires separate confirmation.
+E0020,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers."
+E0021,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers."
+E0022,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers."
+E0025,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers."
+E0026,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers."
+E0027,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers."
+E0030,R9_ZOTAC_CARD,supported_optional_design_feature,The named card includes RGB lighting. Keep this as a model-dependent feature and do not infer a separate controller PCB.
+E0006,R9_ZOTAC_CARD,supported_component_family,The reference 5080 card uses GDDR7. GDDR6/GDDR6X descendants in the submitted graph represent a different configuration and cannot be inherited as its recipe.
 E0511,R8_ISOLA_FR4,supported_material_class_composition,Woven E-glass fabric is documented for this laminate/prepreg system. Chopped strands are a separate branch.
 E0538,R8_ISOLA_FR4,supported_material_class_composition,Woven E-glass fabric is documented for this laminate/prepreg system. Chopped strands are a separate branch.
 E0567,R8_ISOLA_FR4,supported_material_class_composition,The product uses an epoxy system. The submitted specific resin/hardener formulation remains open.

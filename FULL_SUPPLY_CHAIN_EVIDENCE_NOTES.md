@@ -103,8 +103,8 @@ it does not silently turn those proposals into an exact product BOM.
 
 ## Current research pass
 
-The extension contains 252 nodes with supplier-candidate evidence out of the 289
-submitted nodes, 408 supplier-to-node records, and 326 production-asset records.
+The extension contains 254 nodes with supplier-candidate evidence out of the 289
+submitted nodes, 412 supplier-to-node records, and 333 production-asset records.
 These are not completion percentages: category nodes, process stages, internal
 subcomponents and purchased materials have different evidence requirements.
 Supplier capability does not establish market coverage or a qualified substitute.
@@ -113,7 +113,7 @@ The second pass added 70 public production-asset records and 47 supplier-node
 records. A further gap pass added three previously unmapped material nodes
 (WC-Co hardmetal, silicone-coated PET liners and matte-tin bath chemistry),
 12 production-asset records, and one scoped PET-carrier relationship. Among
-the current 408 supplier-node records, 101 have an explicitly documented
+the current 412 supplier-node records, 105 have an explicitly documented
 product-class site match, 137 have company sites but unconfirmed product
 allocation, 169 lack a matched site in this package, and one is a fabless
 designer. Product-class matches still do not prove exact grades, customer
@@ -132,7 +132,7 @@ original edge has a reversible decision record. Remaining links are not all
 verified: process expansion, design alternatives and material recipes still
 require validation before redundancy or lead-time analysis.
 
-The cumulative process register researches 115 original relationship claims and adds 18
+The cumulative process register researches 127 original relationship claims and adds 18
 process/component nodes and 23 links, and separates wafer production, passive
 device families, mask technologies and several chemical intermediates. Six
 Murata capacitor production locations are added. Shinko aliases are merged to

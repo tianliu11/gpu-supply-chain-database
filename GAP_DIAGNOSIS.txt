@@ -4,7 +4,7 @@ Unresolved is not unavailable. This diagnostic distinguishes source access, prod
 
 The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.
 
-Unresolved supplier nodes: 37 (including categories, stages and utilities).
+Unresolved supplier nodes: 35 (including categories, stages and utilities).
 
 1 | Main PCB | definition_scoped_supplier_or_process_evidence_still_open
 Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.
@@ -122,10 +122,6 @@ SC-DI-WATER | Ultrapure Degassed Deionized Water Working Fluid | definition_scop
 Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-SC-AL-PLATE | Rolled Aluminum Alloy 5052 / 6061 Structural Plate | definition_scoped_supplier_or_process_evidence_still_open
-5052 and 6061 are alternative alloy specifications from the submitted node; the stock must also specify temper, thickness and tolerances. Thin backplates may use sheet rather than plate; the exact alloy-to-part recipe remains unverified.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
 SC-FE-POWDER-CORE | Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core | definition_scoped_supplier_or_process_evidence_still_open
 Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
@@ -136,10 +132,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 SC-CU-TERMINAL | Tin-Plated Copper SMD Lead Terminals | definition_scoped_supplier_or_process_evidence_still_open
 A discrete lead is different from a deposited end termination; dimensions and base alloy require a component drawing.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-SC-FBGA-SUB | Fine-Pitch BT-Resin / ABF FBGA Package Substrate | definition_scoped_supplier_or_process_evidence_still_open
-BT-based and ABF build-up systems are alternatives; select substrate technology from the actual memory package design.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 SC-FERRITE-BODY | Sintered Ni-Zn Ferrite Core with Silver Internal Winding | definition_scoped_supplier_or_process_evidence_still_open

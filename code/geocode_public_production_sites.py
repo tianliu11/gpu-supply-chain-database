@@ -17,7 +17,7 @@ from additional_public_research import SITES
 from build_full_supply_chain_evidence import research_site_id
 
 COUNTRY_CODES = {
- 'Mexico':'mx','Italy':'it','Switzerland':'ch','Hong Kong':'hk','Vietnam':'vn','Jordan':'jo',
+ 'Mexico':'mx','Italy':'it','Switzerland':'ch','Hong Kong':'hk','Vietnam':'vn','Jordan':'jo','Russia':'ru',
  'Philippines':'ph',
  'Japan':'jp',
  'Romania':'ro','Malaysia':'my','Ireland':'ie','United Kingdom':'gb',

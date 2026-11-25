@@ -7,7 +7,7 @@
     "DC-TIN-PLATE"
   ],
   "counts": {
-    "definition_scoped_supplier_or_process_evidence_still_open": 37
+    "definition_scoped_supplier_or_process_evidence_still_open": 35
   },
   "unresolved_nodes": [
     {
@@ -243,14 +243,6 @@
       "evidence_absence_claim": false
     },
     {
-      "node_id": "SC-AL-PLATE",
-      "node_name": "Rolled Aluminum Alloy 5052 / 6061 Structural Plate",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "5052 and 6061 are alternative alloy specifications from the submitted node; the stock must also specify temper, thickness and tolerances. Thin backplates may use sheet rather than plate; the exact alloy-to-part recipe remains unverified.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
       "node_id": "SC-FE-POWDER-CORE",
       "node_name": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
@@ -271,14 +263,6 @@
       "node_name": "Tin-Plated Copper SMD Lead Terminals",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "A discrete lead is different from a deposited end termination; dimensions and base alloy require a component drawing.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "SC-FBGA-SUB",
-      "node_name": "Fine-Pitch BT-Resin / ABF FBGA Package Substrate",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "BT-based and ABF build-up systems are alternatives; select substrate technology from the actual memory package design.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },

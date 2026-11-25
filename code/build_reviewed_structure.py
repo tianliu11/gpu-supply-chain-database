@@ -137,7 +137,8 @@ def main():
             node_id for node_id in canonical if node_id in nodes))))
     result = dict(metadata=meta, nodes=list(nodes.values()), edges=edges, sources=db['sources'],
         vendor_site_coverage=[dict(r, node_id=aliases.get(r.get('node_id'),r.get('node_id'))) for r in db['vendor_site_coverage']],
-        facilities=facilities, nearby_hub_candidates=db['nearby_hub_candidates'])
+        facilities=facilities, nearby_hub_candidates=db['nearby_hub_candidates'],
+        disclosed_freight_corridors=db.get('disclosed_freight_corridors', []))
     (CLEAN/'reviewed_supply_chain_structure.json').write_text(json.dumps(result,indent=2)+'\n')
     (CLEAN/'structure_review_summary.json').write_text(json.dumps(meta,indent=2)+'\n')
     lines = ['COMPONENT DEFINITIONS AND STRUCTURE REVIEW', '',

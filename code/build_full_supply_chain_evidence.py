@@ -609,6 +609,7 @@ def build_facility_table() -> list[dict]:
         row['site_independence_caveat']='Records in the same company/city may be units of one complex, duplicate disclosures or distinct plants; do not automatically count them as independent backup locations.'
     for row in rows:
         row.update(process_validation_research.SITE_UPDATES.get(row['facility_id'], {}))
+        row.update(claude_followup_research.SITE_UPDATES.get(row['facility_id'], {}))
     fields = list(rows[0]) + [x for x in ['operating_status','geocode_display_name'] if x not in rows[0]]
     write_csv(CLEAN / "full_supply_chain_facilities.csv", rows, fields)
     return rows
@@ -785,12 +786,19 @@ def export_enriched_data(graph, edges, vendors, facilities, hubs, site_coverage,
     vendor_by_node=defaultdict(list)
     for v in vendors:
         vendor_by_node[v['full_graph_node_id']].append(v)
+    site_ids = {site['facility_name']: site['facility_id'] for site in facilities}
+    disclosed_freight = [
+        dict(row, origin_facility_id=site_ids[row['origin']],
+             destination_facility_id=site_ids[row['destination']])
+        for row in claude_followup_research.DISCLOSED_FREIGHT
+    ]
     enriched={
         'metadata':{'reviewed_on':REVIEW_DATE,'original_graph_preserved':True,
                     'scope':'Public evidence extension; no confidential procurement or qualified-alternative claim',
                     'edge_audit_method':'Explicitly scoped evidence; broad keyword matches do not verify edges'},
         'nodes':[dict(n,vendor_candidates=vendor_by_node[str(n['id'])], component_definition=component_definition_research.DEFINITIONS.get(str(n['id']))) for n in graph['nodes']],
         'edges':edges,'facilities':facilities,'nearby_hub_candidates':hubs,
+        'disclosed_freight_corridors':disclosed_freight,
         'vendor_site_coverage':site_coverage,'modeling_issues':issues,
         'sources':read_csv(CLEAN/'sources.csv'),
     }

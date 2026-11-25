@@ -21,7 +21,7 @@
   "acyclic": true,
   "added_process_and_component_nodes": 18,
   "added_edges": 23,
-  "original_edge_claims_researched_this_pass": 115,
+  "original_edge_claims_researched_this_pass": 127,
   "selected_scope": "Representative CZ silicon-wafer route and substrate-based flip-chip logic packaging; not an exact branded GPU BOM",
   "original_sha256": "4abdf0cb2cffe3f5e296f2f0e9e7e9af8a47d3d0acf6ffa83bdc3188f3fe4881",
   "readiness": "Semantic review draft, NOT a verified full process or transport network",

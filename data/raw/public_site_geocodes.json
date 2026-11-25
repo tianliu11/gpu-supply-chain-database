@@ -2474,5 +2474,75 @@
     "osm_type": "relation",
     "osm_id": 194077,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Ridgeway%2C+South+Carolina%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:6df4a54ceae4": {
+    "query": "Spokane Valley, Washington, United States",
+    "latitude": 47.6571104,
+    "longitude": -117.2613936,
+    "display_name": "Spokane Valley, Spokane County, Washington, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 237598,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Spokane+Valley%2C+Washington%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:e7bcecd9908c": {
+    "query": "Hazm Al Jalamid, Saudi Arabia",
+    "latitude": 31.1803119,
+    "longitude": 39.9630101,
+    "display_name": "حزم الجلاميد, محافظة عرعر, منطقة الحدود الشمالية, السعودية",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 11871307165,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hazm+Al+Jalamid%2C+Saudi+Arabia&format=jsonv2&addressdetails=1&limit=1&countrycodes=sa"
+  },
+  "PUBLIC_SITE:b41372ea21dd": {
+    "query": "Turaif, Saudi Arabia",
+    "latitude": 31.6725877,
+    "longitude": 38.6615532,
+    "display_name": "طريف, محافظة طريف, منطقة الحدود الشمالية, السعودية",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 1236745370,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Turaif%2C+Saudi+Arabia&format=jsonv2&addressdetails=1&limit=1&countrycodes=sa"
+  },
+  "PUBLIC_SITE:aaccaa6b47cf": {
+    "query": "Ras Al Khair, Saudi Arabia",
+    "latitude": 27.472778,
+    "longitude": 49.301111,
+    "display_name": "رأس الخير, محطة راس الخير الاذاعية, محافظة الجبيل, المنطقة الشرقية, السعودية",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 1237806545,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Ras+Al+Khair%2C+Saudi+Arabia&format=jsonv2&addressdetails=1&limit=1&countrycodes=sa"
+  },
+  "PUBLIC_SITE:349e59fa8447": {
+    "query": "Kirovsk, Murmansk Oblast, Russia",
+    "latitude": 67.6151331,
+    "longitude": 33.6637527,
+    "display_name": "Кировск, муниципальный округ Кировск, Мурманская область, Северо-Западный федеральный округ, Россия",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6940884,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kirovsk%2C+Murmansk+Oblast%2C+Russia&format=jsonv2&addressdetails=1&limit=1&countrycodes=ru"
+  },
+  "PUBLIC_SITE:2f0c54c1faa2": {
+    "query": "Kirovsk, Murmansk Oblast, Russia",
+    "latitude": 67.6151331,
+    "longitude": 33.6637527,
+    "display_name": "Кировск, муниципальный округ Кировск, Мурманская область, Северо-Западный федеральный округ, Россия",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6940884,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kirovsk%2C+Murmansk+Oblast%2C+Russia&format=jsonv2&addressdetails=1&limit=1&countrycodes=ru"
+  },
+  "PUBLIC_SITE:705932353a07": {
+    "query": "Kirovsk, Murmansk Oblast, Russia",
+    "latitude": 67.6151331,
+    "longitude": 33.6637527,
+    "display_name": "Кировск, муниципальный округ Кировск, Мурманская область, Северо-Западный федеральный округ, Россия",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6940884,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kirovsk%2C+Murmansk+Oblast%2C+Russia&format=jsonv2&addressdetails=1&limit=1&countrycodes=ru"
   }
 }

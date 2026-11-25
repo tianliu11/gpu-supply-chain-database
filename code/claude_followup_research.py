@@ -1,6 +1,9 @@
 """Independently inspected evidence extending the supplied Claude batches."""
 from additional_public_research import source, vendor, site, edge as register_edge
 
+SITE_UPDATES = {}
+DISCLOSED_FREIGHT = []
+
 CLAIMS=[]
 def edge(ids,sid,status,note):
     register_edge(ids,sid,status,note)
@@ -42,6 +45,78 @@ s=source('R7_KENMARE_ZIRCON','Kenmare Resources','Moma mineral sands mine and se
  'https://www.kenmareresources.com/our-business/the-moma-mine/',
  'Mineral separation produces zircon alongside ilmenite and rutile. No semiconductor-grade zirconia or customer allocation inferred.')
 vendor('Kenmare Resources',s,'RAW-ZIRCON','Moma mineral-sands zircon product, not downstream purified zirconia')
+
+s=source('R9_AL_SMELTING','Australian Aluminium Council','Aluminium smelting',
+ 'https://aluminium.org.au/about-aluminium/how-aluminium-is-made/aluminium-smelting/',
+ 'Documents the alumina-to-primary-aluminium process and carbon anodes made with petroleum coke and pitch.')
+edge('E0318',s,'supported_process_input','Alumina is a feedstock in primary aluminium smelting; metal grade is a separate allocation.')
+edge('E0320',s,'needle_coke_grade_unverified','Petroleum coke is an upstream anode material. The cited process does not specify needle coke as required.')
+s=source('R9_SILICA_SOL','United States patent US3647709A','Production of silica gels',
+ 'https://patents.google.com/patent/US3647709A/en','Documents a sodium-silicate and ion-exchange route to silica sol.')
+edge('E0254',s,'supported_process_option_not_universal','Sodium silicate is an input to the documented silica-sol route.')
+edge('E0255',s,'ion_exchange_resin_grade_unverified','The route uses ion exchange. The submitted resin chemistry requires separate confirmation.')
+
+s=source('R9_SHINKO_MEMORY','Shinko Electric Industries','Organic BGA substrate lineup',
+ 'https://www.shinko.co.jp/english/product/docs/substrate_EN.pdf',
+ 'Lists organic prepreg BGA substrates for memory and logic. The material grade and selected memory part remain open.')
+vendor('Shinko Electric Industries',s,'SC-FBGA-SUB','Memory BGA substrate class; specified BT/ABF material and GPU application remain open')
+t=source('R9_SHINKO_ARAI','Shinko Electric Industries','Memory substrate investment at Arai',
+ 'https://www.shinko.co.jp/english/news/docs/20220729_02_e.pdf',
+ 'The company identifies Arai as the site of a plastic BGA substrate capacity expansion for memory.')
+SITE_UPDATES['PUBLIC_SITE:81f6b00aa0fa'] = dict(component_categories='SC-FBGA-SUB',
+    source_ids='R9_SHINKO_MEMORY;R9_SHINKO_ARAI;R_OSM_GEOCODE',
+    product_assignment='Company identifies Arai for memory PBGA expansion. Exact substrate grade and completed expansion volume are open.')
+s=source('R9_KAISER_6061','Kaiser Aluminum','6061 sheet, coil and plate specification',
+ 'https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1015/Kaiser_Aluminum_6061_Sheet_Coil_and_Plate.pdf',
+ 'Documents a 6061 rolled stock product.')
+vendor('Kaiser Aluminum',s,'SC-AL-PLATE','6061 rolled plate branch; 5052 and GPU backplate drawing are separate.')
+t=source('R9_KAISER_TRENTWOOD','Kaiser Aluminum','Trentwood sheet and plate portfolio',
+ 'https://www.kaiseraluminum.com/end-markets/aerospace-and-high-strength/',
+ 'The Trentwood catalogue lists 6061 in its plate range.')
+site('Kaiser Trentwood Works','Kaiser Aluminum','United States','Spokane Valley, Washington',
+     'Trentwood rolled-products plant',s+';'+t,'SC-AL-PLATE')
+
+s=source('R9_MAADEN','Ma’aden','2024 annual report: phosphate mining and processing',
+ 'https://axvpvthrjz64.compat.objectstorage.me-jeddah-1.oraclecloud.com/maaden-website-assets/reports/bod-reports/2024-bod-report-en.pdf',
+ 'Identifies Al Jalamid and Al Khabra phosphate operations and rail movement to Ras Al Khair.')
+vendor("Ma'aden",s,'RAW-PHOSPHATE-ROCK','Commercial phosphate rock mining and beneficiation')
+site('Maaden Al Jalamid phosphate operation',"Ma'aden",'Saudi Arabia','Hazm Al Jalamid',
+     'Al Jalamid mine and beneficiation complex',s,'RAW-PHOSPHATE-ROCK')
+site('Maaden Al Khabra phosphate mine',"Ma'aden",'Saudi Arabia','Turaif',
+     'Al Khabra mine in the Umm Wual area; Turaif vicinity',s,'RAW-PHOSPHATE-ROCK')
+site('Maaden Ras Al Khair phosphate fertilizer complex',"Ma'aden",'Saudi Arabia','Ras Al Khair',
+     'Ras Al Khair industrial city',s,'')
+DISCLOSED_FREIGHT.append(dict(origin='Maaden Al Jalamid phosphate operation',
+    destination='Maaden Ras Al Khair phosphate fertilizer complex',mode='rail',
+    commodity='Phosphate concentrate for fertilizer production',source_ids=s,
+    evidence='Company-reported freight corridor', transit_time_days=None,
+    gpu_procurement_established=False))
+s=source('R9_PHOSAGRO','PhosAgro','2025 integrated report: apatite mining and phosphate-rock production',
+ 'https://ar2025.phosagro.com/en/strategic-report/strategy/',
+ 'Lists operating ore-base projects and 2025 phosphate rock output for Apatit.')
+vendor('PhosAgro',s,'RAW-PHOSPHATE-ROCK','Phosphate rock produced by mining and beneficiation at Apatit')
+for mine in ('Kirovsky','Rasvumchorrsky','Vostochny'):
+    site('Apatit '+mine+' mine','PhosAgro','Russia','Kirovsk, Murmansk Oblast',
+         mine+' mine, Khibiny district',s,'RAW-PHOSPHATE-ROCK',
+         operating_status='reported_mining_operation;regional_coordinate_proxy')
+s=source('R9_ESHIDIYA_BOUNDS','Atmospheric Environment','Study of chemical composition in wet atmospheric precipitation in Eshidiya area, Jordan',
+ 'https://www.sciencedirect.com/science/article/abs/pii/S1352231005005819',
+ 'The published abstract reports a latitude and longitude bounding box for the phosphate mine area.')
+SITE_UPDATES['PUBLIC_SITE:d55392fb8565'] = dict(
+    latitude=29.892778, longitude=36.21875,
+    coordinate_precision='published_mining_area_bounds_midpoint_not_gate',
+    geocode_display_name='Eshidiya mine area, southern Jordan',
+    source_ids='R8_JPMC;'+s)
+
+s=source('R9_ZOTAC_CARD','Zotac','RTX 5080 AMP Extreme Infinity product specification',
+ 'https://www.zotac.com/us/us-store/product/graphics_card/zotac-gaming-geforce-rtx-5080-amp-extreme-infinity',
+ 'Provides board-level display outputs, auxiliary power, lighting, PCIe interface, cooler and backplate for this configuration.')
+edge('E0020 E0021 E0022 E0025 E0026 E0027',s,'supported_component_family',
+ 'One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers.')
+edge('E0030',s,'supported_optional_design_feature',
+ 'The named card includes RGB lighting. Keep this as a model-dependent feature and do not infer a separate controller PCB.')
+edge('E0006',s,'supported_component_family',
+ 'The reference 5080 card uses GDDR7. GDDR6/GDDR6X descendants in the submitted graph represent a different configuration and cannot be inherited as its recipe.')
 
 s=source('R8_ADMAFUSE','Admatechs','ADMAFUSE spherical silica',
  'https://www.admatechs.co.jp/en/product-admafuse.html',

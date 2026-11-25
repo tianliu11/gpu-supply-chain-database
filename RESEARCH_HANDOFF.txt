@@ -3,7 +3,7 @@ Review date: 2026-11-24
 
 Scope: best-effort public evidence extension of the supplied JSON, not a confidential NVIDIA procurement reconstruction.
 
-Nodes: 289; proposed connections: 757; nodes with supplier candidates: 252; supplier-node records: 408; public production-asset records: 326; nearest-hub records: 1950.
+Nodes: 289; proposed connections: 757; nodes with supplier candidates: 254; supplier-node records: 412; public production-asset records: 333; nearest-hub records: 1998.
 
 TASK STATUS
 
@@ -14,16 +14,16 @@ PARTIAL: Verify every material/input relationship
 Specific supporting sources and conflicts documented; unresolved edge statuses remain in the audit CSV.
 
 PARTIAL: Find suppliers for every component/material
-252 of 289 nodes have candidate evidence; categories/process stages do not all need independent vendors.
+254 of 289 nodes have candidate evidence; categories/process stages do not all need independent vendors.
 
 PARTIAL: Identify up to ten industry-leading suppliers per input
 At most ten suppliers retained per node. Product capability is cited; comparable top-ten market rankings are generally not established.
 
 PARTIAL: Find all manufacturing sites for selected vendors
-326 public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial.
+333 public production-asset records; office/R&D-only sites excluded. Global footprint completeness and exact product-grade allocation remain partial.
 
 GEOGRAPHIC_SCREENING_DONE_CARGO_VALIDATION_PENDING: Nearest one to three commercial airports and ports
-1950 nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified.
+1998 nearest-hub records; up to three of each type per geocoded asset. Cargo suitability and operational access are not verified.
 
 DONE: Clean database, sources and reproducible code
 CSV tables, consolidated JSON, raw inputs, source register, geocode cache, research logs and integrity tests included.

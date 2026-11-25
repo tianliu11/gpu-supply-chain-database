@@ -4,7 +4,7 @@ E0002,1.1,1,1.1,1,True,dependency_or_ancestry_requires_process_review,Retained a
 E0003,1.2,1,1.2,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0004,1.2.1,1.2,LD:logic_die_fabricated,1.2,True,physical_constituent_not_additional_process,Descriptive package constituent; do not add another manufacture or packaging duration.,SRC_BOMWIKI_GPU
 E0005,1.2.2,1.2,1.2.2,1.2,True,physical_constituent_not_additional_process,Descriptive package constituent; do not add another manufacture or packaging duration.,SRC_BOMWIKI_GPU
-E0006,1.3,1,1.3,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
+E0006,1.3,1,1.3,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
 E0007,1.4,1,1.4,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0008,1.4.1,1.4,1.4.1,1.4,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0009,1.4.2,1.4,1.4.2,1.4,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
@@ -18,17 +18,17 @@ E0016,2.3,2,2.3,2,True,dependency_or_ancestry_requires_process_review,Retained a
 E0017,2.4,2,2.4,2,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0018,2.5,2,2.5,2,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0019,2.6,2,2.6,2,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0020,3,0,3,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0021,4,0,4,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0022,5,0,5,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
+E0020,3,0,3,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
+E0021,4,0,4,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
+E0022,5,0,5,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
 E0023,5.1,5,5.1,5,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0024,5.2,5,5.2,5,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0025,6,0,6,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0026,6.1,6,6.1,6,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0027,6.2,6,6.2,6,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
+E0025,6,0,6,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
+E0026,6.1,6,6.1,6,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
+E0027,6.2,6,6.2,6,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
 E0028,6.3,6,6.3,6,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0029,7,0,7,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0030,8,0,8,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
+E0030,8,0,8,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
 E0031,8.1,8,8.1,8,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0032,8.2,8,8.2,8,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0033,8.2.1,8.2,8.2.1,8.2,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
@@ -252,8 +252,8 @@ E0250,LD:silicon_carbide_grit,LD:sic_lapping_slurry,LD:silicon_carbide_grit,LD:s
 E0251,LD:deionized_water_coolant,LD:sic_lapping_slurry,LD:deionized_water_coolant,LD:sic_lapping_slurry,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0252,RAW-BAUXITE,LD:alumina,RAW-BAUXITE,LD:alumina,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R7_ALUMINA
 E0253,LD:sodium_hydroxide,LD:alumina,LD:sodium_hydroxide,LD:alumina,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R7_ALUMINA
-E0254,LD:sodium_silicate,LD:colloidal_silica,LD:sodium_silicate,LD:colloidal_silica,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
-E0255,LD:ion_exchange_resins,LD:colloidal_silica,LD:ion_exchange_resins,LD:colloidal_silica,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
+E0254,LD:sodium_silicate,LD:colloidal_silica,LD:sodium_silicate,LD:colloidal_silica,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_SILICA_SOL
+E0255,LD:ion_exchange_resins,LD:colloidal_silica,LD:ion_exchange_resins,LD:colloidal_silica,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_SILICA_SOL
 E0256,RAW-QUARTZ,LD:sodium_silicate,RAW-QUARTZ,LD:sodium_silicate,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R_PQ_SILICATE
 E0257,LD:soda_ash,LD:sodium_silicate,LD:soda_ash,LD:sodium_silicate,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R_PQ_SILICATE
 E0258,RAW-TRONA-SODA-ASH,LD:soda_ash,RAW-TRONA-SODA-ASH,LD:soda_ash,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
@@ -316,9 +316,9 @@ E0314,RAW-ILMENITE,LD:titanium_tetrachloride,RAW-ILMENITE,LD:titanium_tetrachlor
 E0315,LD:chlorine,LD:titanium_tetrachloride,LD:chlorine,LD:titanium_tetrachloride,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R6_TOHO_PROCESS
 E0316,RAW-COAL-CARBON,LD:titanium_tetrachloride,RAW-COAL-CARBON,LD:titanium_tetrachloride,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0317,RAW-DOLOMITE-MAGNESITE,LD:magnesium_metal,RAW-DOLOMITE-MAGNESITE,LD:magnesium_metal,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
-E0318,LD:alumina,LD:aluminum,LD:alumina,LD:aluminum,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
+E0318,LD:alumina,LD:aluminum,LD:alumina,LD:aluminum,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_AL_SMELTING
 E0319,RAW-FLUORSPAR,LD:aluminum,RAW-FLUORSPAR,LD:aluminum,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
-E0320,LD:petroleum_needle_coke,LD:aluminum,LD:petroleum_needle_coke,LD:aluminum,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
+E0320,LD:petroleum_needle_coke,LD:aluminum,LD:petroleum_needle_coke,LD:aluminum,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_AL_SMELTING
 E0321,LD:potassium_heptafluorotantalate,LD:tantalum,LD:potassium_heptafluorotantalate,LD:tantalum,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0322,LD:sodium_metal,LD:tantalum,LD:sodium_metal,LD:tantalum,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0323,RAW-TANTALITE-COLTAN,LD:potassium_heptafluorotantalate,RAW-TANTALITE-COLTAN,LD:potassium_heptafluorotantalate,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
