@@ -138,7 +138,9 @@ def main():
     result = dict(metadata=meta, nodes=list(nodes.values()), edges=edges, sources=db['sources'],
         vendor_site_coverage=[dict(r, node_id=aliases.get(r.get('node_id'),r.get('node_id'))) for r in db['vendor_site_coverage']],
         facilities=facilities, nearby_hub_candidates=db['nearby_hub_candidates'],
-        disclosed_freight_corridors=db.get('disclosed_freight_corridors', []))
+        disclosed_freight_corridors=db.get('disclosed_freight_corridors', []),
+        lead_time_disclosures=db.get('lead_time_disclosures', []),
+        reference_supply_qualification=db.get('reference_supply_qualification', []))
     (CLEAN/'reviewed_supply_chain_structure.json').write_text(json.dumps(result,indent=2)+'\n')
     (CLEAN/'structure_review_summary.json').write_text(json.dumps(meta,indent=2)+'\n')
     lines = ['COMPONENT DEFINITIONS AND STRUCTURE REVIEW', '',

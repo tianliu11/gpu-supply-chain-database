@@ -3,8 +3,8 @@
   "graph_nodes": 289,
   "graph_edges": 757,
   "edge_evidence_status": {
-    "secondary_structure_reference": 27,
-    "supported_component_family": 15,
+    "secondary_structure_reference": 26,
+    "supported_component_family": 16,
     "supported_optional_design_feature": 1,
     "semantic_conflict": 1,
     "supported_process_stage": 5,
@@ -33,23 +33,23 @@
     "supported_packaging_option_not_part_specific": 18,
     "optional_or_design_dependent": 1
   },
-  "nodes_with_node_specific_vendor_evidence": 254,
-  "nodes_without_node_specific_vendor_evidence": 35,
-  "vendor_component_rows": 412,
-  "distinct_named_vendors": 219,
+  "nodes_with_node_specific_vendor_evidence": 260,
+  "nodes_without_node_specific_vendor_evidence": 29,
+  "vendor_component_rows": 424,
+  "distinct_named_vendors": 227,
   "procurement_node_treatments": {
     "supplier_research_required": 274,
     "local_resource_or_utility": 2,
     "process_stage_no_material_vendor": 4,
     "category_expand_children": 9
   },
-  "physical_nodes_with_supplier_evidence": 245,
+  "physical_nodes_with_supplier_evidence": 249,
   "physical_nodes_requiring_supplier_research": 274,
   "coverage_warning": "A supplier listing is capability evidence, not proof of qualification, complete material branches, market representativeness or actual procurement.",
   "public_production_site_rows": 333,
   "vendor_site_coverage_status": {
-    "no_site_evidence_in_current_package": 169,
-    "company_sites_only_product_allocation_unverified": 137,
+    "no_site_evidence_in_current_package": 180,
+    "company_sites_only_product_allocation_unverified": 138,
     "fabless_designer_no_owned_fab_required": 1,
     "product_class_site_documented": 105
   },

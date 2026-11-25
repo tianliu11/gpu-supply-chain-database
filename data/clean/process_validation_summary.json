@@ -1,5 +1,5 @@
 {
-  "original_claims_researched": 127,
+  "original_claims_researched": 128,
   "claim_outcomes": {
     "supported_process_input": 19,
     "supported_upstream_process_not_direct_input": 20,
@@ -8,7 +8,7 @@
     "upstream_lineage_requires_process_evidence": 2,
     "supported_consumable_use": 2,
     "supported_category_membership": 5,
-    "supported_component_family": 15,
+    "supported_component_family": 16,
     "supported_process_stage": 1,
     "supported_material_class_composition": 20,
     "supported_packaging_option_not_part_specific": 18,
@@ -25,8 +25,8 @@
   "additional_links": 23,
   "original_links_excluded": 8,
   "original_audit_status_counts": {
-    "secondary_structure_reference": 27,
-    "supported_component_family": 15,
+    "secondary_structure_reference": 26,
+    "supported_component_family": 16,
     "supported_optional_design_feature": 1,
     "semantic_conflict": 1,
     "supported_process_stage": 5,

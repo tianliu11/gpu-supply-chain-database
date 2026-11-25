@@ -4,10 +4,11 @@
   "newly_supplier_mapped_nodes": [
     "PM-WC-COBALT",
     "DC-PET-LINER",
-    "DC-TIN-PLATE"
+    "DC-TIN-PLATE",
+    "PM-ACRYLIC-PU"
   ],
   "counts": {
-    "definition_scoped_supplier_or_process_evidence_still_open": 35
+    "definition_scoped_supplier_or_process_evidence_still_open": 29
   },
   "unresolved_nodes": [
     {
@@ -15,14 +16,6 @@
       "node_name": "Main PCB",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "1.2",
-      "node_name": "GPU Package",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
@@ -55,14 +48,6 @@
       "node_name": "PCIe Edge Connector",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Allocate manufacture to PCB/contact finishing; do not count a motherboard socket as the card part.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "5",
-      "node_name": "Auxiliary Power Connector",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Choose board-side scope; cable and PSU are outside this node. 12V-2x6 is an option, not a verified part assignment.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
@@ -119,22 +104,6 @@
       "node_name": "Freshwater",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Utility/source connection is site-dependent; do not interpret it as globally interchangeable shipped UPW.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "LD:finished_logic_die",
-      "node_name": "Finished logic die",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "LD:fabrication",
-      "node_name": "Fabrication",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Manufacturing site/operator belongs to this process; a bare die additionally requires wafer test and separation.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
@@ -211,14 +180,6 @@
       "evidence_absence_claim": false
     },
     {
-      "node_id": "PM-ACRYLIC-PU",
-      "node_name": "Acrylic-Polyurethane Protective Coating & Ink Resin",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Separate coating resin, photoresist binder, pressure-sensitive adhesive and interlaminar varnish. Their formulations are not interchangeable.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
       "node_id": "DC-ANODIZE-CHEM",
       "node_name": "Disposable Sulfuric Acid Anodizing Bath & Black Dye",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
@@ -239,14 +200,6 @@
       "node_name": "Ultrapure Degassed Deionized Water Working Fluid",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "SC-FE-POWDER-CORE",
-      "node_name": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
@@ -298,13 +251,6 @@
       "url": "https://mds.umicore.com/en/electroplating/products/product-finder/potassium-gold-cyanide-68-2",
       "status": "official_indexed_lead_full_page_and_datasheet_fetch_failed_HTTP_402",
       "caveat": "68.2% gold content of a salt is not 99.99% elemental-gold purity; combined node needs branch separation."
-    },
-    {
-      "node_id": "PM-ACRYLIC-PU",
-      "supplier": "Covestro",
-      "url": "https://www.covestro.com/en/product-technology/waterborne-coatings-and-paint",
-      "status": "official_indexed_lead_full_page_fetch_failed_HTTP_403",
-      "caveat": "PU/polyacrylate resin family is not a fully verified electronics coating or photoresist recipe."
     }
   ],
   "rejected_automatic_matches": [

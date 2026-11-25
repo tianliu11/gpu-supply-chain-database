@@ -2,7 +2,7 @@ node_id,node_name,claude_batch_present,prior_capability_rows,cited_rows_pending_
 0,Graphics Card (GPU),True,1,5,0,0,0
 1,Main PCB,True,0,6,0,0,0
 1.1,Bare PCB,True,2,10,0,0,20
-1.2,GPU Package,True,0,6,0,0,5
+1.2,GPU Package,True,1,5,0,0,5
 1.2.1,GPU Die,True,2,2,0,0,4
 1.2.2,Package Substrate,True,2,6,0,0,8
 1.3,GDDR Memory Package,True,3,1,0,0,3
@@ -21,7 +21,7 @@ node_id,node_name,claude_batch_present,prior_capability_rows,cited_rows_pending_
 2.6,Fastener Set,True,1,0,0,1,0
 3,Backplate,True,0,0,0,1,0
 4,PCIe Edge Connector,True,0,9,0,0,0
-5,Auxiliary Power Connector,True,0,2,0,0,0
+5,Auxiliary Power Connector,True,1,1,0,0,0
 5.1,Connector,True,1,4,0,0,0
 5.2,Power Sense Pin,True,1,1,0,0,0
 6,Display Output Cluster,True,0,5,0,0,0
@@ -30,10 +30,10 @@ node_id,node_name,claude_batch_present,prior_capability_rows,cited_rows_pending_
 6.3,Output ESD Array,True,1,9,0,0,5
 7,Cooler Shroud,True,0,0,0,1,0
 8,RGB / LED Lighting,True,0,0,5,0,0
-8.1,RGB LED,True,1,0,7,0,0
+8.1,RGB LED,True,2,0,6,0,0
 8.2,RGB Controller,True,0,0,5,0,0
 8.2.1,Bare PCB,True,2,10,0,0,20
-8.2.2,Microcontroller,True,1,0,7,0,0
+8.2.2,Microcontroller,True,6,0,2,0,0
 8.2.3,SMD Passive (R/C/L),True,1,10,0,0,10
 RAW-AIR,"Atmospheric Air (N2, O2, Ar, Ne, Kr)",True,0,0,0,1,0
 RAW-ARSENOPYRITE,Arsenopyrite Arsenic-Bearing Sulfide Ore,True,0,0,0,1,0
@@ -71,10 +71,10 @@ RAW-TRONA-SODA-ASH,Trona Mineral (Natural Soda Ash),True,1,4,1,0,0
 RAW-TUNGSTEN-ORE,Wolframite / Scheelite Tungsten Ore,True,1,2,0,0,1
 RAW-WATER,Freshwater,True,0,0,0,1,0
 RAW-ZIRCON,Zircon Sand,True,2,3,0,0,4
-LD:finished_logic_die,Finished logic die,True,0,3,0,0,0
+LD:finished_logic_die,Finished logic die,True,1,3,0,0,0
 LD:assembly_packaging_testing,"Assembly, packaging, and testing",True,2,8,0,0,7
 LD:logic_die_fabricated,"Logic die (fabricated, before ATP)",True,1,4,0,0,4
-LD:fabrication,Fabrication,True,0,10,0,0,4
+LD:fabrication,Fabrication,True,1,9,0,0,4
 LD:packaging_materials,Packaging materials,True,0,10,0,0,18
 LD:substrates,Substrates,True,7,7,0,0,7
 LD:cmp_materials,CMP materials,True,10,9,0,0,6
@@ -190,7 +190,7 @@ LD:tungsten_metal_powder,High-purity tungsten powder,True,1,1,0,0,1
 LD:potassium_heptafluorotantalate,Potassium heptafluorotantalate (K2TaF7),True,1,1,0,0,0
 LD:titanium_tetrachloride,Titanium tetrachloride,True,1,4,0,0,2
 LD:ultra_high_purity_metals,"Zone-refined 5N-6N metal ingots (Al, Cu, Ta, Ti, Co, W)",True,1,3,0,0,5
-PM-ACRYLIC-PU,Acrylic-Polyurethane Protective Coating & Ink Resin,True,0,5,0,0,0
+PM-ACRYLIC-PU,Acrylic-Polyurethane Protective Coating & Ink Resin,True,1,4,0,0,0
 PM-CARBON-STEEL,BOF Carbon & Alloy Steel Billet,True,1,9,0,0,0
 PM-E-GLASS,Woven E-Glass Fiberglass Cloth & Chopped Strands,True,1,2,4,0,1
 PM-FAB-CHEM,"Semiconductor Lithography Resists, Etch Gases & CMP Slurries",True,1,8,0,0,6
@@ -261,7 +261,7 @@ SC-CU-LEADFRAME,Stamped C19400 Copper-Alloy IC Leadframe & Power Clip,True,1,2,2
 SC-DIE-ATTACH,Silver-Filled Conductive Epoxy Die-Attach Adhesive,True,2,0,2,0,2
 SC-DRAM-DIE,Fabricated GDDR6 / GDDR6X DRAM Silicon Die,True,1,3,0,0,3
 SC-EMC,Silica-Filled Epoxy Mold Compound (EMC),True,1,1,0,0,2
-SC-FE-POWDER-CORE,Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core,True,0,8,0,0,4
+SC-FE-POWDER-CORE,Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core,True,1,8,0,0,4
 SC-LCP-GF,Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator,True,1,0,5,0,0
 SC-LED-DIE,Epitaxial InGaN (Blue/Green) & AlInGaP (Red) LED Semiconductor Chips,True,1,0,6,0,7
 SC-LEGEND,Epoxy Silkscreen Component Legend Ink,True,1,5,0,0,0

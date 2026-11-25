@@ -148,7 +148,30 @@
       "bom_layer": 2,
       "qty_per_assy": 1,
       "ext_qty": 1,
-      "vendor_candidates": [],
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "1.2",
+          "full_graph_node_name": "GPU Package",
+          "provider_id": "PUBLIC:d85f1cbc60f1",
+          "provider_name": "Amkor Technology",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_AMKOR_GRAPHICS",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Flip-chip graphics package assembly capability; specific GPU award, factory and qualification unverified",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Amkor Technology",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
       "component_definition": {
         "node_id": "1.2",
         "preferred_name": "Packaged and tested GPU device",
@@ -1003,7 +1026,30 @@
       "bom_layer": 1,
       "qty_per_assy": 2,
       "ext_qty": 2,
-      "vendor_candidates": [],
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "5",
+          "full_graph_node_name": "Auxiliary Power Connector",
+          "provider_id": "PUBLIC:f839bd2a2788",
+          "provider_name": "Amphenol",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_AMPHENOL_POWER",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "12V-2x6 auxiliary power connector family; GPU model allocation unverified",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Amphenol",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
       "component_definition": {
         "node_id": "5",
         "preferred_name": "Board-side auxiliary power connector assembly",
@@ -1311,6 +1357,28 @@
           "corporate_group_status": "not_independently_reviewed",
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
+        },
+        {
+          "full_graph_node_id": "8.1",
+          "full_graph_node_name": "RGB LED",
+          "provider_id": "PUBLIC:c5fd063e8c9d",
+          "provider_name": "Nichia",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_NICHIA",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Commercial packaged RGB LED; card-level qualification unverified",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Nichia",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
         }
       ],
       "component_definition": null
@@ -1415,6 +1483,50 @@
         {
           "full_graph_node_id": "8.2.2",
           "full_graph_node_name": "Microcontroller",
+          "provider_id": "PUBLIC:56113db580f7",
+          "provider_name": "Microchip Technology",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_MICROCHIP_MCU",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Packaged Cortex-M MCU product class; RGB firmware, pinout, selected part and GPU qualification remain open",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Microchip Technology",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        },
+        {
+          "full_graph_node_id": "8.2.2",
+          "full_graph_node_name": "Microcontroller",
+          "provider_id": "PUBLIC:957870226159",
+          "provider_name": "NXP Semiconductors",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_NXP_MCU",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Packaged Cortex-M MCU product class; RGB firmware, pinout, selected part and GPU qualification remain open",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "NXP Semiconductors",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        },
+        {
+          "full_graph_node_id": "8.2.2",
+          "full_graph_node_name": "Microcontroller",
           "provider_id": "BOM_PROVIDER:013",
           "provider_name": "Nuvoton",
           "provider_role": "microcontroller",
@@ -1430,6 +1542,72 @@
           "qualification_status": "grade_and_customer_qualification_unverified",
           "reviewed_on": "",
           "corporate_group": "Nuvoton",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        },
+        {
+          "full_graph_node_id": "8.2.2",
+          "full_graph_node_name": "Microcontroller",
+          "provider_id": "PUBLIC:5ccc444fa81a",
+          "provider_name": "Nuvoton Technology",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_NUVOTON_MCU",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Packaged Cortex-M MCU product class; RGB firmware, pinout, selected part and GPU qualification remain open",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Nuvoton Technology",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        },
+        {
+          "full_graph_node_id": "8.2.2",
+          "full_graph_node_name": "Microcontroller",
+          "provider_id": "PUBLIC:48efbbf01694",
+          "provider_name": "Renesas Electronics",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_RENESAS_MCU",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Packaged Cortex-M MCU product class; RGB firmware, pinout, selected part and GPU qualification remain open",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Renesas Electronics",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        },
+        {
+          "full_graph_node_id": "8.2.2",
+          "full_graph_node_name": "Microcontroller",
+          "provider_id": "PUBLIC:c6e8baca12b9",
+          "provider_name": "STMicroelectronics",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_ST_MCU",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Packaged Cortex-M MCU product class; RGB firmware, pinout, selected part and GPU qualification remain open",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "STMicroelectronics",
           "corporate_group_status": "not_independently_reviewed",
           "ownership_source_ids": "",
           "independent_leadership_rank_status": "not_established"
@@ -3168,7 +3346,30 @@
       "out_degree": 1,
       "domain_category": "Top-Level Assembly",
       "description": "Preserves workbook label post-ATP.",
-      "vendor_candidates": [],
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "LD:finished_logic_die",
+          "full_graph_node_name": "Finished logic die",
+          "provider_id": "PUBLIC:d85f1cbc60f1",
+          "provider_name": "Amkor Technology",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_AMKOR_GRAPHICS",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Flip-chip graphics package assembly capability; specific GPU award, factory and qualification unverified",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Amkor Technology",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
       "component_definition": {
         "node_id": "LD:finished_logic_die",
         "preferred_name": "Packaged and tested GPU device",
@@ -3305,7 +3506,30 @@
       "out_degree": 1,
       "domain_category": "Wafer Fabrication",
       "description": "Front-end and back-end-of-line wafer fabrication.",
-      "vendor_candidates": [],
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "LD:fabrication",
+          "full_graph_node_name": "Fabrication",
+          "provider_id": "PUBLIC:17b7a45dc3a9",
+          "provider_name": "TSMC",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_GB203",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Disclosed foundry and custom 4N process for the RTX 5080 GB203 die",
+          "qualification_status": "reference_product_foundry_disclosed_site_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "TSMC",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
       "component_definition": {
         "node_id": "LD:fabrication",
         "preferred_name": "Semiconductor wafer fabrication",
@@ -10133,7 +10357,30 @@
       "in_degree": 2,
       "out_degree": 4,
       "description": "Cross-linked acrylic/urethane resin for shroud finish and PCB inks",
-      "vendor_candidates": [],
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "PM-ACRYLIC-PU",
+          "full_graph_node_name": "Acrylic-Polyurethane Protective Coating & Ink Resin",
+          "provider_id": "PUBLIC:8b97808642fe",
+          "provider_name": "Covestro",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_COVESTRO_COATING",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Acrylic and polyurethane coating dispersions; ink and GPU formulation unverified",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Covestro",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
       "component_definition": {
         "node_id": "PM-ACRYLIC-PU",
         "preferred_name": "Acrylic/urethane coating-resin family",
@@ -13052,7 +13299,30 @@
       "in_degree": 3,
       "out_degree": 1,
       "description": "Insulated soft-magnetic powder composite molded around VRM inductor coil",
-      "vendor_candidates": [],
+      "vendor_candidates": [
+        {
+          "full_graph_node_id": "SC-FE-POWDER-CORE",
+          "full_graph_node_name": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core",
+          "provider_id": "PUBLIC:2e4cb2b12b31",
+          "provider_name": "Micrometals",
+          "provider_role": "documented_product_supplier",
+          "provider_rank_within_node": "unranked",
+          "market_share_percent": "",
+          "market_share_year": "",
+          "selection_basis": "official product or production evidence; market rank not independently established",
+          "mapping_exactness": "explicit scoped research mapping",
+          "evidence_level": "official_product_capability",
+          "source_ids": "R10_MICROMETALS",
+          "caveat": "See product_scope: a combined node may only have one supported branch.",
+          "product_scope": "Carbonyl iron powder core branch; Fe-Si-Cr, embedded winding and exact power inductor geometry unverified",
+          "qualification_status": "grade_and_customer_qualification_unverified",
+          "reviewed_on": "2026-11-24",
+          "corporate_group": "Micrometals",
+          "corporate_group_status": "not_independently_reviewed",
+          "ownership_source_ids": "",
+          "independent_leadership_rank_status": "not_established"
+        }
+      ],
       "component_definition": {
         "node_id": "SC-FE-POWDER-CORE",
         "preferred_name": "Pressed soft-magnetic metal-powder core",
@@ -14443,10 +14713,10 @@
       "target_node_exists": true,
       "self_loop": false,
       "duplicate_pair_count": 1,
-      "validation_status": "secondary_structure_reference",
-      "evidence_scope": "generic_BOM_structure",
-      "source_ids": "SRC_BOMWIKI_GPU",
-      "audit_note": "Preserved submitted generic BOM hierarchy; presence, quantities and supplier allocation require a specific card reference.",
+      "validation_status": "supported_component_family",
+      "evidence_scope": "manually_scoped_public_evidence",
+      "source_ids": "R10_AMPHENOL_POWER",
+      "audit_note": "Commercial GPU auxiliary power interface includes the connector. Exact part number is design-specific.",
       "recommended_relationship": "constituent_of",
       "mandatory_input_status": "not_established_for_specific_GPU"
     },
@@ -70108,6 +70378,39 @@
       "destination_facility_id": "PUBLIC_SITE:aaccaa6b47cf"
     }
   ],
+  "lead_time_disclosures": [
+    {
+      "company": "NVIDIA",
+      "reporting_period": "FY2026",
+      "measure": "extended supply lead time in reported cases",
+      "comparison": "greater_than",
+      "value": 12,
+      "unit": "months",
+      "scope": "company-wide risk disclosure; selected cases",
+      "node_id": null,
+      "facility_id": null,
+      "use_as_node_duration": false,
+      "source_ids": "R10_NVIDIA_TIMING"
+    }
+  ],
+  "reference_supply_qualification": [
+    {
+      "node_id": "LD:fabrication",
+      "reference_product": "GeForce RTX 5080 GB203",
+      "supplier": "TSMC",
+      "role": "disclosed_foundry",
+      "process": "NVIDIA custom TSMC 4N",
+      "site_id": null,
+      "qualified_alternate_supplier_ids": [],
+      "alternate_status": "public_evidence_does_not_identify_a_customer_qualified_alternate",
+      "missing_evidence": [
+        "approved process and site for the specific die",
+        "customer qualification",
+        "available capacity"
+      ],
+      "source_ids": "R10_GB203"
+    }
+  ],
   "vendor_site_coverage": [
     {
       "node_id": "0",
@@ -70142,6 +70445,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "EXT:GBM_CHONGQING;EXT:GBM_HUANGJIANG;EXT:GBM_KUNSHAN;EXT:GBM_SHENZHEN;EXT:GBM_SUZHOU;EXT:GBM_WUHU;EXT:GBM_ELNA_NAGAHAMA;EXT:GBM_LINCSTECH_IIDA;EXT:GBM_LINCSTECH_ISHIOKA;EXT:GBM_LINCSTECH_SHIMODATE;EXT:GBM_ELNA_PENANG;EXT:GBM_MALAYSIA;EXT:GBM_LINCSTECH_SG;EXT:GBM_HUKOU",
       "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "1.2",
+      "node_name": "GPU Package",
+      "provider_name": "Amkor Technology",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -70410,6 +70725,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "5",
+      "node_name": "Auxiliary Power Connector",
+      "provider_name": "Amphenol",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "5.1",
       "node_name": "Connector",
       "provider_name": "Amphenol",
@@ -70482,6 +70809,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "8.1",
+      "node_name": "RGB LED",
+      "provider_name": "Nichia",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "8.2.1",
       "node_name": "Bare PCB",
       "provider_name": "Compeq",
@@ -70508,7 +70847,67 @@
     {
       "node_id": "8.2.2",
       "node_name": "Microcontroller",
+      "provider_name": "Microchip Technology",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "NXP Semiconductors",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
       "provider_name": "Nuvoton",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "Nuvoton Technology",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "Renesas Electronics",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "STMicroelectronics",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
@@ -71718,6 +72117,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "LD:fabrication",
+      "node_name": "Fabrication",
+      "provider_name": "TSMC",
+      "public_site_count": 4,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "BASE:TSMC_ABF5;BASE:TSMC_ABF6;BASE:TSMC_FAB18;BASE:TSMC_ARIZONA",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "LD:fine_metal_wire",
       "node_name": "Drawn ultra-fine Au/Cu/Pd-Cu/Al wire",
       "provider_name": "Heraeus Electronics",
@@ -71740,6 +72151,18 @@
       "site_status": "product_class_site_documented",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": "R2_TANAKA_HANGZHOU;R2_TANAKA_SINGAPORE;R_OSM_GEOCODE"
+    },
+    {
+      "node_id": "LD:finished_logic_die",
+      "node_name": "Finished logic die",
+      "provider_name": "Amkor Technology",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
     },
     {
       "node_id": "LD:fluorine_gas",
@@ -73386,6 +73809,18 @@
       "source_ids": "R2_NDPP_PHOSPHORUS;R_OSM_GEOCODE"
     },
     {
+      "node_id": "PM-ACRYLIC-PU",
+      "node_name": "Acrylic-Polyurethane Protective Coating & Ink Resin",
+      "provider_name": "Covestro",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "PM-ALUMINA",
       "node_name": "Calcined High-Purity Alumina (Al2O3) Ceramic Powder",
       "provider_name": "Denka",
@@ -74740,6 +75175,18 @@
       "site_status": "product_class_site_documented",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": "R9_SHINKO_ARAI;R9_SHINKO_MEMORY;R_OSM_GEOCODE"
+    },
+    {
+      "node_id": "SC-FE-POWDER-CORE",
+      "node_name": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core",
+      "provider_name": "Micrometals",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
     },
     {
       "node_id": "SC-LCP-GF",
@@ -78195,6 +78642,114 @@
       "title": "RTX 5080 AMP Extreme Infinity product specification",
       "url": "https://www.zotac.com/us/us-store/product/graphics_card/zotac-gaming-geforce-rtx-5080-amp-extreme-infinity",
       "use": "Provides board-level display outputs, auxiliary power, lighting, PCIe interface, cooler and backplate for this configuration.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_GB203",
+      "organization": "NVIDIA",
+      "title": "GeForce RTX Blackwell GPU Architecture, Appendix B",
+      "url": "https://images.nvidia.com/aem-dam/Solutions/geforce/blackwell/nvidia-rtx-blackwell-gpu-architecture.pdf",
+      "use": "Identifies the GeForce RTX 5080 GB203 die and its custom TSMC 4N fabrication process.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_NVIDIA_TIMING",
+      "organization": "NVIDIA",
+      "title": "Fiscal 2026 annual report, supply and manufacturing risks",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-annual-report-web-Hyperlinks.pdf",
+      "use": "Discloses some extended supply lead times exceeding 12 months at company level; no component, factory, shipment or average is identified.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_AMKOR_GRAPHICS",
+      "organization": "Amkor Technology",
+      "title": "Flip-chip technology for graphics processors",
+      "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-announces-new-flip-chip-packaging-technology-semicon",
+      "use": "Company documents flip-chip package technology for graphics processors at product-class level.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_AMPHENOL_POWER",
+      "organization": "Amphenol",
+      "title": "Minitek PCIe auxiliary power connector system",
+      "url": "https://www.amphenol-cs.com/product-series/minitek-pwr-cem-5-pcie.html",
+      "use": "Documents a GPU auxiliary power connector and cable assembly in the 12V-2x6 product class.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_COVESTRO_COATING",
+      "organization": "Covestro",
+      "title": "Bayhydrol polyurethane and acrylic coating dispersions",
+      "url": "https://solutions.covestro.com/en/brands/bayhydrol",
+      "use": "Documents coating-resin classes for flexible and rigid substrates, including metal and plastics.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_MICROMETALS",
+      "organization": "Micrometals",
+      "title": "Core-materials catalogue",
+      "url": "https://new.micrometals.com/products/materials/core-materials-lf/",
+      "use": "Core material catalogue explicitly lists carbonyl iron formulations.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_NICHIA",
+      "organization": "Nichia",
+      "title": "NSSM137A RGB LED product data",
+      "url": "https://led-ld.nichia.co.jp/en/product/led_product_data.html?kbn=0&type=NSSM137A",
+      "use": "Documents a finished RGB LED package, with no evidence of GPU fit or bare-die sale.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_NUVOTON_MCU",
+      "organization": "Nuvoton Technology",
+      "title": "NuMicro MCU portfolio",
+      "url": "https://www.nuvoton.com/products/microcontrollers/",
+      "use": "Manufacturer documents a commercial Arm Cortex-M MCU family.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_RENESAS_MCU",
+      "organization": "Renesas Electronics",
+      "title": "RA Arm Cortex-M MCU portfolio",
+      "url": "https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus",
+      "use": "Manufacturer documents a commercial Arm Cortex-M MCU family.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_ST_MCU",
+      "organization": "STMicroelectronics",
+      "title": "STM32 mainstream MCU portfolio",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32-mainstream-mcus/products.html",
+      "use": "Manufacturer documents a commercial Arm Cortex-M MCU family.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_NXP_MCU",
+      "organization": "NXP Semiconductors",
+      "title": "LPC microcontroller portfolio",
+      "url": "https://www.nxp.com/assets/documents/data/en/supporting-information/LPC-MCU-Portfolio-Press-Deck.pdf",
+      "use": "Manufacturer documents a commercial Arm Cortex-M MCU family.",
+      "reliability": "Official company product or operations evidence; no independent market rank implied",
+      "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R10_MICROCHIP_MCU",
+      "organization": "Microchip Technology",
+      "title": "SAM D21 MCU overview",
+      "url": "https://developerhelp.microchip.com/xwiki/bin/view/products/mcu-mpu/32bit-mcu/sam/samd21-mcu-overview/",
+      "use": "Manufacturer documents a commercial Arm Cortex-M MCU family.",
       "reliability": "Official company product or operations evidence; no independent market rank implied",
       "reviewed_on": "2026-11-24"
     }

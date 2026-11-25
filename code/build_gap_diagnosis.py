@@ -43,8 +43,8 @@ GROUPS = [
  ('LD:polyurethane_matrix LD:polyester_felt_backing', 'pad_layer_not_finished_pad',
   'A finished polishing-pad supplier does not prove independent sale of its matrix or felt layer.',
   'Find specified foam/felt intermediate products, or model the layers as internal transformations within the pad plant.'),
- ('PM-ACRYLIC-PU PM-REFINED-AU', 'promising_official_lead_access_blocked',
-  'Official indexed product leads exist, but this pass could not inspect the full source: Covestro returned HTTP 403 and Umicore HTTP 402 through the research service.',
+ ('PM-REFINED-AU', 'promising_official_lead_access_blocked',
+  'The Umicore gold-salt lead returned HTTP 402 through the research service.',
   'Manually obtain current manufacturer datasheets. Do not interpret an access failure as evidence the supplier does not exist.'),
  ('DC-SINTER-BOAT', 'shape_and_composition_not_yet_matched',
   'YSZ material capability or a YSZ coating on a setter plate does not establish a bulk YSZ setter plate matching this node.',
@@ -89,11 +89,11 @@ def main():
             issue=issue, next_action=action, evidence_absence_claim=False))
     payload = dict(reviewed_on='2026-11-24',
         interpretation='Unresolved is not unavailable. This diagnostic distinguishes source access, product definition, internal manufacture and research still open.',
-        newly_supplier_mapped_nodes=['PM-WC-COBALT', 'DC-PET-LINER', 'DC-TIN-PLATE'],
+        newly_supplier_mapped_nodes=['PM-WC-COBALT', 'DC-PET-LINER', 'DC-TIN-PLATE',
+                                     'PM-ACRYLIC-PU'],
         counts=dict(Counter(r['status'] for r in unresolved)), unresolved_nodes=unresolved,
         access_blocked_leads=[
-          dict(node_id='PM-REFINED-AU', supplier='Umicore', url='https://mds.umicore.com/en/electroplating/products/product-finder/potassium-gold-cyanide-68-2', status='official_indexed_lead_full_page_and_datasheet_fetch_failed_HTTP_402', caveat='68.2% gold content of a salt is not 99.99% elemental-gold purity; combined node needs branch separation.'),
-          dict(node_id='PM-ACRYLIC-PU', supplier='Covestro', url='https://www.covestro.com/en/product-technology/waterborne-coatings-and-paint', status='official_indexed_lead_full_page_fetch_failed_HTTP_403', caveat='PU/polyacrylate resin family is not a fully verified electronics coating or photoresist recipe.')],
+          dict(node_id='PM-REFINED-AU', supplier='Umicore', url='https://mds.umicore.com/en/electroplating/products/product-finder/potassium-gold-cyanide-68-2', status='official_indexed_lead_full_page_and_datasheet_fetch_failed_HTTP_402', caveat='68.2% gold content of a salt is not 99.99% elemental-gold purity; combined node needs branch separation.')],
         rejected_automatic_matches=[
           dict(node_id='LD:sic_lapping_slurry', url='https://www.entegris.com/shop/en/USD/products/chemistries/specialty-chemicals/slurries/Silicon-Carbide-(SiC)-Slurries/p/SiliconCarbideSiCSlurries', issue='For-SiC application is not proof of SiC abrasive composition.'),
           dict(node_id='DC-SINTER-BOAT', url='https://www.coatingsolutions.saint-gobain.com/applications/performance-industrial/metal-industry/reaction-barrier-coatings-setter-plates', issue='Coating capability is not evidence of a complete bulk-YSZ setter plate.')],

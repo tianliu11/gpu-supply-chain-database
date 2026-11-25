@@ -799,6 +799,8 @@ def export_enriched_data(graph, edges, vendors, facilities, hubs, site_coverage,
         'nodes':[dict(n,vendor_candidates=vendor_by_node[str(n['id'])], component_definition=component_definition_research.DEFINITIONS.get(str(n['id']))) for n in graph['nodes']],
         'edges':edges,'facilities':facilities,'nearby_hub_candidates':hubs,
         'disclosed_freight_corridors':disclosed_freight,
+        'lead_time_disclosures':claude_followup_research.LEAD_TIME_DISCLOSURES,
+        'reference_supply_qualification':claude_followup_research.REFERENCE_SUPPLY_QUALIFICATION,
         'vendor_site_coverage':site_coverage,'modeling_issues':issues,
         'sources':read_csv(CLEAN/'sources.csv'),
     }

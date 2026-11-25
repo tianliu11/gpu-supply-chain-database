@@ -4,14 +4,10 @@ Unresolved is not unavailable. This diagnostic distinguishes source access, prod
 
 The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.
 
-Unresolved supplier nodes: 35 (including categories, stages and utilities).
+Unresolved supplier nodes: 29 (including categories, stages and utilities).
 
 1 | Main PCB | definition_scoped_supplier_or_process_evidence_still_open
 Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-1.2 | GPU Package | definition_scoped_supplier_or_process_evidence_still_open
-Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 1.4 | VRM Phase | definition_scoped_supplier_or_process_evidence_still_open
@@ -28,10 +24,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 4 | PCIe Edge Connector | definition_scoped_supplier_or_process_evidence_still_open
 Allocate manufacture to PCB/contact finishing; do not count a motherboard socket as the card part.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-5 | Auxiliary Power Connector | definition_scoped_supplier_or_process_evidence_still_open
-Choose board-side scope; cable and PSU are outside this node. 12V-2x6 is an option, not a verified part assignment.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 6 | Display Output Cluster | definition_scoped_supplier_or_process_evidence_still_open
@@ -60,14 +52,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 RAW-WATER | Freshwater | definition_scoped_supplier_or_process_evidence_still_open
 Utility/source connection is site-dependent; do not interpret it as globally interchangeable shipped UPW.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-LD:finished_logic_die | Finished logic die | definition_scoped_supplier_or_process_evidence_still_open
-Treat these two submitted labels as one output in the reviewed graph; packaging occurs once.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-LD:fabrication | Fabrication | definition_scoped_supplier_or_process_evidence_still_open
-Manufacturing site/operator belongs to this process; a bare die additionally requires wafer test and separation.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 LD:packaging_materials | Packaging materials | definition_scoped_supplier_or_process_evidence_still_open
@@ -106,10 +90,6 @@ LD:polyester_felt_backing | PET polyester felt backing | definition_scoped_suppl
 The source supports a felt-based design, not a universal backing required in every CMP pad.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-PM-ACRYLIC-PU | Acrylic-Polyurethane Protective Coating & Ink Resin | definition_scoped_supplier_or_process_evidence_still_open
-Separate coating resin, photoresist binder, pressure-sensitive adhesive and interlaminar varnish. Their formulations are not interchangeable.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
 DC-ANODIZE-CHEM | Disposable Sulfuric Acid Anodizing Bath & Black Dye | definition_scoped_supplier_or_process_evidence_still_open
 Electrolyte and black dye are distinct purchases; bath reuse/replenishment means disposable is not a fixed one-use count.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
@@ -120,10 +100,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 SC-DI-WATER | Ultrapure Degassed Deionized Water Working Fluid | definition_scoped_supplier_or_process_evidence_still_open
 Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-SC-FE-POWDER-CORE | Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core | definition_scoped_supplier_or_process_evidence_still_open
-Carbonyl iron and Fe-Si-Cr are alternative material routes; exact composition and core shape require a part datasheet.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 SC-PPA-REFLECTOR | TiO2-Filled Polyphthalamide (PPA) Molded LED Reflector Cup | definition_scoped_supplier_or_process_evidence_still_open

@@ -21,7 +21,7 @@ E0019,2.6,2,2.6,2,True,dependency_or_ancestry_requires_process_review,Retained a
 E0020,3,0,3,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
 E0021,4,0,4,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
 E0022,5,0,5,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
-E0023,5.1,5,5.1,5,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
+E0023,5.1,5,5.1,5,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R10_AMPHENOL_POWER
 E0024,5.2,5,5.2,5,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0025,6,0,6,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
 E0026,6.1,6,6.1,6,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD

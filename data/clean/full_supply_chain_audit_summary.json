@@ -12,8 +12,8 @@
   "nodes_without_raw_material_ancestor": [],
   "raw_material_nodes_without_path_to_root": [],
   "validation_status_counts": {
-    "secondary_structure_reference": 27,
-    "supported_component_family": 15,
+    "secondary_structure_reference": 26,
+    "supported_component_family": 16,
     "supported_optional_design_feature": 1,
     "semantic_conflict": 1,
     "supported_process_stage": 5,

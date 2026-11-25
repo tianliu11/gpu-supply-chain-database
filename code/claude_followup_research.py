@@ -3,6 +3,8 @@ from additional_public_research import source, vendor, site, edge as register_ed
 
 SITE_UPDATES = {}
 DISCLOSED_FREIGHT = []
+LEAD_TIME_DISCLOSURES = []
+REFERENCE_SUPPLY_QUALIFICATION = []
 
 CLAIMS=[]
 def edge(ids,sid,status,note):
@@ -190,3 +192,59 @@ s=source('R7_EPA_CHLORALKALI','US Environmental Protection Agency','AP-42 sectio
  'Brine electrolysis produces chlorine, caustic soda and hydrogen. Historical equipment/market shares are not current operating assumptions.')
 edge('E0194 E0195 E0196 E0197',s,'supported_upstream_process_not_direct_input',
  'Sodium-chloride brine and water feed chlor-alkali processing. Only the NaCl branch is supported, not all salts in the combined raw node; water treatment and co-production matter.')
+
+s=source('R10_GB203','NVIDIA','GeForce RTX Blackwell GPU Architecture, Appendix B',
+ 'https://images.nvidia.com/aem-dam/Solutions/geforce/blackwell/nvidia-rtx-blackwell-gpu-architecture.pdf',
+ 'Identifies the GeForce RTX 5080 GB203 die and its custom TSMC 4N fabrication process.')
+vendor('TSMC',s,'LD:fabrication','Disclosed foundry and custom 4N process for the RTX 5080 GB203 die',
+       qualification='reference_product_foundry_disclosed_site_unverified')
+REFERENCE_SUPPLY_QUALIFICATION.append(dict(node_id='LD:fabrication',
+    reference_product='GeForce RTX 5080 GB203', supplier='TSMC', role='disclosed_foundry',
+    process='NVIDIA custom TSMC 4N', site_id=None, qualified_alternate_supplier_ids=[],
+    alternate_status='public_evidence_does_not_identify_a_customer_qualified_alternate',
+    missing_evidence=['approved process and site for the specific die', 'customer qualification', 'available capacity'],
+    source_ids=s))
+s=source('R10_NVIDIA_TIMING','NVIDIA','Fiscal 2026 annual report, supply and manufacturing risks',
+ 'https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-annual-report-web-Hyperlinks.pdf',
+ 'Discloses some extended supply lead times exceeding 12 months at company level; no component, factory, shipment or average is identified.')
+LEAD_TIME_DISCLOSURES.append(dict(company='NVIDIA', reporting_period='FY2026',
+    measure='extended supply lead time in reported cases', comparison='greater_than', value=12,
+    unit='months', scope='company-wide risk disclosure; selected cases',
+    node_id=None, facility_id=None, use_as_node_duration=False, source_ids=s))
+s=source('R10_AMKOR_GRAPHICS','Amkor Technology','Flip-chip technology for graphics processors',
+ 'https://ir.amkor.com/news-releases/news-release-details/amkor-announces-new-flip-chip-packaging-technology-semicon',
+ 'Company documents flip-chip package technology for graphics processors at product-class level.')
+vendor('Amkor Technology',s,'1.2 LD:finished_logic_die',
+       'Flip-chip graphics package assembly capability; specific GPU award, factory and qualification unverified')
+s=source('R10_AMPHENOL_POWER','Amphenol','Minitek PCIe auxiliary power connector system',
+ 'https://www.amphenol-cs.com/product-series/minitek-pwr-cem-5-pcie.html',
+ 'Documents a GPU auxiliary power connector and cable assembly in the 12V-2x6 product class.')
+vendor('Amphenol',s,'5','12V-2x6 auxiliary power connector family; GPU model allocation unverified')
+edge('E0023',s,'supported_component_family','Commercial GPU auxiliary power interface includes the connector. Exact part number is design-specific.')
+s=source('R10_COVESTRO_COATING','Covestro','Bayhydrol polyurethane and acrylic coating dispersions',
+ 'https://solutions.covestro.com/en/brands/bayhydrol',
+ 'Documents coating-resin classes for flexible and rigid substrates, including metal and plastics.')
+vendor('Covestro',s,'PM-ACRYLIC-PU','Acrylic and polyurethane coating dispersions; ink and GPU formulation unverified')
+s=source('R10_MICROMETALS','Micrometals','Core-materials catalogue',
+ 'https://new.micrometals.com/products/materials/core-materials-lf/',
+ 'Core material catalogue explicitly lists carbonyl iron formulations.')
+vendor('Micrometals',s,'SC-FE-POWDER-CORE','Carbonyl iron powder core branch; Fe-Si-Cr, embedded winding and exact power inductor geometry unverified')
+s=source('R10_NICHIA','Nichia','NSSM137A RGB LED product data',
+ 'https://led-ld.nichia.co.jp/en/product/led_product_data.html?kbn=0&type=NSSM137A',
+ 'Documents a finished RGB LED package, with no evidence of GPU fit or bare-die sale.')
+vendor('Nichia',s,'8.1','Commercial packaged RGB LED; card-level qualification unverified')
+
+for sid, company, title, url in [
+    ('R10_NUVOTON_MCU','Nuvoton Technology','NuMicro MCU portfolio',
+     'https://www.nuvoton.com/products/microcontrollers/'),
+    ('R10_RENESAS_MCU','Renesas Electronics','RA Arm Cortex-M MCU portfolio',
+     'https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus'),
+    ('R10_ST_MCU','STMicroelectronics','STM32 mainstream MCU portfolio',
+     'https://www.st.com/en/microcontrollers-microprocessors/stm32-mainstream-mcus/products.html'),
+    ('R10_NXP_MCU','NXP Semiconductors','LPC microcontroller portfolio',
+     'https://www.nxp.com/assets/documents/data/en/supporting-information/LPC-MCU-Portfolio-Press-Deck.pdf'),
+    ('R10_MICROCHIP_MCU','Microchip Technology','SAM D21 MCU overview',
+     'https://developerhelp.microchip.com/xwiki/bin/view/products/mcu-mpu/32bit-mcu/sam/samd21-mcu-overview/'),
+]:
+    source(sid,company,title,url,'Manufacturer documents a commercial Arm Cortex-M MCU family.')
+    vendor(company,sid,'8.2.2','Packaged Cortex-M MCU product class; RGB firmware, pinout, selected part and GPU qualification remain open')

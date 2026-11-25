@@ -13,18 +13,6 @@
       "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
     },
     {
-      "node_id": "1.2",
-      "node_name": "GPU Package",
-      "node_type": "assembly",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
       "node_id": "1.4",
       "node_name": "VRM Phase",
       "node_type": "assembly",
@@ -64,18 +52,6 @@
       "node_id": "4",
       "node_name": "PCIe Edge Connector",
       "node_type": "part",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "5",
-      "node_name": "Auxiliary Power Connector",
-      "node_type": "assembly",
       "vendor_count": "0",
       "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
       "procurement_treatment": "supplier_research_required",
@@ -163,30 +139,6 @@
       "vendor_count": "0",
       "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
       "procurement_treatment": "local_resource_or_utility",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "0",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "LD:finished_logic_die",
-      "node_name": "Finished logic die",
-      "node_type": "process_stage",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "process_stage_no_material_vendor",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "0",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "LD:fabrication",
-      "node_name": "Fabrication",
-      "node_type": "process_stage",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "process_stage_no_material_vendor",
       "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
       "recorded_followup_searches": "0",
       "distinct_corporate_groups": "0",
@@ -301,18 +253,6 @@
       "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
     },
     {
-      "node_id": "PM-ACRYLIC-PU",
-      "node_name": "Acrylic-Polyurethane Protective Coating & Ink Resin",
-      "node_type": "processed_material",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
       "node_id": "DC-ANODIZE-CHEM",
       "node_name": "Disposable Sulfuric Acid Anodizing Bath & Black Dye",
       "node_type": "disposable_tooling_or_consumable",
@@ -339,18 +279,6 @@
     {
       "node_id": "SC-DI-WATER",
       "node_name": "Ultrapure Degassed Deionized Water Working Fluid",
-      "node_type": "sub_component",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "SC-FE-POWDER-CORE",
-      "node_name": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core",
       "node_type": "sub_component",
       "vendor_count": "0",
       "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
@@ -455,6 +383,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "EXT:GBM_CHONGQING;EXT:GBM_HUANGJIANG;EXT:GBM_KUNSHAN;EXT:GBM_SHENZHEN;EXT:GBM_SUZHOU;EXT:GBM_WUHU;EXT:GBM_ELNA_NAGAHAMA;EXT:GBM_LINCSTECH_IIDA;EXT:GBM_LINCSTECH_ISHIOKA;EXT:GBM_LINCSTECH_SHIMODATE;EXT:GBM_ELNA_PENANG;EXT:GBM_MALAYSIA;EXT:GBM_LINCSTECH_SG;EXT:GBM_HUKOU",
       "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "1.2",
+      "node_name": "GPU Package",
+      "provider_name": "Amkor Technology",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -711,6 +651,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "5",
+      "node_name": "Auxiliary Power Connector",
+      "provider_name": "Amphenol",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "5.1",
       "node_name": "Connector",
       "provider_name": "Amphenol",
@@ -783,6 +735,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "8.1",
+      "node_name": "RGB LED",
+      "provider_name": "Nichia",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "8.2.1",
       "node_name": "Bare PCB",
       "provider_name": "Compeq",
@@ -809,7 +773,67 @@
     {
       "node_id": "8.2.2",
       "node_name": "Microcontroller",
+      "provider_name": "Microchip Technology",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "NXP Semiconductors",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
       "provider_name": "Nuvoton",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "Nuvoton Technology",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "Renesas Electronics",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "STMicroelectronics",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
@@ -1767,6 +1791,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "LD:fabrication",
+      "node_name": "Fabrication",
+      "provider_name": "TSMC",
+      "public_site_count": 4,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "BASE:TSMC_ABF5;BASE:TSMC_ABF6;BASE:TSMC_FAB18;BASE:TSMC_ARIZONA",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "LD:fine_metal_wire",
       "node_name": "Drawn ultra-fine Au/Cu/Pd-Cu/Al wire",
       "provider_name": "Heraeus Electronics",
@@ -1775,6 +1811,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "PUBLIC_SITE:649fb6b8eb22;PUBLIC_SITE:6ff5b94560a1;PUBLIC_SITE:1b675a04959c;PUBLIC_SITE:5e8cd8472c7a;PUBLIC_SITE:53d1a35ae6c9;PUBLIC_SITE:b727f89f72ca;PUBLIC_SITE:460b7cf8fff5;PUBLIC_SITE:93968a269e15",
       "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "LD:finished_logic_die",
+      "node_name": "Finished logic die",
+      "provider_name": "Amkor Technology",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -3015,6 +3063,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "PM-ACRYLIC-PU",
+      "node_name": "Acrylic-Polyurethane Protective Coating & Ink Resin",
+      "provider_name": "Covestro",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "PM-ALUMINA",
       "node_name": "Calcined High-Purity Alumina (Al2O3) Ceramic Powder",
       "provider_name": "Denka",
@@ -3810,6 +3870,18 @@
       "node_id": "SC-FAN-DRIVER-IC",
       "node_name": "Hall-Effect BLDC Fan Driver IC & Mini FR-4 Sub-Board",
       "provider_name": "Monolithic Power Systems",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "SC-FE-POWDER-CORE",
+      "node_name": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core",
+      "provider_name": "Micrometals",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",

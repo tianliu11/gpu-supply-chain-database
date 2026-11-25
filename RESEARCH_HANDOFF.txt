@@ -3,7 +3,7 @@ Review date: 2026-11-24
 
 Scope: best-effort public evidence extension of the supplied JSON, not a confidential NVIDIA procurement reconstruction.
 
-Nodes: 289; proposed connections: 757; nodes with supplier candidates: 254; supplier-node records: 412; public production-asset records: 333; nearest-hub records: 1998.
+Nodes: 289; proposed connections: 757; nodes with supplier candidates: 260; supplier-node records: 424; public production-asset records: 333; nearest-hub records: 1998.
 
 TASK STATUS
 
@@ -14,7 +14,7 @@ PARTIAL: Verify every material/input relationship
 Specific supporting sources and conflicts documented; unresolved edge statuses remain in the audit CSV.
 
 PARTIAL: Find suppliers for every component/material
-254 of 289 nodes have candidate evidence; categories/process stages do not all need independent vendors.
+260 of 289 nodes have candidate evidence; categories/process stages do not all need independent vendors.
 
 PARTIAL: Identify up to ten industry-leading suppliers per input
 At most ten suppliers retained per node. Product capability is cited; comparable top-ten market rankings are generally not established.
