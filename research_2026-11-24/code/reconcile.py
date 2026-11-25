@@ -9,6 +9,7 @@ import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
+from review_market_claims import review_claim
 
 BASE=Path(__file__).resolve().parents[1]
 ROOT=BASE.parent
@@ -16,6 +17,12 @@ OUT=BASE/'merged'
 REVIEWED_NAMES={
     'Sumitomo Chemical (Sumikasuper)': ('Sumitomo Chemical','R7_SUMITOMO_LCP'),
     'Toray (Siveras)': ('Toray Industries','R7_TORAY_LCP'),
+    'PC Partner (Zotac)': ('PC Partner','R12_PCP_PRODUCTS'),
+    'Henkel (Loctite Ablestik)': ('Henkel','R12_HENKEL_DA'),
+    'Celanese (Vectra/Zenite)': ('Celanese','R12_CELANESE_LCP'),
+    'Cargill (Cargill Salt)': ('Cargill','R12_CARGILL_SALT'),
+    'Kazphosphate (Novo-Dzhambul Phosphorus Plant)': ('Kazphosphate','R12_KAZ_PHOSPHORUS'),
+    'Mitsubishi Chemical (jER)': ('Mitsubishi Chemical','R12_MCC_EPOXY'),
 }
 
 def read(path):
@@ -115,6 +122,22 @@ def main():
                 facility_id=f['facility_id'],company_name_match='exact_after_punctuation_normalization',
                 product_allocation='documented_class_only' if scoped else 'company_site_only_not_product_allocation',
                 site_source_ids=f['source_ids'],qualified_backup=False))
+    screen_path = OUT/'vendor_citation_screen.csv'
+    screening = defaultdict(Counter)
+    if screen_path.exists():
+        for row in read(screen_path):
+            screening[row['record_id']][row['screen_result']] += 1
+    market_reviews = []
+    for row in reconciled:
+        if row['input_file'].startswith('V'):
+            result = review_claim(row)
+            if result:
+                market_reviews.append(result)
+                row['ranking_review_status'] = result['result']
+        counts = screening[row['record_id']]
+        row['citation_screen_count'] = sum(counts.values())
+        row['citation_screen_results'] = ';'.join(f'{k}={v}' for k,v in sorted(counts.items()))
+    write('manual_market_claim_reviews.csv', market_reviews)
     coverage=[]
     raw_nodes={r['node_id'] for r in vendors}
     for nid,name in nodes.items():
@@ -142,6 +165,10 @@ def main():
         previously_uncited_batch_rows_recovered=sum(r['input_file'].startswith('V') and not r['source_ids'] and r['review_status']=='prior_scoped_capability_evidence' for r in reconciled),
         uncited_placeholder_rows=sum(r['input_file'].startswith('V') and not r['source_ids'] and r['review_status']=='not_a_vendor_record' for r in reconciled),
         node_coverage_rows=len(coverage),public_production_site_rows=len(facilities),
+        claim_citation_links_screened=sum(sum(c.values()) for c in screening.values()),
+        pending_vendor_rows_screened=sum(bool(screening[r['record_id']]) for r in reconciled
+                                       if r['review_status']=='citation_present_content_review_pending'),
+        independently_reviewed_market_claim_rows=len(market_reviews),
         nearest_hub_rows=len(read(ROOT/'data/clean/full_supply_chain_nearest_hubs.csv')),
         vendors_without_exact_name_site_match=len(queue),site_link_rows=len(joins),
         claim='Reconciliation and scoped prior evidence; not all batch citations, ranks, factories or relationships have been independently validated.',

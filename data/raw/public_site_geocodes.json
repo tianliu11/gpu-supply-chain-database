@@ -2554,5 +2554,465 @@
     "osm_type": "relation",
     "osm_id": 4716872,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Tajimi%2C+Gifu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:659e894449a0": {
+    "query": "Dongguan, China",
+    "latitude": 23.0183568,
+    "longitude": 113.7452332,
+    "display_name": "东莞市, 广东省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3464319,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Dongguan%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:68ded8b8595f": {
+    "query": "Batam, Indonesia",
+    "latitude": 1.1030815,
+    "longitude": 104.0383696,
+    "display_name": "Batam, Kepulauan Riau, Indonesia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 10660353,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Batam%2C+Indonesia&format=jsonv2&addressdetails=1&limit=1&countrycodes=id"
+  },
+  "PUBLIC_SITE:7b73590e1919": {
+    "query": "Ulysses, Kansas, United States",
+    "latitude": 37.5814095,
+    "longitude": -101.355169,
+    "display_name": "Ulysses, Lincoln Township, Grant County, Kansas, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 129740,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Ulysses%2C+Kansas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:7af92b0b3f33": {
+    "query": "Centerville, Louisiana, United States",
+    "latitude": 29.7596514,
+    "longitude": -91.4284423,
+    "display_name": "Centerville, Saint Mary Parish, Louisiana, 70522, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 151774393,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Centerville%2C+Louisiana%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:eb29f934f8df": {
+    "query": "Hamilton, Ontario, Canada",
+    "latitude": 43.2560802,
+    "longitude": -79.8728583,
+    "display_name": "Hamilton, Ontario, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7034910,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Hamilton%2C+Ontario%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:c2d0029207de": {
+    "query": "Camaçari, Bahia, Brazil",
+    "latitude": -12.6998188,
+    "longitude": -38.3260762,
+    "display_name": "Camaçari, Bahia, Região Nordeste, Brasil",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 362505,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cama%C3%A7ari%2C+Bahia%2C+Brazil&format=jsonv2&addressdetails=1&limit=1&countrycodes=br"
+  },
+  "PUBLIC_SITE:0a501ef35306": {
+    "query": "Cubatão, São Paulo, Brazil",
+    "latitude": -23.8842077,
+    "longitude": -46.4213061,
+    "display_name": "Cubatão, São Paulo, Região Sudeste, Brasil",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 298437,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cubat%C3%A3o%2C+S%C3%A3o+Paulo%2C+Brazil&format=jsonv2&addressdetails=1&limit=1&countrycodes=br"
+  },
+  "PUBLIC_SITE:6f9a73e0bff2": {
+    "query": "Gajano, Cantabria, Spain",
+    "latitude": 43.41036,
+    "longitude": -3.76544,
+    "display_name": "Gajano, Rubayo, Marina de Cudeyo, Cantabria, 39792, España",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 288260765,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gajano%2C+Cantabria%2C+Spain&format=jsonv2&addressdetails=1&limit=1&countrycodes=es"
+  },
+  "PUBLIC_SITE:b304aeba14c6": {
+    "query": "Trecate, Italy",
+    "latitude": 45.4319961,
+    "longitude": 8.7349702,
+    "display_name": "Trecate, Novara, Piemonte, 28069, Italia",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 44935,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Trecate%2C+Italy&format=jsonv2&addressdetails=1&limit=1&countrycodes=it"
+  },
+  "PUBLIC_SITE:7a851ee6cd5f": {
+    "query": "Tiszaújváros, Hungary",
+    "latitude": 47.9280341,
+    "longitude": 21.0467056,
+    "display_name": "Tiszaújváros, Tiszaújvárosi járás, Borsod-Abaúj-Zemplén megye, Alföld és Észak, 3580, Magyarország",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1440871,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Tisza%C3%BAjv%C3%A1ros%2C+Hungary&format=jsonv2&addressdetails=1&limit=1&countrycodes=hu"
+  },
+  "PUBLIC_SITE:98cc43d55a84": {
+    "query": "Alexandria, Egypt",
+    "latitude": 31.1991806,
+    "longitude": 29.8951716,
+    "display_name": "الإسكندرية, 21519, مصر",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 27565020,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Alexandria%2C+Egypt&format=jsonv2&addressdetails=1&limit=1&countrycodes=eg"
+  },
+  "PUBLIC_SITE:a98141738c8b": {
+    "query": "Gummidipoondi, Tamil Nadu, India",
+    "latitude": 13.4308848,
+    "longitude": 80.0821379,
+    "display_name": "Gummidipoondi, Thiruvallur, Tamil Nadu, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 10302479,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Gummidipoondi%2C+Tamil+Nadu%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:8f1183d393b4": {
+    "query": "Khalapur, Maharashtra, India",
+    "latitude": 18.8321669,
+    "longitude": 73.2852464,
+    "display_name": "Khalapur, Khalapur Taluka, Raigad, Maharashtra, 410202, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 245652295,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Khalapur%2C+Maharashtra%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:acbd8f309365": {
+    "query": "Renukoot, Uttar Pradesh, India",
+    "latitude": 24.2032305,
+    "longitude": 83.0400348,
+    "display_name": "Renukoot, NH39, Renukoot, Dudhi, Sonbhadra, Uttar Pradesh, 231217, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 9530552353,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Renukoot%2C+Uttar+Pradesh%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:abcb34def47d": {
+    "query": "Naidupeta, Andhra Pradesh, India",
+    "latitude": 13.9289179,
+    "longitude": 79.8327094,
+    "display_name": "Naidupeta Mandal, Tirupati District, Andhra Pradesh, 524126, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 10222918,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Naidupeta%2C+Andhra+Pradesh%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:c0345ae76146": {
+    "query": "Ang Thong, Thailand",
+    "latitude": 14.6495224,
+    "longitude": 100.3170382,
+    "display_name": "จังหวัดอ่างทอง, ประเทศไทย",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1908765,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Ang+Thong%2C+Thailand&format=jsonv2&addressdetails=1&limit=1&countrycodes=th"
+  },
+  "PUBLIC_SITE:96afde7e89a1": {
+    "query": "Rayong, Thailand",
+    "latitude": 12.7943716,
+    "longitude": 101.3705344,
+    "display_name": "จังหวัดระยอง, ประเทศไทย",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1908812,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Rayong%2C+Thailand&format=jsonv2&addressdetails=1&limit=1&countrycodes=th"
+  },
+  "PUBLIC_SITE:feffeee4de7f": {
+    "query": "Jining, Shandong, China",
+    "latitude": 35.4125047,
+    "longitude": 116.5849266,
+    "display_name": "济宁市, 山东省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3286961,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Jining%2C+Shandong%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:824a4dabdc27": {
+    "query": "Weifang, Shandong, China",
+    "latitude": 36.7074551,
+    "longitude": 119.1558166,
+    "display_name": "潍坊市, 山东省, 中国",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 3468564,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Weifang%2C+Shandong%2C+China&format=jsonv2&addressdetails=1&limit=1&countrycodes=cn"
+  },
+  "PUBLIC_SITE:8eedd577faff": {
+    "query": "Yeosu, South Korea",
+    "latitude": 34.7546257,
+    "longitude": 127.659859,
+    "display_name": "여수시, 전남광주통합특별시, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7689289,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Yeosu%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:5fb39b73cb5e": {
+    "query": "Mundra, Gujarat, India",
+    "latitude": 22.8393153,
+    "longitude": 69.7249477,
+    "display_name": "મુન્દ્રા, Mundra Taluka, Kutch, Gujarat, 370421, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 245710090,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Mundra%2C+Gujarat%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:bdee7658c327": {
+    "query": "Durgapur, West Bengal, India",
+    "latitude": 23.5350475,
+    "longitude": 87.3380425,
+    "display_name": "Durgapur, Faridpur Durgapur, Paschim Bardhaman, West Bengal, 713200, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 813334049,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Durgapur%2C+West+Bengal%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:b2dc4d16a8e8": {
+    "query": "Chennai, Tamil Nadu, India",
+    "latitude": 13.0800915,
+    "longitude": 80.2807978,
+    "display_name": "Chennai, Chennai Metropolitan Area, Chennai District, Tamil Nadu, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1766358,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chennai%2C+Tamil+Nadu%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:b68e0441c99e": {
+    "query": "Palej, Gujarat, India",
+    "latitude": 21.9205704,
+    "longitude": 73.0726247,
+    "display_name": "Palej, SH__, Palej, Bharuch Taluka, Bharuch, Gujarat, 392220, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 3283404929,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Palej%2C+Gujarat%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:e504f0b3fa53": {
+    "query": "Kochi, Kerala, India",
+    "latitude": 9.9679032,
+    "longitude": 76.2444378,
+    "display_name": "Kochi, Ernakulam, Kerala, 682001, India",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 3862624198,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kochi%2C+Kerala%2C+India&format=jsonv2&addressdetails=1&limit=1&countrycodes=in"
+  },
+  "PUBLIC_SITE:f3ae772b3b9d": {
+    "query": "Iruma, Saitama, Japan",
+    "latitude": 35.8221185,
+    "longitude": 139.375688,
+    "display_name": "入間市, 埼玉県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1768272,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Iruma%2C+Saitama%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:2b20870aa9a8": {
+    "query": "Yorii, Saitama, Japan",
+    "latitude": 36.1182741,
+    "longitude": 139.1927779,
+    "display_name": "寄居町, 大里郡, 埼玉県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1769223,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Yorii%2C+Saitama%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
+  },
+  "PUBLIC_SITE:10a09f9e7fd5": {
+    "query": "Iksan, South Korea",
+    "latitude": 35.9479291,
+    "longitude": 126.9578025,
+    "display_name": "익산시, 전북특별자치도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 7619924,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Iksan%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:6d06f694f18e": {
+    "query": "Siheung, South Korea",
+    "latitude": 37.3798891,
+    "longitude": 126.8032255,
+    "display_name": "시흥시, 경기도, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2409181,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Siheung%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:c744378d43f2": {
+    "query": "Busan, South Korea",
+    "latitude": 35.1799528,
+    "longitude": 129.0752365,
+    "display_name": "부산광역시, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2396450,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Busan%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:ab2286a5d9c2": {
+    "query": "Busan, South Korea",
+    "latitude": 35.1799528,
+    "longitude": 129.0752365,
+    "display_name": "부산광역시, 대한민국",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 2396450,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Busan%2C+South+Korea&format=jsonv2&addressdetails=1&limit=1&countrycodes=kr"
+  },
+  "PUBLIC_SITE:0a6eeca2ceda": {
+    "query": "Aurora, Colorado, United States",
+    "latitude": 39.7401441,
+    "longitude": -104.8733376,
+    "display_name": "Aurora, Adams County, Colorado, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 112875,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Aurora%2C+Colorado%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:47ec81c21e9b": {
+    "query": "Santa Clara, California, United States",
+    "latitude": 37.2333253,
+    "longitude": -121.6846349,
+    "display_name": "Santa Clara County, California, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 396501,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Santa+Clara%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:c8bfa8498af1": {
+    "query": "Chandler, Arizona, United States",
+    "latitude": 33.3062031,
+    "longitude": -111.841185,
+    "display_name": "Chandler, Maricopa County, Arizona, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 110798,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Chandler%2C+Arizona%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:6dcd851729ca": {
+    "query": "Orange, California, United States",
+    "latitude": 33.750631,
+    "longitude": -117.8722311,
+    "display_name": "Orange County, California, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 396466,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Orange%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:c29f68f58a2c": {
+    "query": "Maple Grove, Minnesota, United States",
+    "latitude": 45.0984983,
+    "longitude": -93.4419222,
+    "display_name": "Maple Grove, Hennepin County, Minnesota, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 136692,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Maple+Grove%2C+Minnesota%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:698018891a66": {
+    "query": "Placentia, California, United States",
+    "latitude": 33.8714814,
+    "longitude": -117.8617337,
+    "display_name": "Placentia, Orange County, California, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 112974,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Placentia%2C+California%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:a71f6943258f": {
+    "query": "Cosoleacaque, Veracruz, Mexico",
+    "latitude": 18.0060183,
+    "longitude": -94.617483,
+    "display_name": "Cosoleacaque, Veracruz, México",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 6037654,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Cosoleacaque%2C+Veracruz%2C+Mexico&format=jsonv2&addressdetails=1&limit=1&countrycodes=mx"
+  },
+  "PUBLIC_SITE:7e89186f4d70": {
+    "query": "Ipojuca, Pernambuco, Brazil",
+    "latitude": -8.3980773,
+    "longitude": -35.0611068,
+    "display_name": "Ipojuca, Pernambuco, Região Nordeste, Brasil",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 303577,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Ipojuca%2C+Pernambuco%2C+Brazil&format=jsonv2&addressdetails=1&limit=1&countrycodes=br"
+  },
+  "PUBLIC_SITE:1b691c379cfb": {
+    "query": "Zárate, Buenos Aires, Argentina",
+    "latitude": -34.0954713,
+    "longitude": -59.0245097,
+    "display_name": "Zárate, Partido de Zárate, Buenos Aires, 2800, Argentina",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 198437342,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Z%C3%A1rate%2C+Buenos+Aires%2C+Argentina&format=jsonv2&addressdetails=1&limit=1&countrycodes=ar"
+  },
+  "PUBLIC_SITE:6ba857d786d9": {
+    "query": "General Pacheco, Buenos Aires, Argentina",
+    "latitude": -34.4537215,
+    "longitude": -58.6351056,
+    "display_name": "General Pacheco, Partido de Tigre, Buenos Aires, Argentina",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1943943,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=General+Pacheco%2C+Buenos+Aires%2C+Argentina&format=jsonv2&addressdetails=1&limit=1&countrycodes=ar"
+  },
+  "PUBLIC_SITE:0a146f9b5e26": {
+    "query": "Redcar, United Kingdom",
+    "latitude": 54.6179021,
+    "longitude": -1.0687914,
+    "display_name": "Redcar, North Yorkshire, Tees Valley, England, TS10 1ED, United Kingdom",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "node",
+    "osm_id": 29792855,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Redcar%2C+United+Kingdom&format=jsonv2&addressdetails=1&limit=1&countrycodes=gb"
+  },
+  "PUBLIC_SITE:b031cc63825e": {
+    "query": "Montreal, Quebec, Canada",
+    "latitude": 45.5031824,
+    "longitude": -73.5698065,
+    "display_name": "Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, Canada",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 1634158,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Montreal%2C+Quebec%2C+Canada&format=jsonv2&addressdetails=1&limit=1&countrycodes=ca"
+  },
+  "PUBLIC_SITE:6c4dd7ceb346": {
+    "query": "Salalah, Oman",
+    "latitude": 17.0174945,
+    "longitude": 54.1010923,
+    "display_name": "ولاية صلالة, محافظة ظفار, عمان",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 19582270,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Salalah%2C+Oman&format=jsonv2&addressdetails=1&limit=1&countrycodes=om"
+  },
+  "PUBLIC_SITE:d0ef24e008fe": {
+    "query": "Kosse, Texas, United States",
+    "latitude": 31.3076774,
+    "longitude": -96.6319231,
+    "display_name": "Kosse, Limestone County, Texas, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 8476276,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Kosse%2C+Texas%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
+  },
+  "PUBLIC_SITE:840a8c656371": {
+    "query": "Lansing, New York, United States",
+    "latitude": 42.4851384,
+    "longitude": -76.4856208,
+    "display_name": "Town of Lansing, Tompkins County, New York, 14882, United States",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 9155335,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Lansing%2C+New+York%2C+United+States&format=jsonv2&addressdetails=1&limit=1&countrycodes=us"
   }
 }

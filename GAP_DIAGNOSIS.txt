@@ -4,42 +4,18 @@ Unresolved is not unavailable. This diagnostic distinguishes source access, prod
 
 The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.
 
-Unresolved supplier nodes: 27 (including categories, stages and utilities).
-
-1 | Main PCB | definition_scoped_supplier_or_process_evidence_still_open
-Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
+Unresolved supplier nodes: 20 (including categories, stages and utilities).
 
 1.4 | VRM Phase | definition_scoped_supplier_or_process_evidence_still_open
 A board circuit function. Phase count and shared versus per-phase capacitors require schematic evidence.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-1.5 | I/O Bracket | definition_scoped_supplier_or_process_evidence_still_open
-Project functional definition; material, dimensions and stamping supplier are design-specific.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-3 | Backplate | definition_scoped_supplier_or_process_evidence_still_open
-Mechanical function is defined; aluminium alloy, insulation and thermal pads are not universally required.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-4 | PCIe Edge Connector | definition_scoped_supplier_or_process_evidence_still_open
-Allocate manufacture to PCB/contact finishing; do not count a motherboard socket as the card part.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 6 | Display Output Cluster | definition_scoped_supplier_or_process_evidence_still_open
 Retain HDMI/DisplayPort/protection children; no separate supplier is required for a grouping label.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
-7 | Cooler Shroud | definition_scoped_supplier_or_process_evidence_still_open
-A custom housing; polymer and metal versions are alternatives. Do not prescribe PC/ABS universally.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
 8 | RGB / LED Lighting | definition_scoped_supplier_or_process_evidence_still_open
 Optional in a generic GPU card. Absence does not prevent the card from processing graphics.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-8.2 | RGB Controller | definition_scoped_supplier_or_process_evidence_still_open
-The submitted MCU and board define one implementation; a dedicated driver IC or main-board integration is also possible.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 RAW-AIR | Atmospheric Air (N2, O2, Ar, Ne, Kr) | definition_scoped_supplier_or_process_evidence_still_open
@@ -84,10 +60,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 LD:polyurethane_matrix | Porous polyurethane polymer matrix | definition_scoped_supplier_or_process_evidence_still_open
 Porosity and formulation depend on pad grade; no separately sold matrix supplier is inferred.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-LD:polyester_felt_backing | PET polyester felt backing | definition_scoped_supplier_or_process_evidence_still_open
-The source supports a felt-based design, not a universal backing required in every CMP pad.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 SC-DI-WATER | Ultrapure Degassed Deionized Water Working Fluid | definition_scoped_supplier_or_process_evidence_still_open

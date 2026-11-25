@@ -1,0 +1,33 @@
+record_id,node_id,vendor_name,source_id,period,market,submitted_rank,submitted_metric,source_rank,source_metric,result,exact_gpu_product_or_factory_qualification
+V01_vendors.csv:37,1.2.1,TSMC,V01_S002,2025 Q3,global foundry revenue,4,71% share,1,71% share,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:41,LD:logic_die_fabricated,TSMC,V01_S002,2025 Q3,global foundry revenue,1,71% share,1,71% share,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:42,LD:logic_die_fabricated,Samsung Foundry,V01_S002,2025 Q3,global foundry revenue,2,6.8% share,2,6.8% share,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:43,LD:logic_die_fabricated,SMIC,V01_S002,2025 Q3,global foundry revenue,3,,3,,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:44,LD:logic_die_fabricated,UMC,V01_S002,2025 Q3,global foundry revenue,4,4.2% share,4,4.2% share,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:45,LD:logic_die_fabricated,GlobalFoundries,V01_S002,2025 Q3,global foundry revenue,5,3.6% share,5,3.6% share,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:46,LD:fabrication,TSMC,V01_S002,2025 Q3,global foundry revenue,1,71% share,1,71% share,market_rank_matches_source,False
+V01_vendors.csv:47,LD:fabrication,Samsung Foundry,V01_S002,2025 Q3,global foundry revenue,2,6.8% share,2,6.8% share,market_rank_matches_source,False
+V01_vendors.csv:48,LD:fabrication,SMIC,V01_S002,2025 Q3,global foundry revenue,3,,3,,market_rank_matches_source,False
+V01_vendors.csv:49,LD:fabrication,UMC,V01_S002,2025 Q3,global foundry revenue,4,4.2% share,4,4.2% share,market_rank_matches_source,False
+V01_vendors.csv:50,LD:fabrication,GlobalFoundries,V01_S002,2025 Q3,global foundry revenue,5,3.6% share,5,3.6% share,market_rank_matches_source,False
+V01_vendors.csv:51,LD:fabrication,Hua Hong Group,V01_S002,2025 Q3,global foundry revenue,6,2.6% share,6,2.6% share,market_rank_matches_source,False
+V01_vendors.csv:52,LD:fabrication,Vanguard International Semiconductor,V01_S002,2025 Q3,global foundry revenue,7,,7,,market_rank_matches_source,False
+V01_vendors.csv:53,LD:fabrication,Nexchip,V01_S002,2025 Q3,global foundry revenue,8,,8,,market_rank_matches_source,False
+V01_vendors.csv:54,LD:fabrication,Tower Semiconductor,V01_S002,2025 Q3,global foundry revenue,9,,9,,market_rank_matches_source,False
+V01_vendors.csv:55,LD:fabrication,PSMC,V01_S002,2025 Q3,global foundry revenue,10,,10,,market_rank_matches_source,False
+V01_vendors.csv:56,LD:assembly_packaging_testing,ASE Technology Holding (incl. SPIL),V01_S003,2024,outsourced assembly and test revenue,1,US$18.54B revenue,1,US$18.54B revenue,market_rank_matches_source,False
+V01_vendors.csv:57,LD:assembly_packaging_testing,Amkor Technology,V01_S003,2024,outsourced assembly and test revenue,2,US$6.32B revenue,2,US$6.32B revenue,market_rank_matches_source,False
+V01_vendors.csv:58,LD:assembly_packaging_testing,JCET Group,V01_S003,2024,outsourced assembly and test revenue,3,US$5.0B revenue,3,US$5.0B revenue,market_rank_matches_source,False
+V01_vendors.csv:59,LD:assembly_packaging_testing,Tongfu Microelectronics,V01_S003,2024,outsourced assembly and test revenue,4,US$3.32B revenue,4,US$3.32B revenue,market_rank_matches_source,False
+V01_vendors.csv:60,LD:assembly_packaging_testing,Powertech Technology,V01_S003,2024,outsourced assembly and test revenue,5,US$2.28B revenue,5,US$2.28B revenue,market_rank_matches_source,False
+V01_vendors.csv:61,LD:assembly_packaging_testing,HT-Tech (Tianshui Huatian),V01_S003,2024,outsourced assembly and test revenue,6,US$2.01B revenue,6,US$2.01B revenue,market_rank_matches_source,False
+V01_vendors.csv:62,LD:assembly_packaging_testing,WiseRoad,V01_S003,2024,outsourced assembly and test revenue,7,US$1.56B revenue,7,US$1.56B revenue,market_rank_matches_source,False
+V01_vendors.csv:63,LD:assembly_packaging_testing,Hana Micron,V01_S003,2024,outsourced assembly and test revenue,8,US$0.92B revenue,8,US$0.92B revenue,market_rank_matches_source,False
+V01_vendors.csv:64,LD:assembly_packaging_testing,KYEC (King Yuan Electronics),V01_S003,2024,outsourced assembly and test revenue,9,US$0.91B revenue,9,US$0.91B revenue,market_rank_matches_source,False
+V01_vendors.csv:65,LD:assembly_packaging_testing,TSMC (advanced packaging),V01_S002,2025 Q3,global foundry revenue,10,,,,supplier_role_or_name_outside_cited_table,False
+V01_vendors.csv:66,1.2,ASE Technology Holding (incl. SPIL),V01_S003,2024,outsourced assembly and test revenue,1,US$18.54B revenue,1,US$18.54B revenue,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:67,1.2,Amkor Technology,V01_S003,2024,outsourced assembly and test revenue,2,US$6.32B revenue,2,US$6.32B revenue,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:68,1.2,JCET Group,V01_S003,2024,outsourced assembly and test revenue,3,US$5.0B revenue,3,US$5.0B revenue,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:69,1.2,Tongfu Microelectronics,V01_S003,2024,outsourced assembly and test revenue,4,US$3.32B revenue,4,US$3.32B revenue,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:70,1.2,Powertech Technology,V01_S003,2024,outsourced assembly and test revenue,5,US$2.28B revenue,5,US$2.28B revenue,market_rank_has_broader_scope_than_node,False
+V01_vendors.csv:71,1.2,TSMC (advanced packaging),V01_S002,2025 Q3,global foundry revenue,6,,,,supplier_role_or_name_outside_cited_table,False

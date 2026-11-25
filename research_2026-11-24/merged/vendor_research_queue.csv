@@ -5,8 +5,7 @@ Gigabyte,0;1,no_exact_name_site_match_alias_or_site_research_needed
 Palit Microsystems (Palit/Gainward),0,no_exact_name_site_match_alias_or_site_research_needed
 PC Partner (Zotac/Inno3D),0,no_exact_name_site_match_alias_or_site_research_needed
 NVIDIA (Founders Edition),0,no_exact_name_site_match_alias_or_site_research_needed
-Palit Microsystems,1;8;8.2,no_exact_name_site_match_alias_or_site_research_needed
-PC Partner,1,no_exact_name_site_match_alias_or_site_research_needed
+Palit Microsystems,1;7;8;8.2,no_exact_name_site_match_alias_or_site_research_needed
 Hon Hai Precision (Foxconn),1,no_exact_name_site_match_alias_or_site_research_needed
 Zhen Ding Technology,1.1;4;8.2.1,no_exact_name_site_match_alias_or_site_research_needed
 Unimicron,1.1;1.2.2;8.2.1;LD:plastic_substrate;LD:substrates;SC-FBGA-SUB,no_exact_name_site_match_alias_or_site_research_needed
@@ -150,7 +149,6 @@ Diodes Incorporated,6.3;SC-FAN-DRIVER-IC;SC-TVS-DIE,no_exact_name_site_match_ali
 ASUSTeK Computer,8;8.2,no_exact_name_site_match_alias_or_site_research_needed
 Micro-Star International (MSI),8;8.2,no_exact_name_site_match_alias_or_site_research_needed
 Gigabyte Technology,8;8.2,no_exact_name_site_match_alias_or_site_research_needed
-PC Partner (Zotac),8;8.2,no_exact_name_site_match_alias_or_site_research_needed
 Nichia,8.1;SC-LED-DIE;SC-PHOSPHOR,no_exact_name_site_match_alias_or_site_research_needed
 ams OSRAM,8.1;SC-LED-DIE,no_exact_name_site_match_alias_or_site_research_needed
 Samsung Electronics (LED business),8.1,no_exact_name_site_match_alias_or_site_research_needed
@@ -161,7 +159,7 @@ Foshan NationStar Optoelectronics,8.1,no_exact_name_site_match_alias_or_site_res
 Renesas Electronics,8.2.2;SC-MCU-DIE,no_exact_name_site_match_alias_or_site_research_needed
 NXP Semiconductors,8.2.2;SC-MCU-DIE,no_exact_name_site_match_alias_or_site_research_needed
 Microchip Technology,8.2.2,no_exact_name_site_match_alias_or_site_research_needed
-Texas Instruments,8.2.2;SC-FAN-DRIVER-IC,no_exact_name_site_match_alias_or_site_research_needed
+Texas Instruments,8.2;8.2.2;SC-FAN-DRIVER-IC,no_exact_name_site_match_alias_or_site_research_needed
 Nuvoton Technology,8.2.2,no_exact_name_site_match_alias_or_site_research_needed
 United Microelectronics (UMC),SC-MCU-DIE,no_exact_name_site_match_alias_or_site_research_needed
 Sanan Optoelectronics,SC-LED-DIE,no_exact_name_site_match_alias_or_site_research_needed
@@ -263,11 +261,9 @@ AIM Solder,SC-SOLDER-PASTE,no_exact_name_site_match_alias_or_site_research_neede
 Shenmao Technology,SC-SOLDER-BALL;SC-SOLDER-PASTE,no_exact_name_site_match_alias_or_site_research_needed
 DS HiMetal,SC-SOLDER-BALL,no_exact_name_site_match_alias_or_site_research_needed
 MK Electron,LD:bond_wires;LD:fine_metal_wire;SC-BOND-WIRE;SC-SOLDER-BALL,no_exact_name_site_match_alias_or_site_research_needed
-Nippon Micrometal,LD:bond_wires;LD:fine_metal_wire;SC-BOND-WIRE;SC-SOLDER-BALL,no_exact_name_site_match_alias_or_site_research_needed
 Accurus Scientific,SC-SOLDER-BALL,no_exact_name_site_match_alias_or_site_research_needed
 Yunnan Tin,SC-SOLDER-BALL,no_exact_name_site_match_alias_or_site_research_needed
 TANAKA Precious Metal Technologies,SC-BOND-WIRE,no_exact_name_site_match_alias_or_site_research_needed
-Henkel (Loctite Ablestik),SC-DIE-ATTACH,no_exact_name_site_match_alias_or_site_research_needed
 Resonac Holdings,SC-DIE-ATTACH,no_exact_name_site_match_alias_or_site_research_needed
 Resonac Holdings (ex-Showa Denko/Hitachi Chemical),SC-EMC,no_exact_name_site_match_alias_or_site_research_needed
 ASMPT/AAMI (Advanced Assembly Materials International),SC-CU-LEADFRAME,no_exact_name_site_match_alias_or_site_research_needed
@@ -329,7 +325,6 @@ TANAKA (incl. Metalor),LD:silver_flakes_solder,no_exact_name_site_match_alias_or
 DOWA Electronics Materials,LD:silver_flakes_solder;PM-FE-POWDER,no_exact_name_site_match_alias_or_site_research_needed
 Ames Goldsmith,LD:silver_flakes_solder,no_exact_name_site_match_alias_or_site_research_needed
 Westlake Epoxy,LD:epoxy_resin;PM-EPOXY-RESIN,no_exact_name_site_match_alias_or_site_research_needed
-Kukdo Chemical,LD:epoxy_resin;PM-EPOXY-RESIN,no_exact_name_site_match_alias_or_site_research_needed
 DIC,LD:epoxy_resin;LD:phenolic_hardener;PM-EPOXY-RESIN,no_exact_name_site_match_alias_or_site_research_needed
 Aditya Birla Chemicals,LD:epichlorohydrin;LD:epoxy_resin,no_exact_name_site_match_alias_or_site_research_needed
 Sinopec,LD:acetic_acid;LD:benzene_aromatics;LD:bisphenol_a;LD:epoxy_resin;LD:ethylene;LD:ethylene_glycol;LD:hydrogen;LD:propylene;RAW-SULFUR,no_exact_name_site_match_alias_or_site_research_needed
@@ -340,10 +335,8 @@ Kolon Industries,DC-PHOTORESIST;LD:phenolic_hardener,no_exact_name_site_match_al
 Tatsumori,LD:fused_silica_filler;PM-FUSED-SILICA,no_exact_name_site_match_alias_or_site_research_needed
 Nippon Steel Chemical & Material,LD:fused_silica_filler;PM-EPOXY-RESIN,no_exact_name_site_match_alias_or_site_research_needed
 Jiangsu Novoray New Material,LD:fused_silica_filler;PM-FUSED-SILICA,no_exact_name_site_match_alias_or_site_research_needed
-Birla Carbon,LD:carbon_black,no_exact_name_site_match_alias_or_site_research_needed
 Orion S.A.,LD:carbon_black,no_exact_name_site_match_alias_or_site_research_needed
 Jiangxi Black Cat Carbon Black,LD:carbon_black,no_exact_name_site_match_alias_or_site_research_needed
-PCBL Chemical,LD:carbon_black,no_exact_name_site_match_alias_or_site_research_needed
 Tokai Carbon,LD:carbon_black;LD:graphite_electrodes,no_exact_name_site_match_alias_or_site_research_needed
 Shin-Etsu Chemical (Shin-Etsu Handotai),LD:wafer;PM-SI-WAFER,no_exact_name_site_match_alias_or_site_research_needed
 Soitec,LD:wafer;PM-SI-WAFER,no_exact_name_site_match_alias_or_site_research_needed
@@ -615,7 +608,7 @@ Yara,LD:synthesis_gas,no_exact_name_site_match_alias_or_site_research_needed
 Proman,LD:methanol,no_exact_name_site_match_alias_or_site_research_needed
 Zagros Petrochemical,LD:methanol,no_exact_name_site_match_alias_or_site_research_needed
 Yankuang Energy,LD:methanol,no_exact_name_site_match_alias_or_site_research_needed
-Celanese,LD:methanol;PM-LCP-POLYMER;PM-PA66-POLYMER;PM-PBT-POLYMER;PM-PPA-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
+Celanese,LD:methanol;PM-PA66-POLYMER;PM-PBT-POLYMER;PM-PPA-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
 ExxonMobil,DC-CUTTING-FLUID;DC-STAMP-LUBE;LD:benzene_aromatics;LD:ethylene;LD:propylene;RAW-CRUDE-OIL;RAW-NATURAL-GAS;RAW-SULFUR,no_exact_name_site_match_alias_or_site_research_needed
 National Petrochemical Co. (NPC),LD:ethylene,no_exact_name_site_match_alias_or_site_research_needed
 Rongsheng Petrochemical,LD:benzene_aromatics,no_exact_name_site_match_alias_or_site_research_needed
@@ -647,7 +640,6 @@ Chi Mei,PM-PC-ABS-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
 Hengyi Petrochemical,PM-PET-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
 Tongkun Group,PM-PET-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
 Xinfengming Group,PM-PET-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
-Alpek,PM-PET-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
 Far Eastern New Century,PM-PET-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
 DuPont Teijin Films,PM-PET-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
 Syensqo (Amodel),PM-PPA-POLYMER,no_exact_name_site_match_alias_or_site_research_needed
@@ -876,7 +868,6 @@ Orbia (Koura / Fluor & Energy Materials),RAW-FLUORSPAR,no_exact_name_site_match_
 China Kings Resources Group,RAW-FLUORSPAR,no_exact_name_site_match_alias_or_site_research_needed
 Mongolrostsvetmet,RAW-FLUORSPAR,no_exact_name_site_match_alias_or_site_research_needed
 K+S,RAW-HALITE-BRINE;RAW-POTASH-SYLVITE,no_exact_name_site_match_alias_or_site_research_needed
-Cargill (Cargill Salt),RAW-HALITE-BRINE,no_exact_name_site_match_alias_or_site_research_needed
 China National Salt Industry Group,RAW-HALITE-BRINE,no_exact_name_site_match_alias_or_site_research_needed
 Morton Salt,RAW-HALITE-BRINE,no_exact_name_site_match_alias_or_site_research_needed
 ICL Group,RAW-HALITE-BRINE;RAW-POTASH-SYLVITE,no_exact_name_site_match_alias_or_site_research_needed
@@ -895,7 +886,6 @@ Nacional de Grafite,RAW-NATURAL-GRAPHITE,no_exact_name_site_match_alias_or_site_
 The Quartz Corp,RAW-PEGMATITE-QUARTZ;RAW-QUARTZ,no_exact_name_site_match_alias_or_site_research_needed
 Jiangsu Pacific Quartz,RAW-PEGMATITE-QUARTZ;RAW-QUARTZ,no_exact_name_site_match_alias_or_site_research_needed
 Covia,RAW-QUARTZ,no_exact_name_site_match_alias_or_site_research_needed
-U.S. Silica,RAW-QUARTZ,no_exact_name_site_match_alias_or_site_research_needed
 OCP Group,RAW-PHOSPHATE-ROCK,no_exact_name_site_match_alias_or_site_research_needed
 Yunnan Yuntianhua,RAW-PHOSPHATE-ROCK,no_exact_name_site_match_alias_or_site_research_needed
 Uralkali,RAW-POTASH-SYLVITE,no_exact_name_site_match_alias_or_site_research_needed
@@ -910,7 +900,10 @@ Sisecam (Sisecam Wyoming),RAW-TRONA-SODA-ASH,no_exact_name_site_match_alias_or_s
 Solvay (Green River),RAW-TRONA-SODA-ASH,no_exact_name_site_match_alias_or_site_research_needed
 Tata Chemicals (Green River),RAW-TRONA-SODA-ASH,no_exact_name_site_match_alias_or_site_research_needed
 Inner Mongolia Boyuan Chemical,RAW-TRONA-SODA-ASH,no_exact_name_site_match_alias_or_site_research_needed
+Matrox,1.5,no_exact_name_site_match_alias_or_site_research_needed
+PNY,1.5,no_exact_name_site_match_alias_or_site_research_needed
 Semblex,2.6;SC-ALLOY-STEEL-WIRE,no_exact_name_site_match_alias_or_site_research_needed
+EK Water Blocks,3,no_exact_name_site_match_alias_or_site_research_needed
 Cree LED,8.1,no_exact_name_site_match_alias_or_site_research_needed
 Nuvoton,8.2.2;SC-MCU-DIE,no_exact_name_site_match_alias_or_site_research_needed
 Columbia Chemical,DC-ANODIZE-CHEM,no_exact_name_site_match_alias_or_site_research_needed
@@ -958,6 +951,7 @@ EMD Electronics,LD:photoresists,no_exact_name_site_match_alias_or_site_research_
 JHM,LD:photoresists;LD:wet_chemicals,no_exact_name_site_match_alias_or_site_research_needed
 Kempur,LD:photoresists,no_exact_name_site_match_alias_or_site_research_needed
 Qnity Electronics,LD:polishing_pads,no_exact_name_site_match_alias_or_site_research_needed
+Superior Felt & Filtration,LD:polyester_felt_backing,no_exact_name_site_match_alias_or_site_research_needed
 Metallurgical Products India,LD:potassium_heptafluorotantalate,no_exact_name_site_match_alias_or_site_research_needed
 Metaux Speciaux / MSSA,LD:sodium_metal,no_exact_name_site_match_alias_or_site_research_needed
 AKM,LD:substrates,no_exact_name_site_match_alias_or_site_research_needed

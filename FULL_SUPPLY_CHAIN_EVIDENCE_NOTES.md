@@ -103,8 +103,8 @@ it does not silently turn those proposals into an exact product BOM.
 
 ## Current research pass
 
-The extension contains 262 nodes with supplier-candidate evidence out of the 289
-submitted nodes, 430 supplier-to-node records, and 334 production-asset records.
+The extension contains 269 nodes with supplier-candidate evidence out of the 289
+submitted nodes, 465 supplier-to-node records, and 380 production-asset records.
 These are not completion percentages: category nodes, process stages, internal
 subcomponents and purchased materials have different evidence requirements.
 Supplier capability does not establish market coverage or a qualified substitute.
@@ -113,9 +113,9 @@ The second pass added 70 public production-asset records and 47 supplier-node
 records. A further gap pass added three previously unmapped material nodes
 (WC-Co hardmetal, silicone-coated PET liners and matte-tin bath chemistry),
 12 production-asset records, and one scoped PET-carrier relationship. Among
-the current 430 supplier-node records, 105 have an explicitly documented
-product-class site match, 139 have company sites but unconfirmed product
-allocation, 185 lack a matched site in this package, and one is a fabless
+the current 465 supplier-node records, 112 have an explicitly documented
+product-class site match, 141 have company sites but unconfirmed product
+allocation, 211 lack a matched site in this package, and one is a fabless
 designer. Product-class matches still do not prove exact grades, customer
 qualification or independent operational backups. Some records describe units
 within a common complex. The facility table flags company/city record counts;
@@ -132,7 +132,7 @@ original edge has a reversible decision record. Remaining links are not all
 verified: process expansion, design alternatives and material recipes still
 require validation before redundancy or lead-time analysis.
 
-The cumulative process register researches 130 original relationship claims and adds 18
+The cumulative process register researches 133 original relationship claims and adds 18
 process/component nodes and 23 links, and separates wafer production, passive
 device families, mask technologies and several chemical intermediates. Six
 Murata capacitor production locations are added. Shinko aliases are merged to

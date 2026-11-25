@@ -1,57 +1,9 @@
 {
   "nodes_without_supplier_candidates": [
     {
-      "node_id": "1",
-      "node_name": "Main PCB",
-      "node_type": "assembly",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
       "node_id": "1.4",
       "node_name": "VRM Phase",
       "node_type": "assembly",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "1.5",
-      "node_name": "I/O Bracket",
-      "node_type": "part",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "3",
-      "node_name": "Backplate",
-      "node_type": "part",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "4",
-      "node_name": "PCIe Edge Connector",
-      "node_type": "part",
       "vendor_count": "0",
       "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
       "procurement_treatment": "supplier_research_required",
@@ -73,32 +25,8 @@
       "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
     },
     {
-      "node_id": "7",
-      "node_name": "Cooler Shroud",
-      "node_type": "part",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
       "node_id": "8",
       "node_name": "RGB / LED Lighting",
-      "node_type": "assembly",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "8.2",
-      "node_name": "RGB Controller",
       "node_type": "assembly",
       "vendor_count": "0",
       "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
@@ -231,18 +159,6 @@
     {
       "node_id": "LD:polyurethane_matrix",
       "node_name": "Porous polyurethane polymer matrix",
-      "node_type": "intermediate_chemical_or_material",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "LD:polyester_felt_backing",
-      "node_name": "PET polyester felt backing",
       "node_type": "intermediate_chemical_or_material",
       "vendor_count": "0",
       "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
@@ -507,6 +423,30 @@
       "source_ids": ""
     },
     {
+      "node_id": "1.5",
+      "node_name": "I/O Bracket",
+      "provider_name": "Matrox",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "1.5",
+      "node_name": "I/O Bracket",
+      "provider_name": "PNY",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "1.6",
       "node_name": "SMD Passive (R/C/L)",
       "provider_name": "Murata",
@@ -627,6 +567,30 @@
       "source_ids": ""
     },
     {
+      "node_id": "3",
+      "node_name": "Backplate",
+      "provider_name": "EK Water Blocks",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "4",
+      "node_name": "PCIe Edge Connector",
+      "provider_name": "AdvancedPCB",
+      "public_site_count": 6,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:0a6eeca2ceda;PUBLIC_SITE:c8bfa8498af1;PUBLIC_SITE:c29f68f58a2c;PUBLIC_SITE:6dcd851729ca;PUBLIC_SITE:698018891a66;PUBLIC_SITE:47ec81c21e9b",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "5",
       "node_name": "Auxiliary Power Connector",
       "provider_name": "Amphenol",
@@ -699,6 +663,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "7",
+      "node_name": "Cooler Shroud",
+      "provider_name": "Palit Microsystems",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "8.1",
       "node_name": "RGB LED",
       "provider_name": "Cree LED",
@@ -725,7 +701,55 @@
     {
       "node_id": "8.1",
       "node_name": "RGB LED",
+      "provider_name": "Foshan NationStar Optoelectronics",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.1",
+      "node_name": "RGB LED",
       "provider_name": "Nichia",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.1",
+      "node_name": "RGB LED",
+      "provider_name": "Seoul Semiconductor",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.1",
+      "node_name": "RGB LED",
+      "provider_name": "ams OSRAM",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2",
+      "node_name": "RGB Controller",
+      "provider_name": "Texas Instruments",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
@@ -1211,6 +1235,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "UP_AFT_GUNMA;UP_AFT_KAWASAKI",
       "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "LD:carbon_black",
+      "node_name": "Carbon black pigment",
+      "provider_name": "Orion S.A.",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -1923,6 +1959,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "LD:fused_silica_filler",
+      "node_name": "Fused silica powder filler",
+      "provider_name": "Jiangsu Novoray New Material",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "LD:helium",
       "node_name": "Helium",
       "provider_name": "Linde",
@@ -2559,6 +2607,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "LD:polyester_felt_backing",
+      "node_name": "PET polyester felt backing",
+      "provider_name": "Superior Felt & Filtration",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "LD:potassium_heptafluorotantalate",
       "node_name": "Potassium heptafluorotantalate (K2TaF7)",
       "provider_name": "Metallurgical Products India",
@@ -3111,6 +3171,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "LD:white_phosphorus",
+      "node_name": "Elemental white phosphorus",
+      "provider_name": "Kazphosphate",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "PM-ACRYLIC-PU",
       "node_name": "Acrylic-Polyurethane Protective Coating & Ink Resin",
       "provider_name": "Covestro",
@@ -3174,6 +3246,30 @@
       "node_id": "PM-EPOXY-RESIN",
       "node_name": "Bisphenol-A / Cresol-Novolac Epoxy Resin & Hardener",
       "provider_name": "DIC",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "PM-EPOXY-RESIN",
+      "node_name": "Bisphenol-A / Cresol-Novolac Epoxy Resin & Hardener",
+      "provider_name": "Mitsubishi Chemical",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "PM-EPOXY-RESIN",
+      "node_name": "Bisphenol-A / Cresol-Novolac Epoxy Resin & Hardener",
+      "provider_name": "Westlake Epoxy",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
@@ -3303,6 +3399,30 @@
       "source_ids": ""
     },
     {
+      "node_id": "PM-PA66-POLYMER",
+      "node_name": "Polyamide 66 (Nylon 6,6) Resin",
+      "provider_name": "Domo Chemicals",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "PM-PA66-POLYMER",
+      "node_name": "Polyamide 66 (Nylon 6,6) Resin",
+      "provider_name": "Shenma Industrial",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "PM-PBT-POLYMER",
       "node_name": "Polybutylene Terephthalate (PBT) Engineering Resin",
       "provider_name": "Celanese",
@@ -3317,7 +3437,31 @@
     {
       "node_id": "PM-PC-ABS-POLYMER",
       "node_name": "Polycarbonate / ABS (PC/ABS) Flame-Retardant Blend",
+      "provider_name": "Chi Mei",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "PM-PC-ABS-POLYMER",
+      "node_name": "Polycarbonate / ABS (PC/ABS) Flame-Retardant Blend",
       "provider_name": "Covestro",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "PM-PET-POLYMER",
+      "node_name": "Polyethylene Terephthalate (PET) Polyester Resin",
+      "provider_name": "Far Eastern New Century",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
@@ -3617,6 +3761,18 @@
     {
       "node_id": "RAW-CRUDE-OIL",
       "node_name": "Crude Petroleum",
+      "provider_name": "Chevron",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "RAW-CRUDE-OIL",
+      "node_name": "Crude Petroleum",
       "provider_name": "ExxonMobil",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
@@ -3675,9 +3831,45 @@
       "source_ids": ""
     },
     {
+      "node_id": "RAW-LIMESTONE",
+      "node_name": "Limestone & Dolomite",
+      "provider_name": "Graymont",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "RAW-NATURAL-GAS",
       "node_name": "Natural Gas (Methane / Ethane / Propane & NGLs)",
       "provider_name": "ExxonMobil",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "RAW-NATURAL-GAS",
+      "node_name": "Natural Gas (Methane / Ethane / Propane & NGLs)",
+      "provider_name": "Novatek",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "RAW-NATURAL-GAS",
+      "node_name": "Natural Gas (Methane / Ethane / Propane & NGLs)",
+      "provider_name": "Shell",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",
@@ -3831,6 +4023,42 @@
       "source_ids": ""
     },
     {
+      "node_id": "SC-BOND-WIRE",
+      "node_name": "Ultrafine Gold / Pd-Coated Copper Bonding Wire",
+      "provider_name": "MK Electron",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "SC-BOND-WIRE",
+      "node_name": "Ultrafine Gold / Pd-Coated Copper Bonding Wire",
+      "provider_name": "Nippon Micrometal",
+      "public_site_count": 2,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:f3ae772b3b9d;PUBLIC_SITE:2b20870aa9a8",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "SC-BOND-WIRE",
+      "node_name": "Ultrafine Gold / Pd-Coated Copper Bonding Wire",
+      "provider_name": "TANAKA Precious Metal Technologies",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "SC-CCL",
       "node_name": "Copper-Clad FR-4 Laminate Core",
       "provider_name": "Panasonic Industry",
@@ -3930,6 +4158,30 @@
       "node_id": "SC-FE-POWDER-CORE",
       "node_name": "Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core",
       "provider_name": "Micrometals",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "SC-LCP-GF",
+      "node_name": "Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator",
+      "provider_name": "Celanese",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "SC-LCP-GF",
+      "node_name": "Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator",
+      "provider_name": "Polyplastics",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",

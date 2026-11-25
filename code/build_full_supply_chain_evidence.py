@@ -30,6 +30,7 @@ import component_definition_research  # scoped definitions and fourth-pass evide
 import process_validation_research
 import remaining_public_research
 import claude_followup_research
+import supplier_backlog_research
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -792,6 +793,16 @@ def export_enriched_data(graph, edges, vendors, facilities, hubs, site_coverage,
              destination_facility_id=site_ids[row['destination']])
         for row in claude_followup_research.DISCLOSED_FREIGHT
     ]
+    lead_time_disclosures = [
+        dict(row, facility_id=site_ids[row['facility_name']])
+        if 'facility_name' in row else row
+        for row in claude_followup_research.LEAD_TIME_DISCLOSURES
+    ]
+    supply_qualification = [
+        dict(row, facility_ids=[site_ids[name] for name in row['facility_names']])
+        if 'facility_names' in row else row
+        for row in claude_followup_research.REFERENCE_SUPPLY_QUALIFICATION
+    ]
     enriched={
         'metadata':{'reviewed_on':REVIEW_DATE,'original_graph_preserved':True,
                     'scope':'Public evidence extension; no confidential procurement or qualified-alternative claim',
@@ -799,8 +810,8 @@ def export_enriched_data(graph, edges, vendors, facilities, hubs, site_coverage,
         'nodes':[dict(n,vendor_candidates=vendor_by_node[str(n['id'])], component_definition=component_definition_research.DEFINITIONS.get(str(n['id']))) for n in graph['nodes']],
         'edges':edges,'facilities':facilities,'nearby_hub_candidates':hubs,
         'disclosed_freight_corridors':disclosed_freight,
-        'lead_time_disclosures':claude_followup_research.LEAD_TIME_DISCLOSURES,
-        'reference_supply_qualification':claude_followup_research.REFERENCE_SUPPLY_QUALIFICATION,
+        'lead_time_disclosures':lead_time_disclosures,
+        'reference_supply_qualification':supply_qualification,
         'vendor_site_coverage':site_coverage,'modeling_issues':issues,
         'sources':read_csv(CLEAN/'sources.csv'),
     }

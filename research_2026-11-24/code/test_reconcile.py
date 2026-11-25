@@ -43,6 +43,17 @@ class ReconciliationTests(unittest.TestCase):
             for field in ('source_ids','prior_source_ids','alias_source_ids'):
                 self.assertTrue(set(filter(None,r.get(field,'').split(';')))<=sources)
 
+    def test_screen_and_market_review_preserve_claim_boundaries(self):
+        candidates = {r['record_id']: r for r in rows('vendor_candidates.csv')}
+        for screen in rows('vendor_citation_screen.csv'):
+            record = candidates[screen['record_id']]
+            self.assertIn(screen['source_id'], record['source_ids'].split(';'))
+            self.assertEqual(screen['node_id'], record['node_id'])
+        for review in rows('manual_market_claim_reviews.csv'):
+            record = candidates[review['record_id']]
+            self.assertEqual(review['result'], record['ranking_review_status'])
+            self.assertEqual(review['exact_gpu_product_or_factory_qualification'], 'False')
+
     def test_site_joins_do_not_imply_backups(self):
         sites={r['facility_id'] for r in rows('production_sites.csv')}
         candidates={r['record_id'] for r in rows('vendor_candidates.csv')}

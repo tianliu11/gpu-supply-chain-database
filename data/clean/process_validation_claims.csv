@@ -106,7 +106,7 @@ E0025,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a 
 E0026,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers."
 E0027,R9_ZOTAC_CARD,supported_component_family,"One commercial card documents a metal backplate, PCIe interface, 12V-2x6 power input and both display-port families. The original generic graph does not establish exact part suppliers."
 E0030,R9_ZOTAC_CARD,supported_optional_design_feature,The named card includes RGB lighting. Keep this as a model-dependent feature and do not infer a separate controller PCB.
-E0006,R9_ZOTAC_CARD,supported_component_family,The reference 5080 card uses GDDR7. GDDR6/GDDR6X descendants in the submitted graph represent a different configuration and cannot be inherited as its recipe.
+E0006,R12_PCP_PRODUCTS,supported_component_family,"Manufacturer uses bare PCBs, graphics chips and memory in card assembly. Exact package type and board model remain design-specific."
 E0511,R8_ISOLA_FR4,supported_material_class_composition,Woven E-glass fabric is documented for this laminate/prepreg system. Chopped strands are a separate branch.
 E0538,R8_ISOLA_FR4,supported_material_class_composition,Woven E-glass fabric is documented for this laminate/prepreg system. Chopped strands are a separate branch.
 E0567,R8_ISOLA_FR4,supported_material_class_composition,The product uses an epoxy system. The submitted specific resin/hardener formulation remains open.
@@ -129,3 +129,6 @@ E0197,R7_EPA_CHLORALKALI,supported_upstream_process_not_direct_input,"Sodium-chl
 E0023,R10_AMPHENOL_POWER,supported_component_family,Commercial GPU auxiliary power interface includes the connector. Exact part number is design-specific.
 E0556,R11_TECHCERAMIC_YSZ,supported_material_class_composition,Commercial yttria-stabilized zirconia setters establish this material option. Actual use and lifetime remain process-specific.
 E0478,R11_COLUMBIA_ANODIZE,supported_formulation_option,Supports the sulfuric-acid bath branch. Other chemicals in the combined industrial-input node and exact dyes require separate evidence.
+E0001,R12_PCP_PRODUCTS,supported_component_family,"Manufacturer uses bare PCBs, graphics chips and memory in card assembly. Exact package type and board model remain design-specific."
+E0002,R12_PCP_PRODUCTS,supported_component_family,"Manufacturer uses bare PCBs, graphics chips and memory in card assembly. Exact package type and board model remain design-specific."
+E0003,R12_PCP_PRODUCTS,supported_component_family,"Manufacturer uses bare PCBs, graphics chips and memory in card assembly. Exact package type and board model remain design-specific."

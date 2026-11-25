@@ -8,46 +8,14 @@
     "PM-ACRYLIC-PU"
   ],
   "counts": {
-    "definition_scoped_supplier_or_process_evidence_still_open": 27
+    "definition_scoped_supplier_or_process_evidence_still_open": 20
   },
   "unresolved_nodes": [
-    {
-      "node_id": "1",
-      "node_name": "Main PCB",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
     {
       "node_id": "1.4",
       "node_name": "VRM Phase",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "A board circuit function. Phase count and shared versus per-phase capacitors require schematic evidence.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "1.5",
-      "node_name": "I/O Bracket",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Project functional definition; material, dimensions and stamping supplier are design-specific.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "3",
-      "node_name": "Backplate",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Mechanical function is defined; aluminium alloy, insulation and thermal pads are not universally required.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "4",
-      "node_name": "PCIe Edge Connector",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Allocate manufacture to PCB/contact finishing; do not count a motherboard socket as the card part.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
@@ -60,26 +28,10 @@
       "evidence_absence_claim": false
     },
     {
-      "node_id": "7",
-      "node_name": "Cooler Shroud",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "A custom housing; polymer and metal versions are alternatives. Do not prescribe PC/ABS universally.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
       "node_id": "8",
       "node_name": "RGB / LED Lighting",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Optional in a generic GPU card. Absence does not prevent the card from processing graphics.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "8.2",
-      "node_name": "RGB Controller",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "The submitted MCU and board define one implementation; a dedicated driver IC or main-board integration is also possible.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
@@ -168,14 +120,6 @@
       "node_name": "Porous polyurethane polymer matrix",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "Porosity and formulation depend on pad grade; no separately sold matrix supplier is inferred.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "LD:polyester_felt_backing",
-      "node_name": "PET polyester felt backing",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "The source supports a felt-based design, not a universal backing required in every CMP pad.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },

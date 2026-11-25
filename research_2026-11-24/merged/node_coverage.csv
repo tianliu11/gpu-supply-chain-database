@@ -1,6 +1,6 @@
 node_id,node_name,claude_batch_present,prior_capability_rows,cited_rows_pending_review,uncited_rows,placeholder_rows,company_site_links
 0,Graphics Card (GPU),True,1,5,0,0,0
-1,Main PCB,True,0,6,0,0,0
+1,Main PCB,True,1,5,0,0,2
 1.1,Bare PCB,True,2,10,0,0,20
 1.2,GPU Package,True,1,5,0,0,5
 1.2.1,GPU Die,True,2,2,0,0,4
@@ -10,7 +10,7 @@ node_id,node_name,claude_batch_present,prior_capability_rows,cited_rows_pending_
 1.4.1,VRM Power Stage,True,2,5,0,0,14
 1.4.2,VRM Inductor,True,1,9,0,0,4
 1.4.3,SMD Passive (R/C/L),True,2,9,0,0,10
-1.5,I/O Bracket,True,0,0,0,1,0
+1.5,I/O Bracket,True,2,0,0,1,0
 1.6,SMD Passive (R/C/L),True,2,9,0,0,10
 2,Cooler,True,1,7,0,0,8
 2.1,Vapor Chamber Base,True,1,8,0,0,8
@@ -19,8 +19,8 @@ node_id,node_name,claude_batch_present,prior_capability_rows,cited_rows_pending_
 2.4,Blower Motor,True,2,6,0,0,4
 2.5,Thermal Pad Set,True,1,8,0,0,6
 2.6,Fastener Set,True,1,0,0,1,0
-3,Backplate,True,0,0,0,1,0
-4,PCIe Edge Connector,True,0,9,0,0,0
+3,Backplate,True,1,0,0,1,0
+4,PCIe Edge Connector,True,1,9,0,0,6
 5,Auxiliary Power Connector,True,1,1,0,0,0
 5.1,Connector,True,1,4,0,0,0
 5.2,Power Sense Pin,True,1,1,0,0,0
@@ -28,10 +28,10 @@ node_id,node_name,claude_batch_present,prior_capability_rows,cited_rows_pending_
 6.1,HDMI Port,True,1,6,0,0,0
 6.2,DisplayPort,True,1,6,0,0,0
 6.3,Output ESD Array,True,1,9,0,0,5
-7,Cooler Shroud,True,0,0,0,1,0
-8,RGB / LED Lighting,True,0,0,5,0,0
-8.1,RGB LED,True,3,0,5,0,0
-8.2,RGB Controller,True,0,0,5,0,0
+7,Cooler Shroud,True,1,0,0,1,0
+8,RGB / LED Lighting,True,0,0,5,0,2
+8.1,RGB LED,True,6,0,2,0,0
+8.2,RGB Controller,True,1,0,5,0,2
 8.2.1,Bare PCB,True,2,10,0,0,20
 8.2.2,Microcontroller,True,8,0,0,0,0
 8.2.3,SMD Passive (R/C/L),True,1,10,0,0,10
@@ -44,23 +44,23 @@ RAW-CHROMITE,Chromite Ore,True,1,3,0,0,1
 RAW-COAL-CARBON,"Metallurgical Coking Coal, Petroleum Coke & Carbon Source",True,1,6,2,0,4
 RAW-COBALT-ORE,Cobaltite / Heterogenite Cobalt Ore,True,1,3,0,0,1
 RAW-COPPER-ORE,Copper Sulfide / Oxide Ore (Chalcopyrite / Bornite),True,1,9,0,0,5
-RAW-CRUDE-OIL,Crude Petroleum,True,1,8,1,0,1
+RAW-CRUDE-OIL,Crude Petroleum,True,2,8,0,0,1
 RAW-DOLOMITE-MAGNESITE,Dolomite / Magnesite / Seawater Magnesium,True,2,2,3,0,3
 RAW-FLUORSPAR,Fluorspar / Fluorite,True,1,4,0,0,0
 RAW-GOLD-ORE,Native Gold / Auriferous Sulfide Ore,True,2,9,0,0,5
-RAW-HALITE-BRINE,"Halite Rock Salt & Subsurface Brine (NaCl, KCl, Br)",True,2,3,3,0,3
+RAW-HALITE-BRINE,"Halite Rock Salt & Subsurface Brine (NaCl, KCl, Br)",True,3,3,2,0,4
 RAW-ILMENITE,Ilmenite / Rutile Titanium Ore,True,1,4,0,0,4
 RAW-IRON-ORE,Iron Ore (Hematite / Magnetite),True,1,3,0,0,4
-RAW-LIMESTONE,Limestone & Dolomite,True,1,0,5,0,1
+RAW-LIMESTONE,Limestone & Dolomite,True,2,0,4,0,1
 RAW-MOLYBDENITE,Molybdenite Molybdenum Ore,True,1,3,0,0,2
-RAW-NATURAL-GAS,Natural Gas (Methane / Ethane / Propane & NGLs),True,2,4,2,0,1
+RAW-NATURAL-GAS,Natural Gas (Methane / Ethane / Propane & NGLs),True,4,4,0,0,1
 RAW-NATURAL-GRAPHITE,Natural Flake Graphite Ore,True,1,2,0,0,1
 RAW-NICKEL-ORE,Nickel Laterite / Sulfide Ore (Pentlandite),True,2,9,0,0,2
 RAW-PEGMATITE-QUARTZ,High-Purity Pegmatite Quartz Deposits,True,1,2,0,0,2
 RAW-PGM-ORE,"Platinum-Group Metal (PGM) Ore (Pd, Ru)",True,2,3,0,0,4
 RAW-PHOSPHATE-ROCK,Phosphate Rock (Fluorapatite),True,5,1,1,0,12
 RAW-POTASH-SYLVITE,Potash / Sylvite Ore,True,1,8,0,0,3
-RAW-QUARTZ,High-Purity Quartz & Silica Sand,True,1,2,2,0,2
+RAW-QUARTZ,High-Purity Quartz & Silica Sand,True,2,2,1,0,3
 RAW-RARE-EARTH-ORE,"Bastnasite / Monazite Rare-Earth Ore (Nd, Pr, Dy, Y, Ce, La)",True,1,4,0,0,1
 RAW-SILVER-ORE,Argentite / Polymetallic Silver Ore,True,2,9,0,0,4
 RAW-SPHALERITE-ZINC,Sphalerite Zinc Ore,True,1,7,0,0,3
@@ -86,7 +86,7 @@ LD:photoresists,Photoresists,True,10,8,0,0,8
 LD:photomasks,Photomasks,True,10,5,0,0,15
 LD:deposition_materials,Deposition materials,True,8,9,0,0,6
 LD:lead_frames,Lead frames,True,8,8,0,0,11
-LD:bond_wires,Bond wires,True,8,9,0,0,11
+LD:bond_wires,Bond wires,True,8,9,0,0,13
 LD:encapsulation_resins,Encapsulation resins,True,7,7,0,0,9
 LD:die_attach_materials,Die attach materials,True,7,7,0,0,23
 LD:interconnect_materials,Interconnect materials,True,0,3,3,0,0
@@ -147,21 +147,21 @@ LD:ethylene,Ethylene,True,1,9,0,0,2
 LD:benzene_aromatics,Benzene / BTX aromatics,True,1,8,0,0,2
 LD:epichlorohydrin,Epichlorohydrin,True,1,8,0,0,9
 LD:bisphenol_a,Bisphenol-A (BPA),True,1,10,0,0,1
-LD:epoxy_resin,Electronic-grade epoxy resin,True,2,8,0,0,9
+LD:epoxy_resin,Electronic-grade epoxy resin,True,2,8,0,0,13
 LD:phenolic_hardener,Phenolic novolac resin / hardener,True,1,2,3,0,2
-LD:fused_silica_filler,Fused silica powder filler,True,2,0,3,0,4
-LD:carbon_black,Carbon black pigment,True,1,0,5,0,1
+LD:fused_silica_filler,Fused silica powder filler,True,3,0,2,0,4
+LD:carbon_black,Carbon black pigment,True,4,0,2,0,24
 LD:potassium_hydroxide,Potassium hydroxide,True,2,3,0,0,15
 LD:hydrogen_peroxide,Hydrogen peroxide (electronic grade),True,3,9,0,0,23
 LD:fluorine_gas,Elemental fluorine gas,True,1,6,0,0,2
-LD:white_phosphorus,Elemental white phosphorus,True,1,0,1,0,1
+LD:white_phosphorus,Elemental white phosphorus,True,2,0,0,0,1
 LD:sodium_silicate,Sodium silicate (water glass),True,1,7,0,0,4
 LD:soda_ash,Soda ash (sodium carbonate),True,1,9,0,0,2
 LD:refined_copper,Refined copper cathodes,True,1,3,0,0,2
 LD:copper_alloy_strip,Copper alloy strip (Cu-Fe-Ni-Sn-Zn),True,1,9,0,0,0
 LD:alloy_42_strip,Alloy 42 strip (Fe-Ni42),True,1,7,0,0,0
 LD:precious_metal_plating,Precious metal plating chemicals (Ag/Pd/Au),True,1,9,0,0,13
-LD:fine_metal_wire,Drawn ultra-fine Au/Cu/Pd-Cu/Al wire,True,2,5,0,0,11
+LD:fine_metal_wire,Drawn ultra-fine Au/Cu/Pd-Cu/Al wire,True,2,5,0,0,13
 LD:copper_foil_enig,Electrodeposited copper foil & ENIG chemistry,True,1,9,0,0,0
 LD:bt_abf_resin_matrix,BT / ABF thermoset resin matrix,True,1,2,0,0,2
 LD:e_glass_fiberglass,Low-Dk E-glass woven fiberglass cloth,True,1,1,3,0,1
@@ -169,7 +169,7 @@ LD:silver_flakes_solder,Conductive silver flakes / Au-Sn solder alloy,True,1,2,3
 LD:fumed_silica_abrasive,Fumed / colloidal silica abrasive particles,True,1,9,0,0,7
 LD:ceria_abrasive,Cerium oxide (ceria) abrasive particles,True,1,0,0,1,0
 LD:polyurethane_matrix,Porous polyurethane polymer matrix,True,0,2,0,0,0
-LD:polyester_felt_backing,PET polyester felt backing,True,0,1,0,0,0
+LD:polyester_felt_backing,PET polyester felt backing,True,1,1,0,0,0
 LD:petroleum_needle_coke,Petroleum needle coke,True,1,1,0,0,2
 LD:coal_tar_pitch,Coal tar pitch binder,True,1,2,0,0,1
 LD:silicon_tetrachloride,Silicon tetrachloride,True,2,4,0,0,25
@@ -198,20 +198,20 @@ PM-FE-POWDER,Atomized Carbonyl-Iron & Fe-Si-Cr Soft Magnetic Powder,True,1,9,0,0
 PM-FUSED-SILICA,High-Purity Spherical Fused Silica (SiO2) Filler,True,2,7,0,0,12
 PM-HBN,Hexagonal Boron Nitride (h-BN) Ceramic Powder,True,1,7,0,0,3
 PM-IND-CHEM,"Industrial Acids, Alkalis & Plating Salts (H2SO4, HCl, FeCl3, NaOH, Cyanides)",True,1,8,0,0,9
-PM-PA66-POLYMER,"Polyamide 66 (Nylon 6,6) Resin",True,1,4,2,0,0
+PM-PA66-POLYMER,"Polyamide 66 (Nylon 6,6) Resin",True,3,4,0,0,0
 PM-PBT-POLYMER,Polybutylene Terephthalate (PBT) Engineering Resin,True,1,8,0,0,0
-PM-PC-ABS-POLYMER,Polycarbonate / ABS (PC/ABS) Flame-Retardant Blend,True,1,5,1,0,0
+PM-PC-ABS-POLYMER,Polycarbonate / ABS (PC/ABS) Flame-Retardant Blend,True,2,5,0,0,0
 PM-PDMS-SILICONE,Polydimethylsiloxane (PDMS) Silicone Elastomer,True,1,4,1,0,7
-PM-PET-POLYMER,Polyethylene Terephthalate (PET) Polyester Resin,True,1,4,2,0,1
+PM-PET-POLYMER,Polyethylene Terephthalate (PET) Polyester Resin,True,3,4,0,0,8
 PM-POLYIMIDE,Aromatic Polyimide Magnet-Wire Enamel Varnish,True,1,0,3,0,0
 PM-PPA-POLYMER,Polyphthalamide (PPA) High-Temperature Nylon Resin,True,1,9,0,0,0
 PM-RUO2-PASTE,Ruthenium Dioxide (RuO2) Thick-Film Resistive Paste,True,1,0,0,1,8
 PM-SAPPHIRE-WAFER,Synthetic Single-Crystal Sapphire & GaAs Epi-Wafers,True,2,0,0,1,7
 PM-ALUMINA,Calcined High-Purity Alumina (Al2O3) Ceramic Powder,True,1,10,0,0,5
 PM-BATIO3,High-Purity Barium Titanate (BaTiO3) Dielectric Powder,True,1,7,0,0,9
-PM-EPOXY-RESIN,Bisphenol-A / Cresol-Novolac Epoxy Resin & Hardener,True,2,4,3,0,9
+PM-EPOXY-RESIN,Bisphenol-A / Cresol-Novolac Epoxy Resin & Hardener,True,5,4,0,0,13
 PM-FERRITE,Nickel-Zinc (Ni-Zn) Ferrite Magnetic Ceramic Powder,True,1,7,0,0,4
-PM-LCP-POLYMER,Thermotropic Liquid Crystal Polymer (LCP) Resin,True,3,3,1,0,0
+PM-LCP-POLYMER,Thermotropic Liquid Crystal Polymer (LCP) Resin,True,3,2,1,0,0
 PM-NDFEB-ALLOY,Sintered Neodymium-Iron-Boron (Nd2Fe14B) Magnet Alloy,True,1,0,0,1,4
 PM-REFINED-AG,Refined Electro-Silver & Silver Nitrate (99.99% Ag),True,1,7,0,0,1
 PM-REFINED-AL,Primary Smelted Aluminum Ingot (99.7%+ Al),True,1,10,0,0,4
@@ -253,16 +253,16 @@ SC-AL-FIN-STOCK,Rolled Aluminum Alloy 1100 / 3003 Thin Fin Foil,True,1,10,0,0,0
 SC-AL-PLATE,Rolled Aluminum Alloy 5052 / 6061 Structural Plate,True,1,7,0,0,1
 SC-ALLOY-STEEL-WIRE,Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket,False,1,0,0,0,0
 SC-BEARING,Miniature Chrome-Steel Dual-Ball / Fluid-Dynamic Bearing,True,1,7,0,0,0
-SC-BOND-WIRE,Ultrafine Gold / Pd-Coated Copper Bonding Wire,True,2,0,3,0,11
+SC-BOND-WIRE,Ultrafine Gold / Pd-Coated Copper Bonding Wire,True,5,0,0,0,13
 SC-CCL,Copper-Clad FR-4 Laminate Core,True,1,10,0,0,0
 SC-CERAMIC-FILLER,Micronized Alumina (Al2O3) & Boron Nitride (h-BN) Thermal Filler,False,1,0,0,0,1
 SC-CU-FOIL,Electrolytic High-Ductility Copper Foil (Edge Contact Pads),True,1,10,0,0,1
 SC-CU-LEADFRAME,Stamped C19400 Copper-Alloy IC Leadframe & Power Clip,True,1,2,2,0,11
-SC-DIE-ATTACH,Silver-Filled Conductive Epoxy Die-Attach Adhesive,True,2,0,2,0,2
+SC-DIE-ATTACH,Silver-Filled Conductive Epoxy Die-Attach Adhesive,True,2,0,1,0,2
 SC-DRAM-DIE,Fabricated GDDR6 / GDDR6X DRAM Silicon Die,True,1,3,0,0,3
 SC-EMC,Silica-Filled Epoxy Mold Compound (EMC),True,1,1,0,0,2
 SC-FE-POWDER-CORE,Molded Carbonyl-Iron / Fe-Si-Cr Magnetic Powder Core,True,1,8,0,0,4
-SC-LCP-GF,Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator,True,1,0,5,0,0
+SC-LCP-GF,Glass-Fiber Reinforced Liquid Crystal Polymer (LCP-GF30) Insulator,True,3,0,3,0,0
 SC-LED-DIE,Epitaxial InGaN (Blue/Green) & AlInGaP (Red) LED Semiconductor Chips,True,1,0,6,0,7
 SC-LEGEND,Epoxy Silkscreen Component Legend Ink,True,1,5,0,0,0
 SC-MAGNET-WIRE,Polyimide-Enameled Oxygen-Free Copper Winding Wire,True,1,10,0,0,0
@@ -274,7 +274,7 @@ SC-POWER-DIE,Fabricated DrMOS Power MOSFET & Gate Driver Silicon Dies,True,1,6,0
 SC-PPA-REFLECTOR,TiO2-Filled Polyphthalamide (PPA) Molded LED Reflector Cup,True,0,0,5,0,0
 SC-PREPREG,FR-4 B-Stage Glass-Epoxy Prepreg Sheet,True,2,9,0,0,2
 SC-SILICON-STEEL,Laminated Electrical Silicon-Steel Stator Core,True,1,6,0,0,5
-SC-SOLDER-BALL,SAC305 (Sn96.5/Ag3.0/Cu0.5) BGA Solder Balls,True,1,7,0,0,7
+SC-SOLDER-BALL,SAC305 (Sn96.5/Ag3.0/Cu0.5) BGA Solder Balls,True,1,7,0,0,9
 SC-SOLDER-PASTE,SAC305 Lead-Free Solder Paste & Rosin Flux,True,1,9,0,0,29
 SC-SOLDERMASK,Liquid Photoimageable Epoxy Soldermask Ink,True,1,9,0,0,2
 SC-TVS-DIE,Fabricated Silicon TVS ESD Protection Diode Die,True,1,6,0,0,5

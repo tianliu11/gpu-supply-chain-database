@@ -7,10 +7,10 @@ There are also 23 placeholder/non-vendor rows. A row for a node is not proof of 
 
 COMPLETED IN THIS CONTINUATION
 1. Combined the batches with earlier scoped vendor evidence into merged/vendor_candidates.csv.
-   The 2,055 rows include original claims and placeholders; this is a research pool,
+   The 2,060 rows include original claims and placeholders; this is a research pool,
    not a final qualified shortlist of at most ten vendors per node.
 2. Created coverage records for all 289 nodes and explicit citation, site and edge queues.
-3. Recovered earlier or newly checked evidence for 34 initially uncited vendor rows.
+3. Recovered earlier or newly checked evidence for 62 initially uncited vendor rows.
    Some evidence supports only a material branch or product class, never an inherited rank.
 4. Checked source URL retrieval. 294 source rows retrieved, 106 HTTP errors,
    23 other request errors. Access failures are not proof of invalid evidence.
@@ -18,10 +18,10 @@ COMPLETED IN THIS CONTINUATION
    method/SOURCE_RECHECKS.json. Broad foundry/OSAT rankings do not establish GPU qualification.
 6. Added seven Hana Micron/Tongfu sites and eleven Admatechs, JPMC, Mosaic and
    Isola production sites, followed by seven Kaiser, PhosAgro and Ma'aden sites.
-   The reviewed database contains 334 production records and 2,004 nearest-hub records.
+   The reviewed database contains 380 production records and 2,280 nearest-hub records.
    Eshidiya uses the midpoint of a published mine-area bounding box.
 7. Added scoped chemical-process, laminate and substrate reviews. The cumulative
-   register has 130 researched original relationship claims.
+   register has 133 researched original relationship claims.
 8. Removed /home/claude-only dependencies from the saved helper scripts.
    hubs.py uses repository data and actual nearest-three ordering.
    geocode.py uses existing locality records; optional UN/LOCODE files can be
@@ -40,11 +40,30 @@ COMPLETED IN THIS CONTINUATION
     component-relationship reviews. The TYK setter-to-plant allocation is open.
 14. Added SIA and ASML industry cycle-time benchmarks and product-family records
     for the three GDDR7 candidates. Exact board approval and capacity remain open.
+15. Added 31 production records and 12 supplier records for graphics-board
+    assembly, carbon black, bonding wire, resins and polyester felt. The PC
+    Partner filing describes two same-owner facilities and historical Dongguan
+    line throughput. Product allocation and transfer capacity remain open.
+16. Ran citation text screening for 2,441 claim–citation links across 401 URLs.
+    Each result records document retrieval and text-match status. A co-mention
+    is a cue for review. Access errors and absent terms do not disprove a claim.
+17. Independently compared 32 ranking rows with the original foundry and OSAT
+    tables. Nineteen matched in scope. Eleven applied a wider market metric to a
+    narrower node, and two cited a table outside the listed supplier role.
+18. Added observed October 2025 terminal dwell at Los Angeles/Long Beach,
+    reported separately for truck- and rail-bound import containers.
+19. Expanded coverage with documented bracket, backplate, PCB edge-contact,
+    shroud and RGB-control examples. Added 15 PCB, PET resin and mining site
+    records, and repaired 18 more uncited supplier leads. Distinct roles and
+    unverified factory or customer links remain explicit.
 
 REMAINING, NOT DECLARED IMPOSSIBLE
-- 113 candidate rows lack citations after reconciliation.
-- 1,489 cited candidate rows still require independent claim review.
-- Company naming/ownership normalization is incomplete. 987 normalized name keys
+- 85 candidate rows lack citations after reconciliation.
+- 1,487 cited candidate rows have screening records and still need a scoped
+  product-capability decision. Market-rank review is a separate field.
+- 20 nodes have no scoped vendor mapping, including utilities, integrated
+  assemblies and material groups that require different procurement treatment.
+- Company naming/ownership normalization is incomplete. 981 normalized name keys
   have no direct site match and require alias or facility research.
 - More production sites and product-to-plant assignments must be researched.
 - The remaining edge claims are listed in merged/edge_review_queue.csv.
@@ -67,3 +86,7 @@ python3 -m unittest discover -s code -p 'test_public_research_integrity.py'
 
 Optional URL recheck (cached; not content validation):
 python3 research_2026-11-24/code/check_sources.py
+
+Optional document-text screening (requires pypdf and public network access):
+python3 research_2026-11-24/code/screen_claim_sources.py
+python3 research_2026-11-24/code/reconcile.py

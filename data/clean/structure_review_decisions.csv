@@ -1,10 +1,10 @@
 edge_id,original_source,original_target,reviewed_source,reviewed_target,enabled,relation,decision,source_ids
-E0001,1,0,1,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0002,1.1,1,1.1,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
-E0003,1.2,1,1.2,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
+E0001,1,0,1,0,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R12_PCP_PRODUCTS
+E0002,1.1,1,1.1,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R12_PCP_PRODUCTS
+E0003,1.2,1,1.2,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R12_PCP_PRODUCTS
 E0004,1.2.1,1.2,LD:logic_die_fabricated,1.2,True,physical_constituent_not_additional_process,Descriptive package constituent; do not add another manufacture or packaging duration.,SRC_BOMWIKI_GPU
 E0005,1.2.2,1.2,1.2.2,1.2,True,physical_constituent_not_additional_process,Descriptive package constituent; do not add another manufacture or packaging duration.,SRC_BOMWIKI_GPU
-E0006,1.3,1,1.3,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R9_ZOTAC_CARD
+E0006,1.3,1,1.3,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R12_PCP_PRODUCTS
 E0007,1.4,1,1.4,1,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0008,1.4.1,1.4,1.4.1,1.4,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU
 E0009,1.4.2,1.4,1.4.2,1.4,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,SRC_BOMWIKI_GPU

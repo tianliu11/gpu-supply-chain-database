@@ -8,6 +8,7 @@ from pathlib import Path
 from component_definition_research import DEFINITIONS
 from process_validation_research import expand_structure, CLAIMS as PROCESS_CLAIMS
 from remaining_public_research import CLAIMS as ADDITIONAL_CLAIMS
+import supplier_backlog_research  # Register cited claims for standalone builds.
 from claude_followup_research import CLAIMS as FOLLOWUP_CLAIMS
 
 # Latest explicit claim wins for a repeated original relation. Never count

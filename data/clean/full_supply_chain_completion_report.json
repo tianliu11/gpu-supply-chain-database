@@ -3,8 +3,8 @@
   "graph_nodes": 289,
   "graph_edges": 757,
   "edge_evidence_status": {
-    "secondary_structure_reference": 26,
-    "supported_component_family": 16,
+    "supported_component_family": 19,
+    "secondary_structure_reference": 23,
     "supported_optional_design_feature": 1,
     "semantic_conflict": 1,
     "supported_process_stage": 5,
@@ -33,31 +33,31 @@
     "supported_packaging_option_not_part_specific": 18,
     "optional_or_design_dependent": 1
   },
-  "nodes_with_node_specific_vendor_evidence": 262,
-  "nodes_without_node_specific_vendor_evidence": 27,
-  "vendor_component_rows": 430,
-  "distinct_named_vendors": 233,
+  "nodes_with_node_specific_vendor_evidence": 269,
+  "nodes_without_node_specific_vendor_evidence": 20,
+  "vendor_component_rows": 465,
+  "distinct_named_vendors": 266,
   "procurement_node_treatments": {
     "supplier_research_required": 274,
     "local_resource_or_utility": 2,
     "process_stage_no_material_vendor": 4,
     "category_expand_children": 9
   },
-  "physical_nodes_with_supplier_evidence": 251,
+  "physical_nodes_with_supplier_evidence": 258,
   "physical_nodes_requiring_supplier_research": 274,
   "coverage_warning": "A supplier listing is capability evidence, not proof of qualification, complete material branches, market representativeness or actual procurement.",
-  "public_production_site_rows": 334,
+  "public_production_site_rows": 380,
   "vendor_site_coverage_status": {
-    "no_site_evidence_in_current_package": 185,
-    "company_sites_only_product_allocation_unverified": 139,
-    "fabless_designer_no_owned_fab_required": 1,
-    "product_class_site_documented": 105
+    "no_site_evidence_in_current_package": 211,
+    "product_class_site_documented": 112,
+    "company_sites_only_product_allocation_unverified": 141,
+    "fabless_designer_no_owned_fab_required": 1
   },
   "factory_discovery_searches_logged": 127,
   "sites_without_geocodes": 0,
   "readiness": "research_extension_incomplete_for_validated_redundancy_or_end_to_end_transport_analysis",
   "legacy_audit_correction": "The earlier 400-supported-edge total relied on broad keyword/category matching and is withdrawn. Current edge support uses explicit scoped records only.",
-  "nearest_hub_rows": 2004,
+  "nearest_hub_rows": 2280,
   "nearest_hub_definition": "Up to three scheduled medium/large airports and three WPI ports per geocoded production site",
   "not_claimed": [
     "The submitted 757-edge graph is fully verified.",
