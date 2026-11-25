@@ -5,9 +5,9 @@ This package joins the BOMWiki graphics-card hierarchy to Georgetown CSET ETO's 
 ## Latest handoff: supplied full node-to-node JSON
 
 Start with [RESEARCH_HANDOFF.txt](RESEARCH_HANDOFF.txt) for what is done and what
-is still missing. The latest extension preserves the supplied JSON and has 260
-nodes with supplier-candidate evidence, 424 supplier-node records, 333 public
-production-asset records and 1,998 nearby-hub records. These are research-coverage
+is still missing. The latest extension preserves the supplied JSON and has 262
+nodes with supplier-candidate evidence, 430 supplier-node records, 334 public
+production-asset records and 2,004 nearby-hub records. These are research-coverage
 counts, not percentages of a fully verified or market-representative chain.
 
 For analysis, start with the [integrated reviewed dataset](data/clean/reviewed_supply_chain_structure.json).
@@ -23,14 +23,15 @@ Use `lead_time_disclosures` for company-reported timing evidence and
 `reference_supply_qualification` for product-specific supplier disclosures.
 The NVIDIA timing disclosure has no component or site assignment. Its RTX 5080
 architecture paper identifies the GB203 foundry and process, with site, capacity
-and customer-approved alternatives still open.
+and customer-approved alternatives still open. The same export documents
+three GDDR7 catalogue candidates and historical industry cycle-time benchmarks.
 
 - `figures/full_supply_chain_structure.html`: offline component graph and
   node-by-node supplier, site-coverage and edge-source explorer.
 - `figures/full_supply_chain_reviewed_structure.html`: separate semantic-review
   graph, with 305 canonical nodes and 772 links. Not a fully validated BOM.
 - `VALIDATION_RESULTS.txt`: latest process corrections and remaining evidence gaps.
-- `data/clean/process_validation_claims.csv`: 128 original relationships with scoped evidence reviews.
+- `data/clean/process_validation_claims.csv`: 130 original relationships with scoped evidence reviews.
 - `data/clean/reviewed_structure_added_edges.csv`: 23 proposed process links,
   including explicit candidate-only design relationships.
 - `STRUCTURE_REVIEW.txt`: corrections, 54 scoped definitions and remaining issues.
@@ -44,7 +45,7 @@ and customer-approved alternatives still open.
 - `data/clean/full_supply_chain_task_status.json`: checklist and current counts.
 - `data/clean/full_supply_chain_remaining_work.json`: explicit unresolved queue.
 - `GAP_DIAGNOSIS.txt` and `data/clean/full_supply_chain_gap_diagnosis.json`:
-  reasons and next actions for all 29 nodes without supplier mappings, including
+  reasons and next actions for all 27 nodes without supplier mappings, including
   official-source access failures and product-definition issues. Missing does
   not mean impossible to find.
 - `data/clean/full_supply_chain_data_dictionary.json`: fields, joins, units and

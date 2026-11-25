@@ -4,7 +4,7 @@ Unresolved is not unavailable. This diagnostic distinguishes source access, prod
 
 The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.
 
-Unresolved supplier nodes: 29 (including categories, stages and utilities).
+Unresolved supplier nodes: 27 (including categories, stages and utilities).
 
 1 | Main PCB | definition_scoped_supplier_or_process_evidence_still_open
 Distinguish this populated assembly from bare board 1.1; final assembly manufacturer is a separate role.
@@ -88,14 +88,6 @@ Next: Use the reviewed definition; verify the specified product form/grade and w
 
 LD:polyester_felt_backing | PET polyester felt backing | definition_scoped_supplier_or_process_evidence_still_open
 The source supports a felt-based design, not a universal backing required in every CMP pad.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-DC-ANODIZE-CHEM | Disposable Sulfuric Acid Anodizing Bath & Black Dye | definition_scoped_supplier_or_process_evidence_still_open
-Electrolyte and black dye are distinct purchases; bath reuse/replenishment means disposable is not a fixed one-use count.
-Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
-
-DC-SINTER-BOAT | Disposable YSZ Ceramic Sintering Setter Plates | definition_scoped_supplier_or_process_evidence_still_open
-Project adopts the support function only; bulk YSZ composition and universal use for resistor firing are not verified. Treat YSZ as a proposed material option.
 Next: Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.
 
 SC-DI-WATER | Ultrapure Degassed Deionized Water Working Fluid | definition_scoped_supplier_or_process_evidence_still_open

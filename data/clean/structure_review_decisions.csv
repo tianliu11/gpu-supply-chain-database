@@ -476,7 +476,7 @@ E0474,RAW-AIR,SC-SOLDER-BALL,RAW-AIR,SC-SOLDER-BALL,True,dependency_or_ancestry_
 E0475,RAW-CRUDE-OIL,SC-SOLDER-PASTE,RAW-CRUDE-OIL,SC-SOLDER-PASTE,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0476,RAW-CRUDE-OIL,SC-SOLDERMASK,RAW-CRUDE-OIL,SC-SOLDERMASK,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0477,PM-IND-CHEM,DC-AG-PLATE,PM-IND-CHEM,DC-AG-PLATE,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
-E0478,PM-IND-CHEM,DC-ANODIZE-CHEM,PM-IND-CHEM,DC-ANODIZE-CHEM,True,category_or_family_membership,Group membership is not a shipment; select applicable species/device families before analysis.,
+E0478,PM-IND-CHEM,DC-ANODIZE-CHEM,PM-IND-CHEM,DC-ANODIZE-CHEM,True,category_or_family_membership,Group membership is not a shipment; select applicable species/device families before analysis.,R11_COLUMBIA_ANODIZE
 E0479,PM-IND-CHEM,DC-AU-PLATE,PM-IND-CHEM,DC-AU-PLATE,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0480,PM-IND-CHEM,DC-CU-ETCHANT,PM-IND-CHEM,DC-CU-ETCHANT,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0481,PM-FUSED-SILICA,DC-DICING-BLADE,PM-FUSED-SILICA,DC-DICING-BLADE,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
@@ -554,7 +554,7 @@ E0552,PM-REFINED-NI,DC-ENIG-CHEM,PM-REFINED-NI,DC-ENIG-CHEM,True,dependency_or_a
 E0553,PM-REFINED-NI,DC-NI-PLATE,PM-REFINED-NI,DC-NI-PLATE,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0554,PM-WC-COBALT,DC-PCB-DRILL,PM-WC-COBALT,DC-PCB-DRILL,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0555,PM-ALUMINA,DC-SINTER-BOAT,PM-ALUMINA,DC-SINTER-BOAT,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
-E0556,PM-ZIRCONIA,DC-SINTER-BOAT,PM-ZIRCONIA,DC-SINTER-BOAT,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
+E0556,PM-ZIRCONIA,DC-SINTER-BOAT,PM-ZIRCONIA,DC-SINTER-BOAT,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,R11_TECHCERAMIC_YSZ
 E0557,PM-REFINED-SN,DC-TIN-PLATE,PM-REFINED-SN,DC-TIN-PLATE,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0558,PM-ALUMINA,PM-YAG-PHOSPHOR,PM-ALUMINA,PM-YAG-PHOSPHOR,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,
 E0559,PM-REFINED-AG,SC-AG-BRAZE,PM-REFINED-AG,SC-AG-BRAZE,True,dependency_or_ancestry_requires_process_review,Retained as submitted dependency; not a verified direct shipment or universal AND requirement.,

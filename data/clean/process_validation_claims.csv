@@ -127,3 +127,5 @@ E0195,R7_EPA_CHLORALKALI,supported_upstream_process_not_direct_input,"Sodium-chl
 E0196,R7_EPA_CHLORALKALI,supported_upstream_process_not_direct_input,"Sodium-chloride brine and water feed chlor-alkali processing. Only the NaCl branch is supported, not all salts in the combined raw node; water treatment and co-production matter."
 E0197,R7_EPA_CHLORALKALI,supported_upstream_process_not_direct_input,"Sodium-chloride brine and water feed chlor-alkali processing. Only the NaCl branch is supported, not all salts in the combined raw node; water treatment and co-production matter."
 E0023,R10_AMPHENOL_POWER,supported_component_family,Commercial GPU auxiliary power interface includes the connector. Exact part number is design-specific.
+E0556,R11_TECHCERAMIC_YSZ,supported_material_class_composition,Commercial yttria-stabilized zirconia setters establish this material option. Actual use and lifetime remain process-specific.
+E0478,R11_COLUMBIA_ANODIZE,supported_formulation_option,Supports the sulfuric-acid bath branch. Other chemicals in the combined industrial-input node and exact dyes require separate evidence.

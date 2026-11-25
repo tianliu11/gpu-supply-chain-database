@@ -253,30 +253,6 @@
       "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
     },
     {
-      "node_id": "DC-ANODIZE-CHEM",
-      "node_name": "Disposable Sulfuric Acid Anodizing Bath & Black Dye",
-      "node_type": "disposable_tooling_or_consumable",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
-      "node_id": "DC-SINTER-BOAT",
-      "node_name": "Disposable YSZ Ceramic Sintering Setter Plates",
-      "node_type": "disposable_tooling_or_consumable",
-      "vendor_count": "0",
-      "vendor_status": "not_yet_supported_by_node_specific_vendor_evidence",
-      "procurement_treatment": "supplier_research_required",
-      "coverage_means": "At least one product/category capability record; does not establish qualified alternatives or market coverage.",
-      "recorded_followup_searches": "1",
-      "distinct_corporate_groups": "0",
-      "next_action": "Research official product pages or authoritative market source; do not inherit parent vendors automatically."
-    },
-    {
       "node_id": "SC-DI-WATER",
       "node_name": "Ultrapure Degassed Deionized Water Working Fluid",
       "node_type": "sub_component",
@@ -737,6 +713,18 @@
     {
       "node_id": "8.1",
       "node_name": "RGB LED",
+      "provider_name": "Everlight Electronics",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.1",
+      "node_name": "RGB LED",
       "provider_name": "Nichia",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
@@ -767,6 +755,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "EXT:GBM_CHONGQING;EXT:GBM_HUANGJIANG;EXT:GBM_KUNSHAN;EXT:GBM_SHENZHEN;EXT:GBM_SUZHOU;EXT:GBM_WUHU;EXT:GBM_ELNA_NAGAHAMA;EXT:GBM_LINCSTECH_IIDA;EXT:GBM_LINCSTECH_ISHIOKA;EXT:GBM_LINCSTECH_SHIMODATE;EXT:GBM_ELNA_PENANG;EXT:GBM_MALAYSIA;EXT:GBM_LINCSTECH_SG;EXT:GBM_HUKOU",
       "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "Infineon Technologies",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -843,6 +843,18 @@
       "source_ids": ""
     },
     {
+      "node_id": "8.2.2",
+      "node_name": "Microcontroller",
+      "provider_name": "Texas Instruments",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
       "node_id": "8.2.3",
       "node_name": "SMD Passive (R/C/L)",
       "provider_name": "Murata",
@@ -863,6 +875,18 @@
       "product_class_site_ids": "",
       "other_company_site_ids": "PUBLIC_SITE:2ccf06729bf3;PUBLIC_SITE:0c2f32050a95;PUBLIC_SITE:a5350ca8ab96",
       "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "DC-ANODIZE-CHEM",
+      "node_name": "Disposable Sulfuric Acid Anodizing Bath & Black Dye",
+      "provider_name": "Columbia Chemical",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
       "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
       "source_ids": ""
     },
@@ -942,6 +966,30 @@
       "node_id": "DC-PHOTORESIST",
       "node_name": "Disposable Dry-Film Photoresist & Alkaline Stripper",
       "provider_name": "Taiyo Holdings",
+      "public_site_count": 0,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "",
+      "site_status": "no_site_evidence_in_current_package",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "DC-SINTER-BOAT",
+      "node_name": "Disposable YSZ Ceramic Sintering Setter Plates",
+      "provider_name": "TYK Corporation",
+      "public_site_count": 1,
+      "explicit_product_class_site_count": 0,
+      "product_class_site_ids": "",
+      "other_company_site_ids": "PUBLIC_SITE:65472d6518f6",
+      "site_status": "company_sites_only_product_allocation_unverified",
+      "next_action": "Check every facility for grade, available capacity, operating status and customer qualification.",
+      "source_ids": ""
+    },
+    {
+      "node_id": "DC-SINTER-BOAT",
+      "node_name": "Disposable YSZ Ceramic Sintering Setter Plates",
+      "provider_name": "Tech Ceramic",
       "public_site_count": 0,
       "explicit_product_class_site_count": 0,
       "product_class_site_ids": "",

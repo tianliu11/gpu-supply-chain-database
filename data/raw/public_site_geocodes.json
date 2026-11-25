@@ -2544,5 +2544,15 @@
     "osm_type": "relation",
     "osm_id": 6940884,
     "source_url": "https://nominatim.openstreetmap.org/search?q=Kirovsk%2C+Murmansk+Oblast%2C+Russia&format=jsonv2&addressdetails=1&limit=1&countrycodes=ru"
+  },
+  "PUBLIC_SITE:65472d6518f6": {
+    "query": "Tajimi, Gifu, Japan",
+    "latitude": 35.3329961,
+    "longitude": 137.1319459,
+    "display_name": "多治見市, 岐阜県, 日本",
+    "precision": "OSM_city_or_district_proxy_not_factory_gate",
+    "osm_type": "relation",
+    "osm_id": 4716872,
+    "source_url": "https://nominatim.openstreetmap.org/search?q=Tajimi%2C+Gifu%2C+Japan&format=jsonv2&addressdetails=1&limit=1&countrycodes=jp"
   }
 }

@@ -30,10 +30,10 @@ node_id,node_name,claude_batch_present,prior_capability_rows,cited_rows_pending_
 6.3,Output ESD Array,True,1,9,0,0,5
 7,Cooler Shroud,True,0,0,0,1,0
 8,RGB / LED Lighting,True,0,0,5,0,0
-8.1,RGB LED,True,2,0,6,0,0
+8.1,RGB LED,True,3,0,5,0,0
 8.2,RGB Controller,True,0,0,5,0,0
 8.2.1,Bare PCB,True,2,10,0,0,20
-8.2.2,Microcontroller,True,6,0,2,0,0
+8.2.2,Microcontroller,True,8,0,0,0,0
 8.2.3,SMD Passive (R/C/L),True,1,10,0,0,10
 RAW-AIR,"Atmospheric Air (N2, O2, Ar, Ne, Kr)",True,0,0,0,1,0
 RAW-ARSENOPYRITE,Arsenopyrite Arsenic-Bearing Sulfide Ore,True,0,0,0,1,0
@@ -231,14 +231,14 @@ DC-PET-LINER,Disposable Silicone-Coated PET Protective Release Liners,True,1,9,0
 DC-PHOTORESIST,Disposable Dry-Film Photoresist & Alkaline Stripper,True,1,6,0,0,0
 DC-STAMP-LUBE,Disposable Stamping Lubricant & Alkaline Degreaser,True,1,10,0,0,1
 DC-AG-PLATE,Disposable Silver Electroplating Bath & Silver Anodes,True,1,8,0,0,16
-DC-ANODIZE-CHEM,Disposable Sulfuric Acid Anodizing Bath & Black Dye,True,0,9,0,0,1
+DC-ANODIZE-CHEM,Disposable Sulfuric Acid Anodizing Bath & Black Dye,True,1,9,0,0,1
 DC-AU-PLATE,Disposable Hard-Gold Electroplating Salt & Cobalt Brightener,True,1,10,0,0,16
 DC-CUTTING-FLUID,Disposable CNC Milling Coolant & Carbide End-Mills,True,1,10,0,0,3
 DC-DICING-BLADE,Disposable Diamond Wafer Dicing Blades & CMP Slurry,True,1,9,0,0,1
 DC-ENIG-CHEM,Disposable Electroless Nickel & Immersion Gold (ENIG) Bath Chemicals,True,1,8,0,0,3
 DC-NI-PLATE,Disposable Electrolytic Nickel Plating Bath & Nickel Anodes,True,1,5,0,0,13
 DC-PCB-DRILL,Disposable Tungsten-Carbide Micro-Drill & Router Bits,True,1,6,0,0,3
-DC-SINTER-BOAT,Disposable YSZ Ceramic Sintering Setter Plates,True,0,0,0,1,0
+DC-SINTER-BOAT,Disposable YSZ Ceramic Sintering Setter Plates,True,2,0,0,1,1
 DC-TIN-PLATE,Disposable Matte-Tin Electroplating Bath & Tin Anodes,True,1,6,0,0,13
 SC-DI-WATER,Ultrapure Degassed Deionized Water Working Fluid,False,0,0,0,0,0
 SC-MYLAR-INSULATOR,Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner,False,1,0,0,0,6

@@ -248,3 +248,75 @@ for sid, company, title, url in [
 ]:
     source(sid,company,title,url,'Manufacturer documents a commercial Arm Cortex-M MCU family.')
     vendor(company,sid,'8.2.2','Packaged Cortex-M MCU product class; RGB firmware, pinout, selected part and GPU qualification remain open')
+
+s=source('R11_TYK_SETTER','TYK Corporation','Zirconia setter tiles',
+ 'https://www.tyk.co.jp/en/02ProductInfoEN/product02-01/details01.html',
+ 'Lists zirconia setter tiles for electrical ceramic firing.')
+vendor('TYK Corporation',s,'DC-SINTER-BOAT',
+       'Zirconia ceramic setters; selected stabilizer grade and reuse interval require a specification')
+t=source('R11_TYK_TAJIMI','TYK Corporation','Corporate profile and manufacturing locations',
+ 'https://www.tyk.co.jp/company/company.html','Identifies a production site in Tajimi. Setter product allocation is open.')
+site('TYK Tajimi manufacturing site','TYK Corporation','Japan','Tajimi, Gifu','3-1 Obata-cho',t,'')
+s=source('R11_TECHCERAMIC_YSZ','Tech Ceramic','Ceramic firing setters',
+ 'https://www.techceramic.com/products/kiln-furniture/setters/',
+ 'The supplier lists yttria-stabilized zirconia setters and cites a ceramic varistor application.')
+vendor('Tech Ceramic',s,'DC-SINTER-BOAT','YSZ setter product class; exact dimensions, component application and plant unverified')
+edge('E0556',s,'supported_material_class_composition',
+ 'Commercial yttria-stabilized zirconia setters establish this material option. Actual use and lifetime remain process-specific.')
+s=source('R11_COLUMBIA_ANODIZE','Columbia Chemical / Alufinish','Anodizing and pretreatment product line',
+ 'https://www.columbiachemical.com/wp-content/uploads/05-2025-ColChem-Alufinish-Sell-Sheet-linecard-WEB-VERSION.pdf',
+ 'Lists black anodizing dye and additives for sulfuric-acid baths as separate products.')
+vendor('Columbia Chemical',s,'DC-ANODIZE-CHEM',
+       'Supplier of black anodizing dye and bath additives; bulk sulfuric acid and exact finishing recipe are separate')
+edge('E0478',s,'supported_formulation_option',
+ 'Supports the sulfuric-acid bath branch. Other chemicals in the combined industrial-input node and exact dyes require separate evidence.')
+s=source('R11_SIA_CYCLE','Semiconductor Industry Association','2021 response to Commerce RFI on supply chain risks',
+ 'https://www.semiconductors.org/wp-content/uploads/2021/11/SIA-Response-to-Commerce-RFI-on-Semiconductor-Supply-Chain-Risks.pdf',
+ 'Reports an industry-average wafer-fabrication cycle of about 12 weeks and 14–20 weeks for advanced processes.')
+LEAD_TIME_DISCLOSURES.extend([
+    dict(company='Semiconductor Industry Association', reporting_period='2021',
+         measure='typical industry wafer fabrication cycle', comparison='approximately',
+         value=12, unit='weeks', scope='cross-industry benchmark',
+         node_id='LD:fabrication', facility_id=None, use_as_node_duration=False, source_ids=s),
+    dict(company='Semiconductor Industry Association', reporting_period='2021',
+         measure='advanced wafer fabrication cycle', comparison='range', value=None,
+         lower_bound=14, upper_bound=20, unit='weeks', scope='industry-reported advanced-process benchmark',
+         node_id='LD:fabrication', facility_id=None, use_as_node_duration=False, source_ids=s),
+])
+s=source('R11_ASML_CYCLE','ASML','2022 Form 20-F, lithography process',
+ 'https://www.sec.gov/Archives/edgar/data/937966/000093796623000014/asml-20221231.htm',
+ 'Describes a general manufacturing span of 18–26 weeks from start to a tested, packaged chip ready to ship.')
+LEAD_TIME_DISCLOSURES.append(dict(company='ASML', reporting_period='2022',
+    measure='manufacturing to packaged and tested device', comparison='range', value=None,
+    lower_bound=18, upper_bound=26, unit='weeks', scope='industry benchmark including packaging and testing',
+    node_id=None, facility_id=None, use_as_node_duration=False, source_ids=s))
+
+for source_id, supplier, title, url, scope in [
+    ('R11_MICRON_GDDR7','Micron','GDDR7 product portfolio',
+     'https://www.micron.com/products/memory/graphics-memory/gddr7',
+     'GDDR7 product family. Current part-number lifecycle and orderability require catalogue checks.'),
+    ('R11_SK_GDDR7','SK hynix','Graphics DRAM product portfolio',
+     'https://product.skhynix.com/products/dram/gddr.go',
+     'GDDR7 product family, including published 16 Gb capability.'),
+    ('R11_SAMSUNG_GDDR7','Samsung Electronics','GDDR7 product portfolio',
+     'https://semiconductor.samsung.com/dram/gddr/gddr7/',
+     'GDDR7 product family, including published 16 Gb capability.'),
+]:
+    source(source_id,supplier,title,url,scope)
+    REFERENCE_SUPPLY_QUALIFICATION.append(dict(node_id='1.3',
+        reference_product='GeForce RTX 5080-class board', supplier=supplier, role='catalogue_candidate',
+        memory_generation='GDDR7', site_id=None, qualified_alternate_supplier_ids=[],
+        alternate_status='part_number_and_customer_approval_not_established',
+        missing_evidence=['approved part number and speed bin', 'board qualification', 'available capacity'],
+        source_ids=source_id+';R9_ZOTAC_CARD'))
+
+for source_id, supplier, title, url, node_id in [
+    ('R11_EVERLIGHT_RGB','Everlight Electronics','19-337 full-colour SMD LED',
+     'https://en.everlight.com/visible_led/category-smd_led/surface_mount_chip_led_pcb__top_view_full_color__19_337/', '8.1'),
+    ('R11_TI_MCU','Texas Instruments','Arm Cortex-M0+ microcontroller portfolio',
+     'https://www.ti.com/en-us/design-development/embedded-development/arm-cortex-m0-mcus', '8.2.2'),
+    ('R11_INFINEON_MCU','Infineon Technologies','PSoC 4 Cortex-M microcontrollers',
+     'https://www.infineon.com/products/microcontroller/32-bit-psoc-arm-cortex/psoc-4-mcu', '8.2.2'),
+]:
+    source(source_id,supplier,title,url,'Manufacturer catalogue for a packaged part family.')
+    vendor(supplier,source_id,node_id,'Packaged device capability; specific card, part selection and approved substitution are open.')

@@ -5,8 +5,12 @@
   "batch_node_ids": 278,
   "missing_from_batches": [
     {
-      "node_id": "SC-PC-ABS",
-      "node_name": "Flame-Retardant PC/ABS Structural Shroud Resin"
+      "node_id": "SC-PU-COATING",
+      "node_name": "Acrylic-Polyurethane Matte Protective Shroud Coating"
+    },
+    {
+      "node_id": "SC-MYLAR-INSULATOR",
+      "node_name": "Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner"
     },
     {
       "node_id": "SC-SILICONE-MATRIX",
@@ -21,24 +25,20 @@
       "node_name": "Ultrapure Degassed Deionized Water Working Fluid"
     },
     {
-      "node_id": "SC-MYLAR-INSULATOR",
-      "node_name": "Die-Cut Biaxially-Oriented PET (Mylar) Insulating Liner"
-    },
-    {
-      "node_id": "SC-ALLOY-STEEL-WIRE",
-      "node_name": "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket"
-    },
-    {
-      "node_id": "SC-PU-COATING",
-      "node_name": "Acrylic-Polyurethane Matte Protective Shroud Coating"
-    },
-    {
       "node_id": "LD:process_specific_fab_materials",
       "node_name": "Process-specific fabrication materials"
     },
     {
+      "node_id": "SC-PC-ABS",
+      "node_name": "Flame-Retardant PC/ABS Structural Shroud Resin"
+    },
+    {
       "node_id": "LD:nitrous_oxide",
       "node_name": "Nitrous oxide"
+    },
+    {
+      "node_id": "SC-ALLOY-STEEL-WIRE",
+      "node_name": "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket"
     },
     {
       "node_id": "SC-SPCC-SHEET",
@@ -49,20 +49,20 @@
       "node_name": "Anhydrous HCl"
     }
   ],
-  "merged_candidate_rows": 2052,
+  "merged_candidate_rows": 2055,
   "statuses": {
     "citation_present_content_review_pending": 1489,
-    "prior_scoped_capability_evidence": 424,
+    "prior_scoped_capability_evidence": 430,
     "not_a_vendor_record": 23,
-    "missing_citation": 116
+    "missing_citation": 113
   },
-  "previously_uncited_batch_rows_recovered": 31,
+  "previously_uncited_batch_rows_recovered": 34,
   "uncited_placeholder_rows": 19,
   "node_coverage_rows": 289,
-  "public_production_site_rows": 333,
-  "nearest_hub_rows": 1998,
-  "vendors_without_exact_name_site_match": 985,
-  "site_link_rows": 1242,
+  "public_production_site_rows": 334,
+  "nearest_hub_rows": 2004,
+  "vendors_without_exact_name_site_match": 987,
+  "site_link_rows": 1243,
   "claim": "Reconciliation and scoped prior evidence; not all batch citations, ranks, factories or relationships have been independently validated.",
   "original_manifest": [
     {

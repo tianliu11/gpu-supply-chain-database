@@ -8,7 +8,7 @@
     "PM-ACRYLIC-PU"
   ],
   "counts": {
-    "definition_scoped_supplier_or_process_evidence_still_open": 29
+    "definition_scoped_supplier_or_process_evidence_still_open": 27
   },
   "unresolved_nodes": [
     {
@@ -176,22 +176,6 @@
       "node_name": "PET polyester felt backing",
       "status": "definition_scoped_supplier_or_process_evidence_still_open",
       "issue": "The source supports a felt-based design, not a universal backing required in every CMP pad.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "DC-ANODIZE-CHEM",
-      "node_name": "Disposable Sulfuric Acid Anodizing Bath & Black Dye",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Electrolyte and black dye are distinct purchases; bath reuse/replenishment means disposable is not a fixed one-use count.",
-      "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
-      "evidence_absence_claim": false
-    },
-    {
-      "node_id": "DC-SINTER-BOAT",
-      "node_name": "Disposable YSZ Ceramic Sintering Setter Plates",
-      "status": "definition_scoped_supplier_or_process_evidence_still_open",
-      "issue": "Project adopts the support function only; bulk YSZ composition and universal use for resistor firing are not verified. Treat YSZ as a proposed material option.",
       "next_action": "Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.",
       "evidence_absence_claim": false
     },
