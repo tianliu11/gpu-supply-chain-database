@@ -52,9 +52,10 @@ records the checked source rank and period alongside the original claim.
 - `data/clean/full_supply_chain_task_status.json`: checklist and current counts.
 - `data/clean/full_supply_chain_remaining_work.json`: explicit unresolved queue.
 - `GAP_DIAGNOSIS.txt` and `data/clean/full_supply_chain_gap_diagnosis.json`:
-  reasons and next actions for all 20 nodes without supplier mappings, including
-  official-source access failures and product-definition issues. Missing does
-  not mean impossible to find.
+  source-backed examples and scenario treatments for all 20 nodes without
+  supplier mappings. The same notes appear under `supplier_gap_review` in the
+  integrated graphs and in the component explorers. Procurement and exact
+  material allocations remain open where indicated in each record.
 - `data/clean/full_supply_chain_data_dictionary.json`: fields, joins, units and
   interpretation of missing values.
 

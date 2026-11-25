@@ -48,6 +48,17 @@ const reviewed=load('full_supply_chain_reviewed_structure.html');
 assert.equal(reviewed.data.nodes.length,305);
 assert.equal(reviewed.data.edges.length,772);
 assert(!reviewed.data.edges.some(e=>e.edge_id==='E0036'));
+for (const explorer of [graph,reviewed]) {
+  explorer.elements.get('component').value='SC-CU-TERMINAL';
+  explorer.elements.get('component').handlers.change();
+  assert.equal(explorer.elements.get('supplier-gap').hidden,false);
+  const row=explorer.elements.get('supplier-gap-details').children[0].children[1].children[0];
+  assert.match(row.children[1].textContent,/TDK/);
+  assert.equal(row.children[5].children[0].textContent,'R13_TDK_INDUCTOR_TERMINAL');
+  explorer.elements.get('component').value='0';
+  explorer.elements.get('component').handlers.change();
+  assert.equal(explorer.elements.get('supplier-gap').hidden,true);
+}
 reviewed.elements.get('component').value='1.2';
 reviewed.elements.get('component').handlers.change();
 assert(reviewed.elements.get('definition').children[0].children[1].children.length===1);

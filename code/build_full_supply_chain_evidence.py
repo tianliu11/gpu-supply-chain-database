@@ -31,6 +31,7 @@ import process_validation_research
 import remaining_public_research
 import claude_followup_research
 import supplier_backlog_research
+from review_supplier_gaps import NODE_REVIEWS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -787,6 +788,14 @@ def export_enriched_data(graph, edges, vendors, facilities, hubs, site_coverage,
     vendor_by_node=defaultdict(list)
     for v in vendors:
         vendor_by_node[v['full_graph_node_id']].append(v)
+    nodes = []
+    for n in graph['nodes']:
+        nid = str(n['id'])
+        node = dict(n, vendor_candidates=vendor_by_node[nid],
+                    component_definition=component_definition_research.DEFINITIONS.get(nid))
+        if nid in NODE_REVIEWS:
+            node['supplier_gap_review'] = NODE_REVIEWS[nid]
+        nodes.append(node)
     site_ids = {site['facility_name']: site['facility_id'] for site in facilities}
     disclosed_freight = [
         dict(row, origin_facility_id=site_ids[row['origin']],
@@ -807,7 +816,7 @@ def export_enriched_data(graph, edges, vendors, facilities, hubs, site_coverage,
         'metadata':{'reviewed_on':REVIEW_DATE,'original_graph_preserved':True,
                     'scope':'Public evidence extension; no confidential procurement or qualified-alternative claim',
                     'edge_audit_method':'Explicitly scoped evidence; broad keyword matches do not verify edges'},
-        'nodes':[dict(n,vendor_candidates=vendor_by_node[str(n['id'])], component_definition=component_definition_research.DEFINITIONS.get(str(n['id']))) for n in graph['nodes']],
+        'nodes':nodes,
         'edges':edges,'facilities':facilities,'nearby_hub_candidates':hubs,
         'disclosed_freight_corridors':disclosed_freight,
         'lead_time_disclosures':lead_time_disclosures,

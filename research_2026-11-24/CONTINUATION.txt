@@ -56,13 +56,17 @@ COMPLETED IN THIS CONTINUATION
     shroud and RGB-control examples. Added 15 PCB, PET resin and mining site
     records, and repaired 18 more uncited supplier leads. Distinct roles and
     unverified factory or customer links remain explicit.
+20. Documented public evidence and a scenario treatment for each of the 20
+    remaining unmapped nodes. See GAP_DIAGNOSIS.txt and the supplier gap notes
+    in both component explorers. The entries distinguish utilities, groupings,
+    optional features and materials made within their parent components.
 
 REMAINING, NOT DECLARED IMPOSSIBLE
 - 85 candidate rows lack citations after reconciliation.
 - 1,487 cited candidate rows have screening records and still need a scoped
   product-capability decision. Market-rank review is a separate field.
 - 20 nodes have no scoped vendor mapping, including utilities, integrated
-  assemblies and material groups that require different procurement treatment.
+  assemblies and material groups. Each has a sourced modeling treatment.
 - Company naming/ownership normalization is incomplete. 981 normalized name keys
   have no direct site match and require alias or facility research.
 - More production sites and product-to-plant assignments must be researched.

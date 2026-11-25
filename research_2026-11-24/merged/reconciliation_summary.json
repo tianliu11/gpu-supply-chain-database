@@ -9,12 +9,16 @@
       "node_name": "Ultrapure Degassed Deionized Water Working Fluid"
     },
     {
+      "node_id": "SC-SPCC-SHEET",
+      "node_name": "Cold-Rolled SPCC Low-Carbon Steel Sheet"
+    },
+    {
       "node_id": "SC-PC-ABS",
       "node_name": "Flame-Retardant PC/ABS Structural Shroud Resin"
     },
     {
-      "node_id": "SC-SPCC-SHEET",
-      "node_name": "Cold-Rolled SPCC Low-Carbon Steel Sheet"
+      "node_id": "SC-PU-COATING",
+      "node_name": "Acrylic-Polyurethane Matte Protective Shroud Coating"
     },
     {
       "node_id": "SC-MYLAR-INSULATOR",
@@ -25,28 +29,24 @@
       "node_name": "Cross-Linked PDMS Silicone Elastomer Matrix"
     },
     {
-      "node_id": "SC-CERAMIC-FILLER",
-      "node_name": "Micronized Alumina (Al2O3) & Boron Nitride (h-BN) Thermal Filler"
-    },
-    {
       "node_id": "LD:anhydrous_hcl",
       "node_name": "Anhydrous HCl"
+    },
+    {
+      "node_id": "SC-ALLOY-STEEL-WIRE",
+      "node_name": "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket"
     },
     {
       "node_id": "LD:nitrous_oxide",
       "node_name": "Nitrous oxide"
     },
     {
-      "node_id": "SC-PU-COATING",
-      "node_name": "Acrylic-Polyurethane Matte Protective Shroud Coating"
+      "node_id": "SC-CERAMIC-FILLER",
+      "node_name": "Micronized Alumina (Al2O3) & Boron Nitride (h-BN) Thermal Filler"
     },
     {
       "node_id": "LD:process_specific_fab_materials",
       "node_name": "Process-specific fabrication materials"
-    },
-    {
-      "node_id": "SC-ALLOY-STEEL-WIRE",
-      "node_name": "Cold-Headed Alloy Steel Screws & Spring-Steel Retention Bracket"
     }
   ],
   "merged_candidate_rows": 2060,

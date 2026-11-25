@@ -8,6 +8,7 @@ import json
 from collections import Counter
 from pathlib import Path
 from component_definition_research import DEFINITIONS
+from review_supplier_gaps import NODE_REVIEWS, REVIEW_DATE
 
 ROOT = Path(__file__).resolve().parents[1]
 CLEAN = ROOT / 'data/clean'
@@ -85,9 +86,12 @@ def main():
             status = 'definition_scoped_supplier_or_process_evidence_still_open'
             issue = definition['project_interpretation']
             action = 'Use the reviewed definition; verify the specified product form/grade and whether it is purchased or manufactured internally. Do not invent a separate vendor for an internal layer.'
-        unresolved.append(dict(node_id=row['node_id'], node_name=row['node_name'], status=status,
-            issue=issue, next_action=action, evidence_absence_claim=False))
-    payload = dict(reviewed_on='2026-11-24',
+        entry = dict(node_id=row['node_id'], node_name=row['node_name'], status=status,
+                     issue=issue, next_action=action, evidence_absence_claim=False)
+        if row['node_id'] in NODE_REVIEWS:
+            entry['research'] = NODE_REVIEWS[row['node_id']]
+        unresolved.append(entry)
+    payload = dict(reviewed_on=REVIEW_DATE,
         interpretation='Unresolved is not unavailable. This diagnostic distinguishes source access, product definition, internal manufacture and research still open.',
         newly_supplier_mapped_nodes=['PM-WC-COBALT', 'DC-PET-LINER', 'DC-TIN-PLATE',
                                      'PM-ACRYLIC-PU'],
@@ -106,10 +110,18 @@ def main():
         ])
     (CLEAN/'full_supply_chain_gap_diagnosis.json').write_text(json.dumps(payload, indent=2)+'\n')
     lines=['WHY SOME DATA REMAIN INCOMPLETE', '', payload['interpretation'], '',
-        'The definition review resolves terminology separately from supplier/site qualification. No missing supplier or time is filled by an assumption.', '',
+        'Public examples and scenario approximations are identified separately. Scenario choices carry no supplier or site qualification, shipping duration, or independent backup count.', '',
         f'Unresolved supplier nodes: {len(unresolved)} (including categories, stages and utilities).', '']
     for row in unresolved:
-        lines += [f"{row['node_id']} | {row['node_name']} | {row['status']}", row['issue'], 'Next: '+row['next_action'], '']
+        lines += [f"{row['node_id']} | {row['node_name']}", row['issue']]
+        if 'research' in row:
+            r = row['research']
+            lines += [f"Model role — {r['model_role']}", f"Public example — {r['public_example']}",
+                      f"Evidence — {r['source_evidence']}", f"Scenario — {r['scenario_approximation']}",
+                      f"Mapping gap — {r['exact_mapping_gap']}", f"Source IDs — {r['source_ids']}"]
+        else:
+            lines.append('Next: '+row['next_action'])
+        lines.append('')
     lines += ['OTHER PROJECT GAPS']+payload['cross_cutting_gaps']
     (ROOT/'GAP_DIAGNOSIS.txt').write_text('\n'.join(lines)+'\n')
     print(f'Wrote a reason and next action for all {len(unresolved)} unresolved supplier nodes.')

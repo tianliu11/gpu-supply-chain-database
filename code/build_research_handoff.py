@@ -37,7 +37,7 @@ table{width:100%;border-collapse:collapse;margin:12px 0}th,td{text-align:left;pa
 .table-wrap{overflow:auto}a{color:inherit;text-decoration:underline}code{overflow-wrap:anywhere}.muted{opacity:.8}.legend{display:flex;gap:20px;flex-wrap:wrap}.swatch{width:13px;height:13px;display:inline-block;margin-right:6px}.card{padding:14px;background:var(--panel)}
 button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--yes);outline-offset:3px}footer{margin-top:28px}.node{cursor:pointer}
 </style></head><body><main><h1>'''+html.escape(title)+'''</h1><p>'''+html.escape(intro)+'''</p>'''+controls+body+'''
-<footer class="muted">Source register and evidence fields are embedded. Public evidence review: 2026-11-24. Download this HTML and open it locally; no network connection or Python is needed to explore it.</footer>
+<footer class="muted">Sources and evidence fields are embedded. Download this HTML and open it locally. The explorer works offline.</footer>
 <script id="data" type="application/json">'''+payload+'''</script><script>
 const D=JSON.parse(document.getElementById('data').textContent);
 const NS='http://www.w3.org/2000/svg';
@@ -69,6 +69,8 @@ for(const [i,k]of outputIds.entries()){const y=60+i*65;for(const e of out.filter
 inputIds.forEach((k,i)=>mark(N.get(k),185,60+i*65));outputIds.forEach((k,i)=>mark(N.get(k),1115,60+i*65));mark(n,650,cy)}
 document.getElementById('selected').textContent=n.id+' — '+n.name+' | '+inc.length+' proposed inputs | '+out.length+' proposed downstream links';
 const d=n.component_definition;table(['Definition','Project scope / limitations','Sources'],d?[[d.formal_definition,d.project_interpretation,{sources:d.source_ids}]]:[['No separate formal definition reviewed in this pass.','Original label retained; not certification of the recipe.',{sources:''}]],document.getElementById('definition'));
+const review=n.supplier_gap_review,gap=document.getElementById('supplier-gap');gap.hidden=!review;
+if(review)table(['Model role','Public example','Evidence','Scenario approximation','Exact mapping gap','Sources'],[[review.model_role,review.public_example,review.source_evidence,review.scenario_approximation,review.exact_mapping_gap,{sources:review.source_ids}]],document.getElementById('supplier-gap-details'));
 table(['Supplier candidate','Product scope','Qualification status','Sources'],n.vendor_candidates.map(v=>[v.provider_name,v.product_scope,v.qualification_status,{sources:v.source_ids}]),document.getElementById('vendors'));
 table(['Connection','Input → output','Evidence status','Review note','Sources'],[...inc,...out].map(e=>[e.edge_id,N.get(e.source_node_id).name+' → '+N.get(e.target_node_id).name,e.validation_status,e.audit_note,{sources:e.source_ids}]),document.getElementById('edges'));
 const links=D.site_coverage.filter(v=>v.node_id===id);table(['Supplier','Site evidence status','Product-class sites','Other company sites'],links.map(v=>[v.provider_name,v.site_status,v.product_class_site_ids,v.other_company_site_ids]),document.getElementById('sites'))}
@@ -127,6 +129,7 @@ def main():
     body='''<div class="legend"><span><i class="swatch" style="background:var(--yes)"></i>Supplier candidate present</span><span><i class="swatch" style="background:var(--no)"></i>No supplier candidate</span><span>Solid link: scoped supporting evidence; dashed: other audit status</span></div><p id="selected" aria-live="polite"></p><div class="plot"><svg id="graph" role="img" aria-label="Submitted component dependency graph with evidence states"></svg></div><h2>Supplier candidates</h2><div id="vendors" class="table-wrap"></div><h2>Connections and evidence</h2><div id="edges" class="table-wrap"></div><h2>Manufacturing-site coverage</h2><div id="sites" class="table-wrap"></div>'''
     data=dict(nodes=db['nodes'],edges=db['edges'],sources=db['sources'],site_coverage=db['vendor_site_coverage'],positions=pos,overview_height=height)
     body += '<h2>Definition and interpretation</h2><div id="definition" class="table-wrap"></div>'
+    body += '<section id="supplier-gap" hidden><h2>Supplier gap research</h2><div id="supplier-gap-details" class="table-wrap"></div></section>'
     (FIG/'full_supply_chain_structure.html').write_text(page('GPU component structure and evidence',
         'The submitted JSON is preserved: arrows point from an input to the item or stage it feeds. Connections include categories, consumables and proposed material relationships—not observed shipments. Click a node to inspect its sources. Supplier presence does not prove interchangeability.',controls,body,GRAPH_JS,data))
     review_pos,review_height=overview(reviewed['nodes'],reviewed['edges'])

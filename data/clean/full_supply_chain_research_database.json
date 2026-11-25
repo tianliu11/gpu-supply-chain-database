@@ -439,6 +439,15 @@
         "project_interpretation": "A board circuit function. Phase count and shared versus per-phase capacitors require schematic evidence.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Board assembly",
+        "public_example": "Infineon power-stage family and Coilcraft magnetics",
+        "source_evidence": "Power stages, phase inductors and controllers are available as discrete parts for a multiphase regulator.",
+        "scenario_approximation": "Assemble the VRM on the card PCB. Put purchasing on the power-stage, inductor and passive branches.",
+        "exact_mapping_gap": "Board schematic, number of phases, which capacitors are shared and the exact parts used.",
+        "source_ids": "R13_INFINEON_GPU_STAGES;R4_COILCRAFT_VRM",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -1273,6 +1282,15 @@
         "project_interpretation": "Retain HDMI/DisplayPort/protection children; no separate supplier is required for a grouping label.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Board assembly",
+        "public_example": "ASUS TUF RTX 5080 port configuration",
+        "source_evidence": "The reference card lists two HDMI 2.1b and three DisplayPort 2.1b output ports.",
+        "scenario_approximation": "Use those port counts for the ASUS reference scenario. Source ports and protection devices as separate inputs.",
+        "exact_mapping_gap": "OEM connector makers, protection-array circuit, and whether other board variants use this layout.",
+        "source_ids": "R13_ASUS_5080_IO",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -1458,6 +1476,15 @@
         "project_interpretation": "Optional in a generic GPU card. Absence does not prevent the card from processing graphics.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Optional board feature",
+        "public_example": "ASUS TUF RTX 5080 OC and TI LP5036 driver family",
+        "source_evidence": "ASUS documents addressable shroud lighting. TI documents a configurable RGB current-driver IC.",
+        "scenario_approximation": "Keep LEDs and control as children, and enable this branch only in an RGB-equipped card scenario.",
+        "exact_mapping_gap": "ASUS circuit, LED and control IC identities and whether its lighting ships as a separate module.",
+        "source_ids": "R13_ASUS_5080_LIGHT;R12_TI_RGB",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -1979,6 +2006,15 @@
         "project_interpretation": "Use local resource intake; purified gases are separately manufactured products with grade and delivery constraints.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Local resource",
+        "public_example": "Linde air-separation plants",
+        "source_evidence": "Air separation supplies industrial gases, with localized production offered for electronics sites.",
+        "scenario_approximation": "Expand local intake to air separation, then link the documented purified-gas product and delivery method.",
+        "exact_mapping_gap": "Which plant supplies each gas; neon and krypton recovery and purification require separate evidence.",
+        "source_ids": "R13_LINDE_AIR_SEPARATION",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -2004,6 +2040,15 @@
         "project_interpretation": "Keep the original ore node as one route and flag mandatory-ore assumptions; do not invent a specific arsenopyrite mine.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Alternative upstream route",
+        "public_example": "USGS commodity evidence",
+        "source_evidence": "USGS documents arsenopyrite and nonferrous-smelter byproducts as separate arsenic sources.",
+        "scenario_approximation": "Keep ore and smelter recovery as alternative upstream scenarios. Use a refining stage before an electronic-grade product.",
+        "exact_mapping_gap": "A verified ore or byproduct supplier, refinery, exact material grade and downstream procurement path.",
+        "source_ids": "R4_USGS_AS",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -3695,6 +3740,15 @@
         "project_interpretation": "Utility/source connection is site-dependent; do not interpret it as globally interchangeable shipped UPW.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Site utility",
+        "public_example": "Taiwan Water Corporation and a Tainan reclaimed-water example",
+        "source_evidence": "TSMC historically identifies Taiwan Water Corporation for city water and separately documents a Tainan reclaimed-water system.",
+        "scenario_approximation": "Use local piped water and site treatment. Add reclaimed water as an option only for a documented facility.",
+        "exact_mapping_gap": "Current water source, service capacity and treatment dependencies for each plant.",
+        "source_ids": "R13_TSMC_RAW_WATER;R13_TSMC_RECLAIMED_WATER",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -3986,6 +4040,15 @@
         "project_interpretation": "Category membership is not an AND requirement for every listed material.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Material group",
+        "public_example": "Amkor flip-chip assembly and Shinko substrates",
+        "source_evidence": "Public technical documents identify a substrate, bumps and underfill in the representative flip-chip process.",
+        "scenario_approximation": "Select the relevant children for the flip-chip route. Keep wire bonds and leadframes on applicable package branches.",
+        "exact_mapping_gap": "Exact substrate, die attach and underfill specifications, material suppliers and package-site allocation.",
+        "source_ids": "R4_AMKOR_FLIP;R4_SHINKO_PBGA",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -4648,6 +4711,15 @@
         "project_interpretation": "Expand by actual process recipe; this label has no single product specification.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Material group",
+        "public_example": "SIA front-end process guide",
+        "source_evidence": "Lithography, deposition, etching and planarization have separate equipment and material roles.",
+        "scenario_approximation": "Attach selected material children to their fabrication steps and keep the category as a grouping node.",
+        "exact_mapping_gap": "Process recipe, technology node and approved grades for each manufacturing operation.",
+        "source_ids": "SRC_SIA_FRONTEND",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -6500,6 +6572,15 @@
         "project_interpretation": "The submitted children restrict scope to substrate interconnection; copper foil and ENIG chemistry need separate procurement branches.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Material group",
+        "public_example": "MKS Atotech surface-finish chemistry",
+        "source_evidence": "Atotech offers ENIG among several surface-finish choices. Shinko documents organic package substrates.",
+        "scenario_approximation": "Track conductor and finish chemistry as separate inputs to the selected substrate route.",
+        "exact_mapping_gap": "Verified copper/finish grade, package finish design, supplier and production site.",
+        "source_ids": "R13_ATOTECH_ENIG;R4_SHINKO_PBGA",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -6523,6 +6604,15 @@
         "project_interpretation": "Interpret from the resin, glass and filler children. It is not the complete routed substrate and is not a generic thermoplastic sheet.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Internal layer",
+        "public_example": "Shinko organic BGA substrate",
+        "source_evidence": "Shinko lists prepreg-based organic substrates for BGA packages.",
+        "scenario_approximation": "Model a representative organic dielectric or laminate inside the package-substrate stage. Keep resin, glass and filler choices design-specific.",
+        "exact_mapping_gap": "Stackup, what is bought as prepreg versus formed in-house, and grade-specific suppliers.",
+        "source_ids": "R4_SHINKO_PBGA",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -6605,6 +6695,15 @@
         "project_interpretation": "List alternatives by recipe; the category alone does not prove every named acid belongs in one CMP mixture.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Material group",
+        "public_example": "Kanto Chemical product lines",
+        "source_evidence": "Kanto documents individual high-purity acid and base products.",
+        "scenario_approximation": "Use operation-specific reagent choices on the child nodes. Keep concentrations and recipes unspecified.",
+        "exact_mapping_gap": "Which acids or bases are used for the selected operation, and fab-approved products.",
+        "source_ids": "R_KANTO_CHEM;SRC_SIA_FRONTEND",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -7324,6 +7423,15 @@
         "project_interpretation": "Route to polysilicon production upstream of wafer growth; merchant sale and exact purity remain open.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Process intermediate",
+        "public_example": "Wacker Siemens-process example",
+        "source_evidence": "Wacker describes silicon deposition on slim seed rods as part of polysilicon manufacture.",
+        "scenario_approximation": "Keep the slim starter rod within the polysilicon stage for the scenario. Use the resulting polysilicon as the wafer-growth feed.",
+        "exact_mapping_gap": "Whether the process seed rods are made internally or purchased and the source plant for them.",
+        "source_ids": "R4_WACKER_SEED;R5_SUMCO_PROCESS",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -7407,6 +7515,15 @@
         "project_interpretation": "Select p-type or n-type species and introduction method. A gas precursor listing alone does not prove use in crystal growth.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Material group",
+        "public_example": "SUMCO crystal growth and Air Liquide fab gases",
+        "source_evidence": "SUMCO describes boron and phosphorus in crystal growth. Air Liquide separately documents fab gas dopant products.",
+        "scenario_approximation": "Choose boron for a p-type crystal-growth scenario or phosphorus for an n-type scenario. Treat gas-phase doping in the fab as a separate stage.",
+        "exact_mapping_gap": "Dopant form, selected species, purchased grade and supplier for the specific wafer.",
+        "source_ids": "R5_SUMCO_PROCESS;R13_AIR_LIQUIDE_DOPANTS",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -10014,6 +10131,15 @@
         "project_interpretation": "Porosity and formulation depend on pad grade; no separately sold matrix supplier is inferred.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Internal layer",
+        "public_example": "Qnity IC1000-series CMP pad",
+        "source_evidence": "A supplier data sheet identifies polyurethane in a specific finished IC1000 pad variant.",
+        "scenario_approximation": "Attach matrix formation to the pad manufacturer. Use finished pads as the purchased item.",
+        "exact_mapping_gap": "Exact pore characteristics, precursor grades and whether a particular matrix is purchased.",
+        "source_ids": "R13_QNITY_PAD",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -13288,6 +13414,15 @@
         "project_interpretation": "Copper/water is the chosen representative option; purity and degassing limits require the cooler specification.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Internal working fluid",
+        "public_example": "Advanced Cooling Technologies",
+        "source_evidence": "Copper/water heat pipes are a documented working-fluid combination.",
+        "scenario_approximation": "Use a purified, degassed water charge in the representative copper cooler and assign filling to the cooler manufacturer.",
+        "exact_mapping_gap": "Actual water purity, degassing specification, cooler maker, and where fluid preparation and filling occur.",
+        "source_ids": "R4_ACT_WATER",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -14607,6 +14742,15 @@
         "project_interpretation": "PPA, glass reinforcement and TiO2 loading are submitted design choices; they are not universal requirements for RGB LED packages.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Internal molded part",
+        "public_example": "Syensqo Amodel PPA",
+        "source_evidence": "Amodel PPA is offered for low-power LED reflector cups. PPA is one reflector technology among alternatives.",
+        "scenario_approximation": "Use a white PPA cup option under the LED package with titanium-dioxide loading unspecified. Source resin and molded packaging as different roles.",
+        "exact_mapping_gap": "Exact resin, pigment and reinforcement, the molding contractor, and actual RGB package construction.",
+        "source_ids": "R13_SYENSQO_LED_PPA;R4_SHINETSU_REFLECTOR",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -14876,6 +15020,15 @@
         "project_interpretation": "A discrete lead is different from a deposited end termination; dimensions and base alloy require a component drawing.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Internal device feature",
+        "public_example": "TDK B82464P4 SMT power inductor family",
+        "source_evidence": "TDK documents a copper terminal base with nickel and tin plating on the finished inductor.",
+        "scenario_approximation": "Buy the finished inductor and treat the terminals as a feature of that component in the scenario.",
+        "exact_mapping_gap": "Card-specific inductance/current/footprint, external terminal supplier if applicable, and exact plant.",
+        "source_ids": "R13_TDK_INDUCTOR_TERMINAL",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -15015,6 +15168,15 @@
         "project_interpretation": "Specific NiZn and silver choices need product evidence; this is not the construction of every power inductor.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Internal device feature",
+        "public_example": "Murata multilayer ferrite and TDK construction example",
+        "source_evidence": "Manufacturers document multilayer ferrite inductor designs; TDK describes silver as a common printed coil material.",
+        "scenario_approximation": "Use a co-fired ferrite and patterned conductor inside a multilayer inductor branch. Treat Ni-Zn composition as a scenario assumption.",
+        "exact_mapping_gap": "Exact grade, conductor metal and geometry on the selected part. A wound VRM choke may use another construction.",
+        "source_ids": "R13_MURATA_FERRITE;R13_TDK_FERRITE_INDUCTOR",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -15109,6 +15271,15 @@
         "project_interpretation": "Use the thick-film case only; thin-film and metal-element resistors have different material structures.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Internal device feature",
+        "public_example": "ROHM thick-film resistors and historical Vishay example",
+        "source_evidence": "ROHM shows a printed resistor structure on alumina. A discontinued Vishay series documents ruthenium oxide on alumina.",
+        "scenario_approximation": "Use an alumina thick-film body as the base case, with ruthenium oxide as one documented material option and overcoat unspecified.",
+        "exact_mapping_gap": "Current resistor SKU, resistive film and overcoat composition, and its assigned manufacturing plant.",
+        "source_ids": "R13_ROHM_RESISTOR;R13_VISHAY_RUO2",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -15131,6 +15302,15 @@
         "project_interpretation": "Replace universal Cu/Ni/Sn assumption with device-specific base metal; the documented resistor example uses Ag-based/Ni/Sn.",
         "definition_status": "technical_class_definition_with_explicit_project_scope",
         "evidence_scope": "References support class terminology; project-specific material, geometry, grade and procurement choices are not thereby verified."
+      },
+      "supplier_gap_review": {
+        "model_role": "Internal device feature",
+        "public_example": "TDK standard MLCCs and Coilcraft MSS1038T",
+        "source_evidence": "Manufacturer documents show copper/nickel/tin for standard TDK MLCCs and a named Coilcraft inductor option.",
+        "scenario_approximation": "Use that stack where documented for the finished device. Let resistor or other passive-device terminals follow their own construction.",
+        "exact_mapping_gap": "Exact termination stack for each selected part and whether the termination process is outsourced.",
+        "source_ids": "R13_TDK_MLCC_TERMINATION;R13_COILCRAFT_INDUCTOR_TERMINATION;R4_ROHM_TERMINATIONS",
+        "reviewed_on": "2026-11-25"
       }
     },
     {
@@ -86604,6 +86784,159 @@
       "use": "Documents a removable front cover on named Palit cards; OEM molding site and interchangeability remain unconfirmed",
       "reliability": "Official company product or operations evidence; no independent market rank implied",
       "reviewed_on": "2026-11-24"
+    },
+    {
+      "source_id": "R13_INFINEON_GPU_STAGES",
+      "organization": "Infineon",
+      "title": "Integrated smart power stages",
+      "url": "https://www.infineon.com/products/power/dc-dc-converters/integrated-power-stages",
+      "use": "GPU-capable power stages are paired with controllers to build multiphase converters.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_ASUS_5080_IO",
+      "organization": "ASUS",
+      "title": "TUF RTX 5080 interface specifications",
+      "url": "https://www.asus.com/uk/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5080-16g-gaming/techspec/",
+      "use": "Two native HDMI 2.1b and three native DisplayPort 2.1b ports on the named card.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_ASUS_5080_LIGHT",
+      "organization": "ASUS",
+      "title": "TUF RTX 5080 OC Edition shroud lighting",
+      "url": "https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx5080-o16g-gaming/",
+      "use": "Documents addressable RGB lighting on a named card shroud.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_LINDE_AIR_SEPARATION",
+      "organization": "Linde Engineering",
+      "title": "Electronics supply and localized gas production",
+      "url": "https://www.linde-engineering.com/industries/electronics",
+      "use": "Bulk electronics gases and localized production at air-separation units.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_TSMC_RECLAIMED_WATER",
+      "organization": "TSMC",
+      "title": "Southern Taiwan Science Park reclaimed water plant",
+      "url": "https://esg.tsmc.com/en-US/articles/10",
+      "use": "TSMC documents a local reclaimed-water system and cooperation with Tainan City.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_TSMC_RAW_WATER",
+      "organization": "TSMC",
+      "title": "CSR report: Taiwan fab water source",
+      "url": "https://esg.tsmc.com/download/csr/2016_tsmc_csr/english/files/e_all.pdf",
+      "use": "Historical primary municipal water supply from Taiwan Water Corporation.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_ATOTECH_ENIG",
+      "organization": "MKS Atotech",
+      "title": "Surface finishing technologies",
+      "url": "https://www.atotech.com/products/electronics/final-finishing/",
+      "use": "Catalogue identifies ENIG and other finish chemistries as separate options.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_AIR_LIQUIDE_DOPANTS",
+      "organization": "Air Liquide Electronics",
+      "title": "Electronics specialty materials",
+      "url": "https://electronics.airliquide.com/offer-brands/our-offer/electronics-specialty-materials",
+      "use": "Documents volatile dopants for wafer-fab processes; not a crystal-growth supplier allocation.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_QNITY_PAD",
+      "organization": "Qnity",
+      "title": "IC1000 CMP pad material safety data sheet",
+      "url": "https://www.qnityelectronics.com/content/dam/electronics/amer/us/en/electronics/public/sds/cmp/en/ic-1000-cmp-pad-MY-SDS-000000137372.pdf",
+      "use": "Documents polyurethane for the named IC1000 pad; matrix trade and pore specification remain unknown.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_SYENSQO_LED_PPA",
+      "organization": "Syensqo",
+      "title": "Materials for LED solutions",
+      "url": "https://www.syensqo.com/en/solutions-market/electronics/display-lighting/led/products",
+      "use": "Amodel PPA is offered for lower-power LED reflector cups, as an upstream compound.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_TDK_INDUCTOR_TERMINAL",
+      "organization": "TDK Electronics",
+      "title": "B82464P4 SMT power inductor datasheet",
+      "url": "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/data_sheet/30/db/ind_2008/b82464p4.pdf",
+      "use": "Documents the finished inductor copper terminals and nickel/tin electroplated layers.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_TDK_FERRITE_INDUCTOR",
+      "organization": "TDK",
+      "title": "Multilayer chip inductor construction",
+      "url": "https://product.tdk.com/system/files/dam/doc/content/archive/en/_tdk_tj_mlg_e_1129.pdf",
+      "use": "Shows ferrite/ceramic multilayer designs, commonly with silver-printed conductive patterns.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_MURATA_FERRITE",
+      "organization": "Murata",
+      "title": "Power inductor constructions",
+      "url": "https://www.murata.com/en-sg/products/inductor/power/overview/learn/basic_01",
+      "use": "Describes finished wire-wound and multilayer ferrite product families.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_ROHM_RESISTOR",
+      "organization": "ROHM",
+      "title": "Thick-film chip resistor structure",
+      "url": "https://techweb.rohm.com/product/passive-components/resistors/23761/",
+      "use": "Documents the alumina substrate and separately printed resistive and protective layers.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_VISHAY_RUO2",
+      "organization": "Vishay",
+      "title": "RC chip resistors, historical material specification",
+      "url": "https://www.vishay.com/docs/68013/rc.pdf",
+      "use": "Example ruthenium-oxide resistive element on alumina; the series is discontinued.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_TDK_MLCC_TERMINATION",
+      "organization": "TDK",
+      "title": "Standard MLCC termination layers",
+      "url": "https://product.tdk.com/en/contact/faq/capacitors-0073.html",
+      "use": "Documents copper with electroplated nickel and tin for standard MLCCs.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
+    },
+    {
+      "source_id": "R13_COILCRAFT_INDUCTOR_TERMINATION",
+      "organization": "Coilcraft",
+      "title": "MSS1038T SMD power inductor datasheet",
+      "url": "https://www.coilcraft.com/getmedia/ea4800a7-100e-49d9-9bbc-6ba8b238dc0d/mss1038t.pdf",
+      "use": "Documents a tin-over-nickel-over-copper option on a named finished ferrite inductor.",
+      "reliability": "Manufacturer documentation at the stated scope",
+      "reviewed_on": "2026-11-25"
     }
   ]
 }

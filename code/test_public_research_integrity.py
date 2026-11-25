@@ -138,6 +138,21 @@ class ResearchIntegrity(unittest.TestCase):
         self.assertEqual({x for n in reviewed['nodes'] for x in n['original_node_ids']},{n['id'] for n in original['nodes']})
         self.assertTrue(reviewed['metadata']['acyclic'])
 
+    def test_supplier_gap_research_exports_and_sources(self):
+        from review_supplier_gaps import NODE_REVIEWS
+
+        for filename in ('full_supply_chain_research_database.json',
+                         'reviewed_supply_chain_structure.json'):
+            with (ROOT/'data/clean'/filename).open() as f:
+                database = json.load(f)
+            source_ids = {s['source_id'] for s in database['sources']}
+            reviews = {n['id']: n['supplier_gap_review'] for n in database['nodes']
+                       if 'supplier_gap_review' in n}
+            self.assertEqual(reviews, NODE_REVIEWS)
+            for review in reviews.values():
+                self.assertTrue(set(review['source_ids'].split(';')) <= source_ids)
+                self.assertTrue(review['scenario_approximation'] and review['exact_mapping_gap'])
+
     def test_process_stage_corrections(self):
         reviewed=json.loads((ROOT/'data/clean/reviewed_supply_chain_structure.json').read_text())
         edges={e['edge_id']:e for e in reviewed['edges']}
